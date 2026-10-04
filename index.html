@@ -43,7 +43,7 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 .next-btn:hover{box-shadow:0 0 22px #00ff6add,inset 0 0 16px #00ff6a66}.next-btn:active{transform:scale(.97);box-shadow:0 0 28px #00ff6a,inset 0 0 18px #00ff6a88}
 .reveal.bad .next-btn{background:linear-gradient(135deg,#240606,#10122a)!important;border-color:#ff3b3b;text-shadow:0 0 8px #ff3b3b;box-shadow:0 0 14px #ff0000aa,inset 0 0 12px #ff000044}
 
-</style><style id="sv-compact">.game:not(.lrn){zoom:.94;height:calc(100vh/.94);height:calc(100dvh/.94)}</style></head><body><div id="app"></div><script>
+</style><style id="sv-compact">.hq{display:block;width:92%;max-width:420px;box-sizing:border-box;margin:8px auto;padding:12px 14px;border-radius:14px;border:1.5px solid #4a5aa8;background:#0f1633;color:#cfe0ff;font-size:16px;outline:none}.game:not(.lrn){zoom:.94;height:calc(100vh/.94);height:calc(100dvh/.94)}</style></head><body><div id="app"></div><script>
 // Question banks. Entry: "qTe§qEn|correct|wrong|wrong|wrong" ; option "te~en". Single-language: "q|correct|w|w|w"
 const BANK={
 science:{
@@ -332,7 +332,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='3.3.0-learn';
+const VER='3.4.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -497,9 +497,9 @@ async function shareScore(score,solved){const c=document.createElement('canvas')
 // ---------- PWA ----------
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=e;if(!G)home()});
 window.addEventListener('appinstalled',()=>{installEvt=null});
-async function checkVersion(){try{const r=await fetch('./index.html?_v='+Date.now(),{cache:'no-store'});if(!r.ok)return;const tx=await r.text();const m=tx.match(/const VER='([^']+)'/);if(m&&m[1]!==VER)updateBar()}catch(e){}}
+async function checkVersion(){try{const r=await fetch('./index.html?_v='+Date.now(),{cache:'no-store'});if(!r.ok)return;const tx=await r.text();const m=tx.match(/const VER='([^']+)'/);if(m&&m[1]!==VER){updateBar();if(!G&&!sessionStorage.getItem('svr-'+m[1])){sessionStorage.setItem('svr-'+m[1],'1');const u=$('#upd button');if(u)u.click()}}}catch(e){}}
 function updateBar(){if($('#upd'))return;const d=document.createElement('div');d.id='upd';d.innerHTML=`<span>${t('upd')}</span><button>${t('reload')}</button>`;d.querySelector('button').onclick=async()=>{try{const rs=await navigator.serviceWorker.getRegistrations();await Promise.all(rs.filter(r=>r.scope===new URL('./',location.href).href).map(r=>r.unregister()));const ks=await caches.keys();await Promise.all(ks.filter(k=>k.startsWith('balloon-pop-'+new URL('./',location.href).pathname+'-')).map(k=>caches.delete(k)))}catch(e){}location.reload()};document.body.appendChild(d)}
-if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js?v=3.3.0-learn',{scope:'./',updateViaCache:'none'}).then(r=>{r.update().catch(()=>{})}).catch(()=>{})}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js?v=3.4.0-learn',{scope:'./',updateViaCache:'none'}).then(r=>{r.update().catch(()=>{})}).catch(()=>{})}
 
 // Progress is kept on this device only. No accounts, leaderboard or data upload.
 let advanceTimer=0,practiceQueue=null,practiceActive=false;
@@ -534,6 +534,7 @@ function openLearn(h){loadLearn().then(()=>window.LearnApp.open(h)).catch(()=>to
 const homeBeforeLearn=home;
 home=function(){homeBeforeLearn();const h=$('.home');if(!h||$('#learn-btn'))return;const top=h.querySelector('.galaxy-top');const html=`<button class="play learn-cta" id="learn-btn">📚 ${word('నేర్చుకో · 1–10 తరగతులు · అన్ని సబ్జెక్టులు','Learn · Classes 1–10 · All subjects')}</button>`;if(top)top.insertAdjacentHTML('afterend',html);else h.insertAdjacentHTML('afterbegin',html);$('#learn-btn').onclick=()=>{SFX.tap();openLearn()}};
 function showProgress(){const rows=Object.entries(progress.by).map(([k,v])=>{const bits=k.split('-');return `<li>${nm(SUBJ[bits[0]])} · ${t('cls')} ${bits[1]}: <b>${v.correct}/${v.answered}</b></li>`}).join('');const m=modal(`<h2>📊 ${word('నేర్చుకున్న ప్రోగ్రెస్','Learning progress')}</h2><p>${word('ఈ ఫోన్‌లో మాత్రమే సేవ్ అవుతుంది. పిల్లలు కలిసి వాడితే ఇది కలిపిన ప్రోగ్రెస్.','Saved only on this device. If children share it, these are combined results.')}</p><p>⭐ ${progress.stars} · ${progress.sessions} ${word('పూర్తయిన రౌండ్లు','finished rounds')} · ${progress.correct}/${progress.answered} ${word('సరైన సమాధానాలు','correct answers')}</p><div class="badge-row"><span class="badge">${progress.answered>=1?'🌱':'🔒'} ${word('మొదటి అడుగు','First step')}</span><span class="badge">${progress.correct>=10?'⭐':'🔒'} ${word('10 సరైనవి','10 correct')}</span><span class="badge">${progress.correct>=50?'🏅':'🔒'} ${word('50 సరైనవి','50 correct')}</span><span class="badge">${progress.days.length>=3?'🌻':'🔒'} ${word('3 రోజులు సాధన','3 practice days')}</span></div><ul>${rows||word('మొదటి రౌండ్ ప్రారంభించండి!','Start your first round!')}</ul><p class="hint">${word('ఇది సాధన కోసం. పూర్తి పాఠ్యపుస్తకం లేదా పరీక్ష కాదు. రోజూ చిన్న రౌండ్ ఆడి, తప్పు ప్రశ్నలు తిరిగి చూడండి. బ్రౌజర్ డేటా తొలగిస్తే ప్రోగ్రెస్ పోతుంది.','Practice, not a full textbook or an exam. Try a short round and revisit mistakes. Clearing browser data removes progress.')}</p><button class="play">${t('close')}</button>`);m.querySelector('button').onclick=()=>m.remove()}
+const homeBeforeSearch=home;home=function(){homeBeforeSearch();const b=$('#learn-btn');if(!b||$('#home-sq'))return;b.insertAdjacentHTML('afterend',`<input id="home-sq" class="hq" type="search" readonly placeholder="🔍 ${word('ఏ అంశమైనా వెతకండి…','Search any topic…')}">`);$('#home-sq').onclick=()=>{SFX.tap();window.__focusQ=1;openLearn()}};
 const baseNext=nextQ;nextQ=function(){if(practiceActive&&practiceQueue&&practiceQueue.length)return practiceQueue.shift();return baseNext()};
 const baseStart=startGame;startGame=function(){baseStart();G.target=practiceActive?G.qs+(practiceQueue?practiceQueue.length:0):10;G.finishRecorded=false;if(S.pace==='learn'){ $('.hud').classList.add('learn-hud');$('#hv').textContent='🌱 '+word('మీ వేగం','Your pace');$('#hl').parentNode.firstElementChild.textContent=word('ప్రశ్న','Question');$('#hl').textContent=G.qs;$('.qcard').insertAdjacentHTML('afterend','<div class="session-meter" id="meter"></div>');updateMeter()}};
 function updateMeter(){const e=$('#meter');if(e&&G)e.textContent=word('ప్రశ్న','Question')+' '+G.qs+'/'+G.target+' · '+word('టైమర్ లేదు · తొందర లేదు','No timer · no rush')}
