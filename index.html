@@ -492,7 +492,7 @@ window.addEventListener('appinstalled',()=>{if(!G)home()});
   originalHome();
  };
  startGame=function(){if(!restoring)write({screen:'game',settings:{...S}});originalStart()};
- gameOver=function(){originalOver();if(!restoring)write({screen:'result',settings:{...S}},true)};
+ gameOver=function(){originalOver();if(!restoring)write({screen:'result',settings:{...S},result:JSON.parse(JSON.stringify(G))},true)};
  modal=function(html){
   const node=originalModal(html);modalNode=node;
   const underlying=current;const remove=node.remove.bind(node);
@@ -508,6 +508,7 @@ window.addEventListener('appinstalled',()=>{if(!G)home()});
   Object.assign(S,target.settings||{});save();document.documentElement.lang=S.lang;
   current=target;
   if(target.screen==='home')originalHome();
+  else if(target.screen==='result'&&target.result){cancelAnimationFrame(raf);clearTimeout(advanceTimer);G=JSON.parse(JSON.stringify(target.result));originalOver()}
   // Forward cannot safely resurrect a completed/abandoned timed round.
   else if(target.screen==='game'&&!G){originalHome();write(snap(),true)}
   restoring=false;
