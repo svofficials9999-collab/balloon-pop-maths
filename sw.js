@@ -1,6 +1,6 @@
 const ROOT=new URL('./',self.location.href).href;
 const PREFIX='balloon-pop-'+new URL(ROOT).pathname+'-';
-const CACHE=PREFIX+'v2.0.0';
+const CACHE=PREFIX+'v2.0.1-back';
 const SHELL=[ROOT,new URL('index.html',ROOT).href,new URL('manifest.webmanifest',ROOT).href,new URL('icon.svg',ROOT).href];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k.startsWith(PREFIX)&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
