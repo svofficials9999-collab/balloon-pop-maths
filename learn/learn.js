@@ -3,6 +3,7 @@
 'use strict';
 const D={};
 window.LD={reg(s,d){D[s]=d}};
+const bo=s=>{s=String(s);if(s.indexOf('\u00A7')<0&&s.indexOf('~')>0){const p=s.split('~');return {te:p[0],en:p[1]}}return bi(s)};
 const bi=s=>{const p=String(s).split('\u00A7');return p.length>1?{te:p[0],en:p[1]}:{te:String(s),en:String(s)}};
 const W=o=>(o&&(o[S.lang]||o.te||o.en))||'';
 const SUBS=['telugu','english','maths','science','social','current'];
@@ -17,7 +18,7 @@ function load(s){
 }
 function topics(s,c){const d=D[s];if(!d)return[];return s==='current'?(d.all||[]):(d[c]||[])}
 const tkey=(s,c,t)=>s+'-'+(s==='current'?0:c)+'-'+t.id;
-function pq(str){const p=str.split('|');return {q:bi(p[0]),opts:[p[1],p[2],p[3],p[4]].map(bi),ai:0,x:p[5]?bi(p[5]):null,key:p[0]}}
+function pq(str){const p=str.split('|');return {q:bi(p[0]),opts:[p[1],p[2],p[3],p[4]].map(bo),ai:0,x:p[5]?bi(p[5]):null,key:p[0]}}
 function shufOpts(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key||o.q.en}}
 // ---------- extra generators: return {q,a,w:[3 wrong],x} ----------
 const f2=(a,b)=>{const g=gcd(a,b);return g===b?`${a/g}`:`${a/g}/${b/g}`};
@@ -163,7 +164,7 @@ function topicView(v){
  const {s,c,ti}=v;const t=topics(s,c)[ti];if(!t){hubView({v:'hub',c});return}const m=LS_[s];
  const notes=(t.n||[]).map(x=>{const txt=W(bi(x));if(txt.startsWith('# '))return `<h3>${esc(txt.slice(2))}</h3>`;if(txt.startsWith('> '))return `<div class="ex">${md(txt.slice(2))}</div>`;return `<p>${md(txt)}</p>`}).join('');
  shell(topBar(`${t.i||'📘'} ${esc(W(t))}`)+`<p class="lr-sub">${m.i} ${W(m)}${s==='current'?'':' · '+word('తరగతి','Class')+' '+c}</p>
-  <button class="lr-go" id="pr">✍ ${word('ప్రాక్టీస్ మొదలుపెట్టండి (10 ప్రశ్నలు)','Start practice (10 questions)')}</button>
+  <button class="lr-go" id="pr">✍ ${word('ప్రాక్టీస్ మొదలుపెట్టండి','Start practice')}</button>
   <div class="lr-card hl"><h3 style="margin-top:0">📖 ${word('ముఖ్యాంశాలు','Key points')}</h3>${notes||'<p>\u2013</p>'}<button class="lr-ib" id="rd" style="margin-top:6px">🔊 ${word('వినండి','Listen')}</button></div>
   <button class="lr-go alt" id="pr2">✍ ${word('ప్రాక్టీస్','Practice')}</button>`);
  wireTop();
