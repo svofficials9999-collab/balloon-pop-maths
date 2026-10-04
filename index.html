@@ -269,7 +269,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='2.0.0';
+const VER='2.0.1-back';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -476,6 +476,43 @@ const baseTime=timeUp;timeUp=function(){if(S.pace!=='learn'&&cur&&!G.lock)record
 const baseOver=gameOver;gameOver=function(){if(G&&!G.finishRecorded){G.finishRecorded=true;progress.sessions++;storeProgress()}const gentle=S.pace==='learn';baseOver();if(gentle){$('.title').textContent=word('అద్భుతం! రౌండ్ పూర్తి 🎉','Round complete! 🎉');const sc=$('.bigscore');sc.insertAdjacentHTML('afterend',`<p class="sub2">⭐ ${G.solved} ${word('ఈ రౌండ్‌లో స్టార్స్ · మీ వేగంతో నేర్చుకున్నారు','stars this round · learned at your pace')}</p>`)}if(matchingMisses().length){$('#ag').insertAdjacentHTML('beforebegin',`<button class="play alt" id="retry-missed">🔁 ${word('తప్పు ప్రశ్నలు సాధన','Practice missed questions')}</button>`);$('#retry-missed').onclick=()=>{practiceQueue=shuffle(matchingMisses().map(m=>JSON.parse(JSON.stringify(m.o))));practiceActive=true;S.pace='learn';save();startGame()}}};
 const baseHow=howTo;howTo=function(){if(S.pace==='challenge'){baseHow();return}const m=modal(`<h2>🌱 ${word('నెమ్మదిగా నేర్చుకోండి','Learning mode')}</h2><ul><li>${word('తరగతి, విషయం, స్థాయి ఎంచుకోండి.','Choose your class, subject and level.')}</li><li>${word('ఒక్కో ప్రశ్న వస్తుంది. నాలుగు బెలూన్లలో సరైనది నొక్కండి. టైమర్ లేదు.','One question at a time. Tap the correct answer from four balloons. No timer.')}</li><li>${word('సమాధానం చూసి, విని, తర్వాతి ప్రశ్న బటన్ నొక్కండి.','Read and listen to the answer, then tap Next question.')}</li><li>${word('10 ప్రశ్నల చిన్న రౌండ్. తప్పు అయినా ప్రాణం పోదు.','Short 10-question rounds. Mistakes do not cost lives.')}</li><li>${word('సరైన సమాధానాలకు స్టార్స్. తప్పు ప్రశ్నలను మళ్ళీ సాధన చేయండి.','Earn stars for correct answers. Practice missed questions again.')}</li><li>${word('వేగంగా ఆడాలంటే బెలూన్ ఛాలెంజ్ ఎంచుకోండి.','For timed play, choose Balloon Challenge.')}</li></ul><button class="play">${t('close')}</button>`);m.querySelector('button').onclick=()=>m.remove()};
 window.addEventListener('appinstalled',()=>{if(!G)home()});
+
+// SV app navigation: browser/phone Back unwinds choices and dialogs before leaving home.
+(function(){
+ let restoring=false, current={screen:'home',settings:{...S}}, modalNode=null;
+ const snap=()=>({screen:'home',settings:{...S}});
+ const write=(v,replace=false)=>{current=v;history[replace?'replaceState':'pushState']({svAksharaNav:v},'',location.href)};
+ const originalHome=home,originalStart=startGame,originalOver=gameOver,originalModal=modal;
+ home=function(){
+  if(!restoring){
+   const next=snap();
+   if(current.screen==='home'&&JSON.stringify(current.settings)!==JSON.stringify(next.settings))write(next);
+   else if(current.screen!=='home')write(next,true);
+  }
+  originalHome();
+ };
+ startGame=function(){if(!restoring)write({screen:'game',settings:{...S}});originalStart()};
+ gameOver=function(){originalOver();if(!restoring)write({screen:'result',settings:{...S}},true)};
+ modal=function(html){
+  const node=originalModal(html);modalNode=node;
+  const underlying=current;const remove=node.remove.bind(node);
+  node.remove=function(){remove();if(modalNode===node)modalNode=null;if(!restoring&&current.screen==='dialog')history.back()};
+  if(!restoring)write({screen:'dialog',underlying,settings:{...S}});
+  return node;
+ };
+ write(snap(),true);
+ window.addEventListener('popstate',function(e){
+  const target=e.state&&e.state.svAksharaNav;if(!target)return;
+  restoring=true;
+  if(modalNode){modalNode.remove();modalNode=null;paused=false;lastT=performance.now();if(G&&G.lock&&S.pace==='challenge'){clearTimeout(advanceTimer);advanceTimer=setTimeout(()=>{if(G&&!paused){if(G.lives<=0)gameOver();else showQ()}},2000)}}
+  Object.assign(S,target.settings||{});save();document.documentElement.lang=S.lang;
+  current=target;
+  if(target.screen==='home')originalHome();
+  // Forward cannot safely resurrect a completed/abandoned timed round.
+  else if(target.screen==='game'&&!G){originalHome();write(snap(),true)}
+  restoring=false;
+ });
+})();
 
 document.documentElement.lang=S.lang;home();checkVersion();
 
