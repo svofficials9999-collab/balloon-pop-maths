@@ -51,7 +51,7 @@ const LG={
  ident:()=>{const a=rnd(2,9),b=rnd(1,6);return num(`(${a}+${b})\u00B2 = ?`,(a+b)*(a+b),same(`a\u00B2+2ab+b\u00B2 = ${a*a}+${2*a*b}+${b*b}`))},
  cuboid:()=>{const l=rnd(2,9),b=rnd(2,6),h=rnd(2,6);return num(T(`దీర్ఘఘనం ${l}\u00D7${b}\u00D7${h}. ఘనపరిమాణం?`,`Cuboid ${l}\u00D7${b}\u00D7${h}. Volume?`),l*b*h,same('V = l \u00D7 b \u00D7 h'))},
  cuboidS:()=>{const l=rnd(2,9),b=rnd(2,6),h=rnd(2,6);return num(T(`దీర్ఘఘనం ${l}\u00D7${b}\u00D7${h}. సంపూర్ణ తల వైశాల్యం?`,`Cuboid ${l}\u00D7${b}\u00D7${h}. Total surface area?`),2*(l*b+b*h+h*l),same('2(lb + bh + hl)'))},
- sphere:()=>{const r=pick([7,14,21]);return num(T(`గోళం వ్యాసార్థం ${r}. ఘనపరిమాణం? (\u03C0=22/7)`,`Sphere radius ${r}. Volume? (\u03C0=22/7)`),4*22*r*r*r/21,same('V = 4/3 \u03C0r\u00B3'))},
+ sphere:()=>{if(Math.random()<.5){const r=21;return num(T(`గోళం వ్యాసార్థం ${r}. ఘనపరిమాణం? (\u03C0=22/7)`,`Sphere radius ${r}. Volume? (\u03C0=22/7)`),4*22*r*r*r/21,T(`V = 4/3 \u03C0r\u00B3 = 4/3 \u00D7 22/7 \u00D7 ${r}\u00B3 = ${4*22*r*r*r/21}`,`V = 4/3 \u03C0r\u00B3 = 4/3 \u00D7 22/7 \u00D7 ${r}\u00B3 = ${4*22*r*r*r/21}`))}const r=pick([7,14,21]);return num(T(`గోళం వ్యాసార్థం ${r}. ఉపరితల వైశాల్యం? (\u03C0=22/7)`,`Sphere radius ${r}. Surface area? (\u03C0=22/7)`),88*r*r/7,T(`S = 4\u03C0r\u00B2 = 4 \u00D7 22/7 \u00D7 ${r}\u00B2 = ${88*r*r/7}`,`S = 4\u03C0r\u00B2 = 4 \u00D7 22/7 \u00D7 ${r}\u00B2 = ${88*r*r/7}`))},
  cone:()=>{const r=pick([7,14]),h=rnd(1,6)*3;return num(T(`శంకువు వ్యాసార్థం ${r}, ఎత్తు ${h}. ఘనపరిమాణం? (\u03C0=22/7)`,`Cone radius ${r}, height ${h}. Volume? (\u03C0=22/7)`),22*r*r*h/21,same('V = 1/3 \u03C0r\u00B2h'))},
  median:()=>{const a=shuf([rnd(1,9),rnd(10,19),rnd(20,29),rnd(30,39),rnd(40,49)]);const m=[...a].sort((x,y)=>x-y)[2];return num(T(`${a.join(', ')} ల మధ్యగతం (median) ఎంత?`,`Median of ${a.join(', ')}`),m,T('క్రమంలో పెట్టి మధ్య విలువ తీసుకోండి','Arrange in order, take the middle value'))},
  mode:()=>{const m=rnd(2,9);const a=shuf([m,m,m,m+1,m+2,m+3,m+1]);return num(T(`${a.join(', ')} ల బాహుళకం (mode) ఎంత?`,`Mode of ${a.join(', ')}`),m,T('ఎక్కువసార్లు వచ్చే విలువ','The value that appears most often'))},
@@ -71,6 +71,86 @@ const LG={
  shapes:()=>{const s=pick([['త్రిభుజం','triangle',3],['చతురస్రం','square',4],['పంచభుజి','pentagon',5],['షడ్భుజి','hexagon',6]]);return num(T(`${s[0]} కు ఎన్ని భుజాలు?`,`How many sides does a ${s[1]} have?`),s[2],null)},
  clock:()=>{const h=rnd(1,12);return num(T(`చిన్న ముల్లు ${h} మీద, పెద్ద ముల్లు 12 మీద ఉంటే సమయం ఎంత గంటలు?`,`The short hand is on ${h} and the long hand on 12. What o'clock is it?`),h,null)}
 };
+const XP=(()=>{
+const N=s=>(s.match(/-?\d+(?:\.\d+)?/g)||[]).map(Number);
+const gc=(a,b)=>b?gc(b,a%b):a;
+const E=(te,en)=>({te,en});
+const F={
+cnt:(n,a)=>E(`లెక్కిస్తే ${a} ఉన్నాయి`,`Count them one by one: there are ${a}`),
+between:(n,a)=>E(`${n[0]} తరువాత ${a}, ${a} తరువాత ${n[1]}`,`${n[0]}, ${a}, ${n[1]} come one after another`),
+shapes:(n,a)=>E(`ఈ ఆకారానికి ${a} భుజాలు`,`This shape has ${a} sides`),
+clock:(n,a)=>E(`చిన్న ముల్లు ${a} మీద, పెద్ద ముల్లు 12 మీద ఉంటే ${a} గంటలు`,`Short hand on ${a} and long hand on 12 means ${a} o'clock`),
+tens:(n,a)=>E(`కుడివైపు నుండి రెండవ అంకె పదుల స్థానం`,`The second digit from the right is the tens place`),
+hund:(n,a)=>E(`కుడివైపు నుండి మూడవ అంకె వందల స్థానం`,`The third digit from the right is the hundreds place`),
+thou:(n,a)=>E(`కుడివైపు నుండి నాల్గవ అంకె వేల స్థానం`,`The fourth digit from the right is the thousands place`),
+big:(n,a)=>E(`పెద్ద సంఖ్య: పదుల అంకె పెద్దదైతే ఆ సంఖ్య పెద్దది`,`Compare the tens digits first; the larger tens digit wins`),
+small:(n,a)=>E(`చిన్న సంఖ్య: పదుల అంకె చిన్నదైతే ఆ సంఖ్య చిన్నది`,`Compare the tens digits first; the smaller tens digit wins`),
+even:(n,a)=>E(`సరి సంఖ్య చివరి అంకె 0, 2, 4, 6, 8`,`An even number ends in 0, 2, 4, 6 or 8`),
+odd:(n,a)=>E(`బేసి సంఖ్య చివరి అంకె 1, 3, 5, 7, 9`,`An odd number ends in 1, 3, 5, 7 or 9`),
+skip:(n,a)=>{const d=n[1]-n[0];return n.length>=3&&n[2]-n[1]===d&&n[2]+d===a?E(`ప్రతిసారీ ${d} కలుపుతాం: ${n[2]} + ${d} = ${a}`,`Add ${d} each time: ${n[2]} + ${d} = ${a}`):null},
+round10:(n,a)=>E(`చివరి అంకె 5 లేదా అంతకంటే ఎక్కువైతే పైకి, లేకపోతే కిందికి. ${n[0]} → ${a}`,`Last digit 5 or more rounds up, otherwise down: ${n[0]} → ${a}`),
+round100:(n,a)=>E(`చివరి రెండు అంకెలు 50 లేదా ఎక్కువైతే పైకి. ${n[0]} → ${a}`,`Last two digits 50 or more round up, otherwise down: ${n[0]} → ${a}`),
+frac:(n,a)=>{const m=(/(\d+)\/(\d+) of (\d+)/.exec(n._s)||[]);return m[3]&&(+m[3])/(+m[2])*(+m[1])===a?E(`${m[3]} ÷ ${m[2]} = ${m[3]/m[2]}, ${m[3]/m[2]} × ${m[1]} = ${a}`,`${m[3]} ÷ ${m[2]} = ${m[3]/m[2]}, then ${m[3]/m[2]} × ${m[1]} = ${a}`):null},
+rectP:(n,a)=>n[0]&&2*(n[0]+n[1])===a?E(`చుట్టుకొలత = 2 × (పొడవు + వెడల్పు) = 2 × (${n[0]} + ${n[1]}) = ${a}`,`Perimeter = 2 × (length + width) = 2 × (${n[0]} + ${n[1]}) = ${a}`):null,
+rectA:(n,a)=>n[0]*n[1]===a?E(`వైశాల్యం = పొడవు × వెడల్పు = ${n[0]} × ${n[1]} = ${a}`,`Area = length × width = ${n[0]} × ${n[1]} = ${a}`):null,
+sqA:(n,a)=>n[0]*n[0]===a?E(`వైశాల్యం = భుజం × భుజం = ${n[0]} × ${n[0]} = ${a}`,`Area = side × side = ${n[0]} × ${n[0]} = ${a}`):null,
+hcf:(n,a)=>gc(n[0],n[1])===a?E(`${n[0]}, ${n[1]} లను భాగించే అతి పెద్ద సంఖ్య ${a}`,`The largest number dividing both ${n[0]} and ${n[1]} is ${a}`):null,
+lcm:(n,a)=>n[0]*n[1]/gc(n[0],n[1])===a?E(`క.సా.గు = (${n[0]} × ${n[1]}) ÷ గ.సా.భా ${gc(n[0],n[1])} = ${a}`,`LCM = (${n[0]} × ${n[1]}) ÷ HCF ${gc(n[0],n[1])} = ${a}`):null,
+pct:(n,a)=>n[0]*n[1]/100===a?E(`${n[0]}% × ${n[1]} = ${n[0]}/100 × ${n[1]} = ${a}`,`${n[0]}% of ${n[1]} = ${n[0]}/100 × ${n[1]} = ${a}`):null,
+triA:(n,a)=>n[0]*n[1]/2===a?E(`వైశాల్యం = ½ × భూమి × ఎత్తు = ½ × ${n[0]} × ${n[1]} = ${a}`,`Area = ½ × base × height = ½ × ${n[0]} × ${n[1]} = ${a}`):null,
+ratio:(n,a)=>{const g=gc(n[0],n[1]);return `${n[0]/g} : ${n[1]/g}`===a?E(`ఇద్దరినీ ${g} తో భాగిస్తే ${a}`,`Divide both by ${g} to get ${a}`):null},
+angle3:(n,a)=>180-n[0]-n[1]===a?E(`త్రిభుజ కోణాల మొత్తం 180°. 180 − ${n[0]} − ${n[1]} = ${a}`,`Angles of a triangle add to 180°. 180 − ${n[0]} − ${n[1]} = ${a}`):null,
+si:(n,a)=>n[0]*n[1]*n[2]/100===a?E(`SI = P × R × T ÷ 100 = ${n[0]} × ${n[1]} × ${n[2]} ÷ 100 = ${a}`,`SI = P × R × T ÷ 100 = ${n[0]} × ${n[1]} × ${n[2]} ÷ 100 = ${a}`):null,
+circA:(n,a)=>22*n[0]*n[0]/7===a?E(`వైశాల్యం = πr² = 22/7 × ${n[0]} × ${n[0]} = ${a}`,`Area = πr² = 22/7 × ${n[0]} × ${n[0]} = ${a}`):null,
+circC:(n,a)=>2*22*n[0]/7===a?E(`చుట్టుకొలత = 2πr = 2 × 22/7 × ${n[0]} = ${a}`,`Circumference = 2πr = 2 × 22/7 × ${n[0]} = ${a}`):null,
+sqdiff:(n,a)=>n[0]*n[0]-n[1]*n[1]===a?E(`${n[0]}² = ${n[0]*n[0]}, ${n[1]}² = ${n[1]*n[1]}; ${n[0]*n[0]} − ${n[1]*n[1]} = ${a}`,`${n[0]}² = ${n[0]*n[0]} and ${n[1]}² = ${n[1]*n[1]}, so the difference is ${a}`):null,
+cyl:(n,a)=>22*n[0]*n[0]*n[1]/7===a?E(`ఘనపరిమాణం = πr²h = 22/7 × ${n[0]}² × ${n[1]} = ${a}`,`Volume = πr²h = 22/7 × ${n[0]}² × ${n[1]} = ${a}`):null,
+zero:(n,a)=>E(`బహుపది = 0 అని వ్రాసి x కోసం సాధించండి: x = ${a}`,`Put the polynomial equal to 0 and solve: x = ${a}`),
+dist:(n,a)=>{const p=n,dx=p[2]-p[0],dy=p[3]-p[1];return Math.sqrt(dx*dx+dy*dy)===a?E(`దూరం = √[(${p[2]}−${p[0]})² + (${p[3]}−${p[1]})²] = √(${dx*dx}+${dy*dy}) = ${a}`,`Distance = √[(${p[2]}−${p[0]})² + (${p[3]}−${p[1]})²] = √(${dx*dx}+${dy*dy}) = ${a}`):null},
+pyth:(n,a)=>Math.sqrt(n[0]*n[0]+n[1]*n[1])===a?E(`కర్ణం² = ${n[0]}² + ${n[1]}² = ${n[0]*n[0]+n[1]*n[1]}, కర్ణం = ${a}`,`Hypotenuse² = ${n[0]}² + ${n[1]}² = ${n[0]*n[0]+n[1]*n[1]}, so it is ${a}`):null,
+poly:(n,a)=>(n[0]-2)*180===a?E(`మొత్తం = (భుజాలు − 2) × 180° = (${n[0]} − 2) × 180 = ${a}`,`Sum = (sides − 2) × 180° = (${n[0]} − 2) × 180 = ${a}`):null,
+mean:(n,a)=>{const s=n.reduce((x,y)=>x+y,0);return s/n.length===a?E(`సగటు = మొత్తం ÷ సంఖ్యల సంఖ్య = ${s} ÷ ${n.length} = ${a}`,`Mean = sum ÷ count = ${s} ÷ ${n.length} = ${a}`):null},
+apsum:(n,a)=>n[0]*(n[0]+1)/2===a?E(`మొత్తం = n(n+1)/2 = ${n[0]} × ${n[0]+1} ÷ 2 = ${a}`,`Sum = n(n+1)/2 = ${n[0]} × ${n[0]+1} ÷ 2 = ${a}`):null,
+similar:(n,a)=>{const m=/ratio (\d+):(\d+)/.exec(n._s);return m&&n[n.length-1]*(+m[2])/(+m[1])===a?E(`భుజాల నిష్పత్తి ${m[1]}:${m[2]}. ${n[n.length-1]} × ${m[2]} ÷ ${m[1]} = ${a}`,`Sides are in ratio ${m[1]}:${m[2]}. ${n[n.length-1]} × ${m[2]} ÷ ${m[1]} = ${a}`):null},
+prob:(n,a)=>{const g=gc(n[0],n[0]+n[1]);return `${n[0]/g}/${(n[0]+n[1])/g}`===a||`${n[0]}/${n[0]+n[1]}`===a?E(`సంభావ్యత = అనుకూల ÷ మొత్తం = ${n[0]} ÷ ${n[0]+n[1]} = ${a}`,`Probability = favourable ÷ total = ${n[0]} ÷ ${n[0]+n[1]} = ${a}`):null},
+
+eq1:(n,a,en)=>{const m=/(\d+)x\s*([+−-])\s*(\d+)\s*=\s*([−-]?\d+)/.exec(en);if(!m)return null;const A=+m[1],B=(m[2]==='+'?1:-1)*+m[3],C=+m[4].replace('−','-');if((C-B)/A!==a)return null;const op=B>=0?`${C} − ${B}`:`${C} + ${-B}`;return E(`ముందు స్థిర సంఖ్యను అటు తీసుకెళ్ళండి: ${A}x = ${op} = ${C-B}. ఇప్పుడు x = ${C-B} ÷ ${A} = ${a}`,`Move the constant across: ${A}x = ${op} = ${C-B}. Then x = ${C-B} ÷ ${A} = ${a}`)},
+quad:(n,a,en)=>{const m=/x²\s*([−-])\s*(\d+)x\s*\+\s*(\d+)/.exec(en);if(!m)return null;const b=+m[2],c=+m[3];for(let p=1;p<=b;p++){const q=b-p;if(p*q===c&&Math.max(p,q)===a){const lo=Math.min(p,q);return E(`(x − ${lo})(x − ${a}) = 0 కాబట్టి x = ${lo} లేదా ${a}. పెద్ద మూలం = ${a}`,`(x − ${lo})(x − ${a}) = 0, so x = ${lo} or ${a}. The larger root is ${a}`)}}return null},
+polyv:(n,a,en)=>{const m=/(\d+)x²\s*\+\s*(\d+)x\s*\+\s*(\d+) when x = (\d+)/.exec(en);if(!m)return null;const[A,B,C,X]=m.slice(1).map(Number);if(A*X*X+B*X+C!==a)return null;return E(`x = ${X} పెడితే ${A}×${X*X} + ${B}×${X} + ${C} = ${A*X*X} + ${B*X} + ${C} = ${a}`,`Put x = ${X}: ${A}×${X*X} + ${B}×${X} + ${C} = ${A*X*X} + ${B*X} + ${C} = ${a}`)},
+ap:(n,a,en)=>{const m=/^(\d+), (\d+), (\d+), \.\.\..*?(\d+)(?:st|nd|rd|th) term/.exec(en);if(!m)return null;const[f,s,t,k]=m.slice(1).map(Number),d=s-f;if(t-s!==d||f+(k-1)*d!==a)return null;return E(`d = ${s} − ${f} = ${d}. ${k}వ పదం = a + (n−1)d = ${f} + ${k-1}×${d} = ${a}`,`d = ${s} − ${f} = ${d}. ${k}th term = a + (n−1)d = ${f} + ${k-1}×${d} = ${a}`)},
+trig5:(n,a,en)=>{const m=/(sin|cos|tan) (\d+)°/.exec(en);if(!m)return null;const T_={sin:{0:'0',30:'1/2',45:'1/√2',60:'√3/2',90:'1'},cos:{0:'1',30:'√3/2',45:'1/√2',60:'1/2',90:'0'},tan:{0:'0',30:'1/√3',45:'1',60:'√3',90:'undefined'}};const v=T_[m[1]][m[2]];return String(v)===String(a)?E(`ప్రామాణిక విలువల పట్టిక ప్రకారం ${m[1]} ${m[2]}° = ${a}`,`From the standard values table, ${m[1]} ${m[2]}° = ${a}`):null},
+trigid:(n,a)=>E(`నిర్వచనం: tan θ = sin θ ÷ cos θ`,`Identity: tan θ = sin θ ÷ cos θ`),
+};
+F.trig6=F.trig5;F.eq2=F.eq1;
+return(name,o,en,a)=>{const f=F[name];if(!f)return null;const n=N(en);n._s=en;const av=(typeof a==='string'&&/^[−-]?\d+(\.\d+)?$/.test(a))?+a.replace('−','-'):a;try{return f(n,av,en)}catch(e){return null}};
+})();
+
+
+const XO=(()=>{const E=(te,en)=>({te,en});const g=(a,b)=>b?g(b,a%b):a;const nn=s=>(s.match(/-?\d+(?:\.\d+)?/g)||[]).map(Number);const U=s=>s.replace(/\u2212/g,'-');
+const F={
+sq:(en,a)=>{const n=nn(en)[0];return n*n===+a?E(`${n}² = ${n} × ${n} = ${a}`,`${n}² = ${n} × ${n} = ${a}`):null},
+cube:(en,a)=>{const n=nn(en)[0];return n*n*n===+a?E(`${n}³ = ${n} × ${n} × ${n} = ${n*n} × ${n} = ${a}`,`${n}³ = ${n} × ${n} × ${n} = ${n*n} × ${n} = ${a}`):null},
+sqrt:(en,a)=>{const n=nn(en)[0];return a*a===n?E(`${a} × ${a} = ${n}, కాబట్టి √${n} = ${a}`,`${a} × ${a} = ${n}, so √${n} = ${a}`):null},
+cbrt:(en,a)=>{const n=nn(en)[0];return a*a*a===n?E(`${a} × ${a} × ${a} = ${n}, కాబట్టి ∛${n} = ${a}`,`${a} × ${a} × ${a} = ${n}, so ∛${n} = ${a}`):null},
+pow:(en,a)=>{const m=/(\d+)\^(\d+)/.exec(en);if(!m)return null;const b=+m[1],e=+m[2];return Math.pow(b,e)===+a?E(`${b} ను ${e} సార్లు గుణించండి: ${Array(e).fill(b).join(' × ')} = ${a}`,`Multiply ${b} by itself ${e} times: ${Array(e).fill(b).join(' × ')} = ${a}`):null},
+time:(en,a)=>{const n=nn(en);return n[0]*60+n[1]===+a?E(`${n[0]} × 60 = ${n[0]*60}, ${n[0]*60} + ${n[1]} = ${a}`,`${n[0]} × 60 = ${n[0]*60}, then ${n[0]*60} + ${n[1]} = ${a}`):null},
+fadd2:(en,a)=>{const n=nn(en);const d1=n[1],d2=n[3];const l=d1*d2/g(d1,d2);const nu=l/d1+l/d2;return `${nu/g(nu,l)}/${l/g(nu,l)}`===a||(g(nu,l)===1&&`${nu}/${l}`===a)?E(`క.సా.గు = ${l}. 1/${d1} = ${l/d1}/${l}, 1/${d2} = ${l/d2}/${l}. కలిపితే ${nu}/${l}${nu/g(nu,l)!==nu?' = '+a:''}`,`LCM = ${l}. 1/${d1} = ${l/d1}/${l} and 1/${d2} = ${l/d2}/${l}. Add: ${nu}/${l}${nu/g(nu,l)!==nu?' = '+a:''}`):null},
+ci:(en,a)=>{const m=/₹(\d+).*?(\d+)%/.exec(en);if(!m)return null;const P=+m[1],R=+m[2];const y1=P*(1+R/100);const y2=y1*(1+R/100);return Math.round(y2)===+a?E(`ఒక సంవత్సరం తరువాత ${P} × ${1+R/100} = ${y1}. రెండో సంవత్సరం ${y1} × ${1+R/100} = ${a}`,`After year 1: ${P} × ${1+R/100} = ${y1}. After year 2: ${y1} × ${1+R/100} = ${a}`):null},
+cuboid:(en,a)=>{const n=nn(en.replace(/×/g,' '));return n[0]*n[1]*n[2]===+a?E(`ఘనపరిమాణం = l × b × h = ${n[0]} × ${n[1]} × ${n[2]} = ${a}`,`Volume = l × b × h = ${n[0]} × ${n[1]} × ${n[2]} = ${a}`):null},
+cuboidS:(en,a)=>{const n=nn(en.replace(/×/g,' '));const[l,b,h]=n;return 2*(l*b+b*h+h*l)===+a?E(`2(lb + bh + hl) = 2(${l*b} + ${b*h} + ${h*l}) = 2 × ${l*b+b*h+h*l} = ${a}`,`2(lb + bh + hl) = 2(${l*b} + ${b*h} + ${h*l}) = 2 × ${l*b+b*h+h*l} = ${a}`):null},
+cone:(en,a)=>{const n=nn(en);const r=n[0],h=n[1];return 22*r*r*h/21===+a?E(`V = ⅓πr²h = ⅓ × 22/7 × ${r}² × ${h} = ${a}`,`V = ⅓πr²h = ⅓ × 22/7 × ${r}² × ${h} = ${a}`):null},
+median:(en,a)=>{const n=nn(en).sort((x,y)=>x-y);return n[2]===+a?E(`క్రమంలో: ${n.join(', ')}. మధ్య విలువ ${a}`,`In order: ${n.join(', ')}. The middle value is ${a}`):null},
+mode:(en,a)=>{const n=nn(en);const c=n.filter(v=>v===+a).length;return c>=2?E(`${a} ${c} సార్లు వచ్చింది, అందరికంటే ఎక్కువ`,`${a} appears ${c} times, more than any other value`):null},
+midpt:(en,a)=>{const n=nn(U(en));const[x1,y1,x2,y2]=n;const f=v=>String(v).replace('-','\u2212');return `(${f((x1+x2)/2)}, ${f((y1+y2)/2)})`===a?(()=>{const q=v=>v<0?'('+v+')':v;const t=`((${q(x1)}+${q(x2)})/2, (${q(y1)}+${q(y2)})/2) = ${a}`;return E(t,t)})():null},
+pair:(en,a)=>{const n=nn(U(en));const s=n[0],d=n[1];return (s+d)/2===+a?E(`సమీకరణాలు కలిపితే 2x = ${s} + ${d < 0 ? '('+d+')' : d} = ${s+d}, కాబట్టి x = ${a}`,`Add both equations: 2x = ${s} + ${d < 0 ? '('+d+')' : d} = ${s+d}, so x = ${a}`):null},
+poly2:(en,a)=>{const m=/x²\s*[−-]\s*(\d+)x/.exec(en);return m&&+m[1]===+a?E(`శూన్యాల మొత్తం = −b/a = −(−${a})/1 = ${a}`,`Sum of zeros = −b/a = −(−${a})/1 = ${a}`):null},
+sets:(en,a)=>{const n=nn(en.replace(/n\(A∩B\)|n\(A∪B\)|n\(A\)|n\(B\)/g,m=>m.replace(/[^∩∪AB]/g,'#')));const m=/n\(A\)=(\d+), n\(B\)=(\d+), n\(A∩B\)=(\d+)/.exec(en);if(!m)return null;const[A,B,I]=m.slice(1).map(Number);return A+B-I===+a?E(`n(A∪B) = n(A) + n(B) − n(A∩B) = ${A} + ${B} − ${I} = ${a}`,`n(A∪B) = n(A) + n(B) − n(A∩B) = ${A} + ${B} − ${I} = ${a}`):null},
+tang:(en,a)=>{const n=nn(en);const r=n[0],d=n[1];return Math.sqrt(d*d-r*r)===+a?E(`t² = d² − r² = ${d}² − ${r}² = ${d*d} − ${r*r} = ${d*d-r*r}, కాబట్టి t = ${a}`,`t² = d² − r² = ${d}² − ${r}² = ${d*d} − ${r*r} = ${d*d-r*r}, so t = ${a}`):null},
+trig3:(en,a)=>{const m=/(\d+)\/(\d+)/.exec(en);if(!m)return null;const o=+m[1],h=+m[2],ad=Math.round(Math.sqrt(h*h-o*o));return `${o}/${ad}`===a?E(`ఎదుటి భుజం ${o}, కర్ణం ${h}. ప్రక్క భుజం² = ${h}² − ${o}² = ${ad*ad}, ప్రక్క భుజం = ${ad}. tan A = ${o}/${ad}`,`Opposite ${o}, hypotenuse ${h}. Adjacent² = ${h}² − ${o}² = ${ad*ad}, so adjacent = ${ad}. tan A = ${o}/${ad}`):null},
+trig4:(en,a)=>{const n=nn(en)[0];return 90-n===+a?E(`sin θ = cos(90° − θ) కాబట్టి 90 − ${n} = ${a}`,`sin θ = cos(90° − θ), so 90 − ${n} = ${a}`):null},
+};return(name,en,a)=>{const f=F[name];if(!f)return null;try{return f(en,a)}catch(e){return null}}})();
+
+window.LD._t=()=>({D,fromSpec});
 function fromSpec(sp){
  const parts=sp.split(':');const nm_=parts[0];const args=(parts[1]||'').split(',').filter(z=>z!=='').map(Number);
  const fn=LG[nm_]||GN[nm_];if(!fn)throw new Error('no generator '+nm_);
@@ -78,7 +158,7 @@ function fromSpec(sp){
   const o=fn(...args);const q=typeof o.q==='string'?same(o.q):o.q;
   const opts=[...new Set([o.a,...o.w].map(String))];if(opts.length<4||String(o.a)!==opts[0])continue;
   const four=shuf([opts[0],...shuf(opts.slice(1)).slice(0,3)]);
-  let x=null;if(o.x&&typeof o.x==='object')x=o.x;else if(typeof o.x==='string')x=same(o.x.indexOf('=')>=0?o.x:o.x+' = '+o.a);
+  let x=null;if(o.x&&typeof o.x==='object')x=o.x;else if(typeof o.x==='string')x=same(o.x.indexOf('=')>=0?o.x:o.x+' = '+o.a);{const y=XO(nm_,q.en,String(o.a));if(y)x=y}if(!x)x=XP(nm_,o,q.en,String(o.a));
   return {q,opts:four.map(v=>T(v,v)),ai:four.indexOf(String(o.a)),x,key:q.en};
  }
  throw new Error('bad options '+sp);
@@ -114,6 +194,7 @@ const css=document.createElement('style');css.textContent=`
 .lr-next{display:block;width:100%;min-height:48px;margin-top:10px;border-radius:14px;font-size:17px;font-weight:900;background:linear-gradient(135deg,#06210f,#0a1a2e);border:2px solid #00ff6a;color:#eafff3;text-shadow:0 0 8px #00ff6a;box-shadow:0 0 14px #00ff6aaa}.lr-fb.bad .lr-next{border-color:#ff3b3b;text-shadow:0 0 8px #ff3b3b;background:linear-gradient(135deg,#240606,#10122a);box-shadow:0 0 14px #ff0000aa}
 .lr-big{font-size:64px;text-align:center;margin:6px 0}.lr-stars{font-size:34px;text-align:center;letter-spacing:6px}.lr-pct{text-align:center;font-size:44px;font-weight:900;color:#ffe192}
 .lr-mis{list-style:none;padding:0;margin:0}.lr-mis li{padding:8px 0;border-top:1px solid #ffffff22;font-size:14px;line-height:1.4}.lr-mis b{color:#39ff88}
+.lrn .lr-scroll{zoom:.9}.lr-fb .why{font-size:12.5px;opacity:0;animation:whyin .45s ease .7s forwards;margin:6px 0 2px;color:#cfe3ff}@keyframes whyin{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}@media (prefers-reduced-motion:reduce){.lr-fb .why{animation-delay:0s}}
 .lr-note{font-size:12px;color:#9fb5e6;text-align:center;margin:10px 0}
 .learn-cta{margin:10px 0 2px!important}
 `;document.head.appendChild(css);
@@ -146,7 +227,7 @@ function hubView(v){
  document.querySelectorAll('.lr-sc').forEach(b=>b.onclick=()=>{SFX.tap();openSubj(b.dataset.s,c)});
  $('#shr').onclick=()=>shareText(word('అక్షరనోవా: 1 నుండి 10వ తరగతి వరకు తెలుగు, ఇంగ్లీష్, గణితం, సైన్స్, సాంఘిక శాస్త్రం ప్రాక్టీస్ యాప్. ఉచితం, లాగిన్ లేదు.','AksharaNova: free Class 1-10 practice app for Telugu, English, Maths, Science and Social. No login.'));
 }
-const SOON=['telugu','english','science','current'];
+const SOON=['science','current'];
 function openSubj(s,c){if(SOON.includes(s)&&!D[s]){toast(word('త్వరలో వస్తోంది! ఇప్పుడు గణితం, సాంఘిక శాస్త్రం నేర్చుకోండి 🚀','Coming very soon! Try Maths or Social now 🚀'),3200);return}toast(word('లోడ్ అవుతోంది…','Loading…'),900);load(s).then(()=>nav({v:'subj',s,c})).catch(()=>toast(word('ఒకసారి ఇంటర్నెట్ కావాలి. తరువాత ఆఫ్‌లైన్‌లో కూడా పనిచేస్తుంది.','Needs internet once. After that it works offline too.'),3500))}
 function subjView(v){
  const {s,c}=v;const m=LS_[s];const ts=topics(s,c);
@@ -192,7 +273,7 @@ function answer(i){
  if(ok){Q.ok++;SFX.pop();vib(25)}else{SFX.wrong();vib([60,40,60]);Q.miss.push(q)}
  progress.answered++;if(ok){progress.correct++;progress.stars++}const day=dateKey();if(!progress.days.includes(day))progress.days.push(day);storeProgress();
  const last=Q.i>=Q.list.length-1;
- $('#fb').innerHTML=`<div class="lr-fb ${ok?'ok':'bad'}"><div class="hd">${ok?word('శభాష్! ⭐','Well done! ⭐'):word('పర్వాలేదు, నేర్చుకుందాం 🌱','Not yet, let us learn 🌱')}</div>${ok?'':`<p>${word('సరైన సమాధానం','Correct answer')}: <b>${esc(W(q.opts[q.ai]))}</b></p>`}${q.x?`<p class="why">💡 ${esc(W(q.x))}</p>`:''}<button class="lr-next" id="nx">${last?word('ఫలితం చూడండి ▶','See result ▶'):word('తరువాత ప్రశ్న ▶','Next ▶')}</button></div>`;
+ $('#fb').innerHTML=`<div class="lr-fb ${ok?'ok':'bad'}"><div class="hd">${ok?word('శభాష్! ⭐','Well done! ⭐'):word('పర్వాలేదు, నేర్చుకుందాం 🌱','Not yet, let us learn 🌱')}</div>${ok?'':`<p>${word('సరైన సమాధానం','Correct answer')}: <b>${esc(W(q.opts[q.ai]))}</b></p>`}${q.x?`<p class="why">(${esc(W(q.x))})</p>`:''}<button class="lr-next" id="nx">${last?word('ఫలితం చూడండి ▶','See result ▶'):word('తరువాత ప్రశ్న ▶','Next ▶')}</button></div>`;
  $('#nx').onclick=()=>{SFX.tap();if(last)finish();else{Q.i++;quizView(V)}};
  try{$('#nx').scrollIntoView({behavior:'smooth',block:'end'})}catch(e){}
 }
