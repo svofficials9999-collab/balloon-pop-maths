@@ -269,7 +269,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='2.0.1-back';
+const VER='2.0.3-back';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -436,7 +436,7 @@ window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=
 window.addEventListener('appinstalled',()=>{installEvt=null});
 async function checkVersion(){try{const r=await fetch('./index.html?_v='+Date.now(),{cache:'no-store'});if(!r.ok)return;const tx=await r.text();const m=tx.match(/const VER='([^']+)'/);if(m&&m[1]!==VER)updateBar()}catch(e){}}
 function updateBar(){if($('#upd'))return;const d=document.createElement('div');d.id='upd';d.innerHTML=`<span>${t('upd')}</span><button>${t('reload')}</button>`;d.querySelector('button').onclick=async()=>{try{const rs=await navigator.serviceWorker.getRegistrations();await Promise.all(rs.filter(r=>r.scope===new URL('./',location.href).href).map(r=>r.unregister()));const ks=await caches.keys();await Promise.all(ks.filter(k=>k.startsWith('balloon-pop-'+new URL('./',location.href).pathname+'-')).map(k=>caches.delete(k)))}catch(e){}location.reload()};document.body.appendChild(d)}
-if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js',{scope:'./',updateViaCache:'none'}).then(r=>{r.update().catch(()=>{})}).catch(()=>{})}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js?v=2.0.3-back',{scope:'./',updateViaCache:'none'}).then(r=>{r.update().catch(()=>{})}).catch(()=>{})}
 
 // Progress is kept on this device only. No accounts, leaderboard or data upload.
 let advanceTimer=0,practiceQueue=null,practiceActive=false;
