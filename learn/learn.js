@@ -146,11 +146,15 @@ pair:(en,a)=>{const n=nn(U(en));const s=n[0],d=n[1];return (s+d)/2===+a?E(`స�
 poly2:(en,a)=>{const m=/x²\s*[−-]\s*(\d+)x/.exec(en);return m&&+m[1]===+a?E(`శూన్యాల మొత్తం = −b/a = −(−${a})/1 = ${a}`,`Sum of zeros = −b/a = −(−${a})/1 = ${a}`):null},
 sets:(en,a)=>{const n=nn(en.replace(/n\(A∩B\)|n\(A∪B\)|n\(A\)|n\(B\)/g,m=>m.replace(/[^∩∪AB]/g,'#')));const m=/n\(A\)=(\d+), n\(B\)=(\d+), n\(A∩B\)=(\d+)/.exec(en);if(!m)return null;const[A,B,I]=m.slice(1).map(Number);return A+B-I===+a?E(`n(A∪B) = n(A) + n(B) − n(A∩B) = ${A} + ${B} − ${I} = ${a}`,`n(A∪B) = n(A) + n(B) − n(A∩B) = ${A} + ${B} − ${I} = ${a}`):null},
 tang:(en,a)=>{const n=nn(en);const r=n[0],d=n[1];return Math.sqrt(d*d-r*r)===+a?E(`t² = d² − r² = ${d}² − ${r}² = ${d*d} − ${r*r} = ${d*d-r*r}, కాబట్టి t = ${a}`,`t² = d² − r² = ${d}² − ${r}² = ${d*d} − ${r*r} = ${d*d-r*r}, so t = ${a}`):null},
+trig:(en,a)=>{const m=/^(sin|cos|tan) (\d+)°/.exec(en);if(!m)return null;const T={'sin 0':'0','sin 30':'1/2','sin 45':'1/√2','sin 60':'√3/2','sin 90':'1','cos 0':'1','cos 30':'√3/2','cos 45':'1/√2','cos 60':'1/2','cos 90':'0','tan 0':'0','tan 30':'1/√3','tan 45':'1','tan 60':'√3','tan 90':'నిర్వచించబడదు'};const k=m[1]+' '+m[2];if(T[k]!==a)return null;const e=m[1]==='tan'?(m[2]==='45'?' (sin45 ÷ cos45 = 1)':' (sin ÷ cos)'):'';return E(`ప్రామాణిక విలువల పట్టిక ప్రకారం ${m[1]} ${m[2]}° = ${a}${e}`,`From the standard values table, ${m[1]} ${m[2]}° = ${a}${e}`)},
+disc:(en,a)=>{const m=/of (-?\d+)x² ([+−-]) (\d+)x ([+−-]) (\d+)/.exec(en);if(!m)return null;const A=+m[1],B=(m[2]==='+'?1:-1)*+m[3],C=(m[4]==='+'?1:-1)*+m[5];if(B*B-4*A*C!==+String(a).replace(/\u2212/,"-"))return null;return E(`b² − 4ac = (${B})² − 4(${A})(${C}) = ${B*B} − ${4*A*C} = ${a}`,`b² − 4ac = (${B})² − 4(${A})(${C}) = ${B*B} − ${4*A*C} = ${a}`)},
+speed:(en,a)=>{const m=/Speed (\d+) km\/h for (\d+) hours/.exec(en);if(!m||m[1]*m[2]!==+a)return null;return E(`దూరం = వేగం × కాలం = ${m[1]} × ${m[2]} = ${a} కి.మీ`,`Distance = speed × time = ${m[1]} × ${m[2]} = ${a} km`)},
 trig3:(en,a)=>{const m=/(\d+)\/(\d+)/.exec(en);if(!m)return null;const o=+m[1],h=+m[2],ad=Math.round(Math.sqrt(h*h-o*o));return `${o}/${ad}`===a?E(`ఎదుటి భుజం ${o}, కర్ణం ${h}. ప్రక్క భుజం² = ${h}² − ${o}² = ${ad*ad}, ప్రక్క భుజం = ${ad}. tan A = ${o}/${ad}`,`Opposite ${o}, hypotenuse ${h}. Adjacent² = ${h}² − ${o}² = ${ad*ad}, so adjacent = ${ad}. tan A = ${o}/${ad}`):null},
 trig4:(en,a)=>{const n=nn(en)[0];return 90-n===+a?E(`sin θ = cos(90° − θ) కాబట్టి 90 − ${n} = ${a}`,`sin θ = cos(90° − θ), so 90 − ${n} = ${a}`):null},
 };return(name,en,a)=>{const f=F[name];if(!f)return null;try{return f(en,a)}catch(e){return null}}})();
 
 window.LD._t=()=>({D,fromSpec});
+window.LD.why=(nm,o)=>{try{const q=typeof o.q==='string'?same(o.q):o.q;let x=null;if(o.x&&typeof o.x==='object')x=o.x;else if(typeof o.x==='string')x=same(o.x.indexOf('=')>=0?o.x:o.x+' = '+o.a);const y=XO(nm,q.en,String(o.a));if(y)x=y;if(!x)x=XP(nm,o,q.en,String(o.a));return x}catch(e){return null}};
 function fromSpec(sp){
  const parts=sp.split(':');const nm_=parts[0];const args=(parts[1]||'').split(',').filter(z=>z!=='').map(Number);
  const fn=LG[nm_]||GN[nm_];if(!fn)throw new Error('no generator '+nm_);
@@ -195,6 +199,17 @@ const css=document.createElement('style');css.textContent=`
 .lr-big{font-size:64px;text-align:center;margin:6px 0}.lr-stars{font-size:34px;text-align:center;letter-spacing:6px}.lr-pct{text-align:center;font-size:44px;font-weight:900;color:#ffe192}
 .lr-mis{list-style:none;padding:0;margin:0}.lr-mis li{padding:8px 0;border-top:1px solid #ffffff22;font-size:14px;line-height:1.4}.lr-mis b{color:#39ff88}
 .lrn .lr-scroll{zoom:.9}.lr-fb .why{font-size:12.5px;opacity:0;animation:whyin .45s ease .7s forwards;margin:6px 0 2px;color:#cfe3ff}@keyframes whyin{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}@media (prefers-reduced-motion:reduce){.lr-fb .why{animation-delay:0s}}
+.lr-sc{background:linear-gradient(155deg,color-mix(in srgb,var(--c) 34%,#1c2550) 0,#172043 62%,#121936 100%);border-color:color-mix(in srgb,var(--c) 55%,#7ab9ff44);box-shadow:0 0 16px color-mix(in srgb,var(--c) 38%,transparent),0 3px 0 #070b1c;position:relative;overflow:hidden}
+.lr-sc::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 85% 8%,color-mix(in srgb,var(--c) 45%,transparent),transparent 55%);pointer-events:none}
+.lr-sc span{filter:drop-shadow(0 0 8px var(--c))}
+.lr-row{background:linear-gradient(100deg,color-mix(in srgb,var(--c,#7ab9ff) 22%,#1d2650) 0,#1a2248 55%);border-left:4px solid var(--c,#7ab9ff);box-shadow:0 0 12px color-mix(in srgb,var(--c,#7ab9ff) 25%,transparent)}
+.lr-chip.on{box-shadow:0 0 16px #38d9f8aa}
+.lr-top h1{background:linear-gradient(90deg,#8bebf6,#c3a6ff,#ff9bd2);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.lr-h{background:linear-gradient(90deg,#8bebf6,#b9a6ff);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.lr-bar i{background:linear-gradient(90deg,#00ff9d,#38d9f8,#b46bff)!important}
+.lr-o:not(.right):not(.wrongp){background:linear-gradient(100deg,#222d5c,#1b2349)}.lr-o:not(.right):not(.wrongp):nth-child(1) b{background:#ff5d8f}.lr-o:not(.right):not(.wrongp):nth-child(2) b{background:#38d9f8}.lr-o:not(.right):not(.wrongp):nth-child(3) b{background:#ffd34d}.lr-o:not(.right):not(.wrongp):nth-child(4) b{background:#a77bff}
+.lrn{background:radial-gradient(ellipse at 8% 0,#2f4bb0aa 0,transparent 50%),radial-gradient(ellipse at 100% 40%,#6a2fa0aa 0,transparent 55%),radial-gradient(ellipse at 20% 100%,#0e6a7a88 0,transparent 50%),#0e1330!important}
+.lr-go{box-shadow:0 0 20px #b46bff88,0 4px 0 #2a1650}
 .lr-note{font-size:12px;color:#9fb5e6;text-align:center;margin:10px 0}
 .learn-cta{margin:10px 0 2px!important}
 `;document.head.appendChild(css);
@@ -227,11 +242,11 @@ function hubView(v){
  document.querySelectorAll('.lr-sc').forEach(b=>b.onclick=()=>{SFX.tap();openSubj(b.dataset.s,c)});
  $('#shr').onclick=()=>shareText(word('అక్షరనోవా: 1 నుండి 10వ తరగతి వరకు తెలుగు, ఇంగ్లీష్, గణితం, సైన్స్, సాంఘిక శాస్త్రం ప్రాక్టీస్ యాప్. ఉచితం, లాగిన్ లేదు.','AksharaNova: free Class 1-10 practice app for Telugu, English, Maths, Science and Social. No login.'));
 }
-const SOON=['science','current'];
+const SOON=[];
 function openSubj(s,c){if(SOON.includes(s)&&!D[s]){toast(word('త్వరలో వస్తోంది! ఇప్పుడు గణితం, సాంఘిక శాస్త్రం నేర్చుకోండి 🚀','Coming very soon! Try Maths or Social now 🚀'),3200);return}toast(word('లోడ్ అవుతోంది…','Loading…'),900);load(s).then(()=>nav({v:'subj',s,c})).catch(()=>toast(word('ఒకసారి ఇంటర్నెట్ కావాలి. తరువాత ఆఫ్‌లైన్‌లో కూడా పనిచేస్తుంది.','Needs internet once. After that it works offline too.'),3500))}
 function subjView(v){
  const {s,c}=v;const m=LS_[s];const ts=topics(s,c);
- const rows=ts.map((t,i)=>{const st=stat(s,c,t);return `<button class="lr-row" data-i="${i}"><span class="ic">${t.i||'📘'}</span><span class="tx">${esc(W(t))}<small>${st.att?word('ఉత్తమం','Best')+' '+st.best+'%':word('కొత్త','New')}</small></span><span class="st">${stars(st.stars)}</span></button>`}).join('');
+ const rows=ts.map((t,i)=>{const st=stat(s,c,t);return `<button class="lr-row" data-i="${i}" style="--c:${LS_[s]?LS_[s].c:'#7ab9ff'}"><span class="ic">${t.i||'📘'}</span><span class="tx">${esc(W(t))}<small>${st.att?word('ఉత్తమం','Best')+' '+st.best+'%':word('కొత్త','New')}</small></span><span class="st">${stars(st.stars)}</span></button>`}).join('');
  shell(topBar(`${m.i} ${W(m)}${s==='current'?'':' · '+word('తరగతి','Class')+' '+c}`)+
   (s==='current'?'':`<div class="lr-chips" style="grid-template-columns:repeat(10,1fr);gap:4px">${[1,2,3,4,5,6,7,8,9,10].map(i=>`<button class="lr-chip${i===c?' on':''}" style="height:36px;font-size:15px" data-c="${i}">${i}</button>`).join('')}</div>`)+
   `<div class="lr-h">${word('అంశాలు · ఒక్కొక్కటి ప్రాక్టీస్ చేయండి','TOPICS · PRACTICE EACH ONE')}</div>${rows||`<div class="lr-card">${word('ఈ తరగతికి అంశాలు త్వరలో వస్తాయి.','Topics for this class are coming soon.')}</div>`}
