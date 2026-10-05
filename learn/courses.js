@@ -4,8 +4,7 @@ const TE=()=>{try{return S.lang==='te'}catch(e){return true}};
 const E=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const C=window.COURSES=window.COURSES||[
 {id:'ma',ic:'🥋',te:'మార్షల్ ఆర్ట్స్',en:'Martial Arts',d:['నాన్-కాంటాక్ట్ భంగిమలు, శ్వాస, సమతుల్యత','Non-contact stances, breathing and balance'],act:'martial'},
-{id:'md',ic:'🧘',te:'ధ్యానం (లైట్)',en:'Meditation (lite)',d:['8 చిన్న ధ్యాన పాఠాలు','8 short calm-mind lessons'],act:'meditation'},
-{id:'mdf',ic:'🕉️',te:'ధ్యానం పూర్తి కోర్సు',en:'Meditation full course',d:['20 మాడ్యూళ్ళు','20 modules'],url:'',soon:1},
+{id:'md',ic:'🧘',te:'ధ్యానం పూర్తి కోర్సు',en:'Meditation full course',d:['20 మాడ్యూళ్ళు, తెలుగు + English','20 modules, Telugu + English'],act:'meditation'},
 {id:'iq',ic:'🧠',te:'మైండ్ IQ',en:'MIND IQ',d:['తర్కం, జ్ఞాపకశక్తి, మెదడు ఆటలు','Logic, memory and brain games'],url:'',soon:1},
 {id:'sp',ic:'⚡',te:'స్పీడ్ రీడింగ్',en:'Speed Reading',d:['వేగంగా చదవడం, ప్రశ్నలతో','Read faster with questions'],act:'speed'},
 {id:'pz',ic:'🧩',te:'పజిల్స్',en:'Puzzles',d:['బుద్ధికి పదునుపెట్టే ఆటలు','Fun puzzles'],act:'puzzles'},
