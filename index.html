@@ -43,7 +43,7 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 .next-btn:hover{box-shadow:0 0 22px #00ff6add,inset 0 0 16px #00ff6a66}.next-btn:active{transform:scale(.97);box-shadow:0 0 28px #00ff6a,inset 0 0 18px #00ff6a88}
 .reveal.bad .next-btn{background:linear-gradient(135deg,#240606,#10122a)!important;border-color:#ff3b3b;text-shadow:0 0 8px #ff3b3b;box-shadow:0 0 14px #ff0000aa,inset 0 0 12px #ff000044}
 
-</style><style id="sv-compact">.hq{display:block;width:92%;max-width:420px;box-sizing:border-box;margin:8px auto;padding:12px 14px;border-radius:14px;border:1.5px solid #4a5aa8;background:#0f1633;color:#cfe0ff;font-size:16px;outline:none}.game:not(.lrn){zoom:.94;height:calc(100vh/.94);height:calc(100dvh/.94)}</style></head><body><div id="app"></div><script>
+</style><style id="sv-compact">#field[data-lv="1"]{background:linear-gradient(180deg,#ff9f0a22,#0000 60%)}#field[data-lv="2"]{background:linear-gradient(180deg,#0a84ff26,#0000 60%)}#field[data-lv="3"]{background:linear-gradient(180deg,#ff375f26,#ff9f0a14 70%,#0000)}#field[data-lv="4"]{background:linear-gradient(180deg,#1a1a5c55,#0000 70%)}#field[data-lv="5"]{background:linear-gradient(180deg,#bf5af244,#30d1581a 70%,#0000)}.hq{display:block;width:92%;max-width:420px;box-sizing:border-box;margin:8px auto;padding:12px 14px;border-radius:14px;border:1.5px solid #4a5aa8;background:#0f1633;color:#cfe0ff;font-size:16px;outline:none}.game:not(.lrn){zoom:.94;height:calc(100vh/.94);height:calc(100dvh/.94)}</style></head><body><div id="app"></div><script>
 // Question banks. Entry: "qTe§qEn|correct|wrong|wrong|wrong" ; option "te~en". Single-language: "q|correct|w|w|w"
 const BANK={
 science:{
@@ -332,7 +332,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='3.5.0-learn';
+const VER='3.7.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -446,16 +446,16 @@ function showQ(){const o=nextQ();const field=$('#field');field.querySelectorAll(
 function loop(now){raf=requestAnimationFrame(loop);let dt=Math.min(.05,(now-lastT)/1000);lastT=now;if(paused||!cur)return;
  if(G.lock){return}
  cur.t+=dt;const sp=(cur.H+cur.BH+30)/cur.D;
- cur.bs.forEach(b=>{if(b.gone)return;const tt=cur.t-b.dl+cur.pre;const y=cur.H+10-Math.max(0,tt)*sp;const sw=Math.sin(cur.t*1.6+b.ph)*8;b.e.style.transform=`translate(${b.x+sw}px,${tt<cur.pre*0?cur.H+200:y}px)`;});
+ cur.bs.forEach(b=>{if(b.gone)return;const tt=cur.t-b.dl+cur.pre;const y=cur.H+10-Math.max(0,tt)*sp;const sw=Math.sin(cur.t*1.6+b.ph)*(8+Math.min(Math.max(G.level-1,0),6)*2);b.e.style.transform=`translate(${b.x+sw}px,${tt<cur.pre*0?cur.H+200:y}px)`;});
  const cb=cur.bs[cur.o.ai];if(cur.t-cb.dl+cur.pre>=cur.D+.02)timeUp()}
 function pop(b,good){const r=b.e.getBoundingClientRect(),fr=$('#field').getBoundingClientRect();const x=r.left-fr.left+r.width/2,y=r.top-fr.top+r.height/2;
  for(let i=0;i<8;i++){const s=document.createElement('i');s.className='spark';s.textContent=good?pick(['✨','⭐','🎉','💥']):'💢';s.style.left=x+'px';s.style.top=y+'px';s.style.setProperty('--dx',(Math.cos(i*.785)*60)+'px');s.style.setProperty('--dy',(Math.sin(i*.785)*60)+'px');$('#field').appendChild(s);setTimeout(()=>s.remove(),700)}
  b.e.classList.add(good?'popped':'wrongp');b.gone=true}
 function tapB(i){if(!cur||G.lock||paused)return;const b=cur.bs[i];if(b.gone)return;const o=cur.o;
  if(i===o.ai){G.lock=true;const prog=Math.max(0,1-(cur.t-b.dl+cur.pre)/cur.D);G.streak++;G.maxStreak=Math.max(G.maxStreak,G.streak);G.solved++;
-  G.score+=10+Math.min(G.streak,10)*2+Math.floor(prog*5);pop(b,true);SFX.pop();sayResult(true);try{const gf=document.createElement('div');gf.className='goodflash';gf.textContent=word('శభాష్! ⭐','Good! ⭐');$('#field').appendChild(gf);setTimeout(()=>gf.remove(),950)}catch(e){}
+  G.score+=(10+Math.min(G.streak,10)*2+Math.floor(prog*5))*(G.level%5===0?2:1);pop(b,true);SFX.pop();sayResult(true);try{const gf=document.createElement('div');gf.className='goodflash';gf.textContent=word('శభాష్! ⭐','Good! ⭐');$('#field').appendChild(gf);setTimeout(()=>gf.remove(),950)}catch(e){}
   let msg='';if(G.streak>0&&G.streak%10===0&&G.lives<3){G.lives++;SFX.life();msg='❤️ +1'}
-  if(G.solved%8===0){G.level++;banner(`${t('lvlw')} ${G.level}!`);SFX.level()}else if(msg)banner(msg);
+  if(G.solved%8===0){G.level++;if((G.level-1)%5===0&&G.lives<3){G.lives++}banner(`${t('lvlw')} ${G.level}! ${lvName()}`);SFX.level()}else if(msg)banner(msg);
   hud();advanceTimer=setTimeout(()=>{if(G&&cur&&!paused)showQ()},2200)}
  else{G.lock=true;pop(b,false);SFX.wrong();vib(120);fail(false)}}
 function timeUp(){if(G.lock)return;G.lock=true;SFX.miss();vib(120);fail(true)}
@@ -499,7 +499,7 @@ window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=
 window.addEventListener('appinstalled',()=>{installEvt=null});
 async function checkVersion(){try{const r=await fetch('./index.html?_v='+Date.now(),{cache:'no-store'});if(!r.ok)return;const tx=await r.text();const m=tx.match(/const VER='([^']+)'/);if(m&&m[1]!==VER){updateBar();if(!G&&!sessionStorage.getItem('svr-'+m[1])){sessionStorage.setItem('svr-'+m[1],'1');const u=$('#upd button');if(u)u.click()}}}catch(e){}}
 function updateBar(){if($('#upd'))return;const d=document.createElement('div');d.id='upd';d.innerHTML=`<span>${t('upd')}</span><button>${t('reload')}</button>`;d.querySelector('button').onclick=async()=>{try{const rs=await navigator.serviceWorker.getRegistrations();await Promise.all(rs.filter(r=>r.scope===new URL('./',location.href).href).map(r=>r.unregister()));const ks=await caches.keys();await Promise.all(ks.filter(k=>k.startsWith('balloon-pop-'+new URL('./',location.href).pathname+'-')).map(k=>caches.delete(k)))}catch(e){}location.reload()};document.body.appendChild(d)}
-if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js?v=3.5.0-learn',{scope:'./',updateViaCache:'none'}).then(r=>{r.update().catch(()=>{})}).catch(()=>{})}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js?v=3.7.0-learn',{scope:'./',updateViaCache:'none'}).then(r=>{r.update().catch(()=>{})}).catch(()=>{})}
 
 // Progress is kept on this device only. No accounts, leaderboard or data upload.
 let advanceTimer=0,practiceQueue=null,practiceActive=false;
@@ -535,6 +535,11 @@ const homeBeforeLearn=home;
 home=function(){homeBeforeLearn();const h=$('.home');if(!h||$('#learn-btn'))return;const top=h.querySelector('.galaxy-top');const html=`<button class="play learn-cta" id="learn-btn">📚 ${word('నేర్చుకో · 1–10 తరగతులు · అన్ని సబ్జెక్టులు','Learn · Classes 1–10 · All subjects')}</button>`;if(top)top.insertAdjacentHTML('afterend',html);else h.insertAdjacentHTML('afterbegin',html);$('#learn-btn').onclick=()=>{SFX.tap();openLearn()}};
 function showProgress(){const rows=Object.entries(progress.by).map(([k,v])=>{const bits=k.split('-');return `<li>${nm(SUBJ[bits[0]])} · ${t('cls')} ${bits[1]}: <b>${v.correct}/${v.answered}</b></li>`}).join('');const m=modal(`<h2>📊 ${word('నేర్చుకున్న ప్రోగ్రెస్','Learning progress')}</h2><p>${word('ఈ ఫోన్‌లో మాత్రమే సేవ్ అవుతుంది. పిల్లలు కలిసి వాడితే ఇది కలిపిన ప్రోగ్రెస్.','Saved only on this device. If children share it, these are combined results.')}</p><p>⭐ ${progress.stars} · ${progress.sessions} ${word('పూర్తయిన రౌండ్లు','finished rounds')} · ${progress.correct}/${progress.answered} ${word('సరైన సమాధానాలు','correct answers')}</p><div class="badge-row"><span class="badge">${progress.answered>=1?'🌱':'🔒'} ${word('మొదటి అడుగు','First step')}</span><span class="badge">${progress.correct>=10?'⭐':'🔒'} ${word('10 సరైనవి','10 correct')}</span><span class="badge">${progress.correct>=50?'🏅':'🔒'} ${word('50 సరైనవి','50 correct')}</span><span class="badge">${progress.days.length>=3?'🌻':'🔒'} ${word('3 రోజులు సాధన','3 practice days')}</span></div><ul>${rows||word('మొదటి రౌండ్ ప్రారంభించండి!','Start your first round!')}</ul><p class="hint">${word('ఇది సాధన కోసం. పూర్తి పాఠ్యపుస్తకం లేదా పరీక్ష కాదు. రోజూ చిన్న రౌండ్ ఆడి, తప్పు ప్రశ్నలు తిరిగి చూడండి. బ్రౌజర్ డేటా తొలగిస్తే ప్రోగ్రెస్ పోతుంది.','Practice, not a full textbook or an exam. Try a short round and revisit mistakes. Clearing browser data removes progress.')}</p><button class="play">${t('close')}</button>`);m.querySelector('button').onclick=()=>m.remove()}
 const homeBeforeSearch=home;home=function(){homeBeforeSearch();const b=$('#learn-btn');if(!b||$('#home-sq'))return;b.insertAdjacentHTML('afterend',`<input id="home-sq" class="hq" type="search" readonly placeholder="🔍 ${word('ఏ అంశమైనా వెతకండి…','Search any topic…')}">`);$('#home-sq').onclick=()=>{SFX.tap();window.__focusQ=1;openLearn()}};
+const LVN=[['🌅 ఉదయం','🌅 Sunrise'],['☁️ మేఘాలు','☁️ Cloud sky'],['🌇 సాయంత్రం','🌇 Sunset'],['🌙 రాత్రి','🌙 Night'],['🚀 అంతరిక్షం · స్కోర్ ×2','🚀 Space · score ×2']];
+function lvName(){const n=LVN[(G.level-1)%5];return word(n[0],n[1])}
+const _sq3=showQ;showQ=function(){_sq3();try{if(G&&S.pace!=='learn'){$('#field').dataset.lv=((G.level-1)%5)+1}}catch(e){}};
+const _dur0=dur;dur=function(){const b=_dur0();return Math.max(b*Math.pow(.96,Math.max(0,G.level-1)),S.subj==='maths'?3.2:5.5)};
+{const V=[()=>{tone(660,.09,'triangle');tone(990,.12,'triangle',.07)},()=>{tone(880,.06,'sine');tone(1320,.1,'sine',.05);tone(1760,.08,'sine',.1)},()=>{tone(420,.07,'square',0,.08);tone(840,.1,'triangle',.05)},()=>{tone(1200,.05,'triangle');tone(900,.06,'triangle',.04);tone(600,.09,'triangle',.08)},()=>{tone(520,.08,'sine');tone(780,.08,'sine',.06);tone(1040,.12,'sine',.12)},()=>{tone(300,.05,'sawtooth',0,.07);tone(1100,.12,'triangle',.04)},()=>{tone(740,.07,'triangle');tone(1480,.13,'sine',.06)},()=>{tone(980,.05,'square',0,.07);tone(1240,.05,'square',.05,.07);tone(1560,.09,'triangle',.1)}];let last=-1;SFX.pop=()=>{let k;do{k=Math.floor(Math.random()*V.length)}while(k===last&&V.length>1);last=k;V[k]()}}
 const baseNext=nextQ;nextQ=function(){if(practiceActive&&practiceQueue&&practiceQueue.length)return practiceQueue.shift();return baseNext()};
 const baseStart=startGame;startGame=function(){baseStart();G.target=practiceActive?G.qs+(practiceQueue?practiceQueue.length:0):10;G.finishRecorded=false;if(S.pace==='learn'){ $('.hud').classList.add('learn-hud');$('#hv').textContent='🌱 '+word('మీ వేగం','Your pace');$('#hl').parentNode.firstElementChild.textContent=word('ప్రశ్న','Question');$('#hl').textContent=G.qs;$('.qcard').insertAdjacentHTML('afterend','<div class="session-meter" id="meter"></div>');updateMeter()}};
 function updateMeter(){const e=$('#meter');if(e&&G)e.textContent=word('ప్రశ్న','Question')+' '+G.qs+'/'+G.target+' · '+word('టైమర్ లేదు · తొందర లేదు','No timer · no rush')}
