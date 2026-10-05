@@ -17,7 +17,7 @@ function fig(p){const hx=50,hy=p.hy,t=rad(p.t||0);const neck=[hx+TO*Math.sin(t),
  const arm=(s,a1,a2)=>{const e=[s[0]+UA*Math.sin(rad(a1)),s[1]+UA*Math.cos(rad(a1))];const h=[e[0]+FA*Math.sin(rad(a2)),e[1]+FA*Math.cos(rad(a2))];return {e,h}};
  const aL=arm(sL,p.a[0],p.a[1]),aR=arm(sR,p.a[2],p.a[3]);const head=[neck[0]+7*Math.sin(t),neck[1]-7*Math.cos(t)];
  return {neck,sL,sR,hpL,hpR,lL,lR,aL,aR,head,hip:[hx,hy]}}
-function svgFig(p,color){const f=fig(p),P=a=>a[0].toFixed(1)+','+a[1].toFixed(1);const ln=(a,b,w,c)=>`<line x1="${a[0].toFixed(1)}" y1="${a[1].toFixed(1)}" x2="${b[0].toFixed(1)}" y2="${b[1].toFixed(1)}" stroke="${c}" stroke-width="${w}" stroke-linecap="round"/>`;
+function svgFigStick(p,color){const f=fig(p),P=a=>a[0].toFixed(1)+','+a[1].toFixed(1);const ln=(a,b,w,c)=>`<line x1="${a[0].toFixed(1)}" y1="${a[1].toFixed(1)}" x2="${b[0].toFixed(1)}" y2="${b[1].toFixed(1)}" stroke="${c}" stroke-width="${w}" stroke-linecap="round"/>`;
  const c=color||'#7cf0c2',c2='#4da3ff';
  return `<svg viewBox="0 0 100 120" class="mafig" role="img" aria-label="${L('శిక్షకుని భంగిమ','Instructor pose')}"><ellipse cx="50" cy="112" rx="34" ry="3" fill="#000" opacity=".35"/><line x1="8" y1="111" x2="92" y2="111" stroke="#7ab9ff" stroke-opacity=".35" stroke-width=".8"/>`
  +ln(f.hpL,f.lL.k,4.4,c2)+ln(f.lL.k,f.lL.f,4,c2)+`<circle cx="${f.lL.f[0].toFixed(1)}" cy="${f.lL.f[1].toFixed(1)}" r="2.6" fill="${c2}"/>`
@@ -26,6 +26,20 @@ function svgFig(p,color){const f=fig(p),P=a=>a[0].toFixed(1)+','+a[1].toFixed(1)
  +ln(f.sL,f.aL.e,3.6,'#ffb84d')+ln(f.aL.e,f.aL.h,3.2,'#ffb84d')+`<circle cx="${f.aL.h[0].toFixed(1)}" cy="${f.aL.h[1].toFixed(1)}" r="2.3" fill="#ffd9a0"/>`
  +ln(f.sR,f.aR.e,3.6,'#ffb84d')+ln(f.aR.e,f.aR.h,3.2,'#ffb84d')+`<circle cx="${f.aR.h[0].toFixed(1)}" cy="${f.aR.h[1].toFixed(1)}" r="2.3" fill="#ffd9a0"/>`
  +`<circle cx="${f.head[0].toFixed(1)}" cy="${f.head[1].toFixed(1)}" r="6.2" fill="#ffe0bd" stroke="${c}" stroke-width="1.2"/></svg>`}
+
+// Illustrated karate-gi figure: tapered limbs, shading, belt, hair, face. Still a 2D illustration (not photo or video).
+function svgFig(p){const f=fig(p),n=v=>v.toFixed(1);
+ const limb=(a,b,w1,w2,fill)=>{const dx=b[0]-a[0],dy=b[1]-a[1],d=Math.hypot(dx,dy)||1,nx=-dy/d,ny=dx/d;return `<circle cx="${n(a[0])}" cy="${n(a[1])}" r="${w1}" fill="${fill}"/><circle cx="${n(b[0])}" cy="${n(b[1])}" r="${w2}" fill="${fill}"/><path d="M${n(a[0]+nx*w1)},${n(a[1]+ny*w1)} L${n(b[0]+nx*w2)},${n(b[1]+ny*w2)} L${n(b[0]-nx*w2)},${n(b[1]-ny*w2)} L${n(a[0]-nx*w1)},${n(a[1]-ny*w1)}Z" fill="${fill}"/><path d="M${n(a[0]+nx*w1)},${n(a[1]+ny*w1)} L${n(b[0]+nx*w2)},${n(b[1]+ny*w2)} M${n(a[0]-nx*w1)},${n(a[1]-ny*w1)} L${n(b[0]-nx*w2)},${n(b[1]-ny*w2)}" stroke="#8b97b3" stroke-width=".5" fill="none"/>`};
+ const G='url(#gi)',skin='url(#sk)',leg=(h,l)=>limb(h,l.k,5.4,4.6,G)+limb(l.k,l.f,4.6,3.2,G)+`<ellipse cx="${n(l.f[0]+1.2)}" cy="${n(l.f[1]+.8)}" rx="4.4" ry="2.1" fill="${skin}" stroke="#a9744f" stroke-width=".4"/>`;
+ const arm=(s0,a)=>limb(s0,a.e,3.8,3.2,G)+limb(a.e,a.h,3.2,2.4,G)+`<circle cx="${n(a.h[0])}" cy="${n(a.h[1])}" r="2.5" fill="${skin}" stroke="#a9744f" stroke-width=".4"/>`;
+ const hx=f.hip[0],hy=f.hip[1],nk=f.neck,t=Math.atan2(nk[0]-hx,hy-nk[1]);
+ const torso=`<path d="M${n(f.sL[0]-1)},${n(f.sL[1]-1)} L${n(f.sR[0]+1)},${n(f.sR[1]-1)} L${n(f.hpR[0]+3)},${n(f.hpR[1]+1)} L${n(f.hpL[0]-3)},${n(f.hpL[1]+1)}Z" fill="${G}" stroke="#8b97b3" stroke-width=".5" stroke-linejoin="round"/>`;
+ const bx=(f.hpL[0]+f.hpR[0])/2,by=f.hpL[1]-1.2,belt=`<path d="M${n(f.hpL[0]-3.2)},${n(by-1.6)} L${n(f.hpR[0]+3.2)},${n(by-1.6)} L${n(f.hpR[0]+3.2)},${n(by+1.8)} L${n(f.hpL[0]-3.2)},${n(by+1.8)}Z" fill="#14161f"/><path d="M${n(bx)},${n(by+1.5)} l-1.6,5 M${n(bx)},${n(by+1.5)} l2,4.5" stroke="#14161f" stroke-width="1.3" stroke-linecap="round"/>`;
+ const vneck=`<path d="M${n(nk[0]-3)},${n(nk[1]+.5)} L${n(bx)},${n(by-2)} L${n(nk[0]+3)},${n(nk[1]+.5)}" fill="none" stroke="#8b97b3" stroke-width=".6"/>`;
+ const hd=f.head,hr=6.1;
+ const head=`<rect x="${n(nk[0]-2)}" y="${n(nk[1]-3)}" width="4" height="5" rx="1.5" fill="${skin}"/><ellipse cx="${n(hd[0])}" cy="${n(hd[1])}" rx="${hr-.6}" ry="${hr}" fill="${skin}" stroke="#a9744f" stroke-width=".4" transform="rotate(${n(t*57.3)} ${n(hd[0])} ${n(hd[1])})"/><path d="M${n(hd[0]-hr+.4)},${n(hd[1]-.5)} A${hr-.4},${hr+.4} 0 0 1 ${n(hd[0]+hr-.4)},${n(hd[1]-.5)} Q${n(hd[0])},${n(hd[1]-3.4)} ${n(hd[0]-hr+.4)},${n(hd[1]-.5)}Z" fill="#15131a" transform="rotate(${n(t*57.3)} ${n(hd[0])} ${n(hd[1])})"/><circle cx="${n(hd[0]-2)}" cy="${n(hd[1]+.8)}" r=".6" fill="#2a1d14"/><circle cx="${n(hd[0]+2)}" cy="${n(hd[1]+.8)}" r=".6" fill="#2a1d14"/><path d="M${n(hd[0]-1.4)},${n(hd[1]+3)} Q${n(hd[0])},${n(hd[1]+4)} ${n(hd[0]+1.4)},${n(hd[1]+3)}" fill="none" stroke="#8a4b3a" stroke-width=".5"/>`;
+ return `<svg viewBox="0 0 100 120" class="mafig" role="img" aria-label="${L('శిక్షకుని భంగిమ (చిత్రం)','Instructor pose (illustration)')}"><defs><linearGradient id="gi" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#cfd6e6"/><stop offset=".45" stop-color="#ffffff"/><stop offset="1" stop-color="#b9c2d8"/></linearGradient><linearGradient id="sk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3c9a2"/><stop offset="1" stop-color="#d49a6e"/></linearGradient><radialGradient id="fl" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#7ab9ff" stop-opacity=".35"/><stop offset="1" stop-color="#7ab9ff" stop-opacity="0"/></radialGradient></defs><rect x="0" y="100" width="100" height="20" fill="#0f1a3c"/><ellipse cx="50" cy="111" rx="38" ry="5" fill="url(#fl)"/><ellipse cx="50" cy="111.5" rx="26" ry="2.6" fill="#000" opacity=".4"/>`
+ +arm(f.sL,f.aL)+leg(f.hpL,f.lL)+leg(f.hpR,f.lR)+torso+vneck+belt+arm(f.sR,f.aR)+head+`</svg>`}
 // poses: f = front view, s = side view (figure faces right)
 const PO={
  ready:{f:{hy:62,fl:-6,fr:6,bl:-1,br:1,t:0,a:[-8,-5,8,5]},s:{hy:62,fl:-3,fr:4,bl:1,br:1,t:0,a:[-6,-3,6,3]}},
@@ -110,7 +124,7 @@ function parent(){const n=Object.keys(D.done).length;render(top()+`<h2>👪 ${L(
 // lesson with safety gate
 function lesson(i){stopAnim();const l=LES[i];if(!D.safe){gate(i);return}
  st={i,view:'f',k:0,u:1,playing:false,slow:false};
- let h=top()+`<h2>${l.ic} ${E(L(l.n.te,l.n.en))}</h2><p>${E(L(l.sum.te,l.sum.en))}</p><div id="mafg"></div>
+ let h=top()+`<h2>${l.ic} ${E(L(l.n.te,l.n.en))}</h2><p>${E(L(l.sum.te,l.sum.en))}</p><div id="mafg"></div>${VMAP[i]!==undefined?`<button class="b ok" data-a="vopen" data-v="${VMAP[i]}">🎥 ${L('నిజమైన వీడియో చూడండి','Watch the real video')}</button>`:''}
  <div class="row"><button class="b" data-a="play">▶ ${L('ప్లే','Play')}</button><button class="b g" data-a="pause">⏸ ${L('ఆపు','Pause')}</button><button class="b g" data-a="replay">↺ ${L('మళ్ళీ','Replay')}</button><button class="b g" data-a="step">⏭ ${L('తదుపరి భంగిమ','Step')}</button><button class="b g" data-a="slow" id="masl">🐢 ${L('నెమ్మదిగా','Slow')}</button><button class="b g" data-a="view" id="mavw">${L('ముందు వీక్షణ','Front view')}</button><button class="b g" data-a="speak">🔊 ${L('వినండి','Listen')}</button></div>
  <div class="c"><b>${L('చేయండి','Steps')}</b><ol>${l.steps.map(s=>`<li>${E(L(s.te,s.en))}</li>`).join('')}</ol><p class="sm">💡 ${E(L(l.tips.te,l.tips.en))}</p></div>
  <div class="c"><b>⏱️ ${L('ప్రాక్టీస్ టైమర్','Practice timer')}: ${holdFor(l)} ${L('సెక.','sec')}</b><div class="bar" style="margin:8px 0"><i id="matb" style="width:0"></i></div><button class="b ok" data-a="timer">${L('ప్రారంభించు','Start')}</button> <span id="matt" class="sm"></span></div>
@@ -149,11 +163,11 @@ function click(ev){const b=ev.target.closest('[data-a]');if(!b)return;const a=b.
  if(a==='timer'){timer();return}
  if(a==='quiz'){quiz(+v);return}
  if(a==='ans'){ans(+v);return}if(a==='qnext'){qshow();return}if(a==='finish'){finish();return}
- if(a==='parent'){parent();return}if(a==='videos'){loadVid();return}}
+ if(a==='parent'){parent();return}if(a==='videos'){loadVid();return}if(a==='vopen'){const k=+v;(window.MartialVideos?Promise.resolve():new Promise(r=>{loadVid();const t=setInterval(()=>{if(window.MartialVideos){clearInterval(t);r()}},100)})).then(()=>window.MartialVideos.tech(k));return}}
 function onPop(){if(ov)close(true)}
 function close(fromPop){clearInterval(tm);stopAnim();try{speechSynthesis.cancel()}catch(e){}if(ov){ov.remove();ov=null}window.removeEventListener('popstate',onPop);if(!fromPop){try{if(location.hash==='#martial')history.back()}catch(e){}}}
 function open(){if(ov)return;load();if(!document.getElementById('macss')){const s=document.createElement('style');s.id='macss';s.textContent=css;document.head.appendChild(s)}ov=document.createElement('div');ov.id='ma';document.body.appendChild(ov);ov.addEventListener('click',click);window.addEventListener('popstate',onPop);try{history.pushState({ma:1},'','#martial')}catch(e){}home()}
 function selfTest(){const r=[];const ck=(n,c)=>r.push((c?'ok ':'FAIL ')+n);LES.forEach(l=>{ck(l.id+' keys',l.keys.every(k=>PO[k]&&PO[k].f&&PO[k].s));ck(l.id+' quiz',l.q.length>=2&&l.q.every(q=>q.o.length===4&&q.a>=0&&q.a<4))});Object.keys(PO).forEach(k=>['f','s'].forEach(v=>{const f=fig(PO[k][v]);ck(k+v,[f.head,f.lL.f,f.lR.f,f.aL.h,f.aR.h].every(p=>isFinite(p[0])&&isFinite(p[1])))}));return r}
-let vl=null;function loadVid(){if(window.MartialVideos){window.MartialVideos.open();return}(vl||(vl=new Promise((res,rej)=>{const e=document.createElement('script');e.src='./learn/mavid.js?v='+(typeof VER!=='undefined'?VER:'');e.onload=res;e.onerror=()=>{vl=null;rej()};document.head.appendChild(e)}))).then(()=>window.MartialVideos.open()).catch(()=>{})}
+const VMAP={2:0,3:0,4:14,5:14,6:7};let vl=null;function loadVid(){if(window.MartialVideos){window.MartialVideos.open();return}(vl||(vl=new Promise((res,rej)=>{const e=document.createElement('script');e.src='./learn/mavid.js?v='+(typeof VER!=='undefined'?VER:'');e.onload=res;e.onerror=()=>{vl=null;rej()};document.head.appendChild(e)}))).then(()=>window.MartialVideos.open()).catch(()=>{})}
 window.MartialApp={open,selfTest,svgFig,PO,LES,loadVid,_i:{render:h=>render(h),top,L,E,lesson:i=>lesson(i),get D(){return D}}};
 })();
