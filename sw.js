@@ -11,3 +11,4 @@ self.addEventListener('fetch',e=>{const r=e.request,u=new URL(r.url);if(r.method
 });
 /* rebuild */
 // build 1791229936
+// build 21934
