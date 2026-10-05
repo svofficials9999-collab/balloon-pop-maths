@@ -94,6 +94,13 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 #ma .les .p2,#cr .les .p2,#md .les .p2,#ma .les .sm{opacity:.95}
 @media (prefers-reduced-motion:reduce){.small-btn,#ma .b,#cr .b,#md .b,#ma .les,#cr .les,#md .les{animation:none}}
 </style>
+<style id="neon3">
+#ma-btn,#md-btn,#cr-btn{display:block;margin:9px auto!important;font-weight:900;color:#fff;font-size:16px;padding:12px 22px;border-radius:22px;text-shadow:0 1px 3px #0009;background-size:250% 100%;animation:spdBg 5s linear infinite}
+#ma-btn{border:1px solid #ffb199;background-image:linear-gradient(120deg,#ff1744,#ff6d00,#ffd600,#ff1744);box-shadow:0 0 16px #ff174488,0 3px 0 #070b1c}
+#md-btn{border:1px solid #b9fff0;background-image:linear-gradient(120deg,#00e5ff,#7c4dff,#e040fb,#00e5ff);box-shadow:0 0 16px #7c4dff99,0 3px 0 #070b1c}
+#cr-btn{border:1px solid #ffe08a;background-image:linear-gradient(120deg,#ffd600,#ff4081,#7c4dff,#ffd600);box-shadow:0 0 16px #ff408199,0 3px 0 #070b1c}
+@media (prefers-reduced-motion:reduce){#ma-btn,#md-btn,#cr-btn{animation:none}}
+</style>
 </head><body><div id="app"></div><script>
 // Question banks. Entry: "qTe§qEn|correct|wrong|wrong|wrong" ; option "te~en". Single-language: "q|correct|w|w|w"
 const BANK={
@@ -383,7 +390,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='3.35.0-learn';
+const VER='3.36.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
