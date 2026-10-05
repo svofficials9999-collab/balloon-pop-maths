@@ -2,7 +2,7 @@
 (function(){
 'use strict';
 const D={};
-const EX={};const DGX={};window.LD={dg(o){Object.keys(o).forEach(k=>{const b=k.replace(/(#|--)\d+$/,'');(DGX[b]=DGX[b]||[]).push(o[k])})},reg(s,d){D[s]=d},add(s,cl,t){cl.forEach(c=>{(EX[s+':'+c]=EX[s+':'+c]||[]).push(Object.assign({},t,{cl}))})}};
+const EX={};const DGX={};const DGA={solar5:'solarsystem'};window.LD={dg(o){Object.keys(o).forEach(k=>{const b=k.replace(/(#|--)\d+$/,'');(DGX[b]=DGX[b]||[]).push(o[k])})},reg(s,d){D[s]=d},add(s,cl,t){cl.forEach(c=>{(EX[s+':'+c]=EX[s+':'+c]||[]).push(Object.assign({},t,{cl}))})}};
 const bo=s=>{s=String(s);if(s.indexOf('\u00A7')<0&&s.indexOf('~')>0){const p=s.split('~');return {te:p[0],en:p[1]}}return bi(s)};
 const bi=s=>{const p=String(s).split('\u00A7');return p.length>1?{te:p[0],en:p[1]}:{te:String(s),en:String(s)}};
 const W=o=>(o&&(o[S.lang]||o.te||o.en))||'';
@@ -12,7 +12,7 @@ let LP=readStore('bm2-learn',{t:{},cls:5});
 if(!LP.t)LP.t={};
 const saveL=()=>LS.set('bm2-learn',JSON.stringify(LP));
 let active=false,V={v:'hub',c:LP.cls||S.cls||5},Q=null,loadP={};
-const BANKS=['bank','bsci','bsci2','bsci3','bsci4','bsci5','bsoc','bgk','bmat','beng','btel','btel2','btel3','btel4','btel5','bsoc2','bmat2','bmat15-1','bmat15-2','bmat15-3','bmat3','diag','dgm1','dgm2','dgm3','dgm5','dgm6','dgm7','dgm8','dgm9'];
+const BANKS=['bank','bsci','bsci2','bsci3','bsci4','bsci5','bsoc','bgk','bmat','beng','btel','btel2','btel3','btel4','btel5','bsoc2','bmat2','bmat15-1','bmat15-2','bmat15-3','bmat3','diag','dgm1','dgm2','dgm3','dgm5','dgm6','dgm7','dgm8','dgm9','bgk2','bsoc3','bsoc4','btel1b','bmat4'];
 function load(s){return BANKS.includes(s)?loadRaw(s):loadRaw(s).then(()=>Promise.all(BANKS.map(b=>loadRaw(b).catch(()=>0))))}
 function loadRaw(s){
  if(D[s])return Promise.resolve();
@@ -274,7 +274,7 @@ function reqBtn(q){return `<div class="lr-card">${word('ఈ అంశం కా�
 const FORM='https://docs.google.com/forms/d/e/1FAIpQLSfZBj4tCyYL65LLw6aAZP88Fs0GAIhphMHSyHT86_Ut-84aKg/formResponse';
 function sendReq(q){try{if(!q||q.length<3||q.length>80||!navigator.onLine)return;const k='aksharanova.topicsent';const a=JSON.parse(localStorage.getItem(k)||'[]');const n=q.toLowerCase();if(a.includes(n))return;a.push(n);localStorage.setItem(k,JSON.stringify(a.slice(-100)));const b=new URLSearchParams();b.set('entry.1036119480',q);b.set('entry.840461729','class '+(LP.cls||'?')+' / '+S.lang);fetch(FORM,{method:'POST',mode:'no-cors',body:b}).catch(()=>{})}catch(e){}}
 function saveReq(q){sendReq(q);try{const a=JSON.parse(localStorage.getItem('aksharanova.topicreq')||'[]');if(!a.includes(q))a.push(q);localStorage.setItem('aksharanova.topicreq',JSON.stringify(a.slice(-50)));toast(word('సేవ్ అయింది ✅','Saved ✅'))}catch(e){}}
-function searchHTML(r,cls){if(!r)return '';if(!r.list.length)return `<div class="lr-card">${word('ఈ పదానికి ఇంకా పూర్తి పాఠం లేదు. ఈ తరగతి విషయాలు చూడండి లేదా వేరే పదం వాడండి (ఉదా: నది, గుణకారం, కిరణజన్య సంయోగక్రియ).','No full lesson for this word yet. Browse your class subjects above or try a related word (e.g. river, multiplication, photosynthesis).')}</div>`+reqBtn(window.__lastQ||'');
+function searchHTML(r,cls){if(!r)return '';if(!r.list.length){let sug='';try{SUBS.slice(0,5).forEach(sb=>{const m=LS_[sb];const ts=topics(sb,cls).slice(0,2);ts.forEach((t,ti)=>{sug+=`<button class="lr-row sr-go" data-s="${sb}" data-c="${cls}" data-i="${ti}" style="--c:${m.c}"><span class="ic">${t.i||'📘'}</span><span class="tx">${esc(W(t))}<small>${esc(W(m))} · ${word('తరగతి','Class')} ${cls}</small></span></button>`})})}catch(e){}return `<div class="lr-card"><h3 style="margin-top:0">📝 ${word('మీ అంశం సేవ్ అయింది','Your topic is saved')}</h3><p>${word('ఈ అంశానికి పూర్తి పాఠం సిద్ధమవుతోంది - త్వరలో వస్తుంది. ఈలోగా మీ తరగతి పాఠాలు చూడండి, లేదా ఇంకో పదం (ఉదా: నది, గుణకారం, కిరణజన్య సంయోగక్రియ) వాడండి.','A full lesson for this topic is being prepared and will arrive soon. Meanwhile try your class lessons below, or another word (e.g. river, multiplication, photosynthesis).')}</p></div>`+sug+reqBtn(window.__lastQ||'')}
  let h=r.full?'':`<div class="lr-card">${word('సరిగ్గా సరిపోయేది లేదు. దగ్గరి అంశాలు:','No exact match. Nearest topics:')}</div>`;const by={};r.list.forEach(x=>{(by[x.e.s]=by[x.e.s]||[]).push(x)});
  SUBS.forEach(s=>{if(!by[s])return;const m=LS_[s];h+=`<div class="lr-h">${m.i} ${esc(W(m))}</div>`;by[s].slice(0,12).forEach(x=>{const e=x.e;h+=`<button class="lr-row sr-go" data-s="${e.s}" data-c="${e.c||cls}" data-i="${e.ti}" style="--c:${m.c}"><span class="ic">${e.t.i||'📘'}</span><span class="tx">${esc(W(e.t))}<small>${esc(W(m))} · ${e.s==='current'?word('అన్ని తరగతులు','All classes'):word('తరగతి','Class')+' '+e.c+clsTag(e.s,e.t,e.c)}</small></span></button>`})});if(!r.full)h+=reqBtn(window.__lastQ||'');return h}
 // ---------- v3.3 diagrams (simple, checked SVG) ----------
@@ -289,7 +289,7 @@ tan:()=>svgW(`<circle cx="95" cy="80" r="48" fill="#16224a" stroke="#56d6ff" str
 quad:()=>svgW(`<g stroke="#9fb5e6" stroke-width="1.5"><line x1="110" y1="10" x2="110" y2="150"/><line x1="15" y1="80" x2="205" y2="80"/></g><g fill="#ffe192" text-anchor="middle"><text x="160" y="45">I (+,+)</text><text x="60" y="45">II (−,+)</text><text x="60" y="120">III (−,−)</text><text x="160" y="120">IV (+,−)</text></g><text x="196" y="94">x</text><text x="114" y="18">y</text><text x="114" y="94">O</text>`,DGW('నిరూపక తలం: నాలుగు పాదాలు','Coordinate plane: four quadrants'))
 };
 const DIAG={'maths:geo9':['rt'],'maths:trig10':['rt'],'maths:geo6':['ang'],'science:lab10':['lens'],'science:light10':['lens'],'maths:men10':['circ'],'maths:si7':['circ'],'maths:sim10':['tan'],'maths:coord9':['quad'],'maths:cg10':['quad']};
-const diagHTML=(s,t)=>(DIAG[s+':'+t.id]||[]).map(k=>{try{return SVGS[k]()}catch(e){return ''}}).join('')+(window.DG&&DGX[t.id]?DGX[t.id].map(sp=>{try{return DG.html(sp,W)}catch(e){return ''}}).join(''):'');
+const diagHTML=(s,t)=>(DIAG[s+':'+t.id]||[]).map(k=>{try{return SVGS[k]()}catch(e){return ''}}).join('')+(window.DG&&DGX[DGA[t.id]||t.id]?DGX[DGA[t.id]||t.id].map(sp=>{try{return DG.html(sp,W)}catch(e){return ''}}).join(''):'');
 // ---------- views ----------
 function render(v){try{SS&&SS.cancel()}catch(e){}({hub:hubView,subj:subjView,topic:topicView,quiz:quizView,result:resultView}[v.v]||hubView)(v)}
 function hubView(v){
