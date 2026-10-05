@@ -225,7 +225,7 @@ function wireTop(){const b=$('#lb');if(b)b.onclick=()=>{SFX.tap();history.back()
 function nav(v){V=Object.assign({},v);try{history.pushState({svLearn:V},'',location.href)}catch(e){}render(V)}
 const stat=(s,c,t)=>LP.t[tkey(s,c,t)]||{best:0,stars:0,att:0};
 function clsOf(s,t){if(t.cl)return t.cl;const r=[];if(t.id&&s!=='current')for(let c=1;c<=10;c++)if(topics(s,c).some(x=>x.id===t.id))r.push(c);return r}
-const clsTag=(s,t,c)=>{const l=clsOf(s,t);return l.length>1?' · '+word('తరగతులు','Classes')+': '+l.join(', '):''};
+const clsTag=(s,t,c)=>{const l=clsOf(s,t);return l.length>1?' · '+(t.cl?word('సూచించిన తరగతులు','Suggested classes'):word('తరగతులు','Classes'))+': '+l.join(', '):''};
 function subjProgress(s,c){const ts=topics(s,c);return {done:ts.filter(t=>stat(s,c,t).stars>0).length,total:ts.length}}
 function classDone(c){let d=0;SUBS.forEach(s=>{if(s!=='current')topics(s,c).forEach(t=>{if(stat(s,c,t).stars>0)d++})});return d}
 const totalStars=()=>Object.values(LP.t).reduce((a,b)=>a+(b.stars||0),0);
