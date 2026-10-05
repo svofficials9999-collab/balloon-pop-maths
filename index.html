@@ -82,7 +82,19 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 #field[data-lv="5"] .balloon::after{width:16px;height:16px;clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}
 @keyframes lvpulse{50%{filter:brightness(1.25)}}
 @media(prefers-reduced-motion:reduce){#field .balloon{animation:none!important}}
-</style></head><body><div id="app"></div><script>
+</style><style id="neon2">
+/* v3.35 colourful futuristic buttons and headings (add-only; colours, glow, no size changes) */
+@keyframes nvShift{0%{background-position:0 50%}100%{background-position:200% 50%}}
+.small-btn,#ma .b,#cr .b,#md .b:not(.g),#ma .les,#cr .les,#md .les{background-image:linear-gradient(120deg,#00e5ff,#2979ff,#d500f9,#ff1744,#ff9100,#00e5ff)!important;background-size:250% 100%;color:#fff!important;border:1px solid #ffffffaa!important;text-shadow:0 1px 3px #000a;box-shadow:0 0 12px #00e5ff88,0 3px 0 #070b1c,inset 0 1px 0 #fff6;animation:nvShift 7s linear infinite}
+#ma .b.g,#cr .b.g,#md .b.g{background-image:linear-gradient(120deg,#5b2bff,#8e24aa,#3949ab,#5b2bff)!important;box-shadow:0 0 10px #8e24aa88,0 3px 0 #070b1c}
+#ma .b.ok,#cr .b.ok,#md .b.ok{background-image:linear-gradient(120deg,#00e676,#1de9b6,#00b0ff,#00e676)!important;box-shadow:0 0 12px #00e67688,0 3px 0 #04261a}
+#ma .les:nth-of-type(3n+2),#cr .les:nth-of-type(3n+2),#md .les:nth-of-type(3n+2){background-image:linear-gradient(120deg,#ff1744,#ff9100,#ffea00,#ff1744)!important}
+#ma .les:nth-of-type(3n),#cr .les:nth-of-type(3n),#md .les:nth-of-type(3n){background-image:linear-gradient(120deg,#00e676,#00b0ff,#651fff,#00e676)!important}
+#ma h2,#cr h2,#md h2,#ma h3,#cr h3,#md h3{background:linear-gradient(90deg,#7cf0c2,#4da3ff,#d500f9,#ffb84d);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;text-shadow:none;letter-spacing:.3px}
+#ma .les .p2,#cr .les .p2,#md .les .p2,#ma .les .sm{opacity:.95}
+@media (prefers-reduced-motion:reduce){.small-btn,#ma .b,#cr .b,#md .b,#ma .les,#cr .les,#md .les{animation:none}}
+</style>
+</head><body><div id="app"></div><script>
 // Question banks. Entry: "qTe§qEn|correct|wrong|wrong|wrong" ; option "te~en". Single-language: "q|correct|w|w|w"
 const BANK={
 science:{
@@ -371,7 +383,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='3.34.0-learn';
+const VER='3.35.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
