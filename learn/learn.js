@@ -12,7 +12,7 @@ let LP=readStore('bm2-learn',{t:{},cls:5});
 if(!LP.t)LP.t={};
 const saveL=()=>LS.set('bm2-learn',JSON.stringify(LP));
 let active=false,V={v:'hub',c:LP.cls||S.cls||5},Q=null,loadP={};
-const BANKS=['bank','bsci','bsci2','bsci3','bsci4','bsci5','bsoc','bgk','bmat','beng','btel','btel2','btel3','btel4','btel5','bsoc2'];
+const BANKS=['bank','bsci','bsci2','bsci3','bsci4','bsci5','bsoc','bgk','bmat','beng','btel','btel2','btel3','btel4','btel5','bsoc2','bmat2','bmat15-1','bmat15-2','bmat15-3','bmat3'];
 function load(s){return BANKS.includes(s)?loadRaw(s):loadRaw(s).then(()=>Promise.all(BANKS.map(b=>loadRaw(b).catch(()=>0))))}
 function loadRaw(s){
  if(D[s])return Promise.resolve();
@@ -233,6 +233,7 @@ function speak(text,math){const l=vlang(!!math);if(!l){toast(word('ఈ ఫోన
 async function shareText(msg){const url=location.origin+location.pathname;try{if(navigator.share){await navigator.share({text:msg,url});return}}catch(e){if(e&&e.name==='AbortError')return}window.open('https://wa.me/?text='+encodeURIComponent(msg+' '+url),'_blank')}
 // ---------- v3.3 search: all subjects, Telugu + English + transliteration, typo tolerant, offline ----------
 const KG=[
+['rational','rationals','akaraniya','అకరణీయ','సాధ్య'],['rhombus','rombus','రాంబస్','రాంబస్సు','సమచతుర్భుజం','parallelogram','trapezium','trapezoid','quadrilateral','quadrilaterals','చతుర్భుజం','చతుర్భుజాలు','chaturbhuja'],['trigonometry','trigonometric','trikonamiti','త్రికోణమితి'],
 ['grammar','vyakaranam','vyakarana','vyakaranamu','వ్యాకరణం','వ్యాకరణ'],
 ['chandassu','chandas','chandhassu','chandam','prosody','ఛందస్సు','ఛందస్'],
 ['alankaralu','alankaram','alankara','simile','metaphor','upama','rupakam','అలంకారాలు','అలంకారం','ఉపమ','రూపకం'],
@@ -266,7 +267,7 @@ const TAGS={'telugu:ach':'వ్యాకరణం vyakaranam grammar అక్�
 const SUBTAG={current:'current affairs news gk varthalu వార్తలు samanya general knowledge సామాన్య',english:'english grammar ఇంగ్లీష్',telugu:'telugu తెలుగు',maths:'maths math ganitam గణితం',science:'science vignanam సైన్స్ విజ్ఞానం',social:'social samajika సాంఘిక'};
 let SIDX=null;
 function buildIdx(){if(SIDX)return SIDX;SIDX=[];SUBS.forEach(s=>{if(!D[s])return;const cl=s==='current'?[0]:[1,2,3,4,5,6,7,8,9,10];cl.forEach(c=>topics(s,c).forEach((t,ti)=>{const title=normS(t.te+' '+t.en+' '+(t.id||'')+' '+(TAGS[s+':'+t.id]||'')+' '+(SUBTAG[s]||''));const body=normS((t.n||[]).join(' ')+' '+(t.q||[]).map(x=>String(x).split('|')[0]).join(' '));SIDX.push({s,c,ti,t,title:title+' '+normS(t.kw||''),tw:toks(title+' '+(t.kw||'')),body})}))});return SIDX}
-function scoreTopic(e,terms){let sc=0;for(const tm of terms){let b=0;if(tm.length>=2){if(tm.length>=(isLat(tm)?4:3)&&e.title.includes(tm))b=Math.max(b,6);else if(e.tw.some(w=>wmatch(tm,w)))b=Math.max(b,5);if(!b&&tm.length>=(isLat(tm)?4:3)&&e.body.includes(tm))b=2}sc=Math.max(sc,b)}return sc}
+function scoreTopic(e,terms){let sc=0;let ti=0;for(const tm of terms){let b=0;if(tm.length>=2){if(tm.length>=(isLat(tm)?4:3)&&e.title.includes(tm))b=Math.max(b,6);else if(e.tw.some(w=>wmatch(tm,w)))b=Math.max(b,5);if(!b&&tm.length>=(isLat(tm)?4:3)&&e.body.includes(tm))b=2}if(ti++===0&&b>=5)b+=3;sc=Math.max(sc,b)}return sc}
 function runSearch(raw,cls){const qt=toks(raw);if(!qt.length)return null;const idx=buildIdx();const groups=qt.map(expand);const res=[];idx.forEach(e=>{let tot=0,hit=0;groups.forEach((g,gi)=>{const sc=scoreTopic(e,g);if(sc){hit++;tot+=sc}});if(hit)res.push({e,tot,hit,full:hit===groups.length})});let R2=res;if(res.some(r=>r.tot>=5))R2=res.filter(r=>r.tot>=5||r.hit>1);const full=R2.filter(r=>r.full);const use=full.length?full:R2;use.forEach(r=>{r.k=r.tot+(r.e.c===cls||r.e.c===0?1.5:0)});use.sort((a,b)=>b.k-a.k);return {full:!!full.length,list:use.slice(0,60)}}
 function reqBtn(q){return `<div class="lr-card">${word('ఈ అంశం కావాలా? సేవ్ చేస్తే త్వరలో చేరుస్తాం.','Want this topic? Save a request and we will add it soon.')}<br><button class="lr-row" id="sq-req" data-q="${esc(q)}" style="--c:#56d6cf"><span class="ic">📝</span><span class="tx">${word('ఈ అంశం కావాలి','Request this topic')}</span></button></div>`}
 const FORM='https://docs.google.com/forms/d/e/1FAIpQLSfZBj4tCyYL65LLw6aAZP88Fs0GAIhphMHSyHT86_Ut-84aKg/formResponse';
