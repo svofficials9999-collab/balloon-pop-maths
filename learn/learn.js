@@ -12,7 +12,7 @@ let LP=readStore('bm2-learn',{t:{},cls:5});
 if(!LP.t)LP.t={};
 const saveL=()=>LS.set('bm2-learn',JSON.stringify(LP));
 let active=false,V={v:'hub',c:LP.cls||S.cls||5},Q=null,loadP={};
-const BANKS=['bank','bsci','bsci2','bsci3','bsci4','bsoc','bgk','bmat','beng','btel'];
+const BANKS=['bank','bsci','bsci2','bsci3','bsci4','bsci5','bsoc','bgk','bmat','beng','btel','btel2','btel3','btel4','btel5'];
 function load(s){return BANKS.includes(s)?loadRaw(s):loadRaw(s).then(()=>Promise.all(BANKS.map(b=>loadRaw(b).catch(()=>0))))}
 function loadRaw(s){
  if(D[s])return Promise.resolve();
