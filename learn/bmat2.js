@@ -2,11 +2,11 @@
 (function(){const Q=(q,o,e)=>q+'|'+o.join('|')+'|'+e;const A=LD.add;
 A("maths",[6,7],{id:"m_int",i:"➕",te:"పూర్ణాంకాలు",en:"Integers",kw:"integers negative numbers number line addition subtraction rules purnankalu రుణ సంఖ్యలు",
 n:["# పూర్ణాంకాలు§# Integers","..., −3, −2, −1, 0, 1, 2, 3, ... సంఖ్యలను పూర్ణాంకాలు అంటారు. సంఖ్యా రేఖపై 0 కు కుడివైపు ధన, ఎడమవైపు రుణ సంఖ్యలు ఉంటాయి.§The numbers ..., −3, −2, −1, 0, 1, 2, 3, ... are integers. On the number line positives lie right of 0 and negatives left.","# కూడిక§# Addition","ఒకే గుర్తు ఉంటే కూడి ఆ గుర్తు వేయండి. వేరు గుర్తులైతే పెద్ద సంఖ్య నుండి చిన్నది తీసి పెద్ద దాని గుర్తు వేయండి.§Same signs: add and keep the sign. Different signs: subtract the smaller from the larger and keep the larger sign.","# తీసివేత§# Subtraction","a − b = a + (−b). అంటే తీసివేయడం అంటే వ్యతిరేక సంఖ్యను కూడటం.§a − b = a + (−b). Subtracting means adding the opposite.","# గుణకారం§# Multiplication","సమాన గుర్తులు: ఫలితం ధనం. వేరు గుర్తులు: ఫలితం రుణం. (−) × (−) = (+).§Same signs: positive. Different signs: negative. (−) × (−) = (+).","# > ఉదాహరణ: (−7) + 10 = 3; 5 − 9 = −4; (−3) × (−4) = 12.§# > Example: (−7) + 10 = 3; 5 − 9 = −4; (−3) × (−4) = 12.","undefined§undefined"],
-q:[Q("(−7) + 10 = ?§(−7) + 10 = ?",["3","7","-17","17"],"10 − 7 = 3.§10 − 7 = 3."),
-Q("5 − 9 = ?§5 − 9 = ?",["-4","4","14","-14"],"5 + (−9) = −4.§5 + (−9) = −4."),
-Q("(−3) × (−4) = ?§(−3) × (−4) = ?",["12","-12","7","-7"],"రుణ × రుణ = ధనం.§Negative × negative = positive."),
-Q("(−24) ÷ 6 = ?§(−24) ÷ 6 = ?",["-4","4","-18","18"],"వేరు గుర్తులు, ఫలితం రుణం.§Different signs, negative result."),
-Q("సంఖ్యా రేఖపై 0 కు అతి దగ్గరగా ఉన్న రుణ పూర్ణాంకం?§Negative integer closest to 0?",["-1","0","-2","1"],"−1.§−1.")]});
+q:[Q("(−7) + 10 = ?§(−7) + 10 = ?",["3","7","−17","17"],"10 − 7 = 3.§10 − 7 = 3."),
+Q("5 − 9 = ?§5 − 9 = ?",["−4","4","14","−14"],"5 + (−9) = −4.§5 + (−9) = −4."),
+Q("(−3) × (−4) = ?§(−3) × (−4) = ?",["12","−12","7","−7"],"రుణ × రుణ = ధనం.§Negative × negative = positive."),
+Q("(−24) ÷ 6 = ?§(−24) ÷ 6 = ?",["−4","4","−18","18"],"వేరు గుర్తులు, ఫలితం రుణం.§Different signs, negative result."),
+Q("సంఖ్యా రేఖపై 0 కు అతి దగ్గరగా ఉన్న రుణ పూర్ణాంకం?§Negative integer closest to 0?",["−1","0","−2","1"],"−1.§−1.")]});
 A("maths",[7,8],{id:"m_exp",i:"⬆️",te:"ఘాతాంకాలు",en:"Exponents and Powers",kw:"exponents powers indices laws of exponents ghatankalu ఘాతాలు సూచికలు",
 n:["# ఘాతం§# Power","aⁿ = a ని n సార్లు గుణించడం. a ఆధారం, n ఘాతాంకం.§aⁿ means a multiplied n times. a is the base and n the exponent.","# నియమాలు 1§# Law 1","aᵐ × aⁿ = aᵐ⁺ⁿ మరియు aᵐ ÷ aⁿ = aᵐ⁻ⁿ (a ≠ 0).§aᵐ × aⁿ = aᵐ⁺ⁿ and aᵐ ÷ aⁿ = aᵐ⁻ⁿ (a ≠ 0).","# నియమాలు 2§# Law 2","(aᵐ)ⁿ = aᵐⁿ మరియు (ab)ⁿ = aⁿbⁿ.§(aᵐ)ⁿ = aᵐⁿ and (ab)ⁿ = aⁿbⁿ.","# ప్రత్యేకాలు§# Special cases","a⁰ = 1 (a ≠ 0) మరియు a⁻ⁿ = 1/aⁿ.§a⁰ = 1 (a ≠ 0) and a⁻ⁿ = 1/aⁿ.","# > పెద్ద సంఖ్యలను ప్రామాణిక రూపంలో రాయవచ్చు: 5,00,000 = 5 × 10⁵.§# > Large numbers can be written in standard form: 500000 = 5 × 10⁵.","undefined§undefined"],
 q:[Q("2³ × 2⁴ = 2^?§2³ × 2⁴ = 2^?",["7","12","1","34"],"ఘాతాలు కూడతాయి.§Exponents add."),
@@ -83,7 +83,7 @@ q:[Q("(0,0), (3,4) మధ్య దూరం?§Distance between (0,0) and (3,4)?
 Q("(2,3), (6,7) మధ్య బిందువు?§Midpoint of (2,3) and (6,7)?",["(4, 5)","(8, 10)","(2, 2)","(3, 4)"],"సగటులు తీసుకోండి.§Average the coordinates."),
 Q("(−2, 5) ఏ పాదంలో ఉంది?§Which quadrant has (−2, 5)?",["II","I","III","IV"],"x రుణం, y ధనం.§x negative, y positive."),
 Q("(1,1), (4,5) మధ్య దూరం?§Distance between (1,1) and (4,5)?",["5","7","4","3"],"√(9+16).§√(9+16)."),
-Q("x-అక్షంపై బిందువు y నిరూపకం?§y-coordinate of any point on the x-axis?",["0","1","-1","5"],"x-అక్షంపై y = 0.§y = 0 on the x-axis.")]});
+Q("x-అక్షంపై బిందువు y నిరూపకం?§y-coordinate of any point on the x-axis?",["0","1","−1","5"],"x-అక్షంపై y = 0.§y = 0 on the x-axis.")]});
 A("maths",[6,7],{id:"m_ratio",i:"⚗️",te:"నిష్పత్తి, అనుపాతం",en:"Ratio and Proportion",kw:"ratio proportion unitary method nishpatti anupatham direct inverse నిష్పత్తి అనుపాతం",
 n:["# నిష్పత్తి§# Ratio","ఒకే ప్రమాణంలోని రెండు రాశుల పోలిక a : b = a/b.§Comparison of two quantities in the same unit: a : b = a/b.","# అనుపాతం§# Proportion","రెండు నిష్పత్తులు సమానమైతే అవి అనుపాతంలో ఉంటాయి: a/b = c/d ⇒ ad = bc.§Two equal ratios are in proportion: a/b = c/d ⇒ ad = bc.","# అనులోమ అనుపాతం§# Direct proportion","ఒకటి పెరిగితే రెండవది అదే నిష్పత్తిలో పెరుగుతుంది. ఉదా: వస్తువుల సంఖ్య, ధర.§If one increases the other increases in the same ratio. e.g. items and cost.","# విలోమ అనుపాతం§# Inverse proportion","ఒకటి పెరిగితే రెండవది తగ్గుతుంది. ఉదా: పనివారు, రోజులు.§If one increases the other decreases. e.g. workers and days.","# > 6 పెన్నులు ₹60 అయితే 10 పెన్నులు ₹100.§# > If 6 pens cost ₹60, 10 pens cost ₹100.","undefined§undefined"],
 q:[Q("12 : 18 సరళ రూపం?§12 : 18 in simplest form?",["2 : 3","3 : 2","6 : 9","12 : 9"],"6 తో భాగించండి.§Divide by 6."),
@@ -121,10 +121,10 @@ Q("84 ప్రధాన కారణాంకాల లబ్ధం?§Prime fac
 Q("2 + √3 ఏ రకం?§2 + √3 is?",["కరణీయం~Irrational","అకరణీయం~Rational","పూర్ణ సంఖ్య~Integer","సహజ సంఖ్య~Natural"],"అకరణీయం + కరణీయం = కరణీయం.§Rational + irrational = irrational.")]});
 A("maths",[9,10],{id:"m_poly",i:"🧮",te:"బహుపదులు",en:"Polynomials",kw:"polynomial zeros degree remainder theorem factor theorem bahupadulu బహుపది శూన్యాలు",
 n:["# బహుపది§# Polynomial","చరరాశి ఘాతాలు పూర్ణ సంఖ్యలుగా ఉన్న బీజీయ సమాసం. అత్యధిక ఘాతం డిగ్రీ.§An algebraic expression with whole-number powers. The highest power is the degree.","# శూన్యం§# Zero","p(a) = 0 అయితే a, p(x) యొక్క శూన్యం.§If p(a) = 0 then a is a zero of p(x).","# శేష సిద్ధాంతం§# Remainder theorem","p(x) ను (x − a) తో భాగిస్తే శేషం p(a).§Dividing p(x) by (x − a) leaves remainder p(a).","# కారణాంక సిద్ధాంతం§# Factor theorem","p(a) = 0 అయితే (x − a) కారణాంకం.§If p(a) = 0 then (x − a) is a factor.","# వర్గ బహుపది§# Quadratic","శూన్యాల మొత్తం = −b/a, లబ్ధం = c/a.§Sum of zeros = −b/a, product = c/a."],
-q:[Q("p(x) = x² − 5x + 6 యొక్క p(2)?§p(x) = x² − 5x + 6. p(2) = ?",["0","2","-12","4"],"శూన్యం.§2 is a zero."),
-Q("x² − 5x + 6 శూన్యాల మొత్తం?§Sum of zeros of x² − 5x + 6?",["5","6","-5","1"],"−b/a = 5.§−b/a = 5."),
-Q("x³ − 2x + 1 ను (x − 1) తో భాగిస్తే శేషం?§Remainder when x³ − 2x + 1 is divided by (x − 1)?",["0","1","2","-1"],"p(1) = 0.§p(1) = 0."),
-Q("x² + 7x + 10 శూన్యాల లబ్ధం?§Product of zeros of x² + 7x + 10?",["10","7","-7","-10"],"c/a = 10.§c/a = 10."),
+q:[Q("p(x) = x² − 5x + 6 యొక్క p(2)?§p(x) = x² − 5x + 6. p(2) = ?",["0","2","−12","4"],"శూన్యం.§2 is a zero."),
+Q("x² − 5x + 6 శూన్యాల మొత్తం?§Sum of zeros of x² − 5x + 6?",["5","6","−5","1"],"−b/a = 5.§−b/a = 5."),
+Q("x³ − 2x + 1 ను (x − 1) తో భాగిస్తే శేషం?§Remainder when x³ − 2x + 1 is divided by (x − 1)?",["0","1","2","−1"],"p(1) = 0.§p(1) = 0."),
+Q("x² + 7x + 10 శూన్యాల లబ్ధం?§Product of zeros of x² + 7x + 10?",["10","7","−7","−10"],"c/a = 10.§c/a = 10."),
 Q("3x² + 2x − 1 డిగ్రీ?§Degree of 3x² + 2x − 1?",["2","3","1","0"],"అత్యధిక ఘాతం 2.§Highest power is 2.")]});
 A("maths",[10],{id:"m_simtri",i:"📐",te:"సరూప త్రిభుజాలు",en:"Similar Triangles",kw:"similar triangles basic proportionality theorem thales AAA similarity sarupa trikonalu సరూప త్రిభుజాలు",
 n:["# సరూపత§# Similarity","సంగత కోణాలు సమానం మరియు సంగత భుజాలు అనుపాతంలో ఉంటే త్రిభుజాలు సరూపాలు.§Triangles are similar if corresponding angles are equal and corresponding sides are proportional.","# AA ప్రమాణం§# AA criterion","రెండు కోణాలు సమానమైతే త్రిభుజాలు సరూపాలు.§If two angles are equal the triangles are similar.","# ప్రాథమిక అనుపాత సిద్ధాంతం (థేల్స్)§# Basic Proportionality Theorem","త్రిభుజంలో ఒక భుజానికి సమాంతరంగా గీసిన రేఖ మిగిలిన రెండు భుజాలను ఒకే నిష్పత్తిలో విభజిస్తుంది.§A line parallel to one side of a triangle divides the other two sides in the same ratio.","# వైశాల్యాలు§# Areas","సరూప త్రిభుజాల వైశాల్యాల నిష్పత్తి = సంగత భుజాల నిష్పత్తి వర్గం.§The ratio of areas of similar triangles = square of the ratio of corresponding sides.","# > భుజాల నిష్పత్తి 2 : 3 అయితే వైశాల్యాల నిష్పత్తి 4 : 9.§# > Sides in ratio 2 : 3 give areas in ratio 4 : 9.","undefined§undefined"],
