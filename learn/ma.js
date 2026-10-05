@@ -103,6 +103,7 @@ function home(){stopAnim();const n=Object.keys(D.done).length;
  LES.forEach((l,i)=>{h+=`<button class="les" data-a="lesson" data-v="${i}"><span class="ic">${l.ic}</span><span style="flex:1">${i+1}. ${E(L(l.n.te,l.n.en))}</span><span>${D.done[l.id]?'✅':'▶'}</span></button>`});
  h+=`<div class="c"><b>🎖️ ${L('బ్యాడ్జీలు (యాప్ పాఠం పూర్తి)','Badges (app lesson completion)')}</b><div class="row" style="margin-top:6px">${BADGES.map(b=>`<span style="opacity:${n>=b[0]?1:.35}">${b[1]} ${L(b[2].te,b[2].en)}</span>`).join(' ')}</div><div class="sm">${L('బ్యాడ్జీలు యాప్ పాఠాలు పూర్తి చేసినందుకే - నైపుణ్య పరీక్ష కాదు.','Badges mean app lessons completed. They do not assess skill or readiness to spar.')}</div></div>`;
  h+=`<h3>${L('త్వరలో','Coming soon')}</h3><div class="c cm">${COMING.map(c=>`<div>${c[0]} ${L(c[1].te,c[1].en)}</div>`).join('')}<div class="sm" style="margin-top:6px">${L('సంప్రదింపు అంశాలు XP లేదా వయస్సుతో తెరవబడవు.','Contact content is never unlocked by XP or age.')}</div></div>`;
+ h+=`<button class="b" data-a="videos">🎥 ${L('నిజమైన శిక్షణ వీడియోలు','Real Training Videos')}</button> `;
  h+=`<button class="b g" data-a="parent">👪 ${L('తల్లిదండ్రుల వీక్షణ','Parent view')}</button>`;
  render(h)}
 function parent(){const n=Object.keys(D.done).length;render(top()+`<h2>👪 ${L('తల్లిదండ్రుల వీక్షణ','Parent view')}</h2><div class="c"><p>${L('పూర్తయిన పాఠాలు','Lessons completed')}: <b>${n}/${LES.length}</b> · XP ${D.xp} · ${ageT()}</p>${LES.map(l=>`<div>${D.done[l.id]?'✅':'⬜'} ${E(L(l.n.te,l.n.en))}</div>`).join('')}</div><div class="c warn"><p>${L('ఇది యాప్ పాఠాల పురోగతి మాత్రమే. నిజమైన శిక్షణకు అర్హత కలిగిన బోధకుడు అవసరం. భాగస్వామి సాధనలు, సాండా కోసం బోధకుని పర్యవేక్షణ తప్పనిసరి.','This tracks app lessons only. Real training needs a qualified instructor. Partner drills and Sanda need supervision.')}</p></div>`)}
@@ -148,10 +149,11 @@ function click(ev){const b=ev.target.closest('[data-a]');if(!b)return;const a=b.
  if(a==='timer'){timer();return}
  if(a==='quiz'){quiz(+v);return}
  if(a==='ans'){ans(+v);return}if(a==='qnext'){qshow();return}if(a==='finish'){finish();return}
- if(a==='parent'){parent();return}}
+ if(a==='parent'){parent();return}if(a==='videos'){loadVid();return}}
 function onPop(){if(ov)close(true)}
 function close(fromPop){clearInterval(tm);stopAnim();try{speechSynthesis.cancel()}catch(e){}if(ov){ov.remove();ov=null}window.removeEventListener('popstate',onPop);if(!fromPop){try{if(location.hash==='#martial')history.back()}catch(e){}}}
 function open(){if(ov)return;load();if(!document.getElementById('macss')){const s=document.createElement('style');s.id='macss';s.textContent=css;document.head.appendChild(s)}ov=document.createElement('div');ov.id='ma';document.body.appendChild(ov);ov.addEventListener('click',click);window.addEventListener('popstate',onPop);try{history.pushState({ma:1},'','#martial')}catch(e){}home()}
 function selfTest(){const r=[];const ck=(n,c)=>r.push((c?'ok ':'FAIL ')+n);LES.forEach(l=>{ck(l.id+' keys',l.keys.every(k=>PO[k]&&PO[k].f&&PO[k].s));ck(l.id+' quiz',l.q.length>=2&&l.q.every(q=>q.o.length===4&&q.a>=0&&q.a<4))});Object.keys(PO).forEach(k=>['f','s'].forEach(v=>{const f=fig(PO[k][v]);ck(k+v,[f.head,f.lL.f,f.lR.f,f.aL.h,f.aR.h].every(p=>isFinite(p[0])&&isFinite(p[1])))}));return r}
-window.MartialApp={open,selfTest,svgFig,PO,LES};
+let vl=null;function loadVid(){if(window.MartialVideos){window.MartialVideos.open();return}(vl||(vl=new Promise((res,rej)=>{const e=document.createElement('script');e.src='./learn/mavid.js?v='+(typeof VER!=='undefined'?VER:'');e.onload=res;e.onerror=()=>{vl=null;rej()};document.head.appendChild(e)}))).then(()=>window.MartialVideos.open()).catch(()=>{})}
+window.MartialApp={open,selfTest,svgFig,PO,LES,loadVid,_i:{render:h=>render(h),top,L,E,lesson:i=>lesson(i),get D(){return D}}};
 })();
