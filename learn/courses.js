@@ -7,6 +7,8 @@ const C=window.COURSES=window.COURSES||[
 {id:'md',ic:'🧘',te:'ధ్యానం పూర్తి కోర్సు',en:'Meditation full course',d:['20 మాడ్యూళ్ళు, తెలుగు + English','20 modules, Telugu + English'],act:'meditation'},
 {id:'iq',ic:'🧠',te:'మైండ్ IQ',en:'MIND IQ',d:['మనస్తత్వ శాస్త్రం, తర్కం, జ్ఞాపకశక్తి','Psychology, logic and memory'],url:'./mindiq/'},
 {id:'cs',ic:'🛡️',te:'సైబర్ సేఫ్టీ',en:'Cyber Safety',d:['ఆన్‌లైన్ భద్రత, విద్యార్థులు మరియు కుటుంబాలకు','Online safety for students and families'],url:'./cybersafe/'},
+{id:'mm',ic:'💰',te:'మనీ మాస్టరీ',en:'Money Mastery',d:['డబ్బు, పొదుపు, బడ్జెట్, కాలిక్యులేటర్లు, ఛాలెంజ్‌లు','Money, saving, budgeting, calculators and challenges'],url:'./moneymastery/'},
+{id:'tm',ic:'⏱️',te:'టైమ్ మేనేజ్‌మెంట్',en:'Time Management',d:['సమయం ప్రణాళిక, అలవాట్లు, ఏకాగ్రత','Plan your time, build habits and focus'],url:'./timemgmt/'},
 {id:'sp',ic:'⚡',te:'స్పీడ్ రీడింగ్',en:'Speed Reading',d:['వేగంగా చదవడం, ప్రశ్నలతో','Read faster with questions'],act:'speed'},
 {id:'pz',ic:'🧩',te:'పజిల్స్',en:'Puzzles',d:['బుద్ధికి పదునుపెట్టే ఆటలు','Fun puzzles'],act:'puzzles'},
 {id:'pg',ic:'👪',te:'తల్లిదండ్రులు & విద్యార్థుల గైడ్',en:'Parents & Students Guide',d:['టైమ్‌టేబుల్స్, చిట్కాలు','Timetables and tips'],act:'parents'}];
