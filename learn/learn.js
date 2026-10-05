@@ -2,7 +2,7 @@
 (function(){
 'use strict';
 const D={};
-const EX={};window.LD={reg(s,d){D[s]=d},add(s,cl,t){cl.forEach(c=>{(EX[s+':'+c]=EX[s+':'+c]||[]).push(Object.assign({},t,{cl}))})}};
+const EX={};const DGX={};window.LD={dg(o){Object.keys(o).forEach(k=>{const b=k.replace(/(#|--)\d+$/,'');(DGX[b]=DGX[b]||[]).push(o[k])})},reg(s,d){D[s]=d},add(s,cl,t){cl.forEach(c=>{(EX[s+':'+c]=EX[s+':'+c]||[]).push(Object.assign({},t,{cl}))})}};
 const bo=s=>{s=String(s);if(s.indexOf('\u00A7')<0&&s.indexOf('~')>0){const p=s.split('~');return {te:p[0],en:p[1]}}return bi(s)};
 const bi=s=>{const p=String(s).split('\u00A7');return p.length>1?{te:p[0],en:p[1]}:{te:String(s),en:String(s)}};
 const W=o=>(o&&(o[S.lang]||o.te||o.en))||'';
@@ -12,7 +12,7 @@ let LP=readStore('bm2-learn',{t:{},cls:5});
 if(!LP.t)LP.t={};
 const saveL=()=>LS.set('bm2-learn',JSON.stringify(LP));
 let active=false,V={v:'hub',c:LP.cls||S.cls||5},Q=null,loadP={};
-const BANKS=['bank','bsci','bsci2','bsci3','bsci4','bsci5','bsoc','bgk','bmat','beng','btel','btel2','btel3','btel4','btel5','bsoc2','bmat2','bmat15-1','bmat15-2','bmat15-3','bmat3'];
+const BANKS=['bank','bsci','bsci2','bsci3','bsci4','bsci5','bsoc','bgk','bmat','beng','btel','btel2','btel3','btel4','btel5','bsoc2','bmat2','bmat15-1','bmat15-2','bmat15-3','bmat3','diag','dgm1','dgm2','dgm3','dgm5','dgm6','dgm7','dgm8','dgm9'];
 function load(s){return BANKS.includes(s)?loadRaw(s):loadRaw(s).then(()=>Promise.all(BANKS.map(b=>loadRaw(b).catch(()=>0))))}
 function loadRaw(s){
  if(D[s])return Promise.resolve();
@@ -187,6 +187,7 @@ const css=document.createElement('style');css.textContent=`
 .lr-chips{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}.lr-chip{height:46px;border-radius:12px;background:#202b50;color:#f6f8ff;font-size:19px;font-weight:800;border:1px solid #7ab9ff55;box-shadow:0 3px 0 #070b1c;position:relative}.lr-chip.on{background:linear-gradient(135deg,#35cbe0,#6773f4);color:#08132b}.lr-chip small{position:absolute;right:4px;bottom:1px;font-size:9px;font-weight:700}
 .lr-subs{display:grid;grid-template-columns:1fr 1fr;gap:9px}.lr-sc{background:#202b50;border:1px solid #7ab9ff55;border-top:4px solid var(--c);border-radius:16px;padding:10px 8px;text-align:center;font-weight:800;font-size:15px;min-height:88px;display:flex;flex-direction:column;align-items:center;gap:3px;box-shadow:0 3px 0 #070b1c;color:#f6f8ff}.lr-sc span{font-size:28px}.lr-sc small{font-size:11px;font-weight:600;color:#bcd2ff}
 .lr-bar{height:6px;background:#394567;border-radius:6px;overflow:hidden;width:100%;margin-top:4px}.lr-bar i{display:block;height:100%;background:linear-gradient(90deg,#56d6cf,#ad8aff)}
+.dg-cap{font-size:12px;color:#cfe3ff;text-align:center;margin:4px 0}
 .lr-card{background:#1d2545;border:1px solid #a599ff55;border-radius:16px;padding:12px 14px;margin:8px 0;text-align:left;line-height:1.6;font-size:15px}
 .lr-card h3{margin:8px 0 4px;font-size:15px;color:#ffe192}.lr-card p{margin:4px 0}.lr-card .ex{background:#12193a;border-left:3px solid #56d6cf;padding:6px 10px;border-radius:8px;margin:6px 0;font-weight:700}
 .lr-card.hl{border-color:#56d6cf88}
@@ -288,7 +289,7 @@ tan:()=>svgW(`<circle cx="95" cy="80" r="48" fill="#16224a" stroke="#56d6ff" str
 quad:()=>svgW(`<g stroke="#9fb5e6" stroke-width="1.5"><line x1="110" y1="10" x2="110" y2="150"/><line x1="15" y1="80" x2="205" y2="80"/></g><g fill="#ffe192" text-anchor="middle"><text x="160" y="45">I (+,+)</text><text x="60" y="45">II (−,+)</text><text x="60" y="120">III (−,−)</text><text x="160" y="120">IV (+,−)</text></g><text x="196" y="94">x</text><text x="114" y="18">y</text><text x="114" y="94">O</text>`,DGW('నిరూపక తలం: నాలుగు పాదాలు','Coordinate plane: four quadrants'))
 };
 const DIAG={'maths:geo9':['rt'],'maths:trig10':['rt'],'maths:geo6':['ang'],'science:lab10':['lens'],'science:light10':['lens'],'maths:men10':['circ'],'maths:si7':['circ'],'maths:sim10':['tan'],'maths:coord9':['quad'],'maths:cg10':['quad']};
-const diagHTML=(s,t)=>(DIAG[s+':'+t.id]||[]).map(k=>{try{return SVGS[k]()}catch(e){return ''}}).join('');
+const diagHTML=(s,t)=>(DIAG[s+':'+t.id]||[]).map(k=>{try{return SVGS[k]()}catch(e){return ''}}).join('')+(window.DG&&DGX[t.id]?DGX[t.id].map(sp=>{try{return DG.html(sp,W)}catch(e){return ''}}).join(''):'');
 // ---------- views ----------
 function render(v){try{SS&&SS.cancel()}catch(e){}({hub:hubView,subj:subjView,topic:topicView,quiz:quizView,result:resultView}[v.v]||hubView)(v)}
 function hubView(v){
