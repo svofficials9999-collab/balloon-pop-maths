@@ -371,7 +371,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='3.30.0-learn';
+const VER='3.31.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -583,6 +583,9 @@ const homeBeforeSpeed=home;home=function(){homeBeforeSpeed();const a=$('#par-btn
 let pzLoading=null;function loadPz(){if(window.PuzzleApp)return Promise.resolve();return pzLoading||(pzLoading=new Promise((res,rej)=>{const e=document.createElement('script');e.src='./learn/puzzles.js?v='+VER;e.onload=res;e.onerror=()=>{pzLoading=null;rej()};document.head.appendChild(e)}))}
 function openPuzzles(){loadPz().then(()=>window.PuzzleApp.open()).catch(()=>{try{toast(word('లోడ్ కాలేదు, ఇంటర్నెట్ చూడండి','Could not load. Check internet.'))}catch(e){}})}
 const homeBeforePz=home;home=function(){homeBeforePz();const a=$('#speed-btn')||$('#par-btn')||$('#home-sq')||$('#learn-btn');if(!a||$('#pz-btn'))return;const host=a.closest('.row')||a;host.insertAdjacentHTML('afterend',`<div class="row" style="margin-top:6px"><button class="small-btn" id="pz-btn">\ud83e\udde9 ${word('పజిల్స్','Puzzles')} \u00b7 ${word('ఆటలు','Games')}</button></div>`);$('#pz-btn').onclick=()=>{SFX.tap();openPuzzles()}};
+let maLoading=null;function loadMa(){if(window.MartialApp)return Promise.resolve();return maLoading||(maLoading=new Promise((res,rej)=>{const e=document.createElement('script');e.src='./learn/ma.js?v='+VER;e.onload=res;e.onerror=()=>{maLoading=null;rej()};document.head.appendChild(e)}))}
+function openMartial(){loadMa().then(()=>window.MartialApp.open()).catch(()=>{try{toast(word('లోడ్ కాలేదు, ఇంటర్నెట్ చూడండి','Could not load. Check internet.'))}catch(e){}})}
+const homeBeforeMa=home;home=function(){homeBeforeMa();const a=$('#pz-btn')||$('#speed-btn')||$('#par-btn')||$('#home-sq')||$('#learn-btn');if(!a||$('#ma-btn'))return;const host=a.closest('.row')||a;host.insertAdjacentHTML('afterend',`<div class="row" style="margin-top:6px"><button class="small-btn" id="ma-btn">\ud83e\udd4b ${word('మార్షల్ ఆర్ట్స్','Martial Arts')}</button></div>`);$('#ma-btn').onclick=()=>{SFX.tap();openMartial()}};
 const homeBeforeMq=home;home=function(){homeBeforeMq();const w=document.querySelector('.learn-cta .mq-win');if(w)w.style.setProperty('--mqw',w.clientWidth+'px');const t=document.querySelector('.learn-cta .mq-tx');if(t&&w)t.style.setProperty('--mqw',w.clientWidth+'px')};
 (function(){if(document.getElementById('pgfx'))return;const l=document.createElement('link');l.rel='stylesheet';l.media='print';l.onload=function(){this.media='all'};l.href='https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;600;800&family=Poppins:wght@400;600;700&display=swap';document.head.appendChild(l);const s=document.createElement('style');s.id='pgfx';s.textContent=`
 .pg-in,.pg-in p,.pg-in .small-btn{font-family:'Noto Sans Telugu','Poppins','Nirmala UI','Segoe UI',system-ui,sans-serif}
@@ -654,5 +657,5 @@ document.documentElement.lang=S.lang;home();checkVersion();
 if(/^#learn/.test(location.hash))openLearn(location.hash);
 
 if(location.hash==='#parents')setTimeout(()=>openParents(0),400);
-if(location.hash==='#speed')setTimeout(()=>openSpeed(),500);if(location.hash==='#puzzles')setTimeout(()=>openPuzzles(),500);
+if(location.hash==='#speed')setTimeout(()=>openSpeed(),500);if(location.hash==='#puzzles')setTimeout(()=>openPuzzles(),500);if(location.hash==='#martial')setTimeout(()=>openMartial(),500);
 </script></body></html>
