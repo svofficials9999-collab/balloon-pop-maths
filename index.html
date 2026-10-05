@@ -401,7 +401,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='3.41.0-learn';
+const VER='3.42.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -695,4 +695,6 @@ if(/^#learn/.test(location.hash))openLearn(location.hash);
 
 if(location.hash==='#parents')setTimeout(()=>openParents(0),400);
 if(location.hash==='#speed')setTimeout(()=>openSpeed(),500);if(location.hash==='#puzzles')setTimeout(()=>openPuzzles(),500);if(location.hash==='#martial')setTimeout(()=>openMartial(),500);if(location.hash==='#meditation')setTimeout(()=>openMeditation(),500);if(location.hash==='#courses')setTimeout(()=>openCourses(),500);
+
+;(function(){try{const ss=window.speechSynthesis;if(!ss||ss.__fv)return;const F=/female|heera|priya|neerja|shruti|swara|kalpana|veena|lekha|sangeeta|aditi|raveena|google (हिन्दी|తెలుగు|english)|\bf\b/i,M=/\bmale\b|ravi|prabhat|hemant|madhur|mohan|rishi/i;let cache={};function pick(lang){const base=(lang||'en-IN').toLowerCase().slice(0,2);const want=base==='te'?'te-in':'en-in';const vs=ss.getVoices()||[];const k=want+vs.length;if(cache[k]!==undefined)return cache[k];const c=vs.filter(v=>(v.lang||'').toLowerCase().replace('_','-')===want);let best=c.find(v=>F.test(v.name)&&!M.test(v.name))||c.find(v=>!M.test(v.name))||c[0]||null;cache[k]=best;return best}const sp=ss.speak.bind(ss);ss.speak=function(u){try{if(u&&!u.__set){u.__set=1;const l=(u.lang||'').toLowerCase();if(l.startsWith('te')||l.startsWith('en')){const v=pick(u.lang);if(v){u.voice=v;u.lang=v.lang}}}}catch(e){}return sp(u)};ss.__fv=1;if(ss.addEventListener)ss.addEventListener('voiceschanged',()=>{cache={}})}catch(e){}})();
 </script></body></html>
