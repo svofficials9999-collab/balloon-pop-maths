@@ -1,4 +1,4 @@
-<!doctype html><html lang="te"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=5"><meta name="theme-color" content="#10152d"><meta name="description" content="Balloon Pop Maths - a fun Telugu learning game for kids, class 1 to 10. Maths, Science, English, Telugu and GK."><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><title>SV AksharaNova | శ్రీనివాస్ అక్షరనోవా</title><link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./learn/logo.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="./learn/logo.svg"><style>*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}html,body{margin:0;height:100%}body{background:#0b3d91;font-family:system-ui,-apple-system,"Noto Sans Telugu","Nirmala UI",sans-serif;overscroll-behavior:none;touch-action:manipulation;user-select:none;-webkit-user-select:none}
+<!doctype html><html lang="te"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://upload.wikimedia.org https://commons.wikimedia.org; media-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://docs.google.com; frame-src https://commons.wikimedia.org; object-src 'none'; base-uri 'self'; form-action 'self' https://docs.google.com; worker-src 'self' blob:; manifest-src 'self'"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=5"><meta name="theme-color" content="#10152d"><meta name="description" content="Balloon Pop Maths - a fun Telugu learning game for kids, class 1 to 10. Maths, Science, English, Telugu and GK."><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><title>SV AksharaNova | శ్రీనివాస్ అక్షరనోవా</title><link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./learn/logo.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="./learn/logo.svg"><style>*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}html,body{margin:0;height:100%}body{background:#0b3d91;font-family:system-ui,-apple-system,"Noto Sans Telugu","Nirmala UI",sans-serif;overscroll-behavior:none;touch-action:manipulation;user-select:none;-webkit-user-select:none}
 button{font-family:inherit;cursor:pointer;border:0;touch-action:manipulation;color:inherit}
 .game{padding-top:env(safe-area-inset-top,0);position:relative;height:100vh;height:100dvh;min-height:520px;max-width:520px;margin:0 auto;overflow:hidden;display:flex;flex-direction:column;color:#fff}
 .sky{background:linear-gradient(180deg,#4fc3f7,#81d4fa 55%,#c8f0ff)}
@@ -401,7 +401,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='3.47.0-learn';
+const VER='3.48.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -562,7 +562,7 @@ async function shareScore(score,solved){const c=document.createElement('canvas')
   if(navigator.canShare&&navigator.canShare({files:[f]})){await navigator.share({files:[f],text:text+' '+url});return}
   if(navigator.share){await navigator.share({text,url});return}
   const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='balloon-pop-score.png';a.click();
-  window.open('https://wa.me/?text='+encodeURIComponent(text+' '+url),'_blank')}catch(e){if(e&&e.name!=='AbortError')toast('Share failed')}}
+  window.open('https://wa.me/?text='+encodeURIComponent(text+' '+url),'_blank','noopener,noreferrer')}catch(e){if(e&&e.name!=='AbortError')toast('Share failed')}}
 // ---------- PWA ----------
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=e;if(!G)home()});
 window.addEventListener('appinstalled',()=>{installEvt=null});
