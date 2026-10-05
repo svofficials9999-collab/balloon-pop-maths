@@ -69,6 +69,7 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 #learn-btn.learn-cta .mq-win{border-radius:4px;height:2em;line-height:2em;background:#fbfff0;box-shadow:inset 0 0 0 2px #1b8f2a,0 0 8px #64dd1799}
 #learn-btn.learn-cta .mq-tx{top:0;background-image:linear-gradient(90deg,#0a7a2f 0 16%,#d81b60 16% 33%,#e65100 33% 50%,#1565c0 50% 66%,#7b1fa2 66% 83%,#0a7a2f 83% 100%);background-size:200% 100%}
 .learn-cta .mq-st{width:36px;height:44px;filter:drop-shadow(0 2px 2px #0005)}.learn-cta .mq-fix{gap:0}
+#pz-btn{font-weight:900;color:#fff;border:1px solid #7cff8a;background:linear-gradient(120deg,#00c853,#00b0ff,#7c4dff,#00c853);background-size:250% 100%;box-shadow:0 0 12px #00e67688,0 3px 0 #070b1c;text-shadow:0 1px 2px #0007;font-size:15px;padding:10px 18px;animation:spdBg 5s linear infinite}@media (prefers-reduced-motion:reduce){#pz-btn{animation:none}}
 </style><style id="sv-compact">#field[data-lv="1"]{background:linear-gradient(180deg,#ff9f0a22,#0000 60%)}#field[data-lv="2"]{background:linear-gradient(180deg,#0a84ff26,#0000 60%)}#field[data-lv="3"]{background:linear-gradient(180deg,#ff375f26,#ff9f0a14 70%,#0000)}#field[data-lv="4"]{background:linear-gradient(180deg,#1a1a5c55,#0000 70%)}#field[data-lv="5"]{background:linear-gradient(180deg,#bf5af244,#30d1581a 70%,#0000)}.hq{display:block;width:92%;max-width:420px;box-sizing:border-box;margin:8px auto;padding:12px 14px;border-radius:14px;border:1.5px solid #4a5aa8;background:#0f1633;color:#cfe0ff;font-size:16px;outline:none}.game:not(.lrn){zoom:.94;height:calc(100vh/.94);height:calc(100dvh/.94)}</style><style id="sv-looks">
 #field[data-lv="1"] .balloon{border-radius:50% 50% 48% 48%/58% 58% 42% 42%}
 #field[data-lv="2"] .balloon{border-radius:50%;border-style:dashed;border-width:3px}
@@ -370,7 +371,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='3.14.0-learn';
+const VER='3.15.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -579,6 +580,9 @@ const homeBeforeParents=home;home=function(){homeBeforeParents();const a=$('#hom
 let speedLoading=null;function loadSpeed(){if(window.SpeedApp)return Promise.resolve();return speedLoading||(speedLoading=new Promise((res,rej)=>{const e=document.createElement('script');e.src='./learn/speed.js?v='+VER;e.onload=res;e.onerror=()=>{speedLoading=null;rej()};document.head.appendChild(e)}))}
 function openSpeed(){loadSpeed().then(()=>window.SpeedApp.open()).catch(()=>{try{toast(word('లోడ్ కాలేదు, ఇంటర్నెట్ చూడండి','Could not load. Check internet.'))}catch(e){alert('Could not load Speed Reading')}})}
 const homeBeforeSpeed=home;home=function(){homeBeforeSpeed();const a=$('#par-btn')||$('#home-sq')||$('#learn-btn');if(!a||$('#speed-btn'))return;const host=a.closest('.row')||a;host.insertAdjacentHTML('afterend',`<div class="row" style="margin-top:6px"><button class="small-btn" id="speed-btn">\u26a1 ${word('స్పీడ్ రీడింగ్ కోర్సు','Speed Reading Course')} \ud83d\ude80</button></div>`);$('#speed-btn').onclick=()=>{SFX.tap();openSpeed()}};
+let pzLoading=null;function loadPz(){if(window.PuzzleApp)return Promise.resolve();return pzLoading||(pzLoading=new Promise((res,rej)=>{const e=document.createElement('script');e.src='./learn/puzzles.js?v='+VER;e.onload=res;e.onerror=()=>{pzLoading=null;rej()};document.head.appendChild(e)}))}
+function openPuzzles(){loadPz().then(()=>window.PuzzleApp.open()).catch(()=>{try{toast(word('లోడ్ కాలేదు, ఇంటర్నెట్ చూడండి','Could not load. Check internet.'))}catch(e){}})}
+const homeBeforePz=home;home=function(){homeBeforePz();const a=$('#speed-btn')||$('#par-btn')||$('#home-sq')||$('#learn-btn');if(!a||$('#pz-btn'))return;const host=a.closest('.row')||a;host.insertAdjacentHTML('afterend',`<div class="row" style="margin-top:6px"><button class="small-btn" id="pz-btn">\ud83e\udde9 ${word('పజిల్స్','Puzzles')} \u00b7 ${word('ఆటలు','Games')}</button></div>`);$('#pz-btn').onclick=()=>{SFX.tap();openPuzzles()}};
 const homeBeforeMq=home;home=function(){homeBeforeMq();const w=document.querySelector('.learn-cta .mq-win');if(w)w.style.setProperty('--mqw',w.clientWidth+'px');const t=document.querySelector('.learn-cta .mq-tx');if(t&&w)t.style.setProperty('--mqw',w.clientWidth+'px')};
 (function(){if(document.getElementById('pgfx'))return;const l=document.createElement('link');l.rel='stylesheet';l.media='print';l.onload=function(){this.media='all'};l.href='https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;600;800&family=Poppins:wght@400;600;700&display=swap';document.head.appendChild(l);const s=document.createElement('style');s.id='pgfx';s.textContent=`
 .pg-in,.pg-in p,.pg-in .small-btn{font-family:'Noto Sans Telugu','Poppins','Nirmala UI','Segoe UI',system-ui,sans-serif}
@@ -650,5 +654,5 @@ document.documentElement.lang=S.lang;home();checkVersion();
 if(/^#learn/.test(location.hash))openLearn(location.hash);
 
 if(location.hash==='#parents')setTimeout(()=>openParents(0),400);
-if(location.hash==='#speed')setTimeout(()=>openSpeed(),500);
+if(location.hash==='#speed')setTimeout(()=>openSpeed(),500);if(location.hash==='#puzzles')setTimeout(()=>openPuzzles(),500);
 </script></body></html>
