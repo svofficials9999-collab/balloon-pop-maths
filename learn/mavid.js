@@ -47,5 +47,5 @@ document.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest
  else if(a==='vprac'){I().lesson(+v);e.stopImmediatePropagation()}
  else if(a==='vans'){const q=TECH[cur].q;const ok=q[1][+v]&&+v===0;document.getElementById('vres').innerHTML=ok?'<p>✅ '+E(L('సరైనది!','Correct!'))+'</p>':'<p>❌ '+E(L('మళ్ళీ చూడండి: ','Review: '))+E(L(q[1][0].te,q[1][0].en))+'</p>';e.stopImmediatePropagation()}
  else if(a==='vdone'){const t0=TECH[cur];const all=[...document.querySelectorAll('.vck')].every(c=>c.checked);if(!all){alert(L('ముందు సాధన జాబితా పూర్తి చేయండి','Tick the practice checklist first'));}else{M.done[t0.id]=1;sv();list()}e.stopImmediatePropagation()}},true);
-window.MartialVideos={open:list,TECH,V};
+window.MartialVideos={open:list,tech,TECH,V};
 })();
