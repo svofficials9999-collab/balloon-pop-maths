@@ -5,7 +5,8 @@ const E=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','
 const C=window.COURSES=window.COURSES||[
 {id:'ma',ic:'🥋',te:'మార్షల్ ఆర్ట్స్',en:'Martial Arts',d:['నాన్-కాంటాక్ట్ భంగిమలు, శ్వాస, సమతుల్యత','Non-contact stances, breathing and balance'],act:'martial'},
 {id:'md',ic:'🧘',te:'ధ్యానం పూర్తి కోర్సు',en:'Meditation full course',d:['20 మాడ్యూళ్ళు, తెలుగు + English','20 modules, Telugu + English'],act:'meditation'},
-{id:'iq',ic:'🧠',te:'మైండ్ IQ',en:'MIND IQ',d:['తర్కం, జ్ఞాపకశక్తి, మెదడు ఆటలు','Logic, memory and brain games'],url:'',soon:1},
+{id:'iq',ic:'🧠',te:'మైండ్ IQ',en:'MIND IQ',d:['మనస్తత్వ శాస్త్రం, తర్కం, జ్ఞాపకశక్తి','Psychology, logic and memory'],url:'./mindiq/'},
+{id:'cs',ic:'🛡️',te:'సైబర్ సేఫ్టీ',en:'Cyber Safety',d:['ఆన్‌లైన్ భద్రత, విద్యార్థులు మరియు కుటుంబాలకు','Online safety for students and families'],url:'./cybersafe/'},
 {id:'sp',ic:'⚡',te:'స్పీడ్ రీడింగ్',en:'Speed Reading',d:['వేగంగా చదవడం, ప్రశ్నలతో','Read faster with questions'],act:'speed'},
 {id:'pz',ic:'🧩',te:'పజిల్స్',en:'Puzzles',d:['బుద్ధికి పదునుపెట్టే ఆటలు','Fun puzzles'],act:'puzzles'},
 {id:'pg',ic:'👪',te:'తల్లిదండ్రులు & విద్యార్థుల గైడ్',en:'Parents & Students Guide',d:['టైమ్‌టేబుల్స్, చిట్కాలు','Timetables and tips'],act:'parents'}];
