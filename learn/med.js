@@ -8,7 +8,7 @@ const dstr=d=>d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
 const today=()=>dstr(new Date());
 const yday=()=>{const d=new Date();d.setDate(d.getDate()-1);return dstr(d)};
 const wkey=()=>{const d=new Date();d.setDate(d.getDate()-((d.getDay()+6)%7));return dstr(d)};
-let D={done:{},quiz:{},act:{},xp:0,mins:0,streak:0,last:'',daily:{},week:{},ch:[],lang:'',voice:'auto',bg:'off',vol:.8};
+let D={done:{},quiz:{},act:{},xp:0,mins:0,streak:0,last:'',daily:{},week:{},ch:[],lang:'',voice:'auto',bg:'off',vol:.8,music:'off',mvol:.6};
 function load(){try{const j=JSON.parse(localStorage.getItem(KEY)||'null');if(j)D=Object.assign(D,j)}catch(e){}}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(D))}catch(e){}}
 const L=()=>{if(D.lang)return D.lang;try{return S.lang==='en'?'en':'te'}catch(e){return'te'}};
@@ -342,7 +342,23 @@ function chime(){const c=ctx();if(!c)return;try{const o=c.createOscillator(),g=c
 function voices(){try{return speechSynthesis.getVoices()||[]}catch(e){return[]}}
 function hasV(l){return voices().some(v=>(v.lang||'').toLowerCase().replace('_','-').indexOf(l)===0)}
 function vlang(){return D.voice==='off'?'off':D.voice==='auto'?L():D.voice}
-function speak(txt,lg){try{speechSynthesis.cancel();if(!txt)return;const l=lg||vlang();if(l==='off')return;const u=new SpeechSynthesisUtterance(txt);const code=l==='te'?'te-IN':'en-IN';const v=voices().find(v=>(v.lang||'').toLowerCase().replace('_','-')===code.toLowerCase())||voices().find(v=>(v.lang||'').toLowerCase().indexOf(l)===0);if(v)u.voice=v;u.lang=code;u.rate=.85;u.volume=D.vol;speechSynthesis.speak(u)}catch(e){}}
+
+// ---- generated ambient music (WebAudio only: no recordings, no downloads, no copyright) ----
+let mu=null,duckT=null;
+const MCH=[[110,164.8,220,261.6,329.6],[87.3,130.8,174.6,220,261.6],[130.8,196,261.6,329.6,392],[98,146.8,196,246.9,293.7]];
+const PENTA=[220,246.9,261.6,329.6,392,440,523.3,659.3];
+function mLevel(){return Math.max(.0001,D.mvol*.55)}
+function musicStop(now){if(!mu)return;const m=mu;mu=null;clearTimeout(m.t1);clearTimeout(m.t2);clearTimeout(duckT);try{const c=ac,t=c.currentTime;m.out.gain.cancelScheduledValues(t);m.out.gain.setTargetAtTime(.0001,t,now?.05:.7)}catch(e){}setTimeout(()=>{m.nodes.forEach(n=>{try{n.stop()}catch(e){}});try{m.out.disconnect()}catch(e){}},now?120:3200)}
+function musicDuck(on){if(!mu||!ac)return;try{const t=ac.currentTime;mu.ducked=on;mu.out.gain.cancelScheduledValues(t);mu.out.gain.setTargetAtTime(mLevel()*(on?.3:1),t,.5)}catch(e){}clearTimeout(duckT);if(on)duckT=setTimeout(()=>musicDuck(false),45000)}
+function musicVol(){if(!mu||!ac)return;try{mu.out.gain.setTargetAtTime(mLevel()*(mu.ducked?.3:1),ac.currentTime,.1)}catch(e){}}
+function musicStart(){musicStop(true);if(D.music==='off')return;const c=ctx();if(!c)return;const out=c.createGain();out.gain.value=.0001;const lp=c.createBiquadFilter();lp.type='lowpass';lp.frequency.value=D.music==='drone'?700:1500;const dl=c.createDelay(1.5);dl.delayTime.value=.47;const fb=c.createGain();fb.gain.value=.42;dl.connect(fb);fb.connect(dl);const wet=c.createGain();wet.gain.value=.5;lp.connect(out);lp.connect(dl);dl.connect(wet);wet.connect(out);out.connect(c.destination);
+ const m={out,nodes:[],t1:0,t2:0,ducked:false};mu=m;const reg=n=>{m.nodes.push(n);return n};
+ const voice=(f,start,dur,att,peak,type)=>{const o=reg(c.createOscillator()),g=c.createGain();o.type=type||'sine';o.frequency.value=f;o.detune.value=(Math.random()*8-4);g.gain.setValueAtTime(.0001,start);g.gain.linearRampToValueAtTime(peak,start+att);g.gain.linearRampToValueAtTime(.0001,start+dur);o.connect(g);g.connect(lp);o.start(start);o.stop(start+dur+.1)};
+ if(D.music==='drone'){[[55,.16],[82.4,.12],[110,.1],[164.8,.05]].forEach((p,i)=>{const o=reg(c.createOscillator()),g=c.createGain(),l=reg(c.createOscillator()),lg=c.createGain();o.type='sine';o.frequency.value=p[0];o.detune.value=i*3-4;g.gain.value=p[1];l.frequency.value=.05+i*.02;lg.gain.value=p[1]*.45;l.connect(lg);lg.connect(g.gain);o.connect(g);g.connect(lp);o.start();l.start()})}
+ else if(D.music==='bells'){const base=reg(c.createOscillator()),bg=c.createGain();base.type='sine';base.frequency.value=110;bg.gain.value=.08;base.connect(bg);bg.connect(lp);base.start();const bell=()=>{if(mu!==m)return;const f=PENTA[Math.floor(Math.random()*PENTA.length)],t=c.currentTime,o=reg(c.createOscillator()),g=c.createGain();o.type='sine';o.frequency.value=f;g.gain.setValueAtTime(.0001,t);g.gain.linearRampToValueAtTime(.2,t+.04);g.gain.exponentialRampToValueAtTime(.0001,t+6);o.connect(g);g.connect(lp);o.start(t);o.stop(t+6.2);m.t2=setTimeout(bell,4500+Math.random()*4500)};bell()}
+ else{let k=0;const chord=()=>{if(mu!==m)return;const t=c.currentTime;MCH[k%4].forEach((f,i)=>voice(f,t,22,7,i===0?.16:.07,i>2?'triangle':'sine'));k++;m.t1=setTimeout(chord,16000)};chord()}
+ out.gain.setTargetAtTime(mLevel(),c.currentTime,1.3)}
+function speak(txt,lg){try{speechSynthesis.cancel();musicDuck(false);if(!txt)return;const l=lg||vlang();if(l==='off')return;const u=new SpeechSynthesisUtterance(txt);const code=l==='te'?'te-IN':'en-IN';const v=voices().find(v=>(v.lang||'').toLowerCase().replace('_','-')===code.toLowerCase())||voices().find(v=>(v.lang||'').toLowerCase().indexOf(l)===0);if(v)u.voice=v;u.lang=code;u.rate=.85;u.volume=D.vol;u.onstart=()=>musicDuck(true);u.onend=()=>musicDuck(false);u.onerror=()=>musicDuck(false);speechSynthesis.speak(u)}catch(e){}}
 function noVoiceNote(){const l=vlang();return l!=='off'&&voices().length&&!hasV(l)}
 let ov=null,stk=[],pl=null,qz=null,mmSel=-1,toastT=null;
 const cur=()=>stk[stk.length-1];
@@ -430,7 +446,7 @@ function scLesson(i,keep){const m=MODS[i];if(!unlocked(i)){toast('ఈ పాఠ�
  if(m.care)h+=care();
  h+=`<div class="row"><button class="b ok" data-a="play" data-v="${i}">▶ ${E(P(['ధ్యానం మొదలుపెట్టు','Start Meditation']))}</button><button class="b" data-a="listen" data-v="${i}">🔊 ${E(P(['వినండి','Listen']))}</button><button class="b g" data-a="quiz" data-v="${i}">❓ ${E(P(['క్విజ్','Quiz']))}</button>${i<19?`<button class="b or" data-a="lesson" data-v="${i+1}">${E(P(['తరువాత పాఠం','Next Lesson']))} →</button>`:''}</div>`+foot();render(h,keep)}
 // ---- guided meditation player ----
-function stopPl(clr){if(pl){clearInterval(pl.tm);pl.tm=null;pl.run=false}try{speechSynthesis.cancel()}catch(e){}bgStop();if(clr)pl=null}
+function stopPl(clr){if(pl){clearInterval(pl.tm);pl.tm=null;pl.run=false}try{speechSynthesis.cancel()}catch(e){}bgStop();musicStop();if(clr)pl=null}
 function segAt(m,t){let a=0;for(let k=0;k<m.seg.length;k++){a+=m.seg[k][2];if(t<a)return k}return m.seg.length-1}
 const mmss=s=>pad(Math.floor(s/60))+':'+pad(Math.floor(s%60));
 function scPlayer(i,keep){const m=MODS[i];if(!pl||pl.i!==i){stopPl();pl={i,t:0,run:false,seg:-1,fin:null}}
@@ -442,7 +458,7 @@ function scPlayer(i,keep){const m=MODS[i];if(!pl||pl.i!==i){stopPl();pl={i,t:0,r
  <div style="text-align:center"><b id="mdt" style="font-size:26px;color:#22d3ee">${mmss(m.sec)}</b> <span class="sm">/ ${mmss(m.sec)} · ${E(P(['మిగిలిన సమయం','time left']))}</span></div><div class="bar" style="margin:8px 0"><i id="mdp"></i></div>
  <div class="c seg" id="mdseg"></div>
  <div class="row" style="justify-content:center"><button class="b ok" data-a="pplay" id="mdbtn">▶ ${E(P(['ప్లే','Play']))}</button><button class="b g" data-a="ppause">⏸ ${E(P(['పాజ్','Pause']))}</button><button class="b g" data-a="pstop">⏹ ${E(P(['స్టాప్','Stop']))}</button></div>
- <div class="c"><h3>🔊 ${E(P(['వాయిస్','Voice']))}</h3>${sel('voice',[['auto',['ఆటో','Auto']],['te',['తెలుగు వాయిస్','Telugu voice']],['en',['ఇంగ్లీష్ వాయిస్','English voice']],['off',['ఆఫ్','Off']]])}<div class="sm" id="mdnv"></div><h3>🌿 ${E(P(['నేపథ్య ధ్వని','Background sound']))}</h3>${sel('bg',[['off',['ఆఫ్','Off']],['rain',['వాన','Rain']],['ocean',['సముద్రం','Ocean']],['wind',['గాలి','Wind']]])}<h3>🔉 ${E(P(['వాల్యూమ్','Volume']))}</h3><input type="range" min="0" max="1" step="0.05" value="${D.vol}" data-a="vol" id="mdvol" aria-label="Volume"></div>
+ <div class="c"><h3>🔊 ${E(P(['వాయిస్','Voice']))}</h3>${sel('voice',[['auto',['ఆటో','Auto']],['te',['తెలుగు వాయిస్','Telugu voice']],['en',['ఇంగ్లీష్ వాయిస్','English voice']],['off',['ఆఫ్','Off']]])}<div class="sm" id="mdnv"></div><h3>🌿 ${E(P(['నేపథ్య ధ్వని','Background sound']))}</h3>${sel('bg',[['off',['ఆఫ్','Off']],['rain',['వాన','Rain']],['ocean',['సముద్రం','Ocean']],['wind',['గాలి','Wind']]])}<h3>🔉 ${E(P(['వాల్యూమ్','Volume']))}</h3><input type="range" min="0" max="1" step="0.05" value="${D.vol}" data-a="vol" id="mdvol" aria-label="Volume"><h3>🎵 ${E(P(['ధ్యాన సంగీతం','Meditation music']))}</h3>${sel('music',[['off',['ఆఫ్','Off']],['pad',['ప్రశాంత పాడ్','Calm pad']],['drone',['లోతైన డ్రోన్','Deep drone']],['bells',['మృదువైన గంటలు','Soft bells']]])}<h3>🎶 ${E(P(['సంగీతం వాల్యూమ్','Music volume']))}</h3><input type="range" min="0" max="1" step="0.05" value="${D.mvol}" data-a="mvol" id="mdmvol" aria-label="Music volume"><div class="sm">${E(P(['సంగీతం ఈ ఫోన్‌లోనే సృష్టించబడుతుంది: రికార్డింగ్‌లు లేవు, డౌన్‌లోడ్ లేదు, కాపీరైట్ లేదు. లైసెన్స్: ఒరిజినల్ సింథ్ టోన్లు (CC0). గైడ్ వాయిస్ మాట్లాడినప్పుడు సంగీతం తగ్గుతుంది.','Music is generated live on this phone: no recordings, no downloads, no copyright. Licence: original synth tones (CC0). It lowers while the guide voice speaks.']))}</div></div>
  <div class="c"><b>${E(P(['ఈ సెషన్ గురించి','About this session']))}</b>${B(m.i)}<div class="sm">${E(P(['శ్వాస: పీల్చు 4 సె · ఆగు 2 సె · వదులు 6 సె','Breathing: in 4s · hold 2s · out 6s']))}</div></div>`+(m.care?care():'')+foot();
  render(h,keep);pupd(true)}
 function pupd(force){if(!pl||pl.fin)return;const m=MODS[pl.i],t=pl.t,left=m.sec-t,c=document.getElementById('mdc');if(!c)return;
@@ -453,8 +469,8 @@ function pupd(force){if(!pl||pl.fin)return;const m=MODS[pl.i],t=pl.t,left=m.sec-
  const k=segAt(m,Math.min(t,m.sec-1)),sg=m.seg[k],box=document.getElementById('mdseg');if(box)box.innerHTML=B([sg[0],sg[1]],1)+`<div class="sm">${k+1}/${m.seg.length}</div>`;
  const nv=document.getElementById('mdnv');if(nv)nv.textContent=noVoiceNote()?P(['ఈ ఫోన్‌లో ఈ భాష వాయిస్ లేదు. టెక్స్ట్ చూడండి లేదా మరో వాయిస్ ఎంచుకోండి.','No voice for this language on this phone. Read the text or pick another voice.']):'';
  if(pl.run&&k!==pl.seg){pl.seg=k;speak(vlang()==='te'?sg[0]:sg[1])}}
-function pplay(){if(!pl||pl.fin)return;if(pl.run)return;ctx();if(pl.t===0)chime();pl.run=true;bgStart();pl.seg=-1;const m=MODS[pl.i];pl.tm=setInterval(()=>{pl.t++;if(pl.t>=m.sec){pupd();pfinish();return}pupd()},1000);pupd(true);const b=document.getElementById('mdbtn');if(b)b.textContent='▶ '+P(['కొనసాగించు','Resume'])}
-function ppause(){if(!pl||!pl.run)return;clearInterval(pl.tm);pl.tm=null;pl.run=false;try{speechSynthesis.cancel()}catch(e){}try{if(ac)ac.suspend()}catch(e){}bgStop()}
+function pplay(){if(!pl||pl.fin)return;if(pl.run)return;ctx();if(pl.t===0)chime();pl.run=true;bgStart();musicStart();pl.seg=-1;const m=MODS[pl.i];pl.tm=setInterval(()=>{pl.t++;if(pl.t>=m.sec){pupd();pfinish();return}pupd()},1000);pupd(true);const b=document.getElementById('mdbtn');if(b)b.textContent='▶ '+P(['కొనసాగించు','Resume'])}
+function ppause(){if(!pl||!pl.run)return;clearInterval(pl.tm);pl.tm=null;pl.run=false;try{speechSynthesis.cancel()}catch(e){}musicStop();bgStop()}
 function pstop(){if(!pl)return;stopPl();pl={i:pl.i,t:0,run:false,seg:-1,fin:null};draw(false)}
 function pfinish(){const m=MODS[pl.i];stopPl();chime();const before=BADGES.filter(b=>b.ok()).map(b=>b.id);const first=!D.done[m.id];const xp=first?30:10;D.done[m.id]=today();D.xp+=xp;D.mins=Math.round((D.mins+m.sec/60)*10)/10;const d=today();D.daily[d]=(D.daily[d]||0)+m.sec/60;D.week[wkey()]=(D.week[wkey()]||0)+m.sec/60;
  if(D.last!==d){D.streak=D.last===yday()?D.streak+1:1;D.last=d}if(D.ch.indexOf(d)<0&&D.ch.length<21){D.ch.push(d);D.xp+=5}save();
@@ -496,11 +512,11 @@ function click(e){const t=e.target.closest('[data-a]');if(!t||t.tagName==='INPUT
  case'say':speak(v,'en');break;case'act':{const m=MODS[+v];if(!D.act[m.id]){D.act[m.id]=1;D.xp+=5;save();toast('+5 XP 🎉','+5 XP 🎉')}else{delete D.act[m.id];save()}draw(false);break}
  case'quiz':qz=null;go('quiz',+v);break;case'quizagain':qz=null;stk[stk.length-1]={s:'quiz',a:+v};draw(true);break;case'ans':qans(+v);break;case'qnext':qnext();break;
  case'pplay':pplay();break;case'ppause':ppause();break;case'pstop':pstop();break;
- case'set':{const k=t.dataset.k;D[k]=v;save();if(k==='bg'){if(pl&&pl.run)bgStart()}if(k==='voice'){try{speechSynthesis.cancel()}catch(x){}if(pl)pl.seg=-1}draw(false);if(pl&&pl.run)pupd(true);break}
+ case'set':{const k=t.dataset.k;D[k]=v;save();if(k==='bg'){if(pl&&pl.run)bgStart()}if(k==='music'){if(pl&&pl.run)musicStart();else musicStop()}if(k==='voice'){try{speechSynthesis.cancel()}catch(x){}if(pl)pl.seg=-1}draw(false);if(pl&&pl.run)pupd(true);break}
  case'mm':mmSel=+v;draw(false);break}}
-function onInput(e){const t=e.target;if(t&&t.dataset&&t.dataset.a==='vol'){D.vol=+t.value;save();if(bgG&&ac){try{bgG.gain.value=bgLevel()}catch(x){}}}}
+function onInput(e){const t=e.target;if(t&&t.dataset&&t.dataset.a==='mvol'){D.mvol=+t.value;save();musicVol()}if(t&&t.dataset&&t.dataset.a==='vol'){D.vol=+t.value;save();if(bgG&&ac){try{bgG.gain.value=bgLevel()}catch(x){}}}}
 function close(fp){stopPl(true);if(ov){window.removeEventListener('popstate',onPop);ov.remove();ov=null}const n=stk.length;stk=[];if(!fp){try{if(history.state&&typeof history.state.md==='number')history.go(-(history.state.md+1))}catch(e){}}void n}
 function open(){if(ov)return;load();if(!document.getElementById('mdcss')){const s=document.createElement('style');s.id='mdcss';s.textContent=css;document.head.appendChild(s)}ov=document.createElement('div');ov.id='md';ov.setAttribute('role','dialog');ov.setAttribute('aria-label','Mind Power Meditation');document.body.appendChild(ov);ov.addEventListener('click',click);ov.addEventListener('input',onInput);window.addEventListener('popstate',onPop);try{speechSynthesis.getVoices();speechSynthesis.onvoiceschanged=()=>{if(ov&&cur()&&cur().s==='player')pupd(true)}}catch(e){}stk=[{s:'home'}];try{history.pushState({md:0},'','#meditation')}catch(e){}draw(true)}
 function selfTest(){return MODS.map(m=>(m.seg.length>=4&&m.Q.length>=2&&m.st.length===4&&m.k.length>=1&&m.Q.every(q=>q.o.length>=2&&q.a>=0&&q.a<q.o.length)?'ok ':'FAIL ')+m.id+' '+m.sec+'s')}
-window.MeditationApp={open,close,selfTest,MODS,DG,go:(s,a)=>{if(!ov)open();go(s,a)}};
+window.MeditationApp={open,close,selfTest,MODS,DG,music:{start:musicStart,stop:()=>musicStop(),duck:musicDuck,set:v=>{D.music=v;save()}},go:(s,a)=>{if(!ov)open();go(s,a)}};
 })();
