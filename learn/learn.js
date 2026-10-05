@@ -12,7 +12,7 @@ let LP=readStore('bm2-learn',{t:{},cls:5});
 if(!LP.t)LP.t={};
 const saveL=()=>LS.set('bm2-learn',JSON.stringify(LP));
 let active=false,V={v:'hub',c:LP.cls||S.cls||5},Q=null,loadP={};
-const BANKS=['bank','bsci','bsoc','bmat','beng','btel'];
+const BANKS=['bank','bsci','bsci2','bsoc','bgk','bmat','beng','btel'];
 function load(s){return BANKS.includes(s)?loadRaw(s):loadRaw(s).then(()=>Promise.all(BANKS.map(b=>loadRaw(b).catch(()=>0))))}
 function loadRaw(s){
  if(D[s])return Promise.resolve();
@@ -320,12 +320,15 @@ function subjView(v){
  document.querySelectorAll('.lr-row').forEach(b=>b.onclick=()=>{SFX.tap();nav({v:'topic',s,c,ti:+b.dataset.i})});
  const ct=$('#ct');if(ct)ct.onclick=()=>{SFX.tap();startQuiz(s,c,-1)};
 }
+function flowHTML(t){const f=t.fl;if(!f||!f.steps)return '';const st=f.steps.map(x=>W(bi(x)));const n=st.length,w=300,bh=34,gap=22,h=n*bh+(n-1)*gap+(f.loop?30:8);const cols=['#1d6fd1','#12a37f','#d98a00','#a14fd6','#d1493f','#2a9fb5'];let g='';st.forEach((x,i)=>{const y=4+i*(bh+gap);g+=`<rect x="8" y="${y}" width="${w-16}" height="${bh}" rx="10" fill="${cols[i%6]}" fill-opacity=".28" stroke="${cols[i%6]}" stroke-width="1.5"/><foreignObject x="12" y="${y}" width="${w-24}" height="${bh}"><div xmlns="http://www.w3.org/1999/xhtml" style="height:${bh}px;display:flex;align-items:center;justify-content:center;text-align:center;font:600 12px sans-serif;color:#eaf0ff;line-height:1.15">${esc(x)}</div></foreignObject>`;if(i<n-1)g+=`<path d="M${w/2},${y+bh+2} v${gap-8}" stroke="#ffe192" stroke-width="2"/><path d="M${w/2-5},${y+bh+gap-9} l5,6 l5,-6" fill="none" stroke="#ffe192" stroke-width="2"/>`});if(f.loop)g+=`<text x="${w/2}" y="${h-8}" text-anchor="middle" font-size="11" fill="#ffe192">↻ ${esc(W(bi(f.loop)))}</text>`;return `<div class="lr-card dg"><h3 style="margin-top:0">🖼️ ${word('చిత్రం / రేఖాచిత్రం','Diagram')}</h3><svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(W(bi(f.cap||'')))}" style="width:100%;max-width:420px;display:block;margin:0 auto">${g}</svg><div class="lr-sub" style="margin:4px 0 0">${esc(W(bi(f.cap||'')))}</div></div>`}
+function revHTML(t){const out=[];(t.n||[]).forEach(x=>{const z=W(bi(x));if(/^[#>] /.test(z))return;const f=z.split(/(?<=[.।?!])\s/)[0];if(f&&out.length<5)out.push(f)});if(out.length<2)return '';return `<details class="lr-card"><summary style="cursor:pointer;font-weight:700;color:#ffe192">⚡ ${word('త్వరిత పునశ్చరణ','Quick revision')}</summary><ul style="margin:6px 0 0 18px;padding:0">${out.map(x=>'<li>'+md(x)+'</li>').join('')}</ul></details>`}
+function examHTML(t){if(!t.ex)return '';return `<div class="lr-card"><h3 style="margin-top:0">📝 ${word('పరీక్షలో రాసే జవాబు','Exam answer')}</h3><p>${md(W(bi(t.ex)))}</p></div>`}
 function topicView(v){
  const {s,c,ti}=v;const t=topics(s,c)[ti];if(!t){hubView({v:'hub',c});return}const m=LS_[s];
  const notes=(t.n||[]).map(x=>{const txt=W(bi(x));if(txt.startsWith('# '))return `<h3>${esc(txt.slice(2))}</h3>`;if(txt.startsWith('> '))return `<div class="ex">${md(txt.slice(2))}</div>`;return `<p>${md(txt)}</p>`}).join('');
  shell(topBar(`${t.i||'📘'} ${esc(W(t))}`)+`<p class="lr-sub">${m.i} ${W(m)}${s==='current'?'':' · '+word('తరగతి','Class')+' '+c+clsTag(s,t,c)}</p>
   <button class="lr-go" id="pr">✍ ${word('ప్రాక్టీస్ మొదలుపెట్టండి','Start practice')}</button>
-  <div class="lr-card hl"><h3 style="margin-top:0">📖 ${word('ముఖ్యాంశాలు','Key points')}</h3>${notes||'<p>\u2013</p>'}<button class="lr-ib" id="rd" style="margin-top:6px">🔊 ${word('వినండి','Listen')}</button></div>${diagHTML(s,t)}
+  <div class="lr-card hl"><h3 style="margin-top:0">📖 ${word('ముఖ్యాంశాలు','Key points')}</h3>${notes||'<p>\u2013</p>'}<button class="lr-ib" id="rd" style="margin-top:6px">🔊 ${word('వినండి','Listen')}</button></div>${diagHTML(s,t)}${flowHTML(t)}${examHTML(t)}${revHTML(t)}
   <button class="lr-go alt" id="pr2">✍ ${word('ప్రాక్టీస్','Practice')}</button>`);
  wireTop();
  const go=()=>{SFX.tap();startQuiz(s,c,ti)};$('#pr').onclick=go;$('#pr2').onclick=go;
