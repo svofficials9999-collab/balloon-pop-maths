@@ -371,7 +371,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='3.32.0-learn';
+const VER='3.33.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -589,6 +589,8 @@ const homeBeforeMa=home;home=function(){homeBeforeMa();const a=$('#pz-btn')||$('
 let mdLoading=null;function loadMd(){if(window.MeditationApp)return Promise.resolve();return mdLoading||(mdLoading=new Promise((res,rej)=>{const e=document.createElement('script');e.src='./learn/med.js?v='+VER;e.onload=res;e.onerror=()=>{mdLoading=null;rej()};document.head.appendChild(e)}))}
 function openMeditation(){loadMd().then(()=>window.MeditationApp.open()).catch(()=>{try{toast(word('లోడ్ కాలేదు, ఇంటర్నెట్ చూడండి','Could not load. Check internet.'))}catch(e){}})}
 const homeBeforeMd=home;home=function(){homeBeforeMd();const a=$('#ma-btn');if(!a||$('#md-btn'))return;a.insertAdjacentHTML('afterend',`<button class="small-btn" id="md-btn" style="margin-left:6px">\ud83e\uddd8 ${word('ధ్యానం','Meditation')}</button>`);$('#md-btn').onclick=()=>{SFX.tap();openMeditation()}};
+let crLoading=null;function openCourses(){const run=()=>window.CoursesApp.open();if(window.CoursesApp)return run();(crLoading||(crLoading=new Promise((res,rej)=>{const e=document.createElement('script');e.src='./learn/courses.js?v='+VER;e.onload=res;e.onerror=()=>{crLoading=null;rej()};document.head.appendChild(e)}))).then(run).catch(()=>{try{toast(word('లోడ్ కాలేదు','Could not load'))}catch(e){}})}
+const homeBeforeCr=home;home=function(){homeBeforeCr();const a=$('#md-btn')||$('#ma-btn');if(!a||$('#cr-btn'))return;a.insertAdjacentHTML('afterend',`<button class="small-btn" id="cr-btn" style="margin-left:6px">\ud83d\udcda ${word('కోర్సులు','Courses')}</button>`);$('#cr-btn').onclick=()=>{SFX.tap();openCourses()}};
 const homeBeforeMq=home;home=function(){homeBeforeMq();const w=document.querySelector('.learn-cta .mq-win');if(w)w.style.setProperty('--mqw',w.clientWidth+'px');const t=document.querySelector('.learn-cta .mq-tx');if(t&&w)t.style.setProperty('--mqw',w.clientWidth+'px')};
 (function(){if(document.getElementById('pgfx'))return;const l=document.createElement('link');l.rel='stylesheet';l.media='print';l.onload=function(){this.media='all'};l.href='https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;600;800&family=Poppins:wght@400;600;700&display=swap';document.head.appendChild(l);const s=document.createElement('style');s.id='pgfx';s.textContent=`
 .pg-in,.pg-in p,.pg-in .small-btn{font-family:'Noto Sans Telugu','Poppins','Nirmala UI','Segoe UI',system-ui,sans-serif}
@@ -660,5 +662,5 @@ document.documentElement.lang=S.lang;home();checkVersion();
 if(/^#learn/.test(location.hash))openLearn(location.hash);
 
 if(location.hash==='#parents')setTimeout(()=>openParents(0),400);
-if(location.hash==='#speed')setTimeout(()=>openSpeed(),500);if(location.hash==='#puzzles')setTimeout(()=>openPuzzles(),500);if(location.hash==='#martial')setTimeout(()=>openMartial(),500);if(location.hash==='#meditation')setTimeout(()=>openMeditation(),500);
+if(location.hash==='#speed')setTimeout(()=>openSpeed(),500);if(location.hash==='#puzzles')setTimeout(()=>openPuzzles(),500);if(location.hash==='#martial')setTimeout(()=>openMartial(),500);if(location.hash==='#meditation')setTimeout(()=>openMeditation(),500);if(location.hash==='#courses')setTimeout(()=>openCourses(),500);
 </script></body></html>
