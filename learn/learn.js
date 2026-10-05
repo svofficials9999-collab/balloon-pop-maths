@@ -2,7 +2,7 @@
 (function(){
 'use strict';
 const D={};
-window.LD={reg(s,d){D[s]=d}};
+const EX={};window.LD={reg(s,d){D[s]=d},add(s,cl,t){cl.forEach(c=>{(EX[s+':'+c]=EX[s+':'+c]||[]).push(Object.assign({},t,{cl}))})}};
 const bo=s=>{s=String(s);if(s.indexOf('\u00A7')<0&&s.indexOf('~')>0){const p=s.split('~');return {te:p[0],en:p[1]}}return bi(s)};
 const bi=s=>{const p=String(s).split('\u00A7');return p.length>1?{te:p[0],en:p[1]}:{te:String(s),en:String(s)}};
 const W=o=>(o&&(o[S.lang]||o.te||o.en))||'';
@@ -12,11 +12,12 @@ let LP=readStore('bm2-learn',{t:{},cls:5});
 if(!LP.t)LP.t={};
 const saveL=()=>LS.set('bm2-learn',JSON.stringify(LP));
 let active=false,V={v:'hub',c:LP.cls||S.cls||5},Q=null,loadP={};
-function load(s){
+function load(s){return s==='bank'?loadRaw(s):loadRaw(s).then(()=>loadRaw('bank').catch(()=>0))}
+function loadRaw(s){
  if(D[s])return Promise.resolve();
  return loadP[s]||(loadP[s]=new Promise((res,rej)=>{const e=document.createElement('script');e.src='./learn/'+s+'.js?v='+VER;e.onload=()=>D[s]?res():rej();e.onerror=()=>{loadP[s]=null;rej()};document.head.appendChild(e)}));
 }
-function topics(s,c){const d=D[s];if(!d)return[];return s==='current'?(d.all||[]):(d[c]||[])}
+function topics(s,c){const d=D[s];if(!d)return[];return s==='current'?(d.all||[]):(d[c]||[]).concat(EX[s+':'+c]||[])}
 const tkey=(s,c,t)=>s+'-'+(s==='current'?0:c)+'-'+t.id;
 function pq(str){const p=str.split('|');return {q:bi(p[0]),opts:[p[1],p[2],p[3],p[4]].map(bo),ai:0,x:p[5]?bi(p[5]):null,key:p[0]}}
 function shufOpts(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key||o.q.en}}
@@ -222,6 +223,8 @@ function topBar(title,back){return `<div class="lr-top">${back===false?'':'<butt
 function wireTop(){const b=$('#lb');if(b)b.onclick=()=>{SFX.tap();history.back()};const l=$('#ll');if(l)l.onclick=()=>{S.lang=S.lang==='te'?'en':'te';save();document.documentElement.lang=S.lang;SFX.tap();render(V)}}
 function nav(v){V=Object.assign({},v);try{history.pushState({svLearn:V},'',location.href)}catch(e){}render(V)}
 const stat=(s,c,t)=>LP.t[tkey(s,c,t)]||{best:0,stars:0,att:0};
+function clsOf(s,t){if(t.cl)return t.cl;const r=[];if(t.id&&s!=='current')for(let c=1;c<=10;c++)if(topics(s,c).some(x=>x.id===t.id))r.push(c);return r}
+const clsTag=(s,t,c)=>{const l=clsOf(s,t);return l.length>1?' · '+word('తరగతులు','Classes')+': '+l.join(', '):''};
 function subjProgress(s,c){const ts=topics(s,c);return {done:ts.filter(t=>stat(s,c,t).stars>0).length,total:ts.length}}
 function classDone(c){let d=0;SUBS.forEach(s=>{if(s!=='current')topics(s,c).forEach(t=>{if(stat(s,c,t).stars>0)d++})});return d}
 const totalStars=()=>Object.values(LP.t).reduce((a,b)=>a+(b.stars||0),0);
@@ -261,12 +264,14 @@ function expand(q){const out=new Set([q]);KG.forEach(g=>{if(g.some(w=>wmatch(q,n
 const TAGS={'telugu:ach':'వ్యాకరణం vyakaranam grammar అక్షరమాల','telugu:gun':'వ్యాకరణం vyakaranam grammar','telugu:vach':'వ్యాకరణం vyakaranam grammar','telugu:vyat':'వ్యాకరణం vyakaranam grammar','telugu:nama':'వ్యాకరణం vyakaranam grammar','telugu:paryaya':'వ్యాకరణం vyakaranam synonyms పర్యాయపదాలు','telugu:ling':'వ్యాకరణం vyakaranam grammar','telugu:kalam':'వ్యాకరణం vyakaranam grammar tense కాలాలు','telugu:vibh5':'వ్యాకరణం vyakaranam grammar','telugu:jatiya':'జాతీయాలు సామెతలు proverbs','telugu:sandhi':'వ్యాకరణం vyakaranam grammar','telugu:sava':'వ్యాకరణం vyakaranam grammar','telugu:samasa':'వ్యాకరణం vyakaranam grammar','telugu:vibh10':'వ్యాకరణం vyakaranam grammar','telugu:alank':'వ్యాకరణం vyakaranam','telugu:alank2':'వ్యాకరణం vyakaranam','telugu:chand':'ఛందస్సు chandassu padyam పద్యం','telugu:padya':'ఛందస్సు chandassu padyam పద్యం','telugu:chand10':'ఛందస్సు chandassu padyam పద్యం','social:ind8':'british angleyulu ఆంగ్లేయులు company independence freedom swatantram స్వాతంత్ర్యం history charitra','social:hist7':'mughal mughals history charitra','social:hist6':'history charitra ancient','social:world9':'history charitra world','social:nat10':'independence freedom history charitra','social:tel5':'history charitra telangana','social:const8':'civics polity constitution','social:gov4':'civics polity government','social:civ7':'civics polity','social:earth6':'geography bhugolam map','social:geo4':'geography bhugolam map','social:eco9':'economics civics','social:eco10':'economics geography','science:acid':'chemistry rasayana','science:atom9':'chemistry rasayana','science:lab8':'chemistry rasayana','science:force8':'physics bhautika','science:motion9':'physics bhautika','science:light10':'physics bhautika','science:elec10':'physics bhautika','science:magnet':'physics bhautika','science:cell':'biology jeeva','science:plant1':'biology jeeva','science:digest':'biology jeeva'};
 const SUBTAG={current:'current affairs news gk varthalu వార్తలు samanya general knowledge సామాన్య',english:'english grammar ఇంగ్లీష్',telugu:'telugu తెలుగు',maths:'maths math ganitam గణితం',science:'science vignanam సైన్స్ విజ్ఞానం',social:'social samajika సాంఘిక'};
 let SIDX=null;
-function buildIdx(){if(SIDX)return SIDX;SIDX=[];SUBS.forEach(s=>{if(!D[s])return;const cl=s==='current'?[0]:[1,2,3,4,5,6,7,8,9,10];cl.forEach(c=>topics(s,c).forEach((t,ti)=>{const title=normS(t.te+' '+t.en+' '+(t.id||'')+' '+(TAGS[s+':'+t.id]||'')+' '+(SUBTAG[s]||''));const body=normS((t.n||[]).join(' ')+' '+(t.q||[]).map(x=>String(x).split('|')[0]).join(' '));SIDX.push({s,c,ti,t,title,tw:toks(title),body})}))});return SIDX}
+function buildIdx(){if(SIDX)return SIDX;SIDX=[];SUBS.forEach(s=>{if(!D[s])return;const cl=s==='current'?[0]:[1,2,3,4,5,6,7,8,9,10];cl.forEach(c=>topics(s,c).forEach((t,ti)=>{const title=normS(t.te+' '+t.en+' '+(t.id||'')+' '+(TAGS[s+':'+t.id]||'')+' '+(SUBTAG[s]||''));const body=normS((t.n||[]).join(' ')+' '+(t.q||[]).map(x=>String(x).split('|')[0]).join(' '));SIDX.push({s,c,ti,t,title:title+' '+normS(t.kw||''),tw:toks(title+' '+(t.kw||'')),body})}))});return SIDX}
 function scoreTopic(e,terms){let sc=0;for(const tm of terms){let b=0;if(tm.length>=2){if(tm.length>=(isLat(tm)?4:3)&&e.title.includes(tm))b=Math.max(b,6);else if(e.tw.some(w=>wmatch(tm,w)))b=Math.max(b,5);if(!b&&tm.length>=(isLat(tm)?4:3)&&e.body.includes(tm))b=2}sc=Math.max(sc,b)}return sc}
 function runSearch(raw,cls){const qt=toks(raw);if(!qt.length)return null;const idx=buildIdx();const groups=qt.map(expand);const res=[];idx.forEach(e=>{let tot=0,hit=0;groups.forEach((g,gi)=>{const sc=scoreTopic(e,g);if(sc){hit++;tot+=sc}});if(hit)res.push({e,tot,hit,full:hit===groups.length})});let R2=res;if(res.some(r=>r.tot>=5))R2=res.filter(r=>r.tot>=5||r.hit>1);const full=R2.filter(r=>r.full);const use=full.length?full:R2;use.forEach(r=>{r.k=r.tot+(r.e.c===cls||r.e.c===0?1.5:0)});use.sort((a,b)=>b.k-a.k);return {full:!!full.length,list:use.slice(0,60)}}
-function searchHTML(r,cls){if(!r)return '';if(!r.list.length)return `<div class="lr-card">${word('ఈ పదానికి సరిపోయే అంశం ఇంకా యాప్‌లో లేదు. వేరే పదంతో ప్రయత్నించండి, లేదా పైన విషయాన్ని ఎంచుకోండి. త్వరలో మరిన్ని అంశాలు చేరుస్తాం.','No topic for this search yet. Try another word, or pick a subject above. We keep adding topics.')}</div>`;
+function reqBtn(q){return `<div class="lr-card">${word('ఈ అంశం కావాలా? సేవ్ చేస్తే త్వరలో చేరుస్తాం.','Want this topic? Save a request and we will add it soon.')}<br><button class="lr-row" id="sq-req" data-q="${esc(q)}" style="--c:#56d6cf"><span class="ic">📝</span><span class="tx">${word('ఈ అంశం కావాలి','Request this topic')}</span></button></div>`}
+function saveReq(q){try{const a=JSON.parse(localStorage.getItem('aksharanova.topicreq')||'[]');if(!a.includes(q))a.push(q);localStorage.setItem('aksharanova.topicreq',JSON.stringify(a.slice(-50)));toast(word('సేవ్ అయింది ✅','Saved ✅'))}catch(e){}}
+function searchHTML(r,cls){if(!r)return '';if(!r.list.length)return `<div class="lr-card">${word('ఈ పదానికి ఇంకా పూర్తి పాఠం లేదు. ఈ తరగతి విషయాలు చూడండి లేదా వేరే పదం వాడండి (ఉదా: నది, గుణకారం, కిరణజన్య సంయోగక్రియ).','No full lesson for this word yet. Browse your class subjects above or try a related word (e.g. river, multiplication, photosynthesis).')}</div>`+reqBtn(window.__lastQ||'');
  let h=r.full?'':`<div class="lr-card">${word('సరిగ్గా సరిపోయేది లేదు. దగ్గరి అంశాలు:','No exact match. Nearest topics:')}</div>`;const by={};r.list.forEach(x=>{(by[x.e.s]=by[x.e.s]||[]).push(x)});
- SUBS.forEach(s=>{if(!by[s])return;const m=LS_[s];h+=`<div class="lr-h">${m.i} ${esc(W(m))}</div>`;by[s].slice(0,12).forEach(x=>{const e=x.e;h+=`<button class="lr-row sr-go" data-s="${e.s}" data-c="${e.c||cls}" data-i="${e.ti}" style="--c:${m.c}"><span class="ic">${e.t.i||'📘'}</span><span class="tx">${esc(W(e.t))}<small>${esc(W(m))} · ${e.s==='current'?word('అన్ని తరగతులు','All classes'):word('తరగతి','Class')+' '+e.c}</small></span></button>`})});return h}
+ SUBS.forEach(s=>{if(!by[s])return;const m=LS_[s];h+=`<div class="lr-h">${m.i} ${esc(W(m))}</div>`;by[s].slice(0,12).forEach(x=>{const e=x.e;h+=`<button class="lr-row sr-go" data-s="${e.s}" data-c="${e.c||cls}" data-i="${e.ti}" style="--c:${m.c}"><span class="ic">${e.t.i||'📘'}</span><span class="tx">${esc(W(e.t))}<small>${esc(W(m))} · ${e.s==='current'?word('అన్ని తరగతులు','All classes'):word('తరగతి','Class')+' '+e.c+clsTag(e.s,e.t,e.c)}</small></span></button>`})});if(!r.full)h+=reqBtn(window.__lastQ||'');return h}
 // ---------- v3.3 diagrams (simple, checked SVG) ----------
 const DGW=(a,b)=>word(a,b);
 const svgW=(inner,cap)=>`<div class="lr-card dg"><svg viewBox="0 0 220 160" role="img" aria-label="${esc(cap)}" style="width:100%;max-width:300px;display:block;margin:0 auto" font-family="sans-serif" font-size="11" fill="#dfe8ff" stroke-linecap="round">${inner}</svg><div class="lr-sub" style="margin:4px 0 0">${esc(cap)}</div></div>`;
@@ -293,7 +298,7 @@ function hubView(v){
  <button class="lr-go alt" id="shr">📤 ${word('స్నేహితులకు, గ్రామ గ్రూపులకు షేర్ చేయండి','Share with friends and village groups')}</button>
  <p class="lr-note">${word('ప్రకటనలు లేవు · లాగిన్ లేదు · మీ ప్రగతి ఈ ఫోన్‌లోనే','No ads · No login · Your progress stays on this phone')}</p>`);
  wireTop();
- {const inp=$('#sq'),box=$('#sr');let tm=0,ld=null;const go=()=>{const q=inp.value.trim();if(!q){box.innerHTML='';return}const run=()=>{if(inp.value.trim()!==q)return;box.innerHTML=searchHTML(runSearch(q,c),c);box.querySelectorAll('.sr-go').forEach(b=>b.onclick=()=>{SFX.tap();const s=b.dataset.s,cc=+b.dataset.c;LP.cls=s==='current'?LP.cls:cc;saveL();nav({v:'topic',s,c:cc,ti:+b.dataset.i})})};if(SUBS.every(s=>D[s]))run();else{box.innerHTML=`<div class="lr-card">${word('వెతుకుతోంది…','Searching…')}</div>`;ld=ld||Promise.all(SUBS.map(s=>load(s).catch(()=>0))).then(()=>{SIDX=null});ld.then(run)}};inp.oninput=()=>{clearTimeout(tm);tm=setTimeout(go,180)};if(window.__pendingQ){inp.value=window.__pendingQ;window.__pendingQ='';go()}if(window.__focusQ){window.__focusQ=0;try{inp.focus()}catch(e){}}}
+ {const inp=$('#sq'),box=$('#sr');let tm=0,ld=null;const go=()=>{const q=inp.value.trim();if(!q){box.innerHTML='';return}const run=()=>{if(inp.value.trim()!==q)return;window.__lastQ=q;box.innerHTML=searchHTML(runSearch(q,c),c);{const rb=box.querySelector('#sq-req');if(rb)rb.onclick=()=>{SFX.tap();saveReq(rb.dataset.q)}};box.querySelectorAll('.sr-go').forEach(b=>b.onclick=()=>{SFX.tap();const s=b.dataset.s,cc=+b.dataset.c;LP.cls=s==='current'?LP.cls:cc;saveL();nav({v:'topic',s,c:cc,ti:+b.dataset.i})})};if(SUBS.every(s=>D[s])&&D.bank)run();else{box.innerHTML=`<div class="lr-card">${word('వెతుకుతోంది…','Searching…')}</div>`;ld=ld||Promise.all(SUBS.concat(['bank']).map(s=>load(s).catch(()=>0))).then(()=>{SIDX=null});ld.then(run)}};inp.oninput=()=>{clearTimeout(tm);tm=setTimeout(go,180)};if(window.__pendingQ){inp.value=window.__pendingQ;window.__pendingQ='';go()}if(window.__focusQ){window.__focusQ=0;try{inp.focus()}catch(e){}}}
  document.querySelectorAll('.lr-chip').forEach(b=>b.onclick=()=>{SFX.tap();V={v:'hub',c:+b.dataset.c};try{history.replaceState({svLearn:V},'',location.href)}catch(e){}hubView(V)});
  document.querySelectorAll('.lr-sc').forEach(b=>b.onclick=()=>{SFX.tap();openSubj(b.dataset.s,c)});
  $('#shr').onclick=()=>shareText(word('అక్షరనోవా: 1 నుండి 10వ తరగతి వరకు తెలుగు, ఇంగ్లీష్, గణితం, సైన్స్, సాంఘిక శాస్త్రం ప్రాక్టీస్ యాప్. ఉచితం, లాగిన్ లేదు.','AksharaNova: free Class 1-10 practice app for Telugu, English, Maths, Science and Social. No login.'));
@@ -315,7 +320,7 @@ function subjView(v){
 function topicView(v){
  const {s,c,ti}=v;const t=topics(s,c)[ti];if(!t){hubView({v:'hub',c});return}const m=LS_[s];
  const notes=(t.n||[]).map(x=>{const txt=W(bi(x));if(txt.startsWith('# '))return `<h3>${esc(txt.slice(2))}</h3>`;if(txt.startsWith('> '))return `<div class="ex">${md(txt.slice(2))}</div>`;return `<p>${md(txt)}</p>`}).join('');
- shell(topBar(`${t.i||'📘'} ${esc(W(t))}`)+`<p class="lr-sub">${m.i} ${W(m)}${s==='current'?'':' · '+word('తరగతి','Class')+' '+c}</p>
+ shell(topBar(`${t.i||'📘'} ${esc(W(t))}`)+`<p class="lr-sub">${m.i} ${W(m)}${s==='current'?'':' · '+word('తరగతి','Class')+' '+c+clsTag(s,t,c)}</p>
   <button class="lr-go" id="pr">✍ ${word('ప్రాక్టీస్ మొదలుపెట్టండి','Start practice')}</button>
   <div class="lr-card hl"><h3 style="margin-top:0">📖 ${word('ముఖ్యాంశాలు','Key points')}</h3>${notes||'<p>\u2013</p>'}<button class="lr-ib" id="rd" style="margin-top:6px">🔊 ${word('వినండి','Listen')}</button></div>${diagHTML(s,t)}
   <button class="lr-go alt" id="pr2">✍ ${word('ప్రాక్టీస్','Practice')}</button>`);
