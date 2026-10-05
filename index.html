@@ -54,6 +54,7 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 @keyframes mqMove{0%{transform:translateX(-100%)}100%{transform:translateX(var(--mqw,300px))}}
 @keyframes mqHue{to{background-position:300% 50%}}@keyframes mqBlink{0%,100%{opacity:1;filter:drop-shadow(0 0 3px #fff)}50%{opacity:.7;filter:drop-shadow(0 0 8px #ff7ad9)}}
 @media (prefers-reduced-motion:reduce){.learn-cta .mq-tx{animation:mqHue 8s linear infinite;position:static}.orbit-bot,.rb-ey,.rb-an{animation:none}}
+.logo-halo{display:inline-block;position:relative;padding:6px;border-radius:50%;background:radial-gradient(circle,#35cbe055 0,#a78bfa33 45%,transparent 72%)}.logo-halo img{display:block;border-radius:16px;box-shadow:0 0 14px #35cbe0aa,0 0 30px #a78bfa66,0 0 2px #ffd166}@media (prefers-reduced-motion:no-preference){.logo-halo{animation:halo 3.2s ease-in-out infinite}@keyframes halo{50%{filter:brightness(1.25) drop-shadow(0 0 8px #ff7ad966)}}}
 </style><style id="sv-compact">#field[data-lv="1"]{background:linear-gradient(180deg,#ff9f0a22,#0000 60%)}#field[data-lv="2"]{background:linear-gradient(180deg,#0a84ff26,#0000 60%)}#field[data-lv="3"]{background:linear-gradient(180deg,#ff375f26,#ff9f0a14 70%,#0000)}#field[data-lv="4"]{background:linear-gradient(180deg,#1a1a5c55,#0000 70%)}#field[data-lv="5"]{background:linear-gradient(180deg,#bf5af244,#30d1581a 70%,#0000)}.hq{display:block;width:92%;max-width:420px;box-sizing:border-box;margin:8px auto;padding:12px 14px;border-radius:14px;border:1.5px solid #4a5aa8;background:#0f1633;color:#cfe0ff;font-size:16px;outline:none}.game:not(.lrn){zoom:.94;height:calc(100vh/.94);height:calc(100dvh/.94)}</style><style id="sv-looks">
 #field[data-lv="1"] .balloon{border-radius:50% 50% 48% 48%/58% 58% 42% 42%}
 #field[data-lv="2"] .balloon{border-radius:50%;border-style:dashed;border-width:3px}
@@ -355,7 +356,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='3.12.0-learn';
+const VER='3.12.1-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -421,7 +422,7 @@ function home(){cancelAnimationFrame(raf);clearTimeout(advanceTimer);paused=fals
  const lv=LV.map((l,i)=>`<button class="level-btn${S.lvl===i?' on':''}" data-l="${i}" style="background:${l.c}"><span class="lv-stars">${l.s}</span><span class="lv-name">${nm(l)}</span><span class="lv-best">🏆 ${best(S.subj,S.cls,i)}</span></button>`).join('');
  const sw=(k,v)=>`${t(k)} ${v?t('on'):t('off')}`;
  root.innerHTML=`<div class="game sky"><div class="clouds" aria-hidden="true"><span>☁️</span><span>☁️</span><span>☁️</span></div><div class="home">
- <div class="logo-balloons" aria-hidden="true"><img src="./learn/logo.svg" width="92" height="92" alt="SV AksharaNova" style="border-radius:20px;box-shadow:0 0 18px #35cbe066"></div><h1 class="title">${t('title')}</h1><p class="sub">${TX.sub[S.lang==='te'?0:1]}</p><p class="tag">${t('tag')}</p>
+ <div class="logo-balloons" aria-hidden="true"><span class="logo-halo"><img src="./learn/logo.svg" width="68" height="68" alt="SV AksharaNova"></span></div><h1 class="title">${t('title')}</h1><p class="sub">${TX.sub[S.lang==='te'?0:1]}</p><p class="tag">${t('tag')}</p>
  <h3>${t('cls')}</h3><div class="chips">${cl.join('')}</div>
  <h3>${t('subj')}</h3><div class="subjs">${sj}</div>
  <h3>${t('lvl')}</h3><div class="levels">${lv}</div>
