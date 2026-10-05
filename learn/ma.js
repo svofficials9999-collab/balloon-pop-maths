@@ -164,9 +164,16 @@ function click(ev){const b=ev.target.closest('[data-a]');if(!b)return;const a=b.
  if(a==='quiz'){quiz(+v);return}
  if(a==='ans'){ans(+v);return}if(a==='qnext'){qshow();return}if(a==='finish'){finish();return}
  if(a==='parent'){parent();return}if(a==='videos'){loadVid();return}if(a==='vopen'){const k=+v;(window.MartialVideos?Promise.resolve():new Promise(r=>{loadVid();const t=setInterval(()=>{if(window.MartialVideos){clearInterval(t);r()}},100)})).then(()=>window.MartialVideos.tech(k));return}}
-function onPop(){if(ov)close(true)}
-function close(fromPop){clearInterval(tm);stopAnim();try{speechSynthesis.cancel()}catch(e){}if(ov){ov.remove();ov=null}window.removeEventListener('popstate',onPop);if(!fromPop){try{if(location.hash==='#martial')history.back()}catch(e){}}}
-function open(){if(ov)return;load();if(!document.getElementById('macss')){const s=document.createElement('style');s.id='macss';s.textContent=css;document.head.appendChild(s)}ov=document.createElement('div');ov.id='ma';document.body.appendChild(ov);ov.addEventListener('click',click);window.addEventListener('popstate',onPop);try{history.pushState({ma:1},'','#martial')}catch(e){}home()}
+let stk=[];const NAV=['lesson','quiz','parent','videos','tech','chal','vprac','vopen'];
+function snap(){return{h:ov.innerHTML,st:Object.assign({},st)}}
+function pushNav(){if(!ov)return;stk.push(snap());try{history.pushState({ma:stk.length+1},'','#martial')}catch(e){}}
+function onPop(){if(!ov)return;const s=history.state;if(location.hash==='#martial'&&s&&typeof s.ma==='number'){const d=s.ma-1;clearInterval(tm);stopAnim();try{speechSynthesis.cancel()}catch(e){}const e=stk[d];stk.length=Math.min(d,stk.length);if(d===0||!e)home();else{ov.innerHTML=e.h;st=e.st;ov.scrollTop=0}}else close(true)}
+document.addEventListener('click',function(e){if(!ov)return;const b=e.target.closest&&e.target.closest('#ma [data-a]');if(!b)return;const a=b.dataset.a;const p=b.parentElement;const isTop=p&&p.classList.contains('top')&&b===p.firstElementChild;
+ if(isTop){e.stopImmediatePropagation();e.preventDefault();try{SFX.tap()}catch(_){}if(stk.length)history.back();else close();return}
+ if(a==='home'&&stk.length){e.stopImmediatePropagation();try{SFX.tap()}catch(_){}history.go(-stk.length);return}
+ if(NAV.indexOf(a.split(':')[0])>=0)pushNav()},true);
+function close(fromPop){clearInterval(tm);stopAnim();try{speechSynthesis.cancel()}catch(e){}if(ov){ov.remove();ov=null}window.removeEventListener('popstate',onPop);const n=stk.length+1;stk=[];if(!fromPop){try{if(location.hash==='#martial'&&history.length>1)history.go(-n)}catch(e){}}}
+function open(){if(ov)return;load();if(!document.getElementById('macss')){const s=document.createElement('style');s.id='macss';s.textContent=css;document.head.appendChild(s)}ov=document.createElement('div');ov.id='ma';document.body.appendChild(ov);stk=[];ov.addEventListener('click',click);window.addEventListener('popstate',onPop);try{history.pushState({ma:1},'','#martial')}catch(e){}home()}
 function selfTest(){const r=[];const ck=(n,c)=>r.push((c?'ok ':'FAIL ')+n);LES.forEach(l=>{ck(l.id+' keys',l.keys.every(k=>PO[k]&&PO[k].f&&PO[k].s));ck(l.id+' quiz',l.q.length>=2&&l.q.every(q=>q.o.length===4&&q.a>=0&&q.a<4))});Object.keys(PO).forEach(k=>['f','s'].forEach(v=>{const f=fig(PO[k][v]);ck(k+v,[f.head,f.lL.f,f.lR.f,f.aL.h,f.aR.h].every(p=>isFinite(p[0])&&isFinite(p[1])))}));return r}
 const VMAP={2:0,3:0,4:14,5:14,6:7};let vl=null;function loadVid(){if(window.MartialVideos){window.MartialVideos.open();return}(vl||(vl=new Promise((res,rej)=>{const e=document.createElement('script');e.src='./learn/mavid.js?v='+(typeof VER!=='undefined'?VER:'');e.onload=res;e.onerror=()=>{vl=null;rej()};document.head.appendChild(e)}))).then(()=>window.MartialVideos.open()).catch(()=>{})}
 window.MartialApp={open,selfTest,svgFig,PO,LES,loadVid,_i:{render:h=>render(h),top,L,E,lesson:i=>lesson(i),get D(){return D}}};
