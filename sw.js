@@ -9,3 +9,4 @@ self.addEventListener('fetch',e=>{const r=e.request,u=new URL(r.url);if(r.method
  if(u.searchParams.has('_v')){e.respondWith(fetch(r,{cache:'no-store'}));return}
  e.respondWith((async()=>{const cache=await caches.open(CACHE);try{const fresh=new URL(r.url);if(r.mode==='navigate')fresh.searchParams.set('_v','3.15.0-learn');const res=await fetch(r.mode==='navigate'?fresh.href:r,{cache:'no-store'});if(res.ok){await cache.put(r,res.clone());if(r.mode==='navigate'){await cache.put(ROOT,res.clone());await cache.put(new URL('index.html',ROOT).href,res.clone())}}return res}catch(err){const hit=await cache.match(r,{ignoreSearch:true});if(hit)return hit;if(r.mode==='navigate')return (await cache.match(ROOT))||(await cache.match(new URL('index.html',ROOT).href));return Response.error()}})())
 });
+/* rebuild */
