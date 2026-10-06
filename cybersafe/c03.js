@@ -2,3 +2,5 @@ ent.querySelectorAll(".dy").forEach(b=>b.onclick=()=>{const d=+b.dataset.day;if(
 function bindTopic(id){const t=T.find(x=>x.id==id);$("#act").onchange=e=>{if(e.target.checked&&!S.act[id]){S.act[id]=1;addXp(10);toast("+10 XP")}else if(!e.target.checked)delete S.act[id];save()};
  $("#learn").onclick=()=>{if(!S.done[id]){S.done[id]=1;addXp(20);toast("+20 XP 🎉")}route()}}
 window.addEventListener("hashchange",route);route();
+
+let __ka=null;function koreSay(id,fb){try{speechSynthesis.cancel()}catch(e){}if(__ka){try{__ka.pause()}catch(e){}}const bad=()=>{if(fb)fb()};fetch('../learn/audio/index.json?v='+Date.now()).then(r=>r.json()).then(m=>{if(!m[id])return bad();const go=()=>{const s=window.__AUD&&window.__AUD[id];if(!s)return bad();__ka=new Audio(s);__ka.onerror=bad;const p=__ka.play();if(p&&p.catch)p.catch(bad)};if(window.__AUD&&window.__AUD[id])return go();const e=document.createElement('script');e.src='../learn/audio/'+m[id]+'.js';e.onload=go;e.onerror=bad;document.head.appendChild(e)}).catch(bad)}
