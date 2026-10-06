@@ -209,6 +209,7 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 .lr-subs .lr-sc:nth-child(4n+2){background:linear-gradient(160deg,#10204f,#1b2f8f)!important}
 .lr-subs .lr-sc:nth-child(4n+4){background:linear-gradient(160deg,#3a0f45,#7b1fa2)!important}
 .lr-sc{line-height:1.15;word-break:normal;overflow-wrap:anywhere;justify-content:center}
+</style><style>.home h1.title,.home p.sub{background:linear-gradient(100deg,#fff6c2 0%,#ffd54a 22%,#ff9f1c 46%,#fff0a0 58%,#ffc63a 78%,#fff6c2 100%)!important;background-size:240% 100%!important;-webkit-background-clip:text!important;background-clip:text!important;-webkit-text-fill-color:transparent!important;color:transparent!important;text-shadow:none!important;animation:goldSh 5s linear infinite!important;filter:drop-shadow(0 1px 0 #b36b00) drop-shadow(0 2px 0 #8a4b00) drop-shadow(0 3px 2px #00000088) drop-shadow(0 0 9px #ffb30066)!important;font-weight:900!important;letter-spacing:.6px}.home p.sub{font-size:clamp(15px,4.4vw,19px)!important;filter:drop-shadow(0 1px 0 #9a5a00) drop-shadow(0 2px 1px #00000088) drop-shadow(0 0 6px #ffb30055)!important}@keyframes goldSh{to{background-position:-240% 0}}.cb-img{width:122px!important;animation:cbGlow 3.2s ease-in-out infinite}@keyframes cbGlow{0%,100%{filter:brightness(1) drop-shadow(0 0 3px #ffb30055)}50%{filter:brightness(1.18) saturate(1.1) drop-shadow(0 0 8px #ffd54aaa)}}@media(prefers-reduced-motion:reduce){.home h1.title,.home p.sub,.cb-img{animation:none!important}}
 </style></head><body><div id="app"></div><script>
 // Question banks. Entry: "qTe§qEn|correct|wrong|wrong|wrong" ; option "te~en". Single-language: "q|correct|w|w|w"
 const BANK={
@@ -498,7 +499,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='4.15.3-learn';
+const VER='4.15.4-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
