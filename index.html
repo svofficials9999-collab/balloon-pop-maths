@@ -183,6 +183,7 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 .logo-balloons{height:68px!important;overflow:hidden;margin-top:-4px!important}.logo-balloons img,.logo-balloons svg{max-height:66px;width:auto}
 .lr-sub{color:#e6efff!important;font-size:14.5px!important}.lr-note{color:#dce8ff!important;font-size:13.5px!important}.lr-h{font-size:15px!important}.lr-card{font-size:16.5px!important}
 [class*="lr-"] small{color:#e4eeff!important;font-size:13px!important}.reveal small{opacity:1!important}
+.reveal.bad div{color:#ffe14d!important;text-shadow:0 0 8px #ffb300,0 0 16px #ff9100aa!important;font-weight:900!important}.reveal.bad{border-color:#ff9f1a!important;box-shadow:0 0 18px #ff9f1acc,inset 0 0 14px #ff9f1a44!important}.reveal.bad b{color:#fff!important}
 .lr-row{font-size:16px}.lr-go,.lr-next{font-size:18px!important}.subj{font-size:15px!important}.small-btn{font-size:15px!important}
 @media (prefers-reduced-motion:reduce){.cmic{animation:none!important}}
 </style>
@@ -476,7 +477,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='4.00.0-learn';
+const VER='4.01.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
