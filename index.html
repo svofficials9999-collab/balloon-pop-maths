@@ -477,7 +477,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='4.01.0-learn';
+const VER='4.02.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -516,7 +516,7 @@ const vib=p=>{if(S.vib&&navigator.vibrate)try{navigator.vibrate(p)}catch(e){}};
 const SS=window.speechSynthesis;let VO=[];
 function loadVoices(){try{VO=SS?SS.getVoices():[]}catch(e){VO=[]}}
 if(SS){loadVoices();try{SS.addEventListener('voiceschanged',loadVoices)}catch(e){SS.onvoiceschanged=loadVoices}}
-const findV=l=>{const p=l.toLowerCase();return VO.find(v=>v.lang.toLowerCase().replace('_','-')===p)||VO.find(v=>v.lang.toLowerCase().replace('_','-').startsWith(p.slice(0,2)))||null};
+const vsc=v=>{const n=(v.name||'')+' '+(v.voiceURI||'');return /female|woman|girl/i.test(n)?-2:/\bmale\b|\bman\b/i.test(n)?3:/-x-[a-z]{2}m\b|-x-[a-z]{2}m-/i.test(n)?2:/-x-[a-z]{2}f\b|-x-[a-z]{2}f-/i.test(n)?-1:0};const bestV=a=>a.slice().sort((x,y)=>vsc(y)-vsc(x))[0]||null;const findV=l=>{const p=l.toLowerCase();const nl=v=>v.lang.toLowerCase().replace('_','-');return bestV(VO.filter(v=>nl(v)===p))||bestV(VO.filter(v=>nl(v).startsWith(p.slice(0,2))))||null};
 const hasTe=()=>!!findV('te-IN');
 function say(text,lang){if(!S.voice||!SS||!text)return;try{SS.cancel();const u=new SpeechSynthesisUtterance(text);const v=findV(lang==='te'?'te-IN':'en-IN');if(v)u.voice=v;u.lang=lang==='te'?'te-IN':'en-IN';u.rate=.9;u.pitch=1.05;SS.speak(u)}catch(e){}}
 // Which language to speak in: Telugu UI uses Telugu voice if present; maths falls back to English voice; other subjects without a voice stay silent.
