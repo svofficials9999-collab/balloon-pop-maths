@@ -9,7 +9,7 @@ function mod(id,sub,i){const m=M.find(x=>x.id===id);if(!m)return home();
  if(sub==="l"){const l=m.L[i];let h='<div class="lesson" style="--c:'+m.c+'"><h2>'+T(l.t)+'</h2>';
   l.b.forEach(p=>h+='<p>'+T(p)+'</p>');h+='</div>';
   const all=[l.t].concat(l.b);window._p=all.flatMap(plain);
-  h+='<button class="lb" onclick="say(window._p)">🔊 '+T(UI.listen)+'</button> <button class="lb s" onclick="stopSay()">⏹ '+T(UI.stop)+'</button>';
+  h+='<button class="lb" onclick="'+(i===0&&st.lang!=="en"?"koreSay('tm"+m.id+"',function(){say(window._p)})":"say(window._p)")+'">🔊 '+T(UI.listen)+'</button> <button class="lb s" onclick="stopSay()">⏹ '+T(UI.stop)+'</button>';
   const nx=i+1<m.L.length?"#m/"+id+"/l/"+(i+1):"#m/"+id+"/q/0";
   h+='<div class="nv">'+(i>0?'<a class="pill" href="#m/'+id+'/l/'+(i-1)+'">← '+T(UI.prev)+'</a>':'<span></span>')+'<a class="pill go" onclick="doneL('+id+','+i+')" href="'+nx+'">'+T(UI.next)+' →</a></div>';
   return app.innerHTML=topbar(T(m.t))+'<main style="--c:'+m.c+'">'+langbar()+h+'</main>'}
