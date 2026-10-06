@@ -13,7 +13,7 @@ var css='#sgfab{position:fixed;left:10px;bottom:calc(10px + env(safe-area-inset-
 '#sgov .sgs{display:block;width:100%;margin-top:16px;min-height:54px;border-radius:27px;border:1.5px solid #ffffffaa;color:#fff;font-size:19px;font-weight:900;background:linear-gradient(110deg,#00e5ff,#7c4dff,#ff4df0,#ffd600);background-size:260% 100%;box-shadow:0 0 20px #b46bff99;animation:sgh 4s linear infinite;cursor:pointer}'+
 '#sgov .sgx{position:absolute;top:10px;right:12px;width:42px;height:42px;border-radius:50%;border:1.5px solid #ffffff88;background:#ffffff18;color:#fff;font-size:20px;cursor:pointer}'+
 '#sgov .sgm{margin-top:12px;text-align:center;font-weight:800;font-size:16px;min-height:22px}'+
-'.sgbtn{display:block;width:calc(100% - 4px);margin:8px 2px;min-height:50px;border-radius:16px;border:1.5px solid #ffffffaa;color:#fff;font-size:17px;font-weight:900;background:linear-gradient(110deg,#ffd600,#ff4df0,#7c4dff,#00e5ff);background-size:260% 100%;box-shadow:0 0 16px #ff4df0aa;animation:sgh 5s linear infinite;cursor:pointer;padding:8px 12px}'+
+'.sgbtn{display:block;width:calc(100% - 4px);margin:10px 2px;min-height:56px;border-radius:18px;border:4px solid #ffd600;outline:2px solid #00e5ff;outline-offset:3px;color:#fff;font-size:18px;font-weight:900;text-shadow:0 2px 4px #000a;background:linear-gradient(110deg,#00c853,#00e5ff,#2979ff,#00c853);background-size:260% 100%;box-shadow:0 0 22px #ffd600cc,0 0 40px #00e5ff77,inset 0 0 14px #ffffff55;animation:sgh 5s linear infinite;cursor:pointer;padding:8px 12px}'+
 '@media (prefers-reduced-motion:reduce){#sgov h2,#sgov .sgs,.sgbtn{animation:none}}';
 var st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
 function open(){if(document.getElementById('sgov'))return;
