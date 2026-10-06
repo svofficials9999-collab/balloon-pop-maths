@@ -2,7 +2,7 @@
 (function(){
 'use strict';
 const D={};
-const EX={};const OVR={};const HID={};const DGX={};const DGA={solar5:'solarsystem'};window.LD={dg(o){Object.keys(o).forEach(k=>{const b=k.replace(/(#|--)\d+$/,'');(DGX[b]=DGX[b]||[]).push(o[k])})},reg(s,d){D[s]=d},add(s,cl,t){cl.forEach(c=>{(EX[s+':'+c]=EX[s+':'+c]||[]).push(Object.assign({},t,{cl}))})},hide(s,ids){ids.forEach(i=>HID[s+':'+i]=1)},ov(s,cl,t){OVR[s+':'+t.id]=Object.assign({},t,{cl});LD.add(s,cl,t)}};
+const EX={};const OVR={};const HID={};const DGX={};const DGA={solar5:'solarsystem'};window.__DIAG={};window.LD={diag(s,cl,t){cl.forEach(c=>{(__DIAG[s+':'+c]=__DIAG[s+':'+c]||[]).push(t)})},dg(o){Object.keys(o).forEach(k=>{const b=k.replace(/(#|--)\d+$/,'');(DGX[b]=DGX[b]||[]).push(o[k])})},reg(s,d){D[s]=d},add(s,cl,t){cl.forEach(c=>{(EX[s+':'+c]=EX[s+':'+c]||[]).push(Object.assign({},t,{cl}))})},hide(s,ids){ids.forEach(i=>HID[s+':'+i]=1)},ov(s,cl,t){OVR[s+':'+t.id]=Object.assign({},t,{cl});LD.add(s,cl,t)}};
 const bo=s=>{s=String(s);if(s.indexOf('\u00A7')<0&&s.indexOf('~')>0){const p=s.split('~');return {te:p[0],en:p[1]}}return bi(s)};
 const bi=s=>{const p=String(s).split('\u00A7');return p.length>1?{te:p[0],en:p[1]}:{te:String(s),en:String(s)}};
 const W=o=>(o&&(o[S.lang]||o.te||o.en))||'';
@@ -12,7 +12,7 @@ let LP=readStore('bm2-learn',{t:{},cls:5});
 if(!LP.t)LP.t={};
 const saveL=()=>LS.set('bm2-learn',JSON.stringify(LP));
 let active=false,V={v:'hub',c:LP.cls||S.cls||5},Q=null,loadP={};
-const BANKS=['prog','pk42','pk41','pk40','pk39','pk38','pk37','pk36','pk35','pk34','pk33','pk32','pk31','pk30','pk29','pk27','pk28','pk18','pk19','pk20','pk21','pk22','pk23','pk24','pk25','pk26','pk17','pk01','pk02','pk03','pk04','pk05','pk06','pk07','pk08','pk09','pk10','pk11','pk12','pk13','pk14','pk15','pk16','bank','bsci','bsci2','bsci3','bsci4','bsci5','bsoc','bgk','bmat','beng','btel','btel2','btel3','btel4','btel5','btel6','btel7','btel8','btel9','bsoc2','bmat2','bmat3','diag','dgm1','dgm2','dgm3','dgm5','dgm6','dgm7','dgm8','dgm9','bgk2','bgk3','bgk4','bgk5','bgk6','bsci6','beng2','dgm13','btel10','bgk7','dgm14','bmat5','bsoc5','bsci7','dgm15','bgk8','bgk9','bsoc6','bsx79a','bsx79b','dgm16','dgm17','dgm18','bsoc7','bsoc8','dgm19','dgm20','bsoc9','dgm21','bsx79c','bsx79d','dgm22','dgm23','bsoc10','dgm24','bsx79e','bsx79f','dgm25','dgm26','bsoc11','dgm27','beng3','bsci8','bsx10a','btel11','dgm28','dgm29','bgk10','bsoc12','bmat6','dgm30','bmx6exta','bgk11','bgk12','bmx910f','bmx78f','bmat15b1','bmat15b2','bmat15b3','bsx10b','dgm31','dgm32','dgm33','bsx8a','bsx8b','bsx10c','dgm34','dgm35','dgm36','bsx10d','bsx10e','dgm37','dgm38','bsx10f','dgm39','bevs16a','dgm40','bevs16b','bevs16c','bevs16d','bevs16e','bevs16f','beng4','bmat15b4','dgm41','btel12','bmat15b5','btel13','bmat15b6','dgm42','dgm43','dgm44','dgm45','dgm46','dgm10','bsx9a','bsx9b','dgm11','dgm12','bsoc3','bsoc4','btel1b','bmat4'];
+const BANKS=['prog','pk45','pk43','pk42','pk41','pk40','pk39','pk38','pk37','pk36','pk35','pk34','pk33','pk32','pk31','pk30','pk29','pk27','pk28','pk18','pk19','pk20','pk21','pk22','pk23','pk24','pk25','pk26','pk17','pk01','pk02','pk03','pk04','pk05','pk06','pk07','pk08','pk09','pk10','pk11','pk12','pk13','pk14','pk15','pk16','bank','bsci','bsci2','bsci3','bsci4','bsci5','bsoc','bgk','bmat','beng','btel','btel2','btel3','btel4','btel5','btel6','btel7','btel8','btel9','bsoc2','bmat2','bmat3','diag','dgm1','dgm2','dgm3','dgm5','dgm6','dgm7','dgm8','dgm9','bgk2','bgk3','bgk4','bgk5','bgk6','bsci6','beng2','dgm13','btel10','bgk7','dgm14','bmat5','bsoc5','bsci7','dgm15','bgk8','bgk9','bsoc6','bsx79a','bsx79b','dgm16','dgm17','dgm18','bsoc7','bsoc8','dgm19','dgm20','bsoc9','dgm21','bsx79c','bsx79d','dgm22','dgm23','bsoc10','dgm24','bsx79e','bsx79f','dgm25','dgm26','bsoc11','dgm27','beng3','bsci8','bsx10a','btel11','dgm28','dgm29','bgk10','bsoc12','bmat6','dgm30','bmx6exta','bgk11','bgk12','bmx910f','bmx78f','bmat15b1','bmat15b2','bmat15b3','bsx10b','dgm31','dgm32','dgm33','bsx8a','bsx8b','bsx10c','dgm34','dgm35','dgm36','bsx10d','bsx10e','dgm37','dgm38','bsx10f','dgm39','bevs16a','dgm40','bevs16b','bevs16c','bevs16d','bevs16e','bevs16f','beng4','bmat15b4','dgm41','btel12','bmat15b5','btel13','bmat15b6','dgm42','dgm43','dgm44','dgm45','dgm46','dgm10','bsx9a','bsx9b','dgm11','dgm12','bsoc3','bsoc4','btel1b','bmat4'];
 function load(s){return BANKS.includes(s)?loadRaw(s):loadRaw(s).then(()=>Promise.all(BANKS.map(b=>loadRaw(b).catch(()=>0))))}
 function loadRaw(s){
  if(D[s])return Promise.resolve();
@@ -292,7 +292,7 @@ quad:()=>svgW(`<g stroke="#9fb5e6" stroke-width="1.5"><line x1="110" y1="10" x2=
 const DIAG={'maths:geo9':['rt'],'maths:trig10':['rt'],'maths:geo6':['ang'],'science:lab10':['lens'],'science:light10':['lens'],'maths:men10':['circ'],'maths:si7':['circ'],'maths:sim10':['tan'],'maths:coord9':['quad'],'maths:cg10':['quad']};
 const diagHTML=(s,t)=>(DIAG[s+':'+t.id]||[]).map(k=>{try{return SVGS[k]()}catch(e){return ''}}).join('')+(window.DG&&DGX[DGA[t.id]||t.id]?DGX[DGA[t.id]||t.id].map(sp=>{try{return DG.html(sp,W)}catch(e){return ''}}).join(''):'');
 // ---------- views ----------
-function render(v){try{SS&&SS.cancel()}catch(e){}({hub:hubView,subj:subjView,topic:topicView,quiz:quizView,result:resultView,prog:progView}[v.v]||hubView)(v)}
+function render(v){try{SS&&SS.cancel()}catch(e){}({hub:hubView,subj:subjView,topic:topicView,quiz:quizView,result:resultView,prog:progView,coach:coachView}[v.v]||hubView)(v)}
 function hubView(v){
  const c=v.c;LP.cls=c;saveL();
  const cards=SUBS.filter(s=>!SUBCLS[s]||SUBCLS[s].includes(c)).map(s=>{const m=LS_[s];const p=subjProgress(s,c);return `<button class="lr-sc" data-s="${s}" style="--c:${m.c}"><span>${m.i}</span>${W(m)}<small>${s==='current'?word('అన్ని తరగతులకు','For everyone'):(p.total?`${p.done}/${p.total} ⭐`:word('నేర్చుకోండి','Learn'))}</small></button>`}).join('');
@@ -305,14 +305,14 @@ function hubView(v){
  <p class="lr-note">${word('ప్రకటనలు లేవు · లాగిన్ లేదు · మీ ప్రగతి ఈ ఫోన్‌లోనే','No ads · No login · Your progress stays on this phone')}</p>`);
  wireTop();
  {const inp=$('#sq'),box=$('#sr');let tm=0,ld=null;const go=()=>{const q=inp.value.trim();if(!q){box.innerHTML='';return}const run=()=>{if(inp.value.trim()!==q)return;window.__lastQ=q;const __r=runSearch(q,c);box.innerHTML=searchHTML(__r,c);if(__r&&!__r.list.length&&q.length>=4)setTimeout(()=>{if(inp.value.trim()===q)sendReq(q)},1500);{const rb=box.querySelector('#sq-req');if(rb)rb.onclick=()=>{SFX.tap();saveReq(rb.dataset.q)}};box.querySelectorAll('.sr-go').forEach(b=>b.onclick=()=>{SFX.tap();const s=b.dataset.s,cc=+b.dataset.c;LP.cls=s==='current'?LP.cls:cc;saveL();nav({v:'topic',s,c:cc,ti:+b.dataset.i})})};if(SUBS.every(s=>D[s])&&D.bank)run();else{box.innerHTML=`<div class="lr-card">${word('వెతుకుతోంది…','Searching…')}</div>`;ld=ld||Promise.all(SUBS.concat(['bank']).map(s=>load(s).catch(()=>0))).then(()=>{SIDX=null});ld.then(run)}};inp.oninput=()=>{clearTimeout(tm);tm=setTimeout(go,180)};if(window.__pendingQ){inp.value=window.__pendingQ;window.__pendingQ='';go()}if(window.__focusQ){window.__focusQ=0;try{inp.focus()}catch(e){}}}
- {const pg=$('#pgo');if(pg)pg.onclick=()=>{SFX.tap();nav({v:'prog'})};const cn=$('#cnt');if(cn)cn.onclick=()=>{SFX.tap();const L=AKNP.last();load(L.s).then(()=>{const ts=topics(L.s,L.c);const i=ts.findIndex(x=>x.id===L.id);if(i>=0)nav({v:'topic',s:L.s,c:L.c,ti:i})})}}
+ {const pg=$('#pgo');if(pg)pg.onclick=()=>{SFX.tap();nav({v:'prog'})};const cc=$('#cch');if(cc)cc.onclick=()=>{SFX.tap();nav({v:'coach'})};const cn=$('#cnt');if(cn)cn.onclick=()=>{SFX.tap();const L=AKNP.last();load(L.s).then(()=>{const ts=topics(L.s,L.c);const i=ts.findIndex(x=>x.id===L.id);if(i>=0)nav({v:'topic',s:L.s,c:L.c,ti:i})})}}
  document.querySelectorAll('.lr-chip').forEach(b=>b.onclick=()=>{SFX.tap();V={v:'hub',c:+b.dataset.c};try{history.replaceState({svLearn:V},'',location.href)}catch(e){}hubView(V)});
  document.querySelectorAll('.lr-sc').forEach(b=>b.onclick=()=>{SFX.tap();openSubj(b.dataset.s,c)});
  $('#shr').onclick=()=>shareText(word('అక్షరనోవా: 1 నుండి 10వ తరగతి వరకు తెలుగు, ఇంగ్లీష్, గణితం, సైన్స్, సాంఘిక శాస్త్రం ప్రాక్టీస్ యాప్. ఉచితం, లాగిన్ లేదు.','AksharaNova: free Class 1-10 practice app for Telugu, English, Maths, Science and Social. No login.'));
 }
 
 function progBtns(){if(!window.AKNP){if(!window.__pgl){window.__pgl=1;loadRaw('prog').then(()=>{if(V&&V.v==='hub')hubView(V)}).catch(()=>{})}return ''}let L=null;try{L=AKNP.last()}catch(e){}
- return `<button class="lr-go" id="pgo" style="margin-top:6px">📊 ${word('నా ప్రగతి','My Progress')}</button>${L&&LS_[L.s]?`<button class="lr-go alt" id="cnt">▶ ${word('కొనసాగించండి','Continue')}: ${esc(W(L))}</button>`:''}`}
+ return `<button class="lr-go" id="pgo" style="margin-top:6px">📊 ${word('నా ప్రగతి','My Progress')}</button><button class="lr-go" id="cch" style="margin-top:6px;background:linear-gradient(90deg,#00c853,#00e5ff)">🧭 ${word('స్టడీ కోచ్','Study Coach')}</button>${L&&LS_[L.s]?`<button class="lr-go alt" id="cnt">▶ ${word('కొనసాగించండి','Continue')}: ${esc(W(L))}</button>`:''}`}
 function progView(v){
  if(!window.AKNP){loadRaw('prog').then(()=>progView(v));return}
  const st=AKNP.stats(),P=AKNP.profiles(),act=AKNP.active();const lab={WEAK:word('బలహీనం','Weak'),CRITICAL:word('ముఖ్యం: ఎక్కువ ప్రాక్టీస్','Needs lots of practice')};
@@ -335,8 +335,11 @@ function progView(v){
  $('#pg-add').onclick=()=>{const n=prompt(word('పేరు (ఐచ్ఛికం)','Name (optional)'),'');if(n===null)return;AKNP.addProfile(n);progView(v)};
  $('#pg-ren').onclick=()=>{const p=P.find(x=>x.id===act);const n=prompt(word('పేరు మార్చండి','Rename'),p&&p.name||'');if(n===null)return;AKNP.rename(act,n);progView(v)};
  document.querySelectorAll('.pg-go').forEach(b=>b.onclick=()=>{SFX.tap();const sb=b.dataset.s,cc=+b.dataset.c,id=b.dataset.id;load(sb).then(()=>{const i=topics(sb,cc).findIndex(x=>x.id===id);if(i>=0)nav({v:'topic',s:sb,c:cc,ti:i});else toast(word('అంశం దొరకలేదు','Topic not found'))})});
- const pm=$('#pg-mist');if(pm)pm.onclick=()=>{SFX.tap();const ms=AKNP.practiceMistakes().slice(-10);const list=ms.filter(m=>m.o&&m.qt).map(m=>{const idx=shuf([0,1,2,3]);return {q:m.qt,opts:idx.map(i=>m.o[i]),ai:idx.indexOf(m.ai),x:m.x,key:(m.qt&&m.qt.en)||''}});if(!list.length){toast(word('తప్పులు లేవు 🎉','No mistakes to practise 🎉'));return}const s0=ms[0].s;Q={s:s0,c:ms[0].c,ti:-1,list,i:0,ok:0,miss:[],lock:false,mm:1};nav({v:'quiz',s:s0,c:ms[0].c,ti:-1})};
+ const pm=$('#pg-mist');if(pm)pm.onclick=()=>{SFX.tap();pracMist()};
 }
+function pracMist(){const ms=AKNP.practiceMistakes().slice(-10);const list=ms.filter(m=>m.o&&m.qt).map(m=>{const idx=shuf([0,1,2,3]);return {q:m.qt,opts:idx.map(i=>m.o[i]),ai:idx.indexOf(m.ai),x:m.x,key:(m.qt&&m.qt.en)||''}});if(!list.length){toast(word('తప్పులు లేవు 🎉','No mistakes to practise 🎉'));return}const s0=ms[0].s;Q={s:s0,c:ms[0].c,ti:-1,list,i:0,ok:0,miss:[],lock:false,mm:1};nav({v:'quiz',s:s0,c:ms[0].c,ti:-1})}
+function coachView(v){Promise.all([loadRaw('coach'),loadRaw('pk44')]).then(()=>{AKNC.view({word,esc,W,LS_,topics,load,nav,SFX,toast,shell,topBar,wireTop,c:(LP.cls||1),mist:pracMist,quiz:startQuiz,startDiag(s,c,t){let list;try{list=round(s,c,t,10)}catch(e){toast('Error');return}if(!list.length)return;Q={s,c,ti:-1,list,i:0,ok:0,miss:[],lock:false,dg:t};nav({v:'quiz',s,c,ti:-1})}})}).catch(()=>toast(word('లోడ్ కాలేదు','Could not load')))}
+
 const SOON=[];
 function openSubj(s,c){if(SOON.includes(s)&&!D[s]){toast(word('త్వరలో వస్తోంది! ఇప్పుడు గణితం, సాంఘిక శాస్త్రం నేర్చుకోండి 🚀','Coming very soon! Try Maths or Social now 🚀'),3200);return}toast(word('లోడ్ అవుతోంది…','Loading…'),900);load(s).then(()=>nav({v:'subj',s,c})).catch(()=>toast(word('ఒకసారి ఇంటర్నెట్ కావాలి. తరువాత ఆఫ్‌లైన్‌లో కూడా పనిచేస్తుంది.','Needs internet once. After that it works offline too.'),3500))}
 function gkArea(t){const id=t.id||'';const x=(id+' '+(t.en||'')+' '+(t.kw||'')).toLowerCase();if(/telangana|hyderabad|kakatiya|ramappa|bathukamma|bonalu|medaram|sammakka|charminar|golconda|nizam/.test(x)&&/^gk_|telangana/.test(id))return 'tg';if(!/^gk_/.test(id))return '';if(/^gk_(country_|united_nations|who$|world_|nobel|economics_memorial|olympic|international_days|latitude|longitude)/.test(id))return 'world';return 'india'}
@@ -389,14 +392,14 @@ function answer(i){
  if(!Q||Q.lock)return;Q.lock=true;const q=Q.list[Q.i];const ok=i===q.ai;
  document.querySelectorAll('.lr-o').forEach((b,j)=>{b.disabled=true;if(j===q.ai)b.classList.add('right');else if(j===i)b.classList.add('wrongp');else b.classList.add('dim')});
  if(ok){Q.ok++;SFX.pop();vib(25)}else{SFX.wrong();vib([60,40,60]);Q.miss.push(q)}
- try{window.AKNP&&AKNP.ans(Q.s,Q.c,Q.ti>=0?topics(Q.s,Q.c)[Q.ti]:{id:'test'},q,ok,i)}catch(e){}progress.answered++;if(ok){progress.correct++;progress.stars++}const day=dateKey();if(!progress.days.includes(day))progress.days.push(day);storeProgress();
+ try{window.AKNP&&AKNP.ans(Q.s,Q.c,Q.ti>=0?topics(Q.s,Q.c)[Q.ti]:(Q.dg||{id:'test'}),q,ok,i)}catch(e){}progress.answered++;if(ok){progress.correct++;progress.stars++}const day=dateKey();if(!progress.days.includes(day))progress.days.push(day);storeProgress();
  const last=Q.i>=Q.list.length-1;
  $('#fb').innerHTML=`<div class="lr-fb ${ok?'ok':'bad'}"><div class="hd">${ok?word('శభాష్! ⭐','Well done! ⭐'):word('పర్వాలేదు, నేర్చుకుందాం 🌱','Not yet, let us learn 🌱')}</div>${ok?'':`<p>${word('సరైన సమాధానం','Correct answer')}: <b>${esc(W(q.opts[q.ai]))}</b></p>`}${q.x?`<p class="why">(${esc(W(q.x))})</p>`:''}<button class="lr-next" id="nx">${last?word('ఫలితం చూడండి ▶','See result ▶'):word('తరువాత ప్రశ్న ▶','Next ▶')}</button></div>`;
  $('#nx').onclick=()=>{SFX.tap();if(last)finish();else{Q.i++;quizView(V)}};
  try{$('#nx').scrollIntoView({behavior:'smooth',block:'end'})}catch(e){}
 }
 function finish(){
- const n=Q.list.length,pct=Math.round(Q.ok*100/n),st=pct>=90?3:pct>=70?2:pct>=50?1:0;
+ const n=Q.list.length,pct=Math.round(Q.ok*100/n),st=pct>=90?3:pct>=70?2:pct>=50?1:0;if(Q.dg){try{AKNP.diagDone(Q.dg.id,pct)}catch(e){}}
  if(Q.ti>=0){const t=topics(Q.s,Q.c)[Q.ti],k=tkey(Q.s,Q.c,t),o=LP.t[k]||{best:0,stars:0,att:0};o.att++;o.best=Math.max(o.best,pct);o.stars=Math.max(o.stars,st);LP.t[k]=o;saveL()}
  try{if(window.AKNP&&!Q.mm)AKNP.fin(Q.s,Q.c,Q.ti>=0?topics(Q.s,Q.c)[Q.ti]:null,pct,n,Q.ok,Q.ti)}catch(e){}progress.sessions++;storeProgress();Q.pct=pct;Q.st=st;if(st>=2)SFX.level();
  V={v:'result',s:Q.s,c:Q.c,ti:Q.ti};try{history.replaceState({svLearn:V},'',location.href)}catch(e){}resultView(V);
