@@ -1,0 +1,1 @@
+(function(){LD.reg('gk',{})})();
