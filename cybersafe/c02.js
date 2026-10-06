@@ -103,7 +103,7 @@ function helpPage(){return topbar()+'<h1>🆘 <span class="te">హెల్ప�
 function srcPage(){return topbar()+'<h1><span class="te">ఆధారాలు</span><span class="en">Sources</span></h1><div class="card"><span class="te">ఈ లింక్‌లు అధికారిక పేజీలు (అక్టోబర్ 2026లో తనిఖీ చేయబడ్డాయి). నంబర్లు, నియమాలు మారవచ్చు, తాజా వివరాలకు అధికారిక పేజీ చూడండి.</span><span class="en">Official pages, checked in October 2026. Numbers and rules can change; see the official page for the latest.</span></div>'+SRC.map(s=>'<a class="lk" href="'+s[0]+'" target="_blank" rel="noopener">'+s[1]+'</a>').join("")}
 function topic(id){const t=T.find(x=>x.id==id);if(!t)return home();const i=T.indexOf(t);
  let h=topbar();h+='<h1>'+t.ic+' '+t.id+'. '+tx(t.t)+'</h1><div class="bar"><i style="width:'+pct(t)+'%"></i></div>';
- h+='<div class="card">'+tx(t.intro)+'</div>';
+ h+='<div class="card">'+tx(t.intro)+'</div>';h+='<div style="margin:8px 0"><button class="btn" style="background:linear-gradient(135deg,#00e5ff,#7c4dff 55%,#ff4fd8);color:#fff;border:0;box-shadow:0 0 14px #7c4dff99" onclick="koreSay(\'cy'+t.id+'\')">🔊 వినండి / Listen</button></div>';
  h+='<h2>'+tx(P("దశల వారీగా","Step by step"))+'</h2><ol class="l">'+t.steps.map(s=>'<li>'+tx(s)+'</li>').join("")+'</ol>';
  h+='<h2>'+tx(P("భారత్‌లో నిజ ఉదాహరణలు","Real India examples"))+'</h2>'+t.ex.map(s=>'<div class="card">'+tx(s)+'</div>').join("");
  h+='<h2>✅ '+tx(P("చేయండి","Do"))+'</h2><ul class="l ok">'+t.do.map(s=>'<li>'+tx(s)+'</li>').join("")+'</ul>';
