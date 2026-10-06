@@ -34,6 +34,7 @@ const API={
   const topics={};d.att.forEach(x=>{(topics[x.k]=topics[x.k]||1)});const rows=Object.keys(topics).filter(k=>!/-test$/.test(k)).map(k=>{const p=k.split('-');const sub=p[0],c=+p[1],id=p.slice(2).join('-');return {k,s:sub,c,id,...status(k),ts:(d.t[k]||{}).ts||0,best:(d.t[k]||{}).best||0}});
   const now=Date.now(),DAY=864e5;const rev=rows.filter(r=>d.t[r.k]&&d.t[r.k].best>=70&&r.st!=='WEAK'&&r.st!=='CRITICAL'&&now-(d.t[r.k].ts||0)>2*DAY);
   return {answered:n,acc,streak:st,rows,weak:rows.filter(r=>r.st==='WEAK'||r.st==='CRITICAL'),rev,done:Object.keys(d.t).filter(k=>d.t[k].best>=70).length,tests:d.tests.slice(-8).reverse(),mist:d.mist.filter(m=>!m.res),bm:d.bm}},
+ diagDone(id,pct){const d=data();if(!d.dg)d.dg={};if(id===undefined)return d.dg;d.dg[id]=pct;save()},
  practiceMistakes(){return data().mist.filter(m=>!m.res)}
 };
 window.AKNP=API;LD.reg('prog',1);
