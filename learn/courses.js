@@ -12,6 +12,7 @@ const C=window.COURSES=window.COURSES||[
 {id:'sp',ic:'🎤',te:'ప్రసంగం + నాయకత్వం',en:'Public Speaking + Leadership',d:['ధైర్యంగా మాట్లాడండి, నాయకత్వ నైపుణ్యాలు','Speak with confidence and build leadership skills'],url:'./speaking/'},
 {id:'se',ic:'🗣️',te:'స్పోకెన్ ఇంగ్లీష్',en:'Spoken English',d:['ఇంగ్లీష్‌లో ధైర్యంగా మాట్లాడండి','Speak English with confidence'],url:'./spokenenglish/'},
 {id:'sp',ic:'⚡',te:'స్పీడ్ రీడింగ్',en:'Speed Reading',d:['వేగంగా చదవడం, ప్రశ్నలతో','Read faster with questions'],act:'speed'},
+{id:'sr2',ic:'⚡',te:'స్పీడ్ రీడింగ్ ఛాలెంజ్ (14 రోజులు)',en:'Speed Reading 14-Day Challenge',d:['4 స్థాయిలు, లైవ్ ప్రాక్టీస్, సర్టిఫికెట్','4 levels, live practice, certificate'],url:'./speedread/'},
 {id:'pz',ic:'🧩',te:'పజిల్స్',en:'Puzzles',d:['బుద్ధికి పదునుపెట్టే ఆటలు','Fun puzzles'],act:'puzzles'},
 {id:'pg',ic:'👪',te:'తల్లిదండ్రులు & విద్యార్థుల గైడ్',en:'Parents & Students Guide',d:['టైమ్‌టేబుల్స్, చిట్కాలు','Timetables and tips'],act:'parents'}];
 {const ORD=['Parents & Students Guide','Speed Reading','Spoken English','Time Management','Money Mastery','Cyber Safety','Public Speaking + Leadership','Puzzles','Meditation full course','MIND IQ','Martial Arts'];const rk=c=>{const i=ORD.indexOf(c.en);return i<0?99:i};const sorted=C.map((c,i)=>[c,i]).sort((a,b)=>rk(a[0])-rk(b[0])||a[1]-b[1]).map(x=>x[0]);C.length=0;sorted.forEach(c=>C.push(c))}
