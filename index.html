@@ -499,7 +499,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='4.15.67-learn';
+const VER='4.15.68-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -546,7 +546,11 @@ function vlang(math){if(S.lang==='en')return 'en';if(hasTe())return 'te';return 
 const OPW={te:{'+':' ప్లస్ ','\u2212':' మైనస్ ','\u00D7':' ఇంటూ ','\u00F7':' డివైడెడ్ బై ','=':' సమానం ','\u00B2':' స్క్వేర్ ','\u00B3':' క్యూబ్ ','%':' శాతం ','/':' బై ','?':' ','^':' పవర్ ',':':' టు '},en:{'+':' plus ','\u2212':' minus ','\u00D7':' times ','\u00F7':' divided by ','=':' equals ','\u00B2':' squared ','\u00B3':' cubed ','%':' percent ','/':' by ','?':' ','^':' to the power ',':':' to ','\u221A':' square root of ','\u221B':' cube root of '}};
 function sayText(s,l){let o=String(s).replace(/(^|[\s(=])-(\d)/g,(m,a,b)=>a+(l==='te'?' మైనస్ ':' minus ')+b);const m=OPW[l];if(l==='te'){o=o.replace(/\u221A(\d+)/g,'$1 వర్గమూలం').replace(/\u221B(\d+)/g,'$1 ఘనమూలం')}for(const k in m)o=o.split(k).join(m[k]);return o.replace(/\s+/g,' ').trim()}
 const spoke=(x,l)=>typeof x==='object'?x[l]:sayText(x,l);
+function gqHash(t){let h=5381;t=String(t||'').trim().toLowerCase();for(let i=0;i<t.length;i++)h=((h<<5)+h+t.charCodeAt(i))>>>0;return 'gq_'+h.toString(36)}
+let gqIdx=null;function gqPlay(q,l,fb){const id=gqHash(q.q.en||q.q.te),ak=l==='te'?id:id+'__en';const ok=(()=>{try{return !!document.createElement('audio').canPlayType('audio/ogg; codecs=opus')}catch(e){return true}})();const bad=()=>{if(fb)fb()};try{window.__kc&&window.__kc.pause()}catch(e){}
+ (gqIdx||(gqIdx=fetch('./learn/audio/'+(ok?'index.json':'index_m.json')+'?v='+VER).then(r=>r.ok?r.json():{}).catch(()=>({})))).then(m=>{if(!m||!m[ak])return bad();const go=()=>{const src=window.__AUD&&window.__AUD[ak];if(!src)return bad();const a=new Audio(src);window.__kc=a;try{a.playbackRate=+localStorage.getItem('akn.spd')||1}catch(e){}a.onerror=bad;const p=a.play();if(p&&p.catch)p.catch(bad)};if(window.__AUD&&window.__AUD[ak])return go();const e=document.createElement('script');e.src='./learn/audio/'+m[ak]+'.js?v='+VER;e.onload=()=>{go();try{e.remove()}catch(x){}};e.onerror=bad;document.head.appendChild(e)}).catch(bad)}
 function sayQuestion(){if(!cur)return;const m=S.subj==='maths';const l=vlang(m);if(!l)return;const q=cur.o;let s;
+ if(!m&&q&&q.q&&(q.q.en||q.q.te)){try{if(window.speechSynthesis)window.speechSynthesis.cancel()}catch(e){}gqPlay(q,l,()=>{const t0=sayText(q.q[l]||q.q.en,l);say(t0,l)});return}
  if(m&&q.x&&q.x!=null&&!(q.x.te==null&&0))s=spoke(q.x,l);else s=sayText(q.q[l]||q.q.en,l);
  if(m&&typeof q.x==='string'&&q.x.indexOf('=')<0)s=sayText(q.x,l);
  say(s,l)}
