@@ -36,9 +36,9 @@ function check(){
 }
 
 
-var LF='https://docs.google.com/forms/d/e/1FAIpQLSfziZOGZFiRFR6QhTFWjFZtK59_7VB4QphbfpVBt1qciC9Sfw/formResponse',LK='akn.lead',LQ='akn.leadq';
+var LF='https://docs.google.com/forms/d/e/1FAIpQLSdMs1SlQ7oSZKIBzaza_7jPm_M6CFVj6l7_jwd25i2lpXj9hA/formResponse',LK='akn.lead',LQ='akn.leadq';
 function postLead(o){
- var p=new URLSearchParams();p.set('entry.1042647611',o.n||'');p.set('entry.1599796149',o.p);p.set('entry.1795780490','[APP LEAD] first unlock '+o.t);
+ var p=new URLSearchParams();p.set('entry.4334491',o.n||'');p.set('entry.1331175987',o.p);
  return fetch(LF,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:p.toString()});
 }
 function sendLead(name,phone){
