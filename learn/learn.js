@@ -12,7 +12,7 @@ let LP=readStore('bm2-learn',{t:{},cls:5});
 if(!LP.t)LP.t={};
 const saveL=()=>LS.set('bm2-learn',JSON.stringify(LP));
 let active=false,V={v:'hub',c:LP.cls||S.cls||5},Q=null,loadP={};
-const BANKS=['bank','bsci','bsci2','bsci3','bsci4','bsci5','bsoc','bgk','bmat','beng','btel','btel2','btel3','btel4','btel5','btel6','btel7','btel8','btel9','bsoc2','bmat2','bmat15-1','bmat15-2','bmat15-3','bmat3','diag','dgm1','dgm2','dgm3','dgm5','dgm6','dgm7','dgm8','dgm9','bgk2','bgk3','bgk4','bgk5','bgk6','bsci6','beng2','bmat15-4','bmat15-5','dgm13','btel10','bgk7','bmat15-6','dgm14','bmat5','bmat15-7','bsoc5','bsci7','dgm15','bgk8','bgk9','bsoc6','bsx79a','bsx79b','dgm16','dgm17','dgm18','bsoc7','bsoc8','dgm19','dgm20','bsoc9','dgm21','bsx79c','bsx79d','dgm22','dgm23','bmx9a','bmx9b','dgm10','bsx9a','bsx9b','dgm11','dgm12','bsoc3','bsoc4','btel1b','bmat4'];
+const BANKS=['bank','bsci','bsci2','bsci3','bsci4','bsci5','bsoc','bgk','bmat','beng','btel','btel2','btel3','btel4','btel5','btel6','btel7','btel8','btel9','bsoc2','bmat2','bmat15-1','bmat15-2','bmat15-3','bmat3','diag','dgm1','dgm2','dgm3','dgm5','dgm6','dgm7','dgm8','dgm9','bgk2','bgk3','bgk4','bgk5','bgk6','bsci6','beng2','bmat15-4','bmat15-5','dgm13','btel10','bgk7','bmat15-6','dgm14','bmat5','bmat15-7','bsoc5','bsci7','dgm15','bgk8','bgk9','bsoc6','bsx79a','bsx79b','dgm16','dgm17','dgm18','bsoc7','bsoc8','dgm19','dgm20','bsoc9','dgm21','bsx79c','bsx79d','dgm22','dgm23','bsoc10','dgm24','bsx79e','bsx79f','dgm25','dgm26','bmx9a','bmx9b','dgm10','bsx9a','bsx9b','dgm11','dgm12','bsoc3','bsoc4','btel1b','bmat4'];
 function load(s){return BANKS.includes(s)?loadRaw(s):loadRaw(s).then(()=>Promise.all(BANKS.map(b=>loadRaw(b).catch(()=>0))))}
 function loadRaw(s){
  if(D[s])return Promise.resolve();
