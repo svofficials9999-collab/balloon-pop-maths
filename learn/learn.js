@@ -155,7 +155,7 @@ trig3:(en,a)=>{const m=/(\d+)\/(\d+)/.exec(en);if(!m)return null;const o=+m[1],h
 trig4:(en,a)=>{const n=nn(en)[0];return 90-n===+a?E(`sin θ = cos(90° − θ) కాబట్టి 90 − ${n} = ${a}`,`sin θ = cos(90° − θ), so 90 − ${n} = ${a}`):null},
 };return(name,en,a)=>{const f=F[name];if(!f)return null;try{return f(en,a)}catch(e){return null}}})();
 
-window.LD._t=()=>({D,fromSpec});
+window.LD._t=()=>({D,fromSpec,EX});
 window.LD.why=(nm,o)=>{try{const q=typeof o.q==='string'?same(o.q):o.q;let x=null;if(o.x&&typeof o.x==='object')x=o.x;else if(typeof o.x==='string')x=same(o.x.indexOf('=')>=0?o.x:o.x+' = '+o.a);const y=XO(nm,q.en,String(o.a));if(y)x=y;if(!x)x=XP(nm,o,q.en,String(o.a));return x}catch(e){return null}};
 function fromSpec(sp){
  const parts=sp.split(':');const nm_=parts[0];const args=(parts[1]||'').split(',').filter(z=>z!=='').map(Number);
@@ -230,6 +230,7 @@ const clsTag=(s,t,c)=>{const l=clsOf(s,t);return l.length>1?' · '+(t.cl?word('�
 function subjProgress(s,c){const ts=topics(s,c);return {done:ts.filter(t=>stat(s,c,t).stars>0).length,total:ts.length}}
 function classDone(c){let d=0;SUBS.forEach(s=>{if(s!=='current')topics(s,c).forEach(t=>{if(stat(s,c,t).stars>0)d++})});return d}
 const totalStars=()=>Object.values(LP.t).reduce((a,b)=>a+(b.stars||0),0);
+let audP=null;function loadAud(){return audP||(audP=fetch('./learn/audio/index.json?v='+Date.now()).then(r=>r.ok?r.json():[]).catch(()=>[]))}
 function speak(text,math){const l=vlang(!!math);if(!l){toast(word('ఈ ఫోన్‌లో తెలుగు వాయిస్ లేదు','No Telugu voice on this phone'));return}const was=S.voice;S.voice=true;try{say(text,l)}finally{S.voice=was}}
 async function shareText(msg){const url=location.origin+location.pathname;try{if(navigator.share){await navigator.share({text:msg,url});return}}catch(e){if(e&&e.name==='AbortError')return}window.open('https://wa.me/?text='+encodeURIComponent(msg+' '+url),'_blank')}
 // ---------- v3.3 search: all subjects, Telugu + English + transliteration, typo tolerant, offline ----------
@@ -337,7 +338,8 @@ function topicView(v){
  wireTop();
  const go=()=>{SFX.tap();startQuiz(s,c,ti)};$('#pr').onclick=go;$('#pr2').onclick=go;
  $('#rdv').onclick=()=>{const lg=S.lang==='te'?'te':'en';const r=window.__cycleVoice&&window.__cycleVoice(lg);if(!r){toast(word('ఈ ఫోన్‌లో మరో వాయిస్ లేదు','No other voice on this phone'));return}toast('🎙️ '+r.n+'/'+r.of,1800);speak(lg==='te'?'నమస్కారం, నేను మీకు చదివి వినిపిస్తాను.':'Hello, I will read this lesson to you.',false)};
- $('#rd').onclick=()=>speak((t.n||[]).map(x=>W(bi(x)).replace(/^[#>] /,'').replace(/\*\*/g,'')).join('. '),s==='maths');
+ $('#rd').onclick=()=>{const txt=(t.n||[]).map(x=>W(bi(x)).replace(/^[#>] /,'').replace(/\*\*/g,'')).join('. ');const fb=()=>speak(txt,s==='maths');if(S.lang!=='te'||!t.id||!/^[A-Za-z0-9_-]+$/.test(t.id))return fb();loadAud().then(m=>{if(!m||m.indexOf(t.id)<0)return fb();try{SS&&SS.cancel()}catch(e){}if(window.__aud){try{window.__aud.pause()}catch(e){}}const a=new Audio('./learn/audio/'+t.id+'.ogg?v='+(window.__AV||1));window.__aud=a;a.onerror=fb;const p=a.play();if(p&&p.catch)p.catch(fb)}).catch(fb)};
+ /*old*/ window.__unused=()=>speak((t.n||[]).map(x=>W(bi(x)).replace(/^[#>] /,'').replace(/\*\*/g,'')).join('. '),s==='maths');
 }
 function startQuiz(s,c,ti){
  let list;try{list=ti<0?testRound(s,c,15):round(s,c,topics(s,c)[ti],10)}catch(e){toast('Error: '+e.message,4000);return}
