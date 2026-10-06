@@ -39,7 +39,7 @@ Q("చక్రీయ చతుర్భుజంలో ఒక కోణం 70°
 Q("వృత్తంలో పొడవైన జ్య?§The longest chord of a circle?",["వ్యాసం~Diameter","వ్యాసార్థం~Radius","స్పర్శరేఖ~Tangent","చాపం~Arc"],"వ్యాసం కేంద్రం గుండా పోతుంది.§The diameter passes through the centre.")]});
 A("maths",[10],{id:"m_tang",i:"🪙",te:"స్పర్శరేఖలు",en:"Tangents to a Circle",kw:"tangent secant point of contact length of tangent sparsha rekha స్పర్శరేఖ ఛేదనరేఖ",
 n:["# స్పర్శరేఖ§# Tangent","వృత్తాన్ని ఒక్క బిందువు వద్ద మాత్రమే తాకే రేఖ. ఆ బిందువు స్పర్శ బిందువు.§A line touching a circle at exactly one point, the point of contact.","# లంబం§# Perpendicular","స్పర్శ బిందువు వద్ద వ్యాసార్థం స్పర్శరేఖకు లంబంగా ఉంటుంది.§The radius at the point of contact is perpendicular to the tangent.","# బాహ్య బిందువు§# External point","బాహ్య బిందువు నుండి రెండు స్పర్శరేఖలు గీయవచ్చు, వాటి పొడవులు సమానం.§Two tangents can be drawn from an external point and they are equal in length.","# పొడవు§# Length","కేంద్రం నుండి దూరం d, వ్యాసార్థం r అయితే స్పర్శరేఖ పొడవు √(d² − r²).§With distance d from the centre and radius r, tangent length = √(d² − r²).","# ఛేదనరేఖ§# Secant","వృత్తాన్ని రెండు బిందువుల వద్ద ఖండించే రేఖ.§A line cutting the circle at two points."],
-q:[Q("కేంద్రం నుండి 13 సెం.మీ దూరంలో బిందువు, r = 5. స్పర్శరేఖ పొడవు?§Point 13 cm from the centre, r = 5. Tangent length?",["12","8","18","12.5"],"√(169−25).§√(169−25)."),
+q:[Q("కేంద్రం నుండి 13 సెం.మీ దూరంలో బిందువు, r = 5. స్పర్శరేఖ పొడవు?§Point 13 cm from the centre, r = 5. Tangent length?",["12 సెం.మీ~12 cm","8 సెం.మీ~8 cm","18 సెం.మీ~18 cm","12.5 సెం.మీ~12.5 cm"],"√(169−25).§√(169−25)."),
 Q("వృత్తంపై బిందువు వద్ద గీయగల స్పర్శరేఖలు?§Tangents at a point on the circle?",["1","2","0","అనంతం~Infinite"],"ఒకటి మాత్రమే.§Exactly one."),
 Q("బాహ్య బిందువు నుండి గీయగల స్పర్శరేఖలు?§Tangents from an external point?",["2","1","0","4"],"రెండు.§Two."),
 Q("స్పర్శ బిందువు వద్ద వ్యాసార్థం, స్పర్శరేఖ మధ్య కోణం?§Angle between radius and tangent at the point of contact?",["90°","45°","180°","60°"],"లంబం.§Perpendicular."),
@@ -109,7 +109,7 @@ Q("టాలీ గుర్తులతో 5 ను ఎలా చూపుత�
 Q("విలువలు 4, 6, 8, 10, 12 సగటు?§Mean of 4, 6, 8, 10, 12?",["8","7","10","8.5"],"40 ÷ 5.§40 ÷ 5.")]});
 A("maths",[10],{id:"m_sector",i:"🍰",te:"వృత్త సెక్టర్లు, వృత్త సంబంధ వైశాల్యాలు",en:"Areas Related to Circles",kw:"sector arc length segment ring annulus area of sector vritta sambandha vaisalyalu సెక్టర్ చాప పొడవు వృత్త ఖండం",
 n:["# చాప పొడవు§# Arc length","l = (θ/360) × 2πr.§l = (θ/360) × 2πr.","# సెక్టర్ వైశాల్యం§# Area of sector","A = (θ/360) × πr² = ½ l r.§A = (θ/360) × πr² = ½ l r.","# ఖండం§# Segment","సెక్టర్ వైశాల్యం − త్రిభుజ వైశాల్యం = ఖండ వైశాల్యం.§Area of segment = area of sector − area of triangle.","# వలయం§# Ring","వలయ వైశాల్యం = π(R² − r²).§Area of a ring = π(R² − r²).","# > r = 7, θ = 90°: చాప పొడవు 11, వైశాల్యం 38.5 (π = 22/7).§# > r = 7, θ = 90°: arc length 11, area 38.5 (π = 22/7).","undefined§undefined"],
-q:[Q("r = 7, θ = 90°: చాప పొడవు (π=22/7)?§r = 7, θ = 90°. Arc length (π=22/7)?",["11","22","44","5.5"],"¼ × 44.§¼ × 44."),
+q:[Q("r = 7, θ = 90°: చాప పొడవు (π=22/7)?§r = 7, θ = 90°. Arc length (π=22/7)?",["11 సెం.మీ~11 cm","22 సెం.మీ~22 cm","44 సెం.మీ~44 cm","5.5 సెం.మీ~5.5 cm"],"¼ × 44.§¼ × 44."),
 Q("r = 7, θ = 90°: సెక్టర్ వైశాల్యం?§r = 7, θ = 90°. Sector area?",["38.5","154","77","19.25"],"¼ × 154.§¼ × 154."),
 Q("r = 21, θ = 60°: సెక్టర్ వైశాల్యం?§r = 21, θ = 60°. Sector area?",["231","1386","462","115.5"],"1/6 × 1386.§1/6 × 1386."),
 Q("R = 7, r = 3.5: వలయ వైశాల్యం?§Ring with R = 7, r = 3.5. Area?",["115.5","154","38.5","231"],"π(49 − 12.25).§π(49 − 12.25)."),
