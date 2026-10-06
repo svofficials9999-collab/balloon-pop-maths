@@ -2,23 +2,23 @@
 (function(){
 'use strict';
 const D={};
-const EX={};const DGX={};const DGA={solar5:'solarsystem'};window.LD={dg(o){Object.keys(o).forEach(k=>{const b=k.replace(/(#|--)\d+$/,'');(DGX[b]=DGX[b]||[]).push(o[k])})},reg(s,d){D[s]=d},add(s,cl,t){cl.forEach(c=>{(EX[s+':'+c]=EX[s+':'+c]||[]).push(Object.assign({},t,{cl}))})}};
+const EX={};const OVR={};const HID={};const DGX={};const DGA={solar5:'solarsystem'};window.LD={dg(o){Object.keys(o).forEach(k=>{const b=k.replace(/(#|--)\d+$/,'');(DGX[b]=DGX[b]||[]).push(o[k])})},reg(s,d){D[s]=d},add(s,cl,t){cl.forEach(c=>{(EX[s+':'+c]=EX[s+':'+c]||[]).push(Object.assign({},t,{cl}))})},hide(s,ids){ids.forEach(i=>HID[s+':'+i]=1)},ov(s,cl,t){OVR[s+':'+t.id]=Object.assign({},t,{cl});LD.add(s,cl,t)}};
 const bo=s=>{s=String(s);if(s.indexOf('\u00A7')<0&&s.indexOf('~')>0){const p=s.split('~');return {te:p[0],en:p[1]}}return bi(s)};
 const bi=s=>{const p=String(s).split('\u00A7');return p.length>1?{te:p[0],en:p[1]}:{te:String(s),en:String(s)}};
 const W=o=>(o&&(o[S.lang]||o.te||o.en))||'';
-const SUBS=['telugu','english','maths','science','social','current'];
-const LS_={telugu:{i:'🪷',te:'తెలుగు',en:'Telugu',c:'#ff375f'},english:{i:'🔤',te:'ఇంగ్లీష్',en:'English',c:'#0a84ff'},maths:{i:'➕',te:'గణితం',en:'Maths',c:'#ff9f0a'},science:{i:'🔬',te:'సైన్స్',en:'Science',c:'#30d158'},social:{i:'🏛️',te:'సాంఘిక శాస్త్రం',en:'Social Studies',c:'#ffd60a'},current:{i:'📰',te:'వర్తమాన అంశాలు',en:'Current Affairs',c:'#64d2ff'}};
+const SUBS=['telugu','english','maths','science','social','current','hindi','gk'];const SUBCLS={hindi:[1,2,3,4,5],gk:[6,7,8,9,10]};
+const LS_={telugu:{i:'🪷',te:'తెలుగు',en:'Telugu',c:'#ff375f'},english:{i:'🔤',te:'ఇంగ్లీష్',en:'English',c:'#0a84ff'},maths:{i:'➕',te:'గణితం',en:'Maths',c:'#ff9f0a'},science:{i:'🔬',te:'సైన్స్',en:'Science',c:'#30d158'},social:{i:'🏛️',te:'సాంఘిక శాస్త్రం',en:'Social Studies',c:'#ffd60a'},current:{i:'📰',te:'వర్తమాన అంశాలు',en:'Current Affairs',c:'#64d2ff'},hindi:{i:'🇮🇳',te:'హిందీ',en:'Hindi',c:'#ff6bd6'},gk:{i:'🧠',te:'జనరల్ నాలెడ్జ్',en:'General Knowledge',c:'#bf5af2'}};
 let LP=readStore('bm2-learn',{t:{},cls:5});
 if(!LP.t)LP.t={};
 const saveL=()=>LS.set('bm2-learn',JSON.stringify(LP));
 let active=false,V={v:'hub',c:LP.cls||S.cls||5},Q=null,loadP={};
-const BANKS=['bank','bsci','bsci2','bsci3','bsci4','bsci5','bsoc','bgk','bmat','beng','btel','btel2','btel3','btel4','btel5','btel6','btel7','btel8','btel9','bsoc2','bmat2','bmat3','diag','dgm1','dgm2','dgm3','dgm5','dgm6','dgm7','dgm8','dgm9','bgk2','bgk3','bgk4','bgk5','bgk6','bsci6','beng2','dgm13','btel10','bgk7','dgm14','bmat5','bsoc5','bsci7','dgm15','bgk8','bgk9','bsoc6','bsx79a','bsx79b','dgm16','dgm17','dgm18','bsoc7','bsoc8','dgm19','dgm20','bsoc9','dgm21','bsx79c','bsx79d','dgm22','dgm23','bsoc10','dgm24','bsx79e','bsx79f','dgm25','dgm26','bsoc11','dgm27','beng3','bsci8','bsx10a','btel11','dgm28','dgm29','bgk10','bsoc12','bmat6','dgm30','bmx6exta','bgk11','bgk12','bmx910f','bmx78f','bmat15b1','bmat15b2','bmat15b3','bsx10b','dgm31','dgm32','dgm33','bsx8a','bsx8b','bsx10c','dgm34','dgm35','dgm36','bsx10d','bsx10e','dgm37','dgm38','bsx10f','dgm39','bevs16a','dgm40','bevs16b','bevs16c','bevs16d','bevs16e','bevs16f','beng4','bmat15b4','dgm41','btel12','bmat15b5','btel13','bmat15b6','dgm42','dgm43','dgm44','dgm45','dgm46','dgm10','bsx9a','bsx9b','dgm11','dgm12','bsoc3','bsoc4','btel1b','bmat4'];
+const BANKS=['pk31','pk30','pk29','pk27','pk28','pk18','pk19','pk20','pk21','pk22','pk23','pk24','pk25','pk26','pk17','pk01','pk02','pk03','pk04','pk05','pk06','pk07','pk08','pk09','pk10','pk11','pk12','pk13','pk14','pk15','pk16','bank','bsci','bsci2','bsci3','bsci4','bsci5','bsoc','bgk','bmat','beng','btel','btel2','btel3','btel4','btel5','btel6','btel7','btel8','btel9','bsoc2','bmat2','bmat3','diag','dgm1','dgm2','dgm3','dgm5','dgm6','dgm7','dgm8','dgm9','bgk2','bgk3','bgk4','bgk5','bgk6','bsci6','beng2','dgm13','btel10','bgk7','dgm14','bmat5','bsoc5','bsci7','dgm15','bgk8','bgk9','bsoc6','bsx79a','bsx79b','dgm16','dgm17','dgm18','bsoc7','bsoc8','dgm19','dgm20','bsoc9','dgm21','bsx79c','bsx79d','dgm22','dgm23','bsoc10','dgm24','bsx79e','bsx79f','dgm25','dgm26','bsoc11','dgm27','beng3','bsci8','bsx10a','btel11','dgm28','dgm29','bgk10','bsoc12','bmat6','dgm30','bmx6exta','bgk11','bgk12','bmx910f','bmx78f','bmat15b1','bmat15b2','bmat15b3','bsx10b','dgm31','dgm32','dgm33','bsx8a','bsx8b','bsx10c','dgm34','dgm35','dgm36','bsx10d','bsx10e','dgm37','dgm38','bsx10f','dgm39','bevs16a','dgm40','bevs16b','bevs16c','bevs16d','bevs16e','bevs16f','beng4','bmat15b4','dgm41','btel12','bmat15b5','btel13','bmat15b6','dgm42','dgm43','dgm44','dgm45','dgm46','dgm10','bsx9a','bsx9b','dgm11','dgm12','bsoc3','bsoc4','btel1b','bmat4'];
 function load(s){return BANKS.includes(s)?loadRaw(s):loadRaw(s).then(()=>Promise.all(BANKS.map(b=>loadRaw(b).catch(()=>0))))}
 function loadRaw(s){
  if(D[s])return Promise.resolve();
  return loadP[s]||(loadP[s]=new Promise((res,rej)=>{const e=document.createElement('script');e.src='./learn/'+s+'.js?v='+VER;e.onload=()=>D[s]?res():rej();e.onerror=()=>{loadP[s]=null;rej()};document.head.appendChild(e)}));
 }
-function topics(s,c){const d=D[s];if(!d)return[];return s==='current'?(d.all||[]):(d[c]||[]).concat(EX[s+':'+c]||[])}
+function topics(s,c){const d=D[s];if(!d)return[];if(s==='current')return d.all||[];const l=(d[c]||[]).concat(EX[s+':'+c]||[]),seen={},o=[];l.forEach(x=>{if(x.id&&HID[s+':'+x.id])return;const ov=x.id&&OVR[s+':'+x.id];const r=(ov&&ov.cl.includes(c))?ov:x;const k=r.id||Math.random();if(k in seen)return;seen[k]=1;o.push(r)});return o}
 const tkey=(s,c,t)=>s+'-'+(s==='current'?0:c)+'-'+t.id;
 function pq(str){const p=str.split('|');return {q:bi(p[0]),opts:[p[1],p[2],p[3],p[4]].map(bo),ai:0,x:p[5]?bi(p[5]):null,key:p[0]}}
 function shufOpts(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key||o.q.en}}
@@ -295,7 +295,7 @@ const diagHTML=(s,t)=>(DIAG[s+':'+t.id]||[]).map(k=>{try{return SVGS[k]()}catch(
 function render(v){try{SS&&SS.cancel()}catch(e){}({hub:hubView,subj:subjView,topic:topicView,quiz:quizView,result:resultView}[v.v]||hubView)(v)}
 function hubView(v){
  const c=v.c;LP.cls=c;saveL();
- const cards=SUBS.map(s=>{const m=LS_[s];const p=subjProgress(s,c);return `<button class="lr-sc" data-s="${s}" style="--c:${m.c}"><span>${m.i}</span>${W(m)}<small>${s==='current'?word('అన్ని తరగతులకు','For everyone'):(p.total?`${p.done}/${p.total} ⭐`:word('నేర్చుకోండి','Learn'))}</small></button>`}).join('');
+ const cards=SUBS.filter(s=>!SUBCLS[s]||SUBCLS[s].includes(c)).map(s=>{const m=LS_[s];const p=subjProgress(s,c);return `<button class="lr-sc" data-s="${s}" style="--c:${m.c}"><span>${m.i}</span>${W(m)}<small>${s==='current'?word('అన్ని తరగతులకు','For everyone'):(p.total?`${p.done}/${p.total} ⭐`:word('నేర్చుకోండి','Learn'))}</small></button>`}).join('');
  let ch='';for(let i=1;i<=10;i++){const d=classDone(i);ch+=`<button class="lr-chip${i===c?' on':''}" data-c="${i}">${i}${d?`<small>⭐${d}</small>`:''}</button>`}
  shell(topBar('📚 '+word('నేర్చుకో · అక్షరనోవా','Learn · AksharaNova'))+`<p class="lr-sub">⭐ ${totalStars()} ${word('స్టార్స్','stars')} · ${word('ముందు ప్రాక్టీస్, అవసరమైతే పాఠం','Practice first, theory when you need it')}</p>
  <input id="sq" class="lr-search" type="search" autocomplete="off" placeholder="🔍 ${word('ఏ అంశమైనా వెతకండి: chandassu, trigonometry, British...','Search any topic: chandassu, trigonometry, British...')}"><div id="sr"></div>
