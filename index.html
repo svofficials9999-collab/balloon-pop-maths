@@ -147,6 +147,11 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 @keyframes actBob{0%,100%{transform:translateY(0) rotate(-6deg)}50%{transform:translateY(-6px) rotate(6deg)}}
 @media (prefers-reduced-motion:reduce){.chips .chip,#learn-btn .mq-st,#learn-btn .mq-act,#learn-btn.learn-cta .mq-tx{animation:none!important}}
 </style>
+<style id="fx386">
+.hgrid>#par-btn,.hgrid>#speed-btn,.hgrid>#pz-btn,.hgrid>#ma-btn,.hgrid>#md-btn,.hgrid>#cr-btn{margin:0!important;min-height:42px!important;height:100%!important;padding:4px 6px!important;font-size:15px!important}
+.hgrid{grid-auto-rows:minmax(42px,auto)!important;gap:6px!important;margin:6px auto!important}
+.hgrid>button{min-height:42px!important;height:100%!important;padding:4px 6px!important;font-size:15px!important;line-height:1.15!important;border-radius:14px!important;gap:0!important}
+</style>
 </head><body><div id="app"></div><script>
 // Question banks. Entry: "qTe§qEn|correct|wrong|wrong|wrong" ; option "te~en". Single-language: "q|correct|w|w|w"
 const BANK={
@@ -436,7 +441,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='3.86.0-learn';
+const VER='3.87.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
