@@ -332,10 +332,11 @@ function topicView(v){
  const notes=(t.n||[]).map(x=>{const txt=W(bi(x));if(txt.startsWith('# '))return `<h3>${esc(txt.slice(2))}</h3>`;if(txt.startsWith('> '))return `<div class="ex">${md(txt.slice(2))}</div>`;return `<p>${md(txt)}</p>`}).join('');
  shell(topBar(`${t.i||'📘'} ${esc(W(t))}`)+`<p class="lr-sub">${m.i} ${W(m)}${s==='current'?'':' · '+word('తరగతి','Class')+' '+c+clsTag(s,t,c)}</p>
   <button class="lr-go" id="pr">✍ ${word('ప్రాక్టీస్ మొదలుపెట్టండి','Start practice')}</button>
-  <div class="lr-card hl"><h3 style="margin-top:0">📖 ${word('ముఖ్యాంశాలు','Key points')}</h3>${notes||'<p>\u2013</p>'}<button class="lr-ib" id="rd" style="margin-top:6px">🔊 ${word('వినండి','Listen')}</button></div>${diagHTML(s,t)}${flowHTML(t)}${examHTML(t)}${revHTML(t)}
+  <div class="lr-card hl"><h3 style="margin-top:0">📖 ${word('ముఖ్యాంశాలు','Key points')}</h3>${notes||'<p>\u2013</p>'}<button class="lr-ib" id="rd" style="margin-top:6px">🔊 ${word('వినండి','Listen')}</button><button class="lr-ib" id="rdv" style="margin-top:6px;margin-left:6px" aria-label="Change voice">🎙️ ${word('వాయిస్ మార్చు','Voice')}</button></div>${diagHTML(s,t)}${flowHTML(t)}${examHTML(t)}${revHTML(t)}
   <button class="lr-go alt" id="pr2">✍ ${word('ప్రాక్టీస్','Practice')}</button>`);
  wireTop();
  const go=()=>{SFX.tap();startQuiz(s,c,ti)};$('#pr').onclick=go;$('#pr2').onclick=go;
+ $('#rdv').onclick=()=>{const lg=S.lang==='te'?'te':'en';const r=window.__cycleVoice&&window.__cycleVoice(lg);if(!r){toast(word('ఈ ఫోన్‌లో మరో వాయిస్ లేదు','No other voice on this phone'));return}toast('🎙️ '+r.n+'/'+r.of,1800);speak(lg==='te'?'నమస్కారం, నేను మీకు చదివి వినిపిస్తాను.':'Hello, I will read this lesson to you.',false)};
  $('#rd').onclick=()=>speak((t.n||[]).map(x=>W(bi(x)).replace(/^[#>] /,'').replace(/\*\*/g,'')).join('. '),s==='maths');
 }
 function startQuiz(s,c,ti){
