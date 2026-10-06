@@ -17,7 +17,7 @@ button{font-family:inherit;cursor:pointer;border:0;touch-action:manipulation;col
 .hud{position:relative;z-index:3;display:flex;align-items:center;gap:6px;padding:8px 10px;background:#0b3d91cc}.hb{display:flex;flex-direction:column;align-items:center;min-width:48px}.hb span{font-size:10px;opacity:.85}.hb b{font-size:20px;line-height:1}.lives{margin-left:auto;font-size:17px;letter-spacing:1px}.icon{background:#fff3;color:#fff;border-radius:50%;width:38px;height:38px;font-size:17px}
 .qcard{position:relative;z-index:3;margin:8px 10px 0;background:#fff;color:#0b3d91;border-radius:18px;padding:8px 52px 10px 14px;text-align:center;box-shadow:0 4px 10px #0003;min-height:78px}.qmeta{font-size:11px;opacity:.7;font-weight:700}.qtext{font-weight:900;line-height:1.3;margin-top:2px;overflow-wrap:anywhere}.say{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:#0b3d91;color:#fff}
 .field{position:relative;flex:1;overflow:hidden;margin-top:6px}
-.balloon{position:absolute;left:0;top:0;border-radius:50% 50% 48% 48%/58% 58% 42% 42%;color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center;padding:14px 10px 24px;text-align:center;line-height:1.15;box-shadow:inset -10px -12px 20px #0003,0 4px 10px #0002;will-change:transform;touch-action:none;transform:translate(0,2000px);text-shadow:0 1px 3px #0006;overflow-wrap:anywhere}
+.balloon{position:absolute;left:0;top:0;border-radius:50% 50% 48% 48%/58% 58% 42% 42%;color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center;padding:6px 4px 12px;text-align:center;line-height:1.1;box-shadow:inset -10px -12px 20px #0003,0 4px 10px #0002;will-change:transform;touch-action:none;transform:translate(0,2000px);text-shadow:0 1px 3px #0006;overflow-wrap:anywhere}
 .balloon::after{content:"";position:absolute;bottom:-9px;left:50%;width:14px;height:14px;background:inherit;clip-path:polygon(50% 0,100% 100%,0 100%);transform:translateX(-50%);filter:brightness(.85)}
 .balloon span{pointer-events:none}.balloon.popped{animation:pp .35s forwards}.balloon.wrongp{animation:wp .45s forwards}.balloon.right{outline:6px solid #34c759;box-shadow:0 0 28px 10px #34c759aa;z-index:5;transition:transform .4s}.balloon.dim{opacity:.35}
 @keyframes pp{to{opacity:0;scale:1.5}}@keyframes wp{30%{scale:1.1}to{opacity:0;scale:.6}}
@@ -141,9 +141,9 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 #learn-btn .mq-st:nth-of-type(2){animation:kidJump 1.1s ease-in-out infinite}
 @keyframes kidRead{0%,100%{transform:rotate(-4deg) translateY(0)}50%{transform:rotate(4deg) translateY(-2px)}}
 @keyframes kidJump{0%,100%{transform:translateY(0) scale(1,1)}40%{transform:translateY(-9px) scale(.96,1.05)}60%{transform:translateY(-9px)}80%{transform:translateY(0) scale(1.05,.94)}}
-#learn-btn .mq-act{display:inline-block;width:34px;text-align:center;font-size:26px;line-height:1;animation:actBob 1.2s ease-in-out infinite;filter:drop-shadow(0 2px 2px #0006)}
-#learn-btn .mq-act::after{content:'\1F9D8';animation:actSw 6s steps(1) infinite}
-@keyframes actSw{0%{content:'\1F9D8'}20%{content:'\26BD'}40%{content:'\1F4DA'}60%{content:'\1F3C3'}80%{content:'\1F94B'}}
+#learn-btn .mq-act{display:inline-block;width:58px;text-align:center;font-size:24px;letter-spacing:-2px;line-height:1;animation:actBob 1.2s ease-in-out infinite;filter:drop-shadow(0 2px 2px #0006)}
+#learn-btn .mq-act::after{content:'🧒💻';animation:actSw 28s steps(1) infinite}
+@keyframes actSw{0.00%{content:'🧒💻'}7.14%{content:'👧🔢'}14.29%{content:'🧒🔬'}21.43%{content:'👧📖'}28.57%{content:'🧒🔤'}35.71%{content:'👧🧘'}42.86%{content:'🧒💰'}50.00%{content:'👧🛡️'}57.14%{content:'🧒🎤'}64.29%{content:'👧🧩'}71.43%{content:'🧒🥋'}78.57%{content:'👧⏱️'}85.71%{content:'🧒🌏'}92.86%{content:'👧🪷'}}
 @keyframes actBob{0%,100%{transform:translateY(0) rotate(-6deg)}50%{transform:translateY(-6px) rotate(6deg)}}
 @media (prefers-reduced-motion:reduce){.chips .chip,#learn-btn .mq-st,#learn-btn .mq-act,#learn-btn.learn-cta .mq-tx{animation:none!important}}
 </style>
@@ -167,6 +167,17 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 @keyframes ttShim{to{background-position:300% 0}}@keyframes ttFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
 @media (prefers-reduced-motion:reduce){.mq-img,.mq-win.dk::after,.title{animation:none!important}}
 </style>
+<style id="fx392">
+.learning-field{grid-template-rows:repeat(2,100px)!important;align-content:start;gap:8px!important;padding:8px 12px 120px!important;min-height:0!important}
+.learning-field .balloon{height:100px!important;border-radius:20px!important;padding:6px!important}.learning-field .balloon span{font-size:15px!important}
+.learning-field .reveal{bottom:6px!important}
+.balloon{padding:5px 3px 11px!important;border-width:1.5px!important}.balloon::after{width:9px!important;height:9px!important;bottom:-6px!important}
+.reveal{padding:5px 10px!important;border-radius:14px!important}.reveal div{font-size:15px!important}.reveal button{padding:6px 10px!important;font-size:14px!important;min-height:0!important}
+.cmic{background:linear-gradient(135deg,#00e5ff,#7c4dff,#ff4df0,#ffd600)!important;background-size:260% 260%!important;color:#fff!important;border:1.5px solid #ffffffaa!important;text-shadow:0 1px 3px #0008;box-shadow:0 0 12px #7c4dffcc,0 0 4px #00e5ff!important;animation:micG 3.2s linear infinite!important}
+@keyframes micG{0%{background-position:0 50%;box-shadow:0 0 8px #00e5ff}50%{background-position:100% 50%;box-shadow:0 0 16px #ff4df0}100%{background-position:0 50%;box-shadow:0 0 8px #00e5ff}}
+@media (prefers-reduced-motion:reduce){.cmic{animation:none!important}}
+</style>
+<script>(function(){const R=/[\u{1F50A}\u{1F399}\u{1F3A4}\u{1F508}\u{1F509}\u{1F4E2}]/u;let t=0;function paint(){t=0;try{document.querySelectorAll('button:not(.cmic),#bvoi:not(.cmic)').forEach(b=>{const x=(b.textContent||'').trim();if(x.length<=30&&R.test(x))b.classList.add('cmic')})}catch(e){}}function q(){if(!t)t=setTimeout(paint,250)}try{new MutationObserver(q).observe(document.documentElement,{childList:true,subtree:true})}catch(e){}paint()})();</script>
 </head><body><div id="app"></div><script>
 // Question banks. Entry: "qTe§qEn|correct|wrong|wrong|wrong" ; option "te~en". Single-language: "q|correct|w|w|w"
 const BANK={
@@ -456,7 +467,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='3.91.0-learn';
+const VER='3.94.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -558,12 +569,12 @@ function startGame(){clearTimeout(advanceTimer);paused=false;SFX.tap();queue=[];
  lastT=performance.now();showQ();raf=requestAnimationFrame(loop)}
 function hud(){$('#hs').textContent=G.score;$('#hl').textContent=G.level;$('#hc').textContent=G.streak;$('#hv').textContent=(G.lives>0?'❤️'.repeat(G.lives):'')+('🤍'.repeat(Math.max(0,3-G.lives)))}
 function showQ(){const o=nextQ();const field=$('#field');field.querySelectorAll('.balloon').forEach(e=>e.remove());$('#rv').className='reveal';
- const D=dur();const W=field.clientWidth,H=field.clientHeight;const BW=Math.min(150,Math.round(W*.4)),BH=Math.round(BW*1.22);
+ const D=dur();const W=field.clientWidth,H=field.clientHeight;const BW=Math.min(78,Math.round(W*.21)),BH=Math.round(BW*1.22);
  cur={o,t:0,D,H,W,BW,BH,pre:D*.12,done:false,bs:[]};G.lock=false;G.qs++;
  $('#qt').textContent=o.q[S.lang]||o.q.en;$('#qt').style.fontSize=(String(o.q[S.lang]||'').length>60?'17px':'21px');
  const colors=['#ff453a','#0a84ff','#30d158','#ffd60a','#bf5af2','#ff9f0a'];const cs=shuffle(colors);
  o.opts.forEach((op,i)=>{const [col,dl]=SLOT[i];const e=document.createElement('button');e.className='balloon';e.style.setProperty('--nc',cs[i]);e.style.width=BW+'px';e.style.height=BH+'px';e.style.background=`radial-gradient(circle at 32% 28%,#fff9 0,#fff0 28%),${cs[i]}`;
-  const txt=op[S.lang]||op.en;const L=txt.length;const fs=L<=3?36:L<=6?28:L<=12?20:L<=24?16:14;e.innerHTML=`<span style="font-size:${fs}px">${txt}</span>`;
+  const txt=op[S.lang]||op.en;const L=txt.length;const fs=L<=3?22:L<=6?17:L<=12?13:L<=24?11:10;e.innerHTML=`<span style="font-size:${fs}px">${txt}</span>`;
   e.dataset.i=i;e.addEventListener('pointerdown',ev=>{ev.preventDefault();tapB(i)});field.appendChild(e);
   const cx=col?W*.97-BW:W*.03;cur.bs.push({e,x:cx,dl:dl*D,ph:Math.random()*6,gone:false})});
  hud();sayQuestion()}
