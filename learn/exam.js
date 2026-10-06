@@ -1,6 +1,6 @@
 /* AksharaNova Exam Prep: model papers, practice, mock tests. All on device. Labels are never mixed: Model Paper / Practice / Mock Test / Generated paper. Nothing here is an official or previous-year paper. */
 (function(){
-const FILES=['exd1'];
+const FILES=['exd1','exd2'];
 const UPD=[]; // manual exam-updates list: {te,en,date,url}
 const EXN={'SSC Telangana':['SSC తెలంగాణ - 10వ తరగతి','SSC Telangana - Class 10','🏫'],'CBSE':['CBSE - 10వ తరగతి','CBSE - Class 10','📘'],'Navodaya (JNVST) style':['నవోదయ (6వ తరగతి ప్రవేశం) ప్రాక్టీస్','Navodaya (Class 6 entry) practice','🧭']};
 const LBL={'Model Paper':['📝 మోడల్ పేపర్','📝 Model Paper'],'Practice':['🎯 ప్రాక్టీస్','🎯 Practice']};
@@ -22,9 +22,9 @@ function view(X,v){
    ${p.t.map((t,ti)=>`<button class="lr-row ex-t" data-p="${pi}" data-t="${ti}" style="--c:#7c4dff"><span>🎯</span><div><b>${esc(L(t.te,t.en))}</b><br><small>${L('ప్రాక్టీస్','Practice')} · ${t.qs.length} ${L('ప్రశ్నలు','Q')}</small></div></button>`).join('')}
    <button class="lr-go ex-g" data-p="${pi}" style="margin-top:6px">📄 ${L('మోడల్ పేపర్ తయారు చేయండి (20 ప్రశ్నలు)','Generate a model paper (20 questions)')}</button>
    <button class="lr-go alt ex-m" data-p="${pi}">⏱ ${L('మాక్ టెస్ట్ (సమయంతో)','Mock Test (timed)')}</button></div>`}).join('')}
-   <div class="lr-card"><h3 style="margin-top:0">🔗 ${L('అధికారిక సైట్లు (లింక్ మాత్రమే)','Official sites (link only)')}</h3>${lk.map(u=>`<p style="margin:6px 0;word-break:break-all"><a href="${esc(u)}" target="_blank" rel="noopener noreferrer" style="color:#7df9ff">${esc(u)}</a></p>`).join('')}<p class="lr-note" style="text-align:left">${L('అసలు పరీక్ష తేదీలు, బ్లూప్రింట్ ఈ సైట్లలో చూడండి. యాప్‌లోని మార్కుల విభజన అధికారికం కాదు.','Check exact dates and the marks blueprint on these sites. Marks patterns in this app are not official.')}</p></div>`);
+   ${lk.length?`<div class="lr-card"><h3 style="margin-top:0">🔗 ${L('అధికారిక సైట్లు (లింక్ మాత్రమే)','Official sites (link only)')}</h3>${lk.map(u=>`<p style="margin:6px 0;word-break:break-all"><a href="${esc(u)}" target="_blank" rel="noopener noreferrer" style="color:#7df9ff">${esc(u)}</a></p>`).join('')}<p class="lr-note" style="text-align:left">${L('అసలు పరీక్ష తేదీలు, బ్లూప్రింట్ ఈ సైట్లలో చూడండి. యాప్‌లోని మార్కుల విభజన అధికారికం కాదు.','Check exact dates and the marks blueprint on these sites. Marks patterns in this app are not official.')}</p></div>`:`<p class="lr-note">${L('అధికారిక పేపర్ నమూనా ఇంకా ధృవీకరించలేదు. అధికారిక సైట్‌లో చూడండి.','The official paper pattern is not verified in this app. Please check the official site.')}</p>`}`);
   wireTop();
-  const run=(p,qs,o)=>{const items=qs.map(q=>{const idx=shuf([0,1,2,3]);return {q:L(q[0],q[1]),o:idx.map(i=>q[2][i]),ai:idx.indexOf(0),e:L(q[3],q[4])}});RUN=Object.assign({e:v.e,p,items,i:0,ok:0,ans:[],start:Date.now()},o);nav({v:'exam',e:v.e,run:1})};
+  const run=(p,qs,o)=>{const items=qs.map(q=>{const idx=shuf([0,1,2,3]);return {q:L(q[0],q[1]),o:idx.map(i=>{const s=String(q[2][i]);const k=s.indexOf('§');return k>=0?{te:s.slice(0,k),en:s.slice(k+1)}:{te:s,en:s}}),ai:idx.indexOf(0),e:L(q[3],q[4])}});RUN=Object.assign({e:v.e,p,items,i:0,ok:0,ans:[],start:Date.now()},o);nav({v:'exam',e:v.e,run:1})};
   document.querySelectorAll('.ex-t').forEach(b=>b.onclick=()=>{SFX.tap();const p=ps[+b.dataset.p],t=p.t[+b.dataset.t];run(p,shuf(t.qs).slice(0,10),{kind:'prac',lb:LBL.Practice,title:L(t.te,t.en),fb:1,sec:0})});
   document.querySelectorAll('.ex-g').forEach(b=>b.onclick=()=>{SFX.tap();const p=ps[+b.dataset.p];const all=shuf(p.t.flatMap(t=>t.qs)).slice(0,20);run(p,all,{kind:'paper',lb:LBL['Model Paper'],title:'SV AKSHARANOVA MODEL PAPER',sub:L(p.te,p.en),fb:0,sec:0})});
   document.querySelectorAll('.ex-m').forEach(b=>b.onclick=()=>{SFX.tap();const p=ps[+b.dataset.p];const all=shuf(p.t.flatMap(t=>t.qs)).slice(0,20);run(p,all,{kind:'mock',lb:['⏱ మాక్ టెస్ట్','⏱ Mock Test'],title:L('మాక్ టెస్ట్','Mock Test'),sub:L(p.te,p.en),fb:0,sec:all.length*60})});
@@ -44,8 +44,8 @@ function runView(X,v){
  if(R.i>=R.items.length)return done(X,v,false);
  const it=R.items[R.i];const lb=R.lb;
  shell(topBar(esc(R.title))+`<p class="lr-sub"><b>${L(lb[0],lb[1])}</b>${R.sub?' · '+esc(R.sub):''}<br>${R.i+1}/${R.items.length}${R.sec?` · ⏱ <span id="ex-t"></span>`:''}</p>
- <div class="lr-card"><div class="lr-q"><span>${esc(it.q)}</span></div></div>
- ${it.o.map((o,j)=>`<button class="lr-o ex-o" data-j="${j}">${esc(W(o))}</button>`).join('')}<div id="fb"></div>`);
+ <div class="lr-card"><div class="lr-q"><span style="white-space:pre-line">${esc(it.q)}</span></div></div>
+ <div class="lr-opts">${it.o.map((o,j)=>`<button class="lr-o ex-o" data-j="${j}"><b>${'ABCD'[j]}</b><span>${esc(W(o))}</span></button>`).join('')}</div><div id="fb"></div>`);
  wireTop();
  if(R.sec){const tick=()=>{const left=Math.max(0,R.sec-Math.round((Date.now()-R.start)/1000));const el=document.getElementById('ex-t');if(el)el.textContent=Math.floor(left/60)+':'+String(left%60).padStart(2,'0');if(!left){clearInterval(TM);done(X,v,true)}};tick();TM=setInterval(tick,1000)}
  let locked=false;
