@@ -178,6 +178,12 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 .learning-field .reveal{position:static!important;margin:4px 0 0!important;grid-column:1/-1!important;width:auto!important;box-sizing:border-box!important}
 .reveal{padding:4px 10px!important;border-radius:12px!important}.reveal div{font-size:14px!important}.reveal b{font-size:17px!important}.reveal small{font-size:12px!important}.reveal button{padding:5px 10px!important;font-size:13px!important}
 .learning-field{padding-bottom:12px!important;flex:0 0 auto!important;overflow:visible!important}
+.home .tag{font-size:14px!important;color:#eef4ff!important}.home .sub{font-size:17px!important;color:#fff!important}.home h3{font-size:17px!important;color:#fff!important;margin:8px 0 5px!important}
+.foot,.credit{color:#dbe6ff!important;font-size:13px!important;opacity:1!important}
+.logo-balloons{height:68px!important;overflow:hidden;margin-top:-4px!important}.logo-balloons img,.logo-balloons svg{max-height:66px;width:auto}
+.lr-sub{color:#e6efff!important;font-size:14.5px!important}.lr-note{color:#dce8ff!important;font-size:13.5px!important}.lr-h{font-size:15px!important}.lr-card{font-size:16.5px!important}
+[class*="lr-"] small{color:#e4eeff!important;font-size:13px!important}.reveal small{opacity:1!important}
+.lr-row{font-size:16px}.lr-go,.lr-next{font-size:18px!important}.subj{font-size:15px!important}.small-btn{font-size:15px!important}
 @media (prefers-reduced-motion:reduce){.cmic{animation:none!important}}
 </style>
 <script>(function(){const R=/[\u{1F50A}\u{1F399}\u{1F3A4}\u{1F508}\u{1F509}\u{1F4E2}]/u;let t=0;function paint(){t=0;try{document.querySelectorAll('button:not(.cmic),#bvoi:not(.cmic)').forEach(b=>{const x=(b.textContent||'').trim();if(x.length<=30&&R.test(x))b.classList.add('cmic')})}catch(e){}}function q(){if(!t)t=setTimeout(paint,250)}try{new MutationObserver(q).observe(document.documentElement,{childList:true,subtree:true})}catch(e){}paint()})();</script>
@@ -470,7 +476,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='3.95.0-learn';
+const VER='3.96.0-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -768,4 +774,4 @@ if(location.hash==='#speed')setTimeout(()=>openSpeed(),500);if(location.hash==='
 ;(function(){try{const ss=window.speechSynthesis;if(!ss||ss.__fv)return;const F=/female|heera|priya|neerja|shruti|swara|kalpana|veena|lekha|sangeeta|aditi|raveena|google (हिन्दी|తెలుగు|english)|\bf\b/i,M=/\bmale\b|ravi|prabhat|hemant|madhur|mohan|rishi/i;let cache={};function pick(lang){const base=(lang||'en-IN').toLowerCase().slice(0,2);const want=base==='te'?'te-in':'en-in';const vs=ss.getVoices()||[];const k=want+vs.length;if(cache[k]!==undefined)return cache[k];const c=vs.filter(v=>(v.lang||'').toLowerCase().replace('_','-')===want);const sv=(()=>{try{return localStorage.getItem('an_voice_'+base)||''}catch(e){return ''}})();const rank=v=>{const n=(v.name||'')+' '+(v.voiceURI||'');let r=0;if(F.test(n)&&!M.test(n))r+=4;if(M.test(n))r-=4;if(v.localService===false)r+=2;if(/google/i.test(n))r+=1;if(/-x-[a-z]{2}f-|female/i.test(n))r+=2;return r};let best=(sv&&c.find(v=>v.name===sv))||c.slice().sort((a,b)=>rank(b)-rank(a))[0]||null;cache[k]=best;return best}
 window.__voiceList=function(lang){const w=(lang==='te'?'te-in':'en-in');return(ss.getVoices()||[]).filter(v=>(v.lang||'').toLowerCase().replace('_','-')===w)};
 window.__cycleVoice=function(lang){const l=window.__voiceList(lang);if(!l.length)return null;const cur=pick(lang);const i=Math.max(0,l.findIndex(v=>cur&&v.name===cur.name));const nx=l[(i+1)%l.length];try{localStorage.setItem('an_voice_'+lang,nx.name)}catch(e){}cache={};return{name:nx.name,n:(l.indexOf(nx)+1),of:l.length}};const sp=ss.speak.bind(ss);ss.speak=function(u){try{if(u&&!u.__set){u.__set=1;const l=(u.lang||'').toLowerCase();if(l.startsWith('te')||l.startsWith('en')){const v=pick(u.lang);if(v){u.voice=v;u.lang=v.lang}}}}catch(e){}return sp(u)};ss.__fv=1;if(ss.addEventListener)ss.addEventListener('voiceschanged',()=>{cache={}})}catch(e){}})();
-</script></body></html>
+</script><script src="sugg.js?v=1" defer></script></body></html>
