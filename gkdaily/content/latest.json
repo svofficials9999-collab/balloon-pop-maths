@@ -1,0 +1,612 @@
+{
+  "schema_version": 1,
+  "edition_date": "2026-10-07",
+  "timezone": "Asia/Kolkata",
+  "verified_at": "2026-10-07T14:05:00+05:30",
+  "status": "source_checked_translation_review_recommended",
+  "sources": {
+    "tgnews": {
+      "publisher": "The New Indian Express",
+      "url": "https://www.newindianexpress.com/states/telangana/2026/Oct/07/telangana-government-ensuring-247-power-supply-despite-drop-in-generation-deputy-cm-bhatti",
+      "published_date": "2026-10-07"
+    },
+    "innews": {
+      "publisher": "DD News / PIB",
+      "url": "https://ddnews.gov.in/en/josh-teams-to-be-rolled-out-across-55-districts-in-11-states-to-boost-tb-awareness/",
+      "published_date": "2026-10-07"
+    },
+    "worldnews": {
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/2026/press-release/",
+      "published_date": "2026-10-06"
+    },
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-flag.php",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/history-of-the-un",
+      "published_date": null
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261007_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "event_date": "2026-10-06",
+      "source_ids": [
+        "tgnews"
+      ],
+      "title": {
+        "te": "తెలంగాణ విద్యుత్ సరఫరా",
+        "en": "Telangana electricity supply"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 7న ప్రచురితమైన వార్త ప్రకారం, జలవిద్యుత్ ఉత్పత్తి తగ్గినా నిరంతర విద్యుత్ సరఫరా అందిస్తున్నామని ఉప ముఖ్యమంత్రి మల్లు భట్టి విక్రమార్క తెలిపారు. ఇది మంత్రి ప్రకటన; ప్రతి ప్రాంతంలో సరఫరాను స్వతంత్రంగా పరీక్షించిన నివేదిక కాదు.",
+        "en": "A report published on October 7 says Deputy Chief Minister Mallu Bhatti Vikramarka stated that the government is maintaining electricity supply despite lower hydropower generation. This is an attributed statement, not an independent check of supply in every location."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261007_telangana_1",
+        "en": "gk_20261007_telangana_1__en"
+      }
+    },
+    {
+      "id": "gk_20261007_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "event_date": "2026-10-08",
+      "source_ids": [
+        "innews"
+      ],
+      "title": {
+        "te": "టీబీ అవగాహన కోసం జోష్ బృందాలు",
+        "en": "JOSH teams for TB awareness"
+      },
+      "summary": {
+        "te": "డీడీ న్యూస్ ప్రకారం, జాయింట్ స్క్వాడ్ ఫర్ హెల్త్ అనే జోష్ బృందాలను అక్టోబర్ 8న న్యూఢిల్లీలో ప్రారంభించనున్నారు. తొలి దశలో 11 రాష్ట్రాల్లోని 55 జిల్లాల్లో యువత ద్వారా టీబీపై అవగాహన పెంచడం లక్ష్యం. ప్రారంభం ఇంకా జరగాల్సి ఉంది.",
+        "en": "DD News reports that Joint Squad for Health, or JOSH, teams are scheduled to launch in New Delhi on October 8. The first phase is planned for 55 districts in 11 states, with young people supporting TB awareness. The launch is scheduled, not yet completed."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261007_india_1",
+        "en": "gk_20261007_india_1__en"
+      }
+    },
+    {
+      "id": "gk_20261007_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "event_date": "2026-10-06",
+      "source_ids": [
+        "worldnews"
+      ],
+      "title": {
+        "te": "2026 భౌతిక శాస్త్ర నోబెల్ బహుమతి",
+        "en": "2026 Nobel Prize in Physics"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 6న రాయల్ స్వీడిష్ అకాడమీ ఆఫ్ సైన్సెస్, 2026 భౌతిక శాస్త్ర నోబెల్ బహుమతిని ఫ్రాన్సిస్ హాల్జెన్‌కు ప్రకటించింది. ఐస్‌క్యూబ్ న్యూట్రినో అబ్జర్వేటరీకి, అంతరిక్ష మూలాల నుంచి వచ్చే అధిక శక్తి న్యూట్రినోల ఆవిష్కరణకు ఆయన చేసిన కృషిని గుర్తించింది.",
+        "en": "On October 6, the Royal Swedish Academy of Sciences announced the 2026 Nobel Prize in Physics for Francis Halzen. It recognised his contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261007_world_1",
+        "en": "gk_20261007_world_1__en"
+      }
+    },
+    {
+      "id": "gk_20261007_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "event_date": null,
+      "source_ids": [
+        "tggk"
+      ],
+      "title": {
+        "te": "తెలంగాణ ఆవిర్భావం",
+        "en": "Formation of Telangana"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞాన అంశం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు.",
+        "en": "Telangana became a state on June 2, 2014. This is a static GK fact, not a new event today."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261007_telangana_2",
+        "en": "gk_20261007_telangana_2__en"
+      }
+    },
+    {
+      "id": "gk_20261007_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "event_date": null,
+      "source_ids": [
+        "ingk"
+      ],
+      "title": {
+        "te": "జాతీయ పతాకంలోని అశోక చక్రం",
+        "en": "Ashoka Chakra in the national flag"
+      },
+      "summary": {
+        "te": "భారత జాతీయ పతాకంలోని తెలుపు పట్టీ మధ్యలో నీలి రంగు అశోక చక్రం ఉంటుంది. దానికి సమాన దూరంలో 24 ఆకులు ఉంటాయి.",
+        "en": "The white band of India's national flag contains a navy-blue Ashoka Chakra with 24 equally spaced spokes."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261007_india_2",
+        "en": "gk_20261007_india_2__en"
+      }
+    },
+    {
+      "id": "gk_20261007_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "event_date": null,
+      "source_ids": [
+        "worldgk"
+      ],
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి ఆవిర్భావం",
+        "en": "Founding of the United Nations"
+      },
+      "summary": {
+        "te": "ఐక్యరాజ్యసమితి 1945 అక్టోబర్ 24న అధికారికంగా ఏర్పడింది. ఆ రోజున ఐక్యరాజ్యసమితి చార్టర్ అమల్లోకి వచ్చింది.",
+        "en": "The United Nations officially came into existence on October 24, 1945, when its Charter entered into force."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261007_world_2",
+        "en": "gk_20261007_world_2__en"
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261007_reading_1",
+      "title": {
+        "te": "వార్తను జాగ్రత్తగా చదవడం",
+        "en": "Reading news carefully"
+      },
+      "source_ids": [
+        "innews"
+      ],
+      "age_band": "class5-7",
+      "passage": {
+        "te": "డీడీ న్యూస్ నివేదిక ప్రకారం, జోష్ బృందాల ప్రారంభం అక్టోబర్ 8న జరగనుంది. తొలి దశలో 11 రాష్ట్రాల్లోని 55 జిల్లాల్లో బృందాలను ఏర్పాటు చేయాలని ప్రణాళిక. యువత సహాయంతో టీబీపై అవగాహన పెంచడం కార్యక్రమ లక్ష్యం. వార్త చదివేటప్పుడు ఎవరు చెప్పారు, ఎప్పుడు జరుగుతుంది, ఇప్పటికే జరిగిందా లేక జరగబోతోందా అని చూడాలి. ఈ వార్తలో ప్రారంభం ఇంకా జరగాల్సి ఉంది. కాబట్టి కార్యక్రమం ఇప్పటికే ప్రారంభమైందని రాయడం సరైంది కాదు. వార్త ప్రచురణ తేదీని, సంఘటన తేదీని విడిగా నమోదు చేయడం వల్ల ఈ తేడా స్పష్టమవుతుంది.",
+        "en": "DD News reports that JOSH teams are scheduled to launch on October 8. The first phase is planned for 55 districts in 11 states. The programme aims to involve young people in TB awareness. A careful reader asks who reported the information, when the event is due, and whether it has already happened. In this report, the launch is still planned. Writing that the programme has already launched would change the meaning. Recording the publication date and event date separately helps us avoid this error."
+      },
+      "vocabulary": [
+        {
+          "te": "అవగాహన",
+          "en": "awareness"
+        },
+        {
+          "te": "దశ",
+          "en": "phase"
+        },
+        {
+          "te": "ప్రణాళిక",
+          "en": "plan"
+        }
+      ],
+      "audio_ids": {
+        "te": "gk_20261007_reading_1",
+        "en": "gk_20261007_reading_1__en"
+      }
+    },
+    {
+      "id": "gk_20261007_reading_2",
+      "title": {
+        "te": "మంచులో అంతరిక్ష సంకేతాలు",
+        "en": "Signals from space in ice"
+      },
+      "source_ids": [
+        "worldnews"
+      ],
+      "age_band": "class8-10",
+      "passage": {
+        "te": "ఐస్‌క్యూబ్ అబ్జర్వేటరీ దక్షిణ ధ్రువంలోని మంచులో అమర్చిన కాంతి సెన్సర్లతో న్యూట్రినోల పరస్పర చర్యలను గుర్తిస్తుంది. న్యూట్రినోలు సాధారణంగా పదార్థం గుండా సులభంగా దాటిపోతాయి. చాలా అరుదుగా అవి పరమాణు కేంద్రకంతో పరస్పర చర్య జరిపినప్పుడు గుర్తించగల సంకేతం ఉత్పత్తి అవుతుంది. ఈ సంకేతాల అధ్యయనం వల్ల దూర అంతరిక్షంలోని అధిక శక్తి ప్రక్రియల గురించి తెలుసుకోవచ్చు. 2026 అక్టోబర్ 6న ప్రకటించిన భౌతిక శాస్త్ర నోబెల్ బహుమతి ఫ్రాన్సిస్ హాల్జెన్ కృషిని గుర్తించింది. ఒక అసాధారణ ప్రదేశాన్ని శాస్త్రీయ పరిశీలనకు ఎలా ఉపయోగించవచ్చో ఈ వార్త చూపిస్తుంది.",
+        "en": "The IceCube observatory uses light sensors placed in ice at the South Pole to detect neutrino interactions. Neutrinos usually pass through matter without being noticed. On rare occasions, a neutrino interacts with an atomic nucleus and produces a signal that the sensors can detect. These signals help researchers investigate high-energy processes far away in the universe. The Nobel Prize in Physics announced on October 6, 2026 recognises Francis Halzen's contributions to this work. The story shows how an unusual location can become a scientific instrument."
+      },
+      "vocabulary": [
+        {
+          "te": "పరిశీలన కేంద్రం",
+          "en": "observatory"
+        },
+        {
+          "te": "సంకేతాన్ని గుర్తించే పరికరం",
+          "en": "sensor"
+        },
+        {
+          "te": "అరుదైన",
+          "en": "rare"
+        }
+      ],
+      "audio_ids": {
+        "te": "gk_20261007_reading_2",
+        "en": "gk_20261007_reading_2__en"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261007_q1",
+      "item_id": "gk_20261007_telangana_1",
+      "question": {
+        "te": "విద్యుత్ వార్తలో ఏమి నివేదించారు?",
+        "en": "What does the electricity report contain?"
+      },
+      "options": {
+        "te": [
+          "మంత్రి చేసిన ప్రకటన",
+          "ప్రతి ఇంటిలో పరీక్ష",
+          "పరీక్ష తేదీ",
+          "వర్ష సూచన"
+        ],
+        "en": [
+          "A ministerial statement",
+          "A test in every home",
+          "An exam date",
+          "A rain forecast"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "వార్త మంత్రి చేసిన ప్రకటనను నివేదించింది.",
+        "en": "The story reports a statement by the minister."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261007_q1",
+        "en": "gk_20261007_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261007_q1_answer",
+        "en": "gk_20261007_q1_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261007_q2",
+      "item_id": "gk_20261007_india_1",
+      "question": {
+        "te": "జోష్ తొలి దశ ఎన్ని జిల్లాల్లో ప్రణాళిక చేశారు?",
+        "en": "How many districts are planned for the first JOSH phase?"
+      },
+      "options": {
+        "te": [
+          "11",
+          "24",
+          "55",
+          "100"
+        ],
+        "en": [
+          "11",
+          "24",
+          "55",
+          "100"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "తొలి దశ 11 రాష్ట్రాల్లోని 55 జిల్లాల్లో ప్రణాళిక చేశారు.",
+        "en": "The first phase is planned for 55 districts in 11 states."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261007_q2",
+        "en": "gk_20261007_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261007_q2_answer",
+        "en": "gk_20261007_q2_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261007_q3",
+      "item_id": "gk_20261007_world_1",
+      "question": {
+        "te": "2026 భౌతిక శాస్త్ర నోబెల్ బహుమతి ఎవరికి ప్రకటించారు?",
+        "en": "Who was announced as the 2026 Nobel Prize in Physics recipient?"
+      },
+      "options": {
+        "te": [
+          "సి.వి. రామన్",
+          "ఫ్రాన్సిస్ హాల్జెన్",
+          "అశోకుడు",
+          "ఐజాక్ న్యూటన్"
+        ],
+        "en": [
+          "C. V. Raman",
+          "Francis Halzen",
+          "Ashoka",
+          "Isaac Newton"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "అక్టోబర్ 6 ప్రకటనలో ఫ్రాన్సిస్ హాల్జెన్ పేరు ఉంది.",
+        "en": "The October 6 announcement names Francis Halzen."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261007_q3",
+        "en": "gk_20261007_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261007_q3_answer",
+        "en": "gk_20261007_q3_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261007_q4",
+      "item_id": "gk_20261007_telangana_2",
+      "question": {
+        "te": "తెలంగాణ ఎప్పుడు ఏర్పడింది?",
+        "en": "When was Telangana formed?"
+      },
+      "options": {
+        "te": [
+          "1947 ఆగస్టు 15",
+          "1950 జనవరి 26",
+          "1945 అక్టోబర్ 24",
+          "2014 జూన్ 2"
+        ],
+        "en": [
+          "August 15, 1947",
+          "January 26, 1950",
+          "October 24, 1945",
+          "June 2, 2014"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ 2014 జూన్ 2.",
+        "en": "Telangana was formed on June 2, 2014."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261007_q4",
+        "en": "gk_20261007_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261007_q4_answer",
+        "en": "gk_20261007_q4_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261007_q5",
+      "item_id": "gk_20261007_india_2",
+      "question": {
+        "te": "అశోక చక్రంలో ఎన్ని ఆకులు ఉంటాయి?",
+        "en": "How many spokes are in the Ashoka Chakra?"
+      },
+      "options": {
+        "te": [
+          "12",
+          "20",
+          "24",
+          "30"
+        ],
+        "en": [
+          "12",
+          "20",
+          "24",
+          "30"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "అశోక చక్రంలో 24 ఆకులు ఉంటాయి.",
+        "en": "The Ashoka Chakra has 24 spokes."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261007_q5",
+        "en": "gk_20261007_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261007_q5_answer",
+        "en": "gk_20261007_q5_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261007_q6",
+      "item_id": "gk_20261007_world_2",
+      "question": {
+        "te": "ఐక్యరాజ్యసమితి ఎప్పుడు అధికారికంగా ఏర్పడింది?",
+        "en": "When did the UN officially come into existence?"
+      },
+      "options": {
+        "te": [
+          "1945 అక్టోబర్ 24",
+          "2014 జూన్ 2",
+          "1947 జూలై 22",
+          "1950 జనవరి 26"
+        ],
+        "en": [
+          "October 24, 1945",
+          "June 2, 2014",
+          "July 22, 1947",
+          "January 26, 1950"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "1945 అక్టోబర్ 24న చార్టర్ అమల్లోకి వచ్చింది.",
+        "en": "Its Charter entered into force on October 24, 1945."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261007_q6",
+        "en": "gk_20261007_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261007_q6_answer",
+        "en": "gk_20261007_q6_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261007_q7",
+      "item_id": "gk_20261007_reading_1",
+      "question": {
+        "te": "జోష్ ప్రారంభం ఏ తేదీన జరగనుంది?",
+        "en": "On what date is the JOSH launch scheduled?"
+      },
+      "options": {
+        "te": [
+          "జూన్ 2",
+          "అక్టోబర్ 8",
+          "అక్టోబర్ 24",
+          "జూలై 22"
+        ],
+        "en": [
+          "June 2",
+          "October 8",
+          "October 24",
+          "July 22"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "పాఠ్యం ప్రకారం ప్రారంభం అక్టోబర్ 8న జరగనుంది.",
+        "en": "The passage gives October 8 as the scheduled launch date."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261007_q7",
+        "en": "gk_20261007_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261007_q7_answer",
+        "en": "gk_20261007_q7_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261007_q8",
+      "item_id": "gk_20261007_reading_1",
+      "question": {
+        "te": "వార్త తేదీ, సంఘటన తేదీని విడిగా ఎందుకు నమోదు చేయాలి?",
+        "en": "Why record publication and event dates separately?"
+      },
+      "options": {
+        "te": [
+          "వార్త పొడవు పెంచడానికి",
+          "పేర్లు దాచడానికి",
+          "ఫొటోలు మార్చడానికి",
+          "అర్థం తప్పుగా మార్చకుండా ఉండడానికి"
+        ],
+        "en": [
+          "To lengthen the news",
+          "To hide names",
+          "To change photos",
+          "To avoid changing the meaning"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "జరగబోయే సంఘటనను ఇప్పటికే జరిగినట్లు భావించకుండా తేదీలు సహాయపడతాయి.",
+        "en": "Dates help us avoid treating a planned event as completed."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261007_q8",
+        "en": "gk_20261007_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261007_q8_answer",
+        "en": "gk_20261007_q8_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261007_q9",
+      "item_id": "gk_20261007_reading_2",
+      "question": {
+        "te": "ఐస్‌క్యూబ్ సెన్సర్లు ఎక్కడ ఉన్నాయి?",
+        "en": "Where are IceCube's sensors?"
+      },
+      "options": {
+        "te": [
+          "దక్షిణ ధ్రువంలోని మంచులో",
+          "జాతీయ పతాకంలో",
+          "చంద్రుడిపై",
+          "రహదారిలో"
+        ],
+        "en": [
+          "In ice at the South Pole",
+          "In the national flag",
+          "On the Moon",
+          "In a road"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "సెన్సర్లు దక్షిణ ధ్రువంలోని మంచులో అమర్చారు.",
+        "en": "The sensors are placed in ice at the South Pole."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261007_q9",
+        "en": "gk_20261007_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261007_q9_answer",
+        "en": "gk_20261007_q9_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261007_q10",
+      "item_id": "gk_20261007_reading_2",
+      "question": {
+        "te": "ఈ పాఠ్యంలో rare అనే పదానికి అర్థం ఏమిటి?",
+        "en": "What does rare mean in this passage?"
+      },
+      "options": {
+        "te": [
+          "తరచుగా జరిగే",
+          "అరుదుగా జరిగే",
+          "శబ్దం చేసే",
+          "వేడి కలిగించే"
+        ],
+        "en": [
+          "Frequent",
+          "Uncommon",
+          "Noisy",
+          "Hot"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "ఇక్కడ rare అంటే అరుదుగా జరిగే అని అర్థం.",
+        "en": "Here, rare means uncommon."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261007_q10",
+        "en": "gk_20261007_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261007_q10_answer",
+        "en": "gk_20261007_q10_answer__en"
+      }
+    }
+  ],
+  "editorial_note": "Starter selection, not exhaustive daily coverage. Telugu is an original translation. Formation date only is used from Telangana portal; office-holder listings excluded. DD News date is search-backed; fetched page has relative time. No full article reproduction.",
+  "coverage": {
+    "cards": 6,
+    "current_affairs": 3,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 56
+  }
+}
