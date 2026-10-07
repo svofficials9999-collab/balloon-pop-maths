@@ -223,7 +223,8 @@ const css=document.createElement('style');css.textContent=`
 // ---------- helpers ----------
 const stars=n=>'⭐'.repeat(n)+'☆'.repeat(3-n);
 function md(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')}
-function shell(h){root.innerHTML=`<div class="game lrn"><div class="lr-scroll" id="lrs">${h}</div></div>`}
+function lessonIcons(h){const icons={'🔤':'ABC','📖':'READ','📘':'BOOK','✍':'PRACTICE','🌐':'TE/EN','🧮':'+ ×','🔢':'123','🔬':'SCI','🎙️':'VOICE','🎙':'VOICE','🎧':'AUDIO','🎯':'TEST'};return h.replace(/\p{Extended_Pictographic}\uFE0F?/gu,x=>{const label=icons[x]||icons[x.replace('️','')]||'•';return '<svg aria-hidden="true" viewBox="0 0 48 24" width="42" height="22" style="vertical-align:middle;flex:none"><rect x="1" y="1" width="46" height="22" rx="5" fill="#17375b" stroke="#7dd3fc"/><text x="24" y="16" text-anchor="middle" font-family="sans-serif" font-size="'+(label.length>5?'7':'10')+'" font-weight="700" fill="#f0f9ff">'+label+'</text></svg>'})}
+function shell(h){h=lessonIcons(h);root.innerHTML=`<div class="game lrn"><div class="lr-scroll" id="lrs">${h}</div></div>`}
 function topBar(title,back){return `<div class="lr-top">${back===false?'':'<button class="lr-ib" id="lb" aria-label="Back">\u2039</button>'}<h1>${title}</h1><button class="lr-ib" id="ll" aria-label="Language">🌐</button></div>`}
 function wireTop(){const b=$('#lb');if(b)b.onclick=()=>{SFX.tap();history.back()};const l=$('#ll');if(l)l.onclick=()=>{S.lang=S.lang==='te'?'en':'te';save();document.documentElement.lang=S.lang;SFX.tap();render(V)}}
 function nav(v){V=Object.assign({},v);try{history.pushState({svLearn:V},'',location.href)}catch(e){}render(V)}
