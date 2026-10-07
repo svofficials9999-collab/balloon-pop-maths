@@ -2,7 +2,8 @@
 (function(){
 
 var K='akn.unlock',A='akn.pinfail',T='akn.pinwait',OK='m1';
-try{var SY=window.speechSynthesis;if(SY&&!SY.__nov){var __t=0;SY.speak=function(){var n=Date.now();if(n-__t>2500){__t=n;try{var e=document.createElement('div');e.textContent=(document.documentElement.lang==='en'?'Voice lesson coming soon':'వాయిస్ పాఠం త్వరలో వస్తుంది');e.style.cssText='position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:#171b4a;color:#fff;border:1px solid #6a5cff;border-radius:14px;padding:10px 16px;z-index:2147483646;font:600 14px system-ui;box-shadow:0 0 14px #6a5cff88';(document.body||document.documentElement).appendChild(e);setTimeout(function(){e.remove()},2200)}catch(x){}}};SY.__nov=1}}catch(e){}
+try{var SY=window.speechSynthesis;if(SY&&!SY.__nov){var __t=0;SY.speak=function(){var e=window.__aknAudioTrigger;var p=e&&e.closest&&e.closest('.phrase,.panel,.card,section');if(!p)p=document.querySelector('main,#app')||document.body;if(!p)return;var n=p.querySelector('[data-audio-missing]');if(!n){n=document.createElement('p');n.setAttribute('data-audio-missing','');n.setAttribute('role','status');n.style.cssText='position:static;margin:10px 0;padding:10px 12px;background:#171b4a;color:#fff;border:1px solid #6a5cff;border-radius:12px;font:14px/1.6 system-ui';p.appendChild(n)}n.textContent=(document.documentElement.lang==='en'?'This recording is not available yet. Read the lesson aloud.':'ఈ భాగానికి రికార్డింగ్ ఇంకా అందుబాటులో లేదు. పాఠాన్ని బిగ్గరగా చదవండి.')};SY.__nov=1}}catch(e){}
+document.addEventListener('click',function(e){window.__aknAudioTrigger=e.target.closest('button')||e.target},true);
 var d=document,ls=window.localStorage,ss=window.sessionStorage;
 function get(k){try{return ls.getItem(k)}catch(e){return null}}
 function set(k,v){try{ls.setItem(k,v)}catch(e){}}
