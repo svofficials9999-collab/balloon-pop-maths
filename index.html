@@ -499,7 +499,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='4.15.71-learn';
+const VER='4.15.90-learn';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -540,20 +540,20 @@ function loadVoices(){try{VO=SS?SS.getVoices():[]}catch(e){VO=[]}}
 if(SS){loadVoices();try{SS.addEventListener('voiceschanged',loadVoices)}catch(e){SS.onvoiceschanged=loadVoices}}
 const vsc=v=>{const n=(v.name||'')+' '+(v.voiceURI||'');return /female|woman|girl/i.test(n)?-2:/\bmale\b|\bman\b/i.test(n)?3:/-x-[a-z]{2}m\b|-x-[a-z]{2}m-/i.test(n)?2:/-x-[a-z]{2}f\b|-x-[a-z]{2}f-/i.test(n)?-1:0};const bestV=a=>a.slice().sort((x,y)=>vsc(y)-vsc(x))[0]||null;const findV=l=>{const p=l.toLowerCase();const nl=v=>v.lang.toLowerCase().replace('_','-');return bestV(VO.filter(v=>nl(v)===p))||bestV(VO.filter(v=>nl(v).startsWith(p.slice(0,2))))||null};
 const hasTe=()=>!!findV('te-IN');
-function say(text,lang){if(!S.voice||!SS||!text)return;try{SS.cancel();const u=new SpeechSynthesisUtterance(text);const v=findV(lang==='te'?'te-IN':'en-IN');if(v)u.voice=v;u.lang=lang==='te'?'te-IN':'en-IN';u.rate=.9;u.pitch=1.05;SS.speak(u)}catch(e){}}
+function say(text,lang){/* Recorded audio only: no device TTS. */}
 // Which language to speak in: Telugu UI uses Telugu voice if present; maths falls back to English voice; other subjects without a voice stay silent.
 function vlang(math){if(S.lang==='en')return 'en';if(hasTe())return 'te';return math?'en':null}
 const OPW={te:{'+':' ప్లస్ ','\u2212':' మైనస్ ','\u00D7':' ఇంటూ ','\u00F7':' డివైడెడ్ బై ','=':' సమానం ','\u00B2':' స్క్వేర్ ','\u00B3':' క్యూబ్ ','%':' శాతం ','/':' బై ','?':' ','^':' పవర్ ',':':' టు '},en:{'+':' plus ','\u2212':' minus ','\u00D7':' times ','\u00F7':' divided by ','=':' equals ','\u00B2':' squared ','\u00B3':' cubed ','%':' percent ','/':' by ','?':' ','^':' to the power ',':':' to ','\u221A':' square root of ','\u221B':' cube root of '}};
 function sayText(s,l){let o=String(s).replace(/(^|[\s(=])-(\d)/g,(m,a,b)=>a+(l==='te'?' మైనస్ ':' minus ')+b);const m=OPW[l];if(l==='te'){o=o.replace(/\u221A(\d+)/g,'$1 వర్గమూలం').replace(/\u221B(\d+)/g,'$1 ఘనమూలం')}for(const k in m)o=o.split(k).join(m[k]);return o.replace(/\s+/g,' ').trim()}
 const spoke=(x,l)=>typeof x==='object'?x[l]:sayText(x,l);
 function gqHash(t){let h=5381;t=String(t||'').trim().toLowerCase();for(let i=0;i<t.length;i++)h=((h<<5)+h+t.charCodeAt(i))>>>0;return 'gq_'+h.toString(36)}
-let gqIdx=null;function gqPlay(q,l,fb){const id=gqHash(q.q.en||q.q.te),ak=l==='te'?id:id+'__en';const ok=(()=>{try{return !!document.createElement('audio').canPlayType('audio/ogg; codecs=opus')}catch(e){return true}})();const bad=()=>{if(fb)fb()};try{window.__kc&&window.__kc.pause()}catch(e){}
- (gqIdx||(gqIdx=fetch('./learn/audio/'+(ok?'index.json':'index_m.json')+'?v='+VER).then(r=>r.ok?r.json():{}).catch(()=>({})))).then(m=>{if(!m||!m[ak])return bad();const go=()=>{const src=window.__AUD&&window.__AUD[ak];if(!src)return bad();const a=new Audio(src);window.__kc=a;try{a.playbackRate=+localStorage.getItem('akn.spd')||1}catch(e){}a.onerror=bad;const p=a.play();if(p&&p.catch)p.catch(bad)};if(window.__AUD&&window.__AUD[ak])return go();const e=document.createElement('script');e.src='./learn/audio/'+m[ak]+'.js?v='+VER;e.onload=()=>{go();try{e.remove()}catch(x){}};e.onerror=bad;document.head.appendChild(e)}).catch(bad)}
-function sayQuestion(){if(!cur)return;const m=S.subj==='maths';const l=vlang(m);if(!l)return;const q=cur.o;let s;
- if(!m&&q&&q.q&&(q.q.en||q.q.te)){try{if(window.speechSynthesis)window.speechSynthesis.cancel()}catch(e){}gqPlay(q,l,()=>{const t0=sayText(q.q[l]||q.q.en,l);say(t0,l)});return}
- if(m&&q.x&&q.x!=null&&!(q.x.te==null&&0))s=spoke(q.x,l);else s=sayText(q.q[l]||q.q.en,l);
- if(m&&typeof q.x==='string'&&q.x.indexOf('=')<0)s=sayText(q.x,l);
- say(s,l)}
+let gqIdx=null,gqRequest=0;
+function questionAudioStatus(text){const n=document.getElementById('q-audio-status');if(n){n.textContent=text;n.hidden=!text}}
+function gqPlay(q,l,manual=false){const request=++gqRequest,id=gqHash(q.q.en||q.q.te),ak=l==='te'?id:id+'__en';const note=text=>{if(request===gqRequest)questionAudioStatus(text)};try{window.__kc&&window.__kc.pause()}catch(e){}note('రికార్డింగ్ లోడ్ అవుతోంది · Loading recording...');
+ const pending=()=>note('ఈ భాషలో ఆడియో సిద్ధం అవుతోంది · Audio for this language is being prepared. ప్రస్తుతం ప్రశ్న చదవండి · Please read the question for now.');
+ const failed=()=>note('రికార్డింగ్ వినిపించలేదు. స్పీకర్ మళ్లీ నొక్కండి · Recording could not play. Tap the speaker to retry.');
+ (gqIdx||(gqIdx=fetch('./learn/audio/'+(document.createElement('audio').canPlayType('audio/ogg; codecs=opus')?'index.json':'index_m.json')+'?v='+VER,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).catch(e=>{gqIdx=null;throw e}))).then(m=>{if(request!==gqRequest)return;if(!m[ak])return pending();const go=()=>{if(request!==gqRequest)return;const src=window.__AUD&&window.__AUD[ak];if(!src)return failed();const a=new Audio(src);window.__kc=a;try{a.playbackRate=+localStorage.getItem('akn.spd')||1}catch(e){}a.onended=()=>note('రికార్డింగ్ పూర్తైంది · Recording finished.');a.onerror=failed;const p=a.play();if(p&&p.then)p.then(()=>note('రికార్డింగ్ వినిపిస్తోంది · Playing recording.')).catch(e=>{if(e.name==='NotAllowedError')note('వినడానికి స్పీకర్ నొక్కండి · Tap the speaker to play the recording.');else failed()})};if(window.__AUD&&window.__AUD[ak])return go();const e=document.createElement('script');e.src='./learn/audio/'+m[ak]+'.js?v='+VER;e.onload=()=>{go();e.remove()};e.onerror=()=>{failed();e.remove()};document.head.appendChild(e)}).catch(failed)}
+function sayQuestion(manual=false){if(!cur)return;const q=cur.o,l=S.lang;if(!manual&&!S.voice){questionAudioStatus('వినడానికి స్పీకర్ నొక్కండి · Tap the speaker to listen.');return}if(q&&q.q&&(q.q.en||q.q.te)){gqPlay(q,l,manual);return}questionAudioStatus('ఆడియో సిద్ధం అవుతోంది · Audio is being prepared. ప్రస్తుతం ప్రశ్న చదవండి · Please read the question for now.')}
 const GOOD={te:['శభాష్','గుడ్','చాలా బాగుంది','సూపర్'],en:['Good!','Well done!','Great!','Super!']};
 function sayResult(ok){const m=S.subj==='maths';const l=vlang(m);if(!l)return;const q=cur.o;const ans=q.opts[q.ai][l]||q.opts[q.ai].en;let fact;
  if(m&&q.x){const e=spoke(q.x,l);fact=(typeof q.x==='string'&&q.x.indexOf('=')>=0)?e:e+(l==='te'?' సమానం ':' equals ')+sayText(ans,l)}else fact=(l==='te'?'సరైన సమాధానం ':'The correct answer is ')+sayText(ans,l);
@@ -563,7 +563,7 @@ function sayResult(ok){const m=S.subj==='maths';const l=vlang(m);if(!l)return;co
 let G=null,cur=null,raf=0,lastT=0,paused=false,queue=[],recent=[],installEvt=null;
 const root=document.getElementById('app');
 function toast(msg,ms=2600){let e=$('#toast');if(!e){e=document.createElement('div');e.id='toast';document.body.appendChild(e)}e.textContent=msg;e.className='show';clearTimeout(toast.t);toast.t=setTimeout(()=>e.className='',ms)}
-function home(){cancelAnimationFrame(raf);clearTimeout(advanceTimer);paused=false;G=null;cur=null;try{SS&&SS.cancel()}catch(e){}
+function home(){++gqRequest;try{window.__kc&&window.__kc.pause()}catch(e){}cancelAnimationFrame(raf);clearTimeout(advanceTimer);paused=false;G=null;cur=null;try{SS&&SS.cancel()}catch(e){}
  const cl=[];for(let i=1;i<=10;i++)cl.push(`<button class="chip${S.cls===i?' on':''}" data-c="${i}">${i}</button>`);
  const sj=Object.keys(SUBJ).map(k=>`<button class="subj${S.subj===k?' on':''}" data-s="${k}" style="--c:${SUBJ[k].c}"><span>${SUBJ[k].i}</span>${nm(SUBJ[k])}</button>`).join('');
  const lv=LV.map((l,i)=>`<button class="level-btn${S.lvl===i?' on':''}" data-l="${i}" style="background:${l.c}"><span class="lv-stars">${l.s}</span><span class="lv-name">${nm(l)}</span><span class="lv-best">🏆 ${best(S.subj,S.cls,i)}</span></button>`).join('');
@@ -596,15 +596,15 @@ function dur(){const m=S.subj==='maths';const base=(m?[9,8,7]:[15,13,11])[S.lvl]
 const SLOT=[[0,0],[1,.13],[0,.26],[1,.39]];
 function startGame(){clearTimeout(advanceTimer);paused=false;SFX.tap();queue=[];recent=[];try{SS&&SS.cancel()}catch(e){}
  G={score:0,lives:3,streak:0,maxStreak:0,solved:0,wrong:0,level:1,missed:[],clock:0,lock:false,qs:0};
- if(S.voice&&S.lang==='te'&&!hasTe()&&S.subj!=='maths')toast(t('novoice2'),4000);else if(S.voice&&S.lang==='te'&&!hasTe())toast(t('novoice'),4000);
+ 
  const sc=SUBJ[S.subj];
  root.innerHTML=`<div class="game sky play-screen"><div class="hud"><div class="hb"><span>${t('score')}</span><b id="hs">0</b></div><div class="hb"><span>${t('lvlw')}</span><b id="hl">1</b></div><div class="hb"><span>${t('combo')}</span><b id="hc">0</b></div><div class="lives" id="hv">❤️❤️❤️</div><button class="icon" id="pz" aria-label="pause">⏸</button></div>
  <div class="qcard"><div class="qmeta">${sc.i} ${nm(sc)} · ${t('cls')} ${S.cls}</div><div class="qtext" id="qt"></div><button class="icon say" id="rep" aria-label="repeat">🔊</button></div>
- <div class="field" id="field"><div class="clouds" aria-hidden="true"><span>☁️</span><span>☁️</span></div></div><div class="reveal" id="rv"></div><div class="banner" id="bn"></div></div>`;
- $('#pz').onclick=pause;$('#rep').onclick=()=>{if(cur&&!G.lock)sayQuestion()};
+ <p id="q-audio-status" role="status" hidden style="position:relative;margin:4px 12px;padding:7px 10px;border:1px solid #f0c66d;border-radius:10px;background:#30294b;color:#ffebad;font-size:13px;line-height:1.45;z-index:3"></p><div class="field" id="field"><div class="clouds" aria-hidden="true"><span>☁️</span><span>☁️</span></div></div><div class="reveal" id="rv"></div><div class="banner" id="bn"></div></div>`;
+ $('#pz').onclick=pause;$('#rep').onclick=()=>{if(cur)sayQuestion(true)};
  lastT=performance.now();showQ();raf=requestAnimationFrame(loop)}
 function hud(){$('#hs').textContent=G.score;$('#hl').textContent=G.level;$('#hc').textContent=G.streak;$('#hv').textContent=(G.lives>0?'❤️'.repeat(G.lives):'')+('🤍'.repeat(Math.max(0,3-G.lives)))}
-function showQ(){const o=nextQ();const field=$('#field');field.querySelectorAll('.balloon').forEach(e=>e.remove());$('#rv').className='reveal';
+function showQ(){++gqRequest;try{window.__kc&&window.__kc.pause()}catch(e){}questionAudioStatus('');const o=nextQ();const field=$('#field');field.querySelectorAll('.balloon').forEach(e=>e.remove());$('#rv').className='reveal';
  const D=dur();const W=field.clientWidth,H=field.clientHeight;const BW=Math.min(78,Math.round(W*.21)),BH=Math.round(BW*1.22);
  cur={o,t:0,D,H,W,BW,BH,pre:D*.12,done:false,bs:[]};G.lock=false;G.qs++;
  $('#qt').textContent=o.q[S.lang]||o.q.en;$('#qt').style.fontSize=(String(o.q[S.lang]||'').length>60?'17px':'21px');
