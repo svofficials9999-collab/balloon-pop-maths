@@ -88,4 +88,4 @@ if(d.body)go();else d.addEventListener('DOMContentLoaded',go);
 })();
 
 /* Shared opt-in voice tools. No recognition until a visible Voice tap. */
-(()=>{const url=new URL('voice-search.js',document.currentScript.src).href;const add=()=>{if(!document.querySelector('script[data-voice-shared]')){const e=document.createElement('script');e.dataset.voiceShared='1';e.src=url;document.head.append(e)}};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',add,{once:true});else add()})();
+(()=>{const url=new URL('voice-search.js?v=89',document.currentScript.src).href;const add=()=>{if(!document.querySelector('script[data-voice-shared]')){const e=document.createElement('script');e.dataset.voiceShared='1';e.src=url;document.head.append(e)}};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',add,{once:true});else add()})();
