@@ -22,7 +22,7 @@ function loadRaw(s){
 let searchLoadState=null;
 function streamSearch(notify){
  if(!searchLoadState){const jobs=[...SUBS,...BANKS],st=searchLoadState={done:0,total:jobs.length,failed:0,complete:false,listeners:new Set()};
- let emitTimer=0;const emit=()=>{SIDX=null;clearTimeout(emitTimer);emitTimer=setTimeout(()=>{for(const f of [...st.listeners])try{f(st)}catch(e){}if(st.complete)st.listeners.clear()},80)};
+ let emitTimer=0;const emit=()=>{SIDX=null;if(emitTimer)return;emitTimer=setTimeout(()=>{emitTimer=0;for(const f of [...st.listeners])try{f(st)}catch(e){}if(st.complete)st.listeners.clear()},80)};
  st.promise=(async()=>{for(const group of [SUBS,BANKS]){let cursor=0;await Promise.all(Array.from({length:Math.min(group.length,6)},async()=>{while(cursor<group.length){const name=group[cursor++];try{await loadRaw(name)}catch(e){st.failed++}st.done++;emit()}}))}st.complete=true;emit();return st})();}
  const st=searchLoadState;if(!st.complete)st.listeners.add(notify);notify(st);return()=>st.listeners.delete(notify);
 }
