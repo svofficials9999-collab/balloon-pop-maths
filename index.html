@@ -609,10 +609,10 @@ function startGame(){clearTimeout(advanceTimer);paused=false;SFX.tap();queue=[];
  G={score:0,lives:3,streak:0,maxStreak:0,solved:0,wrong:0,level:1,missed:[],clock:0,lock:false,qs:0};
  
  const sc=SUBJ[S.subj];
- root.innerHTML=`<div class="game sky play-screen"><div class="hud"><div class="hb"><span>${t('score')}</span><b id="hs">0</b></div><div class="hb"><span>${t('lvlw')}</span><b id="hl">1</b></div><div class="hb"><span>${t('combo')}</span><b id="hc">0</b></div><div class="lives" id="hv">❤️❤️❤️</div><button class="icon" id="pz" aria-label="pause">⏸</button></div>
+ root.innerHTML=`<div class="game sky play-screen"><div class="hud"><div class="hb"><span>${t('score')}</span><b id="hs">0</b></div><div class="hb"><span>${t('lvlw')}</span><b id="hl">1</b></div><div class="hb"><span>${t('combo')}</span><b id="hc">0</b></div><div class="lives" id="hv">❤️❤️❤️</div><button class="icon" id="game-exit" aria-label="Exit game">×</button><button class="icon" id="pz" aria-label="pause">⏸</button></div>
  <div class="qcard"><div class="qmeta">${sc.i} ${nm(sc)} · ${t('cls')} ${S.cls}</div><div class="qtext" id="qt"></div><button class="icon say" id="rep" aria-label="repeat">🔊</button></div>
  <p id="q-audio-status" role="status" hidden style="position:relative;align-self:flex-end;max-width:88%;margin:3px 12px 3px 24px;padding:4px 7px;border:1px solid #f0c66d66;border-radius:8px;background:#30294b88;color:#e5d6ab;font-size:11px;line-height:1.35;z-index:3"></p><div class="field" id="field"><div class="clouds" aria-hidden="true"><span>☁️</span><span>☁️</span></div></div><div class="reveal" id="rv"></div><div class="banner" id="bn"></div></div>`;
- $('#pz').onclick=pause;$('#rep').onclick=()=>{if(cur)sayQuestion(true)};
+ $('#game-exit').onclick=()=>{++gqRequest;try{window.__kc&&window.__kc.pause()}catch(e){}cancelAnimationFrame(raf);home()};$('#pz').onclick=pause;$('#rep').onclick=()=>{if(cur)sayQuestion(true)};
  lastT=performance.now();showQ();raf=requestAnimationFrame(loop)}
 function hud(){$('#hs').textContent=G.score;$('#hl').textContent=G.level;$('#hc').textContent=G.streak;$('#hv').textContent=(G.lives>0?'❤️'.repeat(G.lives):'')+('🤍'.repeat(Math.max(0,3-G.lives)))}
 function showQ(){++gqRequest;try{window.__kc&&window.__kc.pause()}catch(e){}questionAudioStatus('');const o=nextQ();const field=$('#field');field.querySelectorAll('.balloon').forEach(e=>e.remove());$('#rv').className='reveal';
