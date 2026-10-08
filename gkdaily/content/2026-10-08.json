@@ -1,0 +1,633 @@
+{
+  "schema_version": 1,
+  "edition_date": "2026-10-08",
+  "timezone": "Asia/Kolkata",
+  "verified_at": "2026-10-08T06:09:45+05:30",
+  "status": "source_checked_translation_review_recommended",
+  "sources": {
+    "tgnews": {
+      "publisher": "The Hans India",
+      "url": "https://www.thehansindia.com/news/cities/hyderabad/telangana-colleges-get-academic-and-infrastructure-push-1130086",
+      "published_date": "2026-10-08"
+    },
+    "innews": {
+      "publisher": "Reserve Bank of India",
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+      "published_date": "2026-10-07"
+    },
+    "worldnews": {
+      "publisher": "NobelPrize.org / Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+      "published_date": "2026-10-07"
+    },
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India, National Portal of India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-flag.php",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/history-of-the-un",
+      "published_date": null
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261008_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgnews"
+      ],
+      "event_date": "2026-10-07",
+      "title": {
+        "te": "ప్రభుత్వ జూనియర్ కళాశాలలపై సమీక్ష",
+        "en": "Review of government junior colleges"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 8న ప్రచురితమైన ది హాన్స్ ఇండియా వార్త ప్రకారం, అక్టోబర్ 7న తెలంగాణ ఇంటర్మీడియట్ విద్య అధికారులు కళాశాలలపై సమీక్ష నిర్వహించారు. చదువు, విద్యార్థుల హాజరు, పోషకాహార కార్యక్రమాలు, భవన సౌకర్యాలను పరిశీలించారు. ప్రభుత్వ కళాశాలల్లో ఆర్‌ఓ తాగునీటి ప్లాంట్లు ఏర్పాటు చేయాలని ఆదేశించారు. ఇది ఆదేశం గురించి వార్త; అన్ని ప్లాంట్లు ఇప్పటికే ఏర్పాటయ్యాయని కాదు.",
+        "en": "The Hans India reported on October 8 that Telangana intermediate education officials held a college review on October 7. They examined learning, student attendance, nutrition programmes and campus facilities. Officials directed the installation of RO drinking-water plants in government colleges. This reports an instruction, not proof that every plant has already been installed."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261008_telangana_1",
+        "en": "gk_20261008_telangana_1__en"
+      }
+    },
+    {
+      "id": "gk_20261008_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": "2026-10-07",
+      "title": {
+        "te": "ఆర్‌బీఐ రెపో రేటు నిర్ణయం",
+        "en": "RBI repo rate decision"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 7న భారతీయ రిజర్వు బ్యాంకు ద్రవ్య విధాన కమిటీ విధాన రెపో రేటును 25 బేసిస్ పాయింట్లు పెంచి 5.50 శాతానికి చేర్చింది. 25 బేసిస్ పాయింట్లు అంటే 0.25 శాతం పాయింట్లు. ఈ వివరాలు ఆర్‌బీఐ అధికారిక ప్రకటనలో ఉన్నాయి. ఇది విధాన రేటు; ప్రతి వ్యక్తిగత రుణానికి ఇదే వడ్డీ రేటు వర్తిస్తుందని కాదు.",
+        "en": "On October 7, the Reserve Bank of India Monetary Policy Committee raised the policy repo rate by 25 basis points to 5.50 per cent. Twenty-five basis points means 0.25 percentage points. These figures appear in the official RBI resolution. This is a policy rate, not a statement that every personal loan carries that same interest rate."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261008_india_1",
+        "en": "gk_20261008_india_1__en"
+      }
+    },
+    {
+      "id": "gk_20261008_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": "2026-10-07",
+      "title": {
+        "te": "2026 రసాయన శాస్త్ర నోబెల్ బహుమతి",
+        "en": "2026 Nobel Prize in Chemistry"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 7న రాయల్ స్వీడిష్ అకాడమీ ఆఫ్ సైన్సెస్ 2026 రసాయన శాస్త్ర నోబెల్ బహుమతిని హెన్రీ బి. కాగన్, కెన్సో సోఅయ్‌లకు ప్రకటించింది. మాలిక్యూల్స్ అనే సూక్ష్మ కణాల అద్దం ప్రతిబింబ రూపాల్లో ఒక రూపం ఎక్కువగా ఏర్పడే రసాయన చర్యలపై వారి ఆవిష్కరణలను గుర్తించింది. ఈ పరిశోధన ఔషధాల తయారీకి ఉపయోగపడే రసాయన చర్యల రూపకల్పనలో ముఖ్యమైనది.",
+        "en": "On October 7, the Royal Swedish Academy of Sciences announced the 2026 Nobel Prize in Chemistry for Henri Kagan and Kenso Soai. Their discoveries concern chemical reactions that favour one of two mirror-image molecular forms. This research has helped chemists design reactions used in making pharmaceuticals."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261008_world_1",
+        "en": "gk_20261008_world_1__en"
+      }
+    },
+    {
+      "id": "gk_20261008_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "source_ids": [
+        "tggk"
+      ],
+      "event_date": null,
+      "title": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ",
+        "en": "Telangana formation date"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞాన అంశం. ఈరోజు జరిగిన సంఘటన కాదు; అక్టోబర్ 8న అధికారిక మూలంతో మళ్లీ తనిఖీ చేసిన విషయం.",
+        "en": "Telangana became a state on June 2, 2014. This is static GK, not an event that happened today. The official source was checked again for the October 8 edition."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261008_telangana_2",
+        "en": "gk_20261008_telangana_2__en"
+      }
+    },
+    {
+      "id": "gk_20261008_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "title": {
+        "te": "జాతీయ పతాకం వెడల్పు, పొడవు",
+        "en": "National flag proportions"
+      },
+      "summary": {
+        "te": "భారత జాతీయ పతాకం వెడల్పు, పొడవు నిష్పత్తి 2:3. పతాకం రూపకల్పనను రాజ్యాంగ సభ 1947 జూలై 22న ఆమోదించింది. ఇవి స్థిరమైన సాధారణ జ్ఞాన విషయాలు.",
+        "en": "The ratio of the width of the Indian national flag to its length is 2:3. The Constituent Assembly adopted the flag design on July 22, 1947. These are static GK facts."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261008_india_2",
+        "en": "gk_20261008_india_2__en"
+      }
+    },
+    {
+      "id": "gk_20261008_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి చార్టర్ సమావేశం",
+        "en": "The UN Charter conference"
+      },
+      "summary": {
+        "te": "1945 ఏప్రిల్ 25 నుంచి జూన్ 26 వరకు అమెరికాలోని శాన్ ఫ్రాన్సిస్కోలో జరిగిన సమావేశంలో 50 దేశాల ప్రతినిధులు ఐక్యరాజ్యసమితి చార్టర్‌ను రూపొందించి సంతకం చేశారు. ఐక్యరాజ్యసమితి అధికారికంగా 1945 అక్టోబర్ 24న ప్రారంభమైంది. సమావేశం తేదీలు, సంస్థ ప్రారంభ తేదీ వేర్వేరు.",
+        "en": "Representatives of 50 countries gathered in San Francisco, United States, from April 25 to June 26, 1945, to draft and sign the UN Charter. The United Nations officially began on October 24, 1945. The conference dates and the organisation's starting date are different."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261008_world_2",
+        "en": "gk_20261008_world_2__en"
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261008_reading_1",
+      "title": {
+        "te": "ఆదేశం, పూర్తయిన పని వేరు",
+        "en": "An instruction is not a completed task"
+      },
+      "passage": {
+        "te": "అక్టోబర్ 8న ప్రచురితమైన కళాశాలల వార్త, అక్టోబర్ 7న జరిగిన సమీక్ష గురించి చెబుతోంది. అధికారులు విద్యార్థుల హాజరు, పోషకాహారం, సౌకర్యాలను పరిశీలించారు. తాగునీటి ప్లాంట్లు ఏర్పాటు చేయాలని ఆదేశించారు. ఒక వార్తను చదివేటప్పుడు ఉపయోగించిన క్రియలను గమనించాలి. ఏర్పాటు చేయాలని ఆదేశించారు అనేది భవిష్యత్తులో చేయాల్సిన పనిని సూచిస్తుంది. ఏర్పాటు చేశారు అనేది పని పూర్తయిందని చెబుతుంది. ఈ వార్త మొదటి విషయాన్నే నిర్ధారిస్తుంది. ప్రచురణ తేదీని, సమావేశం తేదీని కూడా విడిగా గుర్తించాలి. ఇలా చదివితే ప్రణాళికను పూర్తయిన పనిగా పొరబడము.",
+        "en": "A college report published on October 8 describes a review held on October 7. Officials examined attendance, nutrition and facilities. They directed the installation of drinking-water plants. When reading news, pay attention to the verbs. Directed the installation describes an instruction for work to be done. Installed describes completed work. This report supports the first statement, not the second. Also distinguish the publication date from the meeting date. Careful reading prevents us from presenting a plan as an achievement."
+      },
+      "source_ids": [
+        "tgnews"
+      ],
+      "age_band": "class5-7",
+      "vocabulary": [
+        {
+          "te": "హాజరు",
+          "en": "attendance"
+        },
+        {
+          "te": "పోషకాహారం",
+          "en": "nutrition"
+        },
+        {
+          "te": "ఆదేశం",
+          "en": "instruction"
+        }
+      ],
+      "audio_ids": {
+        "te": "gk_20261008_reading_1",
+        "en": "gk_20261008_reading_1__en"
+      }
+    },
+    {
+      "id": "gk_20261008_reading_2",
+      "title": {
+        "te": "అద్దం ప్రతిబింబాల రసాయన శాస్త్రం",
+        "en": "The chemistry of mirror images"
+      },
+      "passage": {
+        "te": "మీ రెండు చేతులను చూడండి. అవి ఒకదానికొకటి అద్దం ప్రతిబింబాలలా ఉంటాయి. కొన్ని మాలిక్యూల్స్‌కు కూడా ఇలాంటి రెండు రూపాలు ఉంటాయి. ఈ పాఠ్యంలో molecule అనే ఆంగ్ల పదాన్ని తెలుగులో మాలిక్యూల్ అని రాస్తున్నాం. రసాయన చర్యలో ఒక రూపం ఎక్కువగా ఏర్పడేలా చేయడం శాస్త్రవేత్తలకు ఒక పరిశోధన ప్రశ్న. హెన్రీ బి. కాగన్, కెన్సో సోఅయ్ చేసిన ఆవిష్కరణలు ఈ విషయాన్ని అర్థం చేసుకోవడానికి సహాయపడ్డాయి. అక్టోబర్ 7న ప్రకటించిన 2026 రసాయన శాస్త్ర నోబెల్ బహుమతి వారి కృషిని గుర్తించింది. ఔషధాల కోసం రసాయన చర్యలను రూపొందించేటప్పుడు మాలిక్యూల్ రూపం ముఖ్యమవుతుంది. ఇది పాఠ్య వివరణ మాత్రమే; ఇంట్లో రసాయన ప్రయోగం చేయడానికి సూచన కాదు.",
+        "en": "Look at your two hands. They are like mirror images of each other. Some molecules also have two mirror-image forms. In this passage, the English word molecule is written in Telugu as మాలిక్యూల్. Making a reaction favour one form is a scientific research question. Discoveries by Henri Kagan and Kenso Soai helped explain how this can happen. The 2026 Nobel Prize in Chemistry, announced on October 7, recognised their work. Molecular form matters when chemists design reactions for pharmaceuticals. This is a reading explanation, not an instruction to try a chemical experiment at home."
+      },
+      "source_ids": [
+        "worldnews"
+      ],
+      "age_band": "class8-10",
+      "vocabulary": [
+        {
+          "te": "అద్దం ప్రతిబింబం",
+          "en": "mirror image"
+        },
+        {
+          "te": "మాలిక్యూల్",
+          "en": "molecule"
+        },
+        {
+          "te": "రసాయన చర్య",
+          "en": "chemical reaction"
+        }
+      ],
+      "audio_ids": {
+        "te": "gk_20261008_reading_2",
+        "en": "gk_20261008_reading_2__en"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261008_q1",
+      "item_id": "gk_20261008_telangana_1",
+      "question": {
+        "te": "తాగునీటి ప్లాంట్ల గురించి వార్త ఏమి చెబుతోంది?",
+        "en": "What does the report say about drinking-water plants?"
+      },
+      "options": {
+        "te": [
+          "అన్నీ పూర్తయ్యాయి",
+          "ఏర్పాటు చేయాలని ఆదేశించారు",
+          "అన్నీ మూసివేశారు",
+          "వాటిని తొలగించారు"
+        ],
+        "en": [
+          "All are completed",
+          "Officials directed their installation",
+          "All were closed",
+          "They were removed"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "వార్త ఏర్పాటు చేయాలనే ఆదేశాన్ని నివేదిస్తుంది; పని పూర్తయిందని కాదు.",
+        "en": "The report describes an installation instruction, not completed work."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261008_q1",
+        "en": "gk_20261008_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261008_q1_answer",
+        "en": "gk_20261008_q1_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261008_q2",
+      "item_id": "gk_20261008_india_1",
+      "question": {
+        "te": "అక్టోబర్ 7 నిర్ణయం తర్వాత విధాన రెపో రేటు ఎంత?",
+        "en": "What is the policy repo rate after the October 7 decision?"
+      },
+      "options": {
+        "te": [
+          "2 శాతం",
+          "5.25 శాతం",
+          "5.50 శాతం",
+          "25 శాతం"
+        ],
+        "en": [
+          "2 per cent",
+          "5.25 per cent",
+          "5.50 per cent",
+          "25 per cent"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ఆర్‌బీఐ ప్రకటన ప్రకారం విధాన రెపో రేటు 5.50 శాతం.",
+        "en": "The RBI resolution gives the policy repo rate as 5.50 per cent."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261008_q2",
+        "en": "gk_20261008_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261008_q2_answer",
+        "en": "gk_20261008_q2_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261008_q3",
+      "item_id": "gk_20261008_world_1",
+      "question": {
+        "te": "2026 రసాయన శాస్త్ర నోబెల్ బహుమతి ఎవరికి ప్రకటించారు?",
+        "en": "Who were announced as the 2026 Chemistry Nobel laureates?"
+      },
+      "options": {
+        "te": [
+          "హెన్రీ బి. కాగన్, కెన్సో సోఅయ్",
+          "ఐజాక్ న్యూటన్, అశోకుడు",
+          "సి.వి. రామన్, నెహ్రూ",
+          "ప్రతి విద్యార్థికి"
+        ],
+        "en": [
+          "Henri Kagan and Kenso Soai",
+          "Isaac Newton and Ashoka",
+          "C. V. Raman and Nehru",
+          "Every student"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అధికారిక అక్టోబర్ 7 ప్రకటనలో కాగన్, సోఅయ్ పేర్లు ఉన్నాయి.",
+        "en": "The official October 7 announcement names Kagan and Soai."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261008_q3",
+        "en": "gk_20261008_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261008_q3_answer",
+        "en": "gk_20261008_q3_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261008_q4",
+      "item_id": "gk_20261008_telangana_2",
+      "question": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ ఏది?",
+        "en": "What is Telangana's formation date?"
+      },
+      "options": {
+        "te": [
+          "1945 అక్టోబర్ 24",
+          "1947 జూలై 22",
+          "1950 జనవరి 26",
+          "2014 జూన్ 2"
+        ],
+        "en": [
+          "October 24, 1945",
+          "July 22, 1947",
+          "January 26, 1950",
+          "June 2, 2014"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "అధికారిక రాష్ట్ర పోర్టల్ ప్రకారం తెలంగాణ 2014 జూన్ 2న ఏర్పడింది.",
+        "en": "The official state portal gives June 2, 2014 as the formation date."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261008_q4",
+        "en": "gk_20261008_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261008_q4_answer",
+        "en": "gk_20261008_q4_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261008_q5",
+      "item_id": "gk_20261008_india_2",
+      "question": {
+        "te": "జాతీయ పతాకం వెడల్పు, పొడవు నిష్పత్తి ఏది?",
+        "en": "What is the flag's width-to-length ratio?"
+      },
+      "options": {
+        "te": [
+          "1:1",
+          "2:3",
+          "3:2",
+          "4:1"
+        ],
+        "en": [
+          "1:1",
+          "2:3",
+          "3:2",
+          "4:1"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "వెడల్పు, పొడవు నిష్పత్తి 2:3.",
+        "en": "The width-to-length ratio is 2:3."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261008_q5",
+        "en": "gk_20261008_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261008_q5_answer",
+        "en": "gk_20261008_q5_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261008_q6",
+      "item_id": "gk_20261008_world_2",
+      "question": {
+        "te": "1945 చార్టర్ సమావేశం ఏ నగరంలో జరిగింది?",
+        "en": "In which city was the 1945 Charter conference held?"
+      },
+      "options": {
+        "te": [
+          "హైదరాబాద్",
+          "న్యూఢిల్లీ",
+          "శాన్ ఫ్రాన్సిస్కో",
+          "టోక్యో"
+        ],
+        "en": [
+          "Hyderabad",
+          "New Delhi",
+          "San Francisco",
+          "Tokyo"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "50 దేశాల ప్రతినిధులు శాన్ ఫ్రాన్సిస్కోలో సమావేశమయ్యారు.",
+        "en": "Representatives of 50 countries met in San Francisco."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261008_q6",
+        "en": "gk_20261008_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261008_q6_answer",
+        "en": "gk_20261008_q6_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261008_q7",
+      "item_id": "gk_20261008_reading_1",
+      "question": {
+        "te": "కళాశాలల సమీక్ష జరిగిన తేదీ ఏది?",
+        "en": "On what date was the college review held?"
+      },
+      "options": {
+        "te": [
+          "2026 అక్టోబర్ 7",
+          "2026 అక్టోబర్ 8",
+          "2014 జూన్ 2",
+          "1947 జూలై 22"
+        ],
+        "en": [
+          "October 7, 2026",
+          "October 8, 2026",
+          "June 2, 2014",
+          "July 22, 1947"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "సమీక్ష అక్టోబర్ 7న జరిగింది; వార్త అక్టోబర్ 8న ప్రచురితమైంది.",
+        "en": "The review was on October 7; the report was published on October 8."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261008_q7",
+        "en": "gk_20261008_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261008_q7_answer",
+        "en": "gk_20261008_q7_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261008_q8",
+      "item_id": "gk_20261008_reading_1",
+      "question": {
+        "te": "ఆదేశాన్ని పూర్తయిన పనిగా ఎందుకు రాయకూడదు?",
+        "en": "Why should an instruction not be described as completed work?"
+      },
+      "options": {
+        "te": [
+          "వార్త చిన్నదిగా ఉంటుంది",
+          "తేదీలు అవసరం లేదు",
+          "అక్షరాలు మారతాయి",
+          "అది వార్త అర్థాన్ని మార్చుతుంది"
+        ],
+        "en": [
+          "It makes the report short",
+          "Dates are unnecessary",
+          "Letters change",
+          "It changes the report's meaning"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "పని చేయాలనే ఆదేశం, పని పూర్తయిందనే నిర్ధారణ ఒకటి కావు.",
+        "en": "An instruction to do work is not confirmation that it is finished."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261008_q8",
+        "en": "gk_20261008_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261008_q8_answer",
+        "en": "gk_20261008_q8_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261008_q9",
+      "item_id": "gk_20261008_reading_2",
+      "question": {
+        "te": "పాఠ్యంలో అణువుల రెండు రూపాలను దేనితో పోల్చారు?",
+        "en": "What does the passage compare the two molecular forms to?"
+      },
+      "options": {
+        "te": [
+          "రహదారులు",
+          "రెండు చేతుల అద్దం ప్రతిబింబాలు",
+          "పతాక రంగులు",
+          "వర్షపు చుక్కలు"
+        ],
+        "en": [
+          "Roads",
+          "The mirror images of two hands",
+          "Flag colours",
+          "Raindrops"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "రెండు చేతుల పోలిక అద్దం ప్రతిబింబ రూపాలను అర్థం చేసుకోవడానికి సహాయపడుతుంది.",
+        "en": "The comparison with two hands helps explain mirror-image forms."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261008_q9",
+        "en": "gk_20261008_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261008_q9_answer",
+        "en": "gk_20261008_q9_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261008_q10",
+      "item_id": "gk_20261008_reading_2",
+      "question": {
+        "te": "ఈ పాఠ్యంలో molecule అనే ఆంగ్ల పదాన్ని తెలుగులో ఎలా రాశారు?",
+        "en": "How is the English word molecule written in Telugu in this passage?"
+      },
+      "options": {
+        "te": [
+          "పోషకాహారం",
+          "హాజరు",
+          "మాలిక్యూల్",
+          "ఆదేశం"
+        ],
+        "en": [
+          "పోషకాహారం",
+          "హాజరు",
+          "మాలిక్యూల్",
+          "ఆదేశం"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ఈ పాఠ్యంలో molecule అనే ఆంగ్ల పదాన్ని మాలిక్యూల్ అని రాశారు. ఇది ఆంగ్ల పదాన్ని తెలుగు అక్షరాల్లో రాయడం.",
+        "en": "This passage writes the English word molecule as మాలిక్యూల్ in Telugu letters. This is a transliteration of the English word."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261008_q10",
+        "en": "gk_20261008_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261008_q10_answer",
+        "en": "gk_20261008_q10_answer__en"
+      }
+    }
+  ],
+  "editorial_note": "Reviewed October 8 morning selection, not exhaustive news coverage. News event dates are October 7; Telangana report publication is October 8. Static facts were checked again, not relabelled as news. All selected source pages read. Telugu classroom-editor review recommended. No recordings generated or inspected. Revision 2 uses explicit మాలిక్యూల్ terminology and a passage-specific transliteration quiz; original edition preserved.",
+  "coverage": {
+    "cards": 6,
+    "current_affairs": 3,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 56
+  },
+  "revision": 3,
+  "corrections": [
+    {
+      "corrected_at": "2026-10-08T08:24:54+05:30",
+      "reason": "Use explicit molecule transliteration to avoid atom/molecule ambiguity across readers. Conventional Telugu school usage also uses అణువు for molecule and పరమాణువు for atom; no claim that the earlier usage is universally wrong. Remove English option glosses that reveal q10 answer.",
+      "affected_item_ids": [
+        "gk_20261008_world_1",
+        "gk_20261008_reading_2",
+        "gk_20261008_q10"
+      ]
+    },
+    {
+      "corrected_at": "2026-10-08T08:32:16+05:30",
+      "reason": "English display and speech use Henri Kagan without middle initial to improve recording reliability; identity unchanged.",
+      "affected_item_ids": [
+        "gk_20261008_world_1",
+        "gk_20261008_reading_2",
+        "gk_20261008_q3"
+      ]
+    }
+  ]
+}
