@@ -1,0 +1,613 @@
+{
+  "schema_version": 1,
+  "edition_date": "2026-10-09",
+  "timezone": "Asia/Kolkata",
+  "verified_at": "2026-10-09T02:38:50+05:30",
+  "status": "source_checked_translation_review_recommended",
+  "sources": {
+    "tgnews": {
+      "publisher": "The Hindu BusinessLine",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/telangana-advises-farmers-to-opt-for-crops-requiring-less-water-in-rabi/article71559563.ece",
+      "published_date": "2026-10-08"
+    },
+    "innews": {
+      "publisher": "DD India / PTI",
+      "url": "https://ddindia.co.in/2026/10/ai-regulations-consultation-paper-in-a-month-safety-deepfakes-among-key-focus-areas-says-vaishnaw/",
+      "published_date": "2026-10-08"
+    },
+    "worldnews": {
+      "publisher": "NobelPrize.org / Swedish Academy",
+      "url": "https://www.nobelprize.org/prizes/literature/2026/press-release/",
+      "published_date": "2026-10-08"
+    },
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India, National Portal of India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-flag.php",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/history-of-the-un",
+      "published_date": null
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261009_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgnews"
+      ],
+      "event_date": null,
+      "title": {
+        "te": "తక్కువ నీటితో పంటలపై సూచన",
+        "en": "Advice on water-saving crops"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 8న ప్రచురితమైన బిజినెస్‌లైన్ వార్త ప్రకారం, వచ్చే రబీ సీజన్‌లో తక్కువ నీరు అవసరమయ్యే స్వల్పకాలిక పప్పుధాన్యాలు, నూనెగింజల పంటలను ఎంచుకోవాలని తెలంగాణ ప్రభుత్వం రైతులకు సూచించింది. సాగునీటి లభ్యత, మార్కెట్ డిమాండ్ ఆధారంగా నిర్ణయం తీసుకోవాలని వ్యవసాయ మంత్రి తుమ్మల నాగేశ్వరరావు చెప్పారు. ఇది నివేదించిన సూచన; అన్ని ప్రాంతాల్లో ఒకే నీటి పరిస్థితి ఉందని నిర్ధారణ కాదు. మంత్రి ప్రకటన చేసిన ఖచ్చితమైన తేదీ వార్తలో లేదు.",
+        "en": "BusinessLine reported on October 8 that the Telangana government advised farmers to consider short-duration pulses and oilseeds requiring less water for the coming rabi season. Agriculture Minister Tummala Nageswara Rao said choices should reflect irrigation-water availability and market demand. This is reported advice, not proof of identical water conditions everywhere. The article does not give the exact date of the minister's statement."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261009_telangana_1",
+        "en": "gk_20261009_telangana_1__en"
+      }
+    },
+    {
+      "id": "gk_20261009_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": "2026-10-08",
+      "title": {
+        "te": "ఏఐ భద్రతపై సంప్రదింపుల పత్రం",
+        "en": "Planned consultation paper on AI safety"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 8న మంత్రి అశ్విని వైష్ణవ్, కృత్రిమ మేధస్సు నియంత్రణలపై ఒక నెలలో సంప్రదింపుల పత్రం విడుదల చేస్తామని చెప్పారు. ఏఐ భద్రత, డీప్‌ఫేక్స్ వల్ల కలిగే హాని, మనుషులకు ప్రాధాన్యం, నైపుణ్యాల అభివృద్ధిపై దృష్టి ఉంటుందని డీడీ ఇండియా నివేదించింది. ఇది మంత్రి చెప్పిన ప్రణాళిక; కొత్త చట్టం ఇప్పటికే అమల్లోకి వచ్చిందని కాదు.",
+        "en": "On October 8, Minister Ashwini Vaishnaw said a consultation paper on artificial-intelligence regulation would be released within a month. DD India reported that it would focus on AI safety, harms including deepfakes, a human-first approach and skills. This is an announced plan, not confirmation that a new law is already in force."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261009_india_1",
+        "en": "gk_20261009_india_1__en"
+      }
+    },
+    {
+      "id": "gk_20261009_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": "2026-10-08",
+      "title": {
+        "te": "2026 సాహిత్య నోబెల్ బహుమతి",
+        "en": "2026 Nobel Prize in Literature"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 8న స్వీడిష్ అకాడమీ 2026 సాహిత్య నోబెల్ బహుమతిని కెనడాకు చెందిన రచయిత్రి ఆన్ కార్సన్‌కు ప్రకటించింది. ప్రాచీన సాహిత్య సంప్రదాయంతో సంభాషిస్తూ సమకాలీన సాహిత్యంలో కొత్త రూపాలను సృష్టించిన ఆమె రచనలను గుర్తించింది. ఈ వివరాలు అధికారిక నోబెల్ ప్రకటనలో ఉన్నాయి.",
+        "en": "On October 8, the Swedish Academy announced the 2026 Nobel Prize in Literature for Canadian author Anne Carson. It recognised inventive writing that creates new forms for contemporary literature in dialogue with the classical tradition. These details come from the official Nobel announcement."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261009_world_1",
+        "en": "gk_20261009_world_1__en"
+      }
+    },
+    {
+      "id": "gk_20261009_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "source_ids": [
+        "tggk"
+      ],
+      "event_date": null,
+      "title": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ",
+        "en": "Telangana formation date"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞాన అంశం; అక్టోబర్ 9న జరిగిన కొత్త సంఘటన కాదు. ఈ సంచిక కోసం అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "Telangana became a state on June 2, 2014. This is static GK, not a new event on October 9. The official source was checked again for this edition."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261009_telangana_2",
+        "en": "gk_20261009_telangana_2__en"
+      }
+    },
+    {
+      "id": "gk_20261009_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "title": {
+        "te": "జాతీయ పతాకంలోని రంగులు",
+        "en": "Colours of the national flag"
+      },
+      "summary": {
+        "te": "భారత జాతీయ పతాకంలో పైభాగంలో కాషాయ రంగు, మధ్యలో తెలుపు, కింద ఆకుపచ్చ రంగు ఉంటాయి. మూడు పట్టీలు సమాన పరిమాణంలో ఉంటాయి. మధ్య తెలుపు పట్టీలో నీలి రంగు అశోక చక్రం ఉంటుంది. ఇవి స్థిరమైన సాధారణ జ్ఞాన విషయాలు.",
+        "en": "India's national flag has saffron at the top, white in the middle and green at the bottom. The three bands are equal in proportion. A navy-blue Ashoka Chakra is in the middle white band. These are static GK facts."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261009_india_2",
+        "en": "gk_20261009_india_2__en"
+      }
+    },
+    {
+      "id": "gk_20261009_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి ప్రారంభం",
+        "en": "The start of the United Nations"
+      },
+      "summary": {
+        "te": "ఐక్యరాజ్యసమితి 1945 అక్టోబర్ 24న అధికారికంగా ప్రారంభమైంది. అంతర్జాతీయ శాంతి, భద్రత, మానవతా సహాయం, మానవ హక్కులు, అంతర్జాతీయ చట్టం దాని పనిలో భాగాలు. ఇవి చరిత్ర, సంస్థ గురించి విషయాలు; ఈరోజు వచ్చిన కొత్త వార్తలు కావు.",
+        "en": "The United Nations officially began on October 24, 1945. Its work includes international peace and security, humanitarian assistance, human rights and international law. These are historical and institutional facts, not new events today."
+      },
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261009_world_2",
+        "en": "gk_20261009_world_2__en"
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261009_reading_1",
+      "title": {
+        "te": "ప్రణాళికను చట్టంగా భావించవద్దు",
+        "en": "Do not mistake a plan for a law"
+      },
+      "passage": {
+        "te": "డీడీ ఇండియా అక్టోబర్ 8న ఒక మంత్రి ప్రకటనను నివేదించింది. ఏఐ నియంత్రణలపై ఒక నెలలో సంప్రదింపుల పత్రం విడుదల చేస్తామని మంత్రి చెప్పారు. అందులో భద్రత, డీప్‌ఫేక్స్ వల్ల కలిగే హాని, నైపుణ్యాలపై దృష్టి ఉంటుంది. సంప్రదింపుల పత్రం అంటే అభిప్రాయాలు సేకరించడానికి చర్చకు పెట్టే పత్రం. దానిని ప్రకటించడం, చట్టం అమల్లోకి రావడం ఒకటి కాదు. వార్తలో విడుదల చేస్తామని చెప్పారు అనే మాటలను గమనించాలి. అవి భవిష్యత్తు ప్రణాళికను సూచిస్తాయి. వార్తను సంక్షిప్తంగా రాసేటప్పుడు ఆ తేడాను నిలబెట్టాలి.",
+        "en": "DD India reported a minister's statement on October 8. The minister said a consultation paper on AI regulation would be released within a month. It would focus on safety, harms including deepfakes, and skills. A consultation paper is a document put forward for discussion and views. Announcing it is not the same as bringing a law into force. Notice the words would be released in the report. They describe a future plan. A short news summary should keep that distinction."
+      },
+      "source_ids": [
+        "innews"
+      ],
+      "age_band": "class5-7",
+      "vocabulary": [
+        {
+          "te": "సంప్రదింపులు",
+          "en": "consultation"
+        },
+        {
+          "te": "భద్రత",
+          "en": "safety"
+        },
+        {
+          "te": "ప్రణాళిక",
+          "en": "plan"
+        }
+      ],
+      "audio_ids": {
+        "te": "gk_20261009_reading_1",
+        "en": "gk_20261009_reading_1__en"
+      }
+    },
+    {
+      "id": "gk_20261009_reading_2",
+      "title": {
+        "te": "సాహిత్య వార్తలో ఆధారాలు",
+        "en": "Evidence in a literature report"
+      },
+      "passage": {
+        "te": "అక్టోబర్ 8న విడుదలైన అధికారిక ప్రకటనలో 2026 సాహిత్య నోబెల్ బహుమతిని ఆన్ కార్సన్‌కు ప్రకటించారు. ఆ ప్రకటన ఆమెను కెనడాకు చెందిన రచయిత్రిగా పేర్కొంది. ప్రాచీన సాహిత్య సంప్రదాయంతో సంభాషిస్తూ సమకాలీన సాహిత్యంలో కొత్త రూపాలను సృష్టించిన రచనలను గుర్తించింది. వార్త చదివేటప్పుడు ఎవరు ప్రకటించారు, ఎవరికి బహుమతి ఇచ్చారు, కారణం ఏమిటి, తేదీ ఏది అనే వివరాలను వేరు చేయాలి. ఆధారం చెప్పని పుస్తకం పేరు లేదా విక్రయాల సంఖ్యను మనమే చేర్చకూడదు. సంక్షిప్త ప్రకటనలో ఉన్న విషయాలనే మన మాటల్లో చెప్పడం ఆధారంతో రాయడంలో మంచి సాధన.",
+        "en": "The official announcement issued on October 8 names Anne Carson as the 2026 Nobel Prize in Literature recipient. It describes her as a Canadian author. It recognises writing that creates new forms for contemporary literature in dialogue with the classical tradition. A careful reader separates who announced the prize, who received it, the reason and the date. Do not add a book title or sales figure that the source does not provide. Restating only the supported details in your own words is good practice in evidence-based writing."
+      },
+      "source_ids": [
+        "worldnews"
+      ],
+      "age_band": "class8-10",
+      "vocabulary": [
+        {
+          "te": "రచయిత",
+          "en": "author"
+        },
+        {
+          "te": "సమకాలీన",
+          "en": "contemporary"
+        },
+        {
+          "te": "ప్రకటన",
+          "en": "announcement"
+        }
+      ],
+      "audio_ids": {
+        "te": "gk_20261009_reading_2",
+        "en": "gk_20261009_reading_2__en"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261009_q1",
+      "item_id": "gk_20261009_telangana_1",
+      "question": {
+        "te": "నివేదిక ప్రకారం పంట ఎంపికలో దేనిని పరిగణించాలి?",
+        "en": "According to the report, what should guide crop selection?"
+      },
+      "options": {
+        "te": [
+          "పేరు మాత్రమే",
+          "నీటి లభ్యత, మార్కెట్ డిమాండ్",
+          "పతాక రంగు",
+          "బహుమతి పేరు"
+        ],
+        "en": [
+          "Only the name",
+          "Water availability and market demand",
+          "Flag colour",
+          "A prize name"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "మంత్రి సూచనలో సాగునీటి లభ్యత, మార్కెట్ డిమాండ్ ఉన్నాయి.",
+        "en": "The minister's advice mentions irrigation-water availability and market demand."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261009_q1",
+        "en": "gk_20261009_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261009_q1_answer",
+        "en": "gk_20261009_q1_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261009_q2",
+      "item_id": "gk_20261009_india_1",
+      "question": {
+        "te": "మంత్రి చెప్పిన ప్రణాళిక ఏమిటి?",
+        "en": "What plan did the minister announce?"
+      },
+      "options": {
+        "te": [
+          "కొత్త చట్టం ఇప్పటికే అమల్లో ఉంది",
+          "అన్ని పాఠశాలలు మూసివేశారు",
+          "ఒక నెలలో సంప్రదింపుల పత్రం",
+          "రేపు పరీక్ష"
+        ],
+        "en": [
+          "A new law is already in force",
+          "All schools were closed",
+          "A consultation paper within a month",
+          "An exam tomorrow"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "మంత్రి ఒక నెలలో సంప్రదింపుల పత్రం విడుదల చేస్తామని చెప్పారు.",
+        "en": "The minister said a consultation paper would be released within a month."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261009_q2",
+        "en": "gk_20261009_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261009_q2_answer",
+        "en": "gk_20261009_q2_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261009_q3",
+      "item_id": "gk_20261009_world_1",
+      "question": {
+        "te": "2026 సాహిత్య నోబెల్ బహుమతి ఎవరికి ప్రకటించారు?",
+        "en": "Who was announced as the 2026 Literature Nobel recipient?"
+      },
+      "options": {
+        "te": [
+          "ఆన్ కార్సన్",
+          "ఐజాక్ న్యూటన్",
+          "సి.వి. రామన్",
+          "ప్రతి విద్యార్థికి"
+        ],
+        "en": [
+          "Anne Carson",
+          "Isaac Newton",
+          "C. V. Raman",
+          "Every student"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అధికారిక అక్టోబర్ 8 ప్రకటన ఆన్ కార్సన్ పేరు పేర్కొంది.",
+        "en": "The official October 8 announcement names Anne Carson."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261009_q3",
+        "en": "gk_20261009_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261009_q3_answer",
+        "en": "gk_20261009_q3_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261009_q4",
+      "item_id": "gk_20261009_telangana_2",
+      "question": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ ఏది?",
+        "en": "What is Telangana's formation date?"
+      },
+      "options": {
+        "te": [
+          "1945 అక్టోబర్ 24",
+          "1947 జూలై 22",
+          "1950 జనవరి 26",
+          "2014 జూన్ 2"
+        ],
+        "en": [
+          "October 24, 1945",
+          "July 22, 1947",
+          "January 26, 1950",
+          "June 2, 2014"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "అధికారిక రాష్ట్ర పోర్టల్ ప్రకారం తెలంగాణ 2014 జూన్ 2న ఏర్పడింది.",
+        "en": "The official state portal gives June 2, 2014 as the formation date."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261009_q4",
+        "en": "gk_20261009_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261009_q4_answer",
+        "en": "gk_20261009_q4_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261009_q5",
+      "item_id": "gk_20261009_india_2",
+      "question": {
+        "te": "జాతీయ పతాకం మధ్య పట్టీ రంగు ఏమిటి?",
+        "en": "What colour is the middle band of the national flag?"
+      },
+      "options": {
+        "te": [
+          "ఆకుపచ్చ",
+          "తెలుపు",
+          "కాషాయం",
+          "నలుపు"
+        ],
+        "en": [
+          "Green",
+          "White",
+          "Saffron",
+          "Black"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "మధ్య పట్టీ తెలుపు రంగులో ఉంటుంది.",
+        "en": "The middle band is white."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261009_q5",
+        "en": "gk_20261009_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261009_q5_answer",
+        "en": "gk_20261009_q5_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261009_q6",
+      "item_id": "gk_20261009_world_2",
+      "question": {
+        "te": "ఐక్యరాజ్యసమితి అధికారికంగా ప్రారంభమైన తేదీ ఏది?",
+        "en": "When did the United Nations officially begin?"
+      },
+      "options": {
+        "te": [
+          "2014 జూన్ 2",
+          "1947 జూలై 22",
+          "1945 అక్టోబర్ 24",
+          "1950 జనవరి 26"
+        ],
+        "en": [
+          "June 2, 2014",
+          "July 22, 1947",
+          "October 24, 1945",
+          "January 26, 1950"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ఐక్యరాజ్యసమితి అధికారిక ప్రారంభ తేదీ 1945 అక్టోబర్ 24.",
+        "en": "The official starting date is October 24, 1945."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261009_q6",
+        "en": "gk_20261009_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261009_q6_answer",
+        "en": "gk_20261009_q6_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261009_q7",
+      "item_id": "gk_20261009_reading_1",
+      "question": {
+        "te": "సంప్రదింపుల పత్రం దేనికి ఉపయోగపడుతుంది?",
+        "en": "What is a consultation paper used for?"
+      },
+      "options": {
+        "te": [
+          "చర్చ, అభిప్రాయాలు సేకరించడానికి",
+          "పతాకం మార్చడానికి",
+          "బహుమతి ఇవ్వడానికి",
+          "పరీక్ష సమాధానాలు దాచడానికి"
+        ],
+        "en": [
+          "Discussion and gathering views",
+          "Changing a flag",
+          "Giving a prize",
+          "Hiding test answers"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "పాఠ్యం ప్రకారం సంప్రదింపుల పత్రం చర్చకు, అభిప్రాయాలకు ఉపయోగపడుతుంది.",
+        "en": "The passage describes a document for discussion and views."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261009_q7",
+        "en": "gk_20261009_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261009_q7_answer",
+        "en": "gk_20261009_q7_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261009_q8",
+      "item_id": "gk_20261009_reading_1",
+      "question": {
+        "te": "ప్రణాళికను అమల్లో ఉన్న చట్టంగా ఎందుకు రాయకూడదు?",
+        "en": "Why should a plan not be described as a law already in force?"
+      },
+      "options": {
+        "te": [
+          "అక్షరాలు తక్కువగా ఉంటాయి",
+          "తేదీలు అవసరం లేదు",
+          "వార్త పొడవుగా ఉంటుంది",
+          "అది ఆధారం చెప్పిన అర్థాన్ని మార్చుతుంది"
+        ],
+        "en": [
+          "It uses fewer letters",
+          "Dates are unnecessary",
+          "The news is long",
+          "It changes what the evidence says"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "ప్రణాళిక, అమల్లో ఉన్న చట్టం వేర్వేరు స్థితులు.",
+        "en": "A plan and a law in force are different states."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261009_q8",
+        "en": "gk_20261009_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261009_q8_answer",
+        "en": "gk_20261009_q8_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261009_q9",
+      "item_id": "gk_20261009_reading_2",
+      "question": {
+        "te": "ప్రకటన ఆన్ కార్సన్‌ను ఎక్కడి రచయిత్రిగా పేర్కొంది?",
+        "en": "How does the announcement describe Anne Carson's nationality?"
+      },
+      "options": {
+        "te": [
+          "భారతదేశం",
+          "కెనడా",
+          "జపాన్",
+          "ఫ్రాన్స్"
+        ],
+        "en": [
+          "Indian",
+          "Canadian",
+          "Japanese",
+          "French"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "అధికారిక ప్రకటన ఆమెను కెనడాకు చెందిన రచయిత్రిగా పేర్కొంది.",
+        "en": "The official announcement describes her as a Canadian author."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261009_q9",
+        "en": "gk_20261009_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261009_q9_answer",
+        "en": "gk_20261009_q9_answer__en"
+      }
+    },
+    {
+      "id": "gk_20261009_q10",
+      "item_id": "gk_20261009_reading_2",
+      "question": {
+        "te": "మూలం చెప్పని విషయాన్ని సంక్షిప్త వార్తకు చేర్చవచ్చా?",
+        "en": "Should a summary add a detail not supplied by the source?"
+      },
+      "options": {
+        "te": [
+          "ఎప్పుడూ చేర్చాలి",
+          "పేరు దాచాలి",
+          "లేదు, ఆధారంతో ఉన్న విషయాలనే చెప్పాలి",
+          "తేదీ మార్చాలి"
+        ],
+        "en": [
+          "Always add it",
+          "Hide the name",
+          "No, keep to supported details",
+          "Change the date"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ఆధారం చెప్పని పుస్తకం పేరు లేదా సంఖ్యను మనమే చేర్చకూడదు.",
+        "en": "Do not invent a book title or figure that the evidence does not give."
+      },
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261009_q10",
+        "en": "gk_20261009_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261009_q10_answer",
+        "en": "gk_20261009_q10_answer__en"
+      }
+    }
+  ],
+  "editorial_note": "Early October 9 edition, source pages read at about 02:37 IST. Selected October 8 reports, not exhaustive October 9 news. Telangana exact statement date absent, so event_date is null; publication date is October 8. AI paper is planned, not a law in force. Static facts rechecked. Original reading/quiz, not newspaper reproduction. Class 5-10; Telugu classroom-editor review recommended. No audio generated or inspected.",
+  "coverage": {
+    "cards": 6,
+    "current_affairs": 3,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 56
+  },
+  "revision": 1
+}
