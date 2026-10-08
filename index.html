@@ -221,7 +221,7 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 .home #play::before{content:'▶';display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;margin-right:10px;border-radius:50%;background:#fff;color:#354ebe;font-size:15px;vertical-align:middle;box-shadow:0 0 12px #b9f7ff66}
 .home #play:active{transform:translateY(2px)!important;box-shadow:0 2px 0 #252054,0 0 12px #4bdaff44!important}
 </style>
-</head><body><div id="app"></div><script>
+<style>#lesson-recording-status,#q-audio-status,.akn-recording-status{font-family:"Noto Sans Telugu","Nirmala UI",system-ui,sans-serif!important;font-size:14px!important;font-weight:800!important;line-height:1.6!important;color:#ffe98a!important;background:linear-gradient(120deg,#302049ee,#112f48ee)!important;border:1px solid #ffcf6dcc!important;border-left:4px solid #ffcf6d!important;border-radius:12px!important;padding:9px 11px!important;box-shadow:0 0 12px #ffcf6d33,inset 0 0 12px #6ee7ff11!important;text-shadow:0 0 7px #ffcf6d33!important;margin:8px 0!important}</style></head><body><div id="app"></div><script>
 // Question banks. Entry: "qTe§qEn|correct|wrong|wrong|wrong" ; option "te~en". Single-language: "q|correct|w|w|w"
 const BANK={
 science:{
@@ -510,7 +510,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='4.15.90-learn';
+const VER='4.15.111-audit';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -681,7 +681,7 @@ window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=
 window.addEventListener('appinstalled',()=>{installEvt=null});
 async function checkVersion(){try{const r=await fetch('./index.html?_v='+Date.now(),{cache:'no-store'});if(!r.ok)return;const tx=await r.text();const m=tx.match(/const VER='([^']+)'/);if(m&&m[1]!==VER){updateBar();if(!G&&!sessionStorage.getItem('svr-'+m[1])){sessionStorage.setItem('svr-'+m[1],'1');const u=$('#upd button');if(u)u.click()}}}catch(e){}}
 function updateBar(){if($('#upd'))return;const d=document.createElement('div');d.id='upd';d.innerHTML=`<span>${t('upd')}</span><button>${t('reload')}</button>`;d.querySelector('button').onclick=async()=>{try{const rs=await navigator.serviceWorker.getRegistrations();await Promise.all(rs.filter(r=>r.scope===new URL('./',location.href).href).map(r=>r.unregister()));const ks=await caches.keys();await Promise.all(ks.filter(k=>k.startsWith('balloon-pop-'+new URL('./',location.href).pathname+'-')).map(k=>caches.delete(k)))}catch(e){}location.reload()};document.body.appendChild(d)}
-if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js?v=3.8.0-learn',{scope:'./',updateViaCache:'none'}).then(r=>{r.update().catch(()=>{})}).catch(()=>{})}
+if('serviceWorker' in navigator){let hadController=!!navigator.serviceWorker.controller;let didControllerReload=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!hadController){hadController=true;return}if(didControllerReload)return;didControllerReload=true;if(!G&&!document.querySelector('.lrn,#sgov'))location.reload();else updateBar()});navigator.serviceWorker.register('./sw.js?v=4.15.111-audit',{scope:'./',updateViaCache:'none'}).then(r=>{r.update().catch(()=>{})}).catch(()=>{})}
 
 // Progress is kept on this device only. No accounts, leaderboard or data upload.
 let advanceTimer=0,practiceQueue=null,practiceActive=false;
