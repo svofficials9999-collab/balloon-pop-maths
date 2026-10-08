@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-08",
+  "notifications": [
+    {
+      "id": "csir-net-dec-2026",
+      "titleTe": "CSIR UGC NET డిసెంబర్ 2026",
+      "titleEn": "CSIR UGC NET December 2026",
+      "categoryTe": "PG / పరిశోధన",
+      "categoryEn": "PG / Research",
+      "publishedOn": "2026-10-07",
+      "applicationStart": "2026-10-07",
+      "applicationDeadline": "2026-11-05",
+      "deadlineTime": "23:50 IST",
+      "expiresAt": "2026-11-09T23:50:00+05:30",
+      "examDates": [
+        "2026-12-19",
+        "2026-12-22",
+        "2026-12-27"
+      ],
+      "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3efdf562ce2fb0ad460fd8e9d33e57f57/uploads/2026/10/20261007908428552.pdf",
+      "applicationUrl": "https://csirnet.nta.nic.in/",
+      "verifiedOn": "2026-10-08",
+      "noteTe": "JRF / Assistant Professor / PhD కోసం. సాధారణ చివరి తేదీ 5 నవం 11:50 PM. రూ.500 ఆలస్య రుసుముతో 6–9 నవం 11:50 PM వరకు; సవరణలు 10–12 నవం. పరీక్ష CBT.",
+      "noteEn": "For JRF / Assistant Professor / PhD. Regular deadline 5 Nov 11:50 PM; late submission 6–9 Nov 11:50 PM with Rs 500 fee; corrections 10–12 Nov. CBT exam. Green remains through final late-fee window."
+    },
+    {
+      "id": "upsc-advt-12-2026",
+      "titleTe": "UPSC ప్రకటన 12/2026 / 13 పోస్టులు",
+      "titleEn": "UPSC Advertisement 12/2026 / 13 posts",
+      "categoryTe": "ఉద్యోగాలు",
+      "categoryEn": "Jobs",
+      "publishedOn": null,
+      "applicationStart": "2026-09-26",
+      "applicationDeadline": "2026-10-16",
+      "deadlineTime": "18:00 IST",
+      "expiresAt": "2026-10-16T18:00:00+05:30",
+      "examDates": [],
+      "sourceUrl": "https://www.upsc.gov.in/sites/default/files/AdvtNo-12-2026-Engl-250926_0.pdf",
+      "applicationUrl": "https://upsconline.nic.in/",
+      "verifiedOn": "2026-10-08",
+      "noteTe": "JTO 1, Assistant Legislative Counsel 8, Law Officer 3, Cardiology Specialist 1. ప్రతి పోస్టుకు వేరు అర్హతలు; అసలు ప్రకటన చదవండి.",
+      "noteEn": "1 JTO, 8 Assistant Legislative Counsel, 3 Law Officer, 1 Cardiology Specialist. Requirements vary by post; read the original advertisement."
+    }
+  ]
+}
