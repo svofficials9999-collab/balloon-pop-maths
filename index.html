@@ -693,10 +693,10 @@ function fail(timeout){const o=cur.o;G.lives--;G.streak=0;G.wrong++;
  const go=()=>{if(!G||G.over2)return;if(G.lives<=0)gameOver();else showQ()};G.over2=false;
  let tm=advanceTimer=setTimeout(()=>{if(!paused)go()},G.lives<=0?3500:4500);const skip=()=>{clearTimeout(tm);$('#field').removeEventListener('pointerdown',skip);setTimeout(go,50)};/* Feedback stays visible until timed continuation. */}
 function banner(m){const b=$('#bn');if(!b)return;b.textContent=m;b.className='banner show';setTimeout(()=>b&&(b.className='banner'),1200)}
-function pause(){if(!G||paused)return;paused=true;const m=modal(`<h2>⏸ ${t('paused')}</h2><button class="play" id="rs">${t('resume')}</button><button class="play alt" id="hm">${t('home')}</button>`);m.id='pm';
+function pause(){if(!G||paused)return;window.MathRecordedQuestion?.stop();paused=true;const m=modal(`<h2>⏸ ${t('paused')}</h2><button class="play" id="rs">${t('resume')}</button><button class="play alt" id="hm">${t('home')}</button>`);m.id='pm';
  m.querySelector('#rs').onclick=()=>{m.remove();paused=false;lastT=performance.now();if(G&&G.lock&&S.pace==='challenge'){clearTimeout(advanceTimer);advanceTimer=setTimeout(()=>{if(G&&!paused){if(G.lives<=0)gameOver();else showQ()}},2000)}};m.querySelector('#hm').onclick=()=>{m.remove();paused=false;home()}}
 document.addEventListener('visibilitychange',()=>{if(document.hidden){if(G&&!paused&&!G.lock)pause();try{SS&&SS.cancel()}catch(e){}}else checkVersion()});
-function gameOver(){cancelAnimationFrame(raf);const k=`bm2-best-${S.subj}-${S.cls}-${S.lvl}`;const old=best(S.subj,S.cls,S.lvl);const nb=G.score>old;if(nb)LS.set(k,String(G.score));SFX.over();
+function gameOver(){window.MathRecordedQuestion?.stop();cancelAnimationFrame(raf);const k=`bm2-best-${S.subj}-${S.cls}-${S.lvl}`;const old=best(S.subj,S.cls,S.lvl);const nb=G.score>old;if(nb)LS.set(k,String(G.score));SFX.over();
  const tot=G.solved+G.wrong;const acc=tot?Math.round(G.solved*100/tot):0;
  const mis=G.missed.slice(0,6).map(m=>`<li><span>${m.q[S.lang]||m.q.en}</span><b>${m.a[S.lang]||m.a.en}</b></li>`).join('');
  root.innerHTML=`<div class="game sky"><div class="clouds" aria-hidden="true"><span>☁️</span><span>☁️</span></div><div class="home over"><div class="logo-balloons">🎈</div><h1 class="title">${t('over')}</h1>${nb?`<p class="nb">${t('nb')}</p>`:''}
