@@ -1,4 +1,4 @@
-/* AksharaNova entry gate. Device-only, no backend. Typed digits are an entry convenience only: not stored, not sent, not an identity, login or proof of phone ownership. */
+/* AksharaNova entry gate. A valid entry sends the entered name and phone once to the configured Google Form. Failed transfers are queued locally for retry. This entry gate does not verify phone ownership; fingerprint credentials remain on this device. */
 (function(){
 
 var K='akn.unlock',A='akn.pinfail',T='akn.pinwait',OK='m1';
