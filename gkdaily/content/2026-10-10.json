@@ -1,0 +1,613 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "timezone": "Asia/Kolkata",
+  "status": "source_checked_translation_review_recommended",
+  "sources": {
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-flag.php",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/history-of-the-un",
+      "published_date": null
+    },
+    "tgnews": {
+      "publisher": "EdexLive / IANS",
+      "url": "https://www.edexlive.com/news/telangana-targets-shops-selling-banned-synthetic-manja-to-protect-birds-and-youth",
+      "published_date": "2026-10-09"
+    },
+    "innews": {
+      "publisher": "Press Information Bureau / Ministry of Communications",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2321480&lang=1&reg=48",
+      "published_date": "2026-10-09"
+    },
+    "worldnews": {
+      "publisher": "NobelPrize.org / Norwegian Nobel Committee",
+      "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
+      "published_date": "2026-10-09"
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261010_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgnews"
+      ],
+      "event_date": "2026-10-09",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261010_telangana_1",
+        "en": "gk_20261010_telangana_1__en"
+      },
+      "title": {
+        "te": "సింథటిక్ మాంజా ప్రమాదాలపై అవగాహన",
+        "en": "Awareness of synthetic manja dangers"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 9న జరిగిన సమీక్షలో నిషేధిత సింథటిక్ మాంజా అమ్మకాలను అరికట్టాలని తెలంగాణ అటవీ అధికారులు ఆదేశించినట్లు ఐఏఎన్‌ఎస్ వార్తను ఎడెక్స్‌లైవ్ ప్రచురించింది. విద్యార్థులు, తల్లిదండ్రులకు ఈ గాలిపటం దారం వల్ల మనుషులకు, పక్షులకు కలిగే ప్రమాదాలపై అవగాహన కల్పించాలని సూచించారు. ఇది అధికారుల ఆదేశాల నివేదిక; అన్ని అమ్మకాలు ఇప్పటికే ఆగిపోయాయని నిర్ధారణ కాదు.",
+        "en": "EdexLive published an IANS report that Telangana forest officials directed action against the sale of prohibited synthetic manja at an October 9 review. They asked for student and parent awareness of the dangers this kite string poses to people and birds. This reports official instructions, not proof that every sale has already stopped."
+      }
+    },
+    {
+      "id": "gk_20261010_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": "2026-10-09",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261010_india_1",
+        "en": "gk_20261010_india_1__en"
+      },
+      "title": {
+        "te": "సమాజ ప్రయోజనం కోసం ఏఐ వర్క్‌షాప్",
+        "en": "AI for Good workshop"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 9న న్యూఢిల్లీలో ఇండియా మొబైల్ కాంగ్రెస్‌లో ఏఐ ఫర్ గుడ్ ల్యాబ్ వర్క్‌షాప్ ప్రారంభమైనట్లు పీఐబీ తెలిపింది. టెలికమ్యూనికేషన్స్ విభాగం, ఇంటర్నేషనల్ టెలికమ్యూనికేషన్ యూనియన్ సంయుక్తంగా కార్యక్రమాన్ని నిర్వహించాయి. ఏఐ విధాన సన్నద్ధత, నైపుణ్యాల అభివృద్ధి, ప్రజా ఏఐ మౌలిక సదుపాయాలు అనే మూడు అంశాలపై దృష్టి పెట్టారు. వర్క్‌షాప్ జరగడం వల్ల ప్రతి పరిష్కారం ఇప్పటికే అమలైందని కాదు.",
+        "en": "PIB reported that an AI for Good Lab workshop opened at the India Mobile Congress in New Delhi on October 9. The Department of Telecommunications and the International Telecommunication Union organised it jointly. Its framework covers AI readiness and policy, skills development, and public AI infrastructure. Holding a workshop does not mean every proposed solution is already deployed."
+      }
+    },
+    {
+      "id": "gk_20261010_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": "2026-10-09",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261010_world_1",
+        "en": "gk_20261010_world_1__en"
+      },
+      "title": {
+        "te": "2026 నోబెల్ శాంతి బహుమతి",
+        "en": "2026 Nobel Peace Prize"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 9న నార్వేజియన్ నోబెల్ కమిటీ 2026 నోబెల్ శాంతి బహుమతిని నవనేతమ్ నావి పిళ్లైకి ప్రకటించింది. శాంతి, అంతర్జాతీయ చట్టాన్ని ప్రోత్సహించడానికి ఆమె చేసిన కృషిని గుర్తించింది. ఈ వివరాలు అధికారిక నోబెల్ ప్రకటనలో ఉన్నాయి.",
+        "en": "On October 9, the Norwegian Nobel Committee announced the 2026 Nobel Peace Prize for Navanethem Navi Pillay. It recognised her efforts to promote peace and international law. These details come from the official Nobel announcement."
+      }
+    },
+    {
+      "id": "gk_20261010_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "source_ids": [
+        "tggk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261010_telangana_2",
+        "en": "gk_20261010_telangana_2__en"
+      },
+      "title": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ",
+        "en": "Telangana formation date"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞాన అంశం; అక్టోబర్ 10న జరిగిన కొత్త సంఘటన కాదు. ఈ సంచిక కోసం అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "Telangana became a state on June 2, 2014. This is static GK, not a new event on October 10. The official source was checked again for this edition."
+      }
+    },
+    {
+      "id": "gk_20261010_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261010_india_2",
+        "en": "gk_20261010_india_2__en"
+      },
+      "title": {
+        "te": "అశోక చక్రంలోని ఆకులు",
+        "en": "Spokes of the Ashoka Chakra"
+      },
+      "summary": {
+        "te": "భారత జాతీయ పతాకంలోని తెలుపు పట్టీ మధ్యలో నీలి రంగు అశోక చక్రం ఉంటుంది. దానికి సమాన దూరంలో 24 ఆకులు ఉంటాయి. ఇది స్థిరమైన సాధారణ జ్ఞాన విషయం.",
+        "en": "The white band of India's national flag has a navy-blue Ashoka Chakra in its centre. The wheel has 24 equally spaced spokes. This is static GK."
+      }
+    },
+    {
+      "id": "gk_20261010_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261010_world_2",
+        "en": "gk_20261010_world_2__en"
+      },
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి చార్టర్ సమావేశం",
+        "en": "The UN Charter conference"
+      },
+      "summary": {
+        "te": "1945 ఏప్రిల్ 25 నుంచి జూన్ 26 వరకు శాన్ ఫ్రాన్సిస్కోలో 50 దేశాల ప్రతినిధులు సమావేశమై ఐక్యరాజ్యసమితి చార్టర్‌ను రూపొందించి సంతకం చేశారు. సంస్థ అధికారికంగా అక్టోబర్ 24న ప్రారంభమైంది. సమావేశం తేదీలు, సంస్థ ప్రారంభ తేదీ వేరు.",
+        "en": "Representatives of 50 countries met in San Francisco from April 25 to June 26, 1945, to draft and sign the UN Charter. The organisation officially began on October 24. The conference dates and the organisation's starting date are different."
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261010_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261010_reading_1",
+        "en": "gk_20261010_reading_1__en"
+      },
+      "source_ids": [
+        "tgnews"
+      ],
+      "title": {
+        "te": "ఆదేశం, ఫలితం వేరు",
+        "en": "An instruction and an outcome are different"
+      },
+      "passage": {
+        "te": "అక్టోబర్ 9న వచ్చిన వార్తలో సింథటిక్ మాంజా అమ్మకాలను అరికట్టాలని అధికారులు ఆదేశించినట్లు ఉంది. ఈ గాలిపటం దారం వల్ల మనుషులకు, పక్షులకు ప్రమాదాలు ఉంటాయని విద్యార్థులు, తల్లిదండ్రులకు అవగాహన కల్పించాలని కూడా సూచించారు. వార్తలో ఆదేశించారు అనే మాట ముఖ్యమైనది. అది చేయాల్సిన పనిని చెబుతుంది. అన్ని అమ్మకాలు ఆగిపోయాయి అనే వాక్యం మాత్రం ఫలితం గురించి చెబుతుంది. ఈ నివేదికలో ఆ ఫలితానికి నిర్ధారణ లేదు. వార్తను మన మాటల్లో చెప్పేటప్పుడు ఆదేశాన్ని ఫలితంగా మార్చకూడదు. ప్రమాదకర దారాన్ని తాకి పరీక్షించడం ఈ పాఠ్యం సూచించడం లేదు.",
+        "en": "An October 9 report says officials directed action against synthetic manja sales. They also asked for awareness among students and parents about the danger this kite string poses to people and birds. The word directed matters. It describes work to be done. The sentence all sales have stopped would describe an outcome. This report does not verify that outcome. When restating news, do not turn an instruction into a result. This passage does not suggest touching or testing dangerous string."
+      },
+      "vocabulary": [
+        {
+          "te": "అవగాహన",
+          "en": "awareness"
+        },
+        {
+          "te": "ఆదేశం",
+          "en": "instruction"
+        },
+        {
+          "te": "ఫలితం",
+          "en": "outcome"
+        }
+      ]
+    },
+    {
+      "id": "gk_20261010_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261010_reading_2",
+        "en": "gk_20261010_reading_2__en"
+      },
+      "source_ids": [
+        "innews"
+      ],
+      "title": {
+        "te": "వర్క్‌షాప్ నుంచి అమలు వరకు",
+        "en": "From workshop to implementation"
+      },
+      "passage": {
+        "te": "పీఐబీ అక్టోబర్ 9 ప్రకటన ప్రకారం, న్యూఢిల్లీలో ఏఐ ఫర్ గుడ్ ల్యాబ్ వర్క్‌షాప్ జరిగింది. టెలికమ్యూనికేషన్స్ విభాగం, ఐటీయూ దీనిని సంయుక్తంగా నిర్వహించాయి. విధాన సన్నద్ధత, నైపుణ్యాలు, ప్రజా ఏఐ మౌలిక సదుపాయాలు అనే మూడు అంశాలను చర్చించారు. ఒక వర్క్‌షాప్‌లో చర్చ జరగడం, పరిష్కారం పరీక్షించడం, పెద్ద స్థాయిలో అమలు చేయడం వేర్వేరు దశలు. పరిష్కారాలను విస్తరించే ముందు భద్రత, న్యాయబద్ధత, నమ్మకాన్ని పరీక్షించాల్సిన అవసరాన్ని ప్రకటన పేర్కొంది. వార్తను చదివేటప్పుడు ఏ దశ పూర్తయిందో, ఏది లక్ష్యమో వేరు చేయడం ముఖ్యం.",
+        "en": "According to PIB's October 9 release, an AI for Good Lab workshop took place in New Delhi. The Department of Telecommunications and ITU organised it jointly. It discussed readiness and policy, skills, and public AI infrastructure. Discussing an idea, testing a solution and using it at scale are different stages. The release described checking safety, fairness and reliability before expanding solutions. A careful reader separates a completed stage from a goal. A workshop is evidence of discussion, not proof that all proposed services are already available."
+      },
+      "vocabulary": [
+        {
+          "te": "నైపుణ్యాలు",
+          "en": "skills"
+        },
+        {
+          "te": "మౌలిక సదుపాయాలు",
+          "en": "infrastructure"
+        },
+        {
+          "te": "అమలు",
+          "en": "implementation"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261010_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261010_q1",
+        "en": "gk_20261010_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261010_q1_answer",
+        "en": "gk_20261010_q1_answer__en"
+      },
+      "item_id": "gk_20261010_telangana_1",
+      "question": {
+        "te": "మాంజా ప్రమాదాలపై ఎవరికి అవగాహన కల్పించాలని సూచించారు?",
+        "en": "Who should receive awareness about manja dangers?"
+      },
+      "options": {
+        "te": [
+          "రచయితలకు మాత్రమే",
+          "విద్యార్థులు, తల్లిదండ్రులకు",
+          "శాస్త్రవేత్తలకు మాత్రమే",
+          "ఎవరికీ కాదు"
+        ],
+        "en": [
+          "Only authors",
+          "Students and parents",
+          "Only scientists",
+          "Nobody"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "విద్యార్థులు, తల్లిదండ్రులకు అవగాహన కల్పించాలని అధికారులు సూచించారు.",
+        "en": "Officials asked for awareness among students and parents."
+      }
+    },
+    {
+      "id": "gk_20261010_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261010_q2",
+        "en": "gk_20261010_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261010_q2_answer",
+        "en": "gk_20261010_q2_answer__en"
+      },
+      "item_id": "gk_20261010_india_1",
+      "question": {
+        "te": "ఏఐ ఫర్ గుడ్ వర్క్‌షాప్ ఎక్కడ జరిగింది?",
+        "en": "Where was the AI for Good workshop held?"
+      },
+      "options": {
+        "te": [
+          "టోక్యో",
+          "శాన్ ఫ్రాన్సిస్కో",
+          "న్యూఢిల్లీ",
+          "దక్షిణ ధ్రువం"
+        ],
+        "en": [
+          "Tokyo",
+          "San Francisco",
+          "New Delhi",
+          "The South Pole"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "పీఐబీ ప్రకారం వర్క్‌షాప్ న్యూఢిల్లీలో జరిగింది.",
+        "en": "PIB reports that the workshop was held in New Delhi."
+      }
+    },
+    {
+      "id": "gk_20261010_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261010_q3",
+        "en": "gk_20261010_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261010_q3_answer",
+        "en": "gk_20261010_q3_answer__en"
+      },
+      "item_id": "gk_20261010_world_1",
+      "question": {
+        "te": "2026 నోబెల్ శాంతి బహుమతి ఎవరికి ప్రకటించారు?",
+        "en": "Who was announced as the 2026 Nobel Peace Prize recipient?"
+      },
+      "options": {
+        "te": [
+          "నావి పిళ్లై",
+          "ఐజాక్ న్యూటన్",
+          "సి.వి. రామన్",
+          "ప్రతి విద్యార్థికి"
+        ],
+        "en": [
+          "Navi Pillay",
+          "Isaac Newton",
+          "C. V. Raman",
+          "Every student"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అధికారిక అక్టోబర్ 9 ప్రకటన నావి పిళ్లై పేరు పేర్కొంది.",
+        "en": "The official October 9 announcement names Navi Pillay."
+      }
+    },
+    {
+      "id": "gk_20261010_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261010_q4",
+        "en": "gk_20261010_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261010_q4_answer",
+        "en": "gk_20261010_q4_answer__en"
+      },
+      "item_id": "gk_20261010_telangana_2",
+      "question": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ ఏమిటి?",
+        "en": "What is Telangana's formation date?"
+      },
+      "options": {
+        "te": [
+          "1945 అక్టోబర్ 24",
+          "1947 జూలై 22",
+          "1950 జనవరి 26",
+          "2014 జూన్ 2"
+        ],
+        "en": [
+          "October 24, 1945",
+          "July 22, 1947",
+          "January 26, 1950",
+          "June 2, 2014"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "తెలంగాణ 2014 జూన్ 2న ఏర్పడింది.",
+        "en": "Telangana became a state on June 2, 2014."
+      }
+    },
+    {
+      "id": "gk_20261010_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261010_q5",
+        "en": "gk_20261010_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261010_q5_answer",
+        "en": "gk_20261010_q5_answer__en"
+      },
+      "item_id": "gk_20261010_india_2",
+      "question": {
+        "te": "అశోక చక్రంలో ఎన్ని ఆకులు ఉంటాయి?",
+        "en": "How many spokes does the Ashoka Chakra have?"
+      },
+      "options": {
+        "te": [
+          "12",
+          "24",
+          "50",
+          "100"
+        ],
+        "en": [
+          "12",
+          "24",
+          "50",
+          "100"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "జాతీయ పతాకంలోని అశోక చక్రంలో 24 ఆకులు ఉంటాయి.",
+        "en": "The Ashoka Chakra in the national flag has 24 spokes."
+      }
+    },
+    {
+      "id": "gk_20261010_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261010_q6",
+        "en": "gk_20261010_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261010_q6_answer",
+        "en": "gk_20261010_q6_answer__en"
+      },
+      "item_id": "gk_20261010_world_2",
+      "question": {
+        "te": "1945 చార్టర్ సమావేశంలో ఎన్ని దేశాల ప్రతినిధులు పాల్గొన్నారు?",
+        "en": "Representatives of how many countries attended the 1945 Charter conference?"
+      },
+      "options": {
+        "te": [
+          "24",
+          "10",
+          "50",
+          "100"
+        ],
+        "en": [
+          "24",
+          "10",
+          "50",
+          "100"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ఐక్యరాజ్యసమితి చరిత్ర పేజీ 50 దేశాల ప్రతినిధులను పేర్కొంది.",
+        "en": "The UN history page names representatives of 50 countries."
+      }
+    },
+    {
+      "id": "gk_20261010_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261010_q7",
+        "en": "gk_20261010_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261010_q7_answer",
+        "en": "gk_20261010_q7_answer__en"
+      },
+      "item_id": "gk_20261010_reading_1",
+      "question": {
+        "te": "నివేదిక ఏ విషయాన్ని నిర్ధారిస్తుంది?",
+        "en": "What does the report confirm?"
+      },
+      "options": {
+        "te": [
+          "అధికారులు చర్యలకు ఆదేశించారు",
+          "అన్ని అమ్మకాలు ఆగిపోయాయి",
+          "అన్ని దారాలు సురక్షితం",
+          "ప్రమాదం లేదు"
+        ],
+        "en": [
+          "Officials directed action",
+          "All sales have stopped",
+          "All strings are safe",
+          "There is no danger"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నివేదిక ఆదేశాలను చెబుతుంది; అన్ని అమ్మకాలు ఆగినట్లు నిర్ధారించదు.",
+        "en": "The report describes instructions, not confirmation that all sales stopped."
+      }
+    },
+    {
+      "id": "gk_20261010_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261010_q8",
+        "en": "gk_20261010_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261010_q8_answer",
+        "en": "gk_20261010_q8_answer__en"
+      },
+      "item_id": "gk_20261010_reading_1",
+      "question": {
+        "te": "ఆదేశాన్ని ఫలితంగా మార్చి రాయడం ఎందుకు తప్పు?",
+        "en": "Why is it wrong to describe an instruction as an outcome?"
+      },
+      "options": {
+        "te": [
+          "వార్త చిన్నదవుతుంది",
+          "రంగులు మారతాయి",
+          "అక్షరాలు ఎక్కువవుతాయి",
+          "అది ఆధారం చెప్పని విషయాన్ని చేర్చుతుంది"
+        ],
+        "en": [
+          "It makes the news short",
+          "Colours change",
+          "It adds letters",
+          "It adds a claim the evidence does not support"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "ఫలితం నిర్ధారించకపోతే పూర్తయిందని చెప్పకూడదు.",
+        "en": "Do not claim completion when the outcome is unverified."
+      }
+    },
+    {
+      "id": "gk_20261010_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261010_q9",
+        "en": "gk_20261010_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261010_q9_answer",
+        "en": "gk_20261010_q9_answer__en"
+      },
+      "item_id": "gk_20261010_reading_2",
+      "question": {
+        "te": "వర్క్‌షాప్‌ను సంయుక్తంగా నిర్వహించిన సంస్థలు ఏవి?",
+        "en": "Which organisations jointly held the workshop?"
+      },
+      "options": {
+        "te": [
+          "పాఠశాల, ఆసుపత్రి",
+          "టెలికమ్యూనికేషన్స్ విభాగం, ఐటీయూ",
+          "నోబెల్ కమిటీ, పాఠశాల",
+          "ఒక క్రీడా జట్టు"
+        ],
+        "en": [
+          "A school and hospital",
+          "The Department of Telecommunications and ITU",
+          "The Nobel Committee and a school",
+          "A sports team"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "టెలికమ్యూనికేషన్స్ విభాగం, ఐటీయూ సంయుక్త నిర్వాహకులు.",
+        "en": "The Department of Telecommunications and ITU were the joint organisers."
+      }
+    },
+    {
+      "id": "gk_20261010_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261010_q10",
+        "en": "gk_20261010_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261010_q10_answer",
+        "en": "gk_20261010_q10_answer__en"
+      },
+      "item_id": "gk_20261010_reading_2",
+      "question": {
+        "te": "వర్క్‌షాప్ జరగడం దేనికి ఆధారం?",
+        "en": "What does holding a workshop provide evidence of?"
+      },
+      "options": {
+        "te": [
+          "అన్ని సేవలు అందుబాటులో ఉన్నాయి",
+          "ప్రతి సమస్య పరిష్కారమైంది",
+          "చర్చ జరిగింది",
+          "పరీక్ష అవసరం లేదు"
+        ],
+        "en": [
+          "All services are available",
+          "Every problem is solved",
+          "Discussion took place",
+          "Testing is unnecessary"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "వర్క్‌షాప్ చర్చ జరిగినట్లు చూపుతుంది; ప్రతి పరిష్కారం అమలైనట్లు కాదు.",
+        "en": "A workshop shows that discussion occurred, not that every solution was deployed."
+      }
+    }
+  ],
+  "coverage": {
+    "cards": 6,
+    "current_affairs": 3,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 56
+  },
+  "edition_date": "2026-10-10",
+  "verified_at": "2026-10-10T02:35:33+05:30",
+  "editorial_note": "Early October 10 reviewed selection of October 9 reports. All selected source pages read. Manja story is IANS reporting of instructions, not independent enforcement audit or primary ban-order verification. PIB is the official workshop report, not an independent outcome audit. Nobel details from official release. Static GK rechecked, not relabelled news. Class 5-10, Telugu classroom-editor review recommended; audio generation and inspection pending."
+}
