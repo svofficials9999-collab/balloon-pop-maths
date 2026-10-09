@@ -279,6 +279,13 @@ body{background:#090d20}.sky{background:radial-gradient(ellipse at 10% 0,#263676
 .modal.modal .card .small-btn{background:#193553!important;background-image:none!important;color:#fff!important;-webkit-text-fill-color:#fff!important;text-shadow:none!important;animation:none!important;font-weight:800!important;min-height:44px!important;height:auto!important;line-height:1.6!important;white-space:normal!important;border:1px solid #71daf8!important;padding:8px 12px!important;opacity:1!important;box-shadow:0 0 7px #00ceff33!important}.modal.modal .card .small-btn:disabled{background:#2d3b4e!important;color:#d7e2ef!important;border-color:#8d9bb2!important;box-shadow:none!important}.modal.modal .card h4{background:none!important;color:#123961!important;-webkit-text-fill-color:#123961!important;font-weight:850!important}.app-guide.app-guide .card h4{color:#ffdc80!important;-webkit-text-fill-color:#ffdc80!important}
 .game.lrn .lr-o.lr-o.right,.game.lrn .lr-o.lr-o.right:disabled{background:#0a3020!important;border:2px solid #76f5a5!important;color:#fff!important;box-shadow:0 0 13px #00ee6b55!important}.game.lrn .lr-o.lr-o.wrongp,.game.lrn .lr-o.lr-o.wrongp:disabled{background:#431725!important;border:2px solid #ff8d9f!important;color:#fff!important;box-shadow:0 0 13px #ff386055!important}.game.lrn .lr-o.lr-o.dim{background:#28364a!important;border-color:#9eafc7!important;color:#e3ebf5!important;opacity:1!important}.game.lrn .lr-o.lr-o b{background:#354660!important;color:#fff!important}.game.lrn .lr-o.lr-o.right b{background:#a4f3c2!important;color:#063222!important}.game.lrn .lr-o.lr-o.wrongp b{background:#ffb2bb!important;color:#431020!important}
 .game.lrn .rdt.rdt{background:#183450!important;background-image:none!important;color:#fff!important;-webkit-text-fill-color:#fff!important;border:2px solid #e3a4ff!important;line-height:1.6!important;min-height:56px!important;height:auto!important;padding:8px!important;text-shadow:none!important;box-shadow:none!important}.game.lrn .rdt.rdt[data-l=en]{border-color:#76e3ff!important}.game.lrn .rdt.rdt span{opacity:1!important;line-height:1.6!important}.game.lrn .lr-fb.lr-fb .hd{color:#c0f7d8!important;text-shadow:none!important;opacity:1!important}.game.lrn .lr-fb.lr-fb.bad .hd{color:#ffd0d7!important;text-shadow:none!important}.game.lrn .lr-fb.lr-fb p{color:#fff!important;opacity:1!important}.game.lrn .lr-fb.lr-fb .why{animation:none!important;opacity:1!important;color:#e7efff!important}.game.lrn .lr-fb.lr-fb .lr-next{opacity:1!important;color:#fff!important;-webkit-text-fill-color:#fff!important;text-shadow:none!important}
+</style><style id="class-selection-stable-135">
+.home.home .chips{grid-template-columns:repeat(5,minmax(0,1fr))!important;grid-template-rows:repeat(2,44px)!important;gap:8px!important;overflow-anchor:none}
+.home.home .chips .chip:nth-child(n){box-sizing:border-box!important;height:44px!important;min-height:44px!important;max-height:44px!important;padding:0!important;line-height:40px!important;border-width:2px!important;transform:none!important;transition:background-color .15s,box-shadow .15s!important;animation:none!important;position:relative;touch-action:manipulation;outline:none!important}
+.home.home .chips .chip.on:nth-child(n){background:#10415c!important;background-image:none!important;color:#fff!important;border-color:#fff1a2!important;box-shadow:inset 0 0 0 2px #ffe16a,0 0 12px #ffe16a99!important;text-shadow:0 0 5px #ffffff66!important;animation:classSelectedGlow135 1.8s ease-in-out infinite!important;transform:none!important;outline:none!important}
+.home.home .chips .chip:focus-visible{outline:2px solid #fff!important;outline-offset:2px!important}
+@keyframes classSelectedGlow135{0%,100%{box-shadow:inset 0 0 0 2px #ffe16a,0 0 8px #ffe16a77}50%{box-shadow:inset 0 0 0 2px #ffe16a,0 0 18px #ffe16acc}}
+@media(prefers-reduced-motion:reduce){.home.home .chips .chip.on:nth-child(n){animation:none!important}}
 </style></head><body><div id="app"></div><script>
 // Question banks. Entry: "qTe§qEn|correct|wrong|wrong|wrong" ; option "te~en". Single-language: "q|correct|w|w|w"
 const BANK={
@@ -568,7 +575,7 @@ function parseBank(subj,cls){const arr=BANK[subj][bandOf(cls)];return arr.map(s=
 function shuffleQ(o){const idx=shuf([0,1,2,3]);return {q:o.q,opts:idx.map(i=>o.opts[i]),ai:idx.indexOf(o.ai),x:o.x||null,key:o.key}}
 
 
-const VER='4.15.133-brD';
+const VER='4.15.135-classStable';
 const $=s=>document.querySelector(s);
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return LSM[k]??d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){LSM[k]=v}}};const LSM={};
 let S=Object.assign({lang:'te',sound:true,vib:true,voice:true,cls:5,subj:'maths',lvl:1,pace:'learn'},JSON.parse(LS.get('bm2-settings','{}')||'{}'));
@@ -645,7 +652,7 @@ function home(){++gqRequest;window.MathRecordedQuestion?.stop();try{window.__kc&
  <button class="play" id="play">${t('play')}</button>
  <div class="row"><button class="small-btn" id="how">${t('how')}</button><button class="small-btn" id="bsnd">${sw('snd',S.sound)}</button><button class="small-btn" id="bvib">${sw('vib',S.vib)}</button><button class="small-btn" id="bvoi">${sw('voi',S.voice)}</button><button class="small-btn" id="blang">${t('lang')}</button>${installEvt?`<button class="small-btn" id="binst">${t('inst')}</button>`:''}</div>
  <p class="foot">${t('priv')}</p><p class="credit">🎨 ${t('credit')}</p></div></div>`;
- root.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{S.cls=+b.dataset.c;save();SFX.tap();home()});
+ root.querySelectorAll('.chip').forEach(b=>{b.setAttribute('aria-pressed',String(+b.dataset.c===S.cls));b.onclick=()=>{if(S.cls===+b.dataset.c)return;const previous={...S};S.cls=+b.dataset.c;save();SFX.tap();root.querySelectorAll('.chip').forEach(x=>{const active=+x.dataset.c===S.cls;x.classList.toggle('on',active);x.setAttribute('aria-pressed',String(active))});root.querySelectorAll('.level-btn').forEach((x,i)=>{const score=x.querySelector('.lv-best');if(score)score.textContent='🏆 '+best(S.subj,S.cls,i)});window.dispatchEvent(new CustomEvent('akn-class-selected',{detail:{previous,next:{...S}}}));}});
  root.querySelectorAll('.subj').forEach(b=>b.onclick=()=>{S.subj=b.dataset.s;save();SFX.tap();home()});
  root.querySelectorAll('.level-btn').forEach(b=>b.onclick=()=>{S.lvl=+b.dataset.l;save();SFX.tap();home()});
  $('#play').onclick=startGame;$('#how').onclick=howTo;
@@ -739,7 +746,7 @@ window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=
 window.addEventListener('appinstalled',()=>{installEvt=null});
 async function checkVersion(){try{const r=await fetch('./index.html?_v='+Date.now(),{cache:'no-store'});if(!r.ok)return;const tx=await r.text();const m=tx.match(/const VER='([^']+)'/);if(m&&m[1]!==VER){updateBar();if(!G&&!sessionStorage.getItem('svr-'+m[1])){sessionStorage.setItem('svr-'+m[1],'1');const u=$('#upd button');if(u)u.click()}}}catch(e){}}
 function updateBar(){if($('#upd'))return;const d=document.createElement('div');d.id='upd';d.innerHTML=`<span>${t('upd')}</span><button>${t('reload')}</button>`;d.querySelector('button').onclick=async()=>{try{const rs=await navigator.serviceWorker.getRegistrations();await Promise.all(rs.filter(r=>r.scope===new URL('./',location.href).href).map(r=>r.unregister()));const ks=await caches.keys();await Promise.all(ks.filter(k=>k.startsWith('balloon-pop-'+new URL('./',location.href).pathname+'-')).map(k=>caches.delete(k)))}catch(e){}location.reload()};document.body.appendChild(d)}
-if('serviceWorker' in navigator){let hadController=!!navigator.serviceWorker.controller;let didControllerReload=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!hadController){hadController=true;return}if(didControllerReload)return;didControllerReload=true;if(!G&&!document.querySelector('.lrn,#sgov,#student-portals,#student-updates'))location.reload();else updateBar()});navigator.serviceWorker.register('./sw.js?v=4.15.133-brD',{scope:'./',updateViaCache:'none'}).then(r=>{r.update().catch(()=>{})}).catch(()=>{})}
+if('serviceWorker' in navigator){let hadController=!!navigator.serviceWorker.controller;let didControllerReload=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!hadController){hadController=true;return}if(didControllerReload)return;didControllerReload=true;if(!G&&!document.querySelector('.lrn,#sgov,#student-portals,#student-updates'))location.reload();else updateBar()});navigator.serviceWorker.register('./sw.js?v=4.15.135-classStable',{scope:'./',updateViaCache:'none'}).then(r=>{r.update().catch(()=>{})}).catch(()=>{})}
 
 // Progress is kept on this device only. No accounts, leaderboard or data upload.
 let advanceTimer=0,practiceQueue=null,practiceActive=false;
@@ -837,6 +844,7 @@ const homeBeforeAppGuide=home;home=function(){homeBeforeAppGuide();const target=
  const snap=()=>({screen:'home',settings:{...S}});
  const write=(v,replace=false)=>{current=v;history[replace?'replaceState':'pushState']({svAksharaNav:v},'',location.href)};
  const originalHome=home,originalStart=startGame,originalOver=gameOver,originalModal=modal;
+ window.addEventListener('akn-class-selected',e=>{if(!restoring)write({screen:'home',settings:{...e.detail.next}})});
  home=function(){
   if(!restoring){
    const next=snap();
