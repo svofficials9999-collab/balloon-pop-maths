@@ -43,3 +43,11 @@ This snapshots main before this documentation change. It is a rollback reference
 ## Mobile check after later changes
 
 Open the live app, switch Telugu/English, use main screens and Back, close overlays, refresh/reopen, and verify saved input/progress. Report the screen and exact steps if something fails.
+
+## 2026-10-10 - Primary road-safety correction
+
+- Corrected the shared Classes1-5 EVS Road Safety lesson: yellow means caution/stop before entering the junction, not "get ready". Vehicle signals are distinguished from pedestrian crossing instructions. Green requires a safe route.
+- Replaced the outdated Telugu lesson recording and added the English recording, with Ogg and MP3 playback. IDs and saved progress are preserved.
+- Reference checked: https://traffic.haryanapolice.gov.in/lightssigns
+- Existing-content structural sweep:2331 class-topic placements,18248 fixed quiz entries.79 warnings are15 reused three-question starter topics; they need expansion review, not a claim of full curriculum depth.
+- Full-app and real-device audits remain separate and pending where not reported.
