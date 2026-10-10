@@ -51,3 +51,11 @@ Open the live app, switch Telugu/English, use main screens and Back, close overl
 - Reference checked: https://traffic.haryanapolice.gov.in/lightssigns
 - Existing-content structural sweep:2331 class-topic placements,18248 fixed quiz entries.79 warnings are15 reused three-question starter topics; they need expansion review, not a claim of full curriculum depth.
 - Full-app and real-device audits remain separate and pending where not reported.
+
+
+## 2026-10-11 - Daily GK editorial refresh
+- Preserved existing learning/audio implementation, PIN and saved progress. Added dated Oct11 edition:7 bilingual cards,2 original readings,10 MCQs. Selected news/static GK, not full news coverage.
+- Source/scope check: IIT teaching start date unspecified; WHO awareness not diagnosis; NSP renewal deadline31Oct applies only to named eligible renewal applicants, not all scholarships. Verification deadlines separate; cutoff time unspecified.
+- Added Oct10 archive access, kept Oct9/Oct8. GK app?v96, cache8; latest and dated edition match.
+-58 Listen scripts published for recording pipeline; actual recordings remain pending, truthful inline status retained. No substitute device speech.
+-Scoped mobile emulation/live testing reported separately; real-device and whole-app semantic audit not certified by this release.
