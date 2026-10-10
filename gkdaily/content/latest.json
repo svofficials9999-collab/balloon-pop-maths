@@ -20,90 +20,101 @@
       "published_date": null
     },
     "tgnews": {
-      "publisher": "EdexLive / IANS",
-      "url": "https://www.edexlive.com/news/telangana-targets-shops-selling-banned-synthetic-manja-to-protect-birds-and-youth",
-      "published_date": "2026-10-09"
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/telangana/iit-h-faculty-teach-technical-courses-at-tribal-university/article71568337.ece",
+      "published_date": "2026-10-10"
     },
     "innews": {
-      "publisher": "Press Information Bureau / Ministry of Communications",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2321480&lang=1&reg=48",
-      "published_date": "2026-10-09"
+      "publisher": "DD India / PIB",
+      "url": "https://ddindia.co.in/2026/10/let-knowledge-heal-research-innovate-and-service-inspire-vp-to-aiims-graduates/",
+      "published_date": "2026-10-10"
     },
     "worldnews": {
-      "publisher": "NobelPrize.org / Norwegian Nobel Committee",
-      "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
-      "published_date": "2026-10-09"
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/campaigns/world-mental-health-day/2026",
+      "published_date": null
+    },
+    "worldday": {
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/campaigns/world-mental-health-day",
+      "published_date": null
+    },
+    "scholarships": {
+      "publisher": "National Scholarship Portal, Government of India",
+      "url": "https://scholarships.gov.in/",
+      "published_date": null
     }
   },
   "cards": [
     {
-      "id": "gk_20261010_telangana_1",
+      "id": "gk_20261011_telangana_1",
       "region": "telangana",
       "type": "current_affairs",
       "source_ids": [
         "tgnews"
       ],
-      "event_date": "2026-10-09",
+      "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261010_telangana_1",
-        "en": "gk_20261010_telangana_1__en"
+        "te": "gk_20261011_telangana_1",
+        "en": "gk_20261011_telangana_1__en"
       },
       "title": {
-        "te": "సింథటిక్ మాంజా ప్రమాదాలపై అవగాహన",
-        "en": "Awareness of synthetic manja dangers"
+        "te": "ములుగులో ఐఐటీ హైదరాబాద్ అధ్యాపకుల బోధన",
+        "en": "IIT Hyderabad faculty teaching in Mulugu"
       },
       "summary": {
-        "te": "అక్టోబర్ 9న జరిగిన సమీక్షలో నిషేధిత సింథటిక్ మాంజా అమ్మకాలను అరికట్టాలని తెలంగాణ అటవీ అధికారులు ఆదేశించినట్లు ఐఏఎన్‌ఎస్ వార్తను ఎడెక్స్‌లైవ్ ప్రచురించింది. విద్యార్థులు, తల్లిదండ్రులకు ఈ గాలిపటం దారం వల్ల మనుషులకు, పక్షులకు కలిగే ప్రమాదాలపై అవగాహన కల్పించాలని సూచించారు. ఇది అధికారుల ఆదేశాల నివేదిక; అన్ని అమ్మకాలు ఇప్పటికే ఆగిపోయాయని నిర్ధారణ కాదు.",
-        "en": "EdexLive published an IANS report that Telangana forest officials directed action against the sale of prohibited synthetic manja at an October 9 review. They asked for student and parent awareness of the dangers this kite string poses to people and birds. This reports official instructions, not proof that every sale has already stopped."
+        "te": "అక్టోబర్ 10న ది హిందూ నివేదిక ప్రకారం, ములుగులోని సమ్మక్క సారక్క కేంద్ర గిరిజన విశ్వవిద్యాలయంలో ఐఐటీ హైదరాబాద్ అధ్యాపకులు బోధన ప్రారంభించారు. రెండు సంస్థల ఒప్పందం ప్రకారం ఐఐటీ హైదరాబాద్ విద్యా కార్యక్రమాలకు మార్గదర్శకత్వం ఇస్తోంది. ప్రారంభమైన ఖచ్చితమైన రోజు నివేదికలో లేదు. ఇది బోధన సహకారం గురించి వార్త; ప్రవేశ దరఖాస్తు గడువు ప్రకటన కాదు.",
+        "en": "The Hindu reported on October 10 that IIT Hyderabad faculty had begun teaching at Sammakka Sarakka Central Tribal University in Mulugu. IIT Hyderabad mentors academic programmes under an agreement between the institutions. The report does not give the exact starting day. This is news about teaching cooperation, not an admission application deadline notice."
       }
     },
     {
-      "id": "gk_20261010_india_1",
+      "id": "gk_20261011_india_1",
       "region": "india",
       "type": "current_affairs",
       "source_ids": [
         "innews"
       ],
-      "event_date": "2026-10-09",
+      "event_date": "2026-10-10",
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261010_india_1",
-        "en": "gk_20261010_india_1__en"
+        "te": "gk_20261011_india_1",
+        "en": "gk_20261011_india_1__en"
       },
       "title": {
-        "te": "సమాజ ప్రయోజనం కోసం ఏఐ వర్క్‌షాప్",
-        "en": "AI for Good workshop"
+        "te": "ఏఐఐఎంఎస్ దేవఘర్ స్నాతకోత్సవం",
+        "en": "AIIMS Deoghar convocation"
       },
       "summary": {
-        "te": "అక్టోబర్ 9న న్యూఢిల్లీలో ఇండియా మొబైల్ కాంగ్రెస్‌లో ఏఐ ఫర్ గుడ్ ల్యాబ్ వర్క్‌షాప్ ప్రారంభమైనట్లు పీఐబీ తెలిపింది. టెలికమ్యూనికేషన్స్ విభాగం, ఇంటర్నేషనల్ టెలికమ్యూనికేషన్ యూనియన్ సంయుక్తంగా కార్యక్రమాన్ని నిర్వహించాయి. ఏఐ విధాన సన్నద్ధత, నైపుణ్యాల అభివృద్ధి, ప్రజా ఏఐ మౌలిక సదుపాయాలు అనే మూడు అంశాలపై దృష్టి పెట్టారు. వర్క్‌షాప్ జరగడం వల్ల ప్రతి పరిష్కారం ఇప్పటికే అమలైందని కాదు.",
-        "en": "PIB reported that an AI for Good Lab workshop opened at the India Mobile Congress in New Delhi on October 9. The Department of Telecommunications and the International Telecommunication Union organised it jointly. Its framework covers AI readiness and policy, skills development, and public AI infrastructure. Holding a workshop does not mean every proposed solution is already deployed."
+        "te": "అక్టోబర్ 10న జార్ఖండ్‌లో ఏఐఐఎంఎస్ దేవఘర్ రెండో స్నాతకోత్సవంలో ఉపరాష్ట్రపతి సి.పి. రాధాకృష్ణన్ ప్రసంగించారు. నైపుణ్యం, కరుణ, మంచి ప్రవర్తనను వృత్తిలో మార్గదర్శకాలుగా తీసుకోవాలని పట్టభద్రులకు సూచించినట్లు డీడీ ఇండియా తెలిపింది. గ్రామాలు, గిరిజన ప్రాంతాలు, దూర ప్రాంతాలకు సేవ చేయాలని కోరారు. ఇది ప్రసంగ నివేదిక; ఆరోగ్య సేవల ఫలితాలపై స్వతంత్ర పరిశీలన కాదు.",
+        "en": "Vice-President C. P. Radhakrishnan addressed the second AIIMS Deoghar convocation in Jharkhand on October 10. DD India reported that he urged graduates to be guided by competence, compassion and character, and to serve villages, tribal communities and remote areas. This is a report of a speech, not an independent assessment of healthcare outcomes."
       }
     },
     {
-      "id": "gk_20261010_world_1",
+      "id": "gk_20261011_world_1",
       "region": "world",
       "type": "current_affairs",
       "source_ids": [
-        "worldnews"
+        "worldnews",
+        "worldday"
       ],
-      "event_date": "2026-10-09",
+      "event_date": "2026-10-10",
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261010_world_1",
-        "en": "gk_20261010_world_1__en"
+        "te": "gk_20261011_world_1",
+        "en": "gk_20261011_world_1__en"
       },
       "title": {
-        "te": "2026 నోబెల్ శాంతి బహుమతి",
-        "en": "2026 Nobel Peace Prize"
+        "te": "ప్రపంచ మానసిక ఆరోగ్య దినోత్సవం",
+        "en": "World Mental Health Day"
       },
       "summary": {
-        "te": "అక్టోబర్ 9న నార్వేజియన్ నోబెల్ కమిటీ 2026 నోబెల్ శాంతి బహుమతిని నవనేతమ్ నావి పిళ్లైకి ప్రకటించింది. శాంతి, అంతర్జాతీయ చట్టాన్ని ప్రోత్సహించడానికి ఆమె చేసిన కృషిని గుర్తించింది. ఈ వివరాలు అధికారిక నోబెల్ ప్రకటనలో ఉన్నాయి.",
-        "en": "On October 9, the Norwegian Nobel Committee announced the 2026 Nobel Peace Prize for Navanethem Navi Pillay. It recognised her efforts to promote peace and international law. These details come from the official Nobel announcement."
+        "te": "ప్రపంచ మానసిక ఆరోగ్య దినోత్సవం అక్టోబర్ 10న జరుగుతుంది. 2026 ప్రచారంలో మానసిక ఆరోగ్య సమస్యలను స్వయంగా ఎదుర్కొన్న వారి అనుభవాలు, అభిప్రాయాలు నిర్ణయాల్లో భాగం కావాలని ప్రపంచ ఆరోగ్య సంస్థ కోరుతోంది. కేవలం కథలు వినడం కాకుండా సేవల రూపకల్పనలో వారిని భాగస్వాములుగా చూడాలని చెబుతోంది. ఇది అవగాహన విషయం; ఎవరికైనా వ్యాధి నిర్ధారణ చేసే సూచన కాదు.",
+        "en": "World Mental Health Day is observed on October 10. WHO's 2026 campaign calls for people with lived experience of mental health conditions to help shape decisions. It asks for their involvement in designing services, rather than merely hearing their stories. This is awareness content, not an instruction to diagnose anyone."
       }
     },
     {
-      "id": "gk_20261010_telangana_2",
+      "id": "gk_20261011_telangana_2",
       "region": "telangana",
       "type": "static_gk",
       "source_ids": [
@@ -112,20 +123,20 @@
       "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261010_telangana_2",
-        "en": "gk_20261010_telangana_2__en"
+        "te": "gk_20261011_telangana_2",
+        "en": "gk_20261011_telangana_2__en"
       },
       "title": {
         "te": "తెలంగాణ ఆవిర్భావ తేదీ",
         "en": "Telangana formation date"
       },
       "summary": {
-        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞాన అంశం; అక్టోబర్ 10న జరిగిన కొత్త సంఘటన కాదు. ఈ సంచిక కోసం అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
-        "en": "Telangana became a state on June 2, 2014. This is static GK, not a new event on October 10. The official source was checked again for this edition."
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞాన విషయం; అక్టోబర్ 11న జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని ఈ సంచిక కోసం మళ్లీ తనిఖీ చేశాం.",
+        "en": "Telangana became a state on June 2, 2014. This is static GK, not a new event on October 11. The official source was checked again for this edition."
       }
     },
     {
-      "id": "gk_20261010_india_2",
+      "id": "gk_20261011_india_2",
       "region": "india",
       "type": "static_gk",
       "source_ids": [
@@ -134,8 +145,8 @@
       "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261010_india_2",
-        "en": "gk_20261010_india_2__en"
+        "te": "gk_20261011_india_2",
+        "en": "gk_20261011_india_2__en"
       },
       "title": {
         "te": "అశోక చక్రంలోని ఆకులు",
@@ -147,7 +158,7 @@
       }
     },
     {
-      "id": "gk_20261010_world_2",
+      "id": "gk_20261011_world_2",
       "region": "world",
       "type": "static_gk",
       "source_ids": [
@@ -156,8 +167,8 @@
       "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261010_world_2",
-        "en": "gk_20261010_world_2__en"
+        "te": "gk_20261011_world_2",
+        "en": "gk_20261011_world_2__en"
       },
       "title": {
         "te": "ఐక్యరాజ్యసమితి చార్టర్ సమావేశం",
@@ -167,197 +178,224 @@
         "te": "1945 ఏప్రిల్ 25 నుంచి జూన్ 26 వరకు శాన్ ఫ్రాన్సిస్కోలో 50 దేశాల ప్రతినిధులు సమావేశమై ఐక్యరాజ్యసమితి చార్టర్‌ను రూపొందించి సంతకం చేశారు. సంస్థ అధికారికంగా అక్టోబర్ 24న ప్రారంభమైంది. సమావేశం తేదీలు, సంస్థ ప్రారంభ తేదీ వేరు.",
         "en": "Representatives of 50 countries met in San Francisco from April 25 to June 26, 1945, to draft and sign the UN Charter. The organisation officially began on October 24. The conference dates and the organisation's starting date are different."
       }
+    },
+    {
+      "id": "gk_20261011_india_3",
+      "region": "india",
+      "type": "current_affairs",
+      "category": "scholarship_notification",
+      "event_date": null,
+      "source_ids": [
+        "scholarships"
+      ],
+      "age_band": "class5-10",
+      "title": {
+        "te": "ఎన్‌ఎస్‌పీ స్కాలర్‌షిప్ పునరుద్ధరణ గడువు",
+        "en": "NSP scholarship renewal deadline"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 11న తనిఖీ చేసిన ఎన్‌ఎస్‌పీ అధికారిక ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ స్కాలర్‌షిప్ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక స్కాలర్‌షిప్ పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి దరఖాస్తు చివరి తేదీ 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30 వరకు. ఇది అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు అని కాదు. ప్రకటనలో ముగింపు సమయం లేదు.",
+        "en": "The official NSP announcement checked on October 11 says renewal applications are open for the PM-USP Central Sector Scheme of Scholarship for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student application deadline is October 31, 2026. Institute verification closes November 15 and Level 2 verification closes November 30. This applies to eligible renewal applicants, not every scholarship. The announcement does not specify a closing time."
+      },
+      "audio_ids": {
+        "te": "gk_20261011_india_3",
+        "en": "gk_20261011_india_3__en"
+      },
+      "deadline_date": "2026-10-31",
+      "deadline_time": null,
+      "notification_scope": "renewal_only; scheme eligibility applies; college-level planning information for school audience"
     }
   ],
   "readings": [
     {
-      "id": "gk_20261010_reading_1",
+      "id": "gk_20261011_reading_1",
       "age_band": "class5-7",
       "audio_ids": {
-        "te": "gk_20261010_reading_1",
-        "en": "gk_20261010_reading_1__en"
+        "te": "gk_20261011_reading_1",
+        "en": "gk_20261011_reading_1__en"
       },
       "source_ids": [
-        "tgnews"
+        "scholarships"
       ],
       "title": {
-        "te": "ఆదేశం, ఫలితం వేరు",
-        "en": "An instruction and an outcome are different"
+        "te": "దరఖాస్తు గడువు, తనిఖీ గడువు వేరు",
+        "en": "Application and verification deadlines differ"
       },
       "passage": {
-        "te": "అక్టోబర్ 9న వచ్చిన వార్తలో సింథటిక్ మాంజా అమ్మకాలను అరికట్టాలని అధికారులు ఆదేశించినట్లు ఉంది. ఈ గాలిపటం దారం వల్ల మనుషులకు, పక్షులకు ప్రమాదాలు ఉంటాయని విద్యార్థులు, తల్లిదండ్రులకు అవగాహన కల్పించాలని కూడా సూచించారు. వార్తలో ఆదేశించారు అనే మాట ముఖ్యమైనది. అది చేయాల్సిన పనిని చెబుతుంది. అన్ని అమ్మకాలు ఆగిపోయాయి అనే వాక్యం మాత్రం ఫలితం గురించి చెబుతుంది. ఈ నివేదికలో ఆ ఫలితానికి నిర్ధారణ లేదు. వార్తను మన మాటల్లో చెప్పేటప్పుడు ఆదేశాన్ని ఫలితంగా మార్చకూడదు. ప్రమాదకర దారాన్ని తాకి పరీక్షించడం ఈ పాఠ్యం సూచించడం లేదు.",
-        "en": "An October 9 report says officials directed action against synthetic manja sales. They also asked for awareness among students and parents about the danger this kite string poses to people and birds. The word directed matters. It describes work to be done. The sentence all sales have stopped would describe an outcome. This report does not verify that outcome. When restating news, do not turn an instruction into a result. This passage does not suggest touching or testing dangerous string."
+        "te": "ఎన్‌ఎస్‌పీ ప్రకటనలో రెండు పీఎం-యూఎస్‌పీ పథకాల పునరుద్ధరణ దరఖాస్తుల గురించి ఉంది. విద్యార్థి దరఖాస్తుకు అక్టోబర్ 31 చివరి తేదీ. సంస్థ తనిఖీకి నవంబర్ 15, రెండో స్థాయి తనిఖీకి నవంబర్ 30 తేదీలు ఉన్నాయి. ఇవి ఒకే పనికి మూడు గడువులు కావు. నవంబర్ 30 వరకు విద్యార్థి కొత్తగా దరఖాస్తు చేయవచ్చని అర్థం కాదు. పునరుద్ధరణ అనే మాటను, పథకం పేరును, అర్హతను గమనించాలి. ఈ ప్రకటనలో ముగింపు సమయం లేదు; మనమే అర్ధరాత్రి అని చేర్చకూడదు. కాలేజీకి వెళ్లబోయే విద్యార్థులు భవిష్యత్తు ప్రణాళిక కోసం ఈ తేడాను తెలుసుకోవచ్చు.",
+        "en": "The NSP announcement covers renewal applications for two PM-USP schemes. October 31 is the student application deadline. November 15 is for institute verification and November 30 is for Level 2 verification. These are not three deadlines for the same task. They do not mean a student can wait until November 30 to apply. Notice the word renewal, the scheme name and eligibility. The announcement gives no closing time, so do not invent a midnight cutoff. School students planning for college can learn this distinction without assuming they are already eligible."
       },
       "vocabulary": [
         {
-          "te": "అవగాహన",
-          "en": "awareness"
+          "te": "పునరుద్ధరణ",
+          "en": "renewal"
         },
         {
-          "te": "ఆదేశం",
-          "en": "instruction"
+          "te": "గడువు",
+          "en": "deadline"
         },
         {
-          "te": "ఫలితం",
-          "en": "outcome"
+          "te": "తనిఖీ",
+          "en": "verification"
         }
       ]
     },
     {
-      "id": "gk_20261010_reading_2",
+      "id": "gk_20261011_reading_2",
       "age_band": "class8-10",
       "audio_ids": {
-        "te": "gk_20261010_reading_2",
-        "en": "gk_20261010_reading_2__en"
+        "te": "gk_20261011_reading_2",
+        "en": "gk_20261011_reading_2__en"
       },
       "source_ids": [
-        "innews"
+        "worldnews",
+        "worldday"
       ],
       "title": {
-        "te": "వర్క్‌షాప్ నుంచి అమలు వరకు",
-        "en": "From workshop to implementation"
+        "te": "అనుభవాలను వినడం, నిర్ణయాల్లో భాగస్వామ్యం",
+        "en": "Listening and participation in decisions"
       },
       "passage": {
-        "te": "పీఐబీ అక్టోబర్ 9 ప్రకటన ప్రకారం, న్యూఢిల్లీలో ఏఐ ఫర్ గుడ్ ల్యాబ్ వర్క్‌షాప్ జరిగింది. టెలికమ్యూనికేషన్స్ విభాగం, ఐటీయూ దీనిని సంయుక్తంగా నిర్వహించాయి. విధాన సన్నద్ధత, నైపుణ్యాలు, ప్రజా ఏఐ మౌలిక సదుపాయాలు అనే మూడు అంశాలను చర్చించారు. ఒక వర్క్‌షాప్‌లో చర్చ జరగడం, పరిష్కారం పరీక్షించడం, పెద్ద స్థాయిలో అమలు చేయడం వేర్వేరు దశలు. పరిష్కారాలను విస్తరించే ముందు భద్రత, న్యాయబద్ధత, నమ్మకాన్ని పరీక్షించాల్సిన అవసరాన్ని ప్రకటన పేర్కొంది. వార్తను చదివేటప్పుడు ఏ దశ పూర్తయిందో, ఏది లక్ష్యమో వేరు చేయడం ముఖ్యం.",
-        "en": "According to PIB's October 9 release, an AI for Good Lab workshop took place in New Delhi. The Department of Telecommunications and ITU organised it jointly. It discussed readiness and policy, skills, and public AI infrastructure. Discussing an idea, testing a solution and using it at scale are different stages. The release described checking safety, fairness and reliability before expanding solutions. A careful reader separates a completed stage from a goal. A workshop is evidence of discussion, not proof that all proposed services are already available."
+        "te": "ప్రపంచ మానసిక ఆరోగ్య దినోత్సవం అక్టోబర్ 10న జరుగుతుంది. ప్రపంచ ఆరోగ్య సంస్థ 2026 ప్రచారం స్వీయ అనుభవాలకు ప్రాధాన్యం ఇస్తోంది. ఒక సమస్యను స్వయంగా ఎదుర్కొన్న వ్యక్తికి, దాని గురించి మాత్రమే విన్న వ్యక్తికి ఉండే అవగాహన వేరుగా ఉండవచ్చు. అనుభవాలను వినడం అవసరం, కానీ అక్కడితో ఆగకూడదని ప్రచారం చెబుతోంది. సేవలను రూపొందించేటప్పుడు, అమలు చేసేటప్పుడు, సమీక్షించేటప్పుడు కూడా వారిని భాగస్వాములుగా చూడాలి. ఒకరి అనుభవం అందరి అనుభవానికి ప్రతినిధి కాదు. ఈ పాఠ్యం గౌరవంగా వినడం గురించి; ఆరోగ్య సమస్యను గుర్తించే పరీక్ష కాదు.",
+        "en": "World Mental Health Day is observed on October 10. WHO's 2026 campaign values lived experience. Someone who has personally experienced a condition may understand it differently from someone who has only heard about it. The campaign says listening matters, but participation should not stop there. People with lived experience should help design, deliver and evaluate services. One person's experience cannot represent everyone. This passage is about respectful listening and involvement, not a test for identifying a health condition."
       },
       "vocabulary": [
         {
-          "te": "నైపుణ్యాలు",
-          "en": "skills"
+          "te": "స్వీయ అనుభవం",
+          "en": "lived experience"
         },
         {
-          "te": "మౌలిక సదుపాయాలు",
-          "en": "infrastructure"
+          "te": "భాగస్వామ్యం",
+          "en": "participation"
         },
         {
-          "te": "అమలు",
-          "en": "implementation"
+          "te": "సమీక్ష",
+          "en": "evaluation"
         }
       ]
     }
   ],
   "quiz": [
     {
-      "id": "gk_20261010_q1",
+      "id": "gk_20261011_q1",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261010_q1",
-        "en": "gk_20261010_q1__en"
+        "te": "gk_20261011_q1",
+        "en": "gk_20261011_q1__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261010_q1_answer",
-        "en": "gk_20261010_q1_answer__en"
+        "te": "gk_20261011_q1_answer",
+        "en": "gk_20261011_q1_answer__en"
       },
-      "item_id": "gk_20261010_telangana_1",
+      "item_id": "gk_20261011_telangana_1",
       "question": {
-        "te": "మాంజా ప్రమాదాలపై ఎవరికి అవగాహన కల్పించాలని సూచించారు?",
-        "en": "Who should receive awareness about manja dangers?"
+        "te": "ఐఐటీ హైదరాబాద్ అధ్యాపకులు ఎక్కడ బోధన ప్రారంభించినట్లు నివేదించారు?",
+        "en": "Where did the report say IIT Hyderabad faculty began teaching?"
       },
       "options": {
         "te": [
-          "రచయితలకు మాత్రమే",
-          "విద్యార్థులు, తల్లిదండ్రులకు",
-          "శాస్త్రవేత్తలకు మాత్రమే",
-          "ఎవరికీ కాదు"
+          "ఏఐఐఎంఎస్ దేవఘర్",
+          "ములుగులోని సమ్మక్క సారక్క విశ్వవిద్యాలయం",
+          "దక్షిణ ధ్రువం",
+          "నోబెల్ కమిటీ"
         ],
         "en": [
-          "Only authors",
-          "Students and parents",
-          "Only scientists",
-          "Nobody"
+          "AIIMS Deoghar",
+          "Sammakka Sarakka university in Mulugu",
+          "The South Pole",
+          "The Nobel Committee"
         ]
       },
       "answer_index": 1,
       "explanation": {
-        "te": "విద్యార్థులు, తల్లిదండ్రులకు అవగాహన కల్పించాలని అధికారులు సూచించారు.",
-        "en": "Officials asked for awareness among students and parents."
+        "te": "నివేదిక ములుగులోని సమ్మక్క సారక్క కేంద్ర గిరిజన విశ్వవిద్యాలయాన్ని పేర్కొంది.",
+        "en": "The report names Sammakka Sarakka Central Tribal University in Mulugu."
       }
     },
     {
-      "id": "gk_20261010_q2",
+      "id": "gk_20261011_q2",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261010_q2",
-        "en": "gk_20261010_q2__en"
+        "te": "gk_20261011_q2",
+        "en": "gk_20261011_q2__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261010_q2_answer",
-        "en": "gk_20261010_q2_answer__en"
+        "te": "gk_20261011_q2_answer",
+        "en": "gk_20261011_q2_answer__en"
       },
-      "item_id": "gk_20261010_india_1",
+      "item_id": "gk_20261011_india_1",
       "question": {
-        "te": "ఏఐ ఫర్ గుడ్ వర్క్‌షాప్ ఎక్కడ జరిగింది?",
-        "en": "Where was the AI for Good workshop held?"
+        "te": "ఏఐఐఎంఎస్ దేవఘర్ ఏ రాష్ట్రంలో ఉంది?",
+        "en": "In which state is AIIMS Deoghar?"
       },
       "options": {
         "te": [
-          "టోక్యో",
-          "శాన్ ఫ్రాన్సిస్కో",
-          "న్యూఢిల్లీ",
-          "దక్షిణ ధ్రువం"
+          "తెలంగాణ",
+          "తమిళనాడు",
+          "జార్ఖండ్",
+          "కేరళ"
         ],
         "en": [
-          "Tokyo",
-          "San Francisco",
-          "New Delhi",
-          "The South Pole"
+          "Telangana",
+          "Tamil Nadu",
+          "Jharkhand",
+          "Kerala"
         ]
       },
       "answer_index": 2,
       "explanation": {
-        "te": "పీఐబీ ప్రకారం వర్క్‌షాప్ న్యూఢిల్లీలో జరిగింది.",
-        "en": "PIB reports that the workshop was held in New Delhi."
+        "te": "స్నాతకోత్సవ నివేదిక దేవఘర్‌ను జార్ఖండ్‌లో పేర్కొంది.",
+        "en": "The convocation report places Deoghar in Jharkhand."
       }
     },
     {
-      "id": "gk_20261010_q3",
+      "id": "gk_20261011_q3",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261010_q3",
-        "en": "gk_20261010_q3__en"
+        "te": "gk_20261011_q3",
+        "en": "gk_20261011_q3__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261010_q3_answer",
-        "en": "gk_20261010_q3_answer__en"
+        "te": "gk_20261011_q3_answer",
+        "en": "gk_20261011_q3_answer__en"
       },
-      "item_id": "gk_20261010_world_1",
+      "item_id": "gk_20261011_world_1",
       "question": {
-        "te": "2026 నోబెల్ శాంతి బహుమతి ఎవరికి ప్రకటించారు?",
-        "en": "Who was announced as the 2026 Nobel Peace Prize recipient?"
+        "te": "ప్రపంచ మానసిక ఆరోగ్య దినోత్సవం తేదీ ఏమిటి?",
+        "en": "What is the date of World Mental Health Day?"
       },
       "options": {
         "te": [
-          "నావి పిళ్లై",
-          "ఐజాక్ న్యూటన్",
-          "సి.వి. రామన్",
-          "ప్రతి విద్యార్థికి"
+          "అక్టోబర్ 10",
+          "జూన్ 2",
+          "జూలై 22",
+          "జనవరి 26"
         ],
         "en": [
-          "Navi Pillay",
-          "Isaac Newton",
-          "C. V. Raman",
-          "Every student"
+          "October 10",
+          "June 2",
+          "July 22",
+          "January 26"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "అధికారిక అక్టోబర్ 9 ప్రకటన నావి పిళ్లై పేరు పేర్కొంది.",
-        "en": "The official October 9 announcement names Navi Pillay."
+        "te": "ప్రపంచ ఆరోగ్య సంస్థ పేజీ అక్టోబర్ 10 తేదీని ఇస్తోంది.",
+        "en": "The WHO page gives October 10."
       }
     },
     {
-      "id": "gk_20261010_q4",
+      "id": "gk_20261011_q4",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261010_q4",
-        "en": "gk_20261010_q4__en"
+        "te": "gk_20261011_q4",
+        "en": "gk_20261011_q4__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261010_q4_answer",
-        "en": "gk_20261010_q4_answer__en"
+        "te": "gk_20261011_q4_answer",
+        "en": "gk_20261011_q4_answer__en"
       },
-      "item_id": "gk_20261010_telangana_2",
+      "item_id": "gk_20261011_telangana_2",
       "question": {
         "te": "తెలంగాణ ఆవిర్భావ తేదీ ఏమిటి?",
         "en": "What is Telangana's formation date?"
@@ -383,17 +421,17 @@
       }
     },
     {
-      "id": "gk_20261010_q5",
+      "id": "gk_20261011_q5",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261010_q5",
-        "en": "gk_20261010_q5__en"
+        "te": "gk_20261011_q5",
+        "en": "gk_20261011_q5__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261010_q5_answer",
-        "en": "gk_20261010_q5_answer__en"
+        "te": "gk_20261011_q5_answer",
+        "en": "gk_20261011_q5_answer__en"
       },
-      "item_id": "gk_20261010_india_2",
+      "item_id": "gk_20261011_india_2",
       "question": {
         "te": "అశోక చక్రంలో ఎన్ని ఆకులు ఉంటాయి?",
         "en": "How many spokes does the Ashoka Chakra have?"
@@ -419,17 +457,17 @@
       }
     },
     {
-      "id": "gk_20261010_q6",
+      "id": "gk_20261011_q6",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261010_q6",
-        "en": "gk_20261010_q6__en"
+        "te": "gk_20261011_q6",
+        "en": "gk_20261011_q6__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261010_q6_answer",
-        "en": "gk_20261010_q6_answer__en"
+        "te": "gk_20261011_q6_answer",
+        "en": "gk_20261011_q6_answer__en"
       },
-      "item_id": "gk_20261010_world_2",
+      "item_id": "gk_20261011_world_2",
       "question": {
         "te": "1945 చార్టర్ సమావేశంలో ఎన్ని దేశాల ప్రతినిధులు పాల్గొన్నారు?",
         "en": "Representatives of how many countries attended the 1945 Charter conference?"
@@ -455,159 +493,159 @@
       }
     },
     {
-      "id": "gk_20261010_q7",
+      "id": "gk_20261011_q7",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261010_q7",
-        "en": "gk_20261010_q7__en"
+        "te": "gk_20261011_q7",
+        "en": "gk_20261011_q7__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261010_q7_answer",
-        "en": "gk_20261010_q7_answer__en"
+        "te": "gk_20261011_q7_answer",
+        "en": "gk_20261011_q7_answer__en"
       },
-      "item_id": "gk_20261010_reading_1",
+      "item_id": "gk_20261011_reading_1",
       "question": {
-        "te": "నివేదిక ఏ విషయాన్ని నిర్ధారిస్తుంది?",
-        "en": "What does the report confirm?"
+        "te": "ఈ పునరుద్ధరణ ప్రకటనలో విద్యార్థి దరఖాస్తు చివరి తేదీ ఏది?",
+        "en": "What is the student application deadline in this renewal announcement?"
       },
       "options": {
         "te": [
-          "అధికారులు చర్యలకు ఆదేశించారు",
-          "అన్ని అమ్మకాలు ఆగిపోయాయి",
-          "అన్ని దారాలు సురక్షితం",
-          "ప్రమాదం లేదు"
+          "2026 అక్టోబర్ 31",
+          "2026 నవంబర్ 15",
+          "2026 నవంబర్ 30",
+          "2026 డిసెంబర్ 31"
         ],
         "en": [
-          "Officials directed action",
-          "All sales have stopped",
-          "All strings are safe",
-          "There is no danger"
+          "October 31, 2026",
+          "November 15, 2026",
+          "November 30, 2026",
+          "December 31, 2026"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "నివేదిక ఆదేశాలను చెబుతుంది; అన్ని అమ్మకాలు ఆగినట్లు నిర్ధారించదు.",
-        "en": "The report describes instructions, not confirmation that all sales stopped."
+        "te": "అక్టోబర్ 31 విద్యార్థి దరఖాస్తు గడువు; నవంబర్ తేదీలు తనిఖీల కోసం.",
+        "en": "October 31 is the student deadline; the November dates are for verification."
       }
     },
     {
-      "id": "gk_20261010_q8",
+      "id": "gk_20261011_q8",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261010_q8",
-        "en": "gk_20261010_q8__en"
+        "te": "gk_20261011_q8",
+        "en": "gk_20261011_q8__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261010_q8_answer",
-        "en": "gk_20261010_q8_answer__en"
+        "te": "gk_20261011_q8_answer",
+        "en": "gk_20261011_q8_answer__en"
       },
-      "item_id": "gk_20261010_reading_1",
+      "item_id": "gk_20261011_reading_1",
       "question": {
-        "te": "ఆదేశాన్ని ఫలితంగా మార్చి రాయడం ఎందుకు తప్పు?",
-        "en": "Why is it wrong to describe an instruction as an outcome?"
+        "te": "ప్రకటనలో ముగింపు సమయం లేకపోతే ఏమి చేయాలి?",
+        "en": "What should a summary do if the notice gives no closing time?"
       },
       "options": {
         "te": [
-          "వార్త చిన్నదవుతుంది",
-          "రంగులు మారతాయి",
-          "అక్షరాలు ఎక్కువవుతాయి",
-          "అది ఆధారం చెప్పని విషయాన్ని చేర్చుతుంది"
+          "అర్ధరాత్రి అని ఊహించాలి",
+          "సమయం మార్చాలి",
+          "గడువు తొలగించాలి",
+          "సమయం పేర్కొనలేదని చెప్పాలి"
         ],
         "en": [
-          "It makes the news short",
-          "Colours change",
-          "It adds letters",
-          "It adds a claim the evidence does not support"
+          "Assume midnight",
+          "Change the time",
+          "Remove the date",
+          "Say the time is not specified"
         ]
       },
       "answer_index": 3,
       "explanation": {
-        "te": "ఫలితం నిర్ధారించకపోతే పూర్తయిందని చెప్పకూడదు.",
-        "en": "Do not claim completion when the outcome is unverified."
+        "te": "మూలం ఇవ్వని ముగింపు సమయాన్ని మనమే చేర్చకూడదు.",
+        "en": "Do not invent a cutoff time that the source does not give."
       }
     },
     {
-      "id": "gk_20261010_q9",
+      "id": "gk_20261011_q9",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261010_q9",
-        "en": "gk_20261010_q9__en"
+        "te": "gk_20261011_q9",
+        "en": "gk_20261011_q9__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261010_q9_answer",
-        "en": "gk_20261010_q9_answer__en"
+        "te": "gk_20261011_q9_answer",
+        "en": "gk_20261011_q9_answer__en"
       },
-      "item_id": "gk_20261010_reading_2",
+      "item_id": "gk_20261011_reading_2",
       "question": {
-        "te": "వర్క్‌షాప్‌ను సంయుక్తంగా నిర్వహించిన సంస్థలు ఏవి?",
-        "en": "Which organisations jointly held the workshop?"
+        "te": "2026 ప్రచారం ఎవరి భాగస్వామ్యాన్ని కోరుతోంది?",
+        "en": "Whose participation does the 2026 campaign call for?"
       },
       "options": {
         "te": [
-          "పాఠశాల, ఆసుపత్రి",
-          "టెలికమ్యూనికేషన్స్ విభాగం, ఐటీయూ",
-          "నోబెల్ కమిటీ, పాఠశాల",
-          "ఒక క్రీడా జట్టు"
+          "రచయితలది మాత్రమే",
+          "మానసిక ఆరోగ్య సమస్యల స్వీయ అనుభవం ఉన్నవారిది",
+          "క్రీడాకారులది మాత్రమే",
+          "ఎవరిదీ కాదు"
         ],
         "en": [
-          "A school and hospital",
-          "The Department of Telecommunications and ITU",
-          "The Nobel Committee and a school",
-          "A sports team"
+          "Only authors",
+          "People with lived experience of mental health conditions",
+          "Only athletes",
+          "Nobody"
         ]
       },
       "answer_index": 1,
       "explanation": {
-        "te": "టెలికమ్యూనికేషన్స్ విభాగం, ఐటీయూ సంయుక్త నిర్వాహకులు.",
-        "en": "The Department of Telecommunications and ITU were the joint organisers."
+        "te": "స్వీయ అనుభవం ఉన్నవారు నిర్ణయాల్లో భాగం కావాలని ప్రచారం చెబుతోంది.",
+        "en": "The campaign calls for people with lived experience to help shape decisions."
       }
     },
     {
-      "id": "gk_20261010_q10",
+      "id": "gk_20261011_q10",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261010_q10",
-        "en": "gk_20261010_q10__en"
+        "te": "gk_20261011_q10",
+        "en": "gk_20261011_q10__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261010_q10_answer",
-        "en": "gk_20261010_q10_answer__en"
+        "te": "gk_20261011_q10_answer",
+        "en": "gk_20261011_q10_answer__en"
       },
-      "item_id": "gk_20261010_reading_2",
+      "item_id": "gk_20261011_reading_2",
       "question": {
-        "te": "వర్క్‌షాప్ జరగడం దేనికి ఆధారం?",
-        "en": "What does holding a workshop provide evidence of?"
+        "te": "ఒకరి అనుభవం అందరికీ ప్రతినిధిగా ఉంటుందా?",
+        "en": "Can one person's experience represent everyone?"
       },
       "options": {
         "te": [
-          "అన్ని సేవలు అందుబాటులో ఉన్నాయి",
-          "ప్రతి సమస్య పరిష్కారమైంది",
-          "చర్చ జరిగింది",
-          "పరీక్ష అవసరం లేదు"
+          "ఎప్పుడూ అవును",
+          "పేర్లు మాత్రమే ముఖ్యం",
+          "లేదు, అనుభవాలు వేర్వేరుగా ఉండవచ్చు",
+          "తేదీ అవసరం లేదు"
         ],
         "en": [
-          "All services are available",
-          "Every problem is solved",
-          "Discussion took place",
-          "Testing is unnecessary"
+          "Always yes",
+          "Only names matter",
+          "No, experiences can differ",
+          "The date is unnecessary"
         ]
       },
       "answer_index": 2,
       "explanation": {
-        "te": "వర్క్‌షాప్ చర్చ జరిగినట్లు చూపుతుంది; ప్రతి పరిష్కారం అమలైనట్లు కాదు.",
-        "en": "A workshop shows that discussion occurred, not that every solution was deployed."
+        "te": "ప్రపంచ ఆరోగ్య సంస్థ ఒక వ్యక్తి అందరి తరఫున మాట్లాడలేరని చెబుతోంది.",
+        "en": "WHO says no one person can speak for everyone."
       }
     }
   ],
   "coverage": {
-    "cards": 6,
-    "current_affairs": 3,
+    "cards": 7,
+    "current_affairs": 4,
     "static_gk": 3,
     "reading_passages": 2,
     "questions": 10,
-    "listen_clips": 56
+    "listen_clips": 58
   },
-  "edition_date": "2026-10-10",
-  "verified_at": "2026-10-10T02:35:33+05:30",
-  "editorial_note": "Early October 10 reviewed selection of October 9 reports. All selected source pages read. Manja story is IANS reporting of instructions, not independent enforcement audit or primary ban-order verification. PIB is the official workshop report, not an independent outcome audit. Nobel details from official release. Static GK rechecked, not relabelled news. Class 5-10, Telugu classroom-editor review recommended; audio generation and inspection pending."
+  "edition_date": "2026-10-11",
+  "verified_at": "2026-10-11T02:34:07+05:30",
+  "editorial_note": "Early October 11 reviewed selection: October 10 reports and dated observance, plus a current official NSP renewal notice checked today (notice publication date absent). IIT teaching start date absent, event_date null. Scholarship applies only to named eligible renewal applicants, not all schemes; cutoff time unspecified. School Class 5-10 audience gets college-planning context, not implied eligibility. All source pages read, static facts rechecked. Original reading and quiz. Telugu classroom-editor review recommended; audio pending inspection."
 }
