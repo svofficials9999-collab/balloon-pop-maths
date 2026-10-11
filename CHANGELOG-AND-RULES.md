@@ -65,3 +65,10 @@ Open the live app, switch Telugu/English, use main screens and Back, close overl
 - Existing sharedClasses1-4Day and Night corrected:Earth rotation,sunlight-side,daytimeMoon/reflection;no always-visible-nightMoon claim. SameID/progress retained;6 bilingual MCQs,notnewtopic. NASA sources checked.
 -58Oct11GK and2DayNight recordings (60 IDs) added via40newOgg/MP3 shards;oneoldDayNight mapping replaced,59newIDs. Allothermapentriesretained. Playback engine unchanged,Sadaltager recordings only.
 -Clip transcripts inspected,format-reworded quiz options retain answers. Actualliveplayback/visual test scope reported separately;realdevice/fullcurriculum audit not claimed.
+
+
+## 2026-10-12 - Daily GK editorial refresh
+-7 bilingual dated cards,2 original readings,10 MCQs. Selected coverage,not all news. OUbiogas ongoing/slurryexploratory;roboticsOct10event/Oct11report/globalfinalJune2027;NSPrenewal31Oct/verification15Nov30Nov,currentnotice rechecked. Not universal eligibility.
+-AddedOct11archive,preservedOct10/9/8 and allrecordedplayback/progress/PIN. GKapp?v97/cache9.
+-58Listen scripts pending freshrecordings;truthfulinlinependingretained,no devicevoice. Oct11recordingsremainavailableviaarchive.
+-ScopedliveChromeQAandpixelsreportedseparately;no physicaldevice/fullcurriculum certification.
