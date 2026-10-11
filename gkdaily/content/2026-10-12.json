@@ -1,0 +1,644 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "timezone": "Asia/Kolkata",
+  "status": "source_checked_translation_review_recommended",
+  "sources": {
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-flag.php",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/history-of-the-un",
+      "published_date": null
+    },
+    "tgnews": {
+      "publisher": "The New Indian Express",
+      "url": "https://www.newindianexpress.com/states/telangana/2026/Oct/11/hyderabad-sustainability-in-action-at-osmania-university",
+      "published_date": "2026-10-11"
+    },
+    "innews": {
+      "publisher": "DD India",
+      "url": "https://ddindia.co.in/2026/10/singularity-ferrum-incubators-win-national-robotics-challenge-to-represent-india-in-geneva/",
+      "published_date": "2026-10-11"
+    },
+    "worldnews": {
+      "publisher": "UNICEF",
+      "url": "https://www.unicef.org/gender-equality/international-day-girl",
+      "published_date": null
+    },
+    "scholarships": {
+      "publisher": "National Scholarship Portal, Government of India",
+      "url": "https://scholarships.gov.in/",
+      "published_date": null
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261012_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgnews"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261012_telangana_1",
+        "en": "gk_20261012_telangana_1__en"
+      },
+      "title": {
+        "te": "ఉస్మానియా విశ్వవిద్యాలయంలో ఆహార వ్యర్థాల నుంచి బయోగ్యాస్",
+        "en": "Food waste to biogas at Osmania University"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 11న ది న్యూ ఇండియన్ ఎక్స్‌ప్రెస్ నివేదిక ప్రకారం, ఉస్మానియా విశ్వవిద్యాలయంలోని మహాలక్ష్మి బయోగ్యాస్ ప్లాంట్ వసతిగృహ వంటశాలల ఆహార వ్యర్థాలను ఇంధనంగా మారుస్తోంది. ఉత్పత్తి చేసిన బయోగ్యాస్‌ను మహిళా వసతిగృహంలోని రెండు వంటశాలల్లో ఉపయోగిస్తున్నట్లు తెలిపింది. ఇది కొనసాగుతున్న కార్యక్రమం గురించి నివేదిక; అక్టోబర్ 11నే ప్లాంట్ ప్రారంభమైందని కాదు. మిగిలే మిశ్రమాన్ని ఎరువుగా వాడటం ఇంకా పరిశీలనలో ఉందని వార్త చెబుతోంది.",
+        "en": "The New Indian Express reported on October 11 that the Mahalakshmi Biogas Plant at Osmania University converts hostel kitchen food waste into fuel. It says the gas is used in two kitchens in the women's hostel complex. This describes an ongoing initiative, not a plant launched on October 11. The report says using the leftover slurry as fertiliser is still being explored."
+      }
+    },
+    {
+      "id": "gk_20261012_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": "2026-10-10",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261012_india_1",
+        "en": "gk_20261012_india_1__en"
+      },
+      "title": {
+        "te": "రోబోటిక్స్ యువజన పోటీలో విజేతలు",
+        "en": "Winners of the youth robotics challenge"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 11న డీడీ ఇండియా నివేదిక ప్రకారం, అక్టోబర్ 10న న్యూఢిల్లీలో జరిగిన రోబోటిక్స్ ఫర్ గుడ్ యూత్ ఛాలెంజ్‌లో టీమ్ సింగ్యులారిటీ జూనియర్ విభాగంలో, టీమ్ ఫెర్రమ్ ఇంక్యుబేటర్స్ సీనియర్ విభాగంలో గెలిచాయి. ఈ జట్లు 2027 జూన్‌లో జెనీవాలో జరగనున్న ప్రపంచ ఫైనల్‌లో భారత్‌కు ప్రాతినిధ్యం వహించనున్నాయి. భారత పోటీ పూర్తయింది; ప్రపంచ ఫైనల్ ఇంకా జరగలేదు.",
+        "en": "DD India reported on October 11 that Team Singularity won the junior title and Team Ferrum Incubators won the senior title at the Robotics for Good Youth Challenge in New Delhi on October 10. The teams are due to represent India at the global finale in Geneva in June 2027. The national competition is completed; the global finale is still in the future."
+      }
+    },
+    {
+      "id": "gk_20261012_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": "2026-10-11",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261012_world_1",
+        "en": "gk_20261012_world_1__en"
+      },
+      "title": {
+        "te": "అంతర్జాతీయ బాలికా దినోత్సవం",
+        "en": "International Day of the Girl"
+      },
+      "summary": {
+        "te": "అంతర్జాతీయ బాలికా దినోత్సవం ప్రతి సంవత్సరం అక్టోబర్ 11న జరుగుతుంది. యూనిసెఫ్ 2026 ప్రచారం బాల్య వివాహాలను నివారించి బాలికల హక్కుల కోసం పెట్టుబడి పెట్టాలని పిలుపునిస్తోంది. బాలికలు చదువు కొనసాగించడం, సురక్షితంగా ఉండడం, వారి భవిష్యత్తుపై నిర్ణయాల్లో భాగం కావడం ప్రచారంలో ముఖ్యమైన అంశాలు. ఇది హక్కులపై అవగాహన విషయం; కొత్త ప్రవేశ లేదా స్కాలర్‌షిప్ ప్రకటన కాదు.",
+        "en": "International Day of the Girl is observed each year on October 11. UNICEF's 2026 campaign calls for ending child marriage and investing in girls' rights. It highlights staying in school, safety and girls' participation in decisions about their futures. This is rights-awareness content, not a new admission or scholarship notice."
+      }
+    },
+    {
+      "id": "gk_20261012_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "source_ids": [
+        "tggk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261012_telangana_2",
+        "en": "gk_20261012_telangana_2__en"
+      },
+      "title": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ",
+        "en": "Telangana formation date"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞాన విషయం; అక్టోబర్ 12న జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "Telangana became a state on June 2, 2014. This is static GK, not a new event on October 12. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261012_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261012_india_2",
+        "en": "gk_20261012_india_2__en"
+      },
+      "title": {
+        "te": "అశోక చక్రంలోని ఆకులు",
+        "en": "Spokes of the Ashoka Chakra"
+      },
+      "summary": {
+        "te": "భారత జాతీయ పతాకంలోని తెలుపు పట్టీ మధ్యలో నీలి రంగు అశోక చక్రం ఉంటుంది. దానికి సమాన దూరంలో 24 ఆకులు ఉంటాయి. ఇది స్థిరమైన సాధారణ జ్ఞాన విషయం.",
+        "en": "The white band of India's national flag has a navy-blue Ashoka Chakra in its centre. The wheel has 24 equally spaced spokes. This is static GK."
+      }
+    },
+    {
+      "id": "gk_20261012_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261012_world_2",
+        "en": "gk_20261012_world_2__en"
+      },
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి చార్టర్ సమావేశం",
+        "en": "The UN Charter conference"
+      },
+      "summary": {
+        "te": "1945 ఏప్రిల్ 25 నుంచి జూన్ 26 వరకు శాన్ ఫ్రాన్సిస్కోలో 50 దేశాల ప్రతినిధులు సమావేశమై ఐక్యరాజ్యసమితి చార్టర్‌ను రూపొందించి సంతకం చేశారు. సంస్థ అధికారికంగా అక్టోబర్ 24న ప్రారంభమైంది. సమావేశం తేదీలు, సంస్థ ప్రారంభ తేదీ వేరు.",
+        "en": "Representatives of 50 countries met in San Francisco from April 25 to June 26, 1945, to draft and sign the UN Charter. The organisation officially began on October 24. The conference dates and the organisation's starting date are different."
+      }
+    },
+    {
+      "id": "gk_20261012_india_3",
+      "region": "india",
+      "type": "current_affairs",
+      "category": "scholarship_notification",
+      "event_date": null,
+      "source_ids": [
+        "scholarships"
+      ],
+      "age_band": "class5-10",
+      "title": {
+        "te": "ఎన్‌ఎస్‌పీ స్కాలర్‌షిప్ పునరుద్ధరణ గడువు",
+        "en": "NSP scholarship renewal deadline"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 12న తనిఖీ చేసిన ఎన్‌ఎస్‌పీ అధికారిక ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ స్కాలర్‌షిప్ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక స్కాలర్‌షిప్ పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి దరఖాస్తు చివరి తేదీ 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30 వరకు. ఇది అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు అని కాదు. ప్రకటనలో ముగింపు సమయం లేదు.",
+        "en": "The official NSP announcement checked on October 12 says renewal applications are open for the PM-USP Central Sector Scheme of Scholarship for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student application deadline is October 31, 2026. Institute verification closes November 15 and Level 2 verification closes November 30. This applies to eligible renewal applicants, not every scholarship. The announcement does not specify a closing time."
+      },
+      "audio_ids": {
+        "te": "gk_20261012_india_3",
+        "en": "gk_20261012_india_3__en"
+      },
+      "deadline_date": "2026-10-31",
+      "deadline_time": null,
+      "notification_scope": "renewal_only; scheme eligibility applies; college-level planning information for school audience"
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261012_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261012_reading_1",
+        "en": "gk_20261012_reading_1__en"
+      },
+      "source_ids": [
+        "tgnews"
+      ],
+      "title": {
+        "te": "పూర్తయిన పని, పరిశీలనలో ఉన్న పని",
+        "en": "Completed work and work being explored"
+      },
+      "passage": {
+        "te": "ఉస్మానియా విశ్వవిద్యాలయంలో ఆహార వ్యర్థాల నుంచి బయోగ్యాస్ తయారు చేసి వంటకు వాడుతున్నట్లు అక్టోబర్ 11 నివేదిక చెబుతోంది. వ్యర్థాన్ని మళ్లీ ఉపయోగకరమైన వనరుగా మార్చడం ఈ కార్యక్రమంలోని ఆలోచన. అదే వార్తలో మిగిలే మిశ్రమాన్ని ఎరువుగా వాడే అవకాశాన్ని పరిశీలిస్తున్నట్లు ఉంది. ఇంధనం తయారు చేయడం, ఎరువుగా వాడే అవకాశాన్ని పరిశీలించడం వేర్వేరు స్థితులు. రెండూ ఇప్పటికే పూర్తిగా అమలయ్యాయని రాయకూడదు. వార్తలో వాడుతున్నారు, పరిశీలిస్తున్నారు అనే మాటలను గమనించాలి. ఈ పాఠ్యం వార్తను అర్థం చేసుకోవడానికి మాత్రమే; ఇంట్లో గ్యాస్ తయారు చేసే ప్రయోగానికి సూచన కాదు.",
+        "en": "An October 11 report says Osmania University makes biogas from food waste and uses it for cooking. The idea is to turn waste into a useful resource again. The same report says use of the leftover slurry as fertiliser is being explored. Producing fuel and exploring a fertiliser use are different stages. Do not describe both as fully implemented. Notice the difference between is used and is being explored. This passage is for understanding news, not an instruction to make gas at home."
+      },
+      "vocabulary": [
+        {
+          "te": "వ్యర్థం",
+          "en": "waste"
+        },
+        {
+          "te": "వనరు",
+          "en": "resource"
+        },
+        {
+          "te": "పరిశీలించడం",
+          "en": "exploring"
+        }
+      ]
+    },
+    {
+      "id": "gk_20261012_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261012_reading_2",
+        "en": "gk_20261012_reading_2__en"
+      },
+      "source_ids": [
+        "innews"
+      ],
+      "title": {
+        "te": "పోటీ ఫలితం, భవిష్యత్తు ఫైనల్",
+        "en": "A competition result and a future finale"
+      },
+      "passage": {
+        "te": "డీడీ ఇండియా అక్టోబర్ 11 వార్త, అక్టోబర్ 10న జరిగిన భారత రోబోటిక్స్ పోటీ ఫలితాలను చెబుతోంది. జూనియర్ విజేత టీమ్ సింగ్యులారిటీ, సీనియర్ విజేత టీమ్ ఫెర్రమ్ ఇంక్యుబేటర్స్. ఈ జట్లు 2027 జూన్‌లో జెనీవాలో జరిగే ప్రపంచ ఫైనల్‌లో పాల్గొననున్నాయి. వార్త ప్రచురణ తేదీ, భారత పోటీ తేదీ, ప్రపంచ ఫైనల్ సమయం మూడు వేర్వేరు వివరాలు. జట్లు ప్రపంచ ఫైనల్ ఇప్పటికే గెలిచాయని చెప్పడం తప్పు. విద్యార్థులు రోబోలను రూపొందించి, నిర్మించి, ప్రోగ్రామ్ చేశారు. ఈ వార్త ప్రణాళిక, బృంద సహకారం, సమస్య పరిష్కారం గురించి తెలుసుకోవడానికి ఉపయోగపడుతుంది.",
+        "en": "DD India's October 11 report gives results from the Indian robotics competition held on October 10. Team Singularity won the junior title and Team Ferrum Incubators won the senior title. They are due to attend the global finale in Geneva in June 2027. Publication date, national competition date and future finale timing are three different details. It would be wrong to say they have already won the global finale. Students designed, built and programmed robots. The report offers a chance to learn about planning, teamwork and problem-solving."
+      },
+      "vocabulary": [
+        {
+          "te": "బృంద సహకారం",
+          "en": "teamwork"
+        },
+        {
+          "te": "ప్రణాళిక",
+          "en": "planning"
+        },
+        {
+          "te": "భవిష్యత్తు",
+          "en": "future"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261012_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261012_q1",
+        "en": "gk_20261012_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261012_q1_answer",
+        "en": "gk_20261012_q1_answer__en"
+      },
+      "item_id": "gk_20261012_telangana_1",
+      "question": {
+        "te": "నివేదికలో ఏ వ్యర్థాన్ని బయోగ్యాస్‌గా మారుస్తున్నారు?",
+        "en": "Which waste is being converted to biogas in the report?"
+      },
+      "options": {
+        "te": [
+          "ప్లాస్టిక్ సీసాలు",
+          "వంటశాలల ఆహార వ్యర్థం",
+          "రాళ్లు",
+          "లోహం"
+        ],
+        "en": [
+          "Plastic bottles",
+          "Kitchen food waste",
+          "Stones",
+          "Metal"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "వసతిగృహ వంటశాలల ఆహార వ్యర్థాన్ని వాడుతున్నారు.",
+        "en": "The report describes using hostel kitchen food waste."
+      }
+    },
+    {
+      "id": "gk_20261012_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261012_q2",
+        "en": "gk_20261012_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261012_q2_answer",
+        "en": "gk_20261012_q2_answer__en"
+      },
+      "item_id": "gk_20261012_india_1",
+      "question": {
+        "te": "జూనియర్ విభాగంలో గెలిచిన జట్టు ఏది?",
+        "en": "Which team won the junior title?"
+      },
+      "options": {
+        "te": [
+          "ఫెర్రమ్ ఇంక్యుబేటర్స్",
+          "మీచ్ మైండ్స్",
+          "సింగ్యులారిటీ",
+          "బోటిక్స్ ఆల్ఫా"
+        ],
+        "en": [
+          "Ferrum Incubators",
+          "Mech Minds",
+          "Singularity",
+          "Botics Alpha"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "టీమ్ సింగ్యులారిటీ జూనియర్ విజేతగా నివేదించారు.",
+        "en": "Team Singularity was reported as the junior winner."
+      }
+    },
+    {
+      "id": "gk_20261012_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261012_q3",
+        "en": "gk_20261012_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261012_q3_answer",
+        "en": "gk_20261012_q3_answer__en"
+      },
+      "item_id": "gk_20261012_world_1",
+      "question": {
+        "te": "అంతర్జాతీయ బాలికా దినోత్సవం తేదీ ఏమిటి?",
+        "en": "What is the date of International Day of the Girl?"
+      },
+      "options": {
+        "te": [
+          "అక్టోబర్ 11",
+          "జూన్ 2",
+          "జూలై 22",
+          "జనవరి 26"
+        ],
+        "en": [
+          "October 11",
+          "June 2",
+          "July 22",
+          "January 26"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "యూనిసెఫ్ పేజీ ప్రతి సంవత్సరం అక్టోబర్ 11 అని చెబుతోంది.",
+        "en": "UNICEF gives October 11 each year."
+      }
+    },
+    {
+      "id": "gk_20261012_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261012_q4",
+        "en": "gk_20261012_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261012_q4_answer",
+        "en": "gk_20261012_q4_answer__en"
+      },
+      "item_id": "gk_20261012_telangana_2",
+      "question": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ ఏమిటి?",
+        "en": "What is Telangana's formation date?"
+      },
+      "options": {
+        "te": [
+          "1945 అక్టోబర్ 24",
+          "1947 జూలై 22",
+          "1950 జనవరి 26",
+          "2014 జూన్ 2"
+        ],
+        "en": [
+          "October 24, 1945",
+          "July 22, 1947",
+          "January 26, 1950",
+          "June 2, 2014"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "తెలంగాణ 2014 జూన్ 2న ఏర్పడింది.",
+        "en": "Telangana became a state on June 2, 2014."
+      }
+    },
+    {
+      "id": "gk_20261012_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261012_q5",
+        "en": "gk_20261012_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261012_q5_answer",
+        "en": "gk_20261012_q5_answer__en"
+      },
+      "item_id": "gk_20261012_india_2",
+      "question": {
+        "te": "అశోక చక్రంలో ఎన్ని ఆకులు ఉంటాయి?",
+        "en": "How many spokes does the Ashoka Chakra have?"
+      },
+      "options": {
+        "te": [
+          "12",
+          "24",
+          "50",
+          "100"
+        ],
+        "en": [
+          "12",
+          "24",
+          "50",
+          "100"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "జాతీయ పతాకంలోని అశోక చక్రంలో 24 ఆకులు ఉంటాయి.",
+        "en": "The Ashoka Chakra in the national flag has 24 spokes."
+      }
+    },
+    {
+      "id": "gk_20261012_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261012_q6",
+        "en": "gk_20261012_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261012_q6_answer",
+        "en": "gk_20261012_q6_answer__en"
+      },
+      "item_id": "gk_20261012_world_2",
+      "question": {
+        "te": "1945 చార్టర్ సమావేశంలో ఎన్ని దేశాల ప్రతినిధులు పాల్గొన్నారు?",
+        "en": "Representatives of how many countries attended the 1945 Charter conference?"
+      },
+      "options": {
+        "te": [
+          "24",
+          "10",
+          "50",
+          "100"
+        ],
+        "en": [
+          "24",
+          "10",
+          "50",
+          "100"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ఐక్యరాజ్యసమితి చరిత్ర పేజీ 50 దేశాల ప్రతినిధులను పేర్కొంది.",
+        "en": "The UN history page names representatives of 50 countries."
+      }
+    },
+    {
+      "id": "gk_20261012_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261012_q7",
+        "en": "gk_20261012_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261012_q7_answer",
+        "en": "gk_20261012_q7_answer__en"
+      },
+      "item_id": "gk_20261012_reading_1",
+      "question": {
+        "te": "ఏ వినియోగం ఇంకా పరిశీలనలో ఉంది?",
+        "en": "Which use is still being explored?"
+      },
+      "options": {
+        "te": [
+          "మిగిలే మిశ్రమాన్ని ఎరువుగా వాడటం",
+          "పతాకం మార్చడం",
+          "పోటీ నిర్వహించడం",
+          "బహుమతి ఇవ్వడం"
+        ],
+        "en": [
+          "Using leftover slurry as fertiliser",
+          "Changing a flag",
+          "Holding a competition",
+          "Giving a prize"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "మిగిలే మిశ్రమాన్ని ఎరువుగా వాడటం ఇంకా పరిశీలనలో ఉందని నివేదిక చెబుతోంది.",
+        "en": "The report says fertiliser use of the leftover slurry is still being explored."
+      }
+    },
+    {
+      "id": "gk_20261012_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261012_q8",
+        "en": "gk_20261012_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261012_q8_answer",
+        "en": "gk_20261012_q8_answer__en"
+      },
+      "item_id": "gk_20261012_reading_1",
+      "question": {
+        "te": "పరిశీలనలో ఉన్న పనిని ఎలా పేర్కొనాలి?",
+        "en": "How should work still being explored be described?"
+      },
+      "options": {
+        "te": [
+          "పూర్తిగా అమలైంది",
+          "ఎప్పుడూ జరగదు",
+          "మూలం అవసరం లేదు",
+          "ఇంకా పరిశీలనలో ఉంది"
+        ],
+        "en": [
+          "Fully implemented",
+          "It can never happen",
+          "No source is needed",
+          "Still being explored"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "మూలంలో ఉన్న స్థితిని మార్చకుండా చెప్పాలి.",
+        "en": "Keep the stage described in the source unchanged."
+      }
+    },
+    {
+      "id": "gk_20261012_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261012_q9",
+        "en": "gk_20261012_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261012_q9_answer",
+        "en": "gk_20261012_q9_answer__en"
+      },
+      "item_id": "gk_20261012_reading_2",
+      "question": {
+        "te": "ప్రపంచ ఫైనల్ జరగనున్న నగరం ఏది?",
+        "en": "In which city is the global finale due to take place?"
+      },
+      "options": {
+        "te": [
+          "న్యూఢిల్లీ",
+          "జెనీవా",
+          "హైదరాబాద్",
+          "టోక్యో"
+        ],
+        "en": [
+          "New Delhi",
+          "Geneva",
+          "Hyderabad",
+          "Tokyo"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "2027 జూన్ ప్రపంచ ఫైనల్ జెనీవాలో జరగనుంది.",
+        "en": "The global finale is due in Geneva in June 2027."
+      }
+    },
+    {
+      "id": "gk_20261012_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261012_q10",
+        "en": "gk_20261012_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261012_q10_answer",
+        "en": "gk_20261012_q10_answer__en"
+      },
+      "item_id": "gk_20261012_reading_2",
+      "question": {
+        "te": "భారత పోటీ జరిగిన తేదీ ఏమిటి?",
+        "en": "What was the date of the national competition?"
+      },
+      "options": {
+        "te": [
+          "2026 అక్టోబర్ 11",
+          "2027 జూన్",
+          "2026 అక్టోబర్ 10",
+          "2014 జూన్ 2"
+        ],
+        "en": [
+          "October 11, 2026",
+          "June 2027",
+          "October 10, 2026",
+          "June 2, 2014"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "భారత పోటీ అక్టోబర్ 10న జరిగింది; వార్త అక్టోబర్ 11న ప్రచురితమైంది.",
+        "en": "The national competition was on October 10; the report was published on October 11."
+      }
+    }
+  ],
+  "coverage": {
+    "cards": 7,
+    "current_affairs": 4,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 58
+  },
+  "edition_date": "2026-10-12",
+  "verified_at": "2026-10-12T02:33:54+05:30",
+  "editorial_note": "Early October 12 reviewed selection. OU biogas is ongoing reporting, not a new Oct 11 launch; slurry use exploratory. Robotics national event Oct 10, report Oct 11, global finale June 2027 still future. UNICEF observance Oct 11. Official NSP renewal deadline rechecked and unchanged; publication date/time absent, no universal eligibility inferred. TGCHE notifications inspected but no newly verified current student application deadline selected. All selected pages and static sources read. Class 5-10; Telugu classroom-editor review recommended. No recordings generated or inspected."
+}
