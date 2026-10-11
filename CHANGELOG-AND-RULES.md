@@ -59,3 +59,9 @@ Open the live app, switch Telugu/English, use main screens and Back, close overl
 - Added Oct10 archive access, kept Oct9/Oct8. GK app?v96, cache8; latest and dated edition match.
 -58 Listen scripts published for recording pipeline; actual recordings remain pending, truthful inline status retained. No substitute device speech.
 -Scoped mobile emulation/live testing reported separately; real-device and whole-app semantic audit not certified by this release.
+
+
+## 2026-10-11 - v4.15.143-dayNightAudio
+- Existing sharedClasses1-4Day and Night corrected:Earth rotation,sunlight-side,daytimeMoon/reflection;no always-visible-nightMoon claim. SameID/progress retained;6 bilingual MCQs,notnewtopic. NASA sources checked.
+-58Oct11GK and2DayNight recordings (60 IDs) added via40newOgg/MP3 shards;oneoldDayNight mapping replaced,59newIDs. Allothermapentriesretained. Playback engine unchanged,Sadaltager recordings only.
+-Clip transcripts inspected,format-reworded quiz options retain answers. Actualliveplayback/visual test scope reported separately;realdevice/fullcurriculum audit not claimed.
