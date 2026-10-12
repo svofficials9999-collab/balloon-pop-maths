@@ -20,29 +20,29 @@
       "published_date": null
     },
     "tgnews": {
-      "publisher": "The New Indian Express",
-      "url": "https://www.newindianexpress.com/states/telangana/2026/Oct/11/hyderabad-sustainability-in-action-at-osmania-university",
-      "published_date": "2026-10-11"
+      "publisher": "Hyderabad Mail",
+      "url": "https://hyderabadmail.com/telangana-rythu-nestham-el-nino-agriculture-review/",
+      "published_date": "2026-10-12"
     },
     "innews": {
-      "publisher": "DD India",
-      "url": "https://ddindia.co.in/2026/10/singularity-ferrum-incubators-win-national-robotics-challenge-to-represent-india-in-geneva/",
-      "published_date": "2026-10-11"
+      "publisher": "The Tribune",
+      "url": "https://www.tribuneindia.com/news/india/indian-science-students-to-get-global-exposure-under-iiser-tirupati-melbourne-dual-degree-programme/",
+      "published_date": "2026-10-12"
     },
     "worldnews": {
-      "publisher": "UNICEF",
-      "url": "https://www.unicef.org/gender-equality/international-day-girl",
-      "published_date": null
+      "publisher": "NobelPrize.org / Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2026/press-release/",
+      "published_date": "2026-10-12"
     },
     "scholarships": {
       "publisher": "National Scholarship Portal, Government of India",
-      "url": "https://scholarships.gov.in/",
+      "url": "https://scholarships.gov.in/Students",
       "published_date": null
     }
   },
   "cards": [
     {
-      "id": "gk_20261012_telangana_1",
+      "id": "gk_20261013_telangana_1",
       "region": "telangana",
       "type": "current_affairs",
       "source_ids": [
@@ -51,64 +51,64 @@
       "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261012_telangana_1",
-        "en": "gk_20261012_telangana_1__en"
+        "te": "gk_20261013_telangana_1",
+        "en": "gk_20261013_telangana_1__en"
       },
       "title": {
-        "te": "ఉస్మానియా విశ్వవిద్యాలయంలో ఆహార వ్యర్థాల నుంచి బయోగ్యాస్",
-        "en": "Food waste to biogas at Osmania University"
+        "te": "రైతు నేస్తం సమావేశంలో నీటి ప్రాధాన్యం",
+        "en": "Water priorities at the Rythu Nestham meeting"
       },
       "summary": {
-        "te": "అక్టోబర్ 11న ది న్యూ ఇండియన్ ఎక్స్‌ప్రెస్ నివేదిక ప్రకారం, ఉస్మానియా విశ్వవిద్యాలయంలోని మహాలక్ష్మి బయోగ్యాస్ ప్లాంట్ వసతిగృహ వంటశాలల ఆహార వ్యర్థాలను ఇంధనంగా మారుస్తోంది. ఉత్పత్తి చేసిన బయోగ్యాస్‌ను మహిళా వసతిగృహంలోని రెండు వంటశాలల్లో ఉపయోగిస్తున్నట్లు తెలిపింది. ఇది కొనసాగుతున్న కార్యక్రమం గురించి నివేదిక; అక్టోబర్ 11నే ప్లాంట్ ప్రారంభమైందని కాదు. మిగిలే మిశ్రమాన్ని ఎరువుగా వాడటం ఇంకా పరిశీలనలో ఉందని వార్త చెబుతోంది.",
-        "en": "The New Indian Express reported on October 11 that the Mahalakshmi Biogas Plant at Osmania University converts hostel kitchen food waste into fuel. It says the gas is used in two kitchens in the women's hostel complex. This describes an ongoing initiative, not a plant launched on October 11. The report says using the leftover slurry as fertiliser is still being explored."
+        "te": "అక్టోబర్ 12న హైదరాబాద్ మెయిల్ నివేదిక ప్రకారం, రైతు నేస్తం వీడియో సమావేశంలో వర్షపాతం లోటు, వ్యవసాయంపై ఎల్‌నినో ప్రభావాన్ని అధికారులు సమీక్షించారు. తాగునీటి సరఫరాకు ప్రాధాన్యం, స్థానిక పరిస్థితుల ఆధారంగా పంట ఎంపికపై రైతులకు అవగాహన గురించి చర్చించారు. ఇది సమావేశంపై నివేదిక; ప్రతి ప్రాంతానికి నీటి సరఫరా హామీ కాదు. సమావేశం ఖచ్చితమైన తేదీని వార్త వేరుగా పేర్కొనలేదు.",
+        "en": "Hyderabad Mail reported on October 12 that officials reviewed rainfall deficits and El Niño's potential agricultural impact at a Rythu Nestham video conference. They discussed drinking-water priorities and helping farmers choose crops based on local conditions. This is reporting about a meeting, not a water-supply guarantee for every area. The article does not separately specify the meeting's exact date."
       }
     },
     {
-      "id": "gk_20261012_india_1",
+      "id": "gk_20261013_india_1",
       "region": "india",
       "type": "current_affairs",
       "source_ids": [
         "innews"
       ],
-      "event_date": "2026-10-10",
+      "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261012_india_1",
-        "en": "gk_20261012_india_1__en"
+        "te": "gk_20261013_india_1",
+        "en": "gk_20261013_india_1__en"
       },
       "title": {
-        "te": "రోబోటిక్స్ యువజన పోటీలో విజేతలు",
-        "en": "Winners of the youth robotics challenge"
+        "te": "ఐఐఎస్ఈఆర్ తిరుపతి, మెల్‌బోర్న్ విద్యా సహకారం",
+        "en": "IISER Tirupati and Melbourne study collaboration"
       },
       "summary": {
-        "te": "అక్టోబర్ 11న డీడీ ఇండియా నివేదిక ప్రకారం, అక్టోబర్ 10న న్యూఢిల్లీలో జరిగిన రోబోటిక్స్ ఫర్ గుడ్ యూత్ ఛాలెంజ్‌లో టీమ్ సింగ్యులారిటీ జూనియర్ విభాగంలో, టీమ్ ఫెర్రమ్ ఇంక్యుబేటర్స్ సీనియర్ విభాగంలో గెలిచాయి. ఈ జట్లు 2027 జూన్‌లో జెనీవాలో జరగనున్న ప్రపంచ ఫైనల్‌లో భారత్‌కు ప్రాతినిధ్యం వహించనున్నాయి. భారత పోటీ పూర్తయింది; ప్రపంచ ఫైనల్ ఇంకా జరగలేదు.",
-        "en": "DD India reported on October 11 that Team Singularity won the junior title and Team Ferrum Incubators won the senior title at the Robotics for Good Youth Challenge in New Delhi on October 10. The teams are due to represent India at the global finale in Geneva in June 2027. The national competition is completed; the global finale is still in the future."
+        "te": "అక్టోబర్ 12న ది ట్రిబ్యూన్ నివేదిక ప్రకారం, ఐఐఎస్ఈఆర్ తిరుపతి, మెల్‌బోర్న్ విశ్వవిద్యాలయం రెండు సంస్థల సైన్స్ ఆనర్స్ డిగ్రీలతో 2+2 కార్యక్రమాన్ని ప్రకటించాయి. మొదటి రెండు సంవత్సరాలు తిరుపతిలో, చివరి రెండు మెల్‌బోర్న్‌లో చదవడం దాని నిర్మాణం. ఇది వార్తా నివేదిక; అధికారిక ప్రవేశ అర్హతలు, ఫీజులు, దరఖాస్తు గడువు ఇక్కడ నిర్ధారించలేదు.",
+        "en": "The Tribune reported on October 12 that IISER Tirupati and the University of Melbourne launched a 2+2 programme leading to science honours degrees from both institutions. Its structure is two years in Tirupati followed by two in Melbourne. This is a news report, not verification of official admission eligibility, fees or an application deadline."
       }
     },
     {
-      "id": "gk_20261012_world_1",
+      "id": "gk_20261013_world_1",
       "region": "world",
       "type": "current_affairs",
       "source_ids": [
         "worldnews"
       ],
-      "event_date": "2026-10-11",
+      "event_date": "2026-10-12",
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261012_world_1",
-        "en": "gk_20261012_world_1__en"
+        "te": "gk_20261013_world_1",
+        "en": "gk_20261013_world_1__en"
       },
       "title": {
-        "te": "అంతర్జాతీయ బాలికా దినోత్సవం",
-        "en": "International Day of the Girl"
+        "te": "2026 ఆర్థిక శాస్త్రాల బహుమతి",
+        "en": "2026 Prize in Economic Sciences"
       },
       "summary": {
-        "te": "అంతర్జాతీయ బాలికా దినోత్సవం ప్రతి సంవత్సరం అక్టోబర్ 11న జరుగుతుంది. యూనిసెఫ్ 2026 ప్రచారం బాల్య వివాహాలను నివారించి బాలికల హక్కుల కోసం పెట్టుబడి పెట్టాలని పిలుపునిస్తోంది. బాలికలు చదువు కొనసాగించడం, సురక్షితంగా ఉండడం, వారి భవిష్యత్తుపై నిర్ణయాల్లో భాగం కావడం ప్రచారంలో ముఖ్యమైన అంశాలు. ఇది హక్కులపై అవగాహన విషయం; కొత్త ప్రవేశ లేదా స్కాలర్‌షిప్ ప్రకటన కాదు.",
-        "en": "International Day of the Girl is observed each year on October 11. UNICEF's 2026 campaign calls for ending child marriage and investing in girls' rights. It highlights staying in school, safety and girls' participation in decisions about their futures. This is rights-awareness content, not a new admission or scholarship notice."
+        "te": "అక్టోబర్ 12న రాయల్ స్వీడిష్ అకాడమీ ఆఫ్ సైన్సెస్, ఆల్ఫ్రెడ్ నోబెల్ స్మారక స్వెరిజెస్ రిక్స్‌బ్యాంక్ ఆర్థిక శాస్త్రాల బహుమతిని రాబర్ట్ హాల్, మైఖేల్ వుడ్‌ఫోర్డ్‌లకు ప్రకటించింది. ఆర్థిక వ్యవస్థ స్థిరీకరణ నమూనాలకు సూక్ష్మ ఆర్థిక పునాదులపై వారి కృషిని గుర్తించింది. కుటుంబాలు, సంస్థల నిర్ణయాలను అర్థం చేసుకోవడం ఆ నమూనాల్లో భాగం.",
+        "en": "On October 12, the Royal Swedish Academy of Sciences announced the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel for Robert Hall and Michael Woodford. It recognised their work on microeconomic foundations of macroeconomic stabilisation. Understanding household and business decisions is part of these models."
       }
     },
     {
-      "id": "gk_20261012_telangana_2",
+      "id": "gk_20261013_telangana_2",
       "region": "telangana",
       "type": "static_gk",
       "source_ids": [
@@ -117,20 +117,20 @@
       "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261012_telangana_2",
-        "en": "gk_20261012_telangana_2__en"
+        "te": "gk_20261013_telangana_2",
+        "en": "gk_20261013_telangana_2__en"
       },
       "title": {
         "te": "తెలంగాణ ఆవిర్భావ తేదీ",
         "en": "Telangana formation date"
       },
       "summary": {
-        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞాన విషయం; అక్టోబర్ 12న జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
-        "en": "Telangana became a state on June 2, 2014. This is static GK, not a new event on October 12. The official source was checked again."
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞానం; అక్టోబర్ 13న జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "Telangana became a state on June 2, 2014. This is static GK, not a new event on October 13. The official source was checked again."
       }
     },
     {
-      "id": "gk_20261012_india_2",
+      "id": "gk_20261013_india_2",
       "region": "india",
       "type": "static_gk",
       "source_ids": [
@@ -139,8 +139,8 @@
       "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261012_india_2",
-        "en": "gk_20261012_india_2__en"
+        "te": "gk_20261013_india_2",
+        "en": "gk_20261013_india_2__en"
       },
       "title": {
         "te": "అశోక చక్రంలోని ఆకులు",
@@ -152,7 +152,7 @@
       }
     },
     {
-      "id": "gk_20261012_world_2",
+      "id": "gk_20261013_world_2",
       "region": "world",
       "type": "static_gk",
       "source_ids": [
@@ -161,8 +161,8 @@
       "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261012_world_2",
-        "en": "gk_20261012_world_2__en"
+        "te": "gk_20261013_world_2",
+        "en": "gk_20261013_world_2__en"
       },
       "title": {
         "te": "ఐక్యరాజ్యసమితి చార్టర్ సమావేశం",
@@ -174,7 +174,7 @@
       }
     },
     {
-      "id": "gk_20261012_india_3",
+      "id": "gk_20261013_india_3",
       "region": "india",
       "type": "current_affairs",
       "category": "scholarship_notification",
@@ -188,12 +188,12 @@
         "en": "NSP scholarship renewal deadline"
       },
       "summary": {
-        "te": "అక్టోబర్ 12న తనిఖీ చేసిన ఎన్‌ఎస్‌పీ అధికారిక ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ స్కాలర్‌షిప్ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక స్కాలర్‌షిప్ పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి దరఖాస్తు చివరి తేదీ 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30 వరకు. ఇది అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు అని కాదు. ప్రకటనలో ముగింపు సమయం లేదు.",
-        "en": "The official NSP announcement checked on October 12 says renewal applications are open for the PM-USP Central Sector Scheme of Scholarship for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student application deadline is October 31, 2026. Institute verification closes November 15 and Level 2 verification closes November 30. This applies to eligible renewal applicants, not every scholarship. The announcement does not specify a closing time."
+        "te": "అక్టోబర్ 13న తనిఖీ చేసిన ఎన్‌ఎస్‌పీ అధికారిక ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ స్కాలర్‌షిప్ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక స్కాలర్‌షిప్ పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి దరఖాస్తు చివరి తేదీ 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30 వరకు. ఇది అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు అని కాదు. ప్రకటనలో ముగింపు సమయం లేదు.",
+        "en": "The official NSP announcement checked on October 13 says renewal applications are open for the PM-USP Central Sector Scheme of Scholarship for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student application deadline is October 31, 2026. Institute verification closes November 15 and Level 2 verification closes November 30. This applies to eligible renewal applicants, not every scholarship. The announcement does not specify a closing time."
       },
       "audio_ids": {
-        "te": "gk_20261012_india_3",
-        "en": "gk_20261012_india_3__en"
+        "te": "gk_20261013_india_3",
+        "en": "gk_20261013_india_3__en"
       },
       "deadline_date": "2026-10-31",
       "deadline_time": null,
@@ -202,193 +202,193 @@
   ],
   "readings": [
     {
-      "id": "gk_20261012_reading_1",
+      "id": "gk_20261013_reading_1",
       "age_band": "class5-7",
       "audio_ids": {
-        "te": "gk_20261012_reading_1",
-        "en": "gk_20261012_reading_1__en"
-      },
-      "source_ids": [
-        "tgnews"
-      ],
-      "title": {
-        "te": "పూర్తయిన పని, పరిశీలనలో ఉన్న పని",
-        "en": "Completed work and work being explored"
-      },
-      "passage": {
-        "te": "ఉస్మానియా విశ్వవిద్యాలయంలో ఆహార వ్యర్థాల నుంచి బయోగ్యాస్ తయారు చేసి వంటకు వాడుతున్నట్లు అక్టోబర్ 11 నివేదిక చెబుతోంది. వ్యర్థాన్ని మళ్లీ ఉపయోగకరమైన వనరుగా మార్చడం ఈ కార్యక్రమంలోని ఆలోచన. అదే వార్తలో మిగిలే మిశ్రమాన్ని ఎరువుగా వాడే అవకాశాన్ని పరిశీలిస్తున్నట్లు ఉంది. ఇంధనం తయారు చేయడం, ఎరువుగా వాడే అవకాశాన్ని పరిశీలించడం వేర్వేరు స్థితులు. రెండూ ఇప్పటికే పూర్తిగా అమలయ్యాయని రాయకూడదు. వార్తలో వాడుతున్నారు, పరిశీలిస్తున్నారు అనే మాటలను గమనించాలి. ఈ పాఠ్యం వార్తను అర్థం చేసుకోవడానికి మాత్రమే; ఇంట్లో గ్యాస్ తయారు చేసే ప్రయోగానికి సూచన కాదు.",
-        "en": "An October 11 report says Osmania University makes biogas from food waste and uses it for cooking. The idea is to turn waste into a useful resource again. The same report says use of the leftover slurry as fertiliser is being explored. Producing fuel and exploring a fertiliser use are different stages. Do not describe both as fully implemented. Notice the difference between is used and is being explored. This passage is for understanding news, not an instruction to make gas at home."
-      },
-      "vocabulary": [
-        {
-          "te": "వ్యర్థం",
-          "en": "waste"
-        },
-        {
-          "te": "వనరు",
-          "en": "resource"
-        },
-        {
-          "te": "పరిశీలించడం",
-          "en": "exploring"
-        }
-      ]
-    },
-    {
-      "id": "gk_20261012_reading_2",
-      "age_band": "class8-10",
-      "audio_ids": {
-        "te": "gk_20261012_reading_2",
-        "en": "gk_20261012_reading_2__en"
+        "te": "gk_20261013_reading_1",
+        "en": "gk_20261013_reading_1__en"
       },
       "source_ids": [
         "innews"
       ],
       "title": {
-        "te": "పోటీ ఫలితం, భవిష్యత్తు ఫైనల్",
-        "en": "A competition result and a future finale"
+        "te": "విద్యా వార్త, ప్రవేశ ప్రకటన వేరు",
+        "en": "Education news and an admission notice differ"
       },
       "passage": {
-        "te": "డీడీ ఇండియా అక్టోబర్ 11 వార్త, అక్టోబర్ 10న జరిగిన భారత రోబోటిక్స్ పోటీ ఫలితాలను చెబుతోంది. జూనియర్ విజేత టీమ్ సింగ్యులారిటీ, సీనియర్ విజేత టీమ్ ఫెర్రమ్ ఇంక్యుబేటర్స్. ఈ జట్లు 2027 జూన్‌లో జెనీవాలో జరిగే ప్రపంచ ఫైనల్‌లో పాల్గొననున్నాయి. వార్త ప్రచురణ తేదీ, భారత పోటీ తేదీ, ప్రపంచ ఫైనల్ సమయం మూడు వేర్వేరు వివరాలు. జట్లు ప్రపంచ ఫైనల్ ఇప్పటికే గెలిచాయని చెప్పడం తప్పు. విద్యార్థులు రోబోలను రూపొందించి, నిర్మించి, ప్రోగ్రామ్ చేశారు. ఈ వార్త ప్రణాళిక, బృంద సహకారం, సమస్య పరిష్కారం గురించి తెలుసుకోవడానికి ఉపయోగపడుతుంది.",
-        "en": "DD India's October 11 report gives results from the Indian robotics competition held on October 10. Team Singularity won the junior title and Team Ferrum Incubators won the senior title. They are due to attend the global finale in Geneva in June 2027. Publication date, national competition date and future finale timing are three different details. It would be wrong to say they have already won the global finale. Students designed, built and programmed robots. The report offers a chance to learn about planning, teamwork and problem-solving."
+        "te": "ఒక వార్త 2+2 సైన్స్ డిగ్రీ కార్యక్రమం గురించి చెబుతోంది. మొదటి రెండు సంవత్సరాలు తిరుపతిలో, చివరి రెండు మెల్‌బోర్న్‌లో చదవడం దాని నిర్మాణం. దీని గురించి తెలుసుకోవడం భవిష్యత్తు చదువు ప్రణాళికకు ఉపయోగపడుతుంది. కానీ వార్త చదవడం వల్ల మనం అర్హులమని, దరఖాస్తులు తెరిచి ఉన్నాయని నిర్ధారణ కాదు. అధికారిక ప్రవేశ ప్రకటనలో అర్హతలు, ఫీజులు, తేదీలు, ఎంపిక విధానం చూడాలి. వార్తలో లేని గడువును మనమే చేర్చకూడదు. ఒక విద్యా సహకారం గురించి వార్తను వెంటనే దరఖాస్తు చేయాల్సిన ఆదేశంగా భావించకూడదు.",
+        "en": "A report describes a 2+2 science degree programme: two years in Tirupati and two in Melbourne. Learning about it can help with future study planning. Reading the report does not establish that we qualify or that applications are open. An official admission notice is needed to check eligibility, fees, dates and selection rules. Do not invent a deadline absent from the news. News about an education partnership is not an instruction to apply immediately."
       },
       "vocabulary": [
         {
-          "te": "బృంద సహకారం",
-          "en": "teamwork"
+          "te": "అర్హత",
+          "en": "eligibility"
         },
         {
-          "te": "ప్రణాళిక",
-          "en": "planning"
+          "te": "ఎంపిక",
+          "en": "selection"
         },
         {
-          "te": "భవిష్యత్తు",
-          "en": "future"
+          "te": "సహకారం",
+          "en": "collaboration"
+        }
+      ]
+    },
+    {
+      "id": "gk_20261013_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261013_reading_2",
+        "en": "gk_20261013_reading_2__en"
+      },
+      "source_ids": [
+        "worldnews"
+      ],
+      "title": {
+        "te": "కుటుంబాల నిర్ణయాలు, ఆర్థిక నమూనాలు",
+        "en": "Household decisions and economic models"
+      },
+      "passage": {
+        "te": "అక్టోబర్ 12న ఆర్థిక శాస్త్రాల బహుమతిని రాబర్ట్ హాల్, మైఖేల్ వుడ్‌ఫోర్డ్‌లకు ప్రకటించారు. వారి నమూనాలు మొత్తం ఆర్థిక వ్యవస్థను అర్థం చేసుకోవడానికి కుటుంబాలు, సంస్థల నిర్ణయాలను పునాదిగా తీసుకుంటాయి. పొదుపు లేదా ధర నిర్ణయించేటప్పుడు భవిష్యత్తు గురించి అంచనాలు ప్రభావం చూపవచ్చని అధికారిక వివరణ చెబుతోంది. ఒక నమూనా వాస్తవ ప్రపంచాన్ని అర్థం చేసుకోవడానికి ఉపయోగించే వివరణ. అది ప్రతి పరిస్థితికి ఖచ్చితమైన హామీ కాదు. ఈ పాఠ్యం ఆర్థిక శాస్త్ర వార్తను అర్థం చేసుకోవడానికి మాత్రమే; పెట్టుబడి లేదా అప్పు గురించి వ్యక్తిగత సలహా కాదు.",
+        "en": "The October 12 announcement awards the economic sciences prize to Robert Hall and Michael Woodford. Their models use household and business decisions as foundations for understanding the wider economy. The official explanation says expectations about the future can affect saving and price decisions. A model is a way of explaining the real world, not a guarantee for every situation. This passage is for understanding economics news, not personal advice about investments or borrowing."
+      },
+      "vocabulary": [
+        {
+          "te": "పొదుపు",
+          "en": "saving"
+        },
+        {
+          "te": "అంచనాలు",
+          "en": "expectations"
+        },
+        {
+          "te": "నమూనా",
+          "en": "model"
         }
       ]
     }
   ],
   "quiz": [
     {
-      "id": "gk_20261012_q1",
+      "id": "gk_20261013_q1",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261012_q1",
-        "en": "gk_20261012_q1__en"
+        "te": "gk_20261013_q1",
+        "en": "gk_20261013_q1__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261012_q1_answer",
-        "en": "gk_20261012_q1_answer__en"
+        "te": "gk_20261013_q1_answer",
+        "en": "gk_20261013_q1_answer__en"
       },
-      "item_id": "gk_20261012_telangana_1",
+      "item_id": "gk_20261013_telangana_1",
       "question": {
-        "te": "నివేదికలో ఏ వ్యర్థాన్ని బయోగ్యాస్‌గా మారుస్తున్నారు?",
-        "en": "Which waste is being converted to biogas in the report?"
+        "te": "సమావేశంలో దేనికి ప్రాధాన్యం గురించి చర్చించారు?",
+        "en": "What priority was discussed at the meeting?"
       },
       "options": {
         "te": [
-          "ప్లాస్టిక్ సీసాలు",
-          "వంటశాలల ఆహార వ్యర్థం",
-          "రాళ్లు",
-          "లోహం"
+          "పతాక రంగు",
+          "తాగునీటి సరఫరా",
+          "నోబెల్ బహుమతి",
+          "విదేశీ ఫైనల్"
         ],
         "en": [
-          "Plastic bottles",
-          "Kitchen food waste",
-          "Stones",
-          "Metal"
+          "Flag colour",
+          "Drinking-water supply",
+          "A Nobel prize",
+          "An overseas finale"
         ]
       },
       "answer_index": 1,
       "explanation": {
-        "te": "వసతిగృహ వంటశాలల ఆహార వ్యర్థాన్ని వాడుతున్నారు.",
-        "en": "The report describes using hostel kitchen food waste."
+        "te": "నివేదిక తాగునీటి సరఫరా ప్రాధాన్యాన్ని పేర్కొంది.",
+        "en": "The report mentions drinking-water priorities."
       }
     },
     {
-      "id": "gk_20261012_q2",
+      "id": "gk_20261013_q2",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261012_q2",
-        "en": "gk_20261012_q2__en"
+        "te": "gk_20261013_q2",
+        "en": "gk_20261013_q2__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261012_q2_answer",
-        "en": "gk_20261012_q2_answer__en"
+        "te": "gk_20261013_q2_answer",
+        "en": "gk_20261013_q2_answer__en"
       },
-      "item_id": "gk_20261012_india_1",
+      "item_id": "gk_20261013_india_1",
       "question": {
-        "te": "జూనియర్ విభాగంలో గెలిచిన జట్టు ఏది?",
-        "en": "Which team won the junior title?"
+        "te": "2+2 కార్యక్రమంలో చివరి రెండు సంవత్సరాలు ఎక్కడ చదువుతారు?",
+        "en": "Where are the final two years of the 2+2 programme studied?"
       },
       "options": {
         "te": [
-          "ఫెర్రమ్ ఇంక్యుబేటర్స్",
-          "మీచ్ మైండ్స్",
-          "సింగ్యులారిటీ",
-          "బోటిక్స్ ఆల్ఫా"
+          "జెనీవా",
+          "న్యూఢిల్లీ",
+          "మెల్‌బోర్న్",
+          "ములుగు"
         ],
         "en": [
-          "Ferrum Incubators",
-          "Mech Minds",
-          "Singularity",
-          "Botics Alpha"
+          "Geneva",
+          "New Delhi",
+          "Melbourne",
+          "Mulugu"
         ]
       },
       "answer_index": 2,
       "explanation": {
-        "te": "టీమ్ సింగ్యులారిటీ జూనియర్ విజేతగా నివేదించారు.",
-        "en": "Team Singularity was reported as the junior winner."
+        "te": "నివేదిక ప్రకారం చివరి రెండు సంవత్సరాలు మెల్‌బోర్న్‌లో ఉంటాయి.",
+        "en": "The report says the final two years are in Melbourne."
       }
     },
     {
-      "id": "gk_20261012_q3",
+      "id": "gk_20261013_q3",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261012_q3",
-        "en": "gk_20261012_q3__en"
+        "te": "gk_20261013_q3",
+        "en": "gk_20261013_q3__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261012_q3_answer",
-        "en": "gk_20261012_q3_answer__en"
+        "te": "gk_20261013_q3_answer",
+        "en": "gk_20261013_q3_answer__en"
       },
-      "item_id": "gk_20261012_world_1",
+      "item_id": "gk_20261013_world_1",
       "question": {
-        "te": "అంతర్జాతీయ బాలికా దినోత్సవం తేదీ ఏమిటి?",
-        "en": "What is the date of International Day of the Girl?"
+        "te": "2026 ఆర్థిక శాస్త్రాల బహుమతి ఎవరికి ప్రకటించారు?",
+        "en": "Who were announced as the 2026 economic sciences laureates?"
       },
       "options": {
         "te": [
-          "అక్టోబర్ 11",
-          "జూన్ 2",
-          "జూలై 22",
-          "జనవరి 26"
+          "రాబర్ట్ హాల్, మైఖేల్ వుడ్‌ఫోర్డ్",
+          "ఆన్ కార్సన్",
+          "ఐజాక్ న్యూటన్",
+          "ప్రతి విద్యార్థికి"
         ],
         "en": [
-          "October 11",
-          "June 2",
-          "July 22",
-          "January 26"
+          "Robert Hall and Michael Woodford",
+          "Anne Carson",
+          "Isaac Newton",
+          "Every student"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "యూనిసెఫ్ పేజీ ప్రతి సంవత్సరం అక్టోబర్ 11 అని చెబుతోంది.",
-        "en": "UNICEF gives October 11 each year."
+        "te": "అధికారిక అక్టోబర్ 12 ప్రకటన హాల్, వుడ్‌ఫోర్డ్ పేర్లను పేర్కొంది.",
+        "en": "The official October 12 release names Hall and Woodford."
       }
     },
     {
-      "id": "gk_20261012_q4",
+      "id": "gk_20261013_q4",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261012_q4",
-        "en": "gk_20261012_q4__en"
+        "te": "gk_20261013_q4",
+        "en": "gk_20261013_q4__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261012_q4_answer",
-        "en": "gk_20261012_q4_answer__en"
+        "te": "gk_20261013_q4_answer",
+        "en": "gk_20261013_q4_answer__en"
       },
-      "item_id": "gk_20261012_telangana_2",
+      "item_id": "gk_20261013_telangana_2",
       "question": {
         "te": "తెలంగాణ ఆవిర్భావ తేదీ ఏమిటి?",
         "en": "What is Telangana's formation date?"
@@ -414,17 +414,17 @@
       }
     },
     {
-      "id": "gk_20261012_q5",
+      "id": "gk_20261013_q5",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261012_q5",
-        "en": "gk_20261012_q5__en"
+        "te": "gk_20261013_q5",
+        "en": "gk_20261013_q5__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261012_q5_answer",
-        "en": "gk_20261012_q5_answer__en"
+        "te": "gk_20261013_q5_answer",
+        "en": "gk_20261013_q5_answer__en"
       },
-      "item_id": "gk_20261012_india_2",
+      "item_id": "gk_20261013_india_2",
       "question": {
         "te": "అశోక చక్రంలో ఎన్ని ఆకులు ఉంటాయి?",
         "en": "How many spokes does the Ashoka Chakra have?"
@@ -450,17 +450,17 @@
       }
     },
     {
-      "id": "gk_20261012_q6",
+      "id": "gk_20261013_q6",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261012_q6",
-        "en": "gk_20261012_q6__en"
+        "te": "gk_20261013_q6",
+        "en": "gk_20261013_q6__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261012_q6_answer",
-        "en": "gk_20261012_q6_answer__en"
+        "te": "gk_20261013_q6_answer",
+        "en": "gk_20261013_q6_answer__en"
       },
-      "item_id": "gk_20261012_world_2",
+      "item_id": "gk_20261013_world_2",
       "question": {
         "te": "1945 చార్టర్ సమావేశంలో ఎన్ని దేశాల ప్రతినిధులు పాల్గొన్నారు?",
         "en": "Representatives of how many countries attended the 1945 Charter conference?"
@@ -486,147 +486,147 @@
       }
     },
     {
-      "id": "gk_20261012_q7",
+      "id": "gk_20261013_q7",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261012_q7",
-        "en": "gk_20261012_q7__en"
+        "te": "gk_20261013_q7",
+        "en": "gk_20261013_q7__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261012_q7_answer",
-        "en": "gk_20261012_q7_answer__en"
+        "te": "gk_20261013_q7_answer",
+        "en": "gk_20261013_q7_answer__en"
       },
-      "item_id": "gk_20261012_reading_1",
+      "item_id": "gk_20261013_reading_1",
       "question": {
-        "te": "ఏ వినియోగం ఇంకా పరిశీలనలో ఉంది?",
-        "en": "Which use is still being explored?"
+        "te": "అర్హతలు, ఫీజులు, తేదీలు ఎక్కడ నిర్ధారించాలి?",
+        "en": "Where should eligibility, fees and dates be confirmed?"
       },
       "options": {
         "te": [
-          "మిగిలే మిశ్రమాన్ని ఎరువుగా వాడటం",
-          "పతాకం మార్చడం",
-          "పోటీ నిర్వహించడం",
-          "బహుమతి ఇవ్వడం"
+          "అధికారిక ప్రవేశ ప్రకటనలో",
+          "ఊహలో",
+          "పతాక చిత్రంలో",
+          "పోటీ ఫలితంలో"
         ],
         "en": [
-          "Using leftover slurry as fertiliser",
-          "Changing a flag",
-          "Holding a competition",
-          "Giving a prize"
+          "In the official admission notice",
+          "By guessing",
+          "In a flag picture",
+          "In a competition result"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "మిగిలే మిశ్రమాన్ని ఎరువుగా వాడటం ఇంకా పరిశీలనలో ఉందని నివేదిక చెబుతోంది.",
-        "en": "The report says fertiliser use of the leftover slurry is still being explored."
+        "te": "ప్రవేశ వివరాలకు అధికారిక ప్రకటనను చూడాలి.",
+        "en": "Use the official admission notice for admission details."
       }
     },
     {
-      "id": "gk_20261012_q8",
+      "id": "gk_20261013_q8",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261012_q8",
-        "en": "gk_20261012_q8__en"
+        "te": "gk_20261013_q8",
+        "en": "gk_20261013_q8__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261012_q8_answer",
-        "en": "gk_20261012_q8_answer__en"
+        "te": "gk_20261013_q8_answer",
+        "en": "gk_20261013_q8_answer__en"
       },
-      "item_id": "gk_20261012_reading_1",
+      "item_id": "gk_20261013_reading_1",
       "question": {
-        "te": "పరిశీలనలో ఉన్న పనిని ఎలా పేర్కొనాలి?",
-        "en": "How should work still being explored be described?"
+        "te": "వార్తలో గడువు లేకపోతే ఏమి చేయకూడదు?",
+        "en": "What should not be done if the news gives no deadline?"
       },
       "options": {
         "te": [
-          "పూర్తిగా అమలైంది",
-          "ఎప్పుడూ జరగదు",
-          "మూలం అవసరం లేదు",
-          "ఇంకా పరిశీలనలో ఉంది"
+          "మూలం చూడటం",
+          "అర్హత తెలుసుకోవడం",
+          "తేదీ తనిఖీ చేయడం",
+          "గడువును ఊహించి చేర్చడం"
         ],
         "en": [
-          "Fully implemented",
-          "It can never happen",
-          "No source is needed",
-          "Still being explored"
+          "Read the source",
+          "Check eligibility",
+          "Check dates",
+          "Invent and add a deadline"
         ]
       },
       "answer_index": 3,
       "explanation": {
-        "te": "మూలంలో ఉన్న స్థితిని మార్చకుండా చెప్పాలి.",
-        "en": "Keep the stage described in the source unchanged."
+        "te": "మూలం ఇవ్వని తేదీని మనమే చేర్చకూడదు.",
+        "en": "Do not add a date unsupported by the source."
       }
     },
     {
-      "id": "gk_20261012_q9",
+      "id": "gk_20261013_q9",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261012_q9",
-        "en": "gk_20261012_q9__en"
+        "te": "gk_20261013_q9",
+        "en": "gk_20261013_q9__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261012_q9_answer",
-        "en": "gk_20261012_q9_answer__en"
+        "te": "gk_20261013_q9_answer",
+        "en": "gk_20261013_q9_answer__en"
       },
-      "item_id": "gk_20261012_reading_2",
+      "item_id": "gk_20261013_reading_2",
       "question": {
-        "te": "ప్రపంచ ఫైనల్ జరగనున్న నగరం ఏది?",
-        "en": "In which city is the global finale due to take place?"
+        "te": "నమూనాల పునాదిలో ఎవరి నిర్ణయాలు ఉన్నాయి?",
+        "en": "Whose decisions form foundations of these models?"
       },
       "options": {
         "te": [
-          "న్యూఢిల్లీ",
-          "జెనీవా",
-          "హైదరాబాద్",
-          "టోక్యో"
+          "క్రీడాకారులవి మాత్రమే",
+          "కుటుంబాలు, సంస్థలవి",
+          "రచయితలవి మాత్రమే",
+          "పక్షులవి"
         ],
         "en": [
-          "New Delhi",
-          "Geneva",
-          "Hyderabad",
-          "Tokyo"
+          "Only athletes",
+          "Households and businesses",
+          "Only authors",
+          "Birds"
         ]
       },
       "answer_index": 1,
       "explanation": {
-        "te": "2027 జూన్ ప్రపంచ ఫైనల్ జెనీవాలో జరగనుంది.",
-        "en": "The global finale is due in Geneva in June 2027."
+        "te": "అధికారిక వివరణ కుటుంబాలు, సంస్థల నిర్ణయాలను పేర్కొంది.",
+        "en": "The official explanation refers to households and businesses."
       }
     },
     {
-      "id": "gk_20261012_q10",
+      "id": "gk_20261013_q10",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261012_q10",
-        "en": "gk_20261012_q10__en"
+        "te": "gk_20261013_q10",
+        "en": "gk_20261013_q10__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261012_q10_answer",
-        "en": "gk_20261012_q10_answer__en"
+        "te": "gk_20261013_q10_answer",
+        "en": "gk_20261013_q10_answer__en"
       },
-      "item_id": "gk_20261012_reading_2",
+      "item_id": "gk_20261013_reading_2",
       "question": {
-        "te": "భారత పోటీ జరిగిన తేదీ ఏమిటి?",
-        "en": "What was the date of the national competition?"
+        "te": "ఈ పాఠ్యం వ్యక్తిగత పెట్టుబడి సలహానా?",
+        "en": "Is this passage personal investment advice?"
       },
       "options": {
         "te": [
-          "2026 అక్టోబర్ 11",
-          "2027 జూన్",
-          "2026 అక్టోబర్ 10",
-          "2014 జూన్ 2"
+          "అవును, హామీ ఇస్తుంది",
+          "ప్రతి అప్పుకు రేటు ఇస్తుంది",
+          "కాదు, వార్త వివరణ మాత్రమే",
+          "డబ్బు చెల్లించమంటుంది"
         ],
         "en": [
-          "October 11, 2026",
-          "June 2027",
-          "October 10, 2026",
-          "June 2, 2014"
+          "Yes, it guarantees a result",
+          "It gives every loan rate",
+          "No, it explains news",
+          "It requests payment"
         ]
       },
       "answer_index": 2,
       "explanation": {
-        "te": "భారత పోటీ అక్టోబర్ 10న జరిగింది; వార్త అక్టోబర్ 11న ప్రచురితమైంది.",
-        "en": "The national competition was on October 10; the report was published on October 11."
+        "te": "పాఠ్యం వార్తను అర్థం చేసుకోవడానికి మాత్రమే.",
+        "en": "The passage is only for understanding news."
       }
     }
   ],
@@ -638,7 +638,7 @@
     "questions": 10,
     "listen_clips": 58
   },
-  "edition_date": "2026-10-12",
-  "verified_at": "2026-10-12T02:33:54+05:30",
-  "editorial_note": "Early October 12 reviewed selection. OU biogas is ongoing reporting, not a new Oct 11 launch; slurry use exploratory. Robotics national event Oct 10, report Oct 11, global finale June 2027 still future. UNICEF observance Oct 11. Official NSP renewal deadline rechecked and unchanged; publication date/time absent, no universal eligibility inferred. TGCHE notifications inspected but no newly verified current student application deadline selected. All selected pages and static sources read. Class 5-10; Telugu classroom-editor review recommended. No recordings generated or inspected."
+  "edition_date": "2026-10-13",
+  "verified_at": "2026-10-13T02:34:38+05:30",
+  "editorial_note": "Early October 13 checked selection. Rainfall meeting report and education collaboration published Oct 12, exact event dates absent. Degree news is not verified admission availability, cost or deadline. Economic Sciences official Oct 12 announcement, exact prize name preserved. NSP eligible renewal deadline rechecked unchanged; no cutoff time supplied. VVM official dates page sought separately; no unverified deadline promoted. Static sources rechecked. Original Class 5-10 reading/quiz; Telugu editor review recommended; audio pending."
 }
