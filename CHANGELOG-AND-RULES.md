@@ -72,3 +72,9 @@ Open the live app, switch Telugu/English, use main screens and Back, close overl
 -AddedOct11archive,preservedOct10/9/8 and allrecordedplayback/progress/PIN. GKapp?v97/cache9.
 -58Listen scripts pending freshrecordings;truthfulinlinependingretained,no devicevoice. Oct11recordingsremainavailableviaarchive.
 -ScopedliveChromeQAandpixelsreportedseparately;no physicaldevice/fullcurriculum certification.
+
+
+## 2026-10-12 - Compulsory name and mobile registration
+-User11:11:51voice-noteinstructionverified.Name is now required (blank/whitespace blocked) beforeentry;mobile/PIN rulespreserved,notphoneownership verification. Fingerprintcannotbypassmissingregisteredname.
+-Name+mobile mapped to existingprivateGoogleForm/Sheet;MECHONICnewrequiredShortanswerNameentry205745422,existingMobileentry1612654723unchanged. Oldrows/PIN/progressnotdeleted;oldnamelessqueuedrowswaitfor matchingname.
+-Prepared/liveQA usesinterceptedFormPOSTs,notfakeleads. ActualSheetrowarrivalnotclaimeduntilverified. Physicalphone/fingerprintscan notclaimed.
