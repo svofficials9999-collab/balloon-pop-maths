@@ -78,3 +78,9 @@ Open the live app, switch Telugu/English, use main screens and Back, close overl
 -User11:11:51voice-noteinstructionverified.Name is now required (blank/whitespace blocked) beforeentry;mobile/PIN rulespreserved,notphoneownership verification. Fingerprintcannotbypassmissingregisteredname.
 -Name+mobile mapped to existingprivateGoogleForm/Sheet;MECHONICnewrequiredShortanswerNameentry205745422,existingMobileentry1612654723unchanged. Oldrows/PIN/progressnotdeleted;oldnamelessqueuedrowswaitfor matchingname.
 -Prepared/liveQA usesinterceptedFormPOSTs,notfakeleads. ActualSheetrowarrivalnotclaimeduntilverified. Physicalphone/fingerprintscan notclaimed.
+
+
+## 2026-10-13 - Daily GK editorial refresh
+-7 bilingual cards,2originalreadings,10MCQs. Dated/sourcecheckedselectedcoverage,notfullnewscoverage. Meetingdateabsent;educationcollaborationnotadmissioneligibility/fee/deadlineverification;economicprizeexactnamepreserved;NSPrenewalonlyscope.
+-Oct12archiveappend,priorarchives/progress/audio preserved. GKapp?v98/cache10;sharedlock?v144requirednameversionrefreshed.
+-58Listen scripts pendingSadaltagerrecordings,inlinependingstatushonest,no devicevoice. ScopedliveQA/visualevidence reportedseparately;no physicaldevice/fullcurriculumapprovalclaim.
