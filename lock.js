@@ -51,12 +51,12 @@ function flushLead(){
  if(qbusy||!navigator.onLine)return;var a=qget();if(!a.length)return;qbusy=true;
  (function next(i){
   if(i>=a.length){qbusy=false;return}
-  postLead(a[i]).then(function(){qset(qget().filter(function(x){return x.t!==a[i].t}));next(i+1)},function(){qbusy=false});
+  if(!String(a[i].n||'').trim()){next(i+1);return}postLead(a[i]).then(function(){qset(qget().filter(function(x){return x.t!==a[i].t}));next(i+1)},function(){qbusy=false});
  })(0);
 }
 function sendLead(name,phone){
  var o={n:(name||'').replace(/\s+/g,' ').trim().slice(0,40),p:phone,t:Date.now()};
- set(LM,JSON.stringify({n:o.n,p:o.p}));var a=qget();a.push(o);qset(a);flushLead();
+ set(LM,JSON.stringify({n:o.n,p:o.p}));var a=qget();a.forEach(function(x){if(x.p===phone&&!String(x.n||'').trim())x.n=o.n});a.push(o);qset(a);flushLead();
 }
 function resendSaved(){try{var m=JSON.parse(get(LM)||'null');if(m&&m.p)sendLead(m.n,m.p)}catch(e){}}
 setInterval(flushLead,15000);window.addEventListener('online',flushLead);d.addEventListener('visibilitychange',function(){if(!d.hidden)flushLead()});
