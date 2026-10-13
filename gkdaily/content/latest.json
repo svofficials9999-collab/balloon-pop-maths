@@ -2,7 +2,7 @@
   "schema_version": 1,
   "revision": 1,
   "timezone": "Asia/Kolkata",
-  "status": "source_checked_translation_review_recommended",
+  "status": "source_checked_with_labelled_unverified_notification_translation_review_recommended",
   "sources": {
     "tggk": {
       "publisher": "Telangana State Portal",
@@ -20,29 +20,30 @@
       "published_date": null
     },
     "tgnews": {
-      "publisher": "Hyderabad Mail",
-      "url": "https://hyderabadmail.com/telangana-rythu-nestham-el-nino-agriculture-review/",
-      "published_date": "2026-10-12"
+      "publisher": "Telangana Today",
+      "url": "https://telanganatoday.com/hps-ramanthapur-hosts-rise-2026-rocket-innovation-event",
+      "published_date": "2026-10-13"
     },
     "innews": {
-      "publisher": "The Tribune",
-      "url": "https://www.tribuneindia.com/news/india/indian-science-students-to-get-global-exposure-under-iiser-tirupati-melbourne-dual-degree-programme/",
-      "published_date": "2026-10-12"
+      "publisher": "DD India / PTI",
+      "url": "https://ddindia.co.in/2026/10/iit-kharagpur-launches-ai-tutor-free-gate-jam-preparation-platform/",
+      "published_date": "2026-10-13"
     },
     "worldnews": {
-      "publisher": "NobelPrize.org / Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/economic-sciences/2026/press-release/",
-      "published_date": "2026-10-12"
-    },
-    "scholarships": {
-      "publisher": "National Scholarship Portal, Government of India",
-      "url": "https://scholarships.gov.in/Students",
+      "publisher": "UNDRR",
+      "url": "https://iddrr.undrr.org/",
       "published_date": null
+    },
+    "vvm": {
+      "publisher": "Vidyarthi Vigyan Manthan",
+      "url": "https://vvm.org.in/important-dates-india",
+      "published_date": null,
+      "verification_status": "not_verified_today_official_page_502"
     }
   },
   "cards": [
     {
-      "id": "gk_20261013_telangana_1",
+      "id": "gk_20261014_telangana_1",
       "region": "telangana",
       "type": "current_affairs",
       "source_ids": [
@@ -51,64 +52,64 @@
       "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261013_telangana_1",
-        "en": "gk_20261013_telangana_1__en"
+        "te": "gk_20261014_telangana_1",
+        "en": "gk_20261014_telangana_1__en"
       },
       "title": {
-        "te": "రైతు నేస్తం సమావేశంలో నీటి ప్రాధాన్యం",
-        "en": "Water priorities at the Rythu Nestham meeting"
+        "te": "రామంతపూర్‌లో రాకెట్ నమూనాలు",
+        "en": "Rocket models at Ramanthapur"
       },
       "summary": {
-        "te": "అక్టోబర్ 12న హైదరాబాద్ మెయిల్ నివేదిక ప్రకారం, రైతు నేస్తం వీడియో సమావేశంలో వర్షపాతం లోటు, వ్యవసాయంపై ఎల్‌నినో ప్రభావాన్ని అధికారులు సమీక్షించారు. తాగునీటి సరఫరాకు ప్రాధాన్యం, స్థానిక పరిస్థితుల ఆధారంగా పంట ఎంపికపై రైతులకు అవగాహన గురించి చర్చించారు. ఇది సమావేశంపై నివేదిక; ప్రతి ప్రాంతానికి నీటి సరఫరా హామీ కాదు. సమావేశం ఖచ్చితమైన తేదీని వార్త వేరుగా పేర్కొనలేదు.",
-        "en": "Hyderabad Mail reported on October 12 that officials reviewed rainfall deficits and El Niño's potential agricultural impact at a Rythu Nestham video conference. They discussed drinking-water priorities and helping farmers choose crops based on local conditions. This is reporting about a meeting, not a water-supply guarantee for every area. The article does not separately specify the meeting's exact date."
+        "te": "అక్టోబర్ 13న తెలంగాణ టుడే నివేదిక ప్రకారం, హెచ్‌పీఎస్ రామంతపూర్ రైజ్ 2026 కార్యక్రమంలో ఐదు పాఠశాలల నుంచి 84 మంది విద్యార్థులు రాకెట్, అంతరిక్ష నమూనాలను ప్రదర్శించారు. స్పేస్ అధ్యాన్, ఇస్రో జాతీయ రిమోట్ సెన్సింగ్ కేంద్రంతో కలిసి కార్యక్రమం నిర్వహించారు. ఖచ్చితమైన కార్యక్రమ తేదీ వార్తలో లేదు. నమూనా ప్రదర్శన నిజమైన అంతరిక్ష ప్రయోగం కాదు.",
+        "en": "Telangana Today reported on October 13 that 84 students from five schools displayed rocket and space models at HPS Ramanthapur's RISE 2026 event. It was held with SpaceAdhyaan and ISRO's National Remote Sensing Centre. The exact event date is not given. A model display is not an actual space launch."
       }
     },
     {
-      "id": "gk_20261013_india_1",
+      "id": "gk_20261014_india_1",
       "region": "india",
       "type": "current_affairs",
       "source_ids": [
         "innews"
       ],
-      "event_date": null,
+      "event_date": "2026-10-12",
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261013_india_1",
-        "en": "gk_20261013_india_1__en"
+        "te": "gk_20261014_india_1",
+        "en": "gk_20261014_india_1__en"
       },
       "title": {
-        "te": "ఐఐఎస్ఈఆర్ తిరుపతి, మెల్‌బోర్న్ విద్యా సహకారం",
-        "en": "IISER Tirupati and Melbourne study collaboration"
+        "te": "ఐఐటీ ఖరగ్‌పూర్ అభ్యాస సాధనాలు",
+        "en": "IIT Kharagpur learning tools"
       },
       "summary": {
-        "te": "అక్టోబర్ 12న ది ట్రిబ్యూన్ నివేదిక ప్రకారం, ఐఐఎస్ఈఆర్ తిరుపతి, మెల్‌బోర్న్ విశ్వవిద్యాలయం రెండు సంస్థల సైన్స్ ఆనర్స్ డిగ్రీలతో 2+2 కార్యక్రమాన్ని ప్రకటించాయి. మొదటి రెండు సంవత్సరాలు తిరుపతిలో, చివరి రెండు మెల్‌బోర్న్‌లో చదవడం దాని నిర్మాణం. ఇది వార్తా నివేదిక; అధికారిక ప్రవేశ అర్హతలు, ఫీజులు, దరఖాస్తు గడువు ఇక్కడ నిర్ధారించలేదు.",
-        "en": "The Tribune reported on October 12 that IISER Tirupati and the University of Melbourne launched a 2+2 programme leading to science honours degrees from both institutions. Its structure is two years in Tirupati followed by two in Melbourne. This is a news report, not verification of official admission eligibility, fees or an application deadline."
+        "te": "అక్టోబర్ 13న డీడీ ఇండియా నివేదిక ప్రకారం, ఐఐటీ ఖరగ్‌పూర్ అక్టోబర్ 12న ఏఐ ట్యూటర్, గేట్ జామ్ సన్నద్ధత వేదికను ప్రారంభించింది. ఉచిత అభ్యాస కార్యక్రమాలుగా వార్త పేర్కొంది. ట్యూటర్ ప్రశ్నలు, సూచనలతో స్వతంత్ర ఆలోచనకు సహాయపడుతుందని తెలిపింది. ఇది పరీక్షలో విజయం లేదా ప్రతి వినియోగదారుడికి ప్రవేశం గురించి హామీ కాదు.",
+        "en": "DD India reported on October 13 that IIT Kharagpur launched an AI tutor and a GATE-JAM preparation platform on October 12. It describes free learning initiatives and a tutor using questions and hints to support independent thinking. This is not a guarantee of exam success or access for every user."
       }
     },
     {
-      "id": "gk_20261013_world_1",
+      "id": "gk_20261014_world_1",
       "region": "world",
       "type": "current_affairs",
       "source_ids": [
         "worldnews"
       ],
-      "event_date": "2026-10-12",
+      "event_date": "2026-10-13",
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261013_world_1",
-        "en": "gk_20261013_world_1__en"
+        "te": "gk_20261014_world_1",
+        "en": "gk_20261014_world_1__en"
       },
       "title": {
-        "te": "2026 ఆర్థిక శాస్త్రాల బహుమతి",
-        "en": "2026 Prize in Economic Sciences"
+        "te": "విపత్తు ప్రమాద తగ్గింపు దినోత్సవం",
+        "en": "Disaster Risk Reduction Day"
       },
       "summary": {
-        "te": "అక్టోబర్ 12న రాయల్ స్వీడిష్ అకాడమీ ఆఫ్ సైన్సెస్, ఆల్ఫ్రెడ్ నోబెల్ స్మారక స్వెరిజెస్ రిక్స్‌బ్యాంక్ ఆర్థిక శాస్త్రాల బహుమతిని రాబర్ట్ హాల్, మైఖేల్ వుడ్‌ఫోర్డ్‌లకు ప్రకటించింది. ఆర్థిక వ్యవస్థ స్థిరీకరణ నమూనాలకు సూక్ష్మ ఆర్థిక పునాదులపై వారి కృషిని గుర్తించింది. కుటుంబాలు, సంస్థల నిర్ణయాలను అర్థం చేసుకోవడం ఆ నమూనాల్లో భాగం.",
-        "en": "On October 12, the Royal Swedish Academy of Sciences announced the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel for Robert Hall and Michael Woodford. It recognised their work on microeconomic foundations of macroeconomic stabilisation. Understanding household and business decisions is part of these models."
+        "te": "అంతర్జాతీయ విపత్తు ప్రమాద తగ్గింపు దినోత్సవం అక్టోబర్ 13న జరుగుతుంది. 2026 అంశం రిజిలియెన్స్ స్టార్ట్స్ అట్ హోమ్. యూఎన్‌డీఆర్ఆర్ సురక్షిత గృహాలు, అందరికీ అర్థమయ్యే హెచ్చరికలు, సమాజ భాగస్వామ్యంపై దృష్టి పెడుతోంది. ఇది అవగాహన విషయం; మీ ప్రాంతానికి ప్రస్తుత అత్యవసర హెచ్చరిక కాదు.",
+        "en": "International Day for Disaster Risk Reduction is observed on October 13. The 2026 theme is Resilience Starts at Home. UNDRR focuses on safer homes, understandable warnings and community participation. This is awareness content, not a current emergency alert for your area."
       }
     },
     {
-      "id": "gk_20261013_telangana_2",
+      "id": "gk_20261014_telangana_2",
       "region": "telangana",
       "type": "static_gk",
       "source_ids": [
@@ -117,20 +118,20 @@
       "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261013_telangana_2",
-        "en": "gk_20261013_telangana_2__en"
+        "te": "gk_20261014_telangana_2",
+        "en": "gk_20261014_telangana_2__en"
       },
       "title": {
         "te": "తెలంగాణ ఆవిర్భావ తేదీ",
         "en": "Telangana formation date"
       },
       "summary": {
-        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞానం; అక్టోబర్ 13న జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
-        "en": "Telangana became a state on June 2, 2014. This is static GK, not a new event on October 13. The official source was checked again."
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "Telangana became a state on June 2, 2014. This is static GK, not a new event today. The official source was checked again."
       }
     },
     {
-      "id": "gk_20261013_india_2",
+      "id": "gk_20261014_india_2",
       "region": "india",
       "type": "static_gk",
       "source_ids": [
@@ -139,8 +140,8 @@
       "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261013_india_2",
-        "en": "gk_20261013_india_2__en"
+        "te": "gk_20261014_india_2",
+        "en": "gk_20261014_india_2__en"
       },
       "title": {
         "te": "అశోక చక్రంలోని ఆకులు",
@@ -152,7 +153,7 @@
       }
     },
     {
-      "id": "gk_20261013_world_2",
+      "id": "gk_20261014_world_2",
       "region": "world",
       "type": "static_gk",
       "source_ids": [
@@ -161,8 +162,8 @@
       "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261013_world_2",
-        "en": "gk_20261013_world_2__en"
+        "te": "gk_20261014_world_2",
+        "en": "gk_20261014_world_2__en"
       },
       "title": {
         "te": "ఐక్యరాజ్యసమితి చార్టర్ సమావేశం",
@@ -174,221 +175,222 @@
       }
     },
     {
-      "id": "gk_20261013_india_3",
+      "id": "gk_20261014_india_3",
       "region": "india",
       "type": "current_affairs",
-      "category": "scholarship_notification",
+      "category": "exam_notification",
       "event_date": null,
       "source_ids": [
-        "scholarships"
+        "vvm"
       ],
       "age_band": "class5-10",
       "title": {
-        "te": "ఎన్‌ఎస్‌పీ స్కాలర్‌షిప్ పునరుద్ధరణ గడువు",
-        "en": "NSP scholarship renewal deadline"
+        "te": "వీవీఎం గడువు: ఈరోజు నిర్ధారణ కాలేదు",
+        "en": "VVM deadline: NOT VERIFIED today"
       },
       "summary": {
-        "te": "అక్టోబర్ 13న తనిఖీ చేసిన ఎన్‌ఎస్‌పీ అధికారిక ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ స్కాలర్‌షిప్ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక స్కాలర్‌షిప్ పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి దరఖాస్తు చివరి తేదీ 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30 వరకు. ఇది అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు అని కాదు. ప్రకటనలో ముగింపు సమయం లేదు.",
-        "en": "The official NSP announcement checked on October 13 says renewal applications are open for the PM-USP Central Sector Scheme of Scholarship for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student application deadline is October 31, 2026. Institute verification closes November 15 and Level 2 verification closes November 30. This applies to eligible renewal applicants, not every scholarship. The announcement does not specify a closing time."
+        "te": "విద్యార్థి విగ్యాన్ మంథన్ భారత్ నమోదు చివరి తేదీ 2026 అక్టోబర్ 15గా ముందుగా నివేదించారు. ఈరోజు నిర్ధారణ కాలేదు: అధికారిక భారత్ తేదీల పేజీ 502 లోపం చూపించింది. తాజా మార్పు లేదా పొడిగింపును తనిఖీ చేయలేకపోయాం. 6 నుంచి 11 తరగతుల విద్యార్థులు తల్లిదండ్రులు లేదా ఉపాధ్యాయులతో అధికారిక భారత్ ప్రకటన చూడాలి. ఈ తేదీని ప్రస్తుత నిర్ధారిత గడువుగా భావించవద్దు. గల్ఫ్ తేదీలు భారత్‌కు వర్తించవు.",
+        "en": "Vidyarthi Vigyan Manthan India registration was previously reported to close on October 15, 2026. NOT VERIFIED today: the official India dates page returned a 502 error. A later change or extension could not be checked. Students in Classes VI to XI should check the official India notice with a parent or teacher. Do not treat this as a currently verified deadline. Gulf dates do not apply to India."
       },
       "audio_ids": {
-        "te": "gk_20261013_india_3",
-        "en": "gk_20261013_india_3__en"
+        "te": "gk_20261014_india_3",
+        "en": "gk_20261014_india_3__en"
       },
-      "deadline_date": "2026-10-31",
+      "deadline_date": null,
       "deadline_time": null,
-      "notification_scope": "renewal_only; scheme eligibility applies; college-level planning information for school audience"
+      "reported_deadline_date": "2026-10-15",
+      "verification_status": "not_verified_today_official_page_502"
     }
   ],
   "readings": [
     {
-      "id": "gk_20261013_reading_1",
+      "id": "gk_20261014_reading_1",
       "age_band": "class5-7",
       "audio_ids": {
-        "te": "gk_20261013_reading_1",
-        "en": "gk_20261013_reading_1__en"
+        "te": "gk_20261014_reading_1",
+        "en": "gk_20261014_reading_1__en"
       },
       "source_ids": [
-        "innews"
+        "tgnews"
       ],
       "title": {
-        "te": "విద్యా వార్త, ప్రవేశ ప్రకటన వేరు",
-        "en": "Education news and an admission notice differ"
+        "te": "నమూనా, ప్రయోగం వేరు",
+        "en": "A model and a launch differ"
       },
       "passage": {
-        "te": "ఒక వార్త 2+2 సైన్స్ డిగ్రీ కార్యక్రమం గురించి చెబుతోంది. మొదటి రెండు సంవత్సరాలు తిరుపతిలో, చివరి రెండు మెల్‌బోర్న్‌లో చదవడం దాని నిర్మాణం. దీని గురించి తెలుసుకోవడం భవిష్యత్తు చదువు ప్రణాళికకు ఉపయోగపడుతుంది. కానీ వార్త చదవడం వల్ల మనం అర్హులమని, దరఖాస్తులు తెరిచి ఉన్నాయని నిర్ధారణ కాదు. అధికారిక ప్రవేశ ప్రకటనలో అర్హతలు, ఫీజులు, తేదీలు, ఎంపిక విధానం చూడాలి. వార్తలో లేని గడువును మనమే చేర్చకూడదు. ఒక విద్యా సహకారం గురించి వార్తను వెంటనే దరఖాస్తు చేయాల్సిన ఆదేశంగా భావించకూడదు.",
-        "en": "A report describes a 2+2 science degree programme: two years in Tirupati and two in Melbourne. Learning about it can help with future study planning. Reading the report does not establish that we qualify or that applications are open. An official admission notice is needed to check eligibility, fees, dates and selection rules. Do not invent a deadline absent from the news. News about an education partnership is not an instruction to apply immediately."
+        "te": "రైజ్ కార్యక్రమంలో విద్యార్థులు రాకెట్ నమూనాలు చూపించినట్లు వార్త చెబుతోంది. నమూనా ఒక ఆలోచనను వివరించడానికి ఉపయోగపడుతుంది. నిజమైన అంతరిక్ష ప్రయోగం వేరే పని. అందుకే నమూనాలు ప్రదర్శించారు అనే మాటను అంతరిక్షంలోకి రాకెట్ పంపారు అని మార్చకూడదు. కార్యక్రమంలో ఐదు పాఠశాలల నుంచి 84 మంది పాల్గొన్నట్లు నివేదించారు. ఈ పాఠ్యం వార్త అర్థం చేసుకోవడానికి మాత్రమే; రాకెట్ నిర్మాణం లేదా ప్రయోగానికి సూచన కాదు.",
+        "en": "The RISE report says students displayed rocket models. A model helps explain an idea. An actual space launch is a different activity. Do not change displayed models into sent a rocket into space. The report names 84 participants from five schools. This passage is for reading comprehension, not instructions to build or launch a rocket."
       },
       "vocabulary": [
         {
-          "te": "అర్హత",
-          "en": "eligibility"
+          "te": "నమూనా",
+          "en": "model"
         },
         {
-          "te": "ఎంపిక",
-          "en": "selection"
+          "te": "ప్రదర్శన",
+          "en": "display"
         },
         {
-          "te": "సహకారం",
-          "en": "collaboration"
+          "te": "భద్రత",
+          "en": "safety"
         }
       ]
     },
     {
-      "id": "gk_20261013_reading_2",
+      "id": "gk_20261014_reading_2",
       "age_band": "class8-10",
       "audio_ids": {
-        "te": "gk_20261013_reading_2",
-        "en": "gk_20261013_reading_2__en"
+        "te": "gk_20261014_reading_2",
+        "en": "gk_20261014_reading_2__en"
       },
       "source_ids": [
         "worldnews"
       ],
       "title": {
-        "te": "కుటుంబాల నిర్ణయాలు, ఆర్థిక నమూనాలు",
-        "en": "Household decisions and economic models"
+        "te": "హెచ్చరికను అర్థం చేసుకోవడం",
+        "en": "Understanding a warning"
       },
       "passage": {
-        "te": "అక్టోబర్ 12న ఆర్థిక శాస్త్రాల బహుమతిని రాబర్ట్ హాల్, మైఖేల్ వుడ్‌ఫోర్డ్‌లకు ప్రకటించారు. వారి నమూనాలు మొత్తం ఆర్థిక వ్యవస్థను అర్థం చేసుకోవడానికి కుటుంబాలు, సంస్థల నిర్ణయాలను పునాదిగా తీసుకుంటాయి. పొదుపు లేదా ధర నిర్ణయించేటప్పుడు భవిష్యత్తు గురించి అంచనాలు ప్రభావం చూపవచ్చని అధికారిక వివరణ చెబుతోంది. ఒక నమూనా వాస్తవ ప్రపంచాన్ని అర్థం చేసుకోవడానికి ఉపయోగించే వివరణ. అది ప్రతి పరిస్థితికి ఖచ్చితమైన హామీ కాదు. ఈ పాఠ్యం ఆర్థిక శాస్త్ర వార్తను అర్థం చేసుకోవడానికి మాత్రమే; పెట్టుబడి లేదా అప్పు గురించి వ్యక్తిగత సలహా కాదు.",
-        "en": "The October 12 announcement awards the economic sciences prize to Robert Hall and Michael Woodford. Their models use household and business decisions as foundations for understanding the wider economy. The official explanation says expectations about the future can affect saving and price decisions. A model is a way of explaining the real world, not a guarantee for every situation. This passage is for understanding economics news, not personal advice about investments or borrowing."
+        "te": "యూఎన్‌డీఆర్ఆర్ ప్రచారం ఇంటి భద్రతకు ప్రాధాన్యం ఇస్తోంది. హెచ్చరిక అందడం మాత్రమే సరిపోదు. అది అర్థమయ్యే రూపంలో ఉండాలి; ప్రమాదాన్ని తగ్గించే చర్య గురించి ప్రజలకు తెలియాలి. వయస్సు, వైకల్యం, భాష వల్ల అవసరాలు వేరుగా ఉండవచ్చు. ప్రణాళికలో కుటుంబాలు, సమాజం భాగం కావాలి. ఈ పాఠ్యం సాధారణ అవగాహన మాత్రమే. నిజమైన అత్యవసర పరిస్థితిలో స్థానిక అధికారుల ప్రస్తుత సూచనలు చూడాలి.",
+        "en": "UNDRR's campaign values safety at home. A warning arriving is not enough. It must be understandable, and people should know what action reduces risk. Age, disability and language can create different needs. Households and communities should participate in planning. This passage is general awareness. In a real emergency, use current local-authority instructions."
       },
       "vocabulary": [
         {
-          "te": "పొదుపు",
-          "en": "saving"
+          "te": "హెచ్చరిక",
+          "en": "warning"
         },
         {
-          "te": "అంచనాలు",
-          "en": "expectations"
+          "te": "ప్రమాదం",
+          "en": "risk"
         },
         {
-          "te": "నమూనా",
-          "en": "model"
+          "te": "భాగస్వామ్యం",
+          "en": "participation"
         }
       ]
     }
   ],
   "quiz": [
     {
-      "id": "gk_20261013_q1",
+      "id": "gk_20261014_q1",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261013_q1",
-        "en": "gk_20261013_q1__en"
+        "te": "gk_20261014_q1",
+        "en": "gk_20261014_q1__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261013_q1_answer",
-        "en": "gk_20261013_q1_answer__en"
+        "te": "gk_20261014_q1_answer",
+        "en": "gk_20261014_q1_answer__en"
       },
-      "item_id": "gk_20261013_telangana_1",
+      "item_id": "gk_20261014_telangana_1",
       "question": {
-        "te": "సమావేశంలో దేనికి ప్రాధాన్యం గురించి చర్చించారు?",
-        "en": "What priority was discussed at the meeting?"
+        "te": "ఎన్ని పాఠశాలల విద్యార్థులు పాల్గొన్నారు?",
+        "en": "Students from how many schools participated?"
       },
       "options": {
         "te": [
-          "పతాక రంగు",
-          "తాగునీటి సరఫరా",
-          "నోబెల్ బహుమతి",
-          "విదేశీ ఫైనల్"
+          "రెండు",
+          "ఐదు",
+          "పది",
+          "ఇరవై"
         ],
         "en": [
-          "Flag colour",
-          "Drinking-water supply",
-          "A Nobel prize",
-          "An overseas finale"
+          "Two",
+          "Five",
+          "Ten",
+          "Twenty"
         ]
       },
       "answer_index": 1,
       "explanation": {
-        "te": "నివేదిక తాగునీటి సరఫరా ప్రాధాన్యాన్ని పేర్కొంది.",
-        "en": "The report mentions drinking-water priorities."
+        "te": "నివేదిక ఐదు పాఠశాలలను పేర్కొంది.",
+        "en": "The report names five schools."
       }
     },
     {
-      "id": "gk_20261013_q2",
+      "id": "gk_20261014_q2",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261013_q2",
-        "en": "gk_20261013_q2__en"
+        "te": "gk_20261014_q2",
+        "en": "gk_20261014_q2__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261013_q2_answer",
-        "en": "gk_20261013_q2_answer__en"
+        "te": "gk_20261014_q2_answer",
+        "en": "gk_20261014_q2_answer__en"
       },
-      "item_id": "gk_20261013_india_1",
+      "item_id": "gk_20261014_india_1",
       "question": {
-        "te": "2+2 కార్యక్రమంలో చివరి రెండు సంవత్సరాలు ఎక్కడ చదువుతారు?",
-        "en": "Where are the final two years of the 2+2 programme studied?"
+        "te": "ట్యూటర్ అభ్యాస విధానం ఏమిటి?",
+        "en": "What learning approach does the tutor use?"
       },
       "options": {
         "te": [
-          "జెనీవా",
-          "న్యూఢిల్లీ",
-          "మెల్‌బోర్న్",
-          "ములుగు"
+          "హామీ",
+          "ఆలోచన అవసరం లేదు",
+          "ప్రశ్నలు, సూచనలు",
+          "సమాధానాలు దాచడం"
         ],
         "en": [
-          "Geneva",
-          "New Delhi",
-          "Melbourne",
-          "Mulugu"
+          "A guarantee",
+          "No thinking needed",
+          "Questions and hints",
+          "Hiding answers"
         ]
       },
       "answer_index": 2,
       "explanation": {
-        "te": "నివేదిక ప్రకారం చివరి రెండు సంవత్సరాలు మెల్‌బోర్న్‌లో ఉంటాయి.",
-        "en": "The report says the final two years are in Melbourne."
+        "te": "ప్రశ్నలు, సూచనలు స్వతంత్ర ఆలోచనకు సహాయపడతాయి.",
+        "en": "Questions and hints support independent thinking."
       }
     },
     {
-      "id": "gk_20261013_q3",
+      "id": "gk_20261014_q3",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261013_q3",
-        "en": "gk_20261013_q3__en"
+        "te": "gk_20261014_q3",
+        "en": "gk_20261014_q3__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261013_q3_answer",
-        "en": "gk_20261013_q3_answer__en"
+        "te": "gk_20261014_q3_answer",
+        "en": "gk_20261014_q3_answer__en"
       },
-      "item_id": "gk_20261013_world_1",
+      "item_id": "gk_20261014_world_1",
       "question": {
-        "te": "2026 ఆర్థిక శాస్త్రాల బహుమతి ఎవరికి ప్రకటించారు?",
-        "en": "Who were announced as the 2026 economic sciences laureates?"
+        "te": "2026 అంశం ఏమిటి?",
+        "en": "What is the 2026 theme?"
       },
       "options": {
         "te": [
-          "రాబర్ట్ హాల్, మైఖేల్ వుడ్‌ఫోర్డ్",
-          "ఆన్ కార్సన్",
-          "ఐజాక్ న్యూటన్",
-          "ప్రతి విద్యార్థికి"
+          "రిజిలియెన్స్ స్టార్ట్స్ అట్ హోమ్",
+          "అంతరిక్ష ప్రయోగం",
+          "పరీక్ష",
+          "గడువు"
         ],
         "en": [
-          "Robert Hall and Michael Woodford",
-          "Anne Carson",
-          "Isaac Newton",
-          "Every student"
+          "Resilience Starts at Home",
+          "Space launch",
+          "Exam",
+          "Deadline"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "అధికారిక అక్టోబర్ 12 ప్రకటన హాల్, వుడ్‌ఫోర్డ్ పేర్లను పేర్కొంది.",
-        "en": "The official October 12 release names Hall and Woodford."
+        "te": "యూఎన్‌డీఆర్ఆర్ ఈ అంశాన్ని పేర్కొంది.",
+        "en": "UNDRR gives this theme."
       }
     },
     {
-      "id": "gk_20261013_q4",
+      "id": "gk_20261014_q4",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261013_q4",
-        "en": "gk_20261013_q4__en"
+        "te": "gk_20261014_q4",
+        "en": "gk_20261014_q4__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261013_q4_answer",
-        "en": "gk_20261013_q4_answer__en"
+        "te": "gk_20261014_q4_answer",
+        "en": "gk_20261014_q4_answer__en"
       },
-      "item_id": "gk_20261013_telangana_2",
+      "item_id": "gk_20261014_telangana_2",
       "question": {
         "te": "తెలంగాణ ఆవిర్భావ తేదీ ఏమిటి?",
         "en": "What is Telangana's formation date?"
@@ -414,17 +416,17 @@
       }
     },
     {
-      "id": "gk_20261013_q5",
+      "id": "gk_20261014_q5",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261013_q5",
-        "en": "gk_20261013_q5__en"
+        "te": "gk_20261014_q5",
+        "en": "gk_20261014_q5__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261013_q5_answer",
-        "en": "gk_20261013_q5_answer__en"
+        "te": "gk_20261014_q5_answer",
+        "en": "gk_20261014_q5_answer__en"
       },
-      "item_id": "gk_20261013_india_2",
+      "item_id": "gk_20261014_india_2",
       "question": {
         "te": "అశోక చక్రంలో ఎన్ని ఆకులు ఉంటాయి?",
         "en": "How many spokes does the Ashoka Chakra have?"
@@ -450,17 +452,17 @@
       }
     },
     {
-      "id": "gk_20261013_q6",
+      "id": "gk_20261014_q6",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261013_q6",
-        "en": "gk_20261013_q6__en"
+        "te": "gk_20261014_q6",
+        "en": "gk_20261014_q6__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261013_q6_answer",
-        "en": "gk_20261013_q6_answer__en"
+        "te": "gk_20261014_q6_answer",
+        "en": "gk_20261014_q6_answer__en"
       },
-      "item_id": "gk_20261013_world_2",
+      "item_id": "gk_20261014_world_2",
       "question": {
         "te": "1945 చార్టర్ సమావేశంలో ఎన్ని దేశాల ప్రతినిధులు పాల్గొన్నారు?",
         "en": "Representatives of how many countries attended the 1945 Charter conference?"
@@ -486,147 +488,147 @@
       }
     },
     {
-      "id": "gk_20261013_q7",
+      "id": "gk_20261014_q7",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261013_q7",
-        "en": "gk_20261013_q7__en"
+        "te": "gk_20261014_q7",
+        "en": "gk_20261014_q7__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261013_q7_answer",
-        "en": "gk_20261013_q7_answer__en"
+        "te": "gk_20261014_q7_answer",
+        "en": "gk_20261014_q7_answer__en"
       },
-      "item_id": "gk_20261013_reading_1",
+      "item_id": "gk_20261014_reading_1",
       "question": {
-        "te": "అర్హతలు, ఫీజులు, తేదీలు ఎక్కడ నిర్ధారించాలి?",
-        "en": "Where should eligibility, fees and dates be confirmed?"
+        "te": "నమూనా ప్రదర్శన నిజమైన ప్రయోగమా?",
+        "en": "Is a model display an actual launch?"
       },
       "options": {
         "te": [
-          "అధికారిక ప్రవేశ ప్రకటనలో",
-          "ఊహలో",
-          "పతాక చిత్రంలో",
-          "పోటీ ఫలితంలో"
+          "కాదు",
+          "అవును",
+          "ఎప్పుడూ",
+          "తేదీ లేదు"
         ],
         "en": [
-          "In the official admission notice",
-          "By guessing",
-          "In a flag picture",
-          "In a competition result"
+          "No",
+          "Yes",
+          "Always",
+          "No date"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "ప్రవేశ వివరాలకు అధికారిక ప్రకటనను చూడాలి.",
-        "en": "Use the official admission notice for admission details."
+        "te": "నమూనా, నిజమైన ప్రయోగం వేరు.",
+        "en": "A model and an actual launch differ."
       }
     },
     {
-      "id": "gk_20261013_q8",
+      "id": "gk_20261014_q8",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261013_q8",
-        "en": "gk_20261013_q8__en"
+        "te": "gk_20261014_q8",
+        "en": "gk_20261014_q8__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261013_q8_answer",
-        "en": "gk_20261013_q8_answer__en"
+        "te": "gk_20261014_q8_answer",
+        "en": "gk_20261014_q8_answer__en"
       },
-      "item_id": "gk_20261013_reading_1",
+      "item_id": "gk_20261014_reading_1",
       "question": {
-        "te": "వార్తలో గడువు లేకపోతే ఏమి చేయకూడదు?",
-        "en": "What should not be done if the news gives no deadline?"
+        "te": "ఈ పాఠ్యం రాకెట్ నిర్మాణ సూచనలనా?",
+        "en": "Does this passage give rocket-building instructions?"
       },
       "options": {
         "te": [
-          "మూలం చూడటం",
-          "అర్హత తెలుసుకోవడం",
-          "తేదీ తనిఖీ చేయడం",
-          "గడువును ఊహించి చేర్చడం"
+          "అవును",
+          "ఇంధన విధానం",
+          "ప్రయోగం",
+          "కాదు, వార్త వివరణ మాత్రమే"
         ],
         "en": [
-          "Read the source",
-          "Check eligibility",
-          "Check dates",
-          "Invent and add a deadline"
+          "Yes",
+          "A fuel method",
+          "A launch",
+          "No, news comprehension only"
         ]
       },
       "answer_index": 3,
       "explanation": {
-        "te": "మూలం ఇవ్వని తేదీని మనమే చేర్చకూడదు.",
-        "en": "Do not add a date unsupported by the source."
+        "te": "ఇది వార్త అర్థం చేసుకోవడానికి మాత్రమే.",
+        "en": "It is only for understanding news."
       }
     },
     {
-      "id": "gk_20261013_q9",
+      "id": "gk_20261014_q9",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261013_q9",
-        "en": "gk_20261013_q9__en"
+        "te": "gk_20261014_q9",
+        "en": "gk_20261014_q9__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261013_q9_answer",
-        "en": "gk_20261013_q9_answer__en"
+        "te": "gk_20261014_q9_answer",
+        "en": "gk_20261014_q9_answer__en"
       },
-      "item_id": "gk_20261013_reading_2",
+      "item_id": "gk_20261014_reading_2",
       "question": {
-        "te": "నమూనాల పునాదిలో ఎవరి నిర్ణయాలు ఉన్నాయి?",
-        "en": "Whose decisions form foundations of these models?"
+        "te": "హెచ్చరిక ఎలా ఉండాలి?",
+        "en": "How should a warning be presented?"
       },
       "options": {
         "te": [
-          "క్రీడాకారులవి మాత్రమే",
-          "కుటుంబాలు, సంస్థలవి",
-          "రచయితలవి మాత్రమే",
-          "పక్షులవి"
+          "దాచాలి",
+          "అర్థమయ్యే రూపంలో",
+          "ఒక్కరికే",
+          "తేదీ లేకుండా"
         ],
         "en": [
-          "Only athletes",
-          "Households and businesses",
-          "Only authors",
-          "Birds"
+          "Hidden",
+          "In understandable form",
+          "To one person",
+          "Without date"
         ]
       },
       "answer_index": 1,
       "explanation": {
-        "te": "అధికారిక వివరణ కుటుంబాలు, సంస్థల నిర్ణయాలను పేర్కొంది.",
-        "en": "The official explanation refers to households and businesses."
+        "te": "ప్రజలకు హెచ్చరిక అర్థమవ్వాలి.",
+        "en": "People should understand the warning."
       }
     },
     {
-      "id": "gk_20261013_q10",
+      "id": "gk_20261014_q10",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261013_q10",
-        "en": "gk_20261013_q10__en"
+        "te": "gk_20261014_q10",
+        "en": "gk_20261014_q10__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261013_q10_answer",
-        "en": "gk_20261013_q10_answer__en"
+        "te": "gk_20261014_q10_answer",
+        "en": "gk_20261014_q10_answer__en"
       },
-      "item_id": "gk_20261013_reading_2",
+      "item_id": "gk_20261014_reading_2",
       "question": {
-        "te": "ఈ పాఠ్యం వ్యక్తిగత పెట్టుబడి సలహానా?",
-        "en": "Is this passage personal investment advice?"
+        "te": "ఇది ప్రత్యక్ష అత్యవసర హెచ్చరికనా?",
+        "en": "Is this a live emergency alert?"
       },
       "options": {
         "te": [
-          "అవును, హామీ ఇస్తుంది",
-          "ప్రతి అప్పుకు రేటు ఇస్తుంది",
-          "కాదు, వార్త వివరణ మాత్రమే",
-          "డబ్బు చెల్లించమంటుంది"
+          "అవును",
+          "ప్రతి ప్రాంతానికి",
+          "కాదు, అవగాహన మాత్రమే",
+          "సూచనలు అవసరం లేదు"
         ],
         "en": [
-          "Yes, it guarantees a result",
-          "It gives every loan rate",
-          "No, it explains news",
-          "It requests payment"
+          "Yes",
+          "For every area",
+          "No, awareness only",
+          "Instructions unnecessary"
         ]
       },
       "answer_index": 2,
       "explanation": {
-        "te": "పాఠ్యం వార్తను అర్థం చేసుకోవడానికి మాత్రమే.",
-        "en": "The passage is only for understanding news."
+        "te": "ప్రస్తుత స్థానిక సూచనలు చూడాలి.",
+        "en": "Use current local instructions."
       }
     }
   ],
@@ -638,7 +640,7 @@
     "questions": 10,
     "listen_clips": 58
   },
-  "edition_date": "2026-10-13",
-  "verified_at": "2026-10-13T02:34:38+05:30",
-  "editorial_note": "Early October 13 checked selection. Rainfall meeting report and education collaboration published Oct 12, exact event dates absent. Degree news is not verified admission availability, cost or deadline. Economic Sciences official Oct 12 announcement, exact prize name preserved. NSP eligible renewal deadline rechecked unchanged; no cutoff time supplied. VVM official dates page sought separately; no unverified deadline promoted. Static sources rechecked. Original Class 5-10 reading/quiz; Telugu editor review recommended; audio pending."
+  "edition_date": "2026-10-14",
+  "verified_at": "2026-10-14T02:37:28+05:30",
+  "editorial_note": "Oct14 early edition. Selected source pages read. VVM deliberately labelled NOT VERIFIED today, official page proxy502 twice; Oct15 earlier lead not confirmed today and excluded from quiz. Do not label every card verified. Static pages rechecked. Telugu editor review recommended; audio pending."
 }
