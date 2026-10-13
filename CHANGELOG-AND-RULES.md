@@ -95,3 +95,7 @@ Open the live app, switch Telugu/English, use main screens and Back, close overl
 ## 2026-10-14 - Daily GK selected coverage
 -7bilingualcards,2readings,10MCQs,58Listen scripts. VVMIndia deadline NOT VERIFIED today;deadline_date null,reportedOct15dateonly. No VVMquiz. Otherselectedreport/staticGKsourcechecks,notallcardsverified.
 -Oct13archiveappended;olderarchives/progress/audio retained. GKapp?v99/cache11. RecordingspendingSadaltager,inlinependingstatus.
+
+
+## 2026-10-14 03:33 IST - VVM India verification correction
+- Official India dynamic dates page now verified: registration extended up to October15,2026;GCCOctober31separate. CardTE/EN and2Listen scriptsupdated;deadline_dateOct15,closingtimenotsupplied,noVVMquiz. Earlierunverifiedlabelreplacedwithsource/checktime. Othercontentunchanged.
