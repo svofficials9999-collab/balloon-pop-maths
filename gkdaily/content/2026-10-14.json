@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 1,
+  "revision": 2,
   "timezone": "Asia/Kolkata",
-  "status": "source_checked_with_labelled_unverified_notification_translation_review_recommended",
+  "status": "source_checked_translation_review_recommended",
   "sources": {
     "tggk": {
       "publisher": "Telangana State Portal",
@@ -38,7 +38,8 @@
       "publisher": "Vidyarthi Vigyan Manthan",
       "url": "https://vvm.org.in/important-dates-india",
       "published_date": null,
-      "verification_status": "not_verified_today_official_page_502"
+      "verification_status": "verified_official_india_dates",
+      "checked_at": "2026-10-14T03:33:10+05:30"
     }
   },
   "cards": [
@@ -185,21 +186,22 @@
       ],
       "age_band": "class5-10",
       "title": {
-        "te": "వీవీఎం గడువు: ఈరోజు నిర్ధారణ కాలేదు",
-        "en": "VVM deadline: NOT VERIFIED today"
+        "te": "వీవీఎం భారత్ నమోదు గడువు: అక్టోబర్ 15",
+        "en": "VVM India registration deadline: October 15"
       },
       "summary": {
-        "te": "విద్యార్థి విగ్యాన్ మంథన్ భారత్ నమోదు చివరి తేదీ 2026 అక్టోబర్ 15గా ముందుగా నివేదించారు. ఈరోజు నిర్ధారణ కాలేదు: అధికారిక భారత్ తేదీల పేజీ 502 లోపం చూపించింది. తాజా మార్పు లేదా పొడిగింపును తనిఖీ చేయలేకపోయాం. 6 నుంచి 11 తరగతుల విద్యార్థులు తల్లిదండ్రులు లేదా ఉపాధ్యాయులతో అధికారిక భారత్ ప్రకటన చూడాలి. ఈ తేదీని ప్రస్తుత నిర్ధారిత గడువుగా భావించవద్దు. గల్ఫ్ తేదీలు భారత్‌కు వర్తించవు.",
-        "en": "Vidyarthi Vigyan Manthan India registration was previously reported to close on October 15, 2026. NOT VERIFIED today: the official India dates page returned a 502 error. A later change or extension could not be checked. Students in Classes VI to XI should check the official India notice with a parent or teacher. Do not treat this as a currently verified deadline. Gulf dates do not apply to India."
+        "te": "విద్యార్థి విగ్యాన్ మంథన్ అధికారిక భారత్ తేదీల పేజీ ప్రకారం, నమోదు గడువును 2026 అక్టోబర్ 15 వరకు పొడిగించారు. మూలం: vvm.org.in/important-dates-india. 2026 అక్టోబర్ 14 ఉదయం 3:33 ISTకి తనిఖీ చేశాం. చివరి సమయం పేజీలో లేదు. గల్ఫ్ దేశాల అక్టోబర్ 31 గడువు భారత్‌కు వర్తించదు. నమోదు చేసే ముందు తల్లిదండ్రులు లేదా ఉపాధ్యాయులతో తాజా అధికారిక ప్రకటన చూడండి.",
+        "en": "The official VVM India dates page says registration has been extended up to October 15, 2026. Source: vvm.org.in/important-dates-india. Checked October 14, 2026 at 03:33 IST. The page does not state a closing time. The October 31 GCC deadline does not apply to India. Check the latest official notice with a parent or teacher before registering."
       },
       "audio_ids": {
         "te": "gk_20261014_india_3",
         "en": "gk_20261014_india_3__en"
       },
-      "deadline_date": null,
+      "deadline_date": "2026-10-15",
       "deadline_time": null,
       "reported_deadline_date": "2026-10-15",
-      "verification_status": "not_verified_today_official_page_502"
+      "verification_status": "verified_official_india_dates",
+      "verified_at": "2026-10-14T03:33:10+05:30"
     }
   ],
   "readings": [
@@ -641,6 +643,6 @@
     "listen_clips": 58
   },
   "edition_date": "2026-10-14",
-  "verified_at": "2026-10-14T02:37:28+05:30",
-  "editorial_note": "Oct14 early edition. Selected source pages read. VVM deliberately labelled NOT VERIFIED today, official page proxy502 twice; Oct15 earlier lead not confirmed today and excluded from quiz. Do not label every card verified. Static pages rechecked. Telugu editor review recommended; audio pending."
+  "verified_at": "2026-10-14T03:33:10+05:30",
+  "editorial_note": "Oct14 edition revision2. VVMIndia date verified on official dynamic page at03:33IST:extendedup toOct15,no closingtime. GCCOct31separate. VVMexcludedfromquiz. Selectedsourcecheckedcoverage,notexhaustive;Telugueditorreviewrecommended,audiopending."
 }
