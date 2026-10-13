@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "timezone": "Asia/Kolkata",
+  "status": "source_checked_with_labelled_unverified_notification_translation_review_recommended",
+  "sources": {
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-flag.php",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/history-of-the-un",
+      "published_date": null
+    },
+    "tgnews": {
+      "publisher": "Telangana Today",
+      "url": "https://telanganatoday.com/hps-ramanthapur-hosts-rise-2026-rocket-innovation-event",
+      "published_date": "2026-10-13"
+    },
+    "innews": {
+      "publisher": "DD India / PTI",
+      "url": "https://ddindia.co.in/2026/10/iit-kharagpur-launches-ai-tutor-free-gate-jam-preparation-platform/",
+      "published_date": "2026-10-13"
+    },
+    "worldnews": {
+      "publisher": "UNDRR",
+      "url": "https://iddrr.undrr.org/",
+      "published_date": null
+    },
+    "vvm": {
+      "publisher": "Vidyarthi Vigyan Manthan",
+      "url": "https://vvm.org.in/important-dates-india",
+      "published_date": null,
+      "verification_status": "not_verified_today_official_page_502"
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261014_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgnews"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261014_telangana_1",
+        "en": "gk_20261014_telangana_1__en"
+      },
+      "title": {
+        "te": "రామంతపూర్‌లో రాకెట్ నమూనాలు",
+        "en": "Rocket models at Ramanthapur"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 13న తెలంగాణ టుడే నివేదిక ప్రకారం, హెచ్‌పీఎస్ రామంతపూర్ రైజ్ 2026 కార్యక్రమంలో ఐదు పాఠశాలల నుంచి 84 మంది విద్యార్థులు రాకెట్, అంతరిక్ష నమూనాలను ప్రదర్శించారు. స్పేస్ అధ్యాన్, ఇస్రో జాతీయ రిమోట్ సెన్సింగ్ కేంద్రంతో కలిసి కార్యక్రమం నిర్వహించారు. ఖచ్చితమైన కార్యక్రమ తేదీ వార్తలో లేదు. నమూనా ప్రదర్శన నిజమైన అంతరిక్ష ప్రయోగం కాదు.",
+        "en": "Telangana Today reported on October 13 that 84 students from five schools displayed rocket and space models at HPS Ramanthapur's RISE 2026 event. It was held with SpaceAdhyaan and ISRO's National Remote Sensing Centre. The exact event date is not given. A model display is not an actual space launch."
+      }
+    },
+    {
+      "id": "gk_20261014_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": "2026-10-12",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261014_india_1",
+        "en": "gk_20261014_india_1__en"
+      },
+      "title": {
+        "te": "ఐఐటీ ఖరగ్‌పూర్ అభ్యాస సాధనాలు",
+        "en": "IIT Kharagpur learning tools"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 13న డీడీ ఇండియా నివేదిక ప్రకారం, ఐఐటీ ఖరగ్‌పూర్ అక్టోబర్ 12న ఏఐ ట్యూటర్, గేట్ జామ్ సన్నద్ధత వేదికను ప్రారంభించింది. ఉచిత అభ్యాస కార్యక్రమాలుగా వార్త పేర్కొంది. ట్యూటర్ ప్రశ్నలు, సూచనలతో స్వతంత్ర ఆలోచనకు సహాయపడుతుందని తెలిపింది. ఇది పరీక్షలో విజయం లేదా ప్రతి వినియోగదారుడికి ప్రవేశం గురించి హామీ కాదు.",
+        "en": "DD India reported on October 13 that IIT Kharagpur launched an AI tutor and a GATE-JAM preparation platform on October 12. It describes free learning initiatives and a tutor using questions and hints to support independent thinking. This is not a guarantee of exam success or access for every user."
+      }
+    },
+    {
+      "id": "gk_20261014_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": "2026-10-13",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261014_world_1",
+        "en": "gk_20261014_world_1__en"
+      },
+      "title": {
+        "te": "విపత్తు ప్రమాద తగ్గింపు దినోత్సవం",
+        "en": "Disaster Risk Reduction Day"
+      },
+      "summary": {
+        "te": "అంతర్జాతీయ విపత్తు ప్రమాద తగ్గింపు దినోత్సవం అక్టోబర్ 13న జరుగుతుంది. 2026 అంశం రిజిలియెన్స్ స్టార్ట్స్ అట్ హోమ్. యూఎన్‌డీఆర్ఆర్ సురక్షిత గృహాలు, అందరికీ అర్థమయ్యే హెచ్చరికలు, సమాజ భాగస్వామ్యంపై దృష్టి పెడుతోంది. ఇది అవగాహన విషయం; మీ ప్రాంతానికి ప్రస్తుత అత్యవసర హెచ్చరిక కాదు.",
+        "en": "International Day for Disaster Risk Reduction is observed on October 13. The 2026 theme is Resilience Starts at Home. UNDRR focuses on safer homes, understandable warnings and community participation. This is awareness content, not a current emergency alert for your area."
+      }
+    },
+    {
+      "id": "gk_20261014_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "source_ids": [
+        "tggk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261014_telangana_2",
+        "en": "gk_20261014_telangana_2__en"
+      },
+      "title": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ",
+        "en": "Telangana formation date"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "Telangana became a state on June 2, 2014. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261014_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261014_india_2",
+        "en": "gk_20261014_india_2__en"
+      },
+      "title": {
+        "te": "అశోక చక్రంలోని ఆకులు",
+        "en": "Spokes of the Ashoka Chakra"
+      },
+      "summary": {
+        "te": "భారత జాతీయ పతాకంలోని తెలుపు పట్టీ మధ్యలో నీలి రంగు అశోక చక్రం ఉంటుంది. దానికి సమాన దూరంలో 24 ఆకులు ఉంటాయి. ఇది స్థిరమైన సాధారణ జ్ఞాన విషయం.",
+        "en": "The white band of India's national flag has a navy-blue Ashoka Chakra in its centre. The wheel has 24 equally spaced spokes. This is static GK."
+      }
+    },
+    {
+      "id": "gk_20261014_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261014_world_2",
+        "en": "gk_20261014_world_2__en"
+      },
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి చార్టర్ సమావేశం",
+        "en": "The UN Charter conference"
+      },
+      "summary": {
+        "te": "1945 ఏప్రిల్ 25 నుంచి జూన్ 26 వరకు శాన్ ఫ్రాన్సిస్కోలో 50 దేశాల ప్రతినిధులు సమావేశమై ఐక్యరాజ్యసమితి చార్టర్‌ను రూపొందించి సంతకం చేశారు. సంస్థ అధికారికంగా అక్టోబర్ 24న ప్రారంభమైంది. సమావేశం తేదీలు, సంస్థ ప్రారంభ తేదీ వేరు.",
+        "en": "Representatives of 50 countries met in San Francisco from April 25 to June 26, 1945, to draft and sign the UN Charter. The organisation officially began on October 24. The conference dates and the organisation's starting date are different."
+      }
+    },
+    {
+      "id": "gk_20261014_india_3",
+      "region": "india",
+      "type": "current_affairs",
+      "category": "exam_notification",
+      "event_date": null,
+      "source_ids": [
+        "vvm"
+      ],
+      "age_band": "class5-10",
+      "title": {
+        "te": "వీవీఎం గడువు: ఈరోజు నిర్ధారణ కాలేదు",
+        "en": "VVM deadline: NOT VERIFIED today"
+      },
+      "summary": {
+        "te": "విద్యార్థి విగ్యాన్ మంథన్ భారత్ నమోదు చివరి తేదీ 2026 అక్టోబర్ 15గా ముందుగా నివేదించారు. ఈరోజు నిర్ధారణ కాలేదు: అధికారిక భారత్ తేదీల పేజీ 502 లోపం చూపించింది. తాజా మార్పు లేదా పొడిగింపును తనిఖీ చేయలేకపోయాం. 6 నుంచి 11 తరగతుల విద్యార్థులు తల్లిదండ్రులు లేదా ఉపాధ్యాయులతో అధికారిక భారత్ ప్రకటన చూడాలి. ఈ తేదీని ప్రస్తుత నిర్ధారిత గడువుగా భావించవద్దు. గల్ఫ్ తేదీలు భారత్‌కు వర్తించవు.",
+        "en": "Vidyarthi Vigyan Manthan India registration was previously reported to close on October 15, 2026. NOT VERIFIED today: the official India dates page returned a 502 error. A later change or extension could not be checked. Students in Classes VI to XI should check the official India notice with a parent or teacher. Do not treat this as a currently verified deadline. Gulf dates do not apply to India."
+      },
+      "audio_ids": {
+        "te": "gk_20261014_india_3",
+        "en": "gk_20261014_india_3__en"
+      },
+      "deadline_date": null,
+      "deadline_time": null,
+      "reported_deadline_date": "2026-10-15",
+      "verification_status": "not_verified_today_official_page_502"
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261014_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261014_reading_1",
+        "en": "gk_20261014_reading_1__en"
+      },
+      "source_ids": [
+        "tgnews"
+      ],
+      "title": {
+        "te": "నమూనా, ప్రయోగం వేరు",
+        "en": "A model and a launch differ"
+      },
+      "passage": {
+        "te": "రైజ్ కార్యక్రమంలో విద్యార్థులు రాకెట్ నమూనాలు చూపించినట్లు వార్త చెబుతోంది. నమూనా ఒక ఆలోచనను వివరించడానికి ఉపయోగపడుతుంది. నిజమైన అంతరిక్ష ప్రయోగం వేరే పని. అందుకే నమూనాలు ప్రదర్శించారు అనే మాటను అంతరిక్షంలోకి రాకెట్ పంపారు అని మార్చకూడదు. కార్యక్రమంలో ఐదు పాఠశాలల నుంచి 84 మంది పాల్గొన్నట్లు నివేదించారు. ఈ పాఠ్యం వార్త అర్థం చేసుకోవడానికి మాత్రమే; రాకెట్ నిర్మాణం లేదా ప్రయోగానికి సూచన కాదు.",
+        "en": "The RISE report says students displayed rocket models. A model helps explain an idea. An actual space launch is a different activity. Do not change displayed models into sent a rocket into space. The report names 84 participants from five schools. This passage is for reading comprehension, not instructions to build or launch a rocket."
+      },
+      "vocabulary": [
+        {
+          "te": "నమూనా",
+          "en": "model"
+        },
+        {
+          "te": "ప్రదర్శన",
+          "en": "display"
+        },
+        {
+          "te": "భద్రత",
+          "en": "safety"
+        }
+      ]
+    },
+    {
+      "id": "gk_20261014_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261014_reading_2",
+        "en": "gk_20261014_reading_2__en"
+      },
+      "source_ids": [
+        "worldnews"
+      ],
+      "title": {
+        "te": "హెచ్చరికను అర్థం చేసుకోవడం",
+        "en": "Understanding a warning"
+      },
+      "passage": {
+        "te": "యూఎన్‌డీఆర్ఆర్ ప్రచారం ఇంటి భద్రతకు ప్రాధాన్యం ఇస్తోంది. హెచ్చరిక అందడం మాత్రమే సరిపోదు. అది అర్థమయ్యే రూపంలో ఉండాలి; ప్రమాదాన్ని తగ్గించే చర్య గురించి ప్రజలకు తెలియాలి. వయస్సు, వైకల్యం, భాష వల్ల అవసరాలు వేరుగా ఉండవచ్చు. ప్రణాళికలో కుటుంబాలు, సమాజం భాగం కావాలి. ఈ పాఠ్యం సాధారణ అవగాహన మాత్రమే. నిజమైన అత్యవసర పరిస్థితిలో స్థానిక అధికారుల ప్రస్తుత సూచనలు చూడాలి.",
+        "en": "UNDRR's campaign values safety at home. A warning arriving is not enough. It must be understandable, and people should know what action reduces risk. Age, disability and language can create different needs. Households and communities should participate in planning. This passage is general awareness. In a real emergency, use current local-authority instructions."
+      },
+      "vocabulary": [
+        {
+          "te": "హెచ్చరిక",
+          "en": "warning"
+        },
+        {
+          "te": "ప్రమాదం",
+          "en": "risk"
+        },
+        {
+          "te": "భాగస్వామ్యం",
+          "en": "participation"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261014_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261014_q1",
+        "en": "gk_20261014_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261014_q1_answer",
+        "en": "gk_20261014_q1_answer__en"
+      },
+      "item_id": "gk_20261014_telangana_1",
+      "question": {
+        "te": "ఎన్ని పాఠశాలల విద్యార్థులు పాల్గొన్నారు?",
+        "en": "Students from how many schools participated?"
+      },
+      "options": {
+        "te": [
+          "రెండు",
+          "ఐదు",
+          "పది",
+          "ఇరవై"
+        ],
+        "en": [
+          "Two",
+          "Five",
+          "Ten",
+          "Twenty"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "నివేదిక ఐదు పాఠశాలలను పేర్కొంది.",
+        "en": "The report names five schools."
+      }
+    },
+    {
+      "id": "gk_20261014_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261014_q2",
+        "en": "gk_20261014_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261014_q2_answer",
+        "en": "gk_20261014_q2_answer__en"
+      },
+      "item_id": "gk_20261014_india_1",
+      "question": {
+        "te": "ట్యూటర్ అభ్యాస విధానం ఏమిటి?",
+        "en": "What learning approach does the tutor use?"
+      },
+      "options": {
+        "te": [
+          "హామీ",
+          "ఆలోచన అవసరం లేదు",
+          "ప్రశ్నలు, సూచనలు",
+          "సమాధానాలు దాచడం"
+        ],
+        "en": [
+          "A guarantee",
+          "No thinking needed",
+          "Questions and hints",
+          "Hiding answers"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ప్రశ్నలు, సూచనలు స్వతంత్ర ఆలోచనకు సహాయపడతాయి.",
+        "en": "Questions and hints support independent thinking."
+      }
+    },
+    {
+      "id": "gk_20261014_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261014_q3",
+        "en": "gk_20261014_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261014_q3_answer",
+        "en": "gk_20261014_q3_answer__en"
+      },
+      "item_id": "gk_20261014_world_1",
+      "question": {
+        "te": "2026 అంశం ఏమిటి?",
+        "en": "What is the 2026 theme?"
+      },
+      "options": {
+        "te": [
+          "రిజిలియెన్స్ స్టార్ట్స్ అట్ హోమ్",
+          "అంతరిక్ష ప్రయోగం",
+          "పరీక్ష",
+          "గడువు"
+        ],
+        "en": [
+          "Resilience Starts at Home",
+          "Space launch",
+          "Exam",
+          "Deadline"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "యూఎన్‌డీఆర్ఆర్ ఈ అంశాన్ని పేర్కొంది.",
+        "en": "UNDRR gives this theme."
+      }
+    },
+    {
+      "id": "gk_20261014_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261014_q4",
+        "en": "gk_20261014_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261014_q4_answer",
+        "en": "gk_20261014_q4_answer__en"
+      },
+      "item_id": "gk_20261014_telangana_2",
+      "question": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ ఏమిటి?",
+        "en": "What is Telangana's formation date?"
+      },
+      "options": {
+        "te": [
+          "1945 అక్టోబర్ 24",
+          "1947 జూలై 22",
+          "1950 జనవరి 26",
+          "2014 జూన్ 2"
+        ],
+        "en": [
+          "October 24, 1945",
+          "July 22, 1947",
+          "January 26, 1950",
+          "June 2, 2014"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "తెలంగాణ 2014 జూన్ 2న ఏర్పడింది.",
+        "en": "Telangana became a state on June 2, 2014."
+      }
+    },
+    {
+      "id": "gk_20261014_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261014_q5",
+        "en": "gk_20261014_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261014_q5_answer",
+        "en": "gk_20261014_q5_answer__en"
+      },
+      "item_id": "gk_20261014_india_2",
+      "question": {
+        "te": "అశోక చక్రంలో ఎన్ని ఆకులు ఉంటాయి?",
+        "en": "How many spokes does the Ashoka Chakra have?"
+      },
+      "options": {
+        "te": [
+          "12",
+          "24",
+          "50",
+          "100"
+        ],
+        "en": [
+          "12",
+          "24",
+          "50",
+          "100"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "జాతీయ పతాకంలోని అశోక చక్రంలో 24 ఆకులు ఉంటాయి.",
+        "en": "The Ashoka Chakra in the national flag has 24 spokes."
+      }
+    },
+    {
+      "id": "gk_20261014_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261014_q6",
+        "en": "gk_20261014_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261014_q6_answer",
+        "en": "gk_20261014_q6_answer__en"
+      },
+      "item_id": "gk_20261014_world_2",
+      "question": {
+        "te": "1945 చార్టర్ సమావేశంలో ఎన్ని దేశాల ప్రతినిధులు పాల్గొన్నారు?",
+        "en": "Representatives of how many countries attended the 1945 Charter conference?"
+      },
+      "options": {
+        "te": [
+          "24",
+          "10",
+          "50",
+          "100"
+        ],
+        "en": [
+          "24",
+          "10",
+          "50",
+          "100"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ఐక్యరాజ్యసమితి చరిత్ర పేజీ 50 దేశాల ప్రతినిధులను పేర్కొంది.",
+        "en": "The UN history page names representatives of 50 countries."
+      }
+    },
+    {
+      "id": "gk_20261014_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261014_q7",
+        "en": "gk_20261014_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261014_q7_answer",
+        "en": "gk_20261014_q7_answer__en"
+      },
+      "item_id": "gk_20261014_reading_1",
+      "question": {
+        "te": "నమూనా ప్రదర్శన నిజమైన ప్రయోగమా?",
+        "en": "Is a model display an actual launch?"
+      },
+      "options": {
+        "te": [
+          "కాదు",
+          "అవును",
+          "ఎప్పుడూ",
+          "తేదీ లేదు"
+        ],
+        "en": [
+          "No",
+          "Yes",
+          "Always",
+          "No date"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నమూనా, నిజమైన ప్రయోగం వేరు.",
+        "en": "A model and an actual launch differ."
+      }
+    },
+    {
+      "id": "gk_20261014_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261014_q8",
+        "en": "gk_20261014_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261014_q8_answer",
+        "en": "gk_20261014_q8_answer__en"
+      },
+      "item_id": "gk_20261014_reading_1",
+      "question": {
+        "te": "ఈ పాఠ్యం రాకెట్ నిర్మాణ సూచనలనా?",
+        "en": "Does this passage give rocket-building instructions?"
+      },
+      "options": {
+        "te": [
+          "అవును",
+          "ఇంధన విధానం",
+          "ప్రయోగం",
+          "కాదు, వార్త వివరణ మాత్రమే"
+        ],
+        "en": [
+          "Yes",
+          "A fuel method",
+          "A launch",
+          "No, news comprehension only"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "ఇది వార్త అర్థం చేసుకోవడానికి మాత్రమే.",
+        "en": "It is only for understanding news."
+      }
+    },
+    {
+      "id": "gk_20261014_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261014_q9",
+        "en": "gk_20261014_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261014_q9_answer",
+        "en": "gk_20261014_q9_answer__en"
+      },
+      "item_id": "gk_20261014_reading_2",
+      "question": {
+        "te": "హెచ్చరిక ఎలా ఉండాలి?",
+        "en": "How should a warning be presented?"
+      },
+      "options": {
+        "te": [
+          "దాచాలి",
+          "అర్థమయ్యే రూపంలో",
+          "ఒక్కరికే",
+          "తేదీ లేకుండా"
+        ],
+        "en": [
+          "Hidden",
+          "In understandable form",
+          "To one person",
+          "Without date"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "ప్రజలకు హెచ్చరిక అర్థమవ్వాలి.",
+        "en": "People should understand the warning."
+      }
+    },
+    {
+      "id": "gk_20261014_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261014_q10",
+        "en": "gk_20261014_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261014_q10_answer",
+        "en": "gk_20261014_q10_answer__en"
+      },
+      "item_id": "gk_20261014_reading_2",
+      "question": {
+        "te": "ఇది ప్రత్యక్ష అత్యవసర హెచ్చరికనా?",
+        "en": "Is this a live emergency alert?"
+      },
+      "options": {
+        "te": [
+          "అవును",
+          "ప్రతి ప్రాంతానికి",
+          "కాదు, అవగాహన మాత్రమే",
+          "సూచనలు అవసరం లేదు"
+        ],
+        "en": [
+          "Yes",
+          "For every area",
+          "No, awareness only",
+          "Instructions unnecessary"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ప్రస్తుత స్థానిక సూచనలు చూడాలి.",
+        "en": "Use current local instructions."
+      }
+    }
+  ],
+  "coverage": {
+    "cards": 7,
+    "current_affairs": 4,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 58
+  },
+  "edition_date": "2026-10-14",
+  "verified_at": "2026-10-14T02:37:28+05:30",
+  "editorial_note": "Oct14 early edition. Selected source pages read. VVM deliberately labelled NOT VERIFIED today, official page proxy502 twice; Oct15 earlier lead not confirmed today and excluded from quiz. Do not label every card verified. Static pages rechecked. Telugu editor review recommended; audio pending."
+}
