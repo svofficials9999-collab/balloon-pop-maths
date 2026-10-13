@@ -90,3 +90,8 @@ Open the live app, switch Telugu/English, use main screens and Back, close overl
 - Plants Around Us, Weather, Healthy and Clean Habits: 3 to 7 bilingual questions each, same IDs/classes 1-4. Added roots/stem/leaves, weather measurement/forecast uncertainty, handwashing duration/toilet/elbow/drying checks.
 - Lesson narration and Sadaltager recordings unchanged; no new topics or audio claim. Shared existing-topic change, preserve progress/PIN/name gate, med.js untouched.
 - v4.15.145-evsQuizDepth. Scoped visual/live QA and structural warning totals reported separately, not whole-curriculum or Telugu teacher certification.
+
+
+## 2026-10-14 - Daily GK selected coverage
+-7bilingualcards,2readings,10MCQs,58Listen scripts. VVMIndia deadline NOT VERIFIED today;deadline_date null,reportedOct15dateonly. No VVMquiz. Otherselectedreport/staticGKsourcechecks,notallcardsverified.
+-Oct13archiveappended;olderarchives/progress/audio retained. GKapp?v99/cache11. RecordingspendingSadaltager,inlinependingstatus.
