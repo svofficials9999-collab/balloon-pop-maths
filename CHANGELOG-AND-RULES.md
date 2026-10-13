@@ -84,3 +84,9 @@ Open the live app, switch Telugu/English, use main screens and Back, close overl
 -7 bilingual cards,2originalreadings,10MCQs. Dated/sourcecheckedselectedcoverage,notfullnewscoverage. Meetingdateabsent;educationcollaborationnotadmissioneligibility/fee/deadlineverification;economicprizeexactnamepreserved;NSPrenewalonlyscope.
 -Oct12archiveappend,priorarchives/progress/audio preserved. GKapp?v98/cache10;sharedlock?v144requirednameversionrefreshed.
 -58Listen scripts pendingSadaltagerrecordings,inlinependingstatushonest,no devicevoice. ScopedliveQA/visualevidence reportedseparately;no physicaldevice/fullcurriculumapprovalclaim.
+
+
+## 2026-10-13 - Existing EVS quiz depth
+- Plants Around Us, Weather, Healthy and Clean Habits: 3 to 7 bilingual questions each, same IDs/classes 1-4. Added roots/stem/leaves, weather measurement/forecast uncertainty, handwashing duration/toilet/elbow/drying checks.
+- Lesson narration and Sadaltager recordings unchanged; no new topics or audio claim. Shared existing-topic change, preserve progress/PIN/name gate, med.js untouched.
+- v4.15.145-evsQuizDepth. Scoped visual/live QA and structural warning totals reported separately, not whole-curriculum or Telugu teacher certification.
