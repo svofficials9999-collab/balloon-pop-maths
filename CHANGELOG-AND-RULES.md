@@ -99,3 +99,8 @@ Open the live app, switch Telugu/English, use main screens and Back, close overl
 
 ## 2026-10-14 03:33 IST - VVM India verification correction
 - Official India dynamic dates page now verified: registration extended up to October15,2026;GCCOctober31separate. CardTE/EN and2Listen scriptsupdated;deadline_dateOct15,closingtimenotsupplied,noVVMquiz. Earlierunverifiedlabelreplacedwithsource/checktime. Othercontentunchanged.
+
+
+## 2026-10-14 - Lesson Listen loading/error feedback
+- Shared lesson Listen now immediately shows inline loading; indexfetch aborts after12s and failedindex retries on nexttap; shardloadtimeout/error visibleinline. No deviceTTSfallback,existingSadaltagerclips retained.
+- v4.15.146-audioFeedback;no med.js/content/branding/progress/PIN changes. QA DOMaudioabsence is notproof: clips use detached newAudio in window.__aud. Scopedactualplaybackandfailuretests reportedseparately.
