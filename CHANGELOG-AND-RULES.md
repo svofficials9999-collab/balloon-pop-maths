@@ -104,3 +104,7 @@ Open the live app, switch Telugu/English, use main screens and Back, close overl
 ## 2026-10-14 - Lesson Listen loading/error feedback
 - Shared lesson Listen now immediately shows inline loading; indexfetch aborts after12s and failedindex retries on nexttap; shardloadtimeout/error visibleinline. No deviceTTSfallback,existingSadaltagerclips retained.
 - v4.15.146-audioFeedback;no med.js/content/branding/progress/PIN changes. QA DOMaudioabsence is notproof: clips use detached newAudio in window.__aud. Scopedactualplaybackandfailuretests reportedseparately.
+
+
+## 2026-10-15 - Daily GK
+8 cards,2 readings,10 MCQs,60 recorded-voice scripts; Oct14 archived,older topics/progress/audio preserved. VVM official India page rendered02:38IST: registration extendedup toOct15, no cutoff stated. Prior extensions and GCC distinction visible; no VVMquiz. app100/cache12. Recordings pending, do not claim Listen complete.
