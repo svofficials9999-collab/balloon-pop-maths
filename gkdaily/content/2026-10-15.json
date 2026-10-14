@@ -1,0 +1,677 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "timezone": "Asia/Kolkata",
+  "status": "source_checked_translation_review_recommended",
+  "sources": {
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-flag.php",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/history-of-the-un",
+      "published_date": null
+    },
+    "tgnews": {
+      "publisher": "Deccan Chronicle",
+      "url": "https://www.deccanchronicle.com/southern-states/telangana/aiib-funds-proposed-for-state-schools-1995892",
+      "published_date": "2026-10-14"
+    },
+    "innews": {
+      "publisher": "DD India",
+      "url": "https://ddindia.co.in/2026/10/inst-mohali-develops-sustainable-nanofibre-filter-to-treat-dye-contaminated-wastewater/",
+      "published_date": "2026-10-14"
+    },
+    "worldnews": {
+      "publisher": "World Standards Day / IEC ISO ITU",
+      "url": "https://www.worldstandardsday.org/message.html",
+      "published_date": null
+    },
+    "vvm": {
+      "publisher": "Vidyarthi Vigyan Manthan",
+      "url": "https://vvm.org.in/important-dates-india",
+      "published_date": null,
+      "verification_status": "verified_official_page_render_20261015_0238_IST"
+    },
+    "scholarships": {
+      "publisher": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in/Students",
+      "published_date": null
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261015_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgnews"
+      ],
+      "event_date": "2026-10-14",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261015_telangana_1",
+        "en": "gk_20261015_telangana_1__en"
+      },
+      "title": {
+        "te": "పాఠశాలల కోసం ప్రతిపాదిత నిధులు",
+        "en": "Proposed funding for schools"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 14న డెక్కన్ క్రానికల్ నివేదిక ప్రకారం, తెలంగాణ పాఠశాల నిర్మాణం, మెరుగుదలల కోసం ఏఐఐబీతో నిధుల ప్రణాళికను ప్రతిపాదించింది. బుధవారం వర్క్‌షాప్‌లో తరగతి గదులు, డిజిటల్ సౌకర్యాలు, మరుగుదొడ్లు, విద్యార్థుల భోజనాల గురించి వివరించారు. ఇది ప్రతిపాదనపై నివేదిక; బ్యాంకు నిధులు ఇప్పటికే విడుదలయ్యాయని లేదా అన్ని భవనాలు పూర్తయ్యాయని కాదు.",
+        "en": "Deccan Chronicle reported on October 14 that Telangana proposed an AIIB financing plan for school construction and upgrades. A Wednesday workshop outlined classrooms, digital facilities, toilets and student meals. This reports a proposal, not confirmation that bank funds have been released or all buildings completed."
+      }
+    },
+    {
+      "id": "gk_20261015_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261015_india_1",
+        "en": "gk_20261015_india_1__en"
+      },
+      "title": {
+        "te": "రంగు కలుషిత నీటిపై ఫిల్టర్ పరిశోధన",
+        "en": "Filter research for dye-contaminated water"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 14న డీడీ ఇండియా నివేదిక ప్రకారం, మొహాలీలోని ఇన్‌స్టిట్యూట్ ఆఫ్ నానో సైన్స్ అండ్ టెక్నాలజీ పరిశోధకులు రంగులతో కలుషితమైన వ్యర్థజలాల చికిత్స కోసం ఫిల్టర్ రూపొందించారు. జింక్ ఆక్సైడ్ కణాలు, జీవవిఘటన చెందగల నానోఫైబర్లను కలిపారు. ఇది పరిశోధన నివేదిక; శుద్ధి చేసిన నీరు తాగడానికి సురక్షితమని హామీ కాదు. ఇంట్లో ప్రయోగం చేయడానికి సూచన కాదు.",
+        "en": "DD India reported on October 14 that researchers at the Institute of Nano Science and Technology in Mohali developed a filter for dye-contaminated wastewater. It combines zinc oxide particles with biodegradable nanofibres. This is a research report, not a guarantee that treated water is safe to drink or instructions for a home experiment."
+      }
+    },
+    {
+      "id": "gk_20261015_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": "2026-10-14",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261015_world_1",
+        "en": "gk_20261015_world_1__en"
+      },
+      "title": {
+        "te": "ప్రపంచ ప్రమాణాల దినోత్సవం",
+        "en": "World Standards Day"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 14 ప్రపంచ ప్రమాణాల దినోత్సవం. 2026 అధికారిక సందేశం ఏ షేర్డ్ విజన్ ఫర్ ఏ బెటర్ వరల్డ్ అనే అంశాన్ని పేర్కొంటోంది. సుస్థిర అభివృద్ధి లక్ష్యాలకు అంతర్జాతీయ ప్రమాణాలు, సహకారం ఉపయోగపడతాయని ఐఈసీ, ఐఎస్ఓ, ఐటీయూ సందేశం వివరిస్తోంది. ఇది అవగాహన విషయం; ఏదైనా నిర్దిష్ట ఉత్పత్తికి ధృవీకరణ కాదు.",
+        "en": "October 14 is World Standards Day. The official 2026 message is A Shared Vision for a Better World. The IEC, ISO and ITU message explains how international standards and cooperation support the Sustainable Development Goals. This is awareness content, not certification of any particular product."
+      }
+    },
+    {
+      "id": "gk_20261015_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "source_ids": [
+        "tggk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261015_telangana_2",
+        "en": "gk_20261015_telangana_2__en"
+      },
+      "title": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ",
+        "en": "Telangana formation date"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "Telangana became a state on June 2, 2014. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261015_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261015_india_2",
+        "en": "gk_20261015_india_2__en"
+      },
+      "title": {
+        "te": "అశోక చక్రంలోని ఆకులు",
+        "en": "Spokes of the Ashoka Chakra"
+      },
+      "summary": {
+        "te": "భారత జాతీయ పతాకంలోని తెలుపు పట్టీ మధ్యలో నీలి రంగు అశోక చక్రం ఉంటుంది. దానికి సమాన దూరంలో 24 ఆకులు ఉంటాయి. ఇది స్థిరమైన సాధారణ జ్ఞాన విషయం.",
+        "en": "The white band of India's national flag has a navy-blue Ashoka Chakra in its centre. The wheel has 24 equally spaced spokes. This is static GK."
+      }
+    },
+    {
+      "id": "gk_20261015_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261015_world_2",
+        "en": "gk_20261015_world_2__en"
+      },
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి చార్టర్ సమావేశం",
+        "en": "The UN Charter conference"
+      },
+      "summary": {
+        "te": "1945 ఏప్రిల్ 25 నుంచి జూన్ 26 వరకు శాన్ ఫ్రాన్సిస్కోలో 50 దేశాల ప్రతినిధులు సమావేశమై ఐక్యరాజ్యసమితి చార్టర్‌ను రూపొందించి సంతకం చేశారు. సంస్థ అధికారికంగా అక్టోబర్ 24న ప్రారంభమైంది. సమావేశం తేదీలు, సంస్థ ప్రారంభ తేదీ వేరు.",
+        "en": "Representatives of 50 countries met in San Francisco from April 25 to June 26, 1945, to draft and sign the UN Charter. The organisation officially began on October 24. The conference dates and the organisation's starting date are different."
+      }
+    },
+    {
+      "id": "gk_20261015_india_3",
+      "region": "india",
+      "type": "current_affairs",
+      "category": "exam_notification",
+      "event_date": null,
+      "source_ids": [
+        "vvm"
+      ],
+      "age_band": "class5-10",
+      "title": {
+        "te": "వీవీఎం భారత్ నమోదు: అక్టోబర్ 15 గడువు",
+        "en": "VVM India registration: October 15 deadline"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 15 తెల్లవారుజామున 2:38కు తనిఖీ చేసిన అధికారిక భారత్ తేదీల పేజీ ప్రకారం, విద్యార్థి విగ్యాన్ మంథన్ నమోదు చివరి తేదీ 2026 అక్టోబర్ 15 వరకు పొడిగించారు. ముగిసే సమయం పేర్కొనలేదు; అర్ధరాత్రి వరకు ఉంటుందని అనుకోకండి. గతంలో గడువు పొడిగించారు, కాబట్టి తల్లిదండ్రులు లేదా ఉపాధ్యాయులతో తాజా అధికారిక ప్రకటన చూడండి. మాక్ పరీక్షలు అక్టోబర్ 15 నుంచి. గల్ఫ్ నమోదు అక్టోబర్ 31 తేదీ భారత్‌కు వర్తించదు.",
+        "en": "The official India dates page, checked at 2:38 AM IST on October 15, says VVM registration has been extended up to October 15, 2026. No cut-off time is stated; do not assume midnight. The deadline has been extended before, so check the latest official notice with a parent or teacher. Mock tests start October 15. The GCC October 31 registration date does not apply to India."
+      },
+      "audio_ids": {
+        "te": "gk_20261015_india_3",
+        "en": "gk_20261015_india_3__en"
+      },
+      "deadline_date": "2026-10-15",
+      "deadline_time": null,
+      "reported_deadline_date": "2026-10-15",
+      "verification_status": "verified_official_page_render_20261015_0238_IST",
+      "verified_at": "2026-10-15T02:38:00+05:30"
+    },
+    {
+      "id": "gk_20261015_india_4",
+      "region": "india",
+      "type": "current_affairs",
+      "category": "scholarship_notification",
+      "event_date": null,
+      "source_ids": [
+        "scholarships"
+      ],
+      "age_band": "class5-10",
+      "title": {
+        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ గడువు",
+        "en": "NSP renewal deadline"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 15న తనిఖీ చేసిన అధికారిక ఎన్‌ఎస్‌పీ ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి దరఖాస్తు గడువు అక్టోబర్ 31, 2026. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30. ముగింపు సమయం ఇవ్వలేదు. ఇది అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు కాదు.",
+        "en": "The official NSP announcement checked on October 15 says renewal applications are open for the PM-USP Central Sector Scheme for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student deadline is October 31, 2026; institute verification November 15; Level 2 verification November 30. No cutoff time is given. This applies only to eligible renewal applicants, not every scholarship."
+      },
+      "audio_ids": {
+        "te": "gk_20261015_india_4",
+        "en": "gk_20261015_india_4__en"
+      },
+      "deadline_date": "2026-10-31",
+      "deadline_time": null
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261015_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261015_reading_1",
+        "en": "gk_20261015_reading_1__en"
+      },
+      "source_ids": [
+        "tgnews"
+      ],
+      "title": {
+        "te": "ప్రతిపాదన, విడుదలైన నిధులు వేరు",
+        "en": "A proposal and released funds differ"
+      },
+      "passage": {
+        "te": "పాఠశాలల నిర్మాణానికి నిధుల ప్రణాళికను ప్రతిపాదించినట్లు వార్త చెబుతోంది. ప్రతిపాదన ఒక ప్రణాళిక. నిధులు విడుదల కావడం వేరే దశ. భవనం పూర్తి కావడం మరో దశ. వార్తను మన మాటల్లో చెప్పేటప్పుడు ఈ దశలను కలపకూడదు. తరగతి గదులు, డిజిటల్ సౌకర్యాల గురించి చర్చించినట్లు నివేదిక చెబుతోంది. అందువల్ల అన్ని పాఠశాలలు ఇప్పటికే సిద్ధంగా ఉన్నాయని రాయకూడదు. మూలంలో ఉన్న స్థితిని అలాగే ఉంచడం జాగ్రత్తగా వార్త చదవడంలో భాగం.",
+        "en": "The report describes a proposed school financing plan. A proposal is a plan. Releasing funds is another stage, and completing a building is a further stage. Do not combine these stages in a summary. The report says classrooms and digital facilities were discussed. It does not establish that every school is already ready. Preserving the stage described in the source is part of careful news reading."
+      },
+      "vocabulary": [
+        {
+          "te": "ప్రతిపాదన",
+          "en": "proposal"
+        },
+        {
+          "te": "నిధులు",
+          "en": "funds"
+        },
+        {
+          "te": "దశ",
+          "en": "stage"
+        }
+      ]
+    },
+    {
+      "id": "gk_20261015_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261015_reading_2",
+        "en": "gk_20261015_reading_2__en"
+      },
+      "source_ids": [
+        "innews"
+      ],
+      "title": {
+        "te": "పరిశోధన ఫలితం, తాగునీటి భద్రత వేరు",
+        "en": "Research results and drinking-water safety differ"
+      },
+      "passage": {
+        "te": "మొహాలీ పరిశోధకుల ఫిల్టర్ రంగులతో కలుషితమైన వ్యర్థజలాల చికిత్స కోసం రూపొందించినట్లు వార్త చెబుతోంది. ఒక ప్రయోగంలో రంగు తగ్గడం, నీరు తాగడానికి పూర్తిగా సురక్షితం కావడం ఒకటి కాదు. నీటిలో ఇతర కలుషితాలు ఉండవచ్చు. అందుకే పరిశోధన వార్తను తాగునీటి హామీగా మార్చకూడదు. పరిశోధకులు ఫిల్టర్ పదార్థాలను, వాటి పనితీరును అధ్యయనం చేశారు. ఈ పాఠ్యం పరిశోధన నివేదికను అర్థం చేసుకోవడానికి మాత్రమే; నీటిని శుద్ధి చేసి తాగమనే సూచన కాదు.",
+        "en": "The Mohali filter was developed for treating dye-contaminated wastewater. Reducing dye in an experiment is not the same as proving water completely safe to drink. Other contaminants may remain. Do not turn research news into a drinking-water guarantee. Researchers studied filter materials and their performance. This passage helps interpret a research report; it does not instruct anyone to treat and drink water."
+      },
+      "vocabulary": [
+        {
+          "te": "పరిశోధన",
+          "en": "research"
+        },
+        {
+          "te": "కలుషితం",
+          "en": "contamination"
+        },
+        {
+          "te": "భద్రత",
+          "en": "safety"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261015_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261015_q1",
+        "en": "gk_20261015_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261015_q1_answer",
+        "en": "gk_20261015_q1_answer__en"
+      },
+      "item_id": "gk_20261015_telangana_1",
+      "question": {
+        "te": "వార్తలో పాఠశాల నిధుల స్థితి ఏమిటి?",
+        "en": "What stage is the school financing plan at in the report?"
+      },
+      "options": {
+        "te": [
+          "అన్ని భవనాలు పూర్తి",
+          "ప్రతిపాదన",
+          "అన్ని నిధులు విడుదల",
+          "రద్దు"
+        ],
+        "en": [
+          "All buildings completed",
+          "A proposal",
+          "All funds released",
+          "Cancelled"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "వార్త ప్రతిపాదిత నిధుల ప్రణాళికను చెబుతోంది.",
+        "en": "The report describes proposed financing."
+      }
+    },
+    {
+      "id": "gk_20261015_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261015_q2",
+        "en": "gk_20261015_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261015_q2_answer",
+        "en": "gk_20261015_q2_answer__en"
+      },
+      "item_id": "gk_20261015_india_1",
+      "question": {
+        "te": "ఫిల్టర్ పరిశోధన ఏ నీటిపై ఉంది?",
+        "en": "What water does the filter research concern?"
+      },
+      "options": {
+        "te": [
+          "సముద్రం మాత్రమే",
+          "వర్షం మాత్రమే",
+          "రంగులతో కలుషితమైన వ్యర్థజలం",
+          "మంచు మాత్రమే"
+        ],
+        "en": [
+          "Only seawater",
+          "Only rain",
+          "Dye-contaminated wastewater",
+          "Only ice"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "నివేదిక రంగు కలుషిత వ్యర్థజలాలను పేర్కొంది.",
+        "en": "The report concerns dye-contaminated wastewater."
+      }
+    },
+    {
+      "id": "gk_20261015_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261015_q3",
+        "en": "gk_20261015_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261015_q3_answer",
+        "en": "gk_20261015_q3_answer__en"
+      },
+      "item_id": "gk_20261015_world_1",
+      "question": {
+        "te": "ప్రపంచ ప్రమాణాల దినోత్సవం తేదీ ఏది?",
+        "en": "What is the date of World Standards Day?"
+      },
+      "options": {
+        "te": [
+          "అక్టోబర్ 14",
+          "జూన్ 2",
+          "జూలై 22",
+          "జనవరి 26"
+        ],
+        "en": [
+          "October 14",
+          "June 2",
+          "July 22",
+          "January 26"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అధికారిక సందేశం అక్టోబర్ 14 తేదీని చూపుతోంది.",
+        "en": "The official message shows October 14."
+      }
+    },
+    {
+      "id": "gk_20261015_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261015_q4",
+        "en": "gk_20261015_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261015_q4_answer",
+        "en": "gk_20261015_q4_answer__en"
+      },
+      "item_id": "gk_20261015_telangana_2",
+      "question": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ ఏమిటి?",
+        "en": "What is Telangana's formation date?"
+      },
+      "options": {
+        "te": [
+          "1945 అక్టోబర్ 24",
+          "1947 జూలై 22",
+          "1950 జనవరి 26",
+          "2014 జూన్ 2"
+        ],
+        "en": [
+          "October 24, 1945",
+          "July 22, 1947",
+          "January 26, 1950",
+          "June 2, 2014"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "తెలంగాణ 2014 జూన్ 2న ఏర్పడింది.",
+        "en": "Telangana became a state on June 2, 2014."
+      }
+    },
+    {
+      "id": "gk_20261015_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261015_q5",
+        "en": "gk_20261015_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261015_q5_answer",
+        "en": "gk_20261015_q5_answer__en"
+      },
+      "item_id": "gk_20261015_india_2",
+      "question": {
+        "te": "అశోక చక్రంలో ఎన్ని ఆకులు ఉంటాయి?",
+        "en": "How many spokes does the Ashoka Chakra have?"
+      },
+      "options": {
+        "te": [
+          "12",
+          "24",
+          "50",
+          "100"
+        ],
+        "en": [
+          "12",
+          "24",
+          "50",
+          "100"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "జాతీయ పతాకంలోని అశోక చక్రంలో 24 ఆకులు ఉంటాయి.",
+        "en": "The Ashoka Chakra in the national flag has 24 spokes."
+      }
+    },
+    {
+      "id": "gk_20261015_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261015_q6",
+        "en": "gk_20261015_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261015_q6_answer",
+        "en": "gk_20261015_q6_answer__en"
+      },
+      "item_id": "gk_20261015_world_2",
+      "question": {
+        "te": "1945 చార్టర్ సమావేశంలో ఎన్ని దేశాల ప్రతినిధులు పాల్గొన్నారు?",
+        "en": "Representatives of how many countries attended the 1945 Charter conference?"
+      },
+      "options": {
+        "te": [
+          "24",
+          "10",
+          "50",
+          "100"
+        ],
+        "en": [
+          "24",
+          "10",
+          "50",
+          "100"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ఐక్యరాజ్యసమితి చరిత్ర పేజీ 50 దేశాల ప్రతినిధులను పేర్కొంది.",
+        "en": "The UN history page names representatives of 50 countries."
+      }
+    },
+    {
+      "id": "gk_20261015_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261015_q7",
+        "en": "gk_20261015_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261015_q7_answer",
+        "en": "gk_20261015_q7_answer__en"
+      },
+      "item_id": "gk_20261015_reading_1",
+      "question": {
+        "te": "ప్రతిపాదనను దేనిగా రాయకూడదు?",
+        "en": "What should a proposal not be described as?"
+      },
+      "options": {
+        "te": [
+          "పూర్తయిన అన్ని భవనాలు",
+          "ప్రణాళిక",
+          "ప్రతిపాదన",
+          "దశ"
+        ],
+        "en": [
+          "All buildings completed",
+          "A plan",
+          "A proposal",
+          "A stage"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ప్రతిపాదన పని పూర్తయిందనే ఆధారం కాదు.",
+        "en": "A proposal is not proof of completion."
+      }
+    },
+    {
+      "id": "gk_20261015_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261015_q8",
+        "en": "gk_20261015_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261015_q8_answer",
+        "en": "gk_20261015_q8_answer__en"
+      },
+      "item_id": "gk_20261015_reading_1",
+      "question": {
+        "te": "వార్తలో దశలను ఎలా ఉంచాలి?",
+        "en": "How should a summary treat the stages?"
+      },
+      "options": {
+        "te": [
+          "కలపాలి",
+          "తేదీలు మార్చాలి",
+          "మూలం తొలగించాలి",
+          "వేర్వేరుగా ఉంచాలి"
+        ],
+        "en": [
+          "Combine them",
+          "Change dates",
+          "Remove sources",
+          "Keep them distinct"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "ప్రణాళిక, నిధుల విడుదల, నిర్మాణం వేరు.",
+        "en": "Planning, funding and construction differ."
+      }
+    },
+    {
+      "id": "gk_20261015_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261015_q9",
+        "en": "gk_20261015_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261015_q9_answer",
+        "en": "gk_20261015_q9_answer__en"
+      },
+      "item_id": "gk_20261015_reading_2",
+      "question": {
+        "te": "రంగు తగ్గడం దేనికి హామీ కాదు?",
+        "en": "What does reduced dye not guarantee?"
+      },
+      "options": {
+        "te": [
+          "పరిశోధన జరిగింది",
+          "నీరు తాగడానికి సురక్షితం",
+          "ఫిల్టర్ ఉంది",
+          "వార్త ఉంది"
+        ],
+        "en": [
+          "Research occurred",
+          "Water is safe to drink",
+          "A filter exists",
+          "A report exists"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "తాగునీటి భద్రతకు వేరే నిర్ధారణ అవసరం.",
+        "en": "Drinking-water safety needs separate verification."
+      }
+    },
+    {
+      "id": "gk_20261015_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261015_q10",
+        "en": "gk_20261015_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261015_q10_answer",
+        "en": "gk_20261015_q10_answer__en"
+      },
+      "item_id": "gk_20261015_reading_2",
+      "question": {
+        "te": "ఈ పాఠ్యం నీరు శుద్ధి చేసి తాగమంటుందా?",
+        "en": "Does this passage tell us to treat and drink water?"
+      },
+      "options": {
+        "te": [
+          "అవును",
+          "అన్ని నీళ్లకు",
+          "కాదు, వార్త వివరణ మాత్రమే",
+          "ఎప్పుడూ"
+        ],
+        "en": [
+          "Yes",
+          "For all water",
+          "No, news interpretation only",
+          "Always"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "పాఠ్యం పరిశోధన వార్తను అర్థం చేసుకోవడానికి మాత్రమే.",
+        "en": "It is only for interpreting research news."
+      }
+    }
+  ],
+  "coverage": {
+    "cards": 8,
+    "current_affairs": 5,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 60
+  },
+  "edition_date": "2026-10-15",
+  "verified_at": "2026-10-15T02:38:00+05:30",
+  "editorial_note": "Oct15 early edition. VVM India registration extended through Oct15 verified official rendered page02:38IST; no cut-off time stated; earlier extension means recheck; no quiz based on it. NSP official renewal dates rechecked today. School funds proposal not release/completion; filter research not potable-water guarantee. Standards observance Oct14. Static pages rechecked. Class5-10 original texts, Telugu review recommended; audio pending."
+}
