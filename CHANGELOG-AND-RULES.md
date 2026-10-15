@@ -53,6 +53,12 @@ Open the live app, switch Telugu/English, use main screens and Back, close overl
 - Full-app and real-device audits remain separate and pending where not reported.
 
 
+## 2026-10-16 - Daily GK editorial refresh
+- Added dated Oct16 edition:7 bilingual cards(4 current affairs,3 static GK),2 original readings,10 MCQs;latest.json matches;Oct15 moved to archive. GK app app.js?v101,cache13.
+- Scope honesty:INSPIRE exhibition Oct12-14 with Oct14 ceremony/Oct15 report,not new registration;ESTIC curtain-raiser Oct15 with conclave Oct27-29 ahead;Rural Women observance Oct15;UN Women statement dated Oct13. NSP renewal dates rechecked Oct16(student Oct31,institute Nov15,L2 Nov30);scholarship card is planning context,not eligibility advice. VVM earlier Oct15 deadline neither promoted open nor confirmed closed;no fresh extension verified.
+- 58 Listen scripts published for the recording pipeline;recordings pending with truthful inline status;no substitute device speech. Telugu editorial review recommended.
+- Scoped live Chrome QA and pixel checks reported separately;no physical-device or full-curriculum certification.
+
 ## 2026-10-11 - Daily GK editorial refresh
 - Preserved existing learning/audio implementation, PIN and saved progress. Added dated Oct11 edition:7 bilingual cards,2 original readings,10 MCQs. Selected news/static GK, not full news coverage.
 - Source/scope check: IIT teaching start date unspecified; WHO awareness not diagnosis; NSP renewal deadline31Oct applies only to named eligible renewal applicants, not all scholarships. Verification deadlines separate; cutoff time unspecified.
