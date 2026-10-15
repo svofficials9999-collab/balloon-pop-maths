@@ -1,0 +1,649 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "timezone": "Asia/Kolkata",
+  "sources": {
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-flag.php",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/history-of-the-un",
+      "published_date": null
+    },
+    "scholarships": {
+      "publisher": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in/Students",
+      "published_date": null
+    },
+    "tgnews": {
+      "publisher": "The New Indian Express",
+      "url": "https://www.newindianexpress.com/states/telangana/2026/Oct/15/telangana-students-bag-five-national-inspire-awards",
+      "published_date": "2026-10-15"
+    },
+    "innews": {
+      "publisher": "DD India / PIB",
+      "url": "https://ddindia.co.in/2026/10/estic-2026-to-spotlight-autonomous-systems-physical-ai-and-robotics/",
+      "published_date": "2026-10-15"
+    },
+    "worldnews": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/observances/rural-women-day",
+      "published_date": null
+    },
+    "worlddate": {
+      "publisher": "UN Women",
+      "url": "https://www.unwomen.org/en/news-stories/statement/2026/10/un-women-statement-for-the-international-day-of-rural-women-15-october-2026",
+      "published_date": "2026-10-13"
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261016_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgnews"
+      ],
+      "event_date": "2026-10-14",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261016_telangana_1",
+        "en": "gk_20261016_telangana_1__en"
+      },
+      "title": {
+        "te": "తెలంగాణ విద్యార్థులకు ఐదు ఇన్‌స్పైర్ అవార్డులు",
+        "en": "Five INSPIRE awards for Telangana students"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 15న ది న్యూ ఇండియన్ ఎక్స్‌ప్రెస్ నివేదిక ప్రకారం, న్యూఢిల్లీలో అక్టోబర్ 12 నుంచి 14 వరకు జరిగిన జాతీయ ఇన్‌స్పైర్ అవార్డ్స్ మానక్ ప్రదర్శనలో తెలంగాణ విద్యార్థులు ఐదు అవార్డులు పొందారు. బుధవారం బహుమతి ప్రదానం జరిగింది. రాష్ట్రం నుంచి 52 మంది విద్యార్థులు పాల్గొన్నట్లు తెలిపింది. ఇది నివేదించిన ఫలితం; కొత్త నమోదు ప్రకటన కాదు.",
+        "en": "The New Indian Express reported on October 15 that Telangana students won five awards at the national INSPIRE Awards-MANAK exhibition held in New Delhi from October 12 to 14. The prize ceremony was on Wednesday. The report says 52 students from the state participated. This is a reported result, not a new registration notice."
+      }
+    },
+    {
+      "id": "gk_20261016_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": "2026-10-15",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261016_india_1",
+        "en": "gk_20261016_india_1__en"
+      },
+      "title": {
+        "te": "ఎస్టిక్ సదస్సుకు ముందస్తు కార్యక్రమం",
+        "en": "Curtain-raiser for ESTIC"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 15న న్యూఢిల్లీలో సైన్స్ అండ్ టెక్నాలజీ విభాగం ఎస్టిక్ 2026 ముందస్తు కార్యక్రమం నిర్వహించినట్లు డీడీ ఇండియా తెలిపింది. రోబోటిక్స్, స్వయంచాలక వ్యవస్థలు, పరిశోధనను ఉపయోగకర సాంకేతికతగా మార్చడంపై చర్చించారు. ప్రధాన సదస్సు అక్టోబర్ 27 నుంచి 29 వరకు జరగనుంది. ముందస్తు కార్యక్రమం పూర్తయింది; ప్రధాన సదస్సు ఇంకా జరగలేదు.",
+        "en": "DD India reported that the Department of Science and Technology held an ESTIC 2026 curtain-raiser in New Delhi on October 15. It discussed robotics, autonomous systems and turning research into useful technology. The main conclave is scheduled for October 27 to 29. The curtain-raiser is completed; the main conclave is still future."
+      }
+    },
+    {
+      "id": "gk_20261016_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews",
+        "worlddate"
+      ],
+      "event_date": "2026-10-15",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261016_world_1",
+        "en": "gk_20261016_world_1__en"
+      },
+      "title": {
+        "te": "అంతర్జాతీయ గ్రామీణ మహిళా దినోత్సవం",
+        "en": "International Day of Rural Women"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 15 అంతర్జాతీయ గ్రామీణ మహిళా దినోత్సవం. 2026 అంశం ప్రకృతిని సంరక్షించే గ్రామీణ మహిళా రైతులు. విత్తనాలు, జీవవైవిధ్యం, నీరు, భూమి సంరక్షణలో మహిళల కృషిని ఐక్యరాజ్యసమితి గుర్తిస్తోంది. గ్రామీణ మహిళల నిర్ణయాధికారం, సమాన అవకాశాల ప్రాధాన్యాన్ని వివరిస్తోంది.",
+        "en": "October 15 is the International Day of Rural Women. The 2026 theme is Rural Women Farmers Caring for Mother Nature. The United Nations recognises women's work in conserving seeds, biodiversity, water and land, and highlights participation in decisions and equal opportunities."
+      }
+    },
+    {
+      "id": "gk_20261016_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "source_ids": [
+        "tggk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261016_telangana_2",
+        "en": "gk_20261016_telangana_2__en"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "Telangana became a state on June 2, 2014. This is static GK, not a new event today. The official source was checked again."
+      },
+      "title": {
+        "te": "తెలంగాణ ఆవిర్భావం",
+        "en": "Telangana formation"
+      }
+    },
+    {
+      "id": "gk_20261016_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261016_india_2",
+        "en": "gk_20261016_india_2__en"
+      },
+      "title": {
+        "te": "అశోక చక్రం",
+        "en": "Ashoka Chakra"
+      },
+      "summary": {
+        "te": "భారత జాతీయ పతాకం తెలుపు పట్టీలో నీలి అశోక చక్రం ఉంటుంది. దానికి 24 ఆకులు ఉంటాయి. ఇది స్థిరమైన జ్ఞానం.",
+        "en": "The white band of India's national flag has a navy-blue Ashoka Chakra with 24 spokes. This is static GK."
+      }
+    },
+    {
+      "id": "gk_20261016_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261016_world_2",
+        "en": "gk_20261016_world_2__en"
+      },
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి చార్టర్ సమావేశం",
+        "en": "UN Charter conference"
+      },
+      "summary": {
+        "te": "1945లో శాన్ ఫ్రాన్సిస్కోలో 50 దేశాల ప్రతినిధులు ఐక్యరాజ్యసమితి చార్టర్ రూపొందించడానికి సమావేశమయ్యారు. ఇది చరిత్ర విషయం.",
+        "en": "Representatives of 50 countries met in San Francisco in 1945 to draft the UN Charter. This is a historical fact."
+      }
+    },
+    {
+      "id": "gk_20261016_india_4",
+      "region": "india",
+      "type": "current_affairs",
+      "category": "scholarship_notification",
+      "source_ids": [
+        "scholarships"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261016_india_4",
+        "en": "gk_20261016_india_4__en"
+      },
+      "deadline_date": "2026-10-31",
+      "deadline_time": null,
+      "title": {
+        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ గడువు",
+        "en": "NSP renewal deadline"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 16న తనిఖీ చేసిన అధికారిక ఎన్‌ఎస్‌పీ ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి గడువు 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30. ముగింపు సమయం ఇవ్వలేదు. అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు కాదు.",
+        "en": "The official NSP announcement checked on October 16 says renewal applications are open for the PM-USP Central Sector Scheme for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student deadline is October 31, 2026; institute verification November 15; Level 2 verification November 30. No cutoff time is given. This applies only to eligible renewal applicants, not every scholarship."
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261016_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261016_reading_1",
+        "en": "gk_20261016_reading_1__en"
+      },
+      "source_ids": [
+        "tgnews"
+      ],
+      "title": {
+        "te": "ఫలితాల వార్త, నమోదు ప్రకటన వేరు",
+        "en": "Results news and registration notices differ"
+      },
+      "passage": {
+        "te": "తెలంగాణ విద్యార్థులు ఐదు ఇన్‌స్పైర్ అవార్డులు పొందినట్లు అక్టోబర్ 15 వార్త చెబుతోంది. ప్రదర్శన అక్టోబర్ 12 నుంచి 14 వరకు జరిగింది. ఫలితాల వార్త చదవడం విద్యార్థులకు ప్రేరణ ఇవ్వవచ్చు. కానీ అది కొత్త పోటీలో దరఖాస్తులు తెరిచి ఉన్నాయని కాదు. పాల్గొన్న వారి సంఖ్య, అవార్డుల సంఖ్య వేరు. ఈ వార్తలో 52 మంది పాల్గొన్నారు, ఐదు అవార్డులు వచ్చాయి. మన మాటల్లో రాసేటప్పుడు ఆ సంఖ్యలను కలపకూడదు. భవిష్యత్తు నమోదుకు అధికారిక కొత్త ప్రకటన అవసరం.",
+        "en": "The October 15 report says Telangana students won five INSPIRE awards. The exhibition ran from October 12 to 14. Results news may inspire students, but it does not mean a new competition is accepting applications. Participant numbers and award numbers differ. The report gives 52 participants and five awards. Do not mix these figures in a summary. Future registration requires a new official notice."
+      },
+      "vocabulary": [
+        {
+          "te": "ఫలితం",
+          "en": "result"
+        },
+        {
+          "te": "ప్రదర్శన",
+          "en": "exhibition"
+        },
+        {
+          "te": "నమోదు",
+          "en": "registration"
+        }
+      ]
+    },
+    {
+      "id": "gk_20261016_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261016_reading_2",
+        "en": "gk_20261016_reading_2__en"
+      },
+      "source_ids": [
+        "innews"
+      ],
+      "title": {
+        "te": "ముందస్తు కార్యక్రమం, ప్రధాన సదస్సు",
+        "en": "A curtain-raiser and the main conclave"
+      },
+      "passage": {
+        "te": "ఎస్టిక్ ముందస్తు కార్యక్రమం అక్టోబర్ 15న జరిగింది. ప్రధాన సదస్సు అక్టోబర్ 27 నుంచి 29 వరకు జరగనుంది. ఒక వార్తలో పూర్తయిన సంఘటన, జరగబోయే సంఘటన రెండూ ఉండవచ్చు. తేదీలను వేరుగా నమోదు చేస్తే పొరపాటు తగ్గుతుంది. ముందస్తు కార్యక్రమంలో అంశాలు పరిచయం చేశారని వార్త చెబుతోంది. అందువల్ల ప్రధాన సదస్సు ఇప్పటికే పూర్తయిందని రాయకూడదు. సాంకేతికత ఉపయోగాలపై చర్చ జరగడం, ఆ ఉపయోగాలు అన్ని చోట్ల అమలు కావడం కూడా వేరు.",
+        "en": "The ESTIC curtain-raiser took place on October 15. The main conclave is scheduled for October 27 to 29. One report can contain both a completed event and a future event. Recording dates separately reduces mistakes. The curtain-raiser introduced the themes. It does not mean the main conclave is already over. Discussing technological applications also differs from deploying them everywhere."
+      },
+      "vocabulary": [
+        {
+          "te": "ముందస్తు కార్యక్రమం",
+          "en": "curtain-raiser"
+        },
+        {
+          "te": "సదస్సు",
+          "en": "conclave"
+        },
+        {
+          "te": "అంశం",
+          "en": "theme"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261016_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261016_q1",
+        "en": "gk_20261016_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261016_q1_answer",
+        "en": "gk_20261016_q1_answer__en"
+      },
+      "item_id": "gk_20261016_telangana_1",
+      "question": {
+        "te": "తెలంగాణ విద్యార్థులకు ఎన్ని అవార్డులు వచ్చాయి?",
+        "en": "How many awards did Telangana students win?"
+      },
+      "options": {
+        "te": [
+          "రెండు",
+          "ఐదు",
+          "52",
+          "100"
+        ],
+        "en": [
+          "Two",
+          "Five",
+          "52",
+          "100"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "నివేదిక ఐదు అవార్డులను పేర్కొంది.",
+        "en": "The report names five awards."
+      }
+    },
+    {
+      "id": "gk_20261016_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261016_q2",
+        "en": "gk_20261016_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261016_q2_answer",
+        "en": "gk_20261016_q2_answer__en"
+      },
+      "item_id": "gk_20261016_india_1",
+      "question": {
+        "te": "ప్రధాన ఎస్టిక్ సదస్సు ఎప్పుడు జరగనుంది?",
+        "en": "When is the main ESTIC conclave scheduled?"
+      },
+      "options": {
+        "te": [
+          "అక్టోబర్ 15",
+          "జూన్ 2",
+          "అక్టోబర్ 27 నుంచి 29",
+          "జూలై 22"
+        ],
+        "en": [
+          "October 15",
+          "June 2",
+          "October 27 to 29",
+          "July 22"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ప్రధాన సదస్సు అక్టోబర్ 27 నుంచి 29 వరకు జరగనుంది.",
+        "en": "The main conclave is scheduled for October 27 to 29."
+      }
+    },
+    {
+      "id": "gk_20261016_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261016_q3",
+        "en": "gk_20261016_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261016_q3_answer",
+        "en": "gk_20261016_q3_answer__en"
+      },
+      "item_id": "gk_20261016_world_1",
+      "question": {
+        "te": "గ్రామీణ మహిళా దినోత్సవం తేదీ ఏది?",
+        "en": "What is the date of Rural Women's Day?"
+      },
+      "options": {
+        "te": [
+          "అక్టోబర్ 15",
+          "జూన్ 2",
+          "జూలై 22",
+          "జనవరి 26"
+        ],
+        "en": [
+          "October 15",
+          "June 2",
+          "July 22",
+          "January 26"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అంతర్జాతీయ గ్రామీణ మహిళా దినోత్సవం అక్టోబర్ 15.",
+        "en": "The International Day of Rural Women is October 15."
+      }
+    },
+    {
+      "id": "gk_20261016_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261016_q4",
+        "en": "gk_20261016_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261016_q4_answer",
+        "en": "gk_20261016_q4_answer__en"
+      },
+      "item_id": "gk_20261016_telangana_2",
+      "question": {
+        "te": "తెలంగాణ ఆవిర్భావ తేదీ ఏది?",
+        "en": "What is Telangana's formation date?"
+      },
+      "options": {
+        "te": [
+          "1945 అక్టోబర్ 24",
+          "1947 జూలై 22",
+          "1950 జనవరి 26",
+          "2014 జూన్ 2"
+        ],
+        "en": [
+          "October 24, 1945",
+          "July 22, 1947",
+          "January 26, 1950",
+          "June 2, 2014"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "తెలంగాణ 2014 జూన్ 2న ఏర్పడింది.",
+        "en": "Telangana became a state on June 2, 2014."
+      }
+    },
+    {
+      "id": "gk_20261016_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261016_q5",
+        "en": "gk_20261016_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261016_q5_answer",
+        "en": "gk_20261016_q5_answer__en"
+      },
+      "item_id": "gk_20261016_india_2",
+      "question": {
+        "te": "అశోక చక్రంలో ఎన్ని ఆకులు ఉంటాయి?",
+        "en": "How many spokes are in the Ashoka Chakra?"
+      },
+      "options": {
+        "te": [
+          "12",
+          "24",
+          "50",
+          "100"
+        ],
+        "en": [
+          "12",
+          "24",
+          "50",
+          "100"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "అశోక చక్రంలో 24 ఆకులు ఉంటాయి.",
+        "en": "The Ashoka Chakra has 24 spokes."
+      }
+    },
+    {
+      "id": "gk_20261016_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261016_q6",
+        "en": "gk_20261016_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261016_q6_answer",
+        "en": "gk_20261016_q6_answer__en"
+      },
+      "item_id": "gk_20261016_world_2",
+      "question": {
+        "te": "చార్టర్ సమావేశంలో ఎన్ని దేశాల ప్రతినిధులు పాల్గొన్నారు?",
+        "en": "Representatives of how many countries attended the Charter conference?"
+      },
+      "options": {
+        "te": [
+          "24",
+          "10",
+          "50",
+          "100"
+        ],
+        "en": [
+          "24",
+          "10",
+          "50",
+          "100"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "50 దేశాల ప్రతినిధులు సమావేశమయ్యారు.",
+        "en": "Representatives of 50 countries met."
+      }
+    },
+    {
+      "id": "gk_20261016_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261016_q7",
+        "en": "gk_20261016_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261016_q7_answer",
+        "en": "gk_20261016_q7_answer__en"
+      },
+      "item_id": "gk_20261016_reading_1",
+      "question": {
+        "te": "నివేదిక ప్రకారం రాష్ట్రం నుంచి ఎంతమంది పాల్గొన్నారు?",
+        "en": "How many participants from the state does the report name?"
+      },
+      "options": {
+        "te": [
+          "52",
+          "ఐదు",
+          "రెండు",
+          "24"
+        ],
+        "en": [
+          "52",
+          "Five",
+          "Two",
+          "24"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నివేదిక 52 మంది విద్యార్థులను పేర్కొంది.",
+        "en": "The report names 52 students."
+      }
+    },
+    {
+      "id": "gk_20261016_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261016_q8",
+        "en": "gk_20261016_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261016_q8_answer",
+        "en": "gk_20261016_q8_answer__en"
+      },
+      "item_id": "gk_20261016_reading_1",
+      "question": {
+        "te": "ఫలితాల వార్త కొత్త నమోదు ప్రకటననా?",
+        "en": "Is results news a new registration notice?"
+      },
+      "options": {
+        "te": [
+          "అవును",
+          "ఎప్పుడూ",
+          "తేదీ లేదు",
+          "కాదు"
+        ],
+        "en": [
+          "Yes",
+          "Always",
+          "No date",
+          "No"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "కొత్త నమోదుకు అధికారిక కొత్త ప్రకటన అవసరం.",
+        "en": "New registration needs a new official notice."
+      }
+    },
+    {
+      "id": "gk_20261016_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261016_q9",
+        "en": "gk_20261016_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261016_q9_answer",
+        "en": "gk_20261016_q9_answer__en"
+      },
+      "item_id": "gk_20261016_reading_2",
+      "question": {
+        "te": "అక్టోబర్ 15న జరిగినది ఏమిటి?",
+        "en": "What took place on October 15?"
+      },
+      "options": {
+        "te": [
+          "ప్రధాన సదస్సు ముగింపు",
+          "ముందస్తు కార్యక్రమం",
+          "ప్రపంచ ఫైనల్",
+          "పరీక్ష"
+        ],
+        "en": [
+          "End of the main conclave",
+          "The curtain-raiser",
+          "A global finale",
+          "An exam"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "అక్టోబర్ 15న ముందస్తు కార్యక్రమం జరిగింది.",
+        "en": "The curtain-raiser took place on October 15."
+      }
+    },
+    {
+      "id": "gk_20261016_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261016_q10",
+        "en": "gk_20261016_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261016_q10_answer",
+        "en": "gk_20261016_q10_answer__en"
+      },
+      "item_id": "gk_20261016_reading_2",
+      "question": {
+        "te": "ప్రధాన సదస్సు ఇప్పటికే పూర్తయిందా?",
+        "en": "Is the main conclave already completed?"
+      },
+      "options": {
+        "te": [
+          "అవును",
+          "అన్ని చోట్ల",
+          "కాదు, ఇంకా జరగనుంది",
+          "ఎప్పుడూ"
+        ],
+        "en": [
+          "Yes",
+          "Everywhere",
+          "No, it is still future",
+          "Always"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ప్రధాన సదస్సు అక్టోబర్ 27 నుంచి 29 వరకు జరగనుంది.",
+        "en": "The main conclave is scheduled for October 27 to 29."
+      }
+    }
+  ],
+  "edition_date": "2026-10-16",
+  "verified_at": "2026-10-16T02:34:08+05:30",
+  "status": "source_checked_translation_review_recommended",
+  "coverage": {
+    "cards": 7,
+    "current_affairs": 4,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 58
+  },
+  "editorial_note": "Oct16 early reviewed selection. INSPIRE exhibition Oct12-14, ceremony Oct14/report Oct15, not new registration. ESTIC curtain-raiser Oct15, conclave Oct27-29 future. Rural Women observance Oct15. Official NSP renewal dates rechecked Oct16. VVM earlier Oct15 deadline not presented as open or confirmed closed; no fresh extension verified. Static sources rechecked. Class5-10 original texts; Telugu review recommended, audio inspection pending."
+}
