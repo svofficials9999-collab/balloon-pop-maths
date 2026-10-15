@@ -108,3 +108,7 @@ Open the live app, switch Telugu/English, use main screens and Back, close overl
 
 ## 2026-10-15 - Daily GK
 8 cards,2 readings,10 MCQs,60 recorded-voice scripts; Oct14 archived,older topics/progress/audio preserved. VVM official India page rendered02:38IST: registration extendedup toOct15, no cutoff stated. Prior extensions and GCC distinction visible; no VVMquiz. app100/cache12. Recordings pending, do not claim Listen complete.
+
+
+## 2026-10-15 - Existing EVS practice depth
+Materials,Birds,SaveWater expanded3to7bilingualquestions each;12newquestions across classes1-5(52questionplacements). ExistingIDs/lessons/narration/recordings/progress/PIN unchanged; med.js untouched. v4.15.147-evsProperties. Sources: EPAWaterSenseKids https://www.epa.gov/watersense/watersense-kids ;CornellK12 https://www.birds.cornell.edu/k12/feathered-friends/ ;RSCmaterials https://edu.rsc.org/primary-science/materials-cards/2360.article ;BBC https://www.bbc.co.uk/bitesize/articles/z9jx2v4 . Addedproperties/object-material/nestexceptions/leakadulthelp practice. Nofullcurriculum/teacher certification claim.
