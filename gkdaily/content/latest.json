@@ -47,6 +47,16 @@
       "publisher": "ESPNcricinfo",
       "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-4th-t20i-1529233/full-scorecard",
       "published_date": "2026-10-14"
+    },
+    "tgreview": {
+      "publisher": "Deccan Chronicle",
+      "url": "https://www.deccanchronicle.com/southern-states/telangana/jayesh-ranjan-asks-officials-to-conserve-water-electricity-amid-el-nio-threat-1996379",
+      "published_date": "2026-10-16"
+    },
+    "instudy": {
+      "publisher": "DD News",
+      "url": "https://ddnews.gov.in/en/study-reconstructs-4600-years-of-monsoon-and-environmental-history-in-central-ganga-plain/",
+      "published_date": "2026-10-16"
     }
   },
   "cards": [
@@ -73,50 +83,6 @@
       }
     },
     {
-      "id": "gk_20261017_india_1",
-      "region": "india",
-      "type": "current_affairs",
-      "source_ids": [
-        "innews"
-      ],
-      "event_date": "2026-10-15",
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261017_india_1",
-        "en": "gk_20261017_india_1__en"
-      },
-      "title": {
-        "te": "భాషిణి: మణిపూర్‌తో భాషా సాంకేతిక ఒప్పందం",
-        "en": "BHASHINI: language technology pact with Manipur"
-      },
-      "summary": {
-        "te": "అక్టోబర్ 15న పీఐబీ విడుదల ప్రకారం, డిజిటల్ ఇండియా భాషిణి విభాగం, మణిపూర్ ప్రభుత్వం ఒప్పందం కుదుర్చుకున్నాయి. భారతీయ భాషల్లో డిజిటల్ సేవలు అందేలా కృత్రిమ మేధస్సు, భాషా సాంకేతిక పరికరాలను ప్రభుత్వ సేవల్లోకి తీసుకురావడం లక్ష్యం. భాషిణి అంటే ప్రభుత్వ భాషా-అనువాద వేదిక; ఇది ఒక భాషలో మాట్లాడితే మరో భారతీయ భాషలోకి మార్చి ఇస్తుంది. దీనివల్ల మణిపూర్ ప్రజలు తమ భాషల్లోనే ప్రభుత్వ సమాచారం పొందగలరు.",
-        "en": "A PIB release on October 15 says the Digital India BHASHINI Division and the Government of Manipur signed an agreement. The goal is to bring artificial intelligence and language technology tools into government services so that digital information becomes easier to use in Indian languages. BHASHINI is the government's translation platform: it can turn speech or text in one Indian language into another. With this, people in Manipur can get government information in their own language."
-      }
-    },
-    {
-      "id": "gk_20261017_world_1",
-      "region": "world",
-      "type": "current_affairs",
-      "source_ids": [
-        "worldnews"
-      ],
-      "event_date": "2026-10-16",
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261017_world_1",
-        "en": "gk_20261017_world_1__en"
-      },
-      "title": {
-        "te": "ప్రపంచ ఆహార దినోత్సవం: కొత్త ఆలోచనలు, మంచి ఆహారం",
-        "en": "World Food Day: new ideas, good food"
-      },
-      "summary": {
-        "te": "అక్టోబర్ 16న ప్రపంచ ఆహార దినోత్సవం జరిగింది. ఐక్యరాజ్యసమితి ఆహార, వ్యవసాయ సంస్థ (ఎఫ్‌ఏఓ) ఈ రోజునే 1945లో స్థాపించబడింది; అందుకే ఈ తేదీ. 2026 ఇతివృత్తం: ఇన్నోవేట్ టుడే, నౌరిష్ టుమారో - అంటే నేడు కొత్త పద్ధతులు ఆలోచిస్తే రేపు అందరికీ పోషకాహారం. వృద్ధా చేసే ఆహారం తగ్గించడం, పంటలను తక్కువ నీటితో పెంచే మార్గాలు ఇందులో భాగం.",
-        "en": "World Food Day was observed on October 16. The United Nations Food and Agriculture Organization (FAO) was founded on this very date in 1945, which is why this day was chosen. The 2026 theme is Innovate today, Nourish tomorrow: if we find new methods today, everyone can have nutritious food tomorrow. Wasting less food and growing crops with less water are part of this idea."
-      }
-    },
-    {
       "id": "gk_20261017_telangana_2",
       "region": "telangana",
       "type": "current_affairs",
@@ -136,6 +102,50 @@
       "summary": {
         "te": "హైదరాబాద్‌లో జరిగిన నాల్గో టీ20 అంతర్జాతీయ మ్యాచ్‌లో వెస్టిండీస్ భారత్‌పై 24 పరుగుల తేడాతో గెలిచిందని క్రిక్‌ఇన్‌ఫో స్కోర్‌కార్డు చెబుతోంది. కెప్టెన్ షై హోప్ 50 బంతుల్లో 102 పరుగులు చేసి నోటౌట్ నిలిచారు. కీమో పాల్ ఐదు వికెట్లు తీశారు. ఐదు మ్యాచ్‌ల సిరీస్ ఇప్పుడు 2-2తో సమం. నిర్ణాయక ఐదో మ్యాచ్ అక్టోబర్ 17న బెంగళూరులో జరుగుతుంది. ష్రేయాస్ అయ్యర్ ఐసీసీ టీ20 బ్యాటింగ్ ర్యాంకింగ్స్‌లో నాల్గో స్థానానికి చేరారు.",
         "en": "The Cricinfo scorecard says West Indies beat India by 24 runs in the fourth T20 International played in Hyderabad. Captain Shai Hope stayed not out on 102 runs from 50 balls, and Keemo Paul took five wickets. The five-match series is now level at 2-2. The deciding fifth match will be played in Bengaluru on October 17. Shreyas Iyer has moved up to fourth place in the ICC T20I batting rankings."
+      }
+    },
+    {
+      "id": "gk_20261017_telangana_3",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgreview"
+      ],
+      "event_date": "2026-10-16",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261017_telangana_3",
+        "en": "gk_20261017_telangana_3__en"
+      },
+      "title": {
+        "te": "నీరు, విద్యుత్ ఆదా చేయాలి: అధికారులకు సూచన",
+        "en": "Save water and power, officials told"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 16న డెక్కన్ క్రానికల్ నివేదిక ప్రకారం, ఎల్ నీనో ముప్పు నేపథ్యంలో సీనియర్ అధికారి జయేష్ రంజన్ హైదరాబాద్‌లో సమీక్ష నిర్వహించి, నీరు, విద్యుత్ పరిమితులపై అప్రమత్తంగా ఉండి వాటిని ఆదా చేయాలని అధికారులను కోరారు. జలాశయాల నిల్వలు తగ్గడం, వర్షపాత లోటు, విద్యుత్ డిమాండ్ పెరుగుదల ఈ సూచనల వెనుక ఉన్న కారణాలు. సమీక్ష అంటే అధికారులు పరిస్థితిని పరిశీలించి తదుపరి చర్యలు నిర్ణయించే సమావేశం.",
+        "en": "Deccan Chronicle reported on October 16 that, with an El Nino threat ahead, senior official Jayesh Ranjan held a review in Hyderabad and asked officials to stay alert about water and electricity limits and to conserve both. Falling reservoir storage, a rainfall deficit and rising power demand are behind the advice. A review is a meeting where officials examine a situation and decide next steps."
+      }
+    },
+    {
+      "id": "gk_20261017_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": "2026-10-15",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261017_india_1",
+        "en": "gk_20261017_india_1__en"
+      },
+      "title": {
+        "te": "భాషిణి: మణిపూర్‌తో భాషా సాంకేతిక ఒప్పందం",
+        "en": "BHASHINI: language technology pact with Manipur"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 15న పీఐబీ విడుదల ప్రకారం, డిజిటల్ ఇండియా భాషిణి విభాగం, మణిపూర్ ప్రభుత్వం ఒప్పందం కుదుర్చుకున్నాయి. భారతీయ భాషల్లో డిజిటల్ సేవలు అందేలా కృత్రిమ మేధస్సు, భాషా సాంకేతిక పరికరాలను ప్రభుత్వ సేవల్లోకి తీసుకురావడం లక్ష్యం. భాషిణి అంటే ప్రభుత్వ భాషా-అనువాద వేదిక; ఇది ఒక భాషలో మాట్లాడితే మరో భారతీయ భాషలోకి మార్చి ఇస్తుంది. దీనివల్ల మణిపూర్ ప్రజలు తమ భాషల్లోనే ప్రభుత్వ సమాచారం పొందగలరు.",
+        "en": "A PIB release on October 15 says the Digital India BHASHINI Division and the Government of Manipur signed an agreement. The goal is to bring artificial intelligence and language technology tools into government services so that digital information becomes easier to use in Indian languages. BHASHINI is the government's translation platform: it can turn speech or text in one Indian language into another. With this, people in Manipur can get government information in their own language."
       }
     },
     {
@@ -161,25 +171,25 @@
       }
     },
     {
-      "id": "gk_20261017_world_2",
-      "region": "world",
-      "type": "static_gk",
+      "id": "gk_20261017_india_3",
+      "region": "india",
+      "type": "current_affairs",
       "source_ids": [
-        "worldgk"
+        "instudy"
       ],
-      "event_date": null,
+      "event_date": "2026-10-16",
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261017_world_2",
-        "en": "gk_20261017_world_2__en"
+        "te": "gk_20261017_india_3",
+        "en": "gk_20261017_india_3__en"
       },
       "title": {
-        "te": "ఎఫ్‌ఏఓ: ఆకలిని జయించే లక్ష్యం",
-        "en": "FAO: the goal of defeating hunger"
+        "te": "4,600 ఏళ్ల వర్షపాత చరిత్ర: కరేలా సరస్సు పరిశోధన",
+        "en": "4,600 years of monsoon history: Karela Lake study"
       },
       "summary": {
-        "te": "ఎఫ్‌ఏఓ అంటే ఐక్యరాజ్యసమితి ఆహార, వ్యవసాయ సంస్థ. ఇది 1945 అక్టోబర్ 16న స్థాపించబడింది; ప్రధాన కార్యాలయం ఇటలీలోని రోమ్‌లో ఉంది. ప్రపంచంలో ఎవరికీ ఆకలి ఉండకూడదనే లక్ష్యంతో పని చేసే ప్రత్యేక సంస్థ ఇది. ఇది స్థిరమైన సాధారణ జ్ఞానం.",
-        "en": "FAO is the Food and Agriculture Organization of the United Nations. It was founded on October 16, 1945, and its headquarters is in Rome, Italy. It is a specialized agency working toward a world where nobody goes hungry. This is static GK."
+        "te": "అక్టోబర్ 16న డీడీ న్యూస్ నివేదిక ప్రకారం, శాస్త్రవేత్తలు ఉత్తరప్రదేశ్‌లోని కరేలా సరస్సు అవక్షేపాలను అధ్యయనం చేసి, మధ్య గంగా మైదానంలో సుమారు 4,600 సంవత్సరాల వర్షపాతం, పర్యావరణ మార్పుల చరిత్రను పునర్నిర్మించారు. సరస్సు అడుగున పడే మట్టి పొరలు గత వర్షపాతం, వృక్షజాలం, వ్యవసాయానికి ఆధారాలు దాచుతాయి. ఇది గతానికి సంబంధించిన పరిశోధన; రేపు ఎంత వర్షం పడుతుందో దీనితో తెలియదు.",
+        "en": "DD News reported on October 16 that scientists studied sediments from Karela Lake in Uttar Pradesh and reconstructed about 4,600 years of monsoon and environmental history in the central Ganga Plain. Layers of mud at the bottom of a lake preserve evidence of past rainfall, vegetation and farming. This is research about the past; it cannot say how much rain will fall tomorrow."
       }
     },
     {
@@ -206,6 +216,50 @@
       "category": "scholarship_notification",
       "deadline_date": "2026-10-31",
       "deadline_time": null
+    },
+    {
+      "id": "gk_20261017_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": "2026-10-16",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261017_world_1",
+        "en": "gk_20261017_world_1__en"
+      },
+      "title": {
+        "te": "ప్రపంచ ఆహార దినోత్సవం: కొత్త ఆలోచనలు, మంచి ఆహారం",
+        "en": "World Food Day: new ideas, good food"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 16న ప్రపంచ ఆహార దినోత్సవం జరిగింది. ఐక్యరాజ్యసమితి ఆహార, వ్యవసాయ సంస్థ (ఎఫ్‌ఏఓ) ఈ రోజునే 1945లో స్థాపించబడింది; అందుకే ఈ తేదీ. 2026 ఇతివృత్తం: ఇన్నోవేట్ టుడే, నౌరిష్ టుమారో - అంటే నేడు కొత్త పద్ధతులు ఆలోచిస్తే రేపు అందరికీ పోషకాహారం. వృద్ధా చేసే ఆహారం తగ్గించడం, పంటలను తక్కువ నీటితో పెంచే మార్గాలు ఇందులో భాగం.",
+        "en": "World Food Day was observed on October 16. The United Nations Food and Agriculture Organization (FAO) was founded on this very date in 1945, which is why this day was chosen. The 2026 theme is Innovate today, Nourish tomorrow: if we find new methods today, everyone can have nutritious food tomorrow. Wasting less food and growing crops with less water are part of this idea."
+      }
+    },
+    {
+      "id": "gk_20261017_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261017_world_2",
+        "en": "gk_20261017_world_2__en"
+      },
+      "title": {
+        "te": "ఎఫ్‌ఏఓ: ఆకలిని జయించే లక్ష్యం",
+        "en": "FAO: the goal of defeating hunger"
+      },
+      "summary": {
+        "te": "ఎఫ్‌ఏఓ అంటే ఐక్యరాజ్యసమితి ఆహార, వ్యవసాయ సంస్థ. ఇది 1945 అక్టోబర్ 16న స్థాపించబడింది; ప్రధాన కార్యాలయం ఇటలీలోని రోమ్‌లో ఉంది. ప్రపంచంలో ఎవరికీ ఆకలి ఉండకూడదనే లక్ష్యంతో పని చేసే ప్రత్యేక సంస్థ ఇది. ఇది స్థిరమైన సాధారణ జ్ఞానం.",
+        "en": "FAO is the Food and Agriculture Organization of the United Nations. It was founded on October 16, 1945, and its headquarters is in Rome, Italy. It is a specialized agency working toward a world where nobody goes hungry. This is static GK."
+      }
     }
   ],
   "readings": [
@@ -636,10 +690,82 @@
         "te": "విద్యార్థి గడువు అక్టోబర్ 31.",
         "en": "The student deadline is October 31."
       }
+    },
+    {
+      "id": "gk_20261017_q11",
+      "style": "mcq",
+      "audio_ids": {
+        "te": "gk_20261017_q11",
+        "en": "gk_20261017_q11__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261017_q11_answer",
+        "en": "gk_20261017_q11_answer__en"
+      },
+      "item_id": "gk_20261017_telangana_3",
+      "question": {
+        "te": "హైదరాబాద్ సమీక్షలో ఏ సంరక్షణ గురించి చెప్పారు?",
+        "en": "What conservation did the Hyderabad review discuss?"
+      },
+      "options": {
+        "te": [
+          "రాకెట్లు",
+          "నీరు, విద్యుత్",
+          "పతాకం",
+          "బహుమతులు"
+        ],
+        "en": [
+          "Rockets",
+          "Water and electricity",
+          "A flag",
+          "Prizes"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "నివేదిక నీరు, విద్యుత్ సంరక్షణను పేర్కొంది.",
+        "en": "The report mentions water and electricity conservation."
+      }
+    },
+    {
+      "id": "gk_20261017_q12",
+      "style": "mcq",
+      "audio_ids": {
+        "te": "gk_20261017_q12",
+        "en": "gk_20261017_q12__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261017_q12_answer",
+        "en": "gk_20261017_q12_answer__en"
+      },
+      "item_id": "gk_20261017_india_3",
+      "question": {
+        "te": "పరిశోధనలో ఏ సరస్సు అవక్షేపాలు అధ్యయనం చేశారు?",
+        "en": "Which lake's sediments did the study examine?"
+      },
+      "options": {
+        "te": [
+          "సింగూరు",
+          "హుస్సేన్ సాగర్",
+          "కరేలా",
+          "చిలికా"
+        ],
+        "en": [
+          "Singur",
+          "Hussain Sagar",
+          "Karela",
+          "Chilika"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "నివేదిక ఉత్తరప్రదేశ్‌లోని కరేలా సరస్సును పేర్కొంది.",
+        "en": "The report names Karela Lake in Uttar Pradesh."
+      }
     }
   ],
   "edition_date": "2026-10-17",
-  "verified_at": "2026-10-17T00:47:00+05:30",
+  "verified_at": "2026-10-17T02:36:00+05:30",
   "status": "source_checked_translation_review_recommended",
   "coverage": [
     "cards",
@@ -649,5 +775,5 @@
     "questions",
     "listen_clips"
   ],
-  "editorial_note": "Oct17 early reviewed selection. El Nino water review reported by NDTV Oct16; appeal is advisory, not an order; event date set to report date as meeting date was unstated. BHASHINI-Manipur MoU per PIB Oct15. World Food Day Oct16 with official FAO 2026 theme 'Innovate today. Nourish tomorrow.' Hyderabad T20I Oct14 per Cricinfo/AP; series 2-2, decider Oct17 Bengaluru - edition date matches decider day. NSP renewal dates carried from Oct16 official check; re-verify at publish. Class5-10 original texts; Telugu review recommended, audio inspection pending."
+  "editorial_note": "Oct17 early reviewed selection. El Nino water review reported by NDTV Oct16; appeal is advisory, not an order; event date set to report date as meeting date was unstated. BHASHINI-Manipur MoU per PIB Oct15. World Food Day Oct16 with official FAO 2026 theme 'Innovate today. Nourish tomorrow.' Hyderabad T20I Oct14 per Cricinfo/AP; series 2-2, decider Oct17 Bengaluru - edition date matches decider day. NSP renewal dates carried from Oct16 official check; re-verify at publish. Class5-10 original texts; Telugu review recommended, audio inspection pending. Second-pass 02:36 IST: added two verified-missing cards - Hyderabad water/power conservation review (Deccan Chronicle Oct 16) and Karela Lake 4,600-year monsoon study (DD News Oct 16; past-climate research, not a forecast). No cards replaced or removed."
 }
