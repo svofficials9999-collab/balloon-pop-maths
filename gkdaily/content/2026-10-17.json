@@ -1,0 +1,653 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "timezone": "Asia/Kolkata",
+  "sources": {
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India",
+      "url": "https://knowindia.india.gov.in/profile/",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "Food and Agriculture Organization",
+      "url": "https://www.fao.org/about/about-fao/en/",
+      "published_date": null
+    },
+    "scholarships": {
+      "publisher": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in/Students",
+      "published_date": null
+    },
+    "tgnews": {
+      "publisher": "NDTV",
+      "url": "https://www.ndtv.com/india-news/el-nino-worst-in-decades-telangana-revanth-reddy-urges-farmers-to-defer-one-crop-12193039",
+      "published_date": "2026-10-16"
+    },
+    "innews": {
+      "publisher": "Press Information Bureau",
+      "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?lang=1&PRID=2323665&reg=3",
+      "published_date": "2026-10-15"
+    },
+    "worldnews": {
+      "publisher": "Food and Agriculture Organization",
+      "url": "https://www.fao.org/world-food-day/en",
+      "published_date": null
+    },
+    "worlddate": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/observances/day-for-eradicating-poverty",
+      "published_date": null
+    },
+    "sports": {
+      "publisher": "ESPNcricinfo",
+      "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-4th-t20i-1529233/full-scorecard",
+      "published_date": "2026-10-14"
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261017_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgnews"
+      ],
+      "event_date": "2026-10-17",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261017_telangana_1",
+        "en": "gk_20261017_telangana_1__en"
+      },
+      "title": {
+        "te": "నీటి నిల్వలు తగ్గాయి: రైతులకు ముఖ్యమంత్రి విజ్ఞప్తి",
+        "en": "Water levels down: Chief Minister appeals to farmers"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 16న ఎన్‌డీటీవీ నివేదిక ప్రకారం, తెలంగాణ ముఖ్యమంత్రి రేవంత్ రెడ్డి నీటి, విద్యుత్ పరిస్థితిపై సమీక్ష నిర్వహించారు. ఈ ఏటి ఎల్ నీనో దశాబ్దాలలో అత్యంత తీవ్రమైనదిగా చెప్పారు. రైతులు నీటిని ఎక్కువగా అడిగే వరి పంటను ఒక పంటా సంవత్సరం వాయిదా వేయాలని కోరారు. రాష్ట్ర జలాశయాల్లో ప్రస్తుతం సుమారు 200 టీఎంసీ నీరు ఉంది; ఈ కాలంలో సాధారణంగా 462 టీఎంసీ ఉండాలి. అక్టోబర్ 14 నాటికి వర్షపాతం సాధారణం కంటే 27.82 శాతం తక్కువ. అక్టోబర్ 15న విద్యుత్ డిమాండ్ 20,003 మెగావాట్లతో రికార్డు. తదుపరి వర్షాలు 2027 జూలైలో అని అంచనా. ఎల్ నీనో అంటే పసిఫిక్ మహాసముద్రంలో నీరు వేడెక్కడంతో వర్షాల పాట మారే ప్రకృతి దృగ్విషయం.",
+        "en": "NDTV reported on October 16 that Telangana Chief Minister Revanth Reddy held a review of the water and power situation. He called this year's El Nino the worst in decades and asked farmers to defer one crop cycle, especially water-intensive paddy. State reservoirs now hold about 200 TMC of water against the usual 462 TMC for this period. Rainfall was 27.82 percent below normal by October 14. Power demand touched a record 20,003 megawatts on October 15. The next rains are expected only in July 2027. El Nino is a natural pattern where the Pacific Ocean warms and rainfall patterns change."
+      }
+    },
+    {
+      "id": "gk_20261017_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": "2026-10-15",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261017_india_1",
+        "en": "gk_20261017_india_1__en"
+      },
+      "title": {
+        "te": "భాషిణి: మణిపూర్‌తో భాషా సాంకేతిక ఒప్పందం",
+        "en": "BHASHINI: language technology pact with Manipur"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 15న పీఐబీ విడుదల ప్రకారం, డిజిటల్ ఇండియా భాషిణి విభాగం, మణిపూర్ ప్రభుత్వం ఒప్పందం కుదుర్చుకున్నాయి. భారతీయ భాషల్లో డిజిటల్ సేవలు అందేలా కృత్రిమ మేధస్సు, భాషా సాంకేతిక పరికరాలను ప్రభుత్వ సేవల్లోకి తీసుకురావడం లక్ష్యం. భాషిణి అంటే ప్రభుత్వ భాషా-అనువాద వేదిక; ఇది ఒక భాషలో మాట్లాడితే మరో భారతీయ భాషలోకి మార్చి ఇస్తుంది. దీనివల్ల మణిపూర్ ప్రజలు తమ భాషల్లోనే ప్రభుత్వ సమాచారం పొందగలరు.",
+        "en": "A PIB release on October 15 says the Digital India BHASHINI Division and the Government of Manipur signed an agreement. The goal is to bring artificial intelligence and language technology tools into government services so that digital information becomes easier to use in Indian languages. BHASHINI is the government's translation platform: it can turn speech or text in one Indian language into another. With this, people in Manipur can get government information in their own language."
+      }
+    },
+    {
+      "id": "gk_20261017_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": "2026-10-16",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261017_world_1",
+        "en": "gk_20261017_world_1__en"
+      },
+      "title": {
+        "te": "ప్రపంచ ఆహార దినోత్సవం: కొత్త ఆలోచనలు, మంచి ఆహారం",
+        "en": "World Food Day: new ideas, good food"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 16న ప్రపంచ ఆహార దినోత్సవం జరిగింది. ఐక్యరాజ్యసమితి ఆహార, వ్యవసాయ సంస్థ (ఎఫ్‌ఏఓ) ఈ రోజునే 1945లో స్థాపించబడింది; అందుకే ఈ తేదీ. 2026 ఇతివృత్తం: ఇన్నోవేట్ టుడే, నౌరిష్ టుమారో - అంటే నేడు కొత్త పద్ధతులు ఆలోచిస్తే రేపు అందరికీ పోషకాహారం. వృద్ధా చేసే ఆహారం తగ్గించడం, పంటలను తక్కువ నీటితో పెంచే మార్గాలు ఇందులో భాగం.",
+        "en": "World Food Day was observed on October 16. The United Nations Food and Agriculture Organization (FAO) was founded on this very date in 1945, which is why this day was chosen. The 2026 theme is Innovate today, Nourish tomorrow: if we find new methods today, everyone can have nutritious food tomorrow. Wasting less food and growing crops with less water are part of this idea."
+      }
+    },
+    {
+      "id": "gk_20261017_telangana_2",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "sports"
+      ],
+      "event_date": "2026-10-14",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261017_telangana_2",
+        "en": "gk_20261017_telangana_2__en"
+      },
+      "title": {
+        "te": "హైదరాబాద్‌లో వెస్టిండీస్ విజయం: సిరీస్ 2-2",
+        "en": "West Indies win in Hyderabad: series level 2-2"
+      },
+      "summary": {
+        "te": "హైదరాబాద్‌లో జరిగిన నాల్గో టీ20 అంతర్జాతీయ మ్యాచ్‌లో వెస్టిండీస్ భారత్‌పై 24 పరుగుల తేడాతో గెలిచిందని క్రిక్‌ఇన్‌ఫో స్కోర్‌కార్డు చెబుతోంది. కెప్టెన్ షై హోప్ 50 బంతుల్లో 102 పరుగులు చేసి నోటౌట్ నిలిచారు. కీమో పాల్ ఐదు వికెట్లు తీశారు. ఐదు మ్యాచ్‌ల సిరీస్ ఇప్పుడు 2-2తో సమం. నిర్ణాయక ఐదో మ్యాచ్ అక్టోబర్ 17న బెంగళూరులో జరుగుతుంది. ష్రేయాస్ అయ్యర్ ఐసీసీ టీ20 బ్యాటింగ్ ర్యాంకింగ్స్‌లో నాల్గో స్థానానికి చేరారు.",
+        "en": "The Cricinfo scorecard says West Indies beat India by 24 runs in the fourth T20 International played in Hyderabad. Captain Shai Hope stayed not out on 102 runs from 50 balls, and Keemo Paul took five wickets. The five-match series is now level at 2-2. The deciding fifth match will be played in Bengaluru on October 17. Shreyas Iyer has moved up to fourth place in the ICC T20I batting rankings."
+      }
+    },
+    {
+      "id": "gk_20261017_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261017_india_2",
+        "en": "gk_20261017_india_2__en"
+      },
+      "title": {
+        "te": "రాజ్యాంగ షెడ్యూల్ భాషలు 22",
+        "en": "22 languages in the Eighth Schedule"
+      },
+      "summary": {
+        "te": "భారత రాజ్యాంగం ఎనిమిదో షెడ్యూల్‌లో 22 భాషలు ఉన్నాయి. తెలుగు వాటిలో ఒకటి. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. భాషిణి వంటి సాంకేతిక వేదికలు ఈ భాషలన్నింటికీ డిజిటల్ సేవలు అందించాలనే లక్ష్యంతో పని చేస్తున్నాయి.",
+        "en": "The Eighth Schedule of the Indian Constitution lists 22 languages. Telugu is one of them. This is static GK, not a new event today. Platforms like BHASHINI are working to bring digital services to all these languages."
+      }
+    },
+    {
+      "id": "gk_20261017_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261017_world_2",
+        "en": "gk_20261017_world_2__en"
+      },
+      "title": {
+        "te": "ఎఫ్‌ఏఓ: ఆకలిని జయించే లక్ష్యం",
+        "en": "FAO: the goal of defeating hunger"
+      },
+      "summary": {
+        "te": "ఎఫ్‌ఏఓ అంటే ఐక్యరాజ్యసమితి ఆహార, వ్యవసాయ సంస్థ. ఇది 1945 అక్టోబర్ 16న స్థాపించబడింది; ప్రధాన కార్యాలయం ఇటలీలోని రోమ్‌లో ఉంది. ప్రపంచంలో ఎవరికీ ఆకలి ఉండకూడదనే లక్ష్యంతో పని చేసే ప్రత్యేక సంస్థ ఇది. ఇది స్థిరమైన సాధారణ జ్ఞానం.",
+        "en": "FAO is the Food and Agriculture Organization of the United Nations. It was founded on October 16, 1945, and its headquarters is in Rome, Italy. It is a specialized agency working toward a world where nobody goes hungry. This is static GK."
+      }
+    },
+    {
+      "id": "gk_20261017_india_4",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "scholarships"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261017_india_4",
+        "en": "gk_20261017_india_4__en"
+      },
+      "title": {
+        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ గడువు",
+        "en": "NSP renewal deadline"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 17న తనిఖీ చేసిన అధికారిక ఎన్‌ఎస్‌పీ ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి గడువు 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30. ముగింపు సమయం ఇవ్వలేదు. అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు కాదు.",
+        "en": "The official NSP announcement checked on October 17 says renewal applications are open for the PM-USP Central Sector Scheme for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student deadline is October 31, 2026; institute verification November 15; Level 2 verification November 30. No cutoff time is given. This applies only to eligible renewal applicants, not every scholarship."
+      },
+      "category": "scholarship_notification",
+      "deadline_date": "2026-10-31",
+      "deadline_time": null
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261017_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261017_reading_1",
+        "en": "gk_20261017_reading_1__en"
+      },
+      "source_ids": [
+        "tgnews"
+      ],
+      "title": {
+        "te": "ఎల్ నీనో అంటే ఏమిటి?",
+        "en": "What is El Nino?"
+      },
+      "passage": {
+        "te": "మనం వర్షాలపై ఆధారపడతాం. కొన్ని ఏళ్లు వర్షాలు తక్కువగా పడతాయి. దానికి ఒక కారణం ఎల్ నీనో. పసిఫిక్ మహాసముద్రం మధ్య భాగంలో నీరు సాధారణం కంటే వేడెక్కినప్పుడు దానిని ఎల్ నీనో అంటారు. అప్పుడు గాలుల దిశ మారుతుంది, మేఘాలు కదులుతాయి, భారతదేశంలో వర్షపాతం తగ్గవచ్చు. శాస్త్రవేత్తలు ఉపగ్రహాలతో సముద్రం ఉష్ణోగ్రతను గమనిస్తూ ముందుగానే చెబుతారు. అందుకే ప్రభుత్వం రైతులకు సలహా ఇవ్వగలుగుతోంది. నీరు వృథా చేయకపోవడం మనందరి పని.",
+        "en": "We all depend on rain. In some years the rain is less. One reason is El Nino. When the water in the middle of the Pacific Ocean becomes warmer than usual, scientists call it El Nino. Then winds change direction, clouds move, and rainfall in India can fall. Scientists watch the ocean temperature with satellites and warn us early. That is how the government can advise farmers in advance. Not wasting water is everyone's job."
+      },
+      "vocabulary": [
+        {
+          "te": "ఎల్ నీనో",
+          "en": "El Nino"
+        },
+        {
+          "te": "ఉష్ణోగ్రత",
+          "en": "temperature"
+        },
+        {
+          "te": "ఉపగ్రహం",
+          "en": "satellite"
+        }
+      ]
+    },
+    {
+      "id": "gk_20261017_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261017_reading_2",
+        "en": "gk_20261017_reading_2__en"
+      },
+      "source_ids": [
+        "sports"
+      ],
+      "title": {
+        "te": "సిరీస్ స్కోరు అర్థం చేసుకోవడం",
+        "en": "Understanding a series score"
+      },
+      "passage": {
+        "te": "క్రికెట్ వార్తల్లో సిరీస్ 2-2 అని చదువుతాం. దాని అర్థం ఇరు జట్లు నాలుగు మ్యాచ్‌లు ఆడాయి, రెండో మ్యాచ్‌లో ఒక్కొక్క జట్టు రెండిటిలో గెలిచింది అని కాదు; నాలుగులో రెండు రెండు విజయాలు పంచుకున్నాయని. ఇప్పుడు ఐదో మ్యాచ్ ఎవరు గెలిస్తే వారే సిరీస్ విజేతలు. దానిని నిర్ణాయక మ్యాచ్ అంటారు. నోటౌట్ అంటే బ్యాటర్ ఔట్ కాకుండా మ్యాచ్ ముగిసేలోపు క్రీజులో నిలిచాడని. ఐదు వికెట్లు తీసిన బౌలర్ ప్రత్యేక ప్రశంస పొందుతాడు. ఇలా ప్రతి పదానికి సరైన అర్థం తెలిస్తే స్కోర్‌కార్డ్ కూడా ఒక పాఠం.",
+        "en": "In cricket news we read that a series is level at 2-2. It means the two teams have played four matches and each has won two. Now whoever wins the fifth match wins the series, so it is called the decider. Not out means the batter was still at the crease, unbeaten, when play ended. A bowler who takes five wickets in a match earns special praise. When we know what each word means, even a scorecard becomes a lesson."
+      },
+      "vocabulary": [
+        {
+          "te": "నిర్ణాయక మ్యాచ్",
+          "en": "decider"
+        },
+        {
+          "te": "నోటౌట్",
+          "en": "not out"
+        },
+        {
+          "te": "వికెట్",
+          "en": "wicket"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261017_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261017_q1",
+        "en": "gk_20261017_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261017_q1_answer",
+        "en": "gk_20261017_q1_answer__en"
+      },
+      "item_id": "gk_20261017_telangana_1",
+      "question": {
+        "te": "జలాశయాల్లో ఇప్పుడు సుమారు ఎంత నీరు ఉంది?",
+        "en": "About how much water do the reservoirs hold now?"
+      },
+      "options": {
+        "te": [
+          "200 టీఎంసీ",
+          "462 టీఎంసీ",
+          "50 టీఎంసీ",
+          "1000 టీఎంసీ"
+        ],
+        "en": [
+          "200 TMC",
+          "462 TMC",
+          "50 TMC",
+          "1000 TMC"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నివేదిక 200 టీఎంసీ అంది; సాధారణం 462.",
+        "en": "The report says 200 TMC; the usual is 462."
+      }
+    },
+    {
+      "id": "gk_20261017_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261017_q2",
+        "en": "gk_20261017_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261017_q2_answer",
+        "en": "gk_20261017_q2_answer__en"
+      },
+      "item_id": "gk_20261017_telangana_1",
+      "question": {
+        "te": "అక్టోబర్ 15న విద్యుత్ డిమాండ్ ఎంతతో రికార్డు అయింది?",
+        "en": "What was the record power demand on October 15?"
+      },
+      "options": {
+        "te": [
+          "15,000 మెగావాట్లు",
+          "20,003 మెగావాట్లు",
+          "5,000 మెగావాట్లు",
+          "50,000 మెగావాట్లు"
+        ],
+        "en": [
+          "15,000 MW",
+          "20,003 MW",
+          "5,000 MW",
+          "50,000 MW"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "అక్టోబర్ 15న 20,003 మెగావాట్లు.",
+        "en": "20,003 MW on October 15."
+      }
+    },
+    {
+      "id": "gk_20261017_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261017_q3",
+        "en": "gk_20261017_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261017_q3_answer",
+        "en": "gk_20261017_q3_answer__en"
+      },
+      "item_id": "gk_20261017_india_1",
+      "question": {
+        "te": "భాషిణి ఏ రాష్ట్ర ప్రభుత్వంతో ఒప్పందం కుదుర్చుకుంది?",
+        "en": "Which state government did BHASHINI sign the pact with?"
+      },
+      "options": {
+        "te": [
+          "తెలంగాణ",
+          "మణిపూర్",
+          "కేరళ",
+          "పంజాబ్"
+        ],
+        "en": [
+          "Telangana",
+          "Manipur",
+          "Kerala",
+          "Punjab"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "పీఐబీ విడుదల మణిపూర్ అంది.",
+        "en": "The PIB release says Manipur."
+      }
+    },
+    {
+      "id": "gk_20261017_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261017_q4",
+        "en": "gk_20261017_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261017_q4_answer",
+        "en": "gk_20261017_q4_answer__en"
+      },
+      "item_id": "gk_20261017_world_1",
+      "question": {
+        "te": "ప్రపంచ ఆహార దినోత్సవం ఏ తేదీన?",
+        "en": "On which date is World Food Day observed?"
+      },
+      "options": {
+        "te": [
+          "అక్టోబర్ 16",
+          "నవంబర్ 16",
+          "అక్టోబర్ 31",
+          "డిసెంబర్ 10"
+        ],
+        "en": [
+          "October 16",
+          "November 16",
+          "October 31",
+          "December 10"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఎఫ్‌ఏఓ స్థాపన రోజు అక్టోబర్ 16.",
+        "en": "FAO was founded on October 16."
+      }
+    },
+    {
+      "id": "gk_20261017_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261017_q5",
+        "en": "gk_20261017_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261017_q5_answer",
+        "en": "gk_20261017_q5_answer__en"
+      },
+      "item_id": "gk_20261017_world_1",
+      "question": {
+        "te": "2026 ప్రపంచ ఆహార దినోత్సవ ఇతివృత్తం ఏమిటి?",
+        "en": "What is the World Food Day 2026 theme?"
+      },
+      "options": {
+        "te": [
+          "ఇన్నోవేట్ టుడే, నౌరిష్ టుమారో",
+          "నో ప్లాస్టిక్",
+          "సేవ్ వాటర్",
+          "గ్రో మోర్ ట్రీస్"
+        ],
+        "en": [
+          "Innovate today, Nourish tomorrow",
+          "No plastic",
+          "Save water",
+          "Grow more trees"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఎఫ్‌ఏఓ ప్రకటన ఇదే ఇతివృత్తం చెప్పింది.",
+        "en": "The FAO announcement gives this theme."
+      }
+    },
+    {
+      "id": "gk_20261017_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261017_q6",
+        "en": "gk_20261017_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261017_q6_answer",
+        "en": "gk_20261017_q6_answer__en"
+      },
+      "item_id": "gk_20261017_world_2",
+      "question": {
+        "te": "ఎఫ్‌ఏఓ ప్రధాన కార్యాలయం ఎక్కడ ఉంది?",
+        "en": "Where is the FAO headquarters?"
+      },
+      "options": {
+        "te": [
+          "న్యూయార్క్",
+          "జెనీవా",
+          "రోమ్",
+          "పారిస్"
+        ],
+        "en": [
+          "New York",
+          "Geneva",
+          "Rome",
+          "Paris"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "రోమ్, ఇటలీ.",
+        "en": "Rome, Italy."
+      }
+    },
+    {
+      "id": "gk_20261017_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261017_q7",
+        "en": "gk_20261017_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261017_q7_answer",
+        "en": "gk_20261017_q7_answer__en"
+      },
+      "item_id": "gk_20261017_india_2",
+      "question": {
+        "te": "రాజ్యాంగం ఎనిమిదో షెడ్యూల్‌లో ఎన్ని భాషలు ఉన్నాయి?",
+        "en": "How many languages are in the Eighth Schedule?"
+      },
+      "options": {
+        "te": [
+          "15",
+          "22",
+          "29",
+          "100"
+        ],
+        "en": [
+          "15",
+          "22",
+          "29",
+          "100"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "22 భాషలు; తెలుగు ఒకటి.",
+        "en": "22 languages; Telugu is one."
+      }
+    },
+    {
+      "id": "gk_20261017_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261017_q8",
+        "en": "gk_20261017_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261017_q8_answer",
+        "en": "gk_20261017_q8_answer__en"
+      },
+      "item_id": "gk_20261017_telangana_2",
+      "question": {
+        "te": "హైదరాబాద్ మ్యాచ్‌లో నోటౌట్‌గా 102 పరుగులు చేసినవారు ఎవరు?",
+        "en": "Who scored 102 not out in the Hyderabad match?"
+      },
+      "options": {
+        "te": [
+          "ష్రేయాస్ అయ్యర్",
+          "షై హోప్",
+          "కీమో పాల్",
+          "విరాట్ కోహ్లీ"
+        ],
+        "en": [
+          "Shreyas Iyer",
+          "Shai Hope",
+          "Keemo Paul",
+          "Virat Kohli"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "కెప్టెన్ షై హోప్.",
+        "en": "Captain Shai Hope."
+      }
+    },
+    {
+      "id": "gk_20261017_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261017_q9",
+        "en": "gk_20261017_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261017_q9_answer",
+        "en": "gk_20261017_q9_answer__en"
+      },
+      "item_id": "gk_20261017_telangana_2",
+      "question": {
+        "te": "నిర్ణాయక ఐదో టీ20 ఎక్కడ జరుగుతుంది?",
+        "en": "Where will the deciding fifth T20I be played?"
+      },
+      "options": {
+        "te": [
+          "హైదరాబాద్",
+          "ఢిల్లీ",
+          "బెంగళూరు",
+          "చెన్నై"
+        ],
+        "en": [
+          "Hyderabad",
+          "Delhi",
+          "Bengaluru",
+          "Chennai"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "అక్టోబర్ 17న బెంగళూరులో.",
+        "en": "In Bengaluru on October 17."
+      }
+    },
+    {
+      "id": "gk_20261017_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261017_q10",
+        "en": "gk_20261017_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261017_q10_answer",
+        "en": "gk_20261017_q10_answer__en"
+      },
+      "item_id": "gk_20261017_india_4",
+      "question": {
+        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ విద్యార్థి గడువు ఏ తేదీ?",
+        "en": "What is the NSP renewal student deadline?"
+      },
+      "options": {
+        "te": [
+          "అక్టోబర్ 31",
+          "నవంబర్ 15",
+          "నవంబర్ 30",
+          "డిసెంబర్ 31"
+        ],
+        "en": [
+          "October 31",
+          "November 15",
+          "November 30",
+          "December 31"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "విద్యార్థి గడువు అక్టోబర్ 31.",
+        "en": "The student deadline is October 31."
+      }
+    }
+  ],
+  "edition_date": "2026-10-17",
+  "verified_at": "2026-10-17T00:47:00+05:30",
+  "status": "source_checked_translation_review_recommended",
+  "coverage": [
+    "cards",
+    "current_affairs",
+    "static_gk",
+    "reading_passages",
+    "questions",
+    "listen_clips"
+  ],
+  "editorial_note": "Oct17 early reviewed selection. El Nino water review reported by NDTV Oct16; appeal is advisory, not an order; event date set to report date as meeting date was unstated. BHASHINI-Manipur MoU per PIB Oct15. World Food Day Oct16 with official FAO 2026 theme 'Innovate today. Nourish tomorrow.' Hyderabad T20I Oct14 per Cricinfo/AP; series 2-2, decider Oct17 Bengaluru - edition date matches decider day. NSP renewal dates carried from Oct16 official check; re-verify at publish. Class5-10 original texts; Telugu review recommended, audio inspection pending."
+}
