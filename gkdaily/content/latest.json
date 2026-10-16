@@ -311,7 +311,7 @@
         "en": "Understanding a series score"
       },
       "passage": {
-        "te": "క్రికెట్ వార్తల్లో సిరీస్ 2-2 అని చదువుతాం. దాని అర్థం ఇరు జట్లు నాలుగు మ్యాచ్‌లు ఆడాయి, రెండో మ్యాచ్‌లో ఒక్కొక్క జట్టు రెండిటిలో గెలిచింది అని కాదు; నాలుగులో రెండు రెండు విజయాలు పంచుకున్నాయని. ఇప్పుడు ఐదో మ్యాచ్ ఎవరు గెలిస్తే వారే సిరీస్ విజేతలు. దానిని నిర్ణాయక మ్యాచ్ అంటారు. నోటౌట్ అంటే బ్యాటర్ ఔట్ కాకుండా మ్యాచ్ ముగిసేలోపు క్రీజులో నిలిచాడని. ఐదు వికెట్లు తీసిన బౌలర్ ప్రత్యేక ప్రశంస పొందుతాడు. ఇలా ప్రతి పదానికి సరైన అర్థం తెలిస్తే స్కోర్‌కార్డ్ కూడా ఒక పాఠం.",
+        "te": "క్రికెట్ వార్తల్లో సిరీస్ 2-2 అని చదువుతాం. దాని అర్థం ఇరు జట్లు ఇప్పటివరకు నాలుగు మ్యాచ్‌లు ఆడాయి; వాటిలో రెండింటిని ఒక జట్టు, మిగిలిన రెండింటిని మరో జట్టు గెలిచిందని. ఇప్పుడు ఐదో మ్యాచ్ ఎవరు గెలిస్తే వారే సిరీస్ విజేతలు. దానిని నిర్ణాయక మ్యాచ్ అంటారు. నోటౌట్ అంటే బ్యాటర్ ఔట్ కాకుండా మ్యాచ్ ముగిసేలోపు క్రీజులో నిలిచాడని. ఐదు వికెట్లు తీసిన బౌలర్ ప్రత్యేక ప్రశంస పొందుతాడు. ఇలా ప్రతి పదానికి సరైన అర్థం తెలిస్తే స్కోర్‌కార్డ్ కూడా ఒక పాఠం.",
         "en": "In cricket news we read that a series is level at 2-2. It means the two teams have played four matches and each has won two. Now whoever wins the fifth match wins the series, so it is called the decider. Not out means the batter was still at the crease, unbeaten, when play ended. A bowler who takes five wickets in a match earns special praise. When we know what each word means, even a scorecard becomes a lesson."
       },
       "vocabulary": [
@@ -765,7 +765,7 @@
     }
   ],
   "edition_date": "2026-10-17",
-  "verified_at": "2026-10-17T02:36:00+05:30",
+  "verified_at": "2026-10-17T02:42:00+05:30",
   "status": "source_checked_translation_review_recommended",
   "coverage": [
     "cards",
@@ -775,5 +775,5 @@
     "questions",
     "listen_clips"
   ],
-  "editorial_note": "Oct17 early reviewed selection. El Nino water review reported by NDTV Oct16; appeal is advisory, not an order; event date set to report date as meeting date was unstated. BHASHINI-Manipur MoU per PIB Oct15. World Food Day Oct16 with official FAO 2026 theme 'Innovate today. Nourish tomorrow.' Hyderabad T20I Oct14 per Cricinfo/AP; series 2-2, decider Oct17 Bengaluru - edition date matches decider day. NSP renewal dates carried from Oct16 official check; re-verify at publish. Class5-10 original texts; Telugu review recommended, audio inspection pending. Second-pass 02:36 IST: added two verified-missing cards - Hyderabad water/power conservation review (Deccan Chronicle Oct 16) and Karela Lake 4,600-year monsoon study (DD News Oct 16; past-climate research, not a forecast). No cards replaced or removed."
+  "editorial_note": "Oct17 early reviewed selection. El Nino water review reported by NDTV Oct16; appeal is advisory, not an order; event date set to report date as meeting date was unstated. BHASHINI-Manipur MoU per PIB Oct15. World Food Day Oct16 with official FAO 2026 theme 'Innovate today. Nourish tomorrow.' Hyderabad T20I Oct14 per Cricinfo/AP; series 2-2, decider Oct17 Bengaluru - edition date matches decider day. NSP renewal dates carried from Oct16 official check; re-verify at publish. Class5-10 original texts; Telugu review recommended, audio inspection pending. Second-pass 02:36 IST: added two verified-missing cards - Hyderabad water/power conservation review (Deccan Chronicle Oct 16) and Karela Lake 4,600-year monsoon study (DD News Oct 16; past-climate research, not a forecast). No cards replaced or removed. Guardian fix 02:42 IST: reading 2 garbled Telugu series-score sentence replaced with reviewed wording."
 }
