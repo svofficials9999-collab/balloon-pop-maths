@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "revision": 1,
+ "revision": 2,
  "timezone": "Asia/Kolkata",
  "sources": {
   "tgnews": {
@@ -37,6 +37,11 @@
    "publisher": "United Nations",
    "url": "https://www.un.org/en/observances/un-day",
    "published_date": null
+  },
+  "tgnews3": {
+   "publisher": "Telangana Today",
+   "url": "https://telanganatoday.com/hyderabad-151-officer-trainees-complete-first-phase-of-ips-training",
+   "published_date": "2026-10-17"
   }
  },
  "cards": [
@@ -45,7 +50,8 @@
    "region": "telangana",
    "type": "current_affairs",
    "source_ids": [
-    "tgnews"
+    "tgnews",
+    "tgnews3"
    ],
    "event_date": "2026-10-17",
    "age_band": "class5-10",
@@ -58,8 +64,8 @@
     "en": "Passing-out parade at Hyderabad police academy"
    },
    "summary": {
-    "te": "అక్టోబర్ 17న హైదరాబాద్‌లోని సర్దార్ వల్లభాయ్ పటేల్ జాతీయ పోలీసు అకాడమీలో ఐపీఎస్ 78వ బ్యాచ్ దీక్షాంత్ పరేడ్ జరిగింది. 151 మంది అధికారి శిక్షకులు పరేడ్‌లో పాల్గొన్నారు; వారిలో 37 మంది మహిళా అధికారులు. దీక్షాంత్ పరేడ్ అంటే శిక్షణ పూర్తయిన అధికారులు అధికారికంగా విధుల్లోకి అడుగుపెట్టే సమారంభం. ఐపీఎస్ అంటే ఇండియన్ పోలీస్ సర్వీస్; దేశంలో పోలీసు శాఖకు అగ్ర అధికారులను ఇస్తుంది.",
-    "en": "On October 17, the 78th batch of the Indian Police Service held its Dikshant (passing-out) Parade at the Sardar Vallabhbhai Patel National Police Academy in Hyderabad. 151 officer trainees marched, including 37 women officers. A passing-out parade is the ceremony where trained officers formally begin their service. The IPS, the Indian Police Service, provides senior officers for the country's police forces."
+    "te": "అక్టోబర్ 17న హైదరాబాద్‌లోని సర్దార్ వల్లభాయ్ పటేల్ జాతీయ పోలీసు అకాడమీలో ఐపీఎస్ 78వ బ్యాచ్ దీక్షాంత్ పరేడ్ జరిగింది. 151 మంది అధికారి శిక్షకులు పరేడ్‌లో పాల్గొన్నారు - 135 మంది ఐపీఎస్ ప్రొబేషనర్లు, నేపాల్, భూటాన్, మాల్దీవుల నుంచి 16 మంది విదేశీ శిక్షకులు - ఈ బ్యాచ్‌లో 37 మంది మహిళా అధికారులు ఉన్నారు. ఈ పరేడ్ వారి ప్రాథమిక శిక్షణలో మొదటి దశ పూర్తయినట్టు సూచిస్తుంది; మరిన్ని అటాచ్‌మెంట్లు, రెండో దశ శిక్షణ ఇంకా ఉన్నాయి. ఐపీఎస్ అంటే ఇండియన్ పోలీస్ సర్వీస్; దేశంలో పోలీసు శాఖకు అగ్ర అధికారులను ఇస్తుంది.",
+    "en": "On October 17, the 78th batch of the Indian Police Service held its Dikshant (passing-out) Parade at the Sardar Vallabhbhai Patel National Police Academy in Hyderabad. 151 officer trainees marched - 135 IPS probationers and 16 trainees from Nepal, Bhutan and the Maldives - and the batch includes 37 women officers. The parade marks the completion of the first phase of their basic training; more attachments and Phase-II training still remain. The IPS, the Indian Police Service, provides senior officers for the country's police forces."
    }
   },
   {
@@ -142,12 +148,12 @@
     "en": "gk_20261018_india_3__en"
    },
    "title": {
-    "te": "క్రికెట్: భారత్-వెస్టిండీస్ నిర్ణాయక మ్యాచ్",
-    "en": "Cricket: India vs West Indies decider"
+    "te": "క్రికెట్: భారత్-వెస్టిండీస్ సిరీస్ 2-2 డ్రా",
+    "en": "Cricket: India vs West Indies series drawn 2-2"
    },
    "summary": {
-    "te": "భారత్-వెస్టిండీస్ టీ20 సిరీస్ 2-2తో సమంగా ఉంది. అక్టోబర్ 17 రాత్రి బెంగళూరు చిన్నస్వామి స్టేడియంలో జరిగిన ఐదో, చివరి మ్యాచ్ నిర్ణాయకం. ఎవరు గెలిస్తే వారే సిరీస్ విజేతలు. నిర్ణాయక మ్యాచ్ అంటే సిరీస్ ఫలితాన్ని తేల్చే చివరి మ్యాచ్.",
-    "en": "The India vs West Indies T20 series stood level at 2-2. The fifth and final match, played on the night of October 17 at Bengaluru's Chinnaswamy Stadium, was the decider: the winner takes the series. A decider is the last match that settles the result of a series."
+    "te": "అక్టోబర్ 17 రాత్రి బెంగళూరు చిన్నస్వామి స్టేడియంలో జరిగిన భారత్-వెస్టిండీస్ ఐదో, చివరి టీ20 మ్యాచ్ వర్షం కారణంగా రద్దయింది; భారత్ 7.4 ఓవర్లలో 118/5 చేసిన సమయంలో ఆట ఆగిపోయింది. చివరి మ్యాచ్‌కు ఫలితం లేకపోవడంతో సిరీస్ 2-2తో డ్రా అయింది. డ్రా సిరీస్ అంటే ఏ జట్టూ దాన్ని గెలవకపోవడం.",
+    "en": "The fifth and final T20 match between India and West Indies, played on the night of October 17 at Bengaluru's Chinnaswamy Stadium, was abandoned because of rain after India scored 118/5 in 7.4 overs. With no result in the last match, the series ended drawn 2-2. A drawn series means neither team wins it."
    }
   },
   {
@@ -204,15 +210,16 @@
     "en": "gk_20261018_reading_1__en"
    },
    "source_ids": [
-    "tgnews"
+    "tgnews",
+    "tgnews3"
    ],
    "title": {
     "te": "ఉత్తీర్ణ పరేడ్ అంటే ఏమిటి?",
     "en": "What is a passing-out parade?"
    },
    "passage": {
-    "te": "పోలీసు అధికారి కావాలనుకునే వారు ముందు పరీక్షలు రాసి ఎంపికవుతారు. తరువత అకాడమీలో శిక్షణ పొందుతారు. శిక్షణలో చట్టాలు నేర్చుకుంటారు, కష్టమైన వ్యాయామాలు చేస్తారు, ప్రజలకు ఎలా సేవ చేయాలో తెలుసుకుంటారు. శిక్షణ పూర్తయిన రోజున పరేడ్ గ్రౌండ్‌లో అందరూ క్రమంగా నడుస్తారు; దానినే దీక్షాంత్ లేదా ఉత్తీర్ణ పరేడ్ అంటారు. ఆ రోజు నుంచి వారు నిజమైన అధికారులు. కుటుంబాలు ఆ రోజును పండుగలా జరుపుకుంటాయి.",
-    "en": "Those who want to become police officers first write exams and get selected. Then they train at an academy. In training they learn laws, do hard exercise, and learn how to serve people. On the day training ends, everyone marches in order on the parade ground; this is called the Dikshant or passing-out parade. From that day they are real officers. Families celebrate that day like a festival."
+    "te": "పోలీసు అధికారి కావాలనుకునే వారు ముందు పరీక్షలు రాసి ఎంపికవుతారు. తరువత అకాడమీలో శిక్షణ పొందుతారు. శిక్షణలో చట్టాలు నేర్చుకుంటారు, కష్టమైన వ్యాయామాలు చేస్తారు, ప్రజలకు ఎలా సేవ చేయాలో తెలుసుకుంటారు. శిక్షణ మొదటి దశ పూర్తయిన రోజున పరేడ్ గ్రౌండ్‌లో అందరూ క్రమంగా నడుస్తారు; దానినే దీక్షాంత్ లేదా ఉత్తీర్ణ పరేడ్ అంటారు. పరేడ్ తరువాత మరింత శిక్షణ, ఫీల్డ్ అటాచ్‌మెంట్లు ఉంటాయి; అప్పుడే వారు పూర్తి బాధ్యతలు చేపట్టే అధికారులు అవుతారు. కుటుంబాలు ఆ రోజును పండుగలా జరుపుకుంటాయి.",
+    "en": "Those who want to become police officers first write exams and get selected. Then they train at an academy. In training they learn laws, do hard exercise, and learn how to serve people. When the first phase of training ends, everyone marches in order on the parade ground; this is called the Dikshant or passing-out parade. After the parade, more training and field attachments follow before they take full charge as officers. Families celebrate that day like a festival."
    },
    "vocabulary": [
     {
@@ -296,8 +303,8 @@
    },
    "answer_index": 0,
    "explanation": {
-    "te": "151 మంది పాల్గొన్నారు; 78 బ్యాచ్ సంఖ్య, 37 మంది మహిళా అధికారులు.",
-    "en": "151 marched; 78 is the batch number and 37 the women officers."
+    "te": "151 మంది పాల్గొన్నారు: 135 మంది ఐపీఎస్ ప్రొబేషనర్లు, 16 మంది విదేశీ శిక్షకులు; 78 బ్యాచ్ సంఖ్య, 37 మంది మహిళా అధికారులు.",
+    "en": "151 marched: 135 IPS probationers and 16 foreign trainees; 78 is the batch number and 37 the women officers."
    }
   },
   {
@@ -565,27 +572,27 @@
    },
    "item_id": "gk_20261018_india_3",
    "question": {
-    "te": "టీ20 సిరీస్ ఎంతతో సమంగా ఉంది?",
-    "en": "At what score is the T20 series level?"
+    "te": "భారత్-వెస్టిండీస్ టీ20 సిరీస్ ఎలా ముగిసింది?",
+    "en": "How did the India vs West Indies T20 series end?"
    },
    "options": {
     "te": [
-     "1-1",
-     "2-2",
-     "3-0",
-     "4-1"
+     "భారత్ 3-2తో గెలిచింది",
+     "2-2తో డ్రా",
+     "వెస్టిండీస్ 3-2తో గెలిచింది",
+     "మరో రోజుకు వాయిదా"
     ],
     "en": [
-     "1-1",
-     "2-2",
-     "3-0",
-     "4-1"
+     "India won 3-2",
+     "Drawn 2-2",
+     "West Indies won 3-2",
+     "Postponed to another day"
     ]
    },
    "answer_index": 1,
    "explanation": {
-    "te": "నాలుగు మ్యాచ్‌ల్లో ఇరు జట్లూ రెండేసి గెలిచాయి.",
-    "en": "Each team has won two of the four matches."
+    "te": "భారత్ 7.4 ఓవర్లలో 118/5 ఉన్నప్పుడు చివరి మ్యాచ్ వర్షంతో రద్దయింది; అందుకే సిరీస్ 2-2తో డ్రా అయింది.",
+    "en": "The last match was abandoned due to rain after India reached 118/5 in 7.4 overs, so the series stayed level at 2-2."
    }
   },
   {
@@ -609,19 +616,19 @@
      "మొదటి మ్యాచ్",
      "సిరీస్ ఫలితాన్ని తేల్చే చివరి మ్యాచ్",
      "సాధన మ్యాచ్",
-     "వర్షం వల్ల రద్దైన మ్యాచ్"
+     "వార్మప్ మ్యాచ్"
     ],
     "en": [
      "The first match",
      "The last match that settles the series result",
      "A practice match",
-     "A match cancelled by rain"
+     "A warm-up match"
     ]
    },
    "answer_index": 1,
    "explanation": {
-    "te": "ఐదో మ్యాచ్ గెలిచిన జట్టే సిరీస్ విజేత.",
-    "en": "The team winning the fifth match takes the series."
+    "te": "నిర్ణాయక మ్యాచ్ అంటే సిరీస్ ఫలితాన్ని తేల్చే చివరి మ్యాచ్; ఇక్కడ వర్షం దాన్ని కొట్టుకుపోయింది, కాబట్టి నిర్ణాయకం జరగలేదు, సిరీస్ 2-2తో డ్రా అయింది.",
+    "en": "A decider is the last match that settles a series; here rain washed it out, so the decider never happened and the series was drawn 2-2."
    }
   },
   {
@@ -698,7 +705,7 @@
   }
  ],
  "edition_date": "2026-10-18",
- "verified_at": "2026-10-17T22:46:53.050457+05:30",
+ "verified_at": "2026-10-18T02:41:03.730276+05:30",
  "status": "source_checked_translation_review_recommended",
  "coverage": [
   "cards",
