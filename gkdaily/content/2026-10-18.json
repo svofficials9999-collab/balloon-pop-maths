@@ -1,0 +1,715 @@
+{
+ "schema_version": 1,
+ "revision": 1,
+ "timezone": "Asia/Kolkata",
+ "sources": {
+  "tgnews": {
+   "publisher": "ThePrint",
+   "url": "https://theprint.in/india/151-ips-officer-trainees-to-be-part-of-78th-batchs-dikshant-parade-at-svpnpa/3073035/",
+   "published_date": "2026-10-17"
+  },
+  "tgnews2": {
+   "publisher": "The New Indian Express",
+   "url": "https://www.newindianexpress.com/states/telangana/2026/Oct/17/telangana-revises-estimated-cost-of-vehicle-testing-stations-to-rs-4255-crore",
+   "published_date": "2026-10-17"
+  },
+  "innews": {
+   "publisher": "India Today",
+   "url": "https://www.indiatoday.in/india/story/rubio-to-visit-india-october-17-22-jaishankar-says-trade-talks-heading-towards-a-landing-point-3016793-2026-10-14",
+   "published_date": "2026-10-14"
+  },
+  "worldnews": {
+   "publisher": "IPCC",
+   "url": "https://www.ipcc.ch/2026/10/16/65th-plenary-session-of-ipcc/",
+   "published_date": "2026-10-16"
+  },
+  "sports": {
+   "publisher": "Cricbuzz",
+   "url": "https://www.cricbuzz.com/live-cricket-scores/151602/ind-vs-wi-5th-t20i-west-indies-tour-of-india-2026",
+   "published_date": "2026-10-17"
+  },
+  "ingk": {
+   "publisher": "timeanddate.com",
+   "url": "https://www.timeanddate.com/holidays/india/dussehra",
+   "published_date": null
+  },
+  "worldgk": {
+   "publisher": "United Nations",
+   "url": "https://www.un.org/en/observances/un-day",
+   "published_date": null
+  }
+ },
+ "cards": [
+  {
+   "id": "gk_20261018_telangana_1",
+   "region": "telangana",
+   "type": "current_affairs",
+   "source_ids": [
+    "tgnews"
+   ],
+   "event_date": "2026-10-17",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261018_telangana_1",
+    "en": "gk_20261018_telangana_1__en"
+   },
+   "title": {
+    "te": "హైదరాబాద్ పోలీసు అకాడమీలో దీక్షాంత్ పరేడ్",
+    "en": "Passing-out parade at Hyderabad police academy"
+   },
+   "summary": {
+    "te": "అక్టోబర్ 17న హైదరాబాద్‌లోని సర్దార్ వల్లభాయ్ పటేల్ జాతీయ పోలీసు అకాడమీలో ఐపీఎస్ 78వ బ్యాచ్ దీక్షాంత్ పరేడ్ జరిగింది. 151 మంది అధికారి శిక్షకులు పరేడ్‌లో పాల్గొన్నారు; వారిలో 37 మంది మహిళా అధికారులు. దీక్షాంత్ పరేడ్ అంటే శిక్షణ పూర్తయిన అధికారులు అధికారికంగా విధుల్లోకి అడుగుపెట్టే సమారంభం. ఐపీఎస్ అంటే ఇండియన్ పోలీస్ సర్వీస్; దేశంలో పోలీసు శాఖకు అగ్ర అధికారులను ఇస్తుంది.",
+    "en": "On October 17, the 78th batch of the Indian Police Service held its Dikshant (passing-out) Parade at the Sardar Vallabhbhai Patel National Police Academy in Hyderabad. 151 officer trainees marched, including 37 women officers. A passing-out parade is the ceremony where trained officers formally begin their service. The IPS, the Indian Police Service, provides senior officers for the country's police forces."
+   }
+  },
+  {
+   "id": "gk_20261018_telangana_2",
+   "region": "telangana",
+   "type": "current_affairs",
+   "source_ids": [
+    "tgnews2"
+   ],
+   "event_date": "2026-10-17",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261018_telangana_2",
+    "en": "gk_20261018_telangana_2__en"
+   },
+   "title": {
+    "te": "వాహనాల ఫిట్‌నెస్ పరీక్షకు ఆటోమేటెడ్ కేంద్రాలు",
+    "en": "Automated centres to test vehicle fitness"
+   },
+   "summary": {
+    "te": "తెలంగాణ ప్రభుత్వం రాష్ట్రవ్యాప్తంగా 37 ఆటోమేటెడ్ టెస్టింగ్ స్టేషన్లు ఏర్పాటు చేస్తోంది. వాటి అంచనా వ్యయం రూ. 296 కోట్ల నుంచి రూ. 425.5 కోట్లకు సవరించబడింది. ఈ కేంద్రాల్లో సెన్సార్లతో కూడిన యంత్రాలు వాహనాల బ్రేకులు, ఇంజిన్, పొగ విడుదలను పరీక్షించి రోడ్డుపై తిరగడానికి ఫిట్‌నెస్ ధృవీకరణ ఇస్తాయి. మొదటి దశలో 15 కేంద్రాలు ఆరు నుంచి ఎనిమిది నెలల్లో సిద్ధమవుతాయి.",
+    "en": "The Telangana government is setting up 37 Automated Testing Stations across the state, and their estimated cost has been revised from Rs 296 crore to Rs 425.5 crore. At these centres, sensor-based machines check a vehicle's brakes, engine and smoke emissions before certifying it fit for the road. In the first phase, 15 centres will be ready in six to eight months."
+   }
+  },
+  {
+   "id": "gk_20261018_india_1",
+   "region": "india",
+   "type": "current_affairs",
+   "source_ids": [
+    "innews"
+   ],
+   "event_date": "2026-10-17",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261018_india_1",
+    "en": "gk_20261018_india_1__en"
+   },
+   "title": {
+    "te": "భారతదేశంలో అమెరికా విదేశాంగ మంత్రి పర్యటన",
+    "en": "US Secretary of State visits India"
+   },
+   "summary": {
+    "te": "అమెరికా విదేశాంగ మంత్రి మార్కో రూబియో అక్టోబర్ 17 నుంచి 22 వరకు ఆరు రోజులు భారతదేశంలో పర్యటిస్తున్నారు. అక్టోబర్ 20న ఆయన మన విదేశాంగ మంత్రి జైశంకర్‌తో భేటీ అవుతారు. రెండు దేశాల మధ్య వాణిజ్య ఒప్పంద చర్చలు ముగింపు దశకు చేరుకుంటున్నాయని అధికారులు చెబుతున్నారు. వాణిజ్య ఒప్పందం అంటే రెండు దేశాలు వస్తువుల అమ్మకం-కొనుగోలు నియమాలపై చేసుకునే ఒప్పందం.",
+    "en": "US Secretary of State Marco Rubio is visiting India from October 17 to 22, a six-day trip. On October 20 he meets India's External Affairs Minister S. Jaishankar. Officials say trade-deal talks between the two countries are nearing a 'landing point'. A trade deal is an agreement between two countries on the rules for buying and selling goods."
+   }
+  },
+  {
+   "id": "gk_20261018_world_1",
+   "region": "world",
+   "type": "current_affairs",
+   "source_ids": [
+    "worldnews"
+   ],
+   "event_date": "2026-10-16",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261018_world_1",
+    "en": "gk_20261018_world_1__en"
+   },
+   "title": {
+    "te": "ఐపీసీసీ సర్వసభ్య సమావేశం వాయిదా",
+    "en": "IPCC plenary session paused"
+   },
+   "summary": {
+    "te": "అక్టోబర్ 16న ఎథియోపియా రాజధాని అడిస్ అబాబాలో జరిగిన ఐపీసీసీ 65వ సర్వసభ్య సమావేశాన్ని అధ్యక్షుడు జిమ్ స్కీయా తాత్కాలికంగా వాయిదా వేశారు. సమావేశం నిర్ణీత సమయం దాటడంతో పలు దేశాల ప్రతినిధులు వెళ్లిపోవాల్సి వచ్చింది. తదుపరి భారీ నివేదిక షెడ్యూలు, బడ్జెట్‌పై చర్చలు త్వరలో మళ్లీ ప్రారంభమవుతాయి. ఐపీసీసీ అంటే వాతావరణ మార్పు శాస్త్రాన్ని సమీక్షించే ఐక్యరాజ్యసమితి సంస్థ.",
+    "en": "On October 16, IPCC Chair Jim Skea suspended the 65th Plenary Session in Addis Ababa, Ethiopia, after the meeting ran past its planned time and many delegations had to leave. Talks on the timeline of its next big assessment report and its budget will resume at the earliest opportunity. The IPCC is the United Nations body that assesses the science of climate change."
+   }
+  },
+  {
+   "id": "gk_20261018_india_3",
+   "region": "india",
+   "type": "current_affairs",
+   "source_ids": [
+    "sports"
+   ],
+   "event_date": "2026-10-17",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261018_india_3",
+    "en": "gk_20261018_india_3__en"
+   },
+   "title": {
+    "te": "క్రికెట్: భారత్-వెస్టిండీస్ నిర్ణాయక మ్యాచ్",
+    "en": "Cricket: India vs West Indies decider"
+   },
+   "summary": {
+    "te": "భారత్-వెస్టిండీస్ టీ20 సిరీస్ 2-2తో సమంగా ఉంది. అక్టోబర్ 17 రాత్రి బెంగళూరు చిన్నస్వామి స్టేడియంలో జరిగిన ఐదో, చివరి మ్యాచ్ నిర్ణాయకం. ఎవరు గెలిస్తే వారే సిరీస్ విజేతలు. నిర్ణాయక మ్యాచ్ అంటే సిరీస్ ఫలితాన్ని తేల్చే చివరి మ్యాచ్.",
+    "en": "The India vs West Indies T20 series stood level at 2-2. The fifth and final match, played on the night of October 17 at Bengaluru's Chinnaswamy Stadium, was the decider: the winner takes the series. A decider is the last match that settles the result of a series."
+   }
+  },
+  {
+   "id": "gk_20261018_india_2",
+   "region": "india",
+   "type": "static_gk",
+   "source_ids": [
+    "ingk"
+   ],
+   "event_date": null,
+   "age_band": "class3-10",
+   "audio_ids": {
+    "te": "gk_20261018_india_2",
+    "en": "gk_20261018_india_2__en"
+   },
+   "title": {
+    "te": "దసరా: అక్టోబర్ 20",
+    "en": "Dussehra on October 20"
+   },
+   "summary": {
+    "te": "ఈ ఏటి దసరా (విజయదశమి) అక్టోబర్ 20 మంగళవారం వస్తుంది. ఇది చెడుపై మంచి గెలిచిన విజయానికి సూచన. ఆశ్వయుజ మాసం శుక్ల పక్షంలో పదో రోజున ఈ పండుగ వస్తుంది; భారతదేశంలో ఇది ప్రభుత్వ సెలవుదినం. దసరా నాడు చాలా చోట్ల రావణుడి దిగ్గజ బొమ్మలను దహించే రావణ దహన్ ఉత్సవం జరుగుతుంది.",
+    "en": "This year Dussehra (Vijayadashami) falls on Tuesday, October 20. It marks the victory of good over evil. The festival comes on the tenth day of the bright half of the month of Ashvin, and it is a gazetted holiday in India. In many places people burn giant effigies of Ravana in the Ravana Dahan celebration."
+   }
+  },
+  {
+   "id": "gk_20261018_world_2",
+   "region": "world",
+   "type": "static_gk",
+   "source_ids": [
+    "worldgk"
+   ],
+   "event_date": null,
+   "age_band": "class3-10",
+   "audio_ids": {
+    "te": "gk_20261018_world_2",
+    "en": "gk_20261018_world_2__en"
+   },
+   "title": {
+    "te": "ఐక్యరాజ్యసమితి దినోత్సవం: అక్టోబర్ 24",
+    "en": "United Nations Day: October 24"
+   },
+   "summary": {
+    "te": "ప్రతి ఏటా అక్టోబర్ 24న ఐక్యరాజ్యసమితి దినోత్సవం జరుపుకుంటారు. 1945లో ఈ రోజున ఐక్యరాజ్యసమితి చార్టర్ అమల్లోకి వచ్చింది. ఇప్పుడు దానిలో 193 దేశాలు సభ్యులు; ప్రధాన కార్యాలయం అమెరికాలోని న్యూయార్క్ నగరంలో ఉంది. ప్రపంచ శాంతి, భద్రత, పిల్లల హక్కులు, ఆరోగ్యం వంటి అంశాలపై ఇది పనిచేస్తుంది.",
+    "en": "United Nations Day is marked every year on October 24. On this day in 1945, the UN Charter came into force. Today 193 countries are members, and its headquarters is in New York City, USA. It works on world peace, security, children's rights, health and more."
+   }
+  }
+ ],
+ "readings": [
+  {
+   "id": "gk_20261018_reading_1",
+   "age_band": "class5-7",
+   "audio_ids": {
+    "te": "gk_20261018_reading_1",
+    "en": "gk_20261018_reading_1__en"
+   },
+   "source_ids": [
+    "tgnews"
+   ],
+   "title": {
+    "te": "ఉత్తీర్ణ పరేడ్ అంటే ఏమిటి?",
+    "en": "What is a passing-out parade?"
+   },
+   "passage": {
+    "te": "పోలీసు అధికారి కావాలనుకునే వారు ముందు పరీక్షలు రాసి ఎంపికవుతారు. తరువత అకాడమీలో శిక్షణ పొందుతారు. శిక్షణలో చట్టాలు నేర్చుకుంటారు, కష్టమైన వ్యాయామాలు చేస్తారు, ప్రజలకు ఎలా సేవ చేయాలో తెలుసుకుంటారు. శిక్షణ పూర్తయిన రోజున పరేడ్ గ్రౌండ్‌లో అందరూ క్రమంగా నడుస్తారు; దానినే దీక్షాంత్ లేదా ఉత్తీర్ణ పరేడ్ అంటారు. ఆ రోజు నుంచి వారు నిజమైన అధికారులు. కుటుంబాలు ఆ రోజును పండుగలా జరుపుకుంటాయి.",
+    "en": "Those who want to become police officers first write exams and get selected. Then they train at an academy. In training they learn laws, do hard exercise, and learn how to serve people. On the day training ends, everyone marches in order on the parade ground; this is called the Dikshant or passing-out parade. From that day they are real officers. Families celebrate that day like a festival."
+   },
+   "vocabulary": [
+    {
+     "te": "దీక్షాంత్",
+     "en": "passing out (graduation)"
+    },
+    {
+     "te": "శిక్షణ",
+     "en": "training"
+    },
+    {
+     "te": "పరేడ్",
+     "en": "parade"
+    }
+   ]
+  },
+  {
+   "id": "gk_20261018_reading_2",
+   "age_band": "class8-10",
+   "audio_ids": {
+    "te": "gk_20261018_reading_2",
+    "en": "gk_20261018_reading_2__en"
+   },
+   "source_ids": [
+    "worldnews"
+   ],
+   "title": {
+    "te": "ఐపీసీసీ అంటే ఏమిటి, అది ఎలా పనిచేస్తుంది?",
+    "en": "What is the IPCC and how does it work?"
+   },
+   "passage": {
+    "te": "వాతావరణ మార్పు అంటే భూమి సగటు ఉష్ణోగ్రత పెరగడం. దీని గురించి ప్రభుత్వాలకు నమ్మకమైన శాస్త్రీయ సమాచారం ఇవ్వడానికి ఐక్యరాజ్యసమితి 1988లో ఐపీసీసీని ఏర్పాటు చేసింది. ఇది స్వయంచాలకంగా కొత్త పరిశోధన చేయదు; ప్రపంచంలోని శాస్త్రవేత్తలు ఇప్పటికే ప్రచురితమైన పరిశోధనలన్నింటిని చదివి, సమీక్షించి నివేదికలు తయారు చేస్తారు. ఈ నివేదికలను అసెస్‌మెంట్ రిపోర్టులు అంటారు. ప్రతి నివేదికను సభ్య దేశాలు సర్వసభ్య సమావేశంలో చర్చించి ఆమోదిస్తాయి. అందుకే సమావేశం వాయిదా పడితే తదుపరి నివేదిక షెడ్యూలు కూడా ఆలస్యమవుతుంది.",
+    "en": "Climate change means the Earth's average temperature is rising. To give governments trustworthy scientific information about it, the United Nations set up the IPCC in 1988. It does not do new research on its own; scientists from around the world read and assess all the research already published and prepare reports. These are called assessment reports. Member countries discuss and approve each report at a plenary session. That is why when a session is suspended, the schedule of the next report is also delayed."
+   },
+   "vocabulary": [
+    {
+     "te": "వాతావరణ మార్పు",
+     "en": "climate change"
+    },
+    {
+     "te": "సమీక్ష",
+     "en": "assessment"
+    },
+    {
+     "te": "సర్వసభ్య సమావేశం",
+     "en": "plenary session"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "gk_20261018_q1",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q1",
+    "en": "gk_20261018_q1__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q1_answer",
+    "en": "gk_20261018_q1_answer__en"
+   },
+   "item_id": "gk_20261018_telangana_1",
+   "question": {
+    "te": "దీక్షాంత్ పరేడ్‌లో ఎంత మంది అధికారి శిక్షకులు పాల్గొన్నారు?",
+    "en": "How many officer trainees took part in the Dikshant Parade?"
+   },
+   "options": {
+    "te": [
+     "151",
+     "78",
+     "37",
+     "425"
+    ],
+    "en": [
+     "151",
+     "78",
+     "37",
+     "425"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "151 మంది పాల్గొన్నారు; 78 బ్యాచ్ సంఖ్య, 37 మంది మహిళా అధికారులు.",
+    "en": "151 marched; 78 is the batch number and 37 the women officers."
+   }
+  },
+  {
+   "id": "gk_20261018_q2",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q2",
+    "en": "gk_20261018_q2__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q2_answer",
+    "en": "gk_20261018_q2_answer__en"
+   },
+   "item_id": "gk_20261018_telangana_1",
+   "question": {
+    "te": "సర్దార్ వల్లభాయ్ పటేల్ జాతీయ పోలీసు అకాడమీ ఎక్కడ ఉంది?",
+    "en": "Where is the Sardar Vallabhbhai Patel National Police Academy?"
+   },
+   "options": {
+    "te": [
+     "ఢిల్లీ",
+     "ముంబై",
+     "హైదరాబాద్",
+     "చెన్నై"
+    ],
+    "en": [
+     "Delhi",
+     "Mumbai",
+     "Hyderabad",
+     "Chennai"
+    ]
+   },
+   "answer_index": 2,
+   "explanation": {
+    "te": "హైదరాబాద్‌లో ఉంది.",
+    "en": "It is in Hyderabad."
+   }
+  },
+  {
+   "id": "gk_20261018_q3",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q3",
+    "en": "gk_20261018_q3__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q3_answer",
+    "en": "gk_20261018_q3_answer__en"
+   },
+   "item_id": "gk_20261018_telangana_2",
+   "question": {
+    "te": "తెలంగాణలో ఎన్ని ఆటోమేటెడ్ టెస్టింగ్ స్టేషన్లు ఏర్పాటవుతున్నాయి?",
+    "en": "How many Automated Testing Stations are being set up in Telangana?"
+   },
+   "options": {
+    "te": [
+     "15",
+     "37",
+     "296",
+     "50"
+    ],
+    "en": [
+     "15",
+     "37",
+     "296",
+     "50"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "మొత్తం 37; మొదటి దశలో 15.",
+    "en": "37 in all; 15 in the first phase."
+   }
+  },
+  {
+   "id": "gk_20261018_q4",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q4",
+    "en": "gk_20261018_q4__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q4_answer",
+    "en": "gk_20261018_q4_answer__en"
+   },
+   "item_id": "gk_20261018_telangana_2",
+   "question": {
+    "te": "టెస్టింగ్ స్టేషన్ల అంచనా వ్యయం ఎంతకు సవరించబడింది?",
+    "en": "To what was the testing stations' estimated cost revised?"
+   },
+   "options": {
+    "te": [
+     "రూ. 296 కోట్లు",
+     "రూ. 425.5 కోట్లు",
+     "రూ. 100 కోట్లు",
+     "రూ. 11.5 కోట్లు"
+    ],
+    "en": [
+     "Rs 296 crore",
+     "Rs 425.5 crore",
+     "Rs 100 crore",
+     "Rs 11.5 crore"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "రూ. 296 కోట్ల నుంచి రూ. 425.5 కోట్లకు పెరిగింది.",
+    "en": "It rose from Rs 296 crore to Rs 425.5 crore."
+   }
+  },
+  {
+   "id": "gk_20261018_q5",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q5",
+    "en": "gk_20261018_q5__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q5_answer",
+    "en": "gk_20261018_q5_answer__en"
+   },
+   "item_id": "gk_20261018_india_1",
+   "question": {
+    "te": "మార్కో రూబియో భారత పర్యటన ఎన్ని రోజులు?",
+    "en": "How long is Marco Rubio's India visit?"
+   },
+   "options": {
+    "te": [
+     "రెండు రోజులు",
+     "నాలుగు రోజులు",
+     "ఆరు రోజులు",
+     "పది రోజులు"
+    ],
+    "en": [
+     "Two days",
+     "Four days",
+     "Six days",
+     "Ten days"
+    ]
+   },
+   "answer_index": 2,
+   "explanation": {
+    "te": "అక్టోబర్ 17 నుంచి 22 వరకు ఆరు రోజులు.",
+    "en": "October 17 to 22, six days."
+   }
+  },
+  {
+   "id": "gk_20261018_q6",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q6",
+    "en": "gk_20261018_q6__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q6_answer",
+    "en": "gk_20261018_q6_answer__en"
+   },
+   "item_id": "gk_20261018_india_1",
+   "question": {
+    "te": "రూబియో జైశంకర్‌ను ఏ రోజు కలుస్తారు?",
+    "en": "On which day does Rubio meet Jaishankar?"
+   },
+   "options": {
+    "te": [
+     "అక్టోబర్ 17",
+     "అక్టోబర్ 20",
+     "అక్టోబర్ 22",
+     "అక్టోబర్ 24"
+    ],
+    "en": [
+     "October 17",
+     "October 20",
+     "October 22",
+     "October 24"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "అక్టోబర్ 20న భేటీ.",
+    "en": "They meet on October 20."
+   }
+  },
+  {
+   "id": "gk_20261018_q7",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q7",
+    "en": "gk_20261018_q7__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q7_answer",
+    "en": "gk_20261018_q7_answer__en"
+   },
+   "item_id": "gk_20261018_world_1",
+   "question": {
+    "te": "ఐపీసీసీ 65వ సర్వసభ్య సమావేశం ఏ నగరంలో జరిగింది?",
+    "en": "In which city was the 65th IPCC Plenary Session held?"
+   },
+   "options": {
+    "te": [
+     "న్యూయార్క్",
+     "అడిస్ అబాబా",
+     "ఢిల్లీ",
+     "జెనీవా"
+    ],
+    "en": [
+     "New York",
+     "Addis Ababa",
+     "Delhi",
+     "Geneva"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "ఎథియోపియా రాజధాని అడిస్ అబాబాలో.",
+    "en": "In Addis Ababa, the capital of Ethiopia."
+   }
+  },
+  {
+   "id": "gk_20261018_q8",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q8",
+    "en": "gk_20261018_q8__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q8_answer",
+    "en": "gk_20261018_q8_answer__en"
+   },
+   "item_id": "gk_20261018_world_1",
+   "question": {
+    "te": "ఐపీసీసీ ఏ సంస్థ?",
+    "en": "What is the IPCC?"
+   },
+   "options": {
+    "te": [
+     "అంతర్జాతీయ క్రికెట్ మండలి",
+     "వాతావరణ మార్పుపై ఐక్యరాజ్యసమితి సంస్థ",
+     "ప్రపంచ ఆహార సంస్థ",
+     "భారత పోలీసు అకాడమీ"
+    ],
+    "en": [
+     "The international cricket council",
+     "A UN body on climate change",
+     "The world food body",
+     "India's police academy"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "వాతావరణ మార్పు శాస్త్రాన్ని సమీక్షించే ఐక్యరాజ్యసమితి సంస్థ.",
+    "en": "The UN body that assesses climate-change science."
+   }
+  },
+  {
+   "id": "gk_20261018_q9",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q9",
+    "en": "gk_20261018_q9__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q9_answer",
+    "en": "gk_20261018_q9_answer__en"
+   },
+   "item_id": "gk_20261018_india_3",
+   "question": {
+    "te": "టీ20 సిరీస్ ఎంతతో సమంగా ఉంది?",
+    "en": "At what score is the T20 series level?"
+   },
+   "options": {
+    "te": [
+     "1-1",
+     "2-2",
+     "3-0",
+     "4-1"
+    ],
+    "en": [
+     "1-1",
+     "2-2",
+     "3-0",
+     "4-1"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "నాలుగు మ్యాచ్‌ల్లో ఇరు జట్లూ రెండేసి గెలిచాయి.",
+    "en": "Each team has won two of the four matches."
+   }
+  },
+  {
+   "id": "gk_20261018_q10",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q10",
+    "en": "gk_20261018_q10__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q10_answer",
+    "en": "gk_20261018_q10_answer__en"
+   },
+   "item_id": "gk_20261018_india_3",
+   "question": {
+    "te": "నిర్ణాయక మ్యాచ్ అంటే ఏమిటి?",
+    "en": "What is a decider?"
+   },
+   "options": {
+    "te": [
+     "మొదటి మ్యాచ్",
+     "సిరీస్ ఫలితాన్ని తేల్చే చివరి మ్యాచ్",
+     "సాధన మ్యాచ్",
+     "వర్షం వల్ల రద్దైన మ్యాచ్"
+    ],
+    "en": [
+     "The first match",
+     "The last match that settles the series result",
+     "A practice match",
+     "A match cancelled by rain"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "ఐదో మ్యాచ్ గెలిచిన జట్టే సిరీస్ విజేత.",
+    "en": "The team winning the fifth match takes the series."
+   }
+  },
+  {
+   "id": "gk_20261018_q11",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q11",
+    "en": "gk_20261018_q11__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q11_answer",
+    "en": "gk_20261018_q11_answer__en"
+   },
+   "item_id": "gk_20261018_india_2",
+   "question": {
+    "te": "ఈ ఏటి దసరా ఏ తేదీన వస్తుంది?",
+    "en": "On which date does Dussehra fall this year?"
+   },
+   "options": {
+    "te": [
+     "అక్టోబర్ 20",
+     "అక్టోబర్ 24",
+     "అక్టోబర్ 17",
+     "నవంబర్ 1"
+    ],
+    "en": [
+     "October 20",
+     "October 24",
+     "October 17",
+     "November 1"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "అక్టోబర్ 20 మంగళవారం.",
+    "en": "Tuesday, October 20."
+   }
+  },
+  {
+   "id": "gk_20261018_q12",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q12",
+    "en": "gk_20261018_q12__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q12_answer",
+    "en": "gk_20261018_q12_answer__en"
+   },
+   "item_id": "gk_20261018_world_2",
+   "question": {
+    "te": "ఐక్యరాజ్యసమితిలో ఎన్ని దేశాలు సభ్యులు?",
+    "en": "How many countries are members of the United Nations?"
+   },
+   "options": {
+    "te": [
+     "151",
+     "193",
+     "100",
+     "78"
+    ],
+    "en": [
+     "151",
+     "193",
+     "100",
+     "78"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "193 దేశాలు సభ్యులు.",
+    "en": "193 countries are members."
+   }
+  }
+ ],
+ "edition_date": "2026-10-18",
+ "verified_at": "2026-10-17T22:46:53.050457+05:30",
+ "status": "source_checked_translation_review_recommended",
+ "coverage": [
+  "cards",
+  "current_affairs",
+  "static_gk",
+  "reading_passages",
+  "questions",
+  "listen_clips"
+ ],
+ "editorial_note": {
+  "te": "ఈ పత్రికలోని కంటెంట్ విద్యా ప్రయోజనాల కోసం మాత్రమే; అధికారిక ప్రకటనల కోసం సంబంధిత వెబ్‌సైట్లు చూడండి.",
+  "en": "Content in this edition is for educational purposes only; check the linked sources for official announcements."
+ }
+}
