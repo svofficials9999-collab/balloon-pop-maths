@@ -1,779 +1,715 @@
 {
-  "schema_version": 1,
-  "revision": 1,
-  "timezone": "Asia/Kolkata",
-  "sources": {
-    "tggk": {
-      "publisher": "Telangana State Portal",
-      "url": "https://www.telangana.gov.in/",
-      "published_date": null
-    },
-    "ingk": {
-      "publisher": "Know India",
-      "url": "https://knowindia.india.gov.in/profile/",
-      "published_date": null
-    },
-    "worldgk": {
-      "publisher": "Food and Agriculture Organization",
-      "url": "https://www.fao.org/about/about-fao/en/",
-      "published_date": null
-    },
-    "scholarships": {
-      "publisher": "National Scholarship Portal",
-      "url": "https://scholarships.gov.in/Students",
-      "published_date": null
-    },
-    "tgnews": {
-      "publisher": "NDTV",
-      "url": "https://www.ndtv.com/india-news/el-nino-worst-in-decades-telangana-revanth-reddy-urges-farmers-to-defer-one-crop-12193039",
-      "published_date": "2026-10-16"
-    },
-    "innews": {
-      "publisher": "Press Information Bureau",
-      "url": "https://www.pib.gov.in/PressReleaseDetail.aspx?lang=1&PRID=2323665&reg=3",
-      "published_date": "2026-10-15"
-    },
-    "worldnews": {
-      "publisher": "Food and Agriculture Organization",
-      "url": "https://www.fao.org/world-food-day/en",
-      "published_date": null
-    },
-    "worlddate": {
-      "publisher": "United Nations",
-      "url": "https://www.un.org/en/observances/day-for-eradicating-poverty",
-      "published_date": null
-    },
-    "sports": {
-      "publisher": "ESPNcricinfo",
-      "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-4th-t20i-1529233/full-scorecard",
-      "published_date": "2026-10-14"
-    },
-    "tgreview": {
-      "publisher": "Deccan Chronicle",
-      "url": "https://www.deccanchronicle.com/southern-states/telangana/jayesh-ranjan-asks-officials-to-conserve-water-electricity-amid-el-nio-threat-1996379",
-      "published_date": "2026-10-16"
-    },
-    "instudy": {
-      "publisher": "DD News",
-      "url": "https://ddnews.gov.in/en/study-reconstructs-4600-years-of-monsoon-and-environmental-history-in-central-ganga-plain/",
-      "published_date": "2026-10-16"
-    }
+ "schema_version": 1,
+ "revision": 1,
+ "timezone": "Asia/Kolkata",
+ "sources": {
+  "tgnews": {
+   "publisher": "ThePrint",
+   "url": "https://theprint.in/india/151-ips-officer-trainees-to-be-part-of-78th-batchs-dikshant-parade-at-svpnpa/3073035/",
+   "published_date": "2026-10-17"
   },
-  "cards": [
+  "tgnews2": {
+   "publisher": "The New Indian Express",
+   "url": "https://www.newindianexpress.com/states/telangana/2026/Oct/17/telangana-revises-estimated-cost-of-vehicle-testing-stations-to-rs-4255-crore",
+   "published_date": "2026-10-17"
+  },
+  "innews": {
+   "publisher": "India Today",
+   "url": "https://www.indiatoday.in/india/story/rubio-to-visit-india-october-17-22-jaishankar-says-trade-talks-heading-towards-a-landing-point-3016793-2026-10-14",
+   "published_date": "2026-10-14"
+  },
+  "worldnews": {
+   "publisher": "IPCC",
+   "url": "https://www.ipcc.ch/2026/10/16/65th-plenary-session-of-ipcc/",
+   "published_date": "2026-10-16"
+  },
+  "sports": {
+   "publisher": "Cricbuzz",
+   "url": "https://www.cricbuzz.com/live-cricket-scores/151602/ind-vs-wi-5th-t20i-west-indies-tour-of-india-2026",
+   "published_date": "2026-10-17"
+  },
+  "ingk": {
+   "publisher": "timeanddate.com",
+   "url": "https://www.timeanddate.com/holidays/india/dussehra",
+   "published_date": null
+  },
+  "worldgk": {
+   "publisher": "United Nations",
+   "url": "https://www.un.org/en/observances/un-day",
+   "published_date": null
+  }
+ },
+ "cards": [
+  {
+   "id": "gk_20261018_telangana_1",
+   "region": "telangana",
+   "type": "current_affairs",
+   "source_ids": [
+    "tgnews"
+   ],
+   "event_date": "2026-10-17",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261018_telangana_1",
+    "en": "gk_20261018_telangana_1__en"
+   },
+   "title": {
+    "te": "హైదరాబాద్ పోలీసు అకాడమీలో దీక్షాంత్ పరేడ్",
+    "en": "Passing-out parade at Hyderabad police academy"
+   },
+   "summary": {
+    "te": "అక్టోబర్ 17న హైదరాబాద్‌లోని సర్దార్ వల్లభాయ్ పటేల్ జాతీయ పోలీసు అకాడమీలో ఐపీఎస్ 78వ బ్యాచ్ దీక్షాంత్ పరేడ్ జరిగింది. 151 మంది అధికారి శిక్షకులు పరేడ్‌లో పాల్గొన్నారు; వారిలో 37 మంది మహిళా అధికారులు. దీక్షాంత్ పరేడ్ అంటే శిక్షణ పూర్తయిన అధికారులు అధికారికంగా విధుల్లోకి అడుగుపెట్టే సమారంభం. ఐపీఎస్ అంటే ఇండియన్ పోలీస్ సర్వీస్; దేశంలో పోలీసు శాఖకు అగ్ర అధికారులను ఇస్తుంది.",
+    "en": "On October 17, the 78th batch of the Indian Police Service held its Dikshant (passing-out) Parade at the Sardar Vallabhbhai Patel National Police Academy in Hyderabad. 151 officer trainees marched, including 37 women officers. A passing-out parade is the ceremony where trained officers formally begin their service. The IPS, the Indian Police Service, provides senior officers for the country's police forces."
+   }
+  },
+  {
+   "id": "gk_20261018_telangana_2",
+   "region": "telangana",
+   "type": "current_affairs",
+   "source_ids": [
+    "tgnews2"
+   ],
+   "event_date": "2026-10-17",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261018_telangana_2",
+    "en": "gk_20261018_telangana_2__en"
+   },
+   "title": {
+    "te": "వాహనాల ఫిట్‌నెస్ పరీక్షకు ఆటోమేటెడ్ కేంద్రాలు",
+    "en": "Automated centres to test vehicle fitness"
+   },
+   "summary": {
+    "te": "తెలంగాణ ప్రభుత్వం రాష్ట్రవ్యాప్తంగా 37 ఆటోమేటెడ్ టెస్టింగ్ స్టేషన్లు ఏర్పాటు చేస్తోంది. వాటి అంచనా వ్యయం రూ. 296 కోట్ల నుంచి రూ. 425.5 కోట్లకు సవరించబడింది. ఈ కేంద్రాల్లో సెన్సార్లతో కూడిన యంత్రాలు వాహనాల బ్రేకులు, ఇంజిన్, పొగ విడుదలను పరీక్షించి రోడ్డుపై తిరగడానికి ఫిట్‌నెస్ ధృవీకరణ ఇస్తాయి. మొదటి దశలో 15 కేంద్రాలు ఆరు నుంచి ఎనిమిది నెలల్లో సిద్ధమవుతాయి.",
+    "en": "The Telangana government is setting up 37 Automated Testing Stations across the state, and their estimated cost has been revised from Rs 296 crore to Rs 425.5 crore. At these centres, sensor-based machines check a vehicle's brakes, engine and smoke emissions before certifying it fit for the road. In the first phase, 15 centres will be ready in six to eight months."
+   }
+  },
+  {
+   "id": "gk_20261018_india_1",
+   "region": "india",
+   "type": "current_affairs",
+   "source_ids": [
+    "innews"
+   ],
+   "event_date": "2026-10-17",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261018_india_1",
+    "en": "gk_20261018_india_1__en"
+   },
+   "title": {
+    "te": "భారతదేశంలో అమెరికా విదేశాంగ మంత్రి పర్యటన",
+    "en": "US Secretary of State visits India"
+   },
+   "summary": {
+    "te": "అమెరికా విదేశాంగ మంత్రి మార్కో రూబియో అక్టోబర్ 17 నుంచి 22 వరకు ఆరు రోజులు భారతదేశంలో పర్యటిస్తున్నారు. అక్టోబర్ 20న ఆయన మన విదేశాంగ మంత్రి జైశంకర్‌తో భేటీ అవుతారు. రెండు దేశాల మధ్య వాణిజ్య ఒప్పంద చర్చలు ముగింపు దశకు చేరుకుంటున్నాయని అధికారులు చెబుతున్నారు. వాణిజ్య ఒప్పందం అంటే రెండు దేశాలు వస్తువుల అమ్మకం-కొనుగోలు నియమాలపై చేసుకునే ఒప్పందం.",
+    "en": "US Secretary of State Marco Rubio is visiting India from October 17 to 22, a six-day trip. On October 20 he meets India's External Affairs Minister S. Jaishankar. Officials say trade-deal talks between the two countries are nearing a 'landing point'. A trade deal is an agreement between two countries on the rules for buying and selling goods."
+   }
+  },
+  {
+   "id": "gk_20261018_world_1",
+   "region": "world",
+   "type": "current_affairs",
+   "source_ids": [
+    "worldnews"
+   ],
+   "event_date": "2026-10-16",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261018_world_1",
+    "en": "gk_20261018_world_1__en"
+   },
+   "title": {
+    "te": "ఐపీసీసీ సర్వసభ్య సమావేశం వాయిదా",
+    "en": "IPCC plenary session paused"
+   },
+   "summary": {
+    "te": "అక్టోబర్ 16న ఎథియోపియా రాజధాని అడిస్ అబాబాలో జరిగిన ఐపీసీసీ 65వ సర్వసభ్య సమావేశాన్ని అధ్యక్షుడు జిమ్ స్కీయా తాత్కాలికంగా వాయిదా వేశారు. సమావేశం నిర్ణీత సమయం దాటడంతో పలు దేశాల ప్రతినిధులు వెళ్లిపోవాల్సి వచ్చింది. తదుపరి భారీ నివేదిక షెడ్యూలు, బడ్జెట్‌పై చర్చలు త్వరలో మళ్లీ ప్రారంభమవుతాయి. ఐపీసీసీ అంటే వాతావరణ మార్పు శాస్త్రాన్ని సమీక్షించే ఐక్యరాజ్యసమితి సంస్థ.",
+    "en": "On October 16, IPCC Chair Jim Skea suspended the 65th Plenary Session in Addis Ababa, Ethiopia, after the meeting ran past its planned time and many delegations had to leave. Talks on the timeline of its next big assessment report and its budget will resume at the earliest opportunity. The IPCC is the United Nations body that assesses the science of climate change."
+   }
+  },
+  {
+   "id": "gk_20261018_india_3",
+   "region": "india",
+   "type": "current_affairs",
+   "source_ids": [
+    "sports"
+   ],
+   "event_date": "2026-10-17",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261018_india_3",
+    "en": "gk_20261018_india_3__en"
+   },
+   "title": {
+    "te": "క్రికెట్: భారత్-వెస్టిండీస్ నిర్ణాయక మ్యాచ్",
+    "en": "Cricket: India vs West Indies decider"
+   },
+   "summary": {
+    "te": "భారత్-వెస్టిండీస్ టీ20 సిరీస్ 2-2తో సమంగా ఉంది. అక్టోబర్ 17 రాత్రి బెంగళూరు చిన్నస్వామి స్టేడియంలో జరిగిన ఐదో, చివరి మ్యాచ్ నిర్ణాయకం. ఎవరు గెలిస్తే వారే సిరీస్ విజేతలు. నిర్ణాయక మ్యాచ్ అంటే సిరీస్ ఫలితాన్ని తేల్చే చివరి మ్యాచ్.",
+    "en": "The India vs West Indies T20 series stood level at 2-2. The fifth and final match, played on the night of October 17 at Bengaluru's Chinnaswamy Stadium, was the decider: the winner takes the series. A decider is the last match that settles the result of a series."
+   }
+  },
+  {
+   "id": "gk_20261018_india_2",
+   "region": "india",
+   "type": "static_gk",
+   "source_ids": [
+    "ingk"
+   ],
+   "event_date": null,
+   "age_band": "class3-10",
+   "audio_ids": {
+    "te": "gk_20261018_india_2",
+    "en": "gk_20261018_india_2__en"
+   },
+   "title": {
+    "te": "దసరా: అక్టోబర్ 20",
+    "en": "Dussehra on October 20"
+   },
+   "summary": {
+    "te": "ఈ ఏటి దసరా (విజయదశమి) అక్టోబర్ 20 మంగళవారం వస్తుంది. ఇది చెడుపై మంచి గెలిచిన విజయానికి సూచన. ఆశ్వయుజ మాసం శుక్ల పక్షంలో పదో రోజున ఈ పండుగ వస్తుంది; భారతదేశంలో ఇది ప్రభుత్వ సెలవుదినం. దసరా నాడు చాలా చోట్ల రావణుడి దిగ్గజ బొమ్మలను దహించే రావణ దహన్ ఉత్సవం జరుగుతుంది.",
+    "en": "This year Dussehra (Vijayadashami) falls on Tuesday, October 20. It marks the victory of good over evil. The festival comes on the tenth day of the bright half of the month of Ashvin, and it is a gazetted holiday in India. In many places people burn giant effigies of Ravana in the Ravana Dahan celebration."
+   }
+  },
+  {
+   "id": "gk_20261018_world_2",
+   "region": "world",
+   "type": "static_gk",
+   "source_ids": [
+    "worldgk"
+   ],
+   "event_date": null,
+   "age_band": "class3-10",
+   "audio_ids": {
+    "te": "gk_20261018_world_2",
+    "en": "gk_20261018_world_2__en"
+   },
+   "title": {
+    "te": "ఐక్యరాజ్యసమితి దినోత్సవం: అక్టోబర్ 24",
+    "en": "United Nations Day: October 24"
+   },
+   "summary": {
+    "te": "ప్రతి ఏటా అక్టోబర్ 24న ఐక్యరాజ్యసమితి దినోత్సవం జరుపుకుంటారు. 1945లో ఈ రోజున ఐక్యరాజ్యసమితి చార్టర్ అమల్లోకి వచ్చింది. ఇప్పుడు దానిలో 193 దేశాలు సభ్యులు; ప్రధాన కార్యాలయం అమెరికాలోని న్యూయార్క్ నగరంలో ఉంది. ప్రపంచ శాంతి, భద్రత, పిల్లల హక్కులు, ఆరోగ్యం వంటి అంశాలపై ఇది పనిచేస్తుంది.",
+    "en": "United Nations Day is marked every year on October 24. On this day in 1945, the UN Charter came into force. Today 193 countries are members, and its headquarters is in New York City, USA. It works on world peace, security, children's rights, health and more."
+   }
+  }
+ ],
+ "readings": [
+  {
+   "id": "gk_20261018_reading_1",
+   "age_band": "class5-7",
+   "audio_ids": {
+    "te": "gk_20261018_reading_1",
+    "en": "gk_20261018_reading_1__en"
+   },
+   "source_ids": [
+    "tgnews"
+   ],
+   "title": {
+    "te": "ఉత్తీర్ణ పరేడ్ అంటే ఏమిటి?",
+    "en": "What is a passing-out parade?"
+   },
+   "passage": {
+    "te": "పోలీసు అధికారి కావాలనుకునే వారు ముందు పరీక్షలు రాసి ఎంపికవుతారు. తరువత అకాడమీలో శిక్షణ పొందుతారు. శిక్షణలో చట్టాలు నేర్చుకుంటారు, కష్టమైన వ్యాయామాలు చేస్తారు, ప్రజలకు ఎలా సేవ చేయాలో తెలుసుకుంటారు. శిక్షణ పూర్తయిన రోజున పరేడ్ గ్రౌండ్‌లో అందరూ క్రమంగా నడుస్తారు; దానినే దీక్షాంత్ లేదా ఉత్తీర్ణ పరేడ్ అంటారు. ఆ రోజు నుంచి వారు నిజమైన అధికారులు. కుటుంబాలు ఆ రోజును పండుగలా జరుపుకుంటాయి.",
+    "en": "Those who want to become police officers first write exams and get selected. Then they train at an academy. In training they learn laws, do hard exercise, and learn how to serve people. On the day training ends, everyone marches in order on the parade ground; this is called the Dikshant or passing-out parade. From that day they are real officers. Families celebrate that day like a festival."
+   },
+   "vocabulary": [
     {
-      "id": "gk_20261017_telangana_1",
-      "region": "telangana",
-      "type": "current_affairs",
-      "source_ids": [
-        "tgnews"
-      ],
-      "event_date": "2026-10-17",
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261017_telangana_1",
-        "en": "gk_20261017_telangana_1__en"
-      },
-      "title": {
-        "te": "నీటి నిల్వలు తగ్గాయి: రైతులకు ముఖ్యమంత్రి విజ్ఞప్తి",
-        "en": "Water levels down: Chief Minister appeals to farmers"
-      },
-      "summary": {
-        "te": "అక్టోబర్ 16న ఎన్‌డీటీవీ నివేదిక ప్రకారం, తెలంగాణ ముఖ్యమంత్రి రేవంత్ రెడ్డి నీటి, విద్యుత్ పరిస్థితిపై సమీక్ష నిర్వహించారు. ఈ ఏటి ఎల్ నీనో దశాబ్దాలలో అత్యంత తీవ్రమైనదిగా చెప్పారు. రైతులు నీటిని ఎక్కువగా అడిగే వరి పంటను ఒక పంటా సంవత్సరం వాయిదా వేయాలని కోరారు. రాష్ట్ర జలాశయాల్లో ప్రస్తుతం సుమారు 200 టీఎంసీ నీరు ఉంది; ఈ కాలంలో సాధారణంగా 462 టీఎంసీ ఉండాలి. అక్టోబర్ 14 నాటికి వర్షపాతం సాధారణం కంటే 27.82 శాతం తక్కువ. అక్టోబర్ 15న విద్యుత్ డిమాండ్ 20,003 మెగావాట్లతో రికార్డు. తదుపరి వర్షాలు 2027 జూలైలో అని అంచనా. ఎల్ నీనో అంటే పసిఫిక్ మహాసముద్రంలో నీరు వేడెక్కడంతో వర్షాల పాట మారే ప్రకృతి దృగ్విషయం.",
-        "en": "NDTV reported on October 16 that Telangana Chief Minister Revanth Reddy held a review of the water and power situation. He called this year's El Nino the worst in decades and asked farmers to defer one crop cycle, especially water-intensive paddy. State reservoirs now hold about 200 TMC of water against the usual 462 TMC for this period. Rainfall was 27.82 percent below normal by October 14. Power demand touched a record 20,003 megawatts on October 15. The next rains are expected only in July 2027. El Nino is a natural pattern where the Pacific Ocean warms and rainfall patterns change."
-      }
+     "te": "దీక్షాంత్",
+     "en": "passing out (graduation)"
     },
     {
-      "id": "gk_20261017_telangana_2",
-      "region": "telangana",
-      "type": "current_affairs",
-      "source_ids": [
-        "sports"
-      ],
-      "event_date": "2026-10-14",
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261017_telangana_2",
-        "en": "gk_20261017_telangana_2__en"
-      },
-      "title": {
-        "te": "హైదరాబాద్‌లో వెస్టిండీస్ విజయం: సిరీస్ 2-2",
-        "en": "West Indies win in Hyderabad: series level 2-2"
-      },
-      "summary": {
-        "te": "హైదరాబాద్‌లో జరిగిన నాల్గో టీ20 అంతర్జాతీయ మ్యాచ్‌లో వెస్టిండీస్ భారత్‌పై 24 పరుగుల తేడాతో గెలిచిందని క్రిక్‌ఇన్‌ఫో స్కోర్‌కార్డు చెబుతోంది. కెప్టెన్ షై హోప్ 50 బంతుల్లో 102 పరుగులు చేసి నోటౌట్ నిలిచారు. కీమో పాల్ ఐదు వికెట్లు తీశారు. ఐదు మ్యాచ్‌ల సిరీస్ ఇప్పుడు 2-2తో సమం. నిర్ణాయక ఐదో మ్యాచ్ అక్టోబర్ 17న బెంగళూరులో జరుగుతుంది. ష్రేయాస్ అయ్యర్ ఐసీసీ టీ20 బ్యాటింగ్ ర్యాంకింగ్స్‌లో నాల్గో స్థానానికి చేరారు.",
-        "en": "The Cricinfo scorecard says West Indies beat India by 24 runs in the fourth T20 International played in Hyderabad. Captain Shai Hope stayed not out on 102 runs from 50 balls, and Keemo Paul took five wickets. The five-match series is now level at 2-2. The deciding fifth match will be played in Bengaluru on October 17. Shreyas Iyer has moved up to fourth place in the ICC T20I batting rankings."
-      }
+     "te": "శిక్షణ",
+     "en": "training"
     },
     {
-      "id": "gk_20261017_telangana_3",
-      "region": "telangana",
-      "type": "current_affairs",
-      "source_ids": [
-        "tgreview"
-      ],
-      "event_date": "2026-10-16",
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261017_telangana_3",
-        "en": "gk_20261017_telangana_3__en"
-      },
-      "title": {
-        "te": "నీరు, విద్యుత్ ఆదా చేయాలి: అధికారులకు సూచన",
-        "en": "Save water and power, officials told"
-      },
-      "summary": {
-        "te": "అక్టోబర్ 16న డెక్కన్ క్రానికల్ నివేదిక ప్రకారం, ఎల్ నీనో ముప్పు నేపథ్యంలో సీనియర్ అధికారి జయేష్ రంజన్ హైదరాబాద్‌లో సమీక్ష నిర్వహించి, నీరు, విద్యుత్ పరిమితులపై అప్రమత్తంగా ఉండి వాటిని ఆదా చేయాలని అధికారులను కోరారు. జలాశయాల నిల్వలు తగ్గడం, వర్షపాత లోటు, విద్యుత్ డిమాండ్ పెరుగుదల ఈ సూచనల వెనుక ఉన్న కారణాలు. సమీక్ష అంటే అధికారులు పరిస్థితిని పరిశీలించి తదుపరి చర్యలు నిర్ణయించే సమావేశం.",
-        "en": "Deccan Chronicle reported on October 16 that, with an El Nino threat ahead, senior official Jayesh Ranjan held a review in Hyderabad and asked officials to stay alert about water and electricity limits and to conserve both. Falling reservoir storage, a rainfall deficit and rising power demand are behind the advice. A review is a meeting where officials examine a situation and decide next steps."
-      }
-    },
-    {
-      "id": "gk_20261017_india_1",
-      "region": "india",
-      "type": "current_affairs",
-      "source_ids": [
-        "innews"
-      ],
-      "event_date": "2026-10-15",
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261017_india_1",
-        "en": "gk_20261017_india_1__en"
-      },
-      "title": {
-        "te": "భాషిణి: మణిపూర్‌తో భాషా సాంకేతిక ఒప్పందం",
-        "en": "BHASHINI: language technology pact with Manipur"
-      },
-      "summary": {
-        "te": "అక్టోబర్ 15న పీఐబీ విడుదల ప్రకారం, డిజిటల్ ఇండియా భాషిణి విభాగం, మణిపూర్ ప్రభుత్వం ఒప్పందం కుదుర్చుకున్నాయి. భారతీయ భాషల్లో డిజిటల్ సేవలు అందేలా కృత్రిమ మేధస్సు, భాషా సాంకేతిక పరికరాలను ప్రభుత్వ సేవల్లోకి తీసుకురావడం లక్ష్యం. భాషిణి అంటే ప్రభుత్వ భాషా-అనువాద వేదిక; ఇది ఒక భాషలో మాట్లాడితే మరో భారతీయ భాషలోకి మార్చి ఇస్తుంది. దీనివల్ల మణిపూర్ ప్రజలు తమ భాషల్లోనే ప్రభుత్వ సమాచారం పొందగలరు.",
-        "en": "A PIB release on October 15 says the Digital India BHASHINI Division and the Government of Manipur signed an agreement. The goal is to bring artificial intelligence and language technology tools into government services so that digital information becomes easier to use in Indian languages. BHASHINI is the government's translation platform: it can turn speech or text in one Indian language into another. With this, people in Manipur can get government information in their own language."
-      }
-    },
-    {
-      "id": "gk_20261017_india_2",
-      "region": "india",
-      "type": "static_gk",
-      "source_ids": [
-        "ingk"
-      ],
-      "event_date": null,
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261017_india_2",
-        "en": "gk_20261017_india_2__en"
-      },
-      "title": {
-        "te": "రాజ్యాంగ షెడ్యూల్ భాషలు 22",
-        "en": "22 languages in the Eighth Schedule"
-      },
-      "summary": {
-        "te": "భారత రాజ్యాంగం ఎనిమిదో షెడ్యూల్‌లో 22 భాషలు ఉన్నాయి. తెలుగు వాటిలో ఒకటి. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. భాషిణి వంటి సాంకేతిక వేదికలు ఈ భాషలన్నింటికీ డిజిటల్ సేవలు అందించాలనే లక్ష్యంతో పని చేస్తున్నాయి.",
-        "en": "The Eighth Schedule of the Indian Constitution lists 22 languages. Telugu is one of them. This is static GK, not a new event today. Platforms like BHASHINI are working to bring digital services to all these languages."
-      }
-    },
-    {
-      "id": "gk_20261017_india_3",
-      "region": "india",
-      "type": "current_affairs",
-      "source_ids": [
-        "instudy"
-      ],
-      "event_date": "2026-10-16",
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261017_india_3",
-        "en": "gk_20261017_india_3__en"
-      },
-      "title": {
-        "te": "4,600 ఏళ్ల వర్షపాత చరిత్ర: కరేలా సరస్సు పరిశోధన",
-        "en": "4,600 years of monsoon history: Karela Lake study"
-      },
-      "summary": {
-        "te": "అక్టోబర్ 16న డీడీ న్యూస్ నివేదిక ప్రకారం, శాస్త్రవేత్తలు ఉత్తరప్రదేశ్‌లోని కరేలా సరస్సు అవక్షేపాలను అధ్యయనం చేసి, మధ్య గంగా మైదానంలో సుమారు 4,600 సంవత్సరాల వర్షపాతం, పర్యావరణ మార్పుల చరిత్రను పునర్నిర్మించారు. సరస్సు అడుగున పడే మట్టి పొరలు గత వర్షపాతం, వృక్షజాలం, వ్యవసాయానికి ఆధారాలు దాచుతాయి. ఇది గతానికి సంబంధించిన పరిశోధన; రేపు ఎంత వర్షం పడుతుందో దీనితో తెలియదు.",
-        "en": "DD News reported on October 16 that scientists studied sediments from Karela Lake in Uttar Pradesh and reconstructed about 4,600 years of monsoon and environmental history in the central Ganga Plain. Layers of mud at the bottom of a lake preserve evidence of past rainfall, vegetation and farming. This is research about the past; it cannot say how much rain will fall tomorrow."
-      }
-    },
-    {
-      "id": "gk_20261017_india_4",
-      "region": "india",
-      "type": "current_affairs",
-      "source_ids": [
-        "scholarships"
-      ],
-      "event_date": null,
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261017_india_4",
-        "en": "gk_20261017_india_4__en"
-      },
-      "title": {
-        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ గడువు",
-        "en": "NSP renewal deadline"
-      },
-      "summary": {
-        "te": "అక్టోబర్ 17న తనిఖీ చేసిన అధికారిక ఎన్‌ఎస్‌పీ ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి గడువు 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30. ముగింపు సమయం ఇవ్వలేదు. అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు కాదు.",
-        "en": "The official NSP announcement checked on October 17 says renewal applications are open for the PM-USP Central Sector Scheme for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student deadline is October 31, 2026; institute verification November 15; Level 2 verification November 30. No cutoff time is given. This applies only to eligible renewal applicants, not every scholarship."
-      },
-      "category": "scholarship_notification",
-      "deadline_date": "2026-10-31",
-      "deadline_time": null
-    },
-    {
-      "id": "gk_20261017_world_1",
-      "region": "world",
-      "type": "current_affairs",
-      "source_ids": [
-        "worldnews"
-      ],
-      "event_date": "2026-10-16",
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261017_world_1",
-        "en": "gk_20261017_world_1__en"
-      },
-      "title": {
-        "te": "ప్రపంచ ఆహార దినోత్సవం: కొత్త ఆలోచనలు, మంచి ఆహారం",
-        "en": "World Food Day: new ideas, good food"
-      },
-      "summary": {
-        "te": "అక్టోబర్ 16న ప్రపంచ ఆహార దినోత్సవం జరిగింది. ఐక్యరాజ్యసమితి ఆహార, వ్యవసాయ సంస్థ (ఎఫ్‌ఏఓ) ఈ రోజునే 1945లో స్థాపించబడింది; అందుకే ఈ తేదీ. 2026 ఇతివృత్తం: ఇన్నోవేట్ టుడే, నౌరిష్ టుమారో - అంటే నేడు కొత్త పద్ధతులు ఆలోచిస్తే రేపు అందరికీ పోషకాహారం. వృద్ధా చేసే ఆహారం తగ్గించడం, పంటలను తక్కువ నీటితో పెంచే మార్గాలు ఇందులో భాగం.",
-        "en": "World Food Day was observed on October 16. The United Nations Food and Agriculture Organization (FAO) was founded on this very date in 1945, which is why this day was chosen. The 2026 theme is Innovate today, Nourish tomorrow: if we find new methods today, everyone can have nutritious food tomorrow. Wasting less food and growing crops with less water are part of this idea."
-      }
-    },
-    {
-      "id": "gk_20261017_world_2",
-      "region": "world",
-      "type": "static_gk",
-      "source_ids": [
-        "worldgk"
-      ],
-      "event_date": null,
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261017_world_2",
-        "en": "gk_20261017_world_2__en"
-      },
-      "title": {
-        "te": "ఎఫ్‌ఏఓ: ఆకలిని జయించే లక్ష్యం",
-        "en": "FAO: the goal of defeating hunger"
-      },
-      "summary": {
-        "te": "ఎఫ్‌ఏఓ అంటే ఐక్యరాజ్యసమితి ఆహార, వ్యవసాయ సంస్థ. ఇది 1945 అక్టోబర్ 16న స్థాపించబడింది; ప్రధాన కార్యాలయం ఇటలీలోని రోమ్‌లో ఉంది. ప్రపంచంలో ఎవరికీ ఆకలి ఉండకూడదనే లక్ష్యంతో పని చేసే ప్రత్యేక సంస్థ ఇది. ఇది స్థిరమైన సాధారణ జ్ఞానం.",
-        "en": "FAO is the Food and Agriculture Organization of the United Nations. It was founded on October 16, 1945, and its headquarters is in Rome, Italy. It is a specialized agency working toward a world where nobody goes hungry. This is static GK."
-      }
+     "te": "పరేడ్",
+     "en": "parade"
     }
-  ],
-  "readings": [
+   ]
+  },
+  {
+   "id": "gk_20261018_reading_2",
+   "age_band": "class8-10",
+   "audio_ids": {
+    "te": "gk_20261018_reading_2",
+    "en": "gk_20261018_reading_2__en"
+   },
+   "source_ids": [
+    "worldnews"
+   ],
+   "title": {
+    "te": "ఐపీసీసీ అంటే ఏమిటి, అది ఎలా పనిచేస్తుంది?",
+    "en": "What is the IPCC and how does it work?"
+   },
+   "passage": {
+    "te": "వాతావరణ మార్పు అంటే భూమి సగటు ఉష్ణోగ్రత పెరగడం. దీని గురించి ప్రభుత్వాలకు నమ్మకమైన శాస్త్రీయ సమాచారం ఇవ్వడానికి ఐక్యరాజ్యసమితి 1988లో ఐపీసీసీని ఏర్పాటు చేసింది. ఇది స్వయంచాలకంగా కొత్త పరిశోధన చేయదు; ప్రపంచంలోని శాస్త్రవేత్తలు ఇప్పటికే ప్రచురితమైన పరిశోధనలన్నింటిని చదివి, సమీక్షించి నివేదికలు తయారు చేస్తారు. ఈ నివేదికలను అసెస్‌మెంట్ రిపోర్టులు అంటారు. ప్రతి నివేదికను సభ్య దేశాలు సర్వసభ్య సమావేశంలో చర్చించి ఆమోదిస్తాయి. అందుకే సమావేశం వాయిదా పడితే తదుపరి నివేదిక షెడ్యూలు కూడా ఆలస్యమవుతుంది.",
+    "en": "Climate change means the Earth's average temperature is rising. To give governments trustworthy scientific information about it, the United Nations set up the IPCC in 1988. It does not do new research on its own; scientists from around the world read and assess all the research already published and prepare reports. These are called assessment reports. Member countries discuss and approve each report at a plenary session. That is why when a session is suspended, the schedule of the next report is also delayed."
+   },
+   "vocabulary": [
     {
-      "id": "gk_20261017_reading_1",
-      "age_band": "class5-7",
-      "audio_ids": {
-        "te": "gk_20261017_reading_1",
-        "en": "gk_20261017_reading_1__en"
-      },
-      "source_ids": [
-        "tgnews"
-      ],
-      "title": {
-        "te": "ఎల్ నీనో అంటే ఏమిటి?",
-        "en": "What is El Nino?"
-      },
-      "passage": {
-        "te": "మనం వర్షాలపై ఆధారపడతాం. కొన్ని ఏళ్లు వర్షాలు తక్కువగా పడతాయి. దానికి ఒక కారణం ఎల్ నీనో. పసిఫిక్ మహాసముద్రం మధ్య భాగంలో నీరు సాధారణం కంటే వేడెక్కినప్పుడు దానిని ఎల్ నీనో అంటారు. అప్పుడు గాలుల దిశ మారుతుంది, మేఘాలు కదులుతాయి, భారతదేశంలో వర్షపాతం తగ్గవచ్చు. శాస్త్రవేత్తలు ఉపగ్రహాలతో సముద్రం ఉష్ణోగ్రతను గమనిస్తూ ముందుగానే చెబుతారు. అందుకే ప్రభుత్వం రైతులకు సలహా ఇవ్వగలుగుతోంది. నీరు వృథా చేయకపోవడం మనందరి పని.",
-        "en": "We all depend on rain. In some years the rain is less. One reason is El Nino. When the water in the middle of the Pacific Ocean becomes warmer than usual, scientists call it El Nino. Then winds change direction, clouds move, and rainfall in India can fall. Scientists watch the ocean temperature with satellites and warn us early. That is how the government can advise farmers in advance. Not wasting water is everyone's job."
-      },
-      "vocabulary": [
-        {
-          "te": "ఎల్ నీనో",
-          "en": "El Nino"
-        },
-        {
-          "te": "ఉష్ణోగ్రత",
-          "en": "temperature"
-        },
-        {
-          "te": "ఉపగ్రహం",
-          "en": "satellite"
-        }
-      ]
+     "te": "వాతావరణ మార్పు",
+     "en": "climate change"
     },
     {
-      "id": "gk_20261017_reading_2",
-      "age_band": "class8-10",
-      "audio_ids": {
-        "te": "gk_20261017_reading_2",
-        "en": "gk_20261017_reading_2__en"
-      },
-      "source_ids": [
-        "sports"
-      ],
-      "title": {
-        "te": "సిరీస్ స్కోరు అర్థం చేసుకోవడం",
-        "en": "Understanding a series score"
-      },
-      "passage": {
-        "te": "క్రికెట్ వార్తల్లో సిరీస్ 2-2 అని చదువుతాం. దాని అర్థం ఇరు జట్లు ఇప్పటివరకు నాలుగు మ్యాచ్‌లు ఆడాయి; వాటిలో రెండింటిని ఒక జట్టు, మిగిలిన రెండింటిని మరో జట్టు గెలిచిందని. ఇప్పుడు ఐదో మ్యాచ్ ఎవరు గెలిస్తే వారే సిరీస్ విజేతలు. దానిని నిర్ణాయక మ్యాచ్ అంటారు. నోటౌట్ అంటే బ్యాటర్ ఔట్ కాకుండా మ్యాచ్ ముగిసేలోపు క్రీజులో నిలిచాడని. ఐదు వికెట్లు తీసిన బౌలర్ ప్రత్యేక ప్రశంస పొందుతాడు. ఇలా ప్రతి పదానికి సరైన అర్థం తెలిస్తే స్కోర్‌కార్డ్ కూడా ఒక పాఠం.",
-        "en": "In cricket news we read that a series is level at 2-2. It means the two teams have played four matches and each has won two. Now whoever wins the fifth match wins the series, so it is called the decider. Not out means the batter was still at the crease, unbeaten, when play ended. A bowler who takes five wickets in a match earns special praise. When we know what each word means, even a scorecard becomes a lesson."
-      },
-      "vocabulary": [
-        {
-          "te": "నిర్ణాయక మ్యాచ్",
-          "en": "decider"
-        },
-        {
-          "te": "నోటౌట్",
-          "en": "not out"
-        },
-        {
-          "te": "వికెట్",
-          "en": "wicket"
-        }
-      ]
+     "te": "సమీక్ష",
+     "en": "assessment"
+    },
+    {
+     "te": "సర్వసభ్య సమావేశం",
+     "en": "plenary session"
     }
-  ],
-  "quiz": [
-    {
-      "id": "gk_20261017_q1",
-      "style": "original_practice_not_official_exam",
-      "audio_ids": {
-        "te": "gk_20261017_q1",
-        "en": "gk_20261017_q1__en"
-      },
-      "answer_audio_ids": {
-        "te": "gk_20261017_q1_answer",
-        "en": "gk_20261017_q1_answer__en"
-      },
-      "item_id": "gk_20261017_telangana_1",
-      "question": {
-        "te": "జలాశయాల్లో ఇప్పుడు సుమారు ఎంత నీరు ఉంది?",
-        "en": "About how much water do the reservoirs hold now?"
-      },
-      "options": {
-        "te": [
-          "200 టీఎంసీ",
-          "462 టీఎంసీ",
-          "50 టీఎంసీ",
-          "1000 టీఎంసీ"
-        ],
-        "en": [
-          "200 TMC",
-          "462 TMC",
-          "50 TMC",
-          "1000 TMC"
-        ]
-      },
-      "answer_index": 0,
-      "explanation": {
-        "te": "నివేదిక 200 టీఎంసీ అంది; సాధారణం 462.",
-        "en": "The report says 200 TMC; the usual is 462."
-      }
-    },
-    {
-      "id": "gk_20261017_q2",
-      "style": "original_practice_not_official_exam",
-      "audio_ids": {
-        "te": "gk_20261017_q2",
-        "en": "gk_20261017_q2__en"
-      },
-      "answer_audio_ids": {
-        "te": "gk_20261017_q2_answer",
-        "en": "gk_20261017_q2_answer__en"
-      },
-      "item_id": "gk_20261017_telangana_1",
-      "question": {
-        "te": "అక్టోబర్ 15న విద్యుత్ డిమాండ్ ఎంతతో రికార్డు అయింది?",
-        "en": "What was the record power demand on October 15?"
-      },
-      "options": {
-        "te": [
-          "15,000 మెగావాట్లు",
-          "20,003 మెగావాట్లు",
-          "5,000 మెగావాట్లు",
-          "50,000 మెగావాట్లు"
-        ],
-        "en": [
-          "15,000 MW",
-          "20,003 MW",
-          "5,000 MW",
-          "50,000 MW"
-        ]
-      },
-      "answer_index": 1,
-      "explanation": {
-        "te": "అక్టోబర్ 15న 20,003 మెగావాట్లు.",
-        "en": "20,003 MW on October 15."
-      }
-    },
-    {
-      "id": "gk_20261017_q3",
-      "style": "original_practice_not_official_exam",
-      "audio_ids": {
-        "te": "gk_20261017_q3",
-        "en": "gk_20261017_q3__en"
-      },
-      "answer_audio_ids": {
-        "te": "gk_20261017_q3_answer",
-        "en": "gk_20261017_q3_answer__en"
-      },
-      "item_id": "gk_20261017_india_1",
-      "question": {
-        "te": "భాషిణి ఏ రాష్ట్ర ప్రభుత్వంతో ఒప్పందం కుదుర్చుకుంది?",
-        "en": "Which state government did BHASHINI sign the pact with?"
-      },
-      "options": {
-        "te": [
-          "తెలంగాణ",
-          "మణిపూర్",
-          "కేరళ",
-          "పంజాబ్"
-        ],
-        "en": [
-          "Telangana",
-          "Manipur",
-          "Kerala",
-          "Punjab"
-        ]
-      },
-      "answer_index": 1,
-      "explanation": {
-        "te": "పీఐబీ విడుదల మణిపూర్ అంది.",
-        "en": "The PIB release says Manipur."
-      }
-    },
-    {
-      "id": "gk_20261017_q4",
-      "style": "original_practice_not_official_exam",
-      "audio_ids": {
-        "te": "gk_20261017_q4",
-        "en": "gk_20261017_q4__en"
-      },
-      "answer_audio_ids": {
-        "te": "gk_20261017_q4_answer",
-        "en": "gk_20261017_q4_answer__en"
-      },
-      "item_id": "gk_20261017_world_1",
-      "question": {
-        "te": "ప్రపంచ ఆహార దినోత్సవం ఏ తేదీన?",
-        "en": "On which date is World Food Day observed?"
-      },
-      "options": {
-        "te": [
-          "అక్టోబర్ 16",
-          "నవంబర్ 16",
-          "అక్టోబర్ 31",
-          "డిసెంబర్ 10"
-        ],
-        "en": [
-          "October 16",
-          "November 16",
-          "October 31",
-          "December 10"
-        ]
-      },
-      "answer_index": 0,
-      "explanation": {
-        "te": "ఎఫ్‌ఏఓ స్థాపన రోజు అక్టోబర్ 16.",
-        "en": "FAO was founded on October 16."
-      }
-    },
-    {
-      "id": "gk_20261017_q5",
-      "style": "original_practice_not_official_exam",
-      "audio_ids": {
-        "te": "gk_20261017_q5",
-        "en": "gk_20261017_q5__en"
-      },
-      "answer_audio_ids": {
-        "te": "gk_20261017_q5_answer",
-        "en": "gk_20261017_q5_answer__en"
-      },
-      "item_id": "gk_20261017_world_1",
-      "question": {
-        "te": "2026 ప్రపంచ ఆహార దినోత్సవ ఇతివృత్తం ఏమిటి?",
-        "en": "What is the World Food Day 2026 theme?"
-      },
-      "options": {
-        "te": [
-          "ఇన్నోవేట్ టుడే, నౌరిష్ టుమారో",
-          "నో ప్లాస్టిక్",
-          "సేవ్ వాటర్",
-          "గ్రో మోర్ ట్రీస్"
-        ],
-        "en": [
-          "Innovate today, Nourish tomorrow",
-          "No plastic",
-          "Save water",
-          "Grow more trees"
-        ]
-      },
-      "answer_index": 0,
-      "explanation": {
-        "te": "ఎఫ్‌ఏఓ ప్రకటన ఇదే ఇతివృత్తం చెప్పింది.",
-        "en": "The FAO announcement gives this theme."
-      }
-    },
-    {
-      "id": "gk_20261017_q6",
-      "style": "original_practice_not_official_exam",
-      "audio_ids": {
-        "te": "gk_20261017_q6",
-        "en": "gk_20261017_q6__en"
-      },
-      "answer_audio_ids": {
-        "te": "gk_20261017_q6_answer",
-        "en": "gk_20261017_q6_answer__en"
-      },
-      "item_id": "gk_20261017_world_2",
-      "question": {
-        "te": "ఎఫ్‌ఏఓ ప్రధాన కార్యాలయం ఎక్కడ ఉంది?",
-        "en": "Where is the FAO headquarters?"
-      },
-      "options": {
-        "te": [
-          "న్యూయార్క్",
-          "జెనీవా",
-          "రోమ్",
-          "పారిస్"
-        ],
-        "en": [
-          "New York",
-          "Geneva",
-          "Rome",
-          "Paris"
-        ]
-      },
-      "answer_index": 2,
-      "explanation": {
-        "te": "రోమ్, ఇటలీ.",
-        "en": "Rome, Italy."
-      }
-    },
-    {
-      "id": "gk_20261017_q7",
-      "style": "original_practice_not_official_exam",
-      "audio_ids": {
-        "te": "gk_20261017_q7",
-        "en": "gk_20261017_q7__en"
-      },
-      "answer_audio_ids": {
-        "te": "gk_20261017_q7_answer",
-        "en": "gk_20261017_q7_answer__en"
-      },
-      "item_id": "gk_20261017_india_2",
-      "question": {
-        "te": "రాజ్యాంగం ఎనిమిదో షెడ్యూల్‌లో ఎన్ని భాషలు ఉన్నాయి?",
-        "en": "How many languages are in the Eighth Schedule?"
-      },
-      "options": {
-        "te": [
-          "15",
-          "22",
-          "29",
-          "100"
-        ],
-        "en": [
-          "15",
-          "22",
-          "29",
-          "100"
-        ]
-      },
-      "answer_index": 1,
-      "explanation": {
-        "te": "22 భాషలు; తెలుగు ఒకటి.",
-        "en": "22 languages; Telugu is one."
-      }
-    },
-    {
-      "id": "gk_20261017_q8",
-      "style": "original_practice_not_official_exam",
-      "audio_ids": {
-        "te": "gk_20261017_q8",
-        "en": "gk_20261017_q8__en"
-      },
-      "answer_audio_ids": {
-        "te": "gk_20261017_q8_answer",
-        "en": "gk_20261017_q8_answer__en"
-      },
-      "item_id": "gk_20261017_telangana_2",
-      "question": {
-        "te": "హైదరాబాద్ మ్యాచ్‌లో నోటౌట్‌గా 102 పరుగులు చేసినవారు ఎవరు?",
-        "en": "Who scored 102 not out in the Hyderabad match?"
-      },
-      "options": {
-        "te": [
-          "ష్రేయాస్ అయ్యర్",
-          "షై హోప్",
-          "కీమో పాల్",
-          "విరాట్ కోహ్లీ"
-        ],
-        "en": [
-          "Shreyas Iyer",
-          "Shai Hope",
-          "Keemo Paul",
-          "Virat Kohli"
-        ]
-      },
-      "answer_index": 1,
-      "explanation": {
-        "te": "కెప్టెన్ షై హోప్.",
-        "en": "Captain Shai Hope."
-      }
-    },
-    {
-      "id": "gk_20261017_q9",
-      "style": "original_practice_not_official_exam",
-      "audio_ids": {
-        "te": "gk_20261017_q9",
-        "en": "gk_20261017_q9__en"
-      },
-      "answer_audio_ids": {
-        "te": "gk_20261017_q9_answer",
-        "en": "gk_20261017_q9_answer__en"
-      },
-      "item_id": "gk_20261017_telangana_2",
-      "question": {
-        "te": "నిర్ణాయక ఐదో టీ20 ఎక్కడ జరుగుతుంది?",
-        "en": "Where will the deciding fifth T20I be played?"
-      },
-      "options": {
-        "te": [
-          "హైదరాబాద్",
-          "ఢిల్లీ",
-          "బెంగళూరు",
-          "చెన్నై"
-        ],
-        "en": [
-          "Hyderabad",
-          "Delhi",
-          "Bengaluru",
-          "Chennai"
-        ]
-      },
-      "answer_index": 2,
-      "explanation": {
-        "te": "అక్టోబర్ 17న బెంగళూరులో.",
-        "en": "In Bengaluru on October 17."
-      }
-    },
-    {
-      "id": "gk_20261017_q10",
-      "style": "original_practice_not_official_exam",
-      "audio_ids": {
-        "te": "gk_20261017_q10",
-        "en": "gk_20261017_q10__en"
-      },
-      "answer_audio_ids": {
-        "te": "gk_20261017_q10_answer",
-        "en": "gk_20261017_q10_answer__en"
-      },
-      "item_id": "gk_20261017_india_4",
-      "question": {
-        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ విద్యార్థి గడువు ఏ తేదీ?",
-        "en": "What is the NSP renewal student deadline?"
-      },
-      "options": {
-        "te": [
-          "అక్టోబర్ 31",
-          "నవంబర్ 15",
-          "నవంబర్ 30",
-          "డిసెంబర్ 31"
-        ],
-        "en": [
-          "October 31",
-          "November 15",
-          "November 30",
-          "December 31"
-        ]
-      },
-      "answer_index": 0,
-      "explanation": {
-        "te": "విద్యార్థి గడువు అక్టోబర్ 31.",
-        "en": "The student deadline is October 31."
-      }
-    },
-    {
-      "id": "gk_20261017_q11",
-      "style": "mcq",
-      "audio_ids": {
-        "te": "gk_20261017_q11",
-        "en": "gk_20261017_q11__en"
-      },
-      "answer_audio_ids": {
-        "te": "gk_20261017_q11_answer",
-        "en": "gk_20261017_q11_answer__en"
-      },
-      "item_id": "gk_20261017_telangana_3",
-      "question": {
-        "te": "హైదరాబాద్ సమీక్షలో ఏ సంరక్షణ గురించి చెప్పారు?",
-        "en": "What conservation did the Hyderabad review discuss?"
-      },
-      "options": {
-        "te": [
-          "రాకెట్లు",
-          "నీరు, విద్యుత్",
-          "పతాకం",
-          "బహుమతులు"
-        ],
-        "en": [
-          "Rockets",
-          "Water and electricity",
-          "A flag",
-          "Prizes"
-        ]
-      },
-      "answer_index": 1,
-      "explanation": {
-        "te": "నివేదిక నీరు, విద్యుత్ సంరక్షణను పేర్కొంది.",
-        "en": "The report mentions water and electricity conservation."
-      }
-    },
-    {
-      "id": "gk_20261017_q12",
-      "style": "mcq",
-      "audio_ids": {
-        "te": "gk_20261017_q12",
-        "en": "gk_20261017_q12__en"
-      },
-      "answer_audio_ids": {
-        "te": "gk_20261017_q12_answer",
-        "en": "gk_20261017_q12_answer__en"
-      },
-      "item_id": "gk_20261017_india_3",
-      "question": {
-        "te": "పరిశోధనలో ఏ సరస్సు అవక్షేపాలు అధ్యయనం చేశారు?",
-        "en": "Which lake's sediments did the study examine?"
-      },
-      "options": {
-        "te": [
-          "సింగూరు",
-          "హుస్సేన్ సాగర్",
-          "కరేలా",
-          "చిలికా"
-        ],
-        "en": [
-          "Singur",
-          "Hussain Sagar",
-          "Karela",
-          "Chilika"
-        ]
-      },
-      "answer_index": 2,
-      "explanation": {
-        "te": "నివేదిక ఉత్తరప్రదేశ్‌లోని కరేలా సరస్సును పేర్కొంది.",
-        "en": "The report names Karela Lake in Uttar Pradesh."
-      }
-    }
-  ],
-  "edition_date": "2026-10-17",
-  "verified_at": "2026-10-17T02:42:00+05:30",
-  "status": "source_checked_translation_review_recommended",
-  "coverage": [
-    "cards",
-    "current_affairs",
-    "static_gk",
-    "reading_passages",
-    "questions",
-    "listen_clips"
-  ],
-  "editorial_note": "Oct17 early reviewed selection. El Nino water review reported by NDTV Oct16; appeal is advisory, not an order; event date set to report date as meeting date was unstated. BHASHINI-Manipur MoU per PIB Oct15. World Food Day Oct16 with official FAO 2026 theme 'Innovate today. Nourish tomorrow.' Hyderabad T20I Oct14 per Cricinfo/AP; series 2-2, decider Oct17 Bengaluru - edition date matches decider day. NSP renewal dates carried from Oct16 official check; re-verify at publish. Class5-10 original texts; Telugu review recommended, audio inspection pending. Second-pass 02:36 IST: added two verified-missing cards - Hyderabad water/power conservation review (Deccan Chronicle Oct 16) and Karela Lake 4,600-year monsoon study (DD News Oct 16; past-climate research, not a forecast). No cards replaced or removed. Guardian fix 02:42 IST: reading 2 garbled Telugu series-score sentence replaced with reviewed wording."
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "gk_20261018_q1",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q1",
+    "en": "gk_20261018_q1__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q1_answer",
+    "en": "gk_20261018_q1_answer__en"
+   },
+   "item_id": "gk_20261018_telangana_1",
+   "question": {
+    "te": "దీక్షాంత్ పరేడ్‌లో ఎంత మంది అధికారి శిక్షకులు పాల్గొన్నారు?",
+    "en": "How many officer trainees took part in the Dikshant Parade?"
+   },
+   "options": {
+    "te": [
+     "151",
+     "78",
+     "37",
+     "425"
+    ],
+    "en": [
+     "151",
+     "78",
+     "37",
+     "425"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "151 మంది పాల్గొన్నారు; 78 బ్యాచ్ సంఖ్య, 37 మంది మహిళా అధికారులు.",
+    "en": "151 marched; 78 is the batch number and 37 the women officers."
+   }
+  },
+  {
+   "id": "gk_20261018_q2",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q2",
+    "en": "gk_20261018_q2__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q2_answer",
+    "en": "gk_20261018_q2_answer__en"
+   },
+   "item_id": "gk_20261018_telangana_1",
+   "question": {
+    "te": "సర్దార్ వల్లభాయ్ పటేల్ జాతీయ పోలీసు అకాడమీ ఎక్కడ ఉంది?",
+    "en": "Where is the Sardar Vallabhbhai Patel National Police Academy?"
+   },
+   "options": {
+    "te": [
+     "ఢిల్లీ",
+     "ముంబై",
+     "హైదరాబాద్",
+     "చెన్నై"
+    ],
+    "en": [
+     "Delhi",
+     "Mumbai",
+     "Hyderabad",
+     "Chennai"
+    ]
+   },
+   "answer_index": 2,
+   "explanation": {
+    "te": "హైదరాబాద్‌లో ఉంది.",
+    "en": "It is in Hyderabad."
+   }
+  },
+  {
+   "id": "gk_20261018_q3",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q3",
+    "en": "gk_20261018_q3__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q3_answer",
+    "en": "gk_20261018_q3_answer__en"
+   },
+   "item_id": "gk_20261018_telangana_2",
+   "question": {
+    "te": "తెలంగాణలో ఎన్ని ఆటోమేటెడ్ టెస్టింగ్ స్టేషన్లు ఏర్పాటవుతున్నాయి?",
+    "en": "How many Automated Testing Stations are being set up in Telangana?"
+   },
+   "options": {
+    "te": [
+     "15",
+     "37",
+     "296",
+     "50"
+    ],
+    "en": [
+     "15",
+     "37",
+     "296",
+     "50"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "మొత్తం 37; మొదటి దశలో 15.",
+    "en": "37 in all; 15 in the first phase."
+   }
+  },
+  {
+   "id": "gk_20261018_q4",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q4",
+    "en": "gk_20261018_q4__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q4_answer",
+    "en": "gk_20261018_q4_answer__en"
+   },
+   "item_id": "gk_20261018_telangana_2",
+   "question": {
+    "te": "టెస్టింగ్ స్టేషన్ల అంచనా వ్యయం ఎంతకు సవరించబడింది?",
+    "en": "To what was the testing stations' estimated cost revised?"
+   },
+   "options": {
+    "te": [
+     "రూ. 296 కోట్లు",
+     "రూ. 425.5 కోట్లు",
+     "రూ. 100 కోట్లు",
+     "రూ. 11.5 కోట్లు"
+    ],
+    "en": [
+     "Rs 296 crore",
+     "Rs 425.5 crore",
+     "Rs 100 crore",
+     "Rs 11.5 crore"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "రూ. 296 కోట్ల నుంచి రూ. 425.5 కోట్లకు పెరిగింది.",
+    "en": "It rose from Rs 296 crore to Rs 425.5 crore."
+   }
+  },
+  {
+   "id": "gk_20261018_q5",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q5",
+    "en": "gk_20261018_q5__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q5_answer",
+    "en": "gk_20261018_q5_answer__en"
+   },
+   "item_id": "gk_20261018_india_1",
+   "question": {
+    "te": "మార్కో రూబియో భారత పర్యటన ఎన్ని రోజులు?",
+    "en": "How long is Marco Rubio's India visit?"
+   },
+   "options": {
+    "te": [
+     "రెండు రోజులు",
+     "నాలుగు రోజులు",
+     "ఆరు రోజులు",
+     "పది రోజులు"
+    ],
+    "en": [
+     "Two days",
+     "Four days",
+     "Six days",
+     "Ten days"
+    ]
+   },
+   "answer_index": 2,
+   "explanation": {
+    "te": "అక్టోబర్ 17 నుంచి 22 వరకు ఆరు రోజులు.",
+    "en": "October 17 to 22, six days."
+   }
+  },
+  {
+   "id": "gk_20261018_q6",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q6",
+    "en": "gk_20261018_q6__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q6_answer",
+    "en": "gk_20261018_q6_answer__en"
+   },
+   "item_id": "gk_20261018_india_1",
+   "question": {
+    "te": "రూబియో జైశంకర్‌ను ఏ రోజు కలుస్తారు?",
+    "en": "On which day does Rubio meet Jaishankar?"
+   },
+   "options": {
+    "te": [
+     "అక్టోబర్ 17",
+     "అక్టోబర్ 20",
+     "అక్టోబర్ 22",
+     "అక్టోబర్ 24"
+    ],
+    "en": [
+     "October 17",
+     "October 20",
+     "October 22",
+     "October 24"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "అక్టోబర్ 20న భేటీ.",
+    "en": "They meet on October 20."
+   }
+  },
+  {
+   "id": "gk_20261018_q7",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q7",
+    "en": "gk_20261018_q7__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q7_answer",
+    "en": "gk_20261018_q7_answer__en"
+   },
+   "item_id": "gk_20261018_world_1",
+   "question": {
+    "te": "ఐపీసీసీ 65వ సర్వసభ్య సమావేశం ఏ నగరంలో జరిగింది?",
+    "en": "In which city was the 65th IPCC Plenary Session held?"
+   },
+   "options": {
+    "te": [
+     "న్యూయార్క్",
+     "అడిస్ అబాబా",
+     "ఢిల్లీ",
+     "జెనీవా"
+    ],
+    "en": [
+     "New York",
+     "Addis Ababa",
+     "Delhi",
+     "Geneva"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "ఎథియోపియా రాజధాని అడిస్ అబాబాలో.",
+    "en": "In Addis Ababa, the capital of Ethiopia."
+   }
+  },
+  {
+   "id": "gk_20261018_q8",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q8",
+    "en": "gk_20261018_q8__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q8_answer",
+    "en": "gk_20261018_q8_answer__en"
+   },
+   "item_id": "gk_20261018_world_1",
+   "question": {
+    "te": "ఐపీసీసీ ఏ సంస్థ?",
+    "en": "What is the IPCC?"
+   },
+   "options": {
+    "te": [
+     "అంతర్జాతీయ క్రికెట్ మండలి",
+     "వాతావరణ మార్పుపై ఐక్యరాజ్యసమితి సంస్థ",
+     "ప్రపంచ ఆహార సంస్థ",
+     "భారత పోలీసు అకాడమీ"
+    ],
+    "en": [
+     "The international cricket council",
+     "A UN body on climate change",
+     "The world food body",
+     "India's police academy"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "వాతావరణ మార్పు శాస్త్రాన్ని సమీక్షించే ఐక్యరాజ్యసమితి సంస్థ.",
+    "en": "The UN body that assesses climate-change science."
+   }
+  },
+  {
+   "id": "gk_20261018_q9",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q9",
+    "en": "gk_20261018_q9__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q9_answer",
+    "en": "gk_20261018_q9_answer__en"
+   },
+   "item_id": "gk_20261018_india_3",
+   "question": {
+    "te": "టీ20 సిరీస్ ఎంతతో సమంగా ఉంది?",
+    "en": "At what score is the T20 series level?"
+   },
+   "options": {
+    "te": [
+     "1-1",
+     "2-2",
+     "3-0",
+     "4-1"
+    ],
+    "en": [
+     "1-1",
+     "2-2",
+     "3-0",
+     "4-1"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "నాలుగు మ్యాచ్‌ల్లో ఇరు జట్లూ రెండేసి గెలిచాయి.",
+    "en": "Each team has won two of the four matches."
+   }
+  },
+  {
+   "id": "gk_20261018_q10",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q10",
+    "en": "gk_20261018_q10__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q10_answer",
+    "en": "gk_20261018_q10_answer__en"
+   },
+   "item_id": "gk_20261018_india_3",
+   "question": {
+    "te": "నిర్ణాయక మ్యాచ్ అంటే ఏమిటి?",
+    "en": "What is a decider?"
+   },
+   "options": {
+    "te": [
+     "మొదటి మ్యాచ్",
+     "సిరీస్ ఫలితాన్ని తేల్చే చివరి మ్యాచ్",
+     "సాధన మ్యాచ్",
+     "వర్షం వల్ల రద్దైన మ్యాచ్"
+    ],
+    "en": [
+     "The first match",
+     "The last match that settles the series result",
+     "A practice match",
+     "A match cancelled by rain"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "ఐదో మ్యాచ్ గెలిచిన జట్టే సిరీస్ విజేత.",
+    "en": "The team winning the fifth match takes the series."
+   }
+  },
+  {
+   "id": "gk_20261018_q11",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q11",
+    "en": "gk_20261018_q11__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q11_answer",
+    "en": "gk_20261018_q11_answer__en"
+   },
+   "item_id": "gk_20261018_india_2",
+   "question": {
+    "te": "ఈ ఏటి దసరా ఏ తేదీన వస్తుంది?",
+    "en": "On which date does Dussehra fall this year?"
+   },
+   "options": {
+    "te": [
+     "అక్టోబర్ 20",
+     "అక్టోబర్ 24",
+     "అక్టోబర్ 17",
+     "నవంబర్ 1"
+    ],
+    "en": [
+     "October 20",
+     "October 24",
+     "October 17",
+     "November 1"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "అక్టోబర్ 20 మంగళవారం.",
+    "en": "Tuesday, October 20."
+   }
+  },
+  {
+   "id": "gk_20261018_q12",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261018_q12",
+    "en": "gk_20261018_q12__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261018_q12_answer",
+    "en": "gk_20261018_q12_answer__en"
+   },
+   "item_id": "gk_20261018_world_2",
+   "question": {
+    "te": "ఐక్యరాజ్యసమితిలో ఎన్ని దేశాలు సభ్యులు?",
+    "en": "How many countries are members of the United Nations?"
+   },
+   "options": {
+    "te": [
+     "151",
+     "193",
+     "100",
+     "78"
+    ],
+    "en": [
+     "151",
+     "193",
+     "100",
+     "78"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "193 దేశాలు సభ్యులు.",
+    "en": "193 countries are members."
+   }
+  }
+ ],
+ "edition_date": "2026-10-18",
+ "verified_at": "2026-10-17T22:46:53.050457+05:30",
+ "status": "source_checked_translation_review_recommended",
+ "coverage": [
+  "cards",
+  "current_affairs",
+  "static_gk",
+  "reading_passages",
+  "questions",
+  "listen_clips"
+ ],
+ "editorial_note": {
+  "te": "ఈ పత్రికలోని కంటెంట్ విద్యా ప్రయోజనాల కోసం మాత్రమే; అధికారిక ప్రకటనల కోసం సంబంధిత వెబ్‌సైట్లు చూడండి.",
+  "en": "Content in this edition is for educational purposes only; check the linked sources for official announcements."
+ }
 }
