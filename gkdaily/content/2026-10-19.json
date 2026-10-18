@@ -1,0 +1,723 @@
+{
+ "schema_version": 1,
+ "revision": 1,
+ "timezone": "Asia/Kolkata",
+ "sources": {
+  "tgnews": {
+   "publisher": "Telangana Today",
+   "url": "https://telanganatoday.com/hmda-to-organise-bathukamma-carnival-at-tank-bund-on-oct-18",
+   "published_date": "2026-10-17"
+  },
+  "tgnews2": {
+   "publisher": "The Hindu",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/el-nino-concerns-hyderabad-tanker-bookings-double-households-told-to-cut-water-use-by-20/article71595566.ece",
+   "published_date": "2026-10-17"
+  },
+  "innews": {
+   "publisher": "ThePrint",
+   "url": "https://theprint.in/india/braj-mohan-ram-to-assume-charge-as-new-odisha-governor-on-oct-18/3072375/",
+   "published_date": "2026-10-15"
+  },
+  "worldnews": {
+   "publisher": "Associated Press",
+   "url": "https://apnews.com/article/hurricane-trudi-typhoon-champi-mexico-guam-17a7688b05ff9ac03ccd869abfee41bf",
+   "published_date": "2026-10-18"
+  },
+  "sports": {
+   "publisher": "Akashvani News",
+   "url": "https://newsonair.gov.in/asian-para-games-2026-to-begin-in-japan/",
+   "published_date": "2026-10-18"
+  },
+  "ingk": {
+   "publisher": "National Police Memorial",
+   "url": "https://nationalpolicememorial.gov.in/npm/national-police-memorial",
+   "published_date": null
+  },
+  "worldgk": {
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/europe/campaigns/world-polio-day",
+   "published_date": null
+  }
+ },
+ "cards": [
+  {
+   "id": "gk_20261019_telangana_1",
+   "region": "telangana",
+   "type": "current_affairs",
+   "source_ids": [
+    "tgnews"
+   ],
+   "event_date": "2026-10-18",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261019_telangana_1",
+    "en": "gk_20261019_telangana_1__en"
+   },
+   "title": {
+    "te": "ట్యాంక్ బండ్‌వద్ద బతుకమ్మ కార్నివాల్",
+    "en": "Bathukamma Carnival at Tank Bund"
+   },
+   "summary": {
+    "te": "అక్టోబర్ 18న సద్దుల బతుకమ్మ సందర్భంగా హైదరాబాద్ ట్యాంక్ బండ్‌వద్ద హైదరాబాద్ మెట్రోపాలిటన్ డెవలప్‌మెంట్ అథారిటీ (HMDA) బతుకమ్మ కార్నివాల్ నిర్వహించింది. ఒగ్గు కథ, చిందు భాగవతం, పేరిణి నృత్యం వంటి తెలంగాణ సంప్రదాయ కళలు ప్రదర్శించబడ్డాయి; ఆహారం, చేతివృత్తులు, చేనేత, ఆభరణాల స్టాళ్లు ఏర్పాటయ్యాయి. బతుకమ్మ తెలంగాణ పువ్వుల పండుగ; ఈ ఏటి అక్టోబర్ 10 నుంచి 18 వరకు తొమ్మిది రోజులు జరుపుకున్నారు.",
+    "en": "On October 18, the Hyderabad Metropolitan Development Authority (HMDA) organised a Bathukamma Carnival at Tank Bund for Saddula Bathukamma. It featured Telangana's traditional art forms like Oggu Katha, Chindu Bhagavatam and Perini dance, along with stalls of food, handicrafts, handlooms and jewellery. Bathukamma is the flower festival of Telangana; this year it was celebrated for nine days, from October 10 to 18."
+   }
+  },
+  {
+   "id": "gk_20261019_telangana_2",
+   "region": "telangana",
+   "type": "current_affairs",
+   "source_ids": [
+    "tgnews2"
+   ],
+   "event_date": "2026-10-17",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261019_telangana_2",
+    "en": "gk_20261019_telangana_2__en"
+   },
+   "title": {
+    "te": "హైదరాబాద్‌లో నీటి ఆదాపై ప్రభుత్వ అప్పీల్",
+    "en": "Save-water appeal in Hyderabad"
+   },
+   "summary": {
+    "te": "ఎల్ నినో ఆందోళనల నేపథ్యంలో హైదరాబాద్‌లో రోజువారీ నీటి ట్యాంకర్ బుకింగ్‌లు గత అక్టోబర్‌లోని 3,500 నుంచి ఈ ఏటి 7,000కు రెట్టింపయ్యాయి. ఇంటిలో నీటి వాడకం కనీసం 20 శాతం తగ్గించాలని తెలంగాణ ప్రభుత్వం ప్రజలను కోరింది. నగరంలోని 16 మండలాల్లో కేవలం 3 చోట్ల మాత్రమే సాధారణ వర్షపాతం నమోదయ్యింది; భూగర్భ జల మట్టం గత ఏటి 3.55 మీటర్ల నుంచి ఈ ఏటి 10 మీటర్ల లోతుకు పడిపోయింది.",
+    "en": "Amid El Niño concerns, daily water-tanker bookings in Hyderabad have doubled from about 3,500 last October to around 7,000 this year. The Telangana government has asked households to cut water use by at least 20 percent. Only 3 of the city's 16 mandals received normal rainfall so far, and the average groundwater level has fallen from 3.55 metres below ground last year to 10 metres this year."
+   }
+  },
+  {
+   "id": "gk_20261019_india_1",
+   "region": "india",
+   "type": "current_affairs",
+   "source_ids": [
+    "innews"
+   ],
+   "event_date": "2026-10-18",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261019_india_1",
+    "en": "gk_20261019_india_1__en"
+   },
+   "title": {
+    "te": "ఒడిశా కొత్త గవర్నర్ బాధ్యతలు స్వీకరించారు",
+    "en": "New Governor takes charge in Odisha"
+   },
+   "summary": {
+    "te": "బ్రజ్ మోహన్ రామ్ అక్టోబర్ 18న ఒడిశా గవర్నర్‌గా బాధ్యతలు స్వీకరించారు. ఆయన హరి బాబు కంభంపాటి స్థానంలో వచ్చారు; రాష్ట్రపతి ద్రౌపది ముర్ము ఆయన్ను నియమించారు. ఝార్ఖండ్‌లోని పలాము జిల్లాకు చెందిన ఆయన మూడుసార్లు పార్లమెంట్ సభ్యులుగా పనిచేశారు. గవర్నర్ అంటే భారత రాష్ట్రానికి రాజ్యాంగపరమైన అధిపతి; రాష్ట్రపతి నియమిస్తారు.",
+    "en": "Braj Mohan Ram took charge as the Governor of Odisha on October 18. He succeeds Hari Babu Kambhampati and was appointed by President Droupadi Murmu. He comes from Palamu district in Jharkhand and has been a Member of Parliament three times. A Governor is the constitutional head of a state in India and is appointed by the President."
+   }
+  },
+  {
+   "id": "gk_20261019_world_1",
+   "region": "world",
+   "type": "current_affairs",
+   "source_ids": [
+    "worldnews"
+   ],
+   "event_date": "2026-10-17",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261019_world_1",
+    "en": "gk_20261019_world_1__en"
+   },
+   "title": {
+    "te": "మెక్సికో తీరానికి దగ్గరగా ట్రూడీ హరికేన్",
+    "en": "Hurricane Trudy near Mexico's coast"
+   },
+   "summary": {
+    "te": "అక్టోబర్ 17-18 తేదీల్లో ట్రూడీ హరికేన్ మెక్సికో పసిఫిక్ తీరంపై భారీ వర్షాలు, గంటకు 165 కి.మీ వరకు వేగంతో ఉన్న బలమైన గాలులను కురిపించింది; ఇది కేటగరీ 2 తుఫాను. అమెరికా జాతీయ హరికేన్ కేంద్రం (NHC) ప్రకారం ఇది తీరం నుంచి దూరంగా కదిలి బలహీనపడనుంది. హరికేన్ అంటే వెచ్చని సముద్ర జలంపై ఏర్పడే భారీ తిరుగుబాటు తుఫాను.",
+    "en": "On October 17-18, Hurricane Trudy lashed Mexico's Pacific coast with heavy rain and maximum winds of about 165 km per hour, a Category 2 storm. The US National Hurricane Center said it was forecast to move away from the coast and weaken. A hurricane is a huge spinning storm that forms over warm ocean water."
+   }
+  },
+  {
+   "id": "gk_20261019_india_3",
+   "region": "india",
+   "type": "current_affairs",
+   "source_ids": [
+    "sports"
+   ],
+   "event_date": "2026-10-18",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261019_india_3",
+    "en": "gk_20261019_india_3__en"
+   },
+   "title": {
+    "te": "జపాన్‌లో ఆసియా పారా గేమ్స్ ప్రారంభం",
+    "en": "Asian Para Games begin in Japan"
+   },
+   "summary": {
+    "te": "అక్టోబర్ 18న జపాన్‌లోని ఆయిచి-నగోయాలో 5వ ఆసియా పారా గేమ్స్ ప్రారంభమయ్యాయి; అక్టోబర్ 24 వరకు 45 దేశాలకు చెందిన సుమారు 3,000 మంది క్రీడాకారులు 18 క్రీడల్లో పోటీపడతారు. భారత్ నుంచి 168 మంది క్రీడాకారులతో కూడిన 281 మంది బృందం పాల్గొంటోంది; ప్రారంభోత్సవంలో ప్రమోద్ భగత్, సింరన్ శర్మ జెండా మోశారు. 2023 హాంగ్జౌ గేమ్స్‌లో భారత్ 111 పతకాలు (29 బంగారు పతకాలు) సాధించి ఐదో స్థానంలో నిలిచింది. పారా గేమ్స్ అంటే దివ్యాంగ క్రీడాకారుల పోటీలు.",
+    "en": "The 5th Asian Para Games opened on October 18 in Aichi-Nagoya, Japan. Until October 24, about 3,000 athletes from 45 countries compete in 18 sports. India has sent a 281-member contingent with 168 athletes; para-badminton player Pramod Bhagat and sprinter Simran Sharma were the flag-bearers at the opening ceremony. At the 2023 Hangzhou Games, India won a record 111 medals, including 29 gold, finishing fifth. Para Games are competitions for athletes with disabilities."
+   }
+  },
+  {
+   "id": "gk_20261019_india_2",
+   "region": "india",
+   "type": "static_gk",
+   "source_ids": [
+    "ingk"
+   ],
+   "event_date": null,
+   "age_band": "class3-10",
+   "audio_ids": {
+    "te": "gk_20261019_india_2",
+    "en": "gk_20261019_india_2__en"
+   },
+   "title": {
+    "te": "పోలీసు స్మృతి దినోత్సవం: అక్టోబర్ 21",
+    "en": "Police Commemoration Day: October 21"
+   },
+   "summary": {
+    "te": "ప్రతి ఏటా అక్టోబర్ 21న పోలీసు స్మృతి దినోత్సవం జరుపుకుంటారు. 1959లో ఈ రోజున లడాఖ్‌లోని హాట్ స్ప్రింగ్స్ వద్ద దేశ సరిహద్దులు కాపాడుతూ పది మంది భారత పోలీసులు వీరమరణం పొందారు. వారి జ్ఞాపకార్థం 1960 నుంచి ఈ రోజున గౌరవిస్తారు. ఢిల్లీ చాణక్యపురిలోని జాతీయ పోలీసు స్మారకాన్ని 2018 అక్టోబర్ 21న దేశానికి అంకితం చేశారు.",
+    "en": "Police Commemoration Day is observed every year on October 21. On this day in 1959, ten Indian policemen lost their lives in an ambush at Hot Springs in Ladakh while defending the country. The day has been remembered since 1960. The National Police Memorial at Chanakyapuri in New Delhi was dedicated to the nation on October 21, 2018."
+   }
+  },
+  {
+   "id": "gk_20261019_world_2",
+   "region": "world",
+   "type": "static_gk",
+   "source_ids": [
+    "worldgk"
+   ],
+   "event_date": null,
+   "age_band": "class3-10",
+   "audio_ids": {
+    "te": "gk_20261019_world_2",
+    "en": "gk_20261019_world_2__en"
+   },
+   "title": {
+    "te": "ప్రపంచ పోలియో దినోత్సవం: అక్టోబర్ 24",
+    "en": "World Polio Day: October 24"
+   },
+   "summary": {
+    "te": "ప్రతి ఏటా అక్టోబర్ 24న ప్రపంచ పోలియో దినోత్సవం జరుపుకుంటారు. పోలియో అనేది పోలియో వైరస్ వల్ల వచ్చే ప్రమాదకరమైన వ్యాధి; 1988లో దాన్ని పూర్తిగా నిర్మూలించాలని ప్రపంచ ఆరోగ్య సభ నిర్ణయించింది. టీకాలు పిల్లలను ఈ వ్యాధి నుంచి కాపాడతాయి. 2014లో భారతదేశం పోలియో ముక్త దేశంగా ప్రకటించబడింది.",
+    "en": "World Polio Day is observed every year on October 24. Polio is a dangerous disease caused by the poliovirus; in 1988 the World Health Assembly resolved to eradicate it completely. Vaccines protect children from this disease. India was declared polio-free in 2014."
+   }
+  }
+ ],
+ "readings": [
+  {
+   "id": "gk_20261019_reading_1",
+   "age_band": "class5-7",
+   "audio_ids": {
+    "te": "gk_20261019_reading_1",
+    "en": "gk_20261019_reading_1__en"
+   },
+   "source_ids": [
+    "tgnews"
+   ],
+   "title": {
+    "te": "బతుకమ్మ అంటే ఏమిటి?",
+    "en": "What is Bathukamma?"
+   },
+   "passage": {
+    "te": "బతుకమ్మ తెలంగాణ పువ్వుల పండుగ. దసరాకు ముందు తొమ్మిది రోజులు మహిళలు, బాలికలు జరుపుకుంటారు. రంగురంగుల సీజన్ పువ్వులను ఇత్తడి పళ్ళెంపై చిన్న గోపురం ఆకారంలో పొరలుగా అమర్చి, పైన పసుపుతో చేసిన గౌరీ దేవి విగ్రహాన్ని ఉంచుతారు. సాయంత్రం దాని చుట్టూ పాటలు పాడుతూ ఆడుతారు. చివరి రోజును సద్దుల బతుకమ్మ అంటారు; ఆ రోజు పూల బతుకమ్మలను చెరువుల్లో, కుంటల్లో నిమజ్జనం చేస్తారు. పంట, మంచి ఆరోగ్యం కోసం ప్రకృతికి, అమ్మవారికి కృతజ్ఞతగా ఈ పండుగ జరుపుకుంటారు.",
+    "en": "Bathukamma is the flower festival of Telangana, celebrated by women and girls for nine days before Dussehra. They arrange colourful seasonal flowers in layers on a brass plate, in the shape of a small temple tower, and place a turmeric idol of Goddess Gauri on top. In the evenings they sing and dance around it. The last day is called Saddula Bathukamma, when the flower stacks are floated in ponds and lakes. The festival thanks nature and the goddess for the harvest and good health."
+   },
+   "vocabulary": [
+    {
+     "te": "బతుకమ్మ",
+     "en": "Bathukamma (flower festival)"
+    },
+    {
+     "te": "పండుగ",
+     "en": "festival"
+    },
+    {
+     "te": "నిమజ్జనం",
+     "en": "immersion (floating in water)"
+    },
+    {
+     "te": "గోపురం",
+     "en": "temple tower"
+    }
+   ]
+  },
+  {
+   "id": "gk_20261019_reading_2",
+   "age_band": "class5-7",
+   "audio_ids": {
+    "te": "gk_20261019_reading_2",
+    "en": "gk_20261019_reading_2__en"
+   },
+   "source_ids": [
+    "tgnews2"
+   ],
+   "title": {
+    "te": "ఎల్ నినో అంటే ఏమిటి?",
+    "en": "What is El Niño?"
+   },
+   "passage": {
+    "te": "ఎల్ నినో అనేది సహజ వాతావరణ మార్పు. ప్రతి కొన్నేళ్లకు భూమధ్యరేఖకు దగ్గరగా ఉన్న పసిఫిక్ మహాసముద్ర ఉపరితల నీరు సాధారణం కంటే వేడెక్కుతుంది. ఈ చిన్న వేడెక్కడం ప్రపంచంలోని గాలులు, వర్షపాతం సరళిని మారుస్తుంది. కొన్ని చోట్ల భారీ వర్షాలు, వరదలు వస్తే, భారతదేశంలోని కొన్ని ప్రాంతాల్లో రుతుపవన వర్షాలు తగ్గి కరువు రావచ్చు. పసిఫిక్ నీరు మామూలు కంటే చల్లబడే దశను లా నినా అంటారు. శాస్త్రవేత్తలు సముద్ర ఉష్ణోగ్రతలను గమనించి ఈ మార్పులను నెలల ముందుగానే అంచనా వేస్తారు.",
+    "en": "El Niño is a natural climate pattern. Every few years, the surface water of the Pacific Ocean near the equator becomes warmer than usual. This small warming changes wind and rain patterns around the world. Some places get heavy rain and floods, while others, like parts of India, may get weaker monsoon rains and drought. The opposite phase, when the Pacific turns cooler than usual, is called La Niña. Scientists watch ocean temperatures to predict these patterns months ahead."
+   },
+   "vocabulary": [
+    {
+     "te": "ఎల్ నినో",
+     "en": "El Niño (warming phase)"
+    },
+    {
+     "te": "లా నినా",
+     "en": "La Niña (cooling phase)"
+    },
+    {
+     "te": "వర్షపాతం",
+     "en": "rainfall"
+    },
+    {
+     "te": "కరువు",
+     "en": "drought"
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "gk_20261019_q1",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q1",
+    "en": "gk_20261019_q1__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q1_answer",
+    "en": "gk_20261019_q1_answer__en"
+   },
+   "item_id": "gk_20261019_telangana_1",
+   "question": {
+    "te": "బతుకమ్మ కార్నివాల్ ఎక్కడ నిర్వహించబడింది?",
+    "en": "Where was the Bathukamma Carnival held?"
+   },
+   "options": {
+    "te": [
+     "ట్యాంక్ బండ్",
+     "చార్మినార్",
+     "గోల్కొండ కోట",
+     "రామోజీ ఫిల్మ్ సిటీ"
+    ],
+    "en": [
+     "Tank Bund",
+     "Charminar",
+     "Golconda Fort",
+     "Ramoji Film City"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "HMDA సద్దుల బతుకమ్మ సందర్భంగా ట్యాంక్ బండ్‌వద్ద ఈ కార్నివాల్ నిర్వహించింది.",
+    "en": "HMDA held the carnival at Tank Bund for Saddula Bathukamma."
+   }
+  },
+  {
+   "id": "gk_20261019_q2",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q2",
+    "en": "gk_20261019_q2__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q2_answer",
+    "en": "gk_20261019_q2_answer__en"
+   },
+   "item_id": "gk_20261019_telangana_1",
+   "question": {
+    "te": "బతుకమ్మ ఏ రకమైన పండుగ?",
+    "en": "What kind of festival is Bathukamma?"
+   },
+   "options": {
+    "te": [
+     "పతాక పండుగ",
+     "తెలంగాణ పువ్వుల పండుగ",
+     "పంట పండుగ ఆఫ్ పంజాబ్",
+     "కేరళ పడవ రేసు"
+    ],
+    "en": [
+     "A kite festival",
+     "The flower festival of Telangana",
+     "A harvest festival of Punjab",
+     "A boat race of Kerala"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "బతుకమ్మ తెలంగాణ ప్రజల పువ్వుల పండుగ; తొమ్మిది రోజులు జరుపుకుంటారు.",
+    "en": "Bathukamma is Telangana's flower festival, celebrated for nine days."
+   }
+  },
+  {
+   "id": "gk_20261019_q3",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q3",
+    "en": "gk_20261019_q3__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q3_answer",
+    "en": "gk_20261019_q3_answer__en"
+   },
+   "item_id": "gk_20261019_telangana_2",
+   "question": {
+    "te": "హైదరాబాద్‌లో రోజువారీ నీటి ట్యాంకర్ బుకింగ్‌లు ఎంతకు పెరిగాయి?",
+    "en": "Daily water-tanker bookings in Hyderabad rose to about how many?"
+   },
+   "options": {
+    "te": [
+     "3,500",
+     "500",
+     "7,000",
+     "70,000"
+    ],
+    "en": [
+     "3,500",
+     "500",
+     "7,000",
+     "70,000"
+    ]
+   },
+   "answer_index": 2,
+   "explanation": {
+    "te": "గత అక్టోబర్‌లో 3,500 ఉండే బుకింగ్‌లు ఈ ఏటి 7,000కు రెట్టింపయ్యాయి.",
+    "en": "Bookings doubled from 3,500 last October to about 7,000 this year."
+   }
+  },
+  {
+   "id": "gk_20261019_q4",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q4",
+    "en": "gk_20261019_q4__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q4_answer",
+    "en": "gk_20261019_q4_answer__en"
+   },
+   "item_id": "gk_20261019_telangana_2",
+   "question": {
+    "te": "ఇంటి నీటి వాడకం ఎంత శాతం తగ్గించాలని ప్రభుత్వం కోరింది?",
+    "en": "By how much did the government ask households to cut water use?"
+   },
+   "options": {
+    "te": [
+     "5 శాతం",
+     "10 శాతం",
+     "20 శాతం",
+     "50 శాతం"
+    ],
+    "en": [
+     "5 percent",
+     "10 percent",
+     "20 percent",
+     "50 percent"
+    ]
+   },
+   "answer_index": 2,
+   "explanation": {
+    "te": "కనీసం 20 శాతం తగ్గించాలని ప్రభుత్వం కోరింది.",
+    "en": "The government asked people to cut use by at least 20 percent."
+   }
+  },
+  {
+   "id": "gk_20261019_q5",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q5",
+    "en": "gk_20261019_q5__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q5_answer",
+    "en": "gk_20261019_q5_answer__en"
+   },
+   "item_id": "gk_20261019_india_1",
+   "question": {
+    "te": "ఒడిశా కొత్త గవర్నర్ ఎవరు?",
+    "en": "Who is the new Governor of Odisha?"
+   },
+   "options": {
+    "te": [
+     "హరి బాబు కంభంపాటి",
+     "బ్రజ్ మోహన్ రామ్",
+     "ద్రౌపది ముర్ము",
+     "జయేష్ రంజన్"
+    ],
+    "en": [
+     "Hari Babu Kambhampati",
+     "Braj Mohan Ram",
+     "Droupadi Murmu",
+     "Jayesh Ranjan"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "బ్రజ్ మోహన్ రామ్ అక్టోబర్ 18న బాధ్యతలు స్వీకరించారు; కంభంపాటి మునుపటి గవర్నర్.",
+    "en": "Braj Mohan Ram took charge on October 18; Kambhampati was the previous Governor."
+   }
+  },
+  {
+   "id": "gk_20261019_q6",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q6",
+    "en": "gk_20261019_q6__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q6_answer",
+    "en": "gk_20261019_q6_answer__en"
+   },
+   "item_id": "gk_20261019_india_1",
+   "question": {
+    "te": "భారతదేశంలో రాష్ట్ర గవర్నర్‌ను ఎవరు నియమిస్తారు?",
+    "en": "Who appoints the Governor of a state in India?"
+   },
+   "options": {
+    "te": [
+     "రాష్ట్రపతి",
+     "ప్రధాన మంత్రి",
+     "ముఖ్యమంత్రి",
+     "ప్రధాన న్యాయమూర్తి"
+    ],
+    "en": [
+     "The President",
+     "The Prime Minister",
+     "The Chief Minister",
+     "The Chief Justice"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "గవర్నర్ రాష్ట్ర రాజ్యాంగపరమైన అధిపతి; రాష్ట్రపతి నియమిస్తారు.",
+    "en": "The Governor is the constitutional head of a state, appointed by the President."
+   }
+  },
+  {
+   "id": "gk_20261019_q7",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q7",
+    "en": "gk_20261019_q7__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q7_answer",
+    "en": "gk_20261019_q7_answer__en"
+   },
+   "item_id": "gk_20261019_world_1",
+   "question": {
+    "te": "ట్రూడీ హరికేన్ ఏ దేశం తీరానికి దగ్గరగా ఉంది?",
+    "en": "Hurricane Trudy is near which country's coast?"
+   },
+   "options": {
+    "te": [
+     "భారతదేశం",
+     "మెక్సికో",
+     "జపాన్",
+     "ఫ్రాన్స్"
+    ],
+    "en": [
+     "India",
+     "Mexico",
+     "Japan",
+     "France"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "ట్రూడీ మెక్సికో పశ్చిమ తీరానికి చేరుకుంది.",
+    "en": "Trudy approached Mexico's western coast."
+   }
+  },
+  {
+   "id": "gk_20261019_q8",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q8",
+    "en": "gk_20261019_q8__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q8_answer",
+    "en": "gk_20261019_q8_answer__en"
+   },
+   "item_id": "gk_20261019_world_1",
+   "question": {
+    "te": "ట్రూడీ గరిష్ట గాలి వేగం ఎంత?",
+    "en": "What was Trudy's maximum wind speed?"
+   },
+   "options": {
+    "te": [
+     "గంటకు 60 కి.మీ",
+     "గంటకు 13 కి.మీ",
+     "గంటకు 165 కి.మీ",
+     "గంటకు 300 కి.మీ"
+    ],
+    "en": [
+     "60 km per hour",
+     "13 km per hour",
+     "165 km per hour",
+     "300 km per hour"
+    ]
+   },
+   "answer_index": 2,
+   "explanation": {
+    "te": "గరిష్టంగా గంటకు 165 కి.మీ; 13 కి.మీ తుఫాను కదలిక వేగం.",
+    "en": "Maximum winds reached 165 km per hour; 13 km per hour was the storm's moving speed."
+   }
+  },
+  {
+   "id": "gk_20261019_q9",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q9",
+    "en": "gk_20261019_q9__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q9_answer",
+    "en": "gk_20261019_q9_answer__en"
+   },
+   "item_id": "gk_20261019_india_3",
+   "question": {
+    "te": "2026 ఆసియా పారా గేమ్స్ ఎక్కడ జరుగుతున్నాయి?",
+    "en": "Where are the 2026 Asian Para Games being held?"
+   },
+   "options": {
+    "te": [
+     "హాంగ్జౌ, చైనా",
+     "ఆయిచి-నగోయా, జపాన్",
+     "జకార్తా, ఇండోనేషియా",
+     "న్యూఢిల్లీ, భారతదేశం"
+    ],
+    "en": [
+     "Hangzhou, China",
+     "Aichi-Nagoya, Japan",
+     "Jakarta, Indonesia",
+     "New Delhi, India"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "5వ ఆసియా పారా గేమ్స్ జపాన్‌లోని ఆయిచి-నగోయాలో జరుగుతున్నాయి; హాంగ్జౌ 2023 ఆతిథ్యం ఇచ్చింది.",
+    "en": "The 5th Asian Para Games are in Aichi-Nagoya, Japan; Hangzhou hosted in 2023."
+   }
+  },
+  {
+   "id": "gk_20261019_q10",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q10",
+    "en": "gk_20261019_q10__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q10_answer",
+    "en": "gk_20261019_q10_answer__en"
+   },
+   "item_id": "gk_20261019_india_3",
+   "question": {
+    "te": "ప్రారంభోత్సవంలో భారత జెండా ఎవరు మోశారు?",
+    "en": "Who were India's flag-bearers at the opening ceremony?"
+   },
+   "options": {
+    "te": [
+     "సుమిత్ అంతిల్, అవని లేఖరా",
+     "షీటల్ దేవి, భావినా పటేల్",
+     "ప్రమోద్ భగత్, సింరన్ శర్మ",
+     "రోహిత్ శర్మ, విరాట్ కోహ్లి"
+    ],
+    "en": [
+     "Sumit Antil and Avani Lekhara",
+     "Sheetal Devi and Bhavina Patel",
+     "Pramod Bhagat and Simran Sharma",
+     "Rohit Sharma and Virat Kohli"
+    ]
+   },
+   "answer_index": 2,
+   "explanation": {
+    "te": "పారా బ్యాడ్మింటన్ క్రీడాకారుడు ప్రమోద్ భగత్, స్ప్రింటర్ సింరన్ శర్మ జెండా మోశారు.",
+    "en": "Para-badminton player Pramod Bhagat and sprinter Simran Sharma carried the flag."
+   }
+  },
+  {
+   "id": "gk_20261019_q11",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q11",
+    "en": "gk_20261019_q11__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q11_answer",
+    "en": "gk_20261019_q11_answer__en"
+   },
+   "item_id": "gk_20261019_india_2",
+   "question": {
+    "te": "పోలీసు స్మృతి దినోత్సవం ఏ తేదీన?",
+    "en": "When is Police Commemoration Day observed?"
+   },
+   "options": {
+    "te": [
+     "అక్టోబర్ 21",
+     "అక్టోబర్ 24",
+     "అక్టోబర్ 18",
+     "అక్టోబర్ 31"
+    ],
+    "en": [
+     "October 21",
+     "October 24",
+     "October 18",
+     "October 31"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "1959 అక్టోబర్ 21న హాట్ స్ప్రింగ్స్‌లో పది మంది పోలీసులు వీరమరణం పొందారు.",
+    "en": "Ten policemen died at Hot Springs on October 21, 1959."
+   }
+  },
+  {
+   "id": "gk_20261019_q12",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q12",
+    "en": "gk_20261019_q12__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q12_answer",
+    "en": "gk_20261019_q12_answer__en"
+   },
+   "item_id": "gk_20261019_world_2",
+   "question": {
+    "te": "ప్రపంచ పోలియో దినోత్సవం ఏ తేదీన?",
+    "en": "When is World Polio Day observed?"
+   },
+   "options": {
+    "te": [
+     "అక్టోబర్ 18",
+     "అక్టోబర్ 20",
+     "అక్టోబర్ 21",
+     "అక్టోబర్ 24"
+    ],
+    "en": [
+     "October 18",
+     "October 20",
+     "October 21",
+     "October 24"
+    ]
+   },
+   "answer_index": 3,
+   "explanation": {
+    "te": "ప్రతి ఏటా అక్టోబర్ 24న ప్రపంచ పోలియో దినోత్సవం.",
+    "en": "World Polio Day is observed every year on October 24."
+   }
+  }
+ ],
+ "edition_date": "2026-10-19",
+ "verified_at": "2026-10-18T22:47:12.389260+05:30",
+ "status": "source_checked_translation_review_recommended",
+ "coverage": [
+  "cards",
+  "current_affairs",
+  "static_gk",
+  "reading_passages",
+  "questions",
+  "listen_clips"
+ ],
+ "editorial_note": {
+  "te": "ఈ పత్రికలోని కంటెంట్ విద్యా ప్రయోజనాల కోసం మాత్రమే; అధికారిక ప్రకటనల కోసం సంబంధిత వెబ్‌సైట్లు చూడండి.",
+  "en": "Content in this edition is for educational purposes only; check the linked sources for official announcements."
+ }
+}
