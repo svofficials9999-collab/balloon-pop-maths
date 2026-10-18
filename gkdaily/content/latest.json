@@ -1,75 +1,69 @@
 {
  "schema_version": 1,
- "revision": 2,
+ "revision": 1,
  "timezone": "Asia/Kolkata",
  "sources": {
   "tgnews": {
-   "publisher": "ThePrint",
-   "url": "https://theprint.in/india/151-ips-officer-trainees-to-be-part-of-78th-batchs-dikshant-parade-at-svpnpa/3073035/",
+   "publisher": "Telangana Today",
+   "url": "https://telanganatoday.com/hmda-to-organise-bathukamma-carnival-at-tank-bund-on-oct-18",
    "published_date": "2026-10-17"
   },
   "tgnews2": {
-   "publisher": "The New Indian Express",
-   "url": "https://www.newindianexpress.com/states/telangana/2026/Oct/17/telangana-revises-estimated-cost-of-vehicle-testing-stations-to-rs-4255-crore",
+   "publisher": "The Hindu",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/el-nino-concerns-hyderabad-tanker-bookings-double-households-told-to-cut-water-use-by-20/article71595566.ece",
    "published_date": "2026-10-17"
   },
   "innews": {
-   "publisher": "India Today",
-   "url": "https://www.indiatoday.in/india/story/rubio-to-visit-india-october-17-22-jaishankar-says-trade-talks-heading-towards-a-landing-point-3016793-2026-10-14",
-   "published_date": "2026-10-14"
+   "publisher": "ThePrint",
+   "url": "https://theprint.in/india/braj-mohan-ram-to-assume-charge-as-new-odisha-governor-on-oct-18/3072375/",
+   "published_date": "2026-10-15"
   },
   "worldnews": {
-   "publisher": "IPCC",
-   "url": "https://www.ipcc.ch/2026/10/16/65th-plenary-session-of-ipcc/",
-   "published_date": "2026-10-16"
+   "publisher": "Associated Press",
+   "url": "https://apnews.com/article/hurricane-trudi-typhoon-champi-mexico-guam-17a7688b05ff9ac03ccd869abfee41bf",
+   "published_date": "2026-10-18"
   },
   "sports": {
-   "publisher": "Cricbuzz",
-   "url": "https://www.cricbuzz.com/live-cricket-scores/151602/ind-vs-wi-5th-t20i-west-indies-tour-of-india-2026",
-   "published_date": "2026-10-17"
+   "publisher": "Akashvani News",
+   "url": "https://newsonair.gov.in/asian-para-games-2026-to-begin-in-japan/",
+   "published_date": "2026-10-18"
   },
   "ingk": {
-   "publisher": "timeanddate.com",
-   "url": "https://www.timeanddate.com/holidays/india/dussehra",
+   "publisher": "National Police Memorial",
+   "url": "https://nationalpolicememorial.gov.in/npm/national-police-memorial",
    "published_date": null
   },
   "worldgk": {
-   "publisher": "United Nations",
-   "url": "https://www.un.org/en/observances/un-day",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/europe/campaigns/world-polio-day",
    "published_date": null
-  },
-  "tgnews3": {
-   "publisher": "Telangana Today",
-   "url": "https://telanganatoday.com/hyderabad-151-officer-trainees-complete-first-phase-of-ips-training",
-   "published_date": "2026-10-17"
   }
  },
  "cards": [
   {
-   "id": "gk_20261018_telangana_1",
+   "id": "gk_20261019_telangana_1",
    "region": "telangana",
    "type": "current_affairs",
    "source_ids": [
-    "tgnews",
-    "tgnews3"
+    "tgnews"
    ],
-   "event_date": "2026-10-17",
+   "event_date": "2026-10-18",
    "age_band": "class5-10",
    "audio_ids": {
-    "te": "gk_20261018_telangana_1",
-    "en": "gk_20261018_telangana_1__en"
+    "te": "gk_20261019_telangana_1",
+    "en": "gk_20261019_telangana_1__en"
    },
    "title": {
-    "te": "హైదరాబాద్ పోలీసు అకాడమీలో దీక్షాంత్ పరేడ్",
-    "en": "Passing-out parade at Hyderabad police academy"
+    "te": "ట్యాంక్ బండ్‌వద్ద బతుకమ్మ కార్నివాల్",
+    "en": "Bathukamma Carnival at Tank Bund"
    },
    "summary": {
-    "te": "అక్టోబర్ 17న హైదరాబాద్‌లోని సర్దార్ వల్లభాయ్ పటేల్ జాతీయ పోలీసు అకాడమీలో ఐపీఎస్ 78వ బ్యాచ్ దీక్షాంత్ పరేడ్ జరిగింది. 151 మంది అధికారి శిక్షకులు పరేడ్‌లో పాల్గొన్నారు - 135 మంది ఐపీఎస్ ప్రొబేషనర్లు, నేపాల్, భూటాన్, మాల్దీవుల నుంచి 16 మంది విదేశీ శిక్షకులు - ఈ బ్యాచ్‌లో 37 మంది మహిళా అధికారులు ఉన్నారు. ఈ పరేడ్ వారి ప్రాథమిక శిక్షణలో మొదటి దశ పూర్తయినట్టు సూచిస్తుంది; మరిన్ని అటాచ్‌మెంట్లు, రెండో దశ శిక్షణ ఇంకా ఉన్నాయి. ఐపీఎస్ అంటే ఇండియన్ పోలీస్ సర్వీస్; దేశంలో పోలీసు శాఖకు అగ్ర అధికారులను ఇస్తుంది.",
-    "en": "On October 17, the 78th batch of the Indian Police Service held its Dikshant (passing-out) Parade at the Sardar Vallabhbhai Patel National Police Academy in Hyderabad. 151 officer trainees marched - 135 IPS probationers and 16 trainees from Nepal, Bhutan and the Maldives - and the batch includes 37 women officers. The parade marks the completion of the first phase of their basic training; more attachments and Phase-II training still remain. The IPS, the Indian Police Service, provides senior officers for the country's police forces."
+    "te": "అక్టోబర్ 18న సద్దుల బతుకమ్మ సందర్భంగా హైదరాబాద్ ట్యాంక్ బండ్‌వద్ద హైదరాబాద్ మెట్రోపాలిటన్ డెవలప్‌మెంట్ అథారిటీ (HMDA) బతుకమ్మ కార్నివాల్ నిర్వహించింది. ఒగ్గు కథ, చిందు భాగవతం, పేరిణి నృత్యం వంటి తెలంగాణ సంప్రదాయ కళలు ప్రదర్శించబడ్డాయి; ఆహారం, చేతివృత్తులు, చేనేత, ఆభరణాల స్టాళ్లు ఏర్పాటయ్యాయి. బతుకమ్మ తెలంగాణ పువ్వుల పండుగ; ఈ ఏటి అక్టోబర్ 10 నుంచి 18 వరకు తొమ్మిది రోజులు జరుపుకున్నారు.",
+    "en": "On October 18, the Hyderabad Metropolitan Development Authority (HMDA) organised a Bathukamma Carnival at Tank Bund for Saddula Bathukamma. It featured Telangana's traditional art forms like Oggu Katha, Chindu Bhagavatam and Perini dance, along with stalls of food, handicrafts, handlooms and jewellery. Bathukamma is the flower festival of Telangana; this year it was celebrated for nine days, from October 10 to 18."
    }
   },
   {
-   "id": "gk_20261018_telangana_2",
+   "id": "gk_20261019_telangana_2",
    "region": "telangana",
    "type": "current_affairs",
    "source_ids": [
@@ -78,86 +72,86 @@
    "event_date": "2026-10-17",
    "age_band": "class5-10",
    "audio_ids": {
-    "te": "gk_20261018_telangana_2",
-    "en": "gk_20261018_telangana_2__en"
+    "te": "gk_20261019_telangana_2",
+    "en": "gk_20261019_telangana_2__en"
    },
    "title": {
-    "te": "వాహనాల ఫిట్‌నెస్ పరీక్షకు ఆటోమేటెడ్ కేంద్రాలు",
-    "en": "Automated centres to test vehicle fitness"
+    "te": "హైదరాబాద్‌లో నీటి ఆదాపై ప్రభుత్వ అప్పీల్",
+    "en": "Save-water appeal in Hyderabad"
    },
    "summary": {
-    "te": "తెలంగాణ ప్రభుత్వం రాష్ట్రవ్యాప్తంగా 37 ఆటోమేటెడ్ టెస్టింగ్ స్టేషన్లు ఏర్పాటు చేస్తోంది. వాటి అంచనా వ్యయం రూ. 296 కోట్ల నుంచి రూ. 425.5 కోట్లకు సవరించబడింది. ఈ కేంద్రాల్లో సెన్సార్లతో కూడిన యంత్రాలు వాహనాల బ్రేకులు, ఇంజిన్, పొగ విడుదలను పరీక్షించి రోడ్డుపై తిరగడానికి ఫిట్‌నెస్ ధృవీకరణ ఇస్తాయి. మొదటి దశలో 15 కేంద్రాలు ఆరు నుంచి ఎనిమిది నెలల్లో సిద్ధమవుతాయి.",
-    "en": "The Telangana government is setting up 37 Automated Testing Stations across the state, and their estimated cost has been revised from Rs 296 crore to Rs 425.5 crore. At these centres, sensor-based machines check a vehicle's brakes, engine and smoke emissions before certifying it fit for the road. In the first phase, 15 centres will be ready in six to eight months."
+    "te": "ఎల్ నినో ఆందోళనల నేపథ్యంలో హైదరాబాద్‌లో రోజువారీ నీటి ట్యాంకర్ బుకింగ్‌లు గత అక్టోబర్‌లోని 3,500 నుంచి ఈ ఏటి 7,000కు రెట్టింపయ్యాయి. ఇంటిలో నీటి వాడకం కనీసం 20 శాతం తగ్గించాలని తెలంగాణ ప్రభుత్వం ప్రజలను కోరింది. నగరంలోని 16 మండలాల్లో కేవలం 3 చోట్ల మాత్రమే సాధారణ వర్షపాతం నమోదయ్యింది; భూగర్భ జల మట్టం గత ఏటి 3.55 మీటర్ల నుంచి ఈ ఏటి 10 మీటర్ల లోతుకు పడిపోయింది.",
+    "en": "Amid El Niño concerns, daily water-tanker bookings in Hyderabad have doubled from about 3,500 last October to around 7,000 this year. The Telangana government has asked households to cut water use by at least 20 percent. Only 3 of the city's 16 mandals received normal rainfall so far, and the average groundwater level has fallen from 3.55 metres below ground last year to 10 metres this year."
    }
   },
   {
-   "id": "gk_20261018_india_1",
+   "id": "gk_20261019_india_1",
    "region": "india",
    "type": "current_affairs",
    "source_ids": [
     "innews"
    ],
-   "event_date": "2026-10-17",
+   "event_date": "2026-10-18",
    "age_band": "class5-10",
    "audio_ids": {
-    "te": "gk_20261018_india_1",
-    "en": "gk_20261018_india_1__en"
+    "te": "gk_20261019_india_1",
+    "en": "gk_20261019_india_1__en"
    },
    "title": {
-    "te": "భారతదేశంలో అమెరికా విదేశాంగ మంత్రి పర్యటన",
-    "en": "US Secretary of State visits India"
+    "te": "ఒడిశా కొత్త గవర్నర్ బాధ్యతలు స్వీకరించారు",
+    "en": "New Governor takes charge in Odisha"
    },
    "summary": {
-    "te": "అమెరికా విదేశాంగ మంత్రి మార్కో రూబియో అక్టోబర్ 17 నుంచి 22 వరకు ఆరు రోజులు భారతదేశంలో పర్యటిస్తున్నారు. అక్టోబర్ 20న ఆయన మన విదేశాంగ మంత్రి జైశంకర్‌తో భేటీ అవుతారు. రెండు దేశాల మధ్య వాణిజ్య ఒప్పంద చర్చలు ముగింపు దశకు చేరుకుంటున్నాయని అధికారులు చెబుతున్నారు. వాణిజ్య ఒప్పందం అంటే రెండు దేశాలు వస్తువుల అమ్మకం-కొనుగోలు నియమాలపై చేసుకునే ఒప్పందం.",
-    "en": "US Secretary of State Marco Rubio is visiting India from October 17 to 22, a six-day trip. On October 20 he meets India's External Affairs Minister S. Jaishankar. Officials say trade-deal talks between the two countries are nearing a 'landing point'. A trade deal is an agreement between two countries on the rules for buying and selling goods."
+    "te": "బ్రజ్ మోహన్ రామ్ అక్టోబర్ 18న ఒడిశా గవర్నర్‌గా బాధ్యతలు స్వీకరించారు. ఆయన హరి బాబు కంభంపాటి స్థానంలో వచ్చారు; రాష్ట్రపతి ద్రౌపది ముర్ము ఆయన్ను నియమించారు. ఝార్ఖండ్‌లోని పలాము జిల్లాకు చెందిన ఆయన మూడుసార్లు పార్లమెంట్ సభ్యులుగా పనిచేశారు. గవర్నర్ అంటే భారత రాష్ట్రానికి రాజ్యాంగపరమైన అధిపతి; రాష్ట్రపతి నియమిస్తారు.",
+    "en": "Braj Mohan Ram took charge as the Governor of Odisha on October 18. He succeeds Hari Babu Kambhampati and was appointed by President Droupadi Murmu. He comes from Palamu district in Jharkhand and has been a Member of Parliament three times. A Governor is the constitutional head of a state in India and is appointed by the President."
    }
   },
   {
-   "id": "gk_20261018_world_1",
+   "id": "gk_20261019_world_1",
    "region": "world",
    "type": "current_affairs",
    "source_ids": [
     "worldnews"
    ],
-   "event_date": "2026-10-16",
+   "event_date": "2026-10-17",
    "age_band": "class5-10",
    "audio_ids": {
-    "te": "gk_20261018_world_1",
-    "en": "gk_20261018_world_1__en"
+    "te": "gk_20261019_world_1",
+    "en": "gk_20261019_world_1__en"
    },
    "title": {
-    "te": "ఐపీసీసీ సర్వసభ్య సమావేశం వాయిదా",
-    "en": "IPCC plenary session paused"
+    "te": "మెక్సికో తీరానికి దగ్గరగా ట్రూడీ హరికేన్",
+    "en": "Hurricane Trudy near Mexico's coast"
    },
    "summary": {
-    "te": "అక్టోబర్ 16న ఎథియోపియా రాజధాని అడిస్ అబాబాలో జరిగిన ఐపీసీసీ 65వ సర్వసభ్య సమావేశాన్ని అధ్యక్షుడు జిమ్ స్కీయా తాత్కాలికంగా వాయిదా వేశారు. సమావేశం నిర్ణీత సమయం దాటడంతో పలు దేశాల ప్రతినిధులు వెళ్లిపోవాల్సి వచ్చింది. తదుపరి భారీ నివేదిక షెడ్యూలు, బడ్జెట్‌పై చర్చలు త్వరలో మళ్లీ ప్రారంభమవుతాయి. ఐపీసీసీ అంటే వాతావరణ మార్పు శాస్త్రాన్ని సమీక్షించే ఐక్యరాజ్యసమితి సంస్థ.",
-    "en": "On October 16, IPCC Chair Jim Skea suspended the 65th Plenary Session in Addis Ababa, Ethiopia, after the meeting ran past its planned time and many delegations had to leave. Talks on the timeline of its next big assessment report and its budget will resume at the earliest opportunity. The IPCC is the United Nations body that assesses the science of climate change."
+    "te": "అక్టోబర్ 17-18 తేదీల్లో ట్రూడీ హరికేన్ మెక్సికో పసిఫిక్ తీరంపై భారీ వర్షాలు, గంటకు 165 కి.మీ వరకు వేగంతో ఉన్న బలమైన గాలులను కురిపించింది; ఇది కేటగరీ 2 తుఫాను. అమెరికా జాతీయ హరికేన్ కేంద్రం (NHC) ప్రకారం ఇది తీరం నుంచి దూరంగా కదిలి బలహీనపడనుంది. హరికేన్ అంటే వెచ్చని సముద్ర జలంపై ఏర్పడే భారీ తిరుగుబాటు తుఫాను.",
+    "en": "On October 17-18, Hurricane Trudy lashed Mexico's Pacific coast with heavy rain and maximum winds of about 165 km per hour, a Category 2 storm. The US National Hurricane Center said it was forecast to move away from the coast and weaken. A hurricane is a huge spinning storm that forms over warm ocean water."
    }
   },
   {
-   "id": "gk_20261018_india_3",
+   "id": "gk_20261019_india_3",
    "region": "india",
    "type": "current_affairs",
    "source_ids": [
     "sports"
    ],
-   "event_date": "2026-10-17",
+   "event_date": "2026-10-18",
    "age_band": "class5-10",
    "audio_ids": {
-    "te": "gk_20261018_india_3",
-    "en": "gk_20261018_india_3__en"
+    "te": "gk_20261019_india_3",
+    "en": "gk_20261019_india_3__en"
    },
    "title": {
-    "te": "క్రికెట్: భారత్-వెస్టిండీస్ సిరీస్ 2-2 డ్రా",
-    "en": "Cricket: India vs West Indies series drawn 2-2"
+    "te": "జపాన్‌లో ఆసియా పారా గేమ్స్ ప్రారంభం",
+    "en": "Asian Para Games begin in Japan"
    },
    "summary": {
-    "te": "అక్టోబర్ 17 రాత్రి బెంగళూరు చిన్నస్వామి స్టేడియంలో జరిగిన భారత్-వెస్టిండీస్ ఐదో, చివరి టీ20 మ్యాచ్ వర్షం కారణంగా రద్దయింది; భారత్ 7.4 ఓవర్లలో 118/5 చేసిన సమయంలో ఆట ఆగిపోయింది. చివరి మ్యాచ్‌కు ఫలితం లేకపోవడంతో సిరీస్ 2-2తో డ్రా అయింది. డ్రా సిరీస్ అంటే ఏ జట్టూ దాన్ని గెలవకపోవడం.",
-    "en": "The fifth and final T20 match between India and West Indies, played on the night of October 17 at Bengaluru's Chinnaswamy Stadium, was abandoned because of rain after India scored 118/5 in 7.4 overs. With no result in the last match, the series ended drawn 2-2. A drawn series means neither team wins it."
+    "te": "అక్టోబర్ 18న జపాన్‌లోని ఆయిచి-నగోయాలో 5వ ఆసియా పారా గేమ్స్ ప్రారంభమయ్యాయి; అక్టోబర్ 24 వరకు 45 దేశాలకు చెందిన సుమారు 3,000 మంది క్రీడాకారులు 18 క్రీడల్లో పోటీపడతారు. భారత్ నుంచి 168 మంది క్రీడాకారులతో కూడిన 281 మంది బృందం పాల్గొంటోంది; ప్రారంభోత్సవంలో ప్రమోద్ భగత్, సింరన్ శర్మ జెండా మోశారు. 2023 హాంగ్జౌ గేమ్స్‌లో భారత్ 111 పతకాలు (29 బంగారు పతకాలు) సాధించి ఐదో స్థానంలో నిలిచింది. పారా గేమ్స్ అంటే దివ్యాంగ క్రీడాకారుల పోటీలు.",
+    "en": "The 5th Asian Para Games opened on October 18 in Aichi-Nagoya, Japan. Until October 24, about 3,000 athletes from 45 countries compete in 18 sports. India has sent a 281-member contingent with 168 athletes; para-badminton player Pramod Bhagat and sprinter Simran Sharma were the flag-bearers at the opening ceremony. At the 2023 Hangzhou Games, India won a record 111 medals, including 29 gold, finishing fifth. Para Games are competitions for athletes with disabilities."
    }
   },
   {
-   "id": "gk_20261018_india_2",
+   "id": "gk_20261019_india_2",
    "region": "india",
    "type": "static_gk",
    "source_ids": [
@@ -166,20 +160,20 @@
    "event_date": null,
    "age_band": "class3-10",
    "audio_ids": {
-    "te": "gk_20261018_india_2",
-    "en": "gk_20261018_india_2__en"
+    "te": "gk_20261019_india_2",
+    "en": "gk_20261019_india_2__en"
    },
    "title": {
-    "te": "దసరా: అక్టోబర్ 20",
-    "en": "Dussehra on October 20"
+    "te": "పోలీసు స్మృతి దినోత్సవం: అక్టోబర్ 21",
+    "en": "Police Commemoration Day: October 21"
    },
    "summary": {
-    "te": "ఈ ఏటి దసరా (విజయదశమి) అక్టోబర్ 20 మంగళవారం వస్తుంది. ఇది చెడుపై మంచి గెలిచిన విజయానికి సూచన. ఆశ్వయుజ మాసం శుక్ల పక్షంలో పదో రోజున ఈ పండుగ వస్తుంది; భారతదేశంలో ఇది ప్రభుత్వ సెలవుదినం. దసరా నాడు చాలా చోట్ల రావణుడి దిగ్గజ బొమ్మలను దహించే రావణ దహన్ ఉత్సవం జరుగుతుంది.",
-    "en": "This year Dussehra (Vijayadashami) falls on Tuesday, October 20. It marks the victory of good over evil. The festival comes on the tenth day of the bright half of the month of Ashvin, and it is a gazetted holiday in India. In many places people burn giant effigies of Ravana in the Ravana Dahan celebration."
+    "te": "ప్రతి ఏటా అక్టోబర్ 21న పోలీసు స్మృతి దినోత్సవం జరుపుకుంటారు. 1959లో ఈ రోజున లడాఖ్‌లోని హాట్ స్ప్రింగ్స్ వద్ద దేశ సరిహద్దులు కాపాడుతూ పది మంది భారత పోలీసులు వీరమరణం పొందారు. వారి జ్ఞాపకార్థం 1960 నుంచి ఈ రోజున గౌరవిస్తారు. ఢిల్లీ చాణక్యపురిలోని జాతీయ పోలీసు స్మారకాన్ని 2018 అక్టోబర్ 21న దేశానికి అంకితం చేశారు.",
+    "en": "Police Commemoration Day is observed every year on October 21. On this day in 1959, ten Indian policemen lost their lives in an ambush at Hot Springs in Ladakh while defending the country. The day has been remembered since 1960. The National Police Memorial at Chanakyapuri in New Delhi was dedicated to the nation on October 21, 2018."
    }
   },
   {
-   "id": "gk_20261018_world_2",
+   "id": "gk_20261019_world_2",
    "region": "world",
    "type": "static_gk",
    "source_ids": [
@@ -188,524 +182,531 @@
    "event_date": null,
    "age_band": "class3-10",
    "audio_ids": {
-    "te": "gk_20261018_world_2",
-    "en": "gk_20261018_world_2__en"
+    "te": "gk_20261019_world_2",
+    "en": "gk_20261019_world_2__en"
    },
    "title": {
-    "te": "ఐక్యరాజ్యసమితి దినోత్సవం: అక్టోబర్ 24",
-    "en": "United Nations Day: October 24"
+    "te": "ప్రపంచ పోలియో దినోత్సవం: అక్టోబర్ 24",
+    "en": "World Polio Day: October 24"
    },
    "summary": {
-    "te": "ప్రతి ఏటా అక్టోబర్ 24న ఐక్యరాజ్యసమితి దినోత్సవం జరుపుకుంటారు. 1945లో ఈ రోజున ఐక్యరాజ్యసమితి చార్టర్ అమల్లోకి వచ్చింది. ఇప్పుడు దానిలో 193 దేశాలు సభ్యులు; ప్రధాన కార్యాలయం అమెరికాలోని న్యూయార్క్ నగరంలో ఉంది. ప్రపంచ శాంతి, భద్రత, పిల్లల హక్కులు, ఆరోగ్యం వంటి అంశాలపై ఇది పనిచేస్తుంది.",
-    "en": "United Nations Day is marked every year on October 24. On this day in 1945, the UN Charter came into force. Today 193 countries are members, and its headquarters is in New York City, USA. It works on world peace, security, children's rights, health and more."
+    "te": "ప్రతి ఏటా అక్టోబర్ 24న ప్రపంచ పోలియో దినోత్సవం జరుపుకుంటారు. పోలియో అనేది పోలియో వైరస్ వల్ల వచ్చే ప్రమాదకరమైన వ్యాధి; 1988లో దాన్ని పూర్తిగా నిర్మూలించాలని ప్రపంచ ఆరోగ్య సభ నిర్ణయించింది. టీకాలు పిల్లలను ఈ వ్యాధి నుంచి కాపాడతాయి. 2014లో భారతదేశం పోలియో ముక్త దేశంగా ప్రకటించబడింది.",
+    "en": "World Polio Day is observed every year on October 24. Polio is a dangerous disease caused by the poliovirus; in 1988 the World Health Assembly resolved to eradicate it completely. Vaccines protect children from this disease. India was declared polio-free in 2014."
    }
   }
  ],
  "readings": [
   {
-   "id": "gk_20261018_reading_1",
+   "id": "gk_20261019_reading_1",
    "age_band": "class5-7",
    "audio_ids": {
-    "te": "gk_20261018_reading_1",
-    "en": "gk_20261018_reading_1__en"
+    "te": "gk_20261019_reading_1",
+    "en": "gk_20261019_reading_1__en"
    },
    "source_ids": [
-    "tgnews",
-    "tgnews3"
+    "tgnews"
    ],
    "title": {
-    "te": "ఉత్తీర్ణ పరేడ్ అంటే ఏమిటి?",
-    "en": "What is a passing-out parade?"
+    "te": "బతుకమ్మ అంటే ఏమిటి?",
+    "en": "What is Bathukamma?"
    },
    "passage": {
-    "te": "పోలీసు అధికారి కావాలనుకునే వారు ముందు పరీక్షలు రాసి ఎంపికవుతారు. తరువత అకాడమీలో శిక్షణ పొందుతారు. శిక్షణలో చట్టాలు నేర్చుకుంటారు, కష్టమైన వ్యాయామాలు చేస్తారు, ప్రజలకు ఎలా సేవ చేయాలో తెలుసుకుంటారు. శిక్షణ మొదటి దశ పూర్తయిన రోజున పరేడ్ గ్రౌండ్‌లో అందరూ క్రమంగా నడుస్తారు; దానినే దీక్షాంత్ లేదా ఉత్తీర్ణ పరేడ్ అంటారు. పరేడ్ తరువాత మరింత శిక్షణ, ఫీల్డ్ అటాచ్‌మెంట్లు ఉంటాయి; అప్పుడే వారు పూర్తి బాధ్యతలు చేపట్టే అధికారులు అవుతారు. కుటుంబాలు ఆ రోజును పండుగలా జరుపుకుంటాయి.",
-    "en": "Those who want to become police officers first write exams and get selected. Then they train at an academy. In training they learn laws, do hard exercise, and learn how to serve people. When the first phase of training ends, everyone marches in order on the parade ground; this is called the Dikshant or passing-out parade. After the parade, more training and field attachments follow before they take full charge as officers. Families celebrate that day like a festival."
+    "te": "బతుకమ్మ తెలంగాణ పువ్వుల పండుగ. దసరాకు ముందు తొమ్మిది రోజులు మహిళలు, బాలికలు జరుపుకుంటారు. రంగురంగుల సీజన్ పువ్వులను ఇత్తడి పళ్ళెంపై చిన్న గోపురం ఆకారంలో పొరలుగా అమర్చి, పైన పసుపుతో చేసిన గౌరీ దేవి విగ్రహాన్ని ఉంచుతారు. సాయంత్రం దాని చుట్టూ పాటలు పాడుతూ ఆడుతారు. చివరి రోజును సద్దుల బతుకమ్మ అంటారు; ఆ రోజు పూల బతుకమ్మలను చెరువుల్లో, కుంటల్లో నిమజ్జనం చేస్తారు. పంట, మంచి ఆరోగ్యం కోసం ప్రకృతికి, అమ్మవారికి కృతజ్ఞతగా ఈ పండుగ జరుపుకుంటారు.",
+    "en": "Bathukamma is the flower festival of Telangana, celebrated by women and girls for nine days before Dussehra. They arrange colourful seasonal flowers in layers on a brass plate, in the shape of a small temple tower, and place a turmeric idol of Goddess Gauri on top. In the evenings they sing and dance around it. The last day is called Saddula Bathukamma, when the flower stacks are floated in ponds and lakes. The festival thanks nature and the goddess for the harvest and good health."
    },
    "vocabulary": [
     {
-     "te": "దీక్షాంత్",
-     "en": "passing out (graduation)"
+     "te": "బతుకమ్మ",
+     "en": "Bathukamma (flower festival)"
     },
     {
-     "te": "శిక్షణ",
-     "en": "training"
+     "te": "పండుగ",
+     "en": "festival"
     },
     {
-     "te": "పరేడ్",
-     "en": "parade"
+     "te": "నిమజ్జనం",
+     "en": "immersion (floating in water)"
+    },
+    {
+     "te": "గోపురం",
+     "en": "temple tower"
     }
    ]
   },
   {
-   "id": "gk_20261018_reading_2",
-   "age_band": "class8-10",
+   "id": "gk_20261019_reading_2",
+   "age_band": "class5-7",
    "audio_ids": {
-    "te": "gk_20261018_reading_2",
-    "en": "gk_20261018_reading_2__en"
+    "te": "gk_20261019_reading_2",
+    "en": "gk_20261019_reading_2__en"
    },
    "source_ids": [
-    "worldnews"
+    "tgnews2"
    ],
    "title": {
-    "te": "ఐపీసీసీ అంటే ఏమిటి, అది ఎలా పనిచేస్తుంది?",
-    "en": "What is the IPCC and how does it work?"
+    "te": "ఎల్ నినో అంటే ఏమిటి?",
+    "en": "What is El Niño?"
    },
    "passage": {
-    "te": "వాతావరణ మార్పు అంటే భూమి సగటు ఉష్ణోగ్రత పెరగడం. దీని గురించి ప్రభుత్వాలకు నమ్మకమైన శాస్త్రీయ సమాచారం ఇవ్వడానికి ఐక్యరాజ్యసమితి 1988లో ఐపీసీసీని ఏర్పాటు చేసింది. ఇది స్వయంచాలకంగా కొత్త పరిశోధన చేయదు; ప్రపంచంలోని శాస్త్రవేత్తలు ఇప్పటికే ప్రచురితమైన పరిశోధనలన్నింటిని చదివి, సమీక్షించి నివేదికలు తయారు చేస్తారు. ఈ నివేదికలను అసెస్‌మెంట్ రిపోర్టులు అంటారు. ప్రతి నివేదికను సభ్య దేశాలు సర్వసభ్య సమావేశంలో చర్చించి ఆమోదిస్తాయి. అందుకే సమావేశం వాయిదా పడితే తదుపరి నివేదిక షెడ్యూలు కూడా ఆలస్యమవుతుంది.",
-    "en": "Climate change means the Earth's average temperature is rising. To give governments trustworthy scientific information about it, the United Nations set up the IPCC in 1988. It does not do new research on its own; scientists from around the world read and assess all the research already published and prepare reports. These are called assessment reports. Member countries discuss and approve each report at a plenary session. That is why when a session is suspended, the schedule of the next report is also delayed."
+    "te": "ఎల్ నినో అనేది సహజ వాతావరణ మార్పు. ప్రతి కొన్నేళ్లకు భూమధ్యరేఖకు దగ్గరగా ఉన్న పసిఫిక్ మహాసముద్ర ఉపరితల నీరు సాధారణం కంటే వేడెక్కుతుంది. ఈ చిన్న వేడెక్కడం ప్రపంచంలోని గాలులు, వర్షపాతం సరళిని మారుస్తుంది. కొన్ని చోట్ల భారీ వర్షాలు, వరదలు వస్తే, భారతదేశంలోని కొన్ని ప్రాంతాల్లో రుతుపవన వర్షాలు తగ్గి కరువు రావచ్చు. పసిఫిక్ నీరు మామూలు కంటే చల్లబడే దశను లా నినా అంటారు. శాస్త్రవేత్తలు సముద్ర ఉష్ణోగ్రతలను గమనించి ఈ మార్పులను నెలల ముందుగానే అంచనా వేస్తారు.",
+    "en": "El Niño is a natural climate pattern. Every few years, the surface water of the Pacific Ocean near the equator becomes warmer than usual. This small warming changes wind and rain patterns around the world. Some places get heavy rain and floods, while others, like parts of India, may get weaker monsoon rains and drought. The opposite phase, when the Pacific turns cooler than usual, is called La Niña. Scientists watch ocean temperatures to predict these patterns months ahead."
    },
    "vocabulary": [
     {
-     "te": "వాతావరణ మార్పు",
-     "en": "climate change"
+     "te": "ఎల్ నినో",
+     "en": "El Niño (warming phase)"
     },
     {
-     "te": "సమీక్ష",
-     "en": "assessment"
+     "te": "లా నినా",
+     "en": "La Niña (cooling phase)"
     },
     {
-     "te": "సర్వసభ్య సమావేశం",
-     "en": "plenary session"
+     "te": "వర్షపాతం",
+     "en": "rainfall"
+    },
+    {
+     "te": "కరువు",
+     "en": "drought"
     }
    ]
   }
  ],
  "quiz": [
   {
-   "id": "gk_20261018_q1",
+   "id": "gk_20261019_q1",
    "style": "original_practice_not_official_exam",
    "audio_ids": {
-    "te": "gk_20261018_q1",
-    "en": "gk_20261018_q1__en"
+    "te": "gk_20261019_q1",
+    "en": "gk_20261019_q1__en"
    },
    "answer_audio_ids": {
-    "te": "gk_20261018_q1_answer",
-    "en": "gk_20261018_q1_answer__en"
+    "te": "gk_20261019_q1_answer",
+    "en": "gk_20261019_q1_answer__en"
    },
-   "item_id": "gk_20261018_telangana_1",
+   "item_id": "gk_20261019_telangana_1",
    "question": {
-    "te": "దీక్షాంత్ పరేడ్‌లో ఎంత మంది అధికారి శిక్షకులు పాల్గొన్నారు?",
-    "en": "How many officer trainees took part in the Dikshant Parade?"
+    "te": "బతుకమ్మ కార్నివాల్ ఎక్కడ నిర్వహించబడింది?",
+    "en": "Where was the Bathukamma Carnival held?"
    },
    "options": {
     "te": [
-     "151",
-     "78",
-     "37",
-     "425"
+     "ట్యాంక్ బండ్",
+     "చార్మినార్",
+     "గోల్కొండ కోట",
+     "రామోజీ ఫిల్మ్ సిటీ"
     ],
     "en": [
-     "151",
-     "78",
-     "37",
-     "425"
+     "Tank Bund",
+     "Charminar",
+     "Golconda Fort",
+     "Ramoji Film City"
     ]
    },
    "answer_index": 0,
    "explanation": {
-    "te": "151 మంది పాల్గొన్నారు: 135 మంది ఐపీఎస్ ప్రొబేషనర్లు, 16 మంది విదేశీ శిక్షకులు; 78 బ్యాచ్ సంఖ్య, 37 మంది మహిళా అధికారులు.",
-    "en": "151 marched: 135 IPS probationers and 16 foreign trainees; 78 is the batch number and 37 the women officers."
+    "te": "HMDA సద్దుల బతుకమ్మ సందర్భంగా ట్యాంక్ బండ్‌వద్ద ఈ కార్నివాల్ నిర్వహించింది.",
+    "en": "HMDA held the carnival at Tank Bund for Saddula Bathukamma."
    }
   },
   {
-   "id": "gk_20261018_q2",
+   "id": "gk_20261019_q2",
    "style": "original_practice_not_official_exam",
    "audio_ids": {
-    "te": "gk_20261018_q2",
-    "en": "gk_20261018_q2__en"
+    "te": "gk_20261019_q2",
+    "en": "gk_20261019_q2__en"
    },
    "answer_audio_ids": {
-    "te": "gk_20261018_q2_answer",
-    "en": "gk_20261018_q2_answer__en"
+    "te": "gk_20261019_q2_answer",
+    "en": "gk_20261019_q2_answer__en"
    },
-   "item_id": "gk_20261018_telangana_1",
+   "item_id": "gk_20261019_telangana_1",
    "question": {
-    "te": "సర్దార్ వల్లభాయ్ పటేల్ జాతీయ పోలీసు అకాడమీ ఎక్కడ ఉంది?",
-    "en": "Where is the Sardar Vallabhbhai Patel National Police Academy?"
+    "te": "బతుకమ్మ ఏ రకమైన పండుగ?",
+    "en": "What kind of festival is Bathukamma?"
    },
    "options": {
     "te": [
-     "ఢిల్లీ",
-     "ముంబై",
-     "హైదరాబాద్",
-     "చెన్నై"
+     "పతాక పండుగ",
+     "తెలంగాణ పువ్వుల పండుగ",
+     "పంట పండుగ ఆఫ్ పంజాబ్",
+     "కేరళ పడవ రేసు"
     ],
     "en": [
-     "Delhi",
-     "Mumbai",
-     "Hyderabad",
-     "Chennai"
-    ]
-   },
-   "answer_index": 2,
-   "explanation": {
-    "te": "హైదరాబాద్‌లో ఉంది.",
-    "en": "It is in Hyderabad."
-   }
-  },
-  {
-   "id": "gk_20261018_q3",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261018_q3",
-    "en": "gk_20261018_q3__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261018_q3_answer",
-    "en": "gk_20261018_q3_answer__en"
-   },
-   "item_id": "gk_20261018_telangana_2",
-   "question": {
-    "te": "తెలంగాణలో ఎన్ని ఆటోమేటెడ్ టెస్టింగ్ స్టేషన్లు ఏర్పాటవుతున్నాయి?",
-    "en": "How many Automated Testing Stations are being set up in Telangana?"
-   },
-   "options": {
-    "te": [
-     "15",
-     "37",
-     "296",
-     "50"
-    ],
-    "en": [
-     "15",
-     "37",
-     "296",
-     "50"
+     "A kite festival",
+     "The flower festival of Telangana",
+     "A harvest festival of Punjab",
+     "A boat race of Kerala"
     ]
    },
    "answer_index": 1,
    "explanation": {
-    "te": "మొత్తం 37; మొదటి దశలో 15.",
-    "en": "37 in all; 15 in the first phase."
+    "te": "బతుకమ్మ తెలంగాణ ప్రజల పువ్వుల పండుగ; తొమ్మిది రోజులు జరుపుకుంటారు.",
+    "en": "Bathukamma is Telangana's flower festival, celebrated for nine days."
    }
   },
   {
-   "id": "gk_20261018_q4",
+   "id": "gk_20261019_q3",
    "style": "original_practice_not_official_exam",
    "audio_ids": {
-    "te": "gk_20261018_q4",
-    "en": "gk_20261018_q4__en"
+    "te": "gk_20261019_q3",
+    "en": "gk_20261019_q3__en"
    },
    "answer_audio_ids": {
-    "te": "gk_20261018_q4_answer",
-    "en": "gk_20261018_q4_answer__en"
+    "te": "gk_20261019_q3_answer",
+    "en": "gk_20261019_q3_answer__en"
    },
-   "item_id": "gk_20261018_telangana_2",
+   "item_id": "gk_20261019_telangana_2",
    "question": {
-    "te": "టెస్టింగ్ స్టేషన్ల అంచనా వ్యయం ఎంతకు సవరించబడింది?",
-    "en": "To what was the testing stations' estimated cost revised?"
+    "te": "హైదరాబాద్‌లో రోజువారీ నీటి ట్యాంకర్ బుకింగ్‌లు ఎంతకు పెరిగాయి?",
+    "en": "Daily water-tanker bookings in Hyderabad rose to about how many?"
    },
    "options": {
     "te": [
-     "రూ. 296 కోట్లు",
-     "రూ. 425.5 కోట్లు",
-     "రూ. 100 కోట్లు",
-     "రూ. 11.5 కోట్లు"
+     "3,500",
+     "500",
+     "7,000",
+     "70,000"
     ],
     "en": [
-     "Rs 296 crore",
-     "Rs 425.5 crore",
-     "Rs 100 crore",
-     "Rs 11.5 crore"
-    ]
-   },
-   "answer_index": 1,
-   "explanation": {
-    "te": "రూ. 296 కోట్ల నుంచి రూ. 425.5 కోట్లకు పెరిగింది.",
-    "en": "It rose from Rs 296 crore to Rs 425.5 crore."
-   }
-  },
-  {
-   "id": "gk_20261018_q5",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261018_q5",
-    "en": "gk_20261018_q5__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261018_q5_answer",
-    "en": "gk_20261018_q5_answer__en"
-   },
-   "item_id": "gk_20261018_india_1",
-   "question": {
-    "te": "మార్కో రూబియో భారత పర్యటన ఎన్ని రోజులు?",
-    "en": "How long is Marco Rubio's India visit?"
-   },
-   "options": {
-    "te": [
-     "రెండు రోజులు",
-     "నాలుగు రోజులు",
-     "ఆరు రోజులు",
-     "పది రోజులు"
-    ],
-    "en": [
-     "Two days",
-     "Four days",
-     "Six days",
-     "Ten days"
+     "3,500",
+     "500",
+     "7,000",
+     "70,000"
     ]
    },
    "answer_index": 2,
    "explanation": {
-    "te": "అక్టోబర్ 17 నుంచి 22 వరకు ఆరు రోజులు.",
-    "en": "October 17 to 22, six days."
+    "te": "గత అక్టోబర్‌లో 3,500 ఉండే బుకింగ్‌లు ఈ ఏటి 7,000కు రెట్టింపయ్యాయి.",
+    "en": "Bookings doubled from 3,500 last October to about 7,000 this year."
    }
   },
   {
-   "id": "gk_20261018_q6",
+   "id": "gk_20261019_q4",
    "style": "original_practice_not_official_exam",
    "audio_ids": {
-    "te": "gk_20261018_q6",
-    "en": "gk_20261018_q6__en"
+    "te": "gk_20261019_q4",
+    "en": "gk_20261019_q4__en"
    },
    "answer_audio_ids": {
-    "te": "gk_20261018_q6_answer",
-    "en": "gk_20261018_q6_answer__en"
+    "te": "gk_20261019_q4_answer",
+    "en": "gk_20261019_q4_answer__en"
    },
-   "item_id": "gk_20261018_india_1",
+   "item_id": "gk_20261019_telangana_2",
    "question": {
-    "te": "రూబియో జైశంకర్‌ను ఏ రోజు కలుస్తారు?",
-    "en": "On which day does Rubio meet Jaishankar?"
+    "te": "ఇంటి నీటి వాడకం ఎంత శాతం తగ్గించాలని ప్రభుత్వం కోరింది?",
+    "en": "By how much did the government ask households to cut water use?"
    },
    "options": {
     "te": [
-     "అక్టోబర్ 17",
+     "5 శాతం",
+     "10 శాతం",
+     "20 శాతం",
+     "50 శాతం"
+    ],
+    "en": [
+     "5 percent",
+     "10 percent",
+     "20 percent",
+     "50 percent"
+    ]
+   },
+   "answer_index": 2,
+   "explanation": {
+    "te": "కనీసం 20 శాతం తగ్గించాలని ప్రభుత్వం కోరింది.",
+    "en": "The government asked people to cut use by at least 20 percent."
+   }
+  },
+  {
+   "id": "gk_20261019_q5",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q5",
+    "en": "gk_20261019_q5__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q5_answer",
+    "en": "gk_20261019_q5_answer__en"
+   },
+   "item_id": "gk_20261019_india_1",
+   "question": {
+    "te": "ఒడిశా కొత్త గవర్నర్ ఎవరు?",
+    "en": "Who is the new Governor of Odisha?"
+   },
+   "options": {
+    "te": [
+     "హరి బాబు కంభంపాటి",
+     "బ్రజ్ మోహన్ రామ్",
+     "ద్రౌపది ముర్ము",
+     "జయేష్ రంజన్"
+    ],
+    "en": [
+     "Hari Babu Kambhampati",
+     "Braj Mohan Ram",
+     "Droupadi Murmu",
+     "Jayesh Ranjan"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "బ్రజ్ మోహన్ రామ్ అక్టోబర్ 18న బాధ్యతలు స్వీకరించారు; కంభంపాటి మునుపటి గవర్నర్.",
+    "en": "Braj Mohan Ram took charge on October 18; Kambhampati was the previous Governor."
+   }
+  },
+  {
+   "id": "gk_20261019_q6",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q6",
+    "en": "gk_20261019_q6__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q6_answer",
+    "en": "gk_20261019_q6_answer__en"
+   },
+   "item_id": "gk_20261019_india_1",
+   "question": {
+    "te": "భారతదేశంలో రాష్ట్ర గవర్నర్‌ను ఎవరు నియమిస్తారు?",
+    "en": "Who appoints the Governor of a state in India?"
+   },
+   "options": {
+    "te": [
+     "రాష్ట్రపతి",
+     "ప్రధాన మంత్రి",
+     "ముఖ్యమంత్రి",
+     "ప్రధాన న్యాయమూర్తి"
+    ],
+    "en": [
+     "The President",
+     "The Prime Minister",
+     "The Chief Minister",
+     "The Chief Justice"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "గవర్నర్ రాష్ట్ర రాజ్యాంగపరమైన అధిపతి; రాష్ట్రపతి నియమిస్తారు.",
+    "en": "The Governor is the constitutional head of a state, appointed by the President."
+   }
+  },
+  {
+   "id": "gk_20261019_q7",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q7",
+    "en": "gk_20261019_q7__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q7_answer",
+    "en": "gk_20261019_q7_answer__en"
+   },
+   "item_id": "gk_20261019_world_1",
+   "question": {
+    "te": "ట్రూడీ హరికేన్ ఏ దేశం తీరానికి దగ్గరగా ఉంది?",
+    "en": "Hurricane Trudy is near which country's coast?"
+   },
+   "options": {
+    "te": [
+     "భారతదేశం",
+     "మెక్సికో",
+     "జపాన్",
+     "ఫ్రాన్స్"
+    ],
+    "en": [
+     "India",
+     "Mexico",
+     "Japan",
+     "France"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "ట్రూడీ మెక్సికో పశ్చిమ తీరానికి చేరుకుంది.",
+    "en": "Trudy approached Mexico's western coast."
+   }
+  },
+  {
+   "id": "gk_20261019_q8",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q8",
+    "en": "gk_20261019_q8__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q8_answer",
+    "en": "gk_20261019_q8_answer__en"
+   },
+   "item_id": "gk_20261019_world_1",
+   "question": {
+    "te": "ట్రూడీ గరిష్ట గాలి వేగం ఎంత?",
+    "en": "What was Trudy's maximum wind speed?"
+   },
+   "options": {
+    "te": [
+     "గంటకు 60 కి.మీ",
+     "గంటకు 13 కి.మీ",
+     "గంటకు 165 కి.మీ",
+     "గంటకు 300 కి.మీ"
+    ],
+    "en": [
+     "60 km per hour",
+     "13 km per hour",
+     "165 km per hour",
+     "300 km per hour"
+    ]
+   },
+   "answer_index": 2,
+   "explanation": {
+    "te": "గరిష్టంగా గంటకు 165 కి.మీ; 13 కి.మీ తుఫాను కదలిక వేగం.",
+    "en": "Maximum winds reached 165 km per hour; 13 km per hour was the storm's moving speed."
+   }
+  },
+  {
+   "id": "gk_20261019_q9",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q9",
+    "en": "gk_20261019_q9__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q9_answer",
+    "en": "gk_20261019_q9_answer__en"
+   },
+   "item_id": "gk_20261019_india_3",
+   "question": {
+    "te": "2026 ఆసియా పారా గేమ్స్ ఎక్కడ జరుగుతున్నాయి?",
+    "en": "Where are the 2026 Asian Para Games being held?"
+   },
+   "options": {
+    "te": [
+     "హాంగ్జౌ, చైనా",
+     "ఆయిచి-నగోయా, జపాన్",
+     "జకార్తా, ఇండోనేషియా",
+     "న్యూఢిల్లీ, భారతదేశం"
+    ],
+    "en": [
+     "Hangzhou, China",
+     "Aichi-Nagoya, Japan",
+     "Jakarta, Indonesia",
+     "New Delhi, India"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "5వ ఆసియా పారా గేమ్స్ జపాన్‌లోని ఆయిచి-నగోయాలో జరుగుతున్నాయి; హాంగ్జౌ 2023 ఆతిథ్యం ఇచ్చింది.",
+    "en": "The 5th Asian Para Games are in Aichi-Nagoya, Japan; Hangzhou hosted in 2023."
+   }
+  },
+  {
+   "id": "gk_20261019_q10",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q10",
+    "en": "gk_20261019_q10__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q10_answer",
+    "en": "gk_20261019_q10_answer__en"
+   },
+   "item_id": "gk_20261019_india_3",
+   "question": {
+    "te": "ప్రారంభోత్సవంలో భారత జెండా ఎవరు మోశారు?",
+    "en": "Who were India's flag-bearers at the opening ceremony?"
+   },
+   "options": {
+    "te": [
+     "సుమిత్ అంతిల్, అవని లేఖరా",
+     "షీటల్ దేవి, భావినా పటేల్",
+     "ప్రమోద్ భగత్, సింరన్ శర్మ",
+     "రోహిత్ శర్మ, విరాట్ కోహ్లి"
+    ],
+    "en": [
+     "Sumit Antil and Avani Lekhara",
+     "Sheetal Devi and Bhavina Patel",
+     "Pramod Bhagat and Simran Sharma",
+     "Rohit Sharma and Virat Kohli"
+    ]
+   },
+   "answer_index": 2,
+   "explanation": {
+    "te": "పారా బ్యాడ్మింటన్ క్రీడాకారుడు ప్రమోద్ భగత్, స్ప్రింటర్ సింరన్ శర్మ జెండా మోశారు.",
+    "en": "Para-badminton player Pramod Bhagat and sprinter Simran Sharma carried the flag."
+   }
+  },
+  {
+   "id": "gk_20261019_q11",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q11",
+    "en": "gk_20261019_q11__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q11_answer",
+    "en": "gk_20261019_q11_answer__en"
+   },
+   "item_id": "gk_20261019_india_2",
+   "question": {
+    "te": "పోలీసు స్మృతి దినోత్సవం ఏ తేదీన?",
+    "en": "When is Police Commemoration Day observed?"
+   },
+   "options": {
+    "te": [
+     "అక్టోబర్ 21",
+     "అక్టోబర్ 24",
+     "అక్టోబర్ 18",
+     "అక్టోబర్ 31"
+    ],
+    "en": [
+     "October 21",
+     "October 24",
+     "October 18",
+     "October 31"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "1959 అక్టోబర్ 21న హాట్ స్ప్రింగ్స్‌లో పది మంది పోలీసులు వీరమరణం పొందారు.",
+    "en": "Ten policemen died at Hot Springs on October 21, 1959."
+   }
+  },
+  {
+   "id": "gk_20261019_q12",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261019_q12",
+    "en": "gk_20261019_q12__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261019_q12_answer",
+    "en": "gk_20261019_q12_answer__en"
+   },
+   "item_id": "gk_20261019_world_2",
+   "question": {
+    "te": "ప్రపంచ పోలియో దినోత్సవం ఏ తేదీన?",
+    "en": "When is World Polio Day observed?"
+   },
+   "options": {
+    "te": [
+     "అక్టోబర్ 18",
      "అక్టోబర్ 20",
-     "అక్టోబర్ 22",
+     "అక్టోబర్ 21",
      "అక్టోబర్ 24"
     ],
     "en": [
-     "October 17",
+     "October 18",
      "October 20",
-     "October 22",
+     "October 21",
      "October 24"
     ]
    },
-   "answer_index": 1,
+   "answer_index": 3,
    "explanation": {
-    "te": "అక్టోబర్ 20న భేటీ.",
-    "en": "They meet on October 20."
-   }
-  },
-  {
-   "id": "gk_20261018_q7",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261018_q7",
-    "en": "gk_20261018_q7__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261018_q7_answer",
-    "en": "gk_20261018_q7_answer__en"
-   },
-   "item_id": "gk_20261018_world_1",
-   "question": {
-    "te": "ఐపీసీసీ 65వ సర్వసభ్య సమావేశం ఏ నగరంలో జరిగింది?",
-    "en": "In which city was the 65th IPCC Plenary Session held?"
-   },
-   "options": {
-    "te": [
-     "న్యూయార్క్",
-     "అడిస్ అబాబా",
-     "ఢిల్లీ",
-     "జెనీవా"
-    ],
-    "en": [
-     "New York",
-     "Addis Ababa",
-     "Delhi",
-     "Geneva"
-    ]
-   },
-   "answer_index": 1,
-   "explanation": {
-    "te": "ఎథియోపియా రాజధాని అడిస్ అబాబాలో.",
-    "en": "In Addis Ababa, the capital of Ethiopia."
-   }
-  },
-  {
-   "id": "gk_20261018_q8",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261018_q8",
-    "en": "gk_20261018_q8__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261018_q8_answer",
-    "en": "gk_20261018_q8_answer__en"
-   },
-   "item_id": "gk_20261018_world_1",
-   "question": {
-    "te": "ఐపీసీసీ ఏ సంస్థ?",
-    "en": "What is the IPCC?"
-   },
-   "options": {
-    "te": [
-     "అంతర్జాతీయ క్రికెట్ మండలి",
-     "వాతావరణ మార్పుపై ఐక్యరాజ్యసమితి సంస్థ",
-     "ప్రపంచ ఆహార సంస్థ",
-     "భారత పోలీసు అకాడమీ"
-    ],
-    "en": [
-     "The international cricket council",
-     "A UN body on climate change",
-     "The world food body",
-     "India's police academy"
-    ]
-   },
-   "answer_index": 1,
-   "explanation": {
-    "te": "వాతావరణ మార్పు శాస్త్రాన్ని సమీక్షించే ఐక్యరాజ్యసమితి సంస్థ.",
-    "en": "The UN body that assesses climate-change science."
-   }
-  },
-  {
-   "id": "gk_20261018_q9",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261018_q9",
-    "en": "gk_20261018_q9__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261018_q9_answer",
-    "en": "gk_20261018_q9_answer__en"
-   },
-   "item_id": "gk_20261018_india_3",
-   "question": {
-    "te": "భారత్-వెస్టిండీస్ టీ20 సిరీస్ ఎలా ముగిసింది?",
-    "en": "How did the India vs West Indies T20 series end?"
-   },
-   "options": {
-    "te": [
-     "భారత్ 3-2తో గెలిచింది",
-     "2-2తో డ్రా",
-     "వెస్టిండీస్ 3-2తో గెలిచింది",
-     "మరో రోజుకు వాయిదా"
-    ],
-    "en": [
-     "India won 3-2",
-     "Drawn 2-2",
-     "West Indies won 3-2",
-     "Postponed to another day"
-    ]
-   },
-   "answer_index": 1,
-   "explanation": {
-    "te": "భారత్ 7.4 ఓవర్లలో 118/5 ఉన్నప్పుడు చివరి మ్యాచ్ వర్షంతో రద్దయింది; అందుకే సిరీస్ 2-2తో డ్రా అయింది.",
-    "en": "The last match was abandoned due to rain after India reached 118/5 in 7.4 overs, so the series stayed level at 2-2."
-   }
-  },
-  {
-   "id": "gk_20261018_q10",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261018_q10",
-    "en": "gk_20261018_q10__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261018_q10_answer",
-    "en": "gk_20261018_q10_answer__en"
-   },
-   "item_id": "gk_20261018_india_3",
-   "question": {
-    "te": "నిర్ణాయక మ్యాచ్ అంటే ఏమిటి?",
-    "en": "What is a decider?"
-   },
-   "options": {
-    "te": [
-     "మొదటి మ్యాచ్",
-     "సిరీస్ ఫలితాన్ని తేల్చే చివరి మ్యాచ్",
-     "సాధన మ్యాచ్",
-     "వార్మప్ మ్యాచ్"
-    ],
-    "en": [
-     "The first match",
-     "The last match that settles the series result",
-     "A practice match",
-     "A warm-up match"
-    ]
-   },
-   "answer_index": 1,
-   "explanation": {
-    "te": "నిర్ణాయక మ్యాచ్ అంటే సిరీస్ ఫలితాన్ని తేల్చే చివరి మ్యాచ్; ఇక్కడ వర్షం దాన్ని కొట్టుకుపోయింది, కాబట్టి నిర్ణాయకం జరగలేదు, సిరీస్ 2-2తో డ్రా అయింది.",
-    "en": "A decider is the last match that settles a series; here rain washed it out, so the decider never happened and the series was drawn 2-2."
-   }
-  },
-  {
-   "id": "gk_20261018_q11",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261018_q11",
-    "en": "gk_20261018_q11__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261018_q11_answer",
-    "en": "gk_20261018_q11_answer__en"
-   },
-   "item_id": "gk_20261018_india_2",
-   "question": {
-    "te": "ఈ ఏటి దసరా ఏ తేదీన వస్తుంది?",
-    "en": "On which date does Dussehra fall this year?"
-   },
-   "options": {
-    "te": [
-     "అక్టోబర్ 20",
-     "అక్టోబర్ 24",
-     "అక్టోబర్ 17",
-     "నవంబర్ 1"
-    ],
-    "en": [
-     "October 20",
-     "October 24",
-     "October 17",
-     "November 1"
-    ]
-   },
-   "answer_index": 0,
-   "explanation": {
-    "te": "అక్టోబర్ 20 మంగళవారం.",
-    "en": "Tuesday, October 20."
-   }
-  },
-  {
-   "id": "gk_20261018_q12",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261018_q12",
-    "en": "gk_20261018_q12__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261018_q12_answer",
-    "en": "gk_20261018_q12_answer__en"
-   },
-   "item_id": "gk_20261018_world_2",
-   "question": {
-    "te": "ఐక్యరాజ్యసమితిలో ఎన్ని దేశాలు సభ్యులు?",
-    "en": "How many countries are members of the United Nations?"
-   },
-   "options": {
-    "te": [
-     "151",
-     "193",
-     "100",
-     "78"
-    ],
-    "en": [
-     "151",
-     "193",
-     "100",
-     "78"
-    ]
-   },
-   "answer_index": 1,
-   "explanation": {
-    "te": "193 దేశాలు సభ్యులు.",
-    "en": "193 countries are members."
+    "te": "ప్రతి ఏటా అక్టోబర్ 24న ప్రపంచ పోలియో దినోత్సవం.",
+    "en": "World Polio Day is observed every year on October 24."
    }
   }
  ],
- "edition_date": "2026-10-18",
- "verified_at": "2026-10-18T02:41:03.730276+05:30",
+ "edition_date": "2026-10-19",
+ "verified_at": "2026-10-18T22:47:12.389260+05:30",
  "status": "source_checked_translation_review_recommended",
  "coverage": [
   "cards",
