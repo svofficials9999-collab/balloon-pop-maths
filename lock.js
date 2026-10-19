@@ -42,6 +42,7 @@ function check(){
 var LF='https://docs.google.com/forms/d/e/1FAIpQLSdMs1SlQ7oSZKIBzaza_7jPm_M6CFVj6l7_jwd25i2lpXj9hA/formResponse',LK='akn.lead',LQ='akn.leadq2',LM='akn.lastlead';
 function postLead(o){
  var p=new URLSearchParams();p.set('entry.4334491',o.n||'');p.set('entry.1331175987',o.p);
+ try{var q=new URLSearchParams();q.set('entry.1092863471',o.n||'');q.set('entry.1251157095',o.p);q.set('entry.1851605452','SV AksharaNova');fetch('https://docs.google.com/forms/d/e/1FAIpQLSfAccvHMtx-nvEFsLtdQbjYo03twnJmWvX390zD3R0ya0RUNQ/formResponse',{method:'POST',mode:'no-cors',keepalive:true,headers:{'Content-Type':'application/x-www-form-urlencoded'},body:q.toString()})}catch(e){}
  return fetch(LF,{method:'POST',mode:'no-cors',keepalive:true,headers:{'Content-Type':'application/x-www-form-urlencoded'},body:p.toString()});
 }
 function qget(){try{return JSON.parse(get(LQ)||'[]')}catch(e){return[]}}
