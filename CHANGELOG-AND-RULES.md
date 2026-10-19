@@ -2,6 +2,13 @@
 
 Documentation baseline: 2026-10-09. Earlier project history remains in Git commits; this file does not invent a day-one audit.
 
+## 2026-10-19 - AksharaNova: 2026-10-20 edition staged
+- gkdaily/content/2026-10-20.json: 7 cards (Telangana drought 315/621 mandals; RRR southern section to HGCL Rs 20,000+ crore; ISRO LME-1100 methane engine test; COP17 biodiversity Yerevan; IND-W beat ZIM-W 9 wickets, series 2-0; National Solidarity Day Oct 20; World Osteoporosis Day Oct 20), 2 readings, 12 quiz questions, sources linked. Goes live at midnight (future-date gate).
+- gkdaily/content/latest.json: same edition.
+- gkdaily/listen-20261020.tsv: 66 listen rows (committed, not precached; recordings remain 'being prepared').
+- gkdaily/app.js: archive front-adds 2026-10-19, drops 2026-10-09.
+- gkdaily/index.html + gkdaily/sw.js: asset pins v=148 -> v=149; SW cache akn-gkdaily-17 -> akn-gkdaily-18 with 2026-10-20.json precached.
+
 ## Quality rules (adopted 2026-10-09)
 
 These are project requirements, not a claim that every check has passed.
