@@ -5,131 +5,131 @@
  "sources": {
   "tgnews": {
    "publisher": "Telangana Today",
-   "url": "https://telanganatoday.com/hmda-to-organise-bathukamma-carnival-at-tank-bund-on-oct-18",
+   "url": "https://telanganatoday.com/drought-like-conditions-in-315-mandals-in-tgana-agriculture-minister",
    "published_date": "2026-10-17"
   },
   "tgnews2": {
-   "publisher": "The Hindu",
-   "url": "https://www.thehindu.com/news/cities/Hyderabad/el-nino-concerns-hyderabad-tanker-bookings-double-households-told-to-cut-water-use-by-20/article71595566.ece",
-   "published_date": "2026-10-17"
+   "publisher": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-rrr-southern-section-hgcl-takes-over-20000-crore-road-project-1568774.html",
+   "published_date": "2026-10-19"
   },
   "innews": {
-   "publisher": "ThePrint",
-   "url": "https://theprint.in/india/braj-mohan-ram-to-assume-charge-as-new-odisha-governor-on-oct-18/3072375/",
-   "published_date": "2026-10-15"
+   "publisher": "India Today",
+   "url": "https://www.indiatoday.in/science/story/isro-tests-methane-rocket-engine-similar-to-spacex-style-tech-why-its-a-big-deal-3020530-2026-10-19",
+   "published_date": "2026-10-19"
   },
   "worldnews": {
-   "publisher": "Associated Press",
-   "url": "https://apnews.com/article/hurricane-trudi-typhoon-champi-mexico-guam-17a7688b05ff9ac03ccd869abfee41bf",
+   "publisher": "Xinhua",
+   "url": "https://english.news.cn/asiapacific/20261018/7c6f3af15947415494114ddf89e336d9/c.html",
    "published_date": "2026-10-18"
   },
   "sports": {
-   "publisher": "Akashvani News",
-   "url": "https://newsonair.gov.in/asian-para-games-2026-to-begin-in-japan/",
+   "publisher": "India Today",
+   "url": "https://www.indiatoday.in/sports/cricket/story/india-vs-zimbabwe-2nd-womens-t20i-live-score-raipur-smriti-mandhana-3020235-2026-10-18",
    "published_date": "2026-10-18"
   },
   "ingk": {
-   "publisher": "National Police Memorial",
-   "url": "https://nationalpolicememorial.gov.in/npm/national-police-memorial",
-   "published_date": null
+   "publisher": "ETV Bharat",
+   "url": "https://www.etvbharat.com/en/!bharat/national-solidarity-day-honouring-unwavering-determination-of-citizens-enn24101904103",
+   "published_date": "2024-10-19"
   },
   "worldgk": {
-   "publisher": "World Health Organization",
-   "url": "https://www.who.int/europe/campaigns/world-polio-day",
+   "publisher": "International Osteoporosis Foundation",
+   "url": "https://www.worldosteoporosisday.org/",
    "published_date": null
   }
  },
  "cards": [
   {
-   "id": "gk_20261019_telangana_1",
+   "id": "gk_20261020_telangana_1",
    "region": "telangana",
    "type": "current_affairs",
    "source_ids": [
     "tgnews"
    ],
-   "event_date": "2026-10-18",
+   "event_date": "2026-10-17",
    "age_band": "class5-10",
    "audio_ids": {
-    "te": "gk_20261019_telangana_1",
-    "en": "gk_20261019_telangana_1__en"
+    "te": "gk_20261020_telangana_1",
+    "en": "gk_20261020_telangana_1__en"
    },
    "title": {
-    "te": "ట్యాంక్ బండ్‌వద్ద బతుకమ్మ కార్నివాల్",
-    "en": "Bathukamma Carnival at Tank Bund"
+    "te": "తెలంగాణలో 315 మండలాల్లో కరవు పరిస్థితులు",
+    "en": "Drought-like conditions in 315 Telangana mandals"
    },
    "summary": {
-    "te": "అక్టోబర్ 18న సద్దుల బతుకమ్మ సందర్భంగా హైదరాబాద్ ట్యాంక్ బండ్‌వద్ద హైదరాబాద్ మెట్రోపాలిటన్ డెవలప్‌మెంట్ అథారిటీ (HMDA) బతుకమ్మ కార్నివాల్ నిర్వహించింది. ఒగ్గు కథ, చిందు భాగవతం, పేరిణి నృత్యం వంటి తెలంగాణ సంప్రదాయ కళలు ప్రదర్శించబడ్డాయి; ఆహారం, చేతివృత్తులు, చేనేత, ఆభరణాల స్టాళ్లు ఏర్పాటయ్యాయి. బతుకమ్మ తెలంగాణ పువ్వుల పండుగ; ఈ ఏటి అక్టోబర్ 10 నుంచి 18 వరకు తొమ్మిది రోజులు జరుపుకున్నారు.",
-    "en": "On October 18, the Hyderabad Metropolitan Development Authority (HMDA) organised a Bathukamma Carnival at Tank Bund for Saddula Bathukamma. It featured Telangana's traditional art forms like Oggu Katha, Chindu Bhagavatam and Perini dance, along with stalls of food, handicrafts, handlooms and jewellery. Bathukamma is the flower festival of Telangana; this year it was celebrated for nine days, from October 10 to 18."
+    "te": "వర్షాభావం, ఎల్ నినో ప్రభావంతో తెలంగాణలోని మొత్తం 621 మండలాల్లో 315 మండలాల్లో కరవు సదృశ పరిస్థితులు ఏర్పడ్డాయని రాష్ట్ర వ్యవసాయ మంత్రి తుమ్మల నాగేశ్వరరావు అక్టోబర్ 17న తెలిపారు. కేంద్ర వ్యవసాయ మంత్రి శివరాజ్ సింగ్ చౌహాన్ నిర్వహించిన వీడియో కాన్ఫరెన్స్‌లో పాల్గొన్న ఆయన వెంటనే కేంద్ర సాయం అందించాలని కోరారు. నిలిచిపోయిన పంటలను అంచనా వేయాలని, దిగుబడి వరకు సాగునీరు, విద్యుత్ సరఫరా కొనసాగించాలని ప్రభుత్వం అధికారులను ఆదేశించింది. మక్కజొన్న, జొన్న, పప్పులు, నూనెగింజలను కనీస మద్దతు ధర (MSP) కింద కొనుగోలు చేయాలని కూడా కేంద్రాన్ని కోరారు.",
+    "en": "Telangana Agriculture Minister Tummala Nageswara Rao said on October 17 that drought-like conditions prevail in 315 of the state's 621 mandals because of rainfall deficit and the El Niño effect. Taking part in a video conference held by Union Agriculture Minister Shivraj Singh Chouhan, he sought immediate Central assistance. The state government has asked officials to assess the standing crops and to continue irrigation water and electricity supply until harvest. It also requested the Centre to buy maize, jowar, pulses and oilseeds at the Minimum Support Price (MSP)."
    }
   },
   {
-   "id": "gk_20261019_telangana_2",
+   "id": "gk_20261020_telangana_2",
    "region": "telangana",
    "type": "current_affairs",
    "source_ids": [
     "tgnews2"
    ],
-   "event_date": "2026-10-17",
+   "event_date": "2026-10-18",
    "age_band": "class5-10",
    "audio_ids": {
-    "te": "gk_20261019_telangana_2",
-    "en": "gk_20261019_telangana_2__en"
+    "te": "gk_20261020_telangana_2",
+    "en": "gk_20261020_telangana_2__en"
    },
    "title": {
-    "te": "హైదరాబాద్‌లో నీటి ఆదాపై ప్రభుత్వ అప్పీల్",
-    "en": "Save-water appeal in Hyderabad"
+    "te": "ఆర్‌ఆర్‌ఆర్ దక్షిణ భాగం రాష్ట్ర ప్రభుత్వమే చేపట్టే దిశగా",
+    "en": "Telangana set to build RRR southern section itself"
    },
    "summary": {
-    "te": "ఎల్ నినో ఆందోళనల నేపథ్యంలో హైదరాబాద్‌లో రోజువారీ నీటి ట్యాంకర్ బుకింగ్‌లు గత అక్టోబర్‌లోని 3,500 నుంచి ఈ ఏటి 7,000కు రెట్టింపయ్యాయి. ఇంటిలో నీటి వాడకం కనీసం 20 శాతం తగ్గించాలని తెలంగాణ ప్రభుత్వం ప్రజలను కోరింది. నగరంలోని 16 మండలాల్లో కేవలం 3 చోట్ల మాత్రమే సాధారణ వర్షపాతం నమోదయ్యింది; భూగర్భ జల మట్టం గత ఏటి 3.55 మీటర్ల నుంచి ఈ ఏటి 10 మీటర్ల లోతుకు పడిపోయింది.",
-    "en": "Amid El Niño concerns, daily water-tanker bookings in Hyderabad have doubled from about 3,500 last October to around 7,000 this year. The Telangana government has asked households to cut water use by at least 20 percent. Only 3 of the city's 16 mandals received normal rainfall so far, and the average groundwater level has fallen from 3.55 metres below ground last year to 10 metres this year."
+    "te": "రీజినల్ రింగ్ రోడ్ (RRR) ప్రాజెక్టు దక్షిణ భాగం నిర్మాణ బాధ్యతలను తెలంగాణ ప్రభుత్వం హైదరాబాద్ గ్రోత్ కారిడార్ లిమిటెడ్ (HGCL)కు అప్పగించింది. భూసేకరణ, ఇతర ప్రక్రియలను వెంటనే ప్రారంభించాలని ప్రభుత్వం ఆదేశించింది; ఈ పనులకు రూ.20,000 కోట్లకు పైగా అవసరమవుతాయని ప్రాథమిక అంచనా. 2016లో ఆమోదం పొందిన RRR హైదరాబాద్ చుట్టూ నిర్మించే పెద్ద వలయాకార రహదారి; దీనివల్ల నగరంలోకి ప్రయాణాలు సులభమవుతాయి.",
+    "en": "The Telangana government has entrusted the construction of the southern section of the Regional Ring Road (RRR) project to Hyderabad Growth Corridor Limited (HGCL) and ordered land acquisition and other processes to begin at once. The preliminary estimate for the works is over Rs 20,000 crore. Approved in 2016, the RRR is a large ring road being built around Hyderabad to make travel in and around the city easier."
    }
   },
   {
-   "id": "gk_20261019_india_1",
+   "id": "gk_20261020_india_1",
    "region": "india",
    "type": "current_affairs",
    "source_ids": [
     "innews"
    ],
-   "event_date": "2026-10-18",
+   "event_date": "2026-10-09",
    "age_band": "class5-10",
    "audio_ids": {
-    "te": "gk_20261019_india_1",
-    "en": "gk_20261019_india_1__en"
+    "te": "gk_20261020_india_1",
+    "en": "gk_20261020_india_1__en"
    },
    "title": {
-    "te": "ఒడిశా కొత్త గవర్నర్ బాధ్యతలు స్వీకరించారు",
-    "en": "New Governor takes charge in Odisha"
+    "te": "ఇస్రో మీథేన్ రాకెట్ ఇంజిన్ పరీక్ష విజయం",
+    "en": "ISRO tests methane rocket engine"
    },
    "summary": {
-    "te": "బ్రజ్ మోహన్ రామ్ అక్టోబర్ 18న ఒడిశా గవర్నర్‌గా బాధ్యతలు స్వీకరించారు. ఆయన హరి బాబు కంభంపాటి స్థానంలో వచ్చారు; రాష్ట్రపతి ద్రౌపది ముర్ము ఆయన్ను నియమించారు. ఝార్ఖండ్‌లోని పలాము జిల్లాకు చెందిన ఆయన మూడుసార్లు పార్లమెంట్ సభ్యులుగా పనిచేశారు. గవర్నర్ అంటే భారత రాష్ట్రానికి రాజ్యాంగపరమైన అధిపతి; రాష్ట్రపతి నియమిస్తారు.",
-    "en": "Braj Mohan Ram took charge as the Governor of Odisha on October 18. He succeeds Hari Babu Kambhampati and was appointed by President Droupadi Murmu. He comes from Palamu district in Jharkhand and has been a Member of Parliament three times. A Governor is the constitutional head of a state in India and is appointed by the President."
+    "te": "భారత అంతరిక్ష పరిశోధనా సంస్థ (ఇస్రో) తన కొత్త LME-1100 మీథేన్ రాకెట్ ఇంజిన్ గ్యాస్ జనరేటర్ తొలి మంట పరీక్షను అక్టోబర్ 9న తమిళనాడులోని మహేంద్రగిరిలోని ఇస్రో ప్రొపల్షన్ కాంప్లెక్స్‌లో విజయవంతంగా నిర్వహించింది. ఈ ఇంజిన్ సామర్థ్యం 1,100 కిలోన్యూటన్లు; పూర్తి ఇంజిన్ 2027 మధ్య నాటికి సిద్ధమవుతుందని లక్ష్యం. అంతేకాక, 2,400 కిలోన్యూటన్ల మరింత శక్తివంతమైన మీథేన్ ఇంజిన్ రూపకల్పనను కూడా ఇస్రో పూర్తి చేసింది. ఈ ఇంజిన్లు భారతదేశ భవిష్యత్ భారీ రాకెట్లకు, వ్యోమగాములను చంద్రుడిపైకి పంపే ప్రణాళికలకు ఉపయోగపడతాయి.",
+    "en": "The Indian Space Research Organisation (ISRO) successfully carried out the first ignition test of the gas generator of its new LME-1100 methane rocket engine on October 9 at the ISRO Propulsion Complex in Mahendragiri, Tamil Nadu. The engine has a capacity of 1,100 kilonewtons, and the full engine is targeted to be ready by mid-2027. ISRO has also completed the design of a more powerful 2,400-kilonewton methane engine. These engines will power India's future heavy-lift rockets and plans to land astronauts on the Moon."
    }
   },
   {
-   "id": "gk_20261019_world_1",
+   "id": "gk_20261020_world_1",
    "region": "world",
    "type": "current_affairs",
    "source_ids": [
     "worldnews"
    ],
-   "event_date": "2026-10-17",
+   "event_date": "2026-10-19",
    "age_band": "class5-10",
    "audio_ids": {
-    "te": "gk_20261019_world_1",
-    "en": "gk_20261019_world_1__en"
+    "te": "gk_20261020_world_1",
+    "en": "gk_20261020_world_1__en"
    },
    "title": {
-    "te": "మెక్సికో తీరానికి దగ్గరగా ట్రూడీ హరికేన్",
-    "en": "Hurricane Trudy near Mexico's coast"
+    "te": "ఆర్మేనియాలో ఐక్యరాజ్యసమితి జీవవైవిధ్య సదస్సు ప్రారంభం",
+    "en": "UN biodiversity conference begins in Armenia"
    },
    "summary": {
-    "te": "అక్టోబర్ 17-18 తేదీల్లో ట్రూడీ హరికేన్ మెక్సికో పసిఫిక్ తీరంపై భారీ వర్షాలు, గంటకు 165 కి.మీ వరకు వేగంతో ఉన్న బలమైన గాలులను కురిపించింది; ఇది కేటగరీ 2 తుఫాను. అమెరికా జాతీయ హరికేన్ కేంద్రం (NHC) ప్రకారం ఇది తీరం నుంచి దూరంగా కదిలి బలహీనపడనుంది. హరికేన్ అంటే వెచ్చని సముద్ర జలంపై ఏర్పడే భారీ తిరుగుబాటు తుఫాను.",
-    "en": "On October 17-18, Hurricane Trudy lashed Mexico's Pacific coast with heavy rain and maximum winds of about 165 km per hour, a Category 2 storm. The US National Hurricane Center said it was forecast to move away from the coast and weaken. A hurricane is a huge spinning storm that forms over warm ocean water."
+    "te": "జీవవైవిధ్యాన్ని (అన్ని రకాల జీవుల సమూహాన్ని) కాపాడేందుకు దేశాలు చేస్తున్న చర్యలను సమీక్షించే ఐక్యరాజ్యసమితి సదస్సు (COP17) అక్టోబర్ 19న ఆర్మేనియా రాజధాని యెరెవాన్‌లో ప్రారంభమైంది; అక్టోబర్ 30 వరకు కొనసాగుతుంది. ఐక్యరాజ్యసమితి ప్రధాన కార్యదర్శి ఆంటోనియో గుటెర్రస్ దేశాలకు 'మరింత చర్య, మరింత వేగం, మరింత సంకల్పం' అవసరమని పిలుపునిచ్చారు. 2022లో ఆమోదించిన కున్‌మింగ్-మాంట్రియల్ ప్రపంచ జీవవైవిధ్య చట్రంలోని లక్ష్యాల పురోగతిని ఈ సదస్సు అంచనా వేస్తుంది.",
+    "en": "COP17, the United Nations conference that reviews what countries are doing to protect biodiversity (the variety of all living things), began on October 19 in Yerevan, the capital of Armenia, and runs until October 30. UN Secretary-General Antonio Guterres called on countries for 'more action, more speed, and more will'. The conference will assess progress towards the goals of the Kunming-Montreal Global Biodiversity Framework adopted in 2022."
    }
   },
   {
-   "id": "gk_20261019_india_3",
+   "id": "gk_20261020_india_3",
    "region": "india",
    "type": "current_affairs",
    "source_ids": [
@@ -138,20 +138,20 @@
    "event_date": "2026-10-18",
    "age_band": "class5-10",
    "audio_ids": {
-    "te": "gk_20261019_india_3",
-    "en": "gk_20261019_india_3__en"
+    "te": "gk_20261020_india_3",
+    "en": "gk_20261020_india_3__en"
    },
    "title": {
-    "te": "జపాన్‌లో ఆసియా పారా గేమ్స్ ప్రారంభం",
-    "en": "Asian Para Games begin in Japan"
+    "te": "జింబాబ్వేపై భారత మహిళల టీ20 సిరీస్ విజయం",
+    "en": "India women win T20 series against Zimbabwe"
    },
    "summary": {
-    "te": "అక్టోబర్ 18న జపాన్‌లోని ఆయిచి-నగోయాలో 5వ ఆసియా పారా గేమ్స్ ప్రారంభమయ్యాయి; అక్టోబర్ 24 వరకు 45 దేశాలకు చెందిన సుమారు 3,000 మంది క్రీడాకారులు 18 క్రీడల్లో పోటీపడతారు. భారత్ నుంచి 168 మంది క్రీడాకారులతో కూడిన 281 మంది బృందం పాల్గొంటోంది; ప్రారంభోత్సవంలో ప్రమోద్ భగత్, సింరన్ శర్మ జెండా మోశారు. 2023 హాంగ్జౌ గేమ్స్‌లో భారత్ 111 పతకాలు (29 బంగారు పతకాలు) సాధించి ఐదో స్థానంలో నిలిచింది. పారా గేమ్స్ అంటే దివ్యాంగ క్రీడాకారుల పోటీలు.",
-    "en": "The 5th Asian Para Games opened on October 18 in Aichi-Nagoya, Japan. Until October 24, about 3,000 athletes from 45 countries compete in 18 sports. India has sent a 281-member contingent with 168 athletes; para-badminton player Pramod Bhagat and sprinter Simran Sharma were the flag-bearers at the opening ceremony. At the 2023 Hangzhou Games, India won a record 111 medals, including 29 gold, finishing fifth. Para Games are competitions for athletes with disabilities."
+    "te": "రాయ్‌పురులో అక్టోబర్ 18న జరిగిన రెండో టీ20 మ్యాచ్‌లో భారత మహిళా క్రికెట్ జట్టు జింబాబ్వేపై 9 వికెట్ల తేడాతో గెలిచి, మూడు మ్యాచ్‌ల సిరీస్‌ను 2-0తో కైవసం చేసుకుంది. కేవలం 25 బంతుల్లో 55 పరుగులు (6 ఫోర్లు, 4 సిక్సర్లు) చేసిన షెఫాళి వర్మ ప్లేయర్ ఆఫ్ ది మ్యాచ్‌గా నిలిచింది. ఇది స్మృతి మందాన కెప్టెన్‌గా భారత్ సాధించిన తొలి సిరీస్ విజయం. చివరి టీ20 మ్యాచ్ అక్టోబర్ 20న రాయ్‌పురులోనే జరుగుతుంది.",
+    "en": "The Indian women's cricket team beat Zimbabwe by 9 wickets in the second T20 match at Raipur on October 18 to win the three-match series 2-0 with a game to spare. Shafali Verma, who smashed 55 runs off just 25 balls (6 fours and 4 sixes), was named Player of the Match. This is India's first series win with Smriti Mandhana as captain. The final T20 will be played in Raipur on October 20."
    }
   },
   {
-   "id": "gk_20261019_india_2",
+   "id": "gk_20261020_india_2",
    "region": "india",
    "type": "static_gk",
    "source_ids": [
@@ -160,20 +160,20 @@
    "event_date": null,
    "age_band": "class3-10",
    "audio_ids": {
-    "te": "gk_20261019_india_2",
-    "en": "gk_20261019_india_2__en"
+    "te": "gk_20261020_india_2",
+    "en": "gk_20261020_india_2__en"
    },
    "title": {
-    "te": "పోలీసు స్మృతి దినోత్సవం: అక్టోబర్ 21",
-    "en": "Police Commemoration Day: October 21"
+    "te": "జాతీయ సంఘీభావ దినోత్సవం: అక్టోబర్ 20",
+    "en": "National Solidarity Day: October 20"
    },
    "summary": {
-    "te": "ప్రతి ఏటా అక్టోబర్ 21న పోలీసు స్మృతి దినోత్సవం జరుపుకుంటారు. 1959లో ఈ రోజున లడాఖ్‌లోని హాట్ స్ప్రింగ్స్ వద్ద దేశ సరిహద్దులు కాపాడుతూ పది మంది భారత పోలీసులు వీరమరణం పొందారు. వారి జ్ఞాపకార్థం 1960 నుంచి ఈ రోజున గౌరవిస్తారు. ఢిల్లీ చాణక్యపురిలోని జాతీయ పోలీసు స్మారకాన్ని 2018 అక్టోబర్ 21న దేశానికి అంకితం చేశారు.",
-    "en": "Police Commemoration Day is observed every year on October 21. On this day in 1959, ten Indian policemen lost their lives in an ambush at Hot Springs in Ladakh while defending the country. The day has been remembered since 1960. The National Police Memorial at Chanakyapuri in New Delhi was dedicated to the nation on October 21, 2018."
+    "te": "ప్రతి ఏటా అక్టోబర్ 20న భారతదేశంలో జాతీయ సంఘీభావ దినోత్సవం జరుపుకుంటారు. 1962లో భారత్-చైనా యుద్ధ సమయంలో దేశం కోసం ప్రాణత్యాగం చేసిన సైనికుల జ్ఞాపకార్థం 1966లో అప్పటి ప్రధాన మంత్రి ఇందిరాగాంధీ నాయకత్వంలో ఈ దినోత్సవాన్ని ప్రారంభించారు. మత, కుల, ప్రాంత భేదాలకు అతీతంగా ప్రజలందరూ ఏకమై ఉండాలన్న స్ఫూర్తిని ఈ రోజు గుర్తు చేస్తుంది.",
+    "en": "National Solidarity Day is observed across India every year on October 20. It was first commemorated in 1966 under Prime Minister Indira Gandhi, in memory of the soldiers who sacrificed their lives during the 1962 India-China war. The day reminds all citizens to stand united, rising above differences of religion, caste and region."
    }
   },
   {
-   "id": "gk_20261019_world_2",
+   "id": "gk_20261020_world_2",
    "region": "world",
    "type": "static_gk",
    "source_ids": [
@@ -182,531 +182,531 @@
    "event_date": null,
    "age_band": "class3-10",
    "audio_ids": {
-    "te": "gk_20261019_world_2",
-    "en": "gk_20261019_world_2__en"
+    "te": "gk_20261020_world_2",
+    "en": "gk_20261020_world_2__en"
    },
    "title": {
-    "te": "ప్రపంచ పోలియో దినోత్సవం: అక్టోబర్ 24",
-    "en": "World Polio Day: October 24"
+    "te": "ప్రపంచ ఆస్టియోపోరోసిస్ దినోత్సవం: అక్టోబర్ 20",
+    "en": "World Osteoporosis Day: October 20"
    },
    "summary": {
-    "te": "ప్రతి ఏటా అక్టోబర్ 24న ప్రపంచ పోలియో దినోత్సవం జరుపుకుంటారు. పోలియో అనేది పోలియో వైరస్ వల్ల వచ్చే ప్రమాదకరమైన వ్యాధి; 1988లో దాన్ని పూర్తిగా నిర్మూలించాలని ప్రపంచ ఆరోగ్య సభ నిర్ణయించింది. టీకాలు పిల్లలను ఈ వ్యాధి నుంచి కాపాడతాయి. 2014లో భారతదేశం పోలియో ముక్త దేశంగా ప్రకటించబడింది.",
-    "en": "World Polio Day is observed every year on October 24. Polio is a dangerous disease caused by the poliovirus; in 1988 the World Health Assembly resolved to eradicate it completely. Vaccines protect children from this disease. India was declared polio-free in 2014."
+    "te": "ప్రతి ఏటా అక్టోబర్ 20న ప్రపంచ ఆస్టియోపోరోసిస్ దినోత్సవం జరుపుకుంటారు. ఆస్టియోపోరోసిస్ అనేది ఎముకలు బలహీనపడి, సులభంగా పగిలిపోయే అవకాశం ఎక్కువయ్యే వ్యాధి. అంతర్జాతీయ ఆస్టియోపోరోసిస్ ఫౌండేషన్ ఈ దినోత్సవాన్ని నిర్వహిస్తుంది; 2026 నినాదం 'నిర్మించండి, రక్షించండి, బలోపేతం చేయండి' (Build, Protect and Strengthen). కాల్షియం, విటమిన్ D, క్రమం తప్పని వ్యాయామంతో ఎముకలను ఆరోగ్యంగా ఉంచుకోవచ్చు.",
+    "en": "World Osteoporosis Day is observed every year on October 20. Osteoporosis is a disease that makes bones weak and more likely to break. The International Osteoporosis Foundation leads this day, and the 2026 campaign theme is 'Build, Protect and Strengthen'. Calcium, vitamin D and regular exercise help keep bones strong."
    }
   }
  ],
  "readings": [
   {
-   "id": "gk_20261019_reading_1",
+   "id": "gk_20261020_reading_1",
    "age_band": "class5-7",
    "audio_ids": {
-    "te": "gk_20261019_reading_1",
-    "en": "gk_20261019_reading_1__en"
+    "te": "gk_20261020_reading_1",
+    "en": "gk_20261020_reading_1__en"
    },
    "source_ids": [
-    "tgnews"
+    "innews"
    ],
    "title": {
-    "te": "బతుకమ్మ అంటే ఏమిటి?",
-    "en": "What is Bathukamma?"
+    "te": "మీథేన్ రాకెట్ ఇంధనం అంటే ఏమిటి?",
+    "en": "What is methane rocket fuel?"
    },
    "passage": {
-    "te": "బతుకమ్మ తెలంగాణ పువ్వుల పండుగ. దసరాకు ముందు తొమ్మిది రోజులు మహిళలు, బాలికలు జరుపుకుంటారు. రంగురంగుల సీజన్ పువ్వులను ఇత్తడి పళ్ళెంపై చిన్న గోపురం ఆకారంలో పొరలుగా అమర్చి, పైన పసుపుతో చేసిన గౌరీ దేవి విగ్రహాన్ని ఉంచుతారు. సాయంత్రం దాని చుట్టూ పాటలు పాడుతూ ఆడుతారు. చివరి రోజును సద్దుల బతుకమ్మ అంటారు; ఆ రోజు పూల బతుకమ్మలను చెరువుల్లో, కుంటల్లో నిమజ్జనం చేస్తారు. పంట, మంచి ఆరోగ్యం కోసం ప్రకృతికి, అమ్మవారికి కృతజ్ఞతగా ఈ పండుగ జరుపుకుంటారు.",
-    "en": "Bathukamma is the flower festival of Telangana, celebrated by women and girls for nine days before Dussehra. They arrange colourful seasonal flowers in layers on a brass plate, in the shape of a small temple tower, and place a turmeric idol of Goddess Gauri on top. In the evenings they sing and dance around it. The last day is called Saddula Bathukamma, when the flower stacks are floated in ponds and lakes. The festival thanks nature and the goddess for the harvest and good health."
+    "te": "రాకెట్‌ను పైకి నెట్టడానికి ఇంధనం కావాలి. ఇప్పటివరకు చాలా రాకెట్లు కిరోసిన్ లాంటి ఇంధనం వాడేవి. ఇప్పుడు శాస్త్రవేత్తలు మీథేన్ అనే వాయువును ఇంధనంగా వాడుతున్నారు. మీథేన్ శుభ్రంగా కాలుతుంది, కాబట్టి ఇంజిన్‌ను మళ్లీ మళ్లీ వాడటం సులభమవుతుంది. అద్భుతం ఏమిటంటే, అంగారకుడి వాతావరణంలోని పదార్థాల నుంచి మీథేన్‌ను తయారుచేయవచ్చు! భవిష్యత్తులో అంగారకుడికి వెళ్లే రాకెట్లు అక్కడే ఇంధనం తయారుచేసుకుని భూమికి తిరిగి రావచ్చని శాస్త్రవేత్తలు అంటున్నారు.",
+    "en": "A rocket needs fuel to push it into space. Until now, many rockets used a fuel like kerosene. Now scientists are using a gas called methane. Methane burns cleanly, so the engine becomes easier to use again and again. The amazing thing is that methane can be made from materials found in the air of Mars! Scientists say that in the future, rockets travelling to Mars could make their fuel there itself and return to Earth."
    },
    "vocabulary": [
     {
-     "te": "బతుకమ్మ",
-     "en": "Bathukamma (flower festival)"
+     "te": "మీథేన్",
+     "en": "methane"
     },
     {
-     "te": "పండుగ",
-     "en": "festival"
+     "te": "ఇంధనం",
+     "en": "fuel"
     },
     {
-     "te": "నిమజ్జనం",
-     "en": "immersion (floating in water)"
+     "te": "ఇంజిన్",
+     "en": "engine"
     },
     {
-     "te": "గోపురం",
-     "en": "temple tower"
+     "te": "అంగారకుడు",
+     "en": "Mars (the red planet)"
     }
    ]
   },
   {
-   "id": "gk_20261019_reading_2",
+   "id": "gk_20261020_reading_2",
    "age_band": "class5-7",
    "audio_ids": {
-    "te": "gk_20261019_reading_2",
-    "en": "gk_20261019_reading_2__en"
+    "te": "gk_20261020_reading_2",
+    "en": "gk_20261020_reading_2__en"
    },
    "source_ids": [
-    "tgnews2"
+    "worldnews"
    ],
    "title": {
-    "te": "ఎల్ నినో అంటే ఏమిటి?",
-    "en": "What is El Niño?"
+    "te": "జీవవైవిధ్యం అంటే ఏమిటి?",
+    "en": "What is biodiversity?"
    },
    "passage": {
-    "te": "ఎల్ నినో అనేది సహజ వాతావరణ మార్పు. ప్రతి కొన్నేళ్లకు భూమధ్యరేఖకు దగ్గరగా ఉన్న పసిఫిక్ మహాసముద్ర ఉపరితల నీరు సాధారణం కంటే వేడెక్కుతుంది. ఈ చిన్న వేడెక్కడం ప్రపంచంలోని గాలులు, వర్షపాతం సరళిని మారుస్తుంది. కొన్ని చోట్ల భారీ వర్షాలు, వరదలు వస్తే, భారతదేశంలోని కొన్ని ప్రాంతాల్లో రుతుపవన వర్షాలు తగ్గి కరువు రావచ్చు. పసిఫిక్ నీరు మామూలు కంటే చల్లబడే దశను లా నినా అంటారు. శాస్త్రవేత్తలు సముద్ర ఉష్ణోగ్రతలను గమనించి ఈ మార్పులను నెలల ముందుగానే అంచనా వేస్తారు.",
-    "en": "El Niño is a natural climate pattern. Every few years, the surface water of the Pacific Ocean near the equator becomes warmer than usual. This small warming changes wind and rain patterns around the world. Some places get heavy rain and floods, while others, like parts of India, may get weaker monsoon rains and drought. The opposite phase, when the Pacific turns cooler than usual, is called La Niña. Scientists watch ocean temperatures to predict these patterns months ahead."
+    "te": "మన చుట్టూ ఎన్నో రకాల జీవులు ఉన్నాయి: పిల్లుల నుంచి ఏనుగుల వరకు జంతువులు, గాలిలో ఎగిరే పక్షులు, నీటిలో చేపలు, చిన్నపాటి పురుగులు, మామిడి, మర్రి వంటి చెట్లు, మూలికలు. ఈ వైవిధ్యాన్నే జీవవైవిధ్యం అంటారు. ప్రతి జీవికి ఒక పాత్ర ఉంటుంది: తేనెటీగలు పువ్వుల పరాగసంపర్కానికి సహాయపడతాయి, చెట్లు ఆక్సిజన్ ఇస్తాయి, పురుగులు మట్టిని సారవంతం చేస్తాయి. ఏదో ఒక జాతి తగ్గిపోతే ఈ ముడిపడిన వలమంతా ప్రమాదంలో పడుతుంది. అందుకే ప్రపంచ దేశాలు కలిసి జీవవైవిధ్యాన్ని కాపాడే నిబంధనలు చేసుకుంటాయి.",
+    "en": "So many kinds of living things surround us: animals from cats to elephants, birds in the air, fish in the water, tiny insects, trees like mango and banyan, and small herbs. This variety is called biodiversity. Every living thing has a role: bees help flowers make seeds, trees give us oxygen, and insects make the soil rich. If even one kind disappears, this connected web is in danger. That is why countries of the world join together to make rules that protect biodiversity."
    },
    "vocabulary": [
     {
-     "te": "ఎల్ నినో",
-     "en": "El Niño (warming phase)"
+     "te": "జీవవైవిధ్యం",
+     "en": "biodiversity"
     },
     {
-     "te": "లా నినా",
-     "en": "La Niña (cooling phase)"
+     "te": "పరాగసంపర్కం",
+     "en": "pollination"
     },
     {
-     "te": "వర్షపాతం",
-     "en": "rainfall"
+     "te": "మూలిక",
+     "en": "herb"
     },
     {
-     "te": "కరువు",
-     "en": "drought"
+     "te": "నిబంధన",
+     "en": "rule"
     }
    ]
   }
  ],
  "quiz": [
   {
-   "id": "gk_20261019_q1",
+   "id": "gk_20261020_q1",
    "style": "original_practice_not_official_exam",
    "audio_ids": {
-    "te": "gk_20261019_q1",
-    "en": "gk_20261019_q1__en"
+    "te": "gk_20261020_q1",
+    "en": "gk_20261020_q1__en"
    },
    "answer_audio_ids": {
-    "te": "gk_20261019_q1_answer",
-    "en": "gk_20261019_q1_answer__en"
+    "te": "gk_20261020_q1_answer",
+    "en": "gk_20261020_q1_answer__en"
    },
-   "item_id": "gk_20261019_telangana_1",
+   "item_id": "gk_20261020_telangana_1",
    "question": {
-    "te": "బతుకమ్మ కార్నివాల్ ఎక్కడ నిర్వహించబడింది?",
-    "en": "Where was the Bathukamma Carnival held?"
+    "te": "తెలంగాణలో కరవు సదృశ పరిస్థితులు ఎన్ని మండలాల్లో నమోదయ్యాయి?",
+    "en": "In how many mandals of Telangana were drought-like conditions recorded?"
    },
    "options": {
     "te": [
-     "ట్యాంక్ బండ్",
-     "చార్మినార్",
-     "గోల్కొండ కోట",
-     "రామోజీ ఫిల్మ్ సిటీ"
+     "315",
+     "621",
+     "150",
+     "500"
     ],
     "en": [
-     "Tank Bund",
-     "Charminar",
-     "Golconda Fort",
-     "Ramoji Film City"
+     "315",
+     "621",
+     "150",
+     "500"
     ]
    },
    "answer_index": 0,
    "explanation": {
-    "te": "HMDA సద్దుల బతుకమ్మ సందర్భంగా ట్యాంక్ బండ్‌వద్ద ఈ కార్నివాల్ నిర్వహించింది.",
-    "en": "HMDA held the carnival at Tank Bund for Saddula Bathukamma."
+    "te": "మొత్తం 621 మండలాల్లో 315 మండలాల్లో కరవు సదృశ పరిస్థితులు ఉన్నాయని వ్యవసాయ మంత్రి తెలిపారు.",
+    "en": "The Agriculture Minister said 315 of the total 621 mandals have drought-like conditions."
    }
   },
   {
-   "id": "gk_20261019_q2",
+   "id": "gk_20261020_q2",
    "style": "original_practice_not_official_exam",
    "audio_ids": {
-    "te": "gk_20261019_q2",
-    "en": "gk_20261019_q2__en"
+    "te": "gk_20261020_q2",
+    "en": "gk_20261020_q2__en"
    },
    "answer_audio_ids": {
-    "te": "gk_20261019_q2_answer",
-    "en": "gk_20261019_q2_answer__en"
+    "te": "gk_20261020_q2_answer",
+    "en": "gk_20261020_q2_answer__en"
    },
-   "item_id": "gk_20261019_telangana_1",
+   "item_id": "gk_20261020_telangana_1",
    "question": {
-    "te": "బతుకమ్మ ఏ రకమైన పండుగ?",
-    "en": "What kind of festival is Bathukamma?"
+    "te": "మంత్రి తుమ్మల నాగేశ్వరరావు ఎవరు నిర్వహించిన వీడియో కాన్ఫరెన్స్‌లో పాల్గొన్నారు?",
+    "en": "Whose video conference did Minister Tummala Nageswara Rao take part in?"
    },
    "options": {
     "te": [
-     "పతాక పండుగ",
-     "తెలంగాణ పువ్వుల పండుగ",
-     "పంట పండుగ ఆఫ్ పంజాబ్",
-     "కేరళ పడవ రేసు"
-    ],
-    "en": [
-     "A kite festival",
-     "The flower festival of Telangana",
-     "A harvest festival of Punjab",
-     "A boat race of Kerala"
-    ]
-   },
-   "answer_index": 1,
-   "explanation": {
-    "te": "బతుకమ్మ తెలంగాణ ప్రజల పువ్వుల పండుగ; తొమ్మిది రోజులు జరుపుకుంటారు.",
-    "en": "Bathukamma is Telangana's flower festival, celebrated for nine days."
-   }
-  },
-  {
-   "id": "gk_20261019_q3",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261019_q3",
-    "en": "gk_20261019_q3__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261019_q3_answer",
-    "en": "gk_20261019_q3_answer__en"
-   },
-   "item_id": "gk_20261019_telangana_2",
-   "question": {
-    "te": "హైదరాబాద్‌లో రోజువారీ నీటి ట్యాంకర్ బుకింగ్‌లు ఎంతకు పెరిగాయి?",
-    "en": "Daily water-tanker bookings in Hyderabad rose to about how many?"
-   },
-   "options": {
-    "te": [
-     "3,500",
-     "500",
-     "7,000",
-     "70,000"
-    ],
-    "en": [
-     "3,500",
-     "500",
-     "7,000",
-     "70,000"
-    ]
-   },
-   "answer_index": 2,
-   "explanation": {
-    "te": "గత అక్టోబర్‌లో 3,500 ఉండే బుకింగ్‌లు ఈ ఏటి 7,000కు రెట్టింపయ్యాయి.",
-    "en": "Bookings doubled from 3,500 last October to about 7,000 this year."
-   }
-  },
-  {
-   "id": "gk_20261019_q4",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261019_q4",
-    "en": "gk_20261019_q4__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261019_q4_answer",
-    "en": "gk_20261019_q4_answer__en"
-   },
-   "item_id": "gk_20261019_telangana_2",
-   "question": {
-    "te": "ఇంటి నీటి వాడకం ఎంత శాతం తగ్గించాలని ప్రభుత్వం కోరింది?",
-    "en": "By how much did the government ask households to cut water use?"
-   },
-   "options": {
-    "te": [
-     "5 శాతం",
-     "10 శాతం",
-     "20 శాతం",
-     "50 శాతం"
-    ],
-    "en": [
-     "5 percent",
-     "10 percent",
-     "20 percent",
-     "50 percent"
-    ]
-   },
-   "answer_index": 2,
-   "explanation": {
-    "te": "కనీసం 20 శాతం తగ్గించాలని ప్రభుత్వం కోరింది.",
-    "en": "The government asked people to cut use by at least 20 percent."
-   }
-  },
-  {
-   "id": "gk_20261019_q5",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261019_q5",
-    "en": "gk_20261019_q5__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261019_q5_answer",
-    "en": "gk_20261019_q5_answer__en"
-   },
-   "item_id": "gk_20261019_india_1",
-   "question": {
-    "te": "ఒడిశా కొత్త గవర్నర్ ఎవరు?",
-    "en": "Who is the new Governor of Odisha?"
-   },
-   "options": {
-    "te": [
-     "హరి బాబు కంభంపాటి",
-     "బ్రజ్ మోహన్ రామ్",
-     "ద్రౌపది ముర్ము",
-     "జయేష్ రంజన్"
-    ],
-    "en": [
-     "Hari Babu Kambhampati",
-     "Braj Mohan Ram",
-     "Droupadi Murmu",
-     "Jayesh Ranjan"
-    ]
-   },
-   "answer_index": 1,
-   "explanation": {
-    "te": "బ్రజ్ మోహన్ రామ్ అక్టోబర్ 18న బాధ్యతలు స్వీకరించారు; కంభంపాటి మునుపటి గవర్నర్.",
-    "en": "Braj Mohan Ram took charge on October 18; Kambhampati was the previous Governor."
-   }
-  },
-  {
-   "id": "gk_20261019_q6",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261019_q6",
-    "en": "gk_20261019_q6__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261019_q6_answer",
-    "en": "gk_20261019_q6_answer__en"
-   },
-   "item_id": "gk_20261019_india_1",
-   "question": {
-    "te": "భారతదేశంలో రాష్ట్ర గవర్నర్‌ను ఎవరు నియమిస్తారు?",
-    "en": "Who appoints the Governor of a state in India?"
-   },
-   "options": {
-    "te": [
-     "రాష్ట్రపతి",
      "ప్రధాన మంత్రి",
-     "ముఖ్యమంత్రి",
-     "ప్రధాన న్యాయమూర్తి"
+     "రాష్ట్రపతి",
+     "ప్రపంచ బ్యాంకు అధికారులు",
+     "కేంద్ర వ్యవసాయ మంత్రి శివరాజ్ సింగ్ చౌహాన్"
     ],
     "en": [
-     "The President",
      "The Prime Minister",
-     "The Chief Minister",
-     "The Chief Justice"
+     "The President",
+     "World Bank officials",
+     "Union Agriculture Minister Shivraj Singh Chouhan"
+    ]
+   },
+   "answer_index": 3,
+   "explanation": {
+    "te": "కేంద్ర వ్యవసాయ మంత్రి శివరాజ్ సింగ్ చౌహాన్ నిర్వహించిన వీడియో కాన్ఫరెన్స్‌లో ఆయన పాల్గొన్నారు.",
+    "en": "He took part in the video conference held by Union Agriculture Minister Shivraj Singh Chouhan."
+   }
+  },
+  {
+   "id": "gk_20261020_q3",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261020_q3",
+    "en": "gk_20261020_q3__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261020_q3_answer",
+    "en": "gk_20261020_q3_answer__en"
+   },
+   "item_id": "gk_20261020_telangana_2",
+   "question": {
+    "te": "RRR దక్షిణ భాగం నిర్మాణ బాధ్యత ఏ సంస్థకు అప్పగించారు?",
+    "en": "Which organisation was given the construction of the RRR southern section?"
+   },
+   "options": {
+    "te": [
+     "NHAI",
+     "HGCL",
+     "HMDA",
+     "GHMC"
+    ],
+    "en": [
+     "NHAI",
+     "HGCL",
+     "HMDA",
+     "GHMC"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "హైదరాబాద్ గ్రోత్ కారిడార్ లిమిటెడ్ (HGCL)కు ఈ బాధ్యత అప్పగించారు.",
+    "en": "The work was entrusted to Hyderabad Growth Corridor Limited (HGCL)."
+   }
+  },
+  {
+   "id": "gk_20261020_q4",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261020_q4",
+    "en": "gk_20261020_q4__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261020_q4_answer",
+    "en": "gk_20261020_q4_answer__en"
+   },
+   "item_id": "gk_20261020_telangana_2",
+   "question": {
+    "te": "RRR దక్షిణ భాగం పనులకు ప్రాథమిక అంచనా వ్యయం ఎంత?",
+    "en": "What is the preliminary estimated cost of the RRR southern section works?"
+   },
+   "options": {
+    "te": [
+     "రూ.2,000 కోట్లు",
+     "రూ.5,000 కోట్లు",
+     "రూ.20,000 కోట్లకు పైగా",
+     "రూ.100 కోట్లు"
+    ],
+    "en": [
+     "Rs 2,000 crore",
+     "Rs 5,000 crore",
+     "Over Rs 20,000 crore",
+     "Rs 100 crore"
+    ]
+   },
+   "answer_index": 2,
+   "explanation": {
+    "te": "ప్రాథమిక అంచనా ప్రకారం రూ.20,000 కోట్లకు పైగా అవసరమవుతుంది.",
+    "en": "The preliminary estimate is over Rs 20,000 crore."
+   }
+  },
+  {
+   "id": "gk_20261020_q5",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261020_q5",
+    "en": "gk_20261020_q5__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261020_q5_answer",
+    "en": "gk_20261020_q5_answer__en"
+   },
+   "item_id": "gk_20261020_india_1",
+   "question": {
+    "te": "ఇస్రో మీథేన్ ఇంజిన్ పరీక్ష ఎక్కడ జరిగింది?",
+    "en": "Where did ISRO's methane engine test take place?"
+   },
+   "options": {
+    "te": [
+     "శ్రీహరికోట",
+     "మహేంద్రగిరి",
+     "బెంగళూరు",
+     "థిరువనంతపురం"
+    ],
+    "en": [
+     "Sriharikota",
+     "Mahendragiri",
+     "Bengaluru",
+     "Thiruvananthapuram"
+    ]
+   },
+   "answer_index": 1,
+   "explanation": {
+    "te": "తమిళనాడులోని మహేంద్రగిరిలోని ఇస్రో ప్రొపల్షన్ కాంప్లెక్స్‌లో ఈ పరీక్ష జరిగింది.",
+    "en": "The test took place at the ISRO Propulsion Complex in Mahendragiri, Tamil Nadu."
+   }
+  },
+  {
+   "id": "gk_20261020_q6",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261020_q6",
+    "en": "gk_20261020_q6__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261020_q6_answer",
+    "en": "gk_20261020_q6_answer__en"
+   },
+   "item_id": "gk_20261020_india_1",
+   "question": {
+    "te": "LME-1100 ఇంజిన్ ఏ ఇంధనంతో పనిచేస్తుంది?",
+    "en": "Which fuel does the LME-1100 engine use?"
+   },
+   "options": {
+    "te": [
+     "కిరోసిన్",
+     "హైడ్రోజన్",
+     "మీథేన్",
+     "పెట్రోల్"
+    ],
+    "en": [
+     "Kerosene",
+     "Hydrogen",
+     "Methane",
+     "Petrol"
+    ]
+   },
+   "answer_index": 2,
+   "explanation": {
+    "te": "LME-1100 మీథేన్ ఇంధనంతో పనిచేసే రాకెట్ ఇంజిన్.",
+    "en": "The LME-1100 is a rocket engine that runs on methane fuel."
+   }
+  },
+  {
+   "id": "gk_20261020_q7",
+   "style": "original_practice_not_official_exam",
+   "audio_ids": {
+    "te": "gk_20261020_q7",
+    "en": "gk_20261020_q7__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261020_q7_answer",
+    "en": "gk_20261020_q7_answer__en"
+   },
+   "item_id": "gk_20261020_world_1",
+   "question": {
+    "te": "COP17 జీవవైవిధ్య సదస్సు ఏ దేశంలో జరుగుతోంది?",
+    "en": "In which country is the COP17 biodiversity conference being held?"
+   },
+   "options": {
+    "te": [
+     "ఆర్మేనియా",
+     "భారతదేశం",
+     "జపాన్",
+     "బ్రెజిల్"
+    ],
+    "en": [
+     "Armenia",
+     "India",
+     "Japan",
+     "Brazil"
     ]
    },
    "answer_index": 0,
    "explanation": {
-    "te": "గవర్నర్ రాష్ట్ర రాజ్యాంగపరమైన అధిపతి; రాష్ట్రపతి నియమిస్తారు.",
-    "en": "The Governor is the constitutional head of a state, appointed by the President."
+    "te": "ఆర్మేనియా రాజధాని యెరెవాన్‌లో ఈ సదస్సు జరుగుతోంది.",
+    "en": "The conference is being held in Yerevan, the capital of Armenia."
    }
   },
   {
-   "id": "gk_20261019_q7",
+   "id": "gk_20261020_q8",
    "style": "original_practice_not_official_exam",
    "audio_ids": {
-    "te": "gk_20261019_q7",
-    "en": "gk_20261019_q7__en"
+    "te": "gk_20261020_q8",
+    "en": "gk_20261020_q8__en"
    },
    "answer_audio_ids": {
-    "te": "gk_20261019_q7_answer",
-    "en": "gk_20261019_q7_answer__en"
+    "te": "gk_20261020_q8_answer",
+    "en": "gk_20261020_q8_answer__en"
    },
-   "item_id": "gk_20261019_world_1",
+   "item_id": "gk_20261020_world_1",
    "question": {
-    "te": "ట్రూడీ హరికేన్ ఏ దేశం తీరానికి దగ్గరగా ఉంది?",
-    "en": "Hurricane Trudy is near which country's coast?"
+    "te": "కున్‌మింగ్-మాంట్రియల్ ప్రపంచ జీవవైవిధ్య చట్రం ఏ ఏట ఆమోదమైంది?",
+    "en": "In which year was the Kunming-Montreal Global Biodiversity Framework adopted?"
    },
    "options": {
     "te": [
-     "భారతదేశం",
-     "మెక్సికో",
-     "జపాన్",
-     "ఫ్రాన్స్"
+     "2015",
+     "2020",
+     "2022",
+     "2026"
     ],
     "en": [
-     "India",
-     "Mexico",
-     "Japan",
-     "France"
-    ]
-   },
-   "answer_index": 1,
-   "explanation": {
-    "te": "ట్రూడీ మెక్సికో పశ్చిమ తీరానికి చేరుకుంది.",
-    "en": "Trudy approached Mexico's western coast."
-   }
-  },
-  {
-   "id": "gk_20261019_q8",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261019_q8",
-    "en": "gk_20261019_q8__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261019_q8_answer",
-    "en": "gk_20261019_q8_answer__en"
-   },
-   "item_id": "gk_20261019_world_1",
-   "question": {
-    "te": "ట్రూడీ గరిష్ట గాలి వేగం ఎంత?",
-    "en": "What was Trudy's maximum wind speed?"
-   },
-   "options": {
-    "te": [
-     "గంటకు 60 కి.మీ",
-     "గంటకు 13 కి.మీ",
-     "గంటకు 165 కి.మీ",
-     "గంటకు 300 కి.మీ"
-    ],
-    "en": [
-     "60 km per hour",
-     "13 km per hour",
-     "165 km per hour",
-     "300 km per hour"
+     "2015",
+     "2020",
+     "2022",
+     "2026"
     ]
    },
    "answer_index": 2,
    "explanation": {
-    "te": "గరిష్టంగా గంటకు 165 కి.మీ; 13 కి.మీ తుఫాను కదలిక వేగం.",
-    "en": "Maximum winds reached 165 km per hour; 13 km per hour was the storm's moving speed."
+    "te": "ఈ చట్రం 2022లో ఆమోదమైంది.",
+    "en": "This framework was adopted in 2022."
    }
   },
   {
-   "id": "gk_20261019_q9",
+   "id": "gk_20261020_q9",
    "style": "original_practice_not_official_exam",
    "audio_ids": {
-    "te": "gk_20261019_q9",
-    "en": "gk_20261019_q9__en"
+    "te": "gk_20261020_q9",
+    "en": "gk_20261020_q9__en"
    },
    "answer_audio_ids": {
-    "te": "gk_20261019_q9_answer",
-    "en": "gk_20261019_q9_answer__en"
+    "te": "gk_20261020_q9_answer",
+    "en": "gk_20261020_q9_answer__en"
    },
-   "item_id": "gk_20261019_india_3",
+   "item_id": "gk_20261020_india_3",
    "question": {
-    "te": "2026 ఆసియా పారా గేమ్స్ ఎక్కడ జరుగుతున్నాయి?",
-    "en": "Where are the 2026 Asian Para Games being held?"
+    "te": "రెండో టీ20లో భారత మహిళలు జింబాబ్వేపై ఎన్ని వికెట్ల తేడాతో గెలిచారు?",
+    "en": "By how many wickets did India women beat Zimbabwe in the second T20?"
    },
    "options": {
     "te": [
-     "హాంగ్జౌ, చైనా",
-     "ఆయిచి-నగోయా, జపాన్",
-     "జకార్తా, ఇండోనేషియా",
-     "న్యూఢిల్లీ, భారతదేశం"
+     "5 వికెట్లు",
+     "9 వికెట్లు",
+     "2 వికెట్లు",
+     "7 వికెట్లు"
     ],
     "en": [
-     "Hangzhou, China",
-     "Aichi-Nagoya, Japan",
-     "Jakarta, Indonesia",
-     "New Delhi, India"
+     "5 wickets",
+     "9 wickets",
+     "2 wickets",
+     "7 wickets"
     ]
    },
    "answer_index": 1,
    "explanation": {
-    "te": "5వ ఆసియా పారా గేమ్స్ జపాన్‌లోని ఆయిచి-నగోయాలో జరుగుతున్నాయి; హాంగ్జౌ 2023 ఆతిథ్యం ఇచ్చింది.",
-    "en": "The 5th Asian Para Games are in Aichi-Nagoya, Japan; Hangzhou hosted in 2023."
+    "te": "భారత్ 9 వికెట్ల తేడాతో విజయం సాధించింది.",
+    "en": "India won by 9 wickets."
    }
   },
   {
-   "id": "gk_20261019_q10",
+   "id": "gk_20261020_q10",
    "style": "original_practice_not_official_exam",
    "audio_ids": {
-    "te": "gk_20261019_q10",
-    "en": "gk_20261019_q10__en"
+    "te": "gk_20261020_q10",
+    "en": "gk_20261020_q10__en"
    },
    "answer_audio_ids": {
-    "te": "gk_20261019_q10_answer",
-    "en": "gk_20261019_q10_answer__en"
+    "te": "gk_20261020_q10_answer",
+    "en": "gk_20261020_q10_answer__en"
    },
-   "item_id": "gk_20261019_india_3",
+   "item_id": "gk_20261020_india_3",
    "question": {
-    "te": "ప్రారంభోత్సవంలో భారత జెండా ఎవరు మోశారు?",
-    "en": "Who were India's flag-bearers at the opening ceremony?"
+    "te": "ఆ మ్యాచ్‌లో ప్లేయర్ ఆఫ్ ది మ్యాచ్ ఎవరు?",
+    "en": "Who was the Player of the Match in that game?"
    },
    "options": {
     "te": [
-     "సుమిత్ అంతిల్, అవని లేఖరా",
-     "షీటల్ దేవి, భావినా పటేల్",
-     "ప్రమోద్ భగత్, సింరన్ శర్మ",
-     "రోహిత్ శర్మ, విరాట్ కోహ్లి"
+     "స్మృతి మందాన",
+     "హర్మన్‌ప్రీత్ కౌర్",
+     "షెఫాళి వర్మ",
+     "దీప్తి శర్మ"
     ],
     "en": [
-     "Sumit Antil and Avani Lekhara",
-     "Sheetal Devi and Bhavina Patel",
-     "Pramod Bhagat and Simran Sharma",
-     "Rohit Sharma and Virat Kohli"
+     "Smriti Mandhana",
+     "Harmanpreet Kaur",
+     "Shafali Verma",
+     "Deepti Sharma"
     ]
    },
    "answer_index": 2,
    "explanation": {
-    "te": "పారా బ్యాడ్మింటన్ క్రీడాకారుడు ప్రమోద్ భగత్, స్ప్రింటర్ సింరన్ శర్మ జెండా మోశారు.",
-    "en": "Para-badminton player Pramod Bhagat and sprinter Simran Sharma carried the flag."
+    "te": "25 బంతుల్లో 55 పరుగులు చేసిన షెఫాళి వర్మ ప్లేయర్ ఆఫ్ ది మ్యాచ్.",
+    "en": "Shafali Verma, who scored 55 runs off 25 balls, was Player of the Match."
    }
   },
   {
-   "id": "gk_20261019_q11",
+   "id": "gk_20261020_q11",
    "style": "original_practice_not_official_exam",
    "audio_ids": {
-    "te": "gk_20261019_q11",
-    "en": "gk_20261019_q11__en"
+    "te": "gk_20261020_q11",
+    "en": "gk_20261020_q11__en"
    },
    "answer_audio_ids": {
-    "te": "gk_20261019_q11_answer",
-    "en": "gk_20261019_q11_answer__en"
+    "te": "gk_20261020_q11_answer",
+    "en": "gk_20261020_q11_answer__en"
    },
-   "item_id": "gk_20261019_india_2",
+   "item_id": "gk_20261020_india_2",
    "question": {
-    "te": "పోలీసు స్మృతి దినోత్సవం ఏ తేదీన?",
-    "en": "When is Police Commemoration Day observed?"
+    "te": "జాతీయ సంఘీభావ దినోత్సవం ఏ తేదీన జరుపుకుంటారు?",
+    "en": "On which date is National Solidarity Day observed?"
    },
    "options": {
     "te": [
+     "అక్టోబర్ 20",
      "అక్టోబర్ 21",
      "అక్టోబర్ 24",
-     "అక్టోబర్ 18",
      "అక్టోబర్ 31"
     ],
     "en": [
+     "October 20",
      "October 21",
      "October 24",
-     "October 18",
      "October 31"
     ]
    },
    "answer_index": 0,
    "explanation": {
-    "te": "1959 అక్టోబర్ 21న హాట్ స్ప్రింగ్స్‌లో పది మంది పోలీసులు వీరమరణం పొందారు.",
-    "en": "Ten policemen died at Hot Springs on October 21, 1959."
+    "te": "ప్రతి ఏటా అక్టోబర్ 20న జాతీయ సంఘీభావ దినోత్సవం జరుపుకుంటారు.",
+    "en": "National Solidarity Day is observed every year on October 20."
    }
   },
   {
-   "id": "gk_20261019_q12",
+   "id": "gk_20261020_q12",
    "style": "original_practice_not_official_exam",
    "audio_ids": {
-    "te": "gk_20261019_q12",
-    "en": "gk_20261019_q12__en"
+    "te": "gk_20261020_q12",
+    "en": "gk_20261020_q12__en"
    },
    "answer_audio_ids": {
-    "te": "gk_20261019_q12_answer",
-    "en": "gk_20261019_q12_answer__en"
+    "te": "gk_20261020_q12_answer",
+    "en": "gk_20261020_q12_answer__en"
    },
-   "item_id": "gk_20261019_world_2",
+   "item_id": "gk_20261020_world_2",
    "question": {
-    "te": "ప్రపంచ పోలియో దినోత్సవం ఏ తేదీన?",
-    "en": "When is World Polio Day observed?"
+    "te": "ఆస్టియోపోరోసిస్ ఏ శరీర భాగానికి సంబంధించిన వ్యాధి?",
+    "en": "Osteoporosis is a disease related to which body part?"
    },
    "options": {
     "te": [
-     "అక్టోబర్ 18",
-     "అక్టోబర్ 20",
-     "అక్టోబర్ 21",
-     "అక్టోబర్ 24"
+     "గుండె",
+     "ఎముకలు",
+     "కళ్లు",
+     "పళ్లు"
     ],
     "en": [
-     "October 18",
-     "October 20",
-     "October 21",
-     "October 24"
+     "Heart",
+     "Bones",
+     "Eyes",
+     "Teeth"
     ]
    },
-   "answer_index": 3,
+   "answer_index": 1,
    "explanation": {
-    "te": "ప్రతి ఏటా అక్టోబర్ 24న ప్రపంచ పోలియో దినోత్సవం.",
-    "en": "World Polio Day is observed every year on October 24."
+    "te": "ఆస్టియోపోరోసిస్ ఎముకలు బలహీనపడే వ్యాధి.",
+    "en": "Osteoporosis is a disease that weakens bones."
    }
   }
  ],
- "edition_date": "2026-10-19",
- "verified_at": "2026-10-18T22:47:12.389260+05:30",
+ "edition_date": "2026-10-20",
+ "verified_at": "2026-10-19T20:15:00+05:30",
  "status": "source_checked_translation_review_recommended",
  "coverage": [
   "cards",
