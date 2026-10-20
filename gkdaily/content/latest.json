@@ -1,723 +1,640 @@
 {
- "schema_version": 1,
- "revision": 1,
- "timezone": "Asia/Kolkata",
- "sources": {
-  "tgnews": {
-   "publisher": "Telangana Today",
-   "url": "https://telanganatoday.com/drought-like-conditions-in-315-mandals-in-tgana-agriculture-minister",
-   "published_date": "2026-10-17"
-  },
-  "tgnews2": {
-   "publisher": "Andhra Jyothy",
-   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-rrr-southern-section-hgcl-takes-over-20000-crore-road-project-1568774.html",
-   "published_date": "2026-10-19"
-  },
-  "innews": {
-   "publisher": "India Today",
-   "url": "https://www.indiatoday.in/science/story/isro-tests-methane-rocket-engine-similar-to-spacex-style-tech-why-its-a-big-deal-3020530-2026-10-19",
-   "published_date": "2026-10-19"
-  },
-  "worldnews": {
-   "publisher": "Xinhua",
-   "url": "https://english.news.cn/asiapacific/20261018/7c6f3af15947415494114ddf89e336d9/c.html",
-   "published_date": "2026-10-18"
-  },
-  "sports": {
-   "publisher": "India Today",
-   "url": "https://www.indiatoday.in/sports/cricket/story/india-vs-zimbabwe-2nd-womens-t20i-live-score-raipur-smriti-mandhana-3020235-2026-10-18",
-   "published_date": "2026-10-18"
-  },
-  "ingk": {
-   "publisher": "ETV Bharat",
-   "url": "https://www.etvbharat.com/en/!bharat/national-solidarity-day-honouring-unwavering-determination-of-citizens-enn24101904103",
-   "published_date": "2024-10-19"
-  },
-  "worldgk": {
-   "publisher": "International Osteoporosis Foundation",
-   "url": "https://www.worldosteoporosisday.org/",
-   "published_date": null
-  }
- },
- "cards": [
-  {
-   "id": "gk_20261020_telangana_1",
-   "region": "telangana",
-   "type": "current_affairs",
-   "source_ids": [
-    "tgnews"
-   ],
-   "event_date": "2026-10-17",
-   "age_band": "class5-10",
-   "audio_ids": {
-    "te": "gk_20261020_telangana_1",
-    "en": "gk_20261020_telangana_1__en"
-   },
-   "title": {
-    "te": "తెలంగాణలో 315 మండలాల్లో కరవు పరిస్థితులు",
-    "en": "Drought-like conditions in 315 Telangana mandals"
-   },
-   "summary": {
-    "te": "వర్షాభావం, ఎల్ నినో ప్రభావంతో తెలంగాణలోని మొత్తం 621 మండలాల్లో 315 మండలాల్లో కరవు సదృశ పరిస్థితులు ఏర్పడ్డాయని రాష్ట్ర వ్యవసాయ మంత్రి తుమ్మల నాగేశ్వరరావు అక్టోబర్ 17న తెలిపారు. కేంద్ర వ్యవసాయ మంత్రి శివరాజ్ సింగ్ చౌహాన్ నిర్వహించిన వీడియో కాన్ఫరెన్స్‌లో పాల్గొన్న ఆయన వెంటనే కేంద్ర సాయం అందించాలని కోరారు. నిలిచిపోయిన పంటలను అంచనా వేయాలని, దిగుబడి వరకు సాగునీరు, విద్యుత్ సరఫరా కొనసాగించాలని ప్రభుత్వం అధికారులను ఆదేశించింది. మక్కజొన్న, జొన్న, పప్పులు, నూనెగింజలను కనీస మద్దతు ధర (MSP) కింద కొనుగోలు చేయాలని కూడా కేంద్రాన్ని కోరారు.",
-    "en": "Telangana Agriculture Minister Tummala Nageswara Rao said on October 17 that drought-like conditions prevail in 315 of the state's 621 mandals because of rainfall deficit and the El Niño effect. Taking part in a video conference held by Union Agriculture Minister Shivraj Singh Chouhan, he sought immediate Central assistance. The state government has asked officials to assess the standing crops and to continue irrigation water and electricity supply until harvest. It also requested the Centre to buy maize, jowar, pulses and oilseeds at the Minimum Support Price (MSP)."
-   }
-  },
-  {
-   "id": "gk_20261020_telangana_2",
-   "region": "telangana",
-   "type": "current_affairs",
-   "source_ids": [
-    "tgnews2"
-   ],
-   "event_date": "2026-10-18",
-   "age_band": "class5-10",
-   "audio_ids": {
-    "te": "gk_20261020_telangana_2",
-    "en": "gk_20261020_telangana_2__en"
-   },
-   "title": {
-    "te": "ఆర్‌ఆర్‌ఆర్ దక్షిణ భాగం రాష్ట్ర ప్రభుత్వమే చేపట్టే దిశగా",
-    "en": "Telangana set to build RRR southern section itself"
-   },
-   "summary": {
-    "te": "రీజినల్ రింగ్ రోడ్ (RRR) ప్రాజెక్టు దక్షిణ భాగం నిర్మాణ బాధ్యతలను తెలంగాణ ప్రభుత్వం హైదరాబాద్ గ్రోత్ కారిడార్ లిమిటెడ్ (HGCL)కు అప్పగించింది. భూసేకరణ, ఇతర ప్రక్రియలను వెంటనే ప్రారంభించాలని ప్రభుత్వం ఆదేశించింది; ఈ పనులకు రూ.20,000 కోట్లకు పైగా అవసరమవుతాయని ప్రాథమిక అంచనా. 2016లో ఆమోదం పొందిన RRR హైదరాబాద్ చుట్టూ నిర్మించే పెద్ద వలయాకార రహదారి; దీనివల్ల నగరంలోకి ప్రయాణాలు సులభమవుతాయి.",
-    "en": "The Telangana government has entrusted the construction of the southern section of the Regional Ring Road (RRR) project to Hyderabad Growth Corridor Limited (HGCL) and ordered land acquisition and other processes to begin at once. The preliminary estimate for the works is over Rs 20,000 crore. Approved in 2016, the RRR is a large ring road being built around Hyderabad to make travel in and around the city easier."
-   }
-  },
-  {
-   "id": "gk_20261020_india_1",
-   "region": "india",
-   "type": "current_affairs",
-   "source_ids": [
-    "innews"
-   ],
-   "event_date": "2026-10-09",
-   "age_band": "class5-10",
-   "audio_ids": {
-    "te": "gk_20261020_india_1",
-    "en": "gk_20261020_india_1__en"
-   },
-   "title": {
-    "te": "ఇస్రో మీథేన్ రాకెట్ ఇంజిన్ పరీక్ష విజయం",
-    "en": "ISRO tests methane rocket engine"
-   },
-   "summary": {
-    "te": "భారత అంతరిక్ష పరిశోధనా సంస్థ (ఇస్రో) తన కొత్త LME-1100 మీథేన్ రాకెట్ ఇంజిన్ గ్యాస్ జనరేటర్ తొలి మంట పరీక్షను అక్టోబర్ 9న తమిళనాడులోని మహేంద్రగిరిలోని ఇస్రో ప్రొపల్షన్ కాంప్లెక్స్‌లో విజయవంతంగా నిర్వహించింది. ఈ ఇంజిన్ సామర్థ్యం 1,100 కిలోన్యూటన్లు; పూర్తి ఇంజిన్ 2027 మధ్య నాటికి సిద్ధమవుతుందని లక్ష్యం. అంతేకాక, 2,400 కిలోన్యూటన్ల మరింత శక్తివంతమైన మీథేన్ ఇంజిన్ రూపకల్పనను కూడా ఇస్రో పూర్తి చేసింది. ఈ ఇంజిన్లు భారతదేశ భవిష్యత్ భారీ రాకెట్లకు, వ్యోమగాములను చంద్రుడిపైకి పంపే ప్రణాళికలకు ఉపయోగపడతాయి.",
-    "en": "The Indian Space Research Organisation (ISRO) successfully carried out the first ignition test of the gas generator of its new LME-1100 methane rocket engine on October 9 at the ISRO Propulsion Complex in Mahendragiri, Tamil Nadu. The engine has a capacity of 1,100 kilonewtons, and the full engine is targeted to be ready by mid-2027. ISRO has also completed the design of a more powerful 2,400-kilonewton methane engine. These engines will power India's future heavy-lift rockets and plans to land astronauts on the Moon."
-   }
-  },
-  {
-   "id": "gk_20261020_world_1",
-   "region": "world",
-   "type": "current_affairs",
-   "source_ids": [
-    "worldnews"
-   ],
-   "event_date": "2026-10-19",
-   "age_band": "class5-10",
-   "audio_ids": {
-    "te": "gk_20261020_world_1",
-    "en": "gk_20261020_world_1__en"
-   },
-   "title": {
-    "te": "ఆర్మేనియాలో ఐక్యరాజ్యసమితి జీవవైవిధ్య సదస్సు ప్రారంభం",
-    "en": "UN biodiversity conference begins in Armenia"
-   },
-   "summary": {
-    "te": "జీవవైవిధ్యాన్ని (అన్ని రకాల జీవుల సమూహాన్ని) కాపాడేందుకు దేశాలు చేస్తున్న చర్యలను సమీక్షించే ఐక్యరాజ్యసమితి సదస్సు (COP17) అక్టోబర్ 19న ఆర్మేనియా రాజధాని యెరెవాన్‌లో ప్రారంభమైంది; అక్టోబర్ 30 వరకు కొనసాగుతుంది. ఐక్యరాజ్యసమితి ప్రధాన కార్యదర్శి ఆంటోనియో గుటెర్రస్ దేశాలకు 'మరింత చర్య, మరింత వేగం, మరింత సంకల్పం' అవసరమని పిలుపునిచ్చారు. 2022లో ఆమోదించిన కున్‌మింగ్-మాంట్రియల్ ప్రపంచ జీవవైవిధ్య చట్రంలోని లక్ష్యాల పురోగతిని ఈ సదస్సు అంచనా వేస్తుంది.",
-    "en": "COP17, the United Nations conference that reviews what countries are doing to protect biodiversity (the variety of all living things), began on October 19 in Yerevan, the capital of Armenia, and runs until October 30. UN Secretary-General Antonio Guterres called on countries for 'more action, more speed, and more will'. The conference will assess progress towards the goals of the Kunming-Montreal Global Biodiversity Framework adopted in 2022."
-   }
-  },
-  {
-   "id": "gk_20261020_india_3",
-   "region": "india",
-   "type": "current_affairs",
-   "source_ids": [
-    "sports"
-   ],
-   "event_date": "2026-10-18",
-   "age_band": "class5-10",
-   "audio_ids": {
-    "te": "gk_20261020_india_3",
-    "en": "gk_20261020_india_3__en"
-   },
-   "title": {
-    "te": "జింబాబ్వేపై భారత మహిళల టీ20 సిరీస్ విజయం",
-    "en": "India women win T20 series against Zimbabwe"
-   },
-   "summary": {
-    "te": "రాయ్‌పురులో అక్టోబర్ 18న జరిగిన రెండో టీ20 మ్యాచ్‌లో భారత మహిళా క్రికెట్ జట్టు జింబాబ్వేపై 9 వికెట్ల తేడాతో గెలిచి, మూడు మ్యాచ్‌ల సిరీస్‌ను 2-0తో కైవసం చేసుకుంది. కేవలం 25 బంతుల్లో 55 పరుగులు (6 ఫోర్లు, 4 సిక్సర్లు) చేసిన షెఫాళి వర్మ ప్లేయర్ ఆఫ్ ది మ్యాచ్‌గా నిలిచింది. ఇది స్మృతి మందాన కెప్టెన్‌గా భారత్ సాధించిన తొలి సిరీస్ విజయం. చివరి టీ20 మ్యాచ్ అక్టోబర్ 20న రాయ్‌పురులోనే జరుగుతుంది.",
-    "en": "The Indian women's cricket team beat Zimbabwe by 9 wickets in the second T20 match at Raipur on October 18 to win the three-match series 2-0 with a game to spare. Shafali Verma, who smashed 55 runs off just 25 balls (6 fours and 4 sixes), was named Player of the Match. This is India's first series win with Smriti Mandhana as captain. The final T20 will be played in Raipur on October 20."
-   }
-  },
-  {
-   "id": "gk_20261020_india_2",
-   "region": "india",
-   "type": "static_gk",
-   "source_ids": [
-    "ingk"
-   ],
-   "event_date": null,
-   "age_band": "class3-10",
-   "audio_ids": {
-    "te": "gk_20261020_india_2",
-    "en": "gk_20261020_india_2__en"
-   },
-   "title": {
-    "te": "జాతీయ సంఘీభావ దినోత్సవం: అక్టోబర్ 20",
-    "en": "National Solidarity Day: October 20"
-   },
-   "summary": {
-    "te": "ప్రతి ఏటా అక్టోబర్ 20న భారతదేశంలో జాతీయ సంఘీభావ దినోత్సవం జరుపుకుంటారు. 1962లో భారత్-చైనా యుద్ధ సమయంలో దేశం కోసం ప్రాణత్యాగం చేసిన సైనికుల జ్ఞాపకార్థం 1966లో అప్పటి ప్రధాన మంత్రి ఇందిరాగాంధీ నాయకత్వంలో ఈ దినోత్సవాన్ని ప్రారంభించారు. మత, కుల, ప్రాంత భేదాలకు అతీతంగా ప్రజలందరూ ఏకమై ఉండాలన్న స్ఫూర్తిని ఈ రోజు గుర్తు చేస్తుంది.",
-    "en": "National Solidarity Day is observed across India every year on October 20. It was first commemorated in 1966 under Prime Minister Indira Gandhi, in memory of the soldiers who sacrificed their lives during the 1962 India-China war. The day reminds all citizens to stand united, rising above differences of religion, caste and region."
-   }
-  },
-  {
-   "id": "gk_20261020_world_2",
-   "region": "world",
-   "type": "static_gk",
-   "source_ids": [
-    "worldgk"
-   ],
-   "event_date": null,
-   "age_band": "class3-10",
-   "audio_ids": {
-    "te": "gk_20261020_world_2",
-    "en": "gk_20261020_world_2__en"
-   },
-   "title": {
-    "te": "ప్రపంచ ఆస్టియోపోరోసిస్ దినోత్సవం: అక్టోబర్ 20",
-    "en": "World Osteoporosis Day: October 20"
-   },
-   "summary": {
-    "te": "ప్రతి ఏటా అక్టోబర్ 20న ప్రపంచ ఆస్టియోపోరోసిస్ దినోత్సవం జరుపుకుంటారు. ఆస్టియోపోరోసిస్ అనేది ఎముకలు బలహీనపడి, సులభంగా పగిలిపోయే అవకాశం ఎక్కువయ్యే వ్యాధి. అంతర్జాతీయ ఆస్టియోపోరోసిస్ ఫౌండేషన్ ఈ దినోత్సవాన్ని నిర్వహిస్తుంది; 2026 నినాదం 'నిర్మించండి, రక్షించండి, బలోపేతం చేయండి' (Build, Protect and Strengthen). కాల్షియం, విటమిన్ D, క్రమం తప్పని వ్యాయామంతో ఎముకలను ఆరోగ్యంగా ఉంచుకోవచ్చు.",
-    "en": "World Osteoporosis Day is observed every year on October 20. Osteoporosis is a disease that makes bones weak and more likely to break. The International Osteoporosis Foundation leads this day, and the 2026 campaign theme is 'Build, Protect and Strengthen'. Calcium, vitamin D and regular exercise help keep bones strong."
-   }
-  }
- ],
- "readings": [
-  {
-   "id": "gk_20261020_reading_1",
-   "age_band": "class5-7",
-   "audio_ids": {
-    "te": "gk_20261020_reading_1",
-    "en": "gk_20261020_reading_1__en"
-   },
-   "source_ids": [
-    "innews"
-   ],
-   "title": {
-    "te": "మీథేన్ రాకెట్ ఇంధనం అంటే ఏమిటి?",
-    "en": "What is methane rocket fuel?"
-   },
-   "passage": {
-    "te": "రాకెట్‌ను పైకి నెట్టడానికి ఇంధనం కావాలి. ఇప్పటివరకు చాలా రాకెట్లు కిరోసిన్ లాంటి ఇంధనం వాడేవి. ఇప్పుడు శాస్త్రవేత్తలు మీథేన్ అనే వాయువును ఇంధనంగా వాడుతున్నారు. మీథేన్ శుభ్రంగా కాలుతుంది, కాబట్టి ఇంజిన్‌ను మళ్లీ మళ్లీ వాడటం సులభమవుతుంది. అద్భుతం ఏమిటంటే, అంగారకుడి వాతావరణంలోని పదార్థాల నుంచి మీథేన్‌ను తయారుచేయవచ్చు! భవిష్యత్తులో అంగారకుడికి వెళ్లే రాకెట్లు అక్కడే ఇంధనం తయారుచేసుకుని భూమికి తిరిగి రావచ్చని శాస్త్రవేత్తలు అంటున్నారు.",
-    "en": "A rocket needs fuel to push it into space. Until now, many rockets used a fuel like kerosene. Now scientists are using a gas called methane. Methane burns cleanly, so the engine becomes easier to use again and again. The amazing thing is that methane can be made from materials found in the air of Mars! Scientists say that in the future, rockets travelling to Mars could make their fuel there itself and return to Earth."
-   },
-   "vocabulary": [
-    {
-     "te": "మీథేన్",
-     "en": "methane"
+  "schema_version": 1,
+  "revision": 1,
+  "timezone": "Asia/Kolkata",
+  "sources": {
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/about/state-symbols/",
+      "published_date": null
     },
-    {
-     "te": "ఇంధనం",
-     "en": "fuel"
+    "ingk": {
+      "publisher": "Know India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-bird.php",
+      "published_date": null
     },
-    {
-     "te": "ఇంజిన్",
-     "en": "engine"
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us",
+      "published_date": null
     },
-    {
-     "te": "అంగారకుడు",
-     "en": "Mars (the red planet)"
+    "scholarships": {
+      "publisher": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in/Students",
+      "published_date": null
+    },
+    "tgnews": {
+      "publisher": "Deccan Chronicle",
+      "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-cm-revanth-reddy-performs-ayudha-puja-at-his-jubilee-hills-residence-1997427",
+      "published_date": "2026-10-20"
+    },
+    "innews": {
+      "publisher": "DD India",
+      "url": "https://ddindia.co.in/2026/10/india-uae-trade-crosses-100-billion-eam-jaishankar-calls-for-dialogue-on-gulf-situation/",
+      "published_date": "2026-10-20"
+    },
+    "worldnews": {
+      "publisher": "Science Daily",
+      "url": "http://www.sciencedaily.com/releases/2026/10/261018205101.htm",
+      "published_date": "2026-10-20"
     }
-   ]
   },
-  {
-   "id": "gk_20261020_reading_2",
-   "age_band": "class5-7",
-   "audio_ids": {
-    "te": "gk_20261020_reading_2",
-    "en": "gk_20261020_reading_2__en"
-   },
-   "source_ids": [
-    "worldnews"
-   ],
-   "title": {
-    "te": "జీవవైవిధ్యం అంటే ఏమిటి?",
-    "en": "What is biodiversity?"
-   },
-   "passage": {
-    "te": "మన చుట్టూ ఎన్నో రకాల జీవులు ఉన్నాయి: పిల్లుల నుంచి ఏనుగుల వరకు జంతువులు, గాలిలో ఎగిరే పక్షులు, నీటిలో చేపలు, చిన్నపాటి పురుగులు, మామిడి, మర్రి వంటి చెట్లు, మూలికలు. ఈ వైవిధ్యాన్నే జీవవైవిధ్యం అంటారు. ప్రతి జీవికి ఒక పాత్ర ఉంటుంది: తేనెటీగలు పువ్వుల పరాగసంపర్కానికి సహాయపడతాయి, చెట్లు ఆక్సిజన్ ఇస్తాయి, పురుగులు మట్టిని సారవంతం చేస్తాయి. ఏదో ఒక జాతి తగ్గిపోతే ఈ ముడిపడిన వలమంతా ప్రమాదంలో పడుతుంది. అందుకే ప్రపంచ దేశాలు కలిసి జీవవైవిధ్యాన్ని కాపాడే నిబంధనలు చేసుకుంటాయి.",
-    "en": "So many kinds of living things surround us: animals from cats to elephants, birds in the air, fish in the water, tiny insects, trees like mango and banyan, and small herbs. This variety is called biodiversity. Every living thing has a role: bees help flowers make seeds, trees give us oxygen, and insects make the soil rich. If even one kind disappears, this connected web is in danger. That is why countries of the world join together to make rules that protect biodiversity."
-   },
-   "vocabulary": [
+  "cards": [
     {
-     "te": "జీవవైవిధ్యం",
-     "en": "biodiversity"
+      "id": "gk_20261021_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgnews"
+      ],
+      "event_date": "2026-10-20",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_telangana_1",
+        "en": "gk_20261021_telangana_1__en"
+      },
+      "title": {
+        "te": "దసరా సందర్భంగా ఆయుధ పూజ",
+        "en": "Ayudha Puja on Dussehra"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 20న డెక్కన్ క్రానికల్ నివేదిక ప్రకారం, దసరా సందర్భంగా తెలంగాణ ముఖ్యమంత్రి రేవంత్ రెడ్డి జూబ్లీ హిల్స్‌లోని తన నివాసంలో సంప్రదాయ ఆయుధ పూజ చేశారు. విజయదశమి కీడుపై మంచి విజయానికి ప్రతీక అని, ఈ పండుగ ధైర్యం, ధర్మం, సత్యం, ఐక్యత, ఆత్మవిశ్వాసం వంటి విలువలను నేర్పుతుందని ముఖ్యమంత్రి పేర్కొన్నారు. ఇది జరిగిన కార్యక్రమం గురించిన వార్త; పండుగ ప్రాముఖ్యత గురించిన మాటలు ముఖ్యమంత్రి ప్రకటన.",
+        "en": "Deccan Chronicle reported on October 20 that Telangana Chief Minister Revanth Reddy performed the traditional Ayudha Puja at his Jubilee Hills residence on the occasion of Dussehra. The Chief Minister said Vijayadashami symbolises the triumph of good over evil and teaches values such as courage, righteousness, truth, unity and self-confidence. This reports a completed event; the remarks about the festival's meaning are the Chief Minister's statement."
+      }
     },
     {
-     "te": "పరాగసంపర్కం",
-     "en": "pollination"
+      "id": "gk_20261021_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": "2026-10-20",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_india_1",
+        "en": "gk_20261021_india_1__en"
+      },
+      "title": {
+        "te": "భారత్-యూఏఈ వాణిజ్యం 100 బిలియన్ డాలర్లు దాటింది",
+        "en": "India-UAE trade crosses 100 billion dollars"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 20న డీడీ ఇండియా నివేదిక ప్రకారం, సమగ్ర ఆర్థిక భాగస్వామ్య ఒప్పందం (సిఇపిఏ) అమలులోకి వచ్చిన తరువాత భారత్-యూఏఈ ద్వైపాక్షిక వాణిజ్యం 100 బిలియన్ డాలర్లు దాటిందని విదేశాంగ మంత్రి ఎస్. జైశంకర్ పేర్కొన్నారు. ముంబైలో యూఏఈ డిప్యూటీ ప్రధాని, విదేశాంగ మంత్రి షేఖ్ అబ్దుల్లా బిన్ జాయెద్ అల్ నహ్యాన్‌ను ఆయన స్వాగతించారు. ఇది ఒప్పందం అమలు ప్రారంభం నుండి మొత్తం వాణిజ్యం; ఒకే ఏటి వాణిజ్యం కాదు. ఈ విషయం మంత్రి ప్రకటన ఆధారిత వార్త.",
+        "en": "DD India reported on October 20 that External Affairs Minister S. Jaishankar said India-UAE bilateral trade had crossed 100 billion dollars since their Comprehensive Economic Partnership Agreement (CEPA) came into force. He was welcoming UAE Deputy Prime Minister and Foreign Minister Sheikh Abdullah bin Zayed Al Nahyan in Mumbai. The figure is total trade since the agreement began, not trade in a single year. This report is based on the minister's statement."
+      }
     },
     {
-     "te": "మూలిక",
-     "en": "herb"
+      "id": "gk_20261021_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_world_1",
+        "en": "gk_20261021_world_1__en"
+      },
+      "title": {
+        "te": "బెన్ను గ్రహశకలం రాళ్ల మిస్టరీ పరిష్కారం",
+        "en": "The mystery of Bennu's boulders is solved"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 20న సైన్స్ డైలీ నివేదిక ప్రకారం, నాసా ఓసిరిస్-రెక్స్ తీసుకువచ్చిన బెన్ను గ్రహశకలం నమూనాల అధ్యయనం ఒక మిస్టరీని పరిష్కరించింది. 2018లో నౌక చేరుకున్నప్పుడు శాస్త్రవేత్తలు ముద్దొచ్చే ఉపరితలం ఆశించగా, అక్కడ పెద్ద రాళ్లే కనిపించాయి. ఇప్పుడు నేచర్ కమ్యూనికేషన్స్‌లో ప్రచురితమైన పరిశోధన ప్రకారం, ఆ రాళ్లు చాలా పొరలుగా, లోపల పగుళ్లతో ఉండటం వల్లే అవి వేగంగా వేడిని కోల్పోతాయి. ఇది ప్రచురిత పరిశోధన గురించిన వార్త.",
+        "en": "Science Daily reported on October 20 that studies of Bennu asteroid samples brought back by NASA's OSIRIS-REx mission have solved a mystery. When the spacecraft arrived in 2018, scientists expected smooth, fine ground but found huge boulders. Research published in Nature Communications now shows the rocks are highly porous and full of internal cracks, which is why they lose heat quickly. This reports a published research finding."
+      }
     },
     {
-     "te": "నిబంధన",
-     "en": "rule"
+      "id": "gk_20261021_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "source_ids": [
+        "tggk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_telangana_2",
+        "en": "gk_20261021_telangana_2__en"
+      },
+      "title": {
+        "te": "తెలంగాణ రాష్ట్ర జంతువు, వృక్షం",
+        "en": "Telangana state animal and tree"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్ర జంతువు జింక (లెడి). రాష్ట్ర వృక్షం జమ్మి చెట్టు (ప్రోసోపిస్ సినరారియా). దసరా రోజున జమ్మి చెట్టును ప్రజలు పూజిస్తారని అధికారిక పేజీ తెలియజేస్తుంది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The state animal of Telangana is the Jinka (deer). The state tree is the Jammi Chettu (Prosopis cineraria). The official page says people worship the Jammi tree on Dasara day. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261021_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_india_2",
+        "en": "gk_20261021_india_2__en"
+      },
+      "title": {
+        "te": "భారత జాతీయ పక్షి",
+        "en": "National bird of India"
+      },
+      "summary": {
+        "te": "భారత జాతీయ పక్షి నెమలి. దాని శాస్త్రీయ నామం పావో క్రిస్టేటస్. మగ నెమలికి రంగురంగుల నీలి రొమ్ము, కంఠం, సుమారు 200 పొడవైన పిచ్ఛికలతో కంచు-ఆకు రంగు అద్భుతమైన తోక ఉంటుందని నో ఇండియా పేజీ తెలియజేస్తుంది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The Indian peacock is the national bird of India. Its scientific name is Pavo cristatus. The Know India page says the male has a glistening blue breast and neck and a spectacular bronze-green tail of about 200 elongated feathers. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261021_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_world_2",
+        "en": "gk_20261021_world_2__en"
+      },
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి సభ్య దేశాలు",
+        "en": "United Nations member states"
+      },
+      "summary": {
+        "te": "ఐక్యరాజ్యసమితి 1945లో ఏర్పడింది. ప్రస్తుతం దానిలో 193 సభ్య దేశాలు ఉన్నాయని అధికారిక పేజీ తెలియజేస్తుంది. ఏర్పాటు సమయంలో 51 సభ్య దేశాలుండగా, క్రమంగా సంఖ్య 193కు చేరింది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The United Nations was founded in 1945. The official page says it currently has 193 Member States, having grown from 51 original members. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261021_india_4",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "scholarships"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_india_4",
+        "en": "gk_20261021_india_4__en"
+      },
+      "title": {
+        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ గడువు",
+        "en": "NSP renewal deadline"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 21న తనిఖీ చేసిన అధికారిక ఎన్‌ఎస్‌పీ ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి గడువు 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30. ముగింపు సమయం ఇవ్వలేదు. అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు కాదు.",
+        "en": "The official NSP announcement checked on October 21 says renewal applications are open for the PM-USP Central Sector Scheme for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student deadline is October 31, 2026; institute verification November 15; Level 2 verification November 30. No cutoff time is given. This applies only to eligible renewal applicants, not every scholarship."
+      }
     }
-   ]
-  }
- ],
- "quiz": [
-  {
-   "id": "gk_20261020_q1",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261020_q1",
-    "en": "gk_20261020_q1__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261020_q1_answer",
-    "en": "gk_20261020_q1_answer__en"
-   },
-   "item_id": "gk_20261020_telangana_1",
-   "question": {
-    "te": "తెలంగాణలో కరవు సదృశ పరిస్థితులు ఎన్ని మండలాల్లో నమోదయ్యాయి?",
-    "en": "In how many mandals of Telangana were drought-like conditions recorded?"
-   },
-   "options": {
-    "te": [
-     "315",
-     "621",
-     "150",
-     "500"
-    ],
-    "en": [
-     "315",
-     "621",
-     "150",
-     "500"
-    ]
-   },
-   "answer_index": 0,
-   "explanation": {
-    "te": "మొత్తం 621 మండలాల్లో 315 మండలాల్లో కరవు సదృశ పరిస్థితులు ఉన్నాయని వ్యవసాయ మంత్రి తెలిపారు.",
-    "en": "The Agriculture Minister said 315 of the total 621 mandals have drought-like conditions."
-   }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261021_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261021_reading_1",
+        "en": "gk_20261021_reading_1__en"
+      },
+      "source_ids": [
+        "worldnews"
+      ],
+      "title": {
+        "te": "ఊహించినది, కనుగొన్నది వేరు",
+        "en": "What we expect and what we find can differ"
+      },
+      "passage": {
+        "te": "శాస్త్రవేత్తలు ఒక విషయాన్ని ఊహించవచ్చు, కానీ నిజంగా చూసినప్పుడు మరో విషయం కనిపించవచ్చు. ఓసిరిస్-రెక్స్ బెన్ను చేరినప్పుడు వారు ముద్దొచ్చే ఉపరితలం ఆశించారు. కానీ అక్కడ పెద్ద పెద్ద రాళ్లు కనిపించాయి. అప్పుడు వారు కొత్త ప్రశ్న అడిగారు: ఈ రాళ్లు వేడిని ఎలా ఇంత వేగంగా కోల్పోతాయి? నమూనాలను పరీక్షించి సమాధానం కనుగొన్నారు. శాస్త్రం అంటే ఊహలతో ఆగిపోవడం కాదు; ఆధారాలు వెతకడం. ఆధారం దొరికినప్పుడు పాత అభిప్రాయాన్ని మార్చుకోవడం శాస్త్రం బలం.",
+        "en": "Scientists can expect one thing, but when they look closely they may find something else. When OSIRIS-REx reached Bennu, the team expected smooth ground. Instead they saw huge boulders. So they asked a new question: how do these rocks lose heat so quickly? They examined the returned samples and found the answer. Science does not stop at guesses; it looks for evidence. Changing an old idea when evidence arrives is a strength of science."
+      },
+      "vocabulary": [
+        {
+          "te": "ఊహ",
+          "en": "guess"
+        },
+        {
+          "te": "ఆధారాలు",
+          "en": "evidence"
+        },
+        {
+          "te": "నమూనాలు",
+          "en": "samples"
+        }
+      ]
+    },
+    {
+      "id": "gk_20261021_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261021_reading_2",
+        "en": "gk_20261021_reading_2__en"
+      },
+      "source_ids": [
+        "innews"
+      ],
+      "title": {
+        "te": "పెద్ద సంఖ్యను సరిగ్గా చదవడం",
+        "en": "Reading a big number carefully"
+      },
+      "passage": {
+        "te": "వార్తల్లో పెద్ద సంఖ్యలు వస్తాయి. వాటిని చదివేటప్పుడు ఆ సంఖ్య ఏ కాలానికి చెందినదో చూడాలి. భారత్-యూఏఈ వాణిజ్యం 100 బిలియన్ డాలర్లు దాటిందన్న వార్త ఒప్పందం అమలులోకి వచ్చిన నుండి మొత్తం గురించి; ఒకే ఏటి వాణిజ్యం గురించి కాదు. అలాగే అలాంటి విషయం ఎవరు చెప్పారో చూడాలి; ఇక్కడ ఇది విదేశాంగ మంత్రి ప్రకటన. సంఖ్య యొక్క కాలం, చెప్పినవారు రెండూ తెలిస్తే వార్త మరింత స్పష్టమవుతుంది. ఒకే సంఖ్య వేరువేరు అర్థాలిచ్చేలా ఉపయోగించకూడదు.",
+        "en": "News reports often carry big numbers. When reading one, check which period the number covers. The report that India-UAE trade crossed 100 billion dollars is about the total since the agreement began, not about a single year. Also check who said it; here it is the External Affairs Minister's statement. When we know the period a number covers and who stated it, the news becomes clearer. The same number should not be used to mean different things."
+      },
+      "vocabulary": [
+        {
+          "te": "వాణిజ్యం",
+          "en": "trade"
+        },
+        {
+          "te": "కాలం",
+          "en": "period"
+        },
+        {
+          "te": "ప్రకటన",
+          "en": "statement"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261021_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q1",
+        "en": "gk_20261021_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q1_answer",
+        "en": "gk_20261021_q1_answer__en"
+      },
+      "item_id": "gk_20261021_telangana_1",
+      "question": {
+        "te": "దసరా సందర్భంగా ముఖ్యమంత్రి ఏ పూజ చేశారు?",
+        "en": "Which puja did the Chief Minister perform on Dussehra?"
+      },
+      "options": {
+        "te": [
+          "ఆయుధ పూజ",
+          "సరస్వతి పూజ",
+          "లక్ష్మీ పూజ",
+          "గణపతి పూజ"
+        ],
+        "en": [
+          "Ayudha Puja",
+          "Saraswati Puja",
+          "Lakshmi Puja",
+          "Ganapati Puja"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నివేదిక ఆయుధ పూజ అని పేర్కొంది.",
+        "en": "The report names Ayudha Puja."
+      }
+    },
+    {
+      "id": "gk_20261021_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q2",
+        "en": "gk_20261021_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q2_answer",
+        "en": "gk_20261021_q2_answer__en"
+      },
+      "item_id": "gk_20261021_india_1",
+      "question": {
+        "te": "భారత్-యూఏఈ వాణిజ్యం ఎంత దాటిందని మంత్రి చెప్పారు?",
+        "en": "How much did the minister say India-UAE trade had crossed?"
+      },
+      "options": {
+        "te": [
+          "10 బిలియన్ డాలర్లు",
+          "100 బిలియన్ డాలర్లు",
+          "1 బిలియన్ డాలర్లు",
+          "500 బిలియన్ డాలర్లు"
+        ],
+        "en": [
+          "10 billion dollars",
+          "100 billion dollars",
+          "1 billion dollars",
+          "500 billion dollars"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "మంత్రి ప్రకటన 100 బిలియన్ డాలర్లు అని చెబుతుంది.",
+        "en": "The minister's statement gives 100 billion dollars."
+      }
+    },
+    {
+      "id": "gk_20261021_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q3",
+        "en": "gk_20261021_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q3_answer",
+        "en": "gk_20261021_q3_answer__en"
+      },
+      "item_id": "gk_20261021_world_1",
+      "question": {
+        "te": "బెన్ను రాళ్లు వేడిని వేగంగా కోల్పోవడానికి కారణం ఏమిటి?",
+        "en": "Why do Bennu's rocks lose heat quickly?"
+      },
+      "options": {
+        "te": [
+          "పొరలుగా, పగుళ్లతో ఉండటం వల్ల",
+          "లోహంతో తయారు కావడం వల్ల",
+          "మంచుతో కప్పబడి ఉండటం వల్ల",
+          "చాలా చిన్నగా ఉండటం వల్ల"
+        ],
+        "en": [
+          "They are porous and cracked",
+          "They are made of metal",
+          "They are covered in ice",
+          "They are very small"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "పరిశోధన ప్రకారం రాళ్లు పొరలుగా, పగుళ్లతో ఉన్నాయి.",
+        "en": "The research found the rocks are porous and cracked."
+      }
+    },
+    {
+      "id": "gk_20261021_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q4",
+        "en": "gk_20261021_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q4_answer",
+        "en": "gk_20261021_q4_answer__en"
+      },
+      "item_id": "gk_20261021_telangana_2",
+      "question": {
+        "te": "తెలంగాణ రాష్ట్ర జంతువు ఏది?",
+        "en": "What is the state animal of Telangana?"
+      },
+      "options": {
+        "te": [
+          "జింక",
+          "పులి",
+          "ఏనుగు",
+          "గుర్రం"
+        ],
+        "en": [
+          "Jinka (deer)",
+          "Tiger",
+          "Elephant",
+          "Horse"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అధికారిక పేజీ జింక అని చెబుతుంది.",
+        "en": "The official page names the Jinka (deer)."
+      }
+    },
+    {
+      "id": "gk_20261021_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q5",
+        "en": "gk_20261021_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q5_answer",
+        "en": "gk_20261021_q5_answer__en"
+      },
+      "item_id": "gk_20261021_india_2",
+      "question": {
+        "te": "జాతీయ పక్షి శాస్త్రీయ నామం ఏమిటి?",
+        "en": "What is the scientific name of the national bird?"
+      },
+      "options": {
+        "te": [
+          "పావో క్రిస్టేటస్",
+          "కోర్వస్ స్ప్లెండెన్స్",
+          "బుబో బెంగాలెన్సిస్",
+          "ఆక్విలా రాపాక్స్"
+        ],
+        "en": [
+          "Pavo cristatus",
+          "Corvus splendens",
+          "Bubo bengalensis",
+          "Aquila rapax"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నో ఇండియా పేజీ పావో క్రిస్టేటస్ అని చెబుతుంది.",
+        "en": "The Know India page gives Pavo cristatus."
+      }
+    },
+    {
+      "id": "gk_20261021_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q6",
+        "en": "gk_20261021_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q6_answer",
+        "en": "gk_20261021_q6_answer__en"
+      },
+      "item_id": "gk_20261021_world_2",
+      "question": {
+        "te": "ఐక్యరాజ్యసమితి ఏ ఏట ఏర్పడింది?",
+        "en": "In which year was the United Nations founded?"
+      },
+      "options": {
+        "te": [
+          "1945",
+          "1919",
+          "1950",
+          "1939"
+        ],
+        "en": [
+          "1945",
+          "1919",
+          "1950",
+          "1939"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అధికారిక పేజీ 1945 అని చెబుతుంది.",
+        "en": "The official page gives 1945."
+      }
+    },
+    {
+      "id": "gk_20261021_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q7",
+        "en": "gk_20261021_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q7_answer",
+        "en": "gk_20261021_q7_answer__en"
+      },
+      "item_id": "gk_20261021_reading_1",
+      "question": {
+        "te": "బెన్నుపై శాస్త్రవేత్తలు ఏమి ఆశించారు?",
+        "en": "What did scientists expect on Bennu?"
+      },
+      "options": {
+        "te": [
+          "ముద్దొచ్చే ఉపరితలం",
+          "పెద్ద రాళ్లు",
+          "మంచు నదులు",
+          "అడవులు"
+        ],
+        "en": [
+          "Smooth ground",
+          "Huge boulders",
+          "Ice rivers",
+          "Forests"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "వారు ముద్దొచ్చే ఉపరితలం ఆశించారు.",
+        "en": "They expected smooth ground."
+      }
+    },
+    {
+      "id": "gk_20261021_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q8",
+        "en": "gk_20261021_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q8_answer",
+        "en": "gk_20261021_q8_answer__en"
+      },
+      "item_id": "gk_20261021_reading_1",
+      "question": {
+        "te": "ఆధారం దొరికినప్పుడు పాత అభిప్రాయాన్ని మార్చుకోవడం ఏమిటి?",
+        "en": "What is changing an old idea when evidence arrives?"
+      },
+      "options": {
+        "te": [
+          "శాస్త్రం బలం",
+          "పొరపాటు",
+          "అలవాటు",
+          "అనుమానం"
+        ],
+        "en": [
+          "A strength of science",
+          "A mistake",
+          "A habit",
+          "A doubt"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఆధారంతో అభిప్రాయం మార్చుకోవడం శాస్త్రం బలం.",
+        "en": "Changing an idea with evidence is a strength of science."
+      }
+    },
+    {
+      "id": "gk_20261021_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q9",
+        "en": "gk_20261021_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q9_answer",
+        "en": "gk_20261021_q9_answer__en"
+      },
+      "item_id": "gk_20261021_reading_2",
+      "question": {
+        "te": "100 బిలియన్ డాలర్ల వాణిజ్యం అంటే ఏ కాలానిది?",
+        "en": "What period does the 100 billion dollar trade figure cover?"
+      },
+      "options": {
+        "te": [
+          "ఒకే ఏటిది",
+          "ఒప్పందం ప్రారంభం నుండి మొత్తం",
+          "ఒక వారం",
+          "ఒక రోజు"
+        ],
+        "en": [
+          "A single year",
+          "The total since the agreement began",
+          "One week",
+          "One day"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "ఇది ఒప్పందం అమలు నుండి మొత్తం; ఒకే ఏటిది కాదు.",
+        "en": "It is the total since the agreement began, not one year."
+      }
+    },
+    {
+      "id": "gk_20261021_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q10",
+        "en": "gk_20261021_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q10_answer",
+        "en": "gk_20261021_q10_answer__en"
+      },
+      "item_id": "gk_20261021_reading_2",
+      "question": {
+        "te": "పెద్ద సంఖ్య చదివేటప్పుడు ముందు ఏమి చూడాలి?",
+        "en": "What should we check first when reading a big number?"
+      },
+      "options": {
+        "te": [
+          "ఏ కాలానికి చెందినదో",
+          "అక్షరాల రంగు",
+          "పేజీ సంఖ్య",
+          "చిత్రం పరిమాణం"
+        ],
+        "en": [
+          "Which period it covers",
+          "The colour of the letters",
+          "The page number",
+          "The size of the picture"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "సంఖ్య ఏ కాలానికి చెందినదో చూడాలి.",
+        "en": "Check which period the number covers."
+      }
+    }
+  ],
+  "edition_date": "2026-10-21",
+  "verified_at": "2026-10-21T02:33:46+05:30",
+  "status": "source_checked_translation_review_recommended",
+  "coverage": {
+    "cards": 7,
+    "current_affairs": 4,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 58
   },
-  {
-   "id": "gk_20261020_q2",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261020_q2",
-    "en": "gk_20261020_q2__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261020_q2_answer",
-    "en": "gk_20261020_q2_answer__en"
-   },
-   "item_id": "gk_20261020_telangana_1",
-   "question": {
-    "te": "మంత్రి తుమ్మల నాగేశ్వరరావు ఎవరు నిర్వహించిన వీడియో కాన్ఫరెన్స్‌లో పాల్గొన్నారు?",
-    "en": "Whose video conference did Minister Tummala Nageswara Rao take part in?"
-   },
-   "options": {
-    "te": [
-     "ప్రధాన మంత్రి",
-     "రాష్ట్రపతి",
-     "ప్రపంచ బ్యాంకు అధికారులు",
-     "కేంద్ర వ్యవసాయ మంత్రి శివరాజ్ సింగ్ చౌహాన్"
-    ],
-    "en": [
-     "The Prime Minister",
-     "The President",
-     "World Bank officials",
-     "Union Agriculture Minister Shivraj Singh Chouhan"
-    ]
-   },
-   "answer_index": 3,
-   "explanation": {
-    "te": "కేంద్ర వ్యవసాయ మంత్రి శివరాజ్ సింగ్ చౌహాన్ నిర్వహించిన వీడియో కాన్ఫరెన్స్‌లో ఆయన పాల్గొన్నారు.",
-    "en": "He took part in the video conference held by Union Agriculture Minister Shivraj Singh Chouhan."
-   }
-  },
-  {
-   "id": "gk_20261020_q3",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261020_q3",
-    "en": "gk_20261020_q3__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261020_q3_answer",
-    "en": "gk_20261020_q3_answer__en"
-   },
-   "item_id": "gk_20261020_telangana_2",
-   "question": {
-    "te": "RRR దక్షిణ భాగం నిర్మాణ బాధ్యత ఏ సంస్థకు అప్పగించారు?",
-    "en": "Which organisation was given the construction of the RRR southern section?"
-   },
-   "options": {
-    "te": [
-     "NHAI",
-     "HGCL",
-     "HMDA",
-     "GHMC"
-    ],
-    "en": [
-     "NHAI",
-     "HGCL",
-     "HMDA",
-     "GHMC"
-    ]
-   },
-   "answer_index": 1,
-   "explanation": {
-    "te": "హైదరాబాద్ గ్రోత్ కారిడార్ లిమిటెడ్ (HGCL)కు ఈ బాధ్యత అప్పగించారు.",
-    "en": "The work was entrusted to Hyderabad Growth Corridor Limited (HGCL)."
-   }
-  },
-  {
-   "id": "gk_20261020_q4",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261020_q4",
-    "en": "gk_20261020_q4__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261020_q4_answer",
-    "en": "gk_20261020_q4_answer__en"
-   },
-   "item_id": "gk_20261020_telangana_2",
-   "question": {
-    "te": "RRR దక్షిణ భాగం పనులకు ప్రాథమిక అంచనా వ్యయం ఎంత?",
-    "en": "What is the preliminary estimated cost of the RRR southern section works?"
-   },
-   "options": {
-    "te": [
-     "రూ.2,000 కోట్లు",
-     "రూ.5,000 కోట్లు",
-     "రూ.20,000 కోట్లకు పైగా",
-     "రూ.100 కోట్లు"
-    ],
-    "en": [
-     "Rs 2,000 crore",
-     "Rs 5,000 crore",
-     "Over Rs 20,000 crore",
-     "Rs 100 crore"
-    ]
-   },
-   "answer_index": 2,
-   "explanation": {
-    "te": "ప్రాథమిక అంచనా ప్రకారం రూ.20,000 కోట్లకు పైగా అవసరమవుతుంది.",
-    "en": "The preliminary estimate is over Rs 20,000 crore."
-   }
-  },
-  {
-   "id": "gk_20261020_q5",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261020_q5",
-    "en": "gk_20261020_q5__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261020_q5_answer",
-    "en": "gk_20261020_q5_answer__en"
-   },
-   "item_id": "gk_20261020_india_1",
-   "question": {
-    "te": "ఇస్రో మీథేన్ ఇంజిన్ పరీక్ష ఎక్కడ జరిగింది?",
-    "en": "Where did ISRO's methane engine test take place?"
-   },
-   "options": {
-    "te": [
-     "శ్రీహరికోట",
-     "మహేంద్రగిరి",
-     "బెంగళూరు",
-     "థిరువనంతపురం"
-    ],
-    "en": [
-     "Sriharikota",
-     "Mahendragiri",
-     "Bengaluru",
-     "Thiruvananthapuram"
-    ]
-   },
-   "answer_index": 1,
-   "explanation": {
-    "te": "తమిళనాడులోని మహేంద్రగిరిలోని ఇస్రో ప్రొపల్షన్ కాంప్లెక్స్‌లో ఈ పరీక్ష జరిగింది.",
-    "en": "The test took place at the ISRO Propulsion Complex in Mahendragiri, Tamil Nadu."
-   }
-  },
-  {
-   "id": "gk_20261020_q6",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261020_q6",
-    "en": "gk_20261020_q6__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261020_q6_answer",
-    "en": "gk_20261020_q6_answer__en"
-   },
-   "item_id": "gk_20261020_india_1",
-   "question": {
-    "te": "LME-1100 ఇంజిన్ ఏ ఇంధనంతో పనిచేస్తుంది?",
-    "en": "Which fuel does the LME-1100 engine use?"
-   },
-   "options": {
-    "te": [
-     "కిరోసిన్",
-     "హైడ్రోజన్",
-     "మీథేన్",
-     "పెట్రోల్"
-    ],
-    "en": [
-     "Kerosene",
-     "Hydrogen",
-     "Methane",
-     "Petrol"
-    ]
-   },
-   "answer_index": 2,
-   "explanation": {
-    "te": "LME-1100 మీథేన్ ఇంధనంతో పనిచేసే రాకెట్ ఇంజిన్.",
-    "en": "The LME-1100 is a rocket engine that runs on methane fuel."
-   }
-  },
-  {
-   "id": "gk_20261020_q7",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261020_q7",
-    "en": "gk_20261020_q7__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261020_q7_answer",
-    "en": "gk_20261020_q7_answer__en"
-   },
-   "item_id": "gk_20261020_world_1",
-   "question": {
-    "te": "COP17 జీవవైవిధ్య సదస్సు ఏ దేశంలో జరుగుతోంది?",
-    "en": "In which country is the COP17 biodiversity conference being held?"
-   },
-   "options": {
-    "te": [
-     "ఆర్మేనియా",
-     "భారతదేశం",
-     "జపాన్",
-     "బ్రెజిల్"
-    ],
-    "en": [
-     "Armenia",
-     "India",
-     "Japan",
-     "Brazil"
-    ]
-   },
-   "answer_index": 0,
-   "explanation": {
-    "te": "ఆర్మేనియా రాజధాని యెరెవాన్‌లో ఈ సదస్సు జరుగుతోంది.",
-    "en": "The conference is being held in Yerevan, the capital of Armenia."
-   }
-  },
-  {
-   "id": "gk_20261020_q8",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261020_q8",
-    "en": "gk_20261020_q8__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261020_q8_answer",
-    "en": "gk_20261020_q8_answer__en"
-   },
-   "item_id": "gk_20261020_world_1",
-   "question": {
-    "te": "కున్‌మింగ్-మాంట్రియల్ ప్రపంచ జీవవైవిధ్య చట్రం ఏ ఏట ఆమోదమైంది?",
-    "en": "In which year was the Kunming-Montreal Global Biodiversity Framework adopted?"
-   },
-   "options": {
-    "te": [
-     "2015",
-     "2020",
-     "2022",
-     "2026"
-    ],
-    "en": [
-     "2015",
-     "2020",
-     "2022",
-     "2026"
-    ]
-   },
-   "answer_index": 2,
-   "explanation": {
-    "te": "ఈ చట్రం 2022లో ఆమోదమైంది.",
-    "en": "This framework was adopted in 2022."
-   }
-  },
-  {
-   "id": "gk_20261020_q9",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261020_q9",
-    "en": "gk_20261020_q9__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261020_q9_answer",
-    "en": "gk_20261020_q9_answer__en"
-   },
-   "item_id": "gk_20261020_india_3",
-   "question": {
-    "te": "రెండో టీ20లో భారత మహిళలు జింబాబ్వేపై ఎన్ని వికెట్ల తేడాతో గెలిచారు?",
-    "en": "By how many wickets did India women beat Zimbabwe in the second T20?"
-   },
-   "options": {
-    "te": [
-     "5 వికెట్లు",
-     "9 వికెట్లు",
-     "2 వికెట్లు",
-     "7 వికెట్లు"
-    ],
-    "en": [
-     "5 wickets",
-     "9 wickets",
-     "2 wickets",
-     "7 wickets"
-    ]
-   },
-   "answer_index": 1,
-   "explanation": {
-    "te": "భారత్ 9 వికెట్ల తేడాతో విజయం సాధించింది.",
-    "en": "India won by 9 wickets."
-   }
-  },
-  {
-   "id": "gk_20261020_q10",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261020_q10",
-    "en": "gk_20261020_q10__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261020_q10_answer",
-    "en": "gk_20261020_q10_answer__en"
-   },
-   "item_id": "gk_20261020_india_3",
-   "question": {
-    "te": "ఆ మ్యాచ్‌లో ప్లేయర్ ఆఫ్ ది మ్యాచ్ ఎవరు?",
-    "en": "Who was the Player of the Match in that game?"
-   },
-   "options": {
-    "te": [
-     "స్మృతి మందాన",
-     "హర్మన్‌ప్రీత్ కౌర్",
-     "షెఫాళి వర్మ",
-     "దీప్తి శర్మ"
-    ],
-    "en": [
-     "Smriti Mandhana",
-     "Harmanpreet Kaur",
-     "Shafali Verma",
-     "Deepti Sharma"
-    ]
-   },
-   "answer_index": 2,
-   "explanation": {
-    "te": "25 బంతుల్లో 55 పరుగులు చేసిన షెఫాళి వర్మ ప్లేయర్ ఆఫ్ ది మ్యాచ్.",
-    "en": "Shafali Verma, who scored 55 runs off 25 balls, was Player of the Match."
-   }
-  },
-  {
-   "id": "gk_20261020_q11",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261020_q11",
-    "en": "gk_20261020_q11__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261020_q11_answer",
-    "en": "gk_20261020_q11_answer__en"
-   },
-   "item_id": "gk_20261020_india_2",
-   "question": {
-    "te": "జాతీయ సంఘీభావ దినోత్సవం ఏ తేదీన జరుపుకుంటారు?",
-    "en": "On which date is National Solidarity Day observed?"
-   },
-   "options": {
-    "te": [
-     "అక్టోబర్ 20",
-     "అక్టోబర్ 21",
-     "అక్టోబర్ 24",
-     "అక్టోబర్ 31"
-    ],
-    "en": [
-     "October 20",
-     "October 21",
-     "October 24",
-     "October 31"
-    ]
-   },
-   "answer_index": 0,
-   "explanation": {
-    "te": "ప్రతి ఏటా అక్టోబర్ 20న జాతీయ సంఘీభావ దినోత్సవం జరుపుకుంటారు.",
-    "en": "National Solidarity Day is observed every year on October 20."
-   }
-  },
-  {
-   "id": "gk_20261020_q12",
-   "style": "original_practice_not_official_exam",
-   "audio_ids": {
-    "te": "gk_20261020_q12",
-    "en": "gk_20261020_q12__en"
-   },
-   "answer_audio_ids": {
-    "te": "gk_20261020_q12_answer",
-    "en": "gk_20261020_q12_answer__en"
-   },
-   "item_id": "gk_20261020_world_2",
-   "question": {
-    "te": "ఆస్టియోపోరోసిస్ ఏ శరీర భాగానికి సంబంధించిన వ్యాధి?",
-    "en": "Osteoporosis is a disease related to which body part?"
-   },
-   "options": {
-    "te": [
-     "గుండె",
-     "ఎముకలు",
-     "కళ్లు",
-     "పళ్లు"
-    ],
-    "en": [
-     "Heart",
-     "Bones",
-     "Eyes",
-     "Teeth"
-    ]
-   },
-   "answer_index": 1,
-   "explanation": {
-    "te": "ఆస్టియోపోరోసిస్ ఎముకలు బలహీనపడే వ్యాధి.",
-    "en": "Osteoporosis is a disease that weakens bones."
-   }
-  }
- ],
- "edition_date": "2026-10-20",
- "verified_at": "2026-10-19T20:15:00+05:30",
- "status": "source_checked_translation_review_recommended",
- "coverage": [
-  "cards",
-  "current_affairs",
-  "static_gk",
-  "reading_passages",
-  "questions",
-  "listen_clips"
- ],
- "editorial_note": {
-  "te": "ఈ పత్రికలోని కంటెంట్ విద్యా ప్రయోజనాల కోసం మాత్రమే; అధికారిక ప్రకటనల కోసం సంబంధిత వెబ్‌సైట్లు చూడండి.",
-  "en": "Content in this edition is for educational purposes only; check the linked sources for official announcements."
- }
+  "editorial_note": "Oct21 early reviewed selection: Ayudha Puja Oct20 completed event, festival-meaning remarks attributed to CM; India-UAE trade 100bn framed as minister statement, total since CEPA not single year; Bennu boulder study published Oct20 (Nature Communications), event date null; static state animal/tree, national bird, UN members rechecked; NSP named PM-USP renewal deadlines rechecked Oct21 (student Oct31, institute Nov15, L2 Nov30, no cutoff hour). No claim VVM open/closed. Original Class5-10 text, Telugu editor review recommended; audio pending."
 }
