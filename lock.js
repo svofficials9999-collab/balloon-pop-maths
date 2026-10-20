@@ -35,7 +35,7 @@ function needName(){var nm=nameValue();if(!nm){msg.textContent=te('మీ పే
 function check(){
  if(!needName())return;var w=wait();if(w){msg.textContent=te('కొంచెం ఆగండి','Please wait')+' '+w+'s';return}
  if(v.length<10){msg.textContent=te('10 అంకెలు ఇవ్వండి','Enter all 10 digits');return}
- if(valid(v)){var nmv=nameValue();var ph=v;unlock(true);sendLead(nmv,ph);return}
+ if(valid(v)){var nmv=nameValue();var ph=v;try{if(!get('sv.login.v1'))set('sv.login.v1',JSON.stringify({name:nmv,phone:ph}))}catch(e){}unlock(true);sendLead(nmv,ph);return}
  var f=(+get(A)||0)+1;set(A,String(f));if(f>=5)set(T,String(Date.now()+Math.min(600,30*(f-4))*1000));v='';paint();msg.textContent=te('సరైన 10 అంకెల నంబర్ ఇవ్వండి (6-9 తో మొదలు)','Enter a valid 10-digit number (starts 6-9)');box.classList.remove('sh');void box.offsetWidth;box.classList.add('sh');
 }
 
