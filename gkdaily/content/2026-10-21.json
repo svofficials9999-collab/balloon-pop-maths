@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "timezone": "Asia/Kolkata",
+  "sources": {
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/about/state-symbols/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-bird.php",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us",
+      "published_date": null
+    },
+    "scholarships": {
+      "publisher": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in/Students",
+      "published_date": null
+    },
+    "tgnews": {
+      "publisher": "Deccan Chronicle",
+      "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-cm-revanth-reddy-performs-ayudha-puja-at-his-jubilee-hills-residence-1997427",
+      "published_date": "2026-10-20"
+    },
+    "innews": {
+      "publisher": "DD India",
+      "url": "https://ddindia.co.in/2026/10/india-uae-trade-crosses-100-billion-eam-jaishankar-calls-for-dialogue-on-gulf-situation/",
+      "published_date": "2026-10-20"
+    },
+    "worldnews": {
+      "publisher": "Science Daily",
+      "url": "http://www.sciencedaily.com/releases/2026/10/261018205101.htm",
+      "published_date": "2026-10-20"
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261021_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgnews"
+      ],
+      "event_date": "2026-10-20",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_telangana_1",
+        "en": "gk_20261021_telangana_1__en"
+      },
+      "title": {
+        "te": "దసరా సందర్భంగా ఆయుధ పూజ",
+        "en": "Ayudha Puja on Dussehra"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 20న డెక్కన్ క్రానికల్ నివేదిక ప్రకారం, దసరా సందర్భంగా తెలంగాణ ముఖ్యమంత్రి రేవంత్ రెడ్డి జూబ్లీ హిల్స్‌లోని తన నివాసంలో సంప్రదాయ ఆయుధ పూజ చేశారు. విజయదశమి కీడుపై మంచి విజయానికి ప్రతీక అని, ఈ పండుగ ధైర్యం, ధర్మం, సత్యం, ఐక్యత, ఆత్మవిశ్వాసం వంటి విలువలను నేర్పుతుందని ముఖ్యమంత్రి పేర్కొన్నారు. ఇది జరిగిన కార్యక్రమం గురించిన వార్త; పండుగ ప్రాముఖ్యత గురించిన మాటలు ముఖ్యమంత్రి ప్రకటన.",
+        "en": "Deccan Chronicle reported on October 20 that Telangana Chief Minister Revanth Reddy performed the traditional Ayudha Puja at his Jubilee Hills residence on the occasion of Dussehra. The Chief Minister said Vijayadashami symbolises the triumph of good over evil and teaches values such as courage, righteousness, truth, unity and self-confidence. This reports a completed event; the remarks about the festival's meaning are the Chief Minister's statement."
+      }
+    },
+    {
+      "id": "gk_20261021_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": "2026-10-20",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_india_1",
+        "en": "gk_20261021_india_1__en"
+      },
+      "title": {
+        "te": "భారత్-యూఏఈ వాణిజ్యం 100 బిలియన్ డాలర్లు దాటింది",
+        "en": "India-UAE trade crosses 100 billion dollars"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 20న డీడీ ఇండియా నివేదిక ప్రకారం, సమగ్ర ఆర్థిక భాగస్వామ్య ఒప్పందం (సిఇపిఏ) అమలులోకి వచ్చిన తరువాత భారత్-యూఏఈ ద్వైపాక్షిక వాణిజ్యం 100 బిలియన్ డాలర్లు దాటిందని విదేశాంగ మంత్రి ఎస్. జైశంకర్ పేర్కొన్నారు. ముంబైలో యూఏఈ డిప్యూటీ ప్రధాని, విదేశాంగ మంత్రి షేఖ్ అబ్దుల్లా బిన్ జాయెద్ అల్ నహ్యాన్‌ను ఆయన స్వాగతించారు. ఇది ఒప్పందం అమలు ప్రారంభం నుండి మొత్తం వాణిజ్యం; ఒకే ఏటి వాణిజ్యం కాదు. ఈ విషయం మంత్రి ప్రకటన ఆధారిత వార్త.",
+        "en": "DD India reported on October 20 that External Affairs Minister S. Jaishankar said India-UAE bilateral trade had crossed 100 billion dollars since their Comprehensive Economic Partnership Agreement (CEPA) came into force. He was welcoming UAE Deputy Prime Minister and Foreign Minister Sheikh Abdullah bin Zayed Al Nahyan in Mumbai. The figure is total trade since the agreement began, not trade in a single year. This report is based on the minister's statement."
+      }
+    },
+    {
+      "id": "gk_20261021_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_world_1",
+        "en": "gk_20261021_world_1__en"
+      },
+      "title": {
+        "te": "బెన్ను గ్రహశకలం రాళ్ల మిస్టరీ పరిష్కారం",
+        "en": "The mystery of Bennu's boulders is solved"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 20న సైన్స్ డైలీ నివేదిక ప్రకారం, నాసా ఓసిరిస్-రెక్స్ తీసుకువచ్చిన బెన్ను గ్రహశకలం నమూనాల అధ్యయనం ఒక మిస్టరీని పరిష్కరించింది. 2018లో నౌక చేరుకున్నప్పుడు శాస్త్రవేత్తలు ముద్దొచ్చే ఉపరితలం ఆశించగా, అక్కడ పెద్ద రాళ్లే కనిపించాయి. ఇప్పుడు నేచర్ కమ్యూనికేషన్స్‌లో ప్రచురితమైన పరిశోధన ప్రకారం, ఆ రాళ్లు చాలా పొరలుగా, లోపల పగుళ్లతో ఉండటం వల్లే అవి వేగంగా వేడిని కోల్పోతాయి. ఇది ప్రచురిత పరిశోధన గురించిన వార్త.",
+        "en": "Science Daily reported on October 20 that studies of Bennu asteroid samples brought back by NASA's OSIRIS-REx mission have solved a mystery. When the spacecraft arrived in 2018, scientists expected smooth, fine ground but found huge boulders. Research published in Nature Communications now shows the rocks are highly porous and full of internal cracks, which is why they lose heat quickly. This reports a published research finding."
+      }
+    },
+    {
+      "id": "gk_20261021_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "source_ids": [
+        "tggk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_telangana_2",
+        "en": "gk_20261021_telangana_2__en"
+      },
+      "title": {
+        "te": "తెలంగాణ రాష్ట్ర జంతువు, వృక్షం",
+        "en": "Telangana state animal and tree"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్ర జంతువు జింక (లెడి). రాష్ట్ర వృక్షం జమ్మి చెట్టు (ప్రోసోపిస్ సినరారియా). దసరా రోజున జమ్మి చెట్టును ప్రజలు పూజిస్తారని అధికారిక పేజీ తెలియజేస్తుంది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The state animal of Telangana is the Jinka (deer). The state tree is the Jammi Chettu (Prosopis cineraria). The official page says people worship the Jammi tree on Dasara day. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261021_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_india_2",
+        "en": "gk_20261021_india_2__en"
+      },
+      "title": {
+        "te": "భారత జాతీయ పక్షి",
+        "en": "National bird of India"
+      },
+      "summary": {
+        "te": "భారత జాతీయ పక్షి నెమలి. దాని శాస్త్రీయ నామం పావో క్రిస్టేటస్. మగ నెమలికి రంగురంగుల నీలి రొమ్ము, కంఠం, సుమారు 200 పొడవైన పిచ్ఛికలతో కంచు-ఆకు రంగు అద్భుతమైన తోక ఉంటుందని నో ఇండియా పేజీ తెలియజేస్తుంది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The Indian peacock is the national bird of India. Its scientific name is Pavo cristatus. The Know India page says the male has a glistening blue breast and neck and a spectacular bronze-green tail of about 200 elongated feathers. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261021_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_world_2",
+        "en": "gk_20261021_world_2__en"
+      },
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి సభ్య దేశాలు",
+        "en": "United Nations member states"
+      },
+      "summary": {
+        "te": "ఐక్యరాజ్యసమితి 1945లో ఏర్పడింది. ప్రస్తుతం దానిలో 193 సభ్య దేశాలు ఉన్నాయని అధికారిక పేజీ తెలియజేస్తుంది. ఏర్పాటు సమయంలో 51 సభ్య దేశాలుండగా, క్రమంగా సంఖ్య 193కు చేరింది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The United Nations was founded in 1945. The official page says it currently has 193 Member States, having grown from 51 original members. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261021_india_4",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "scholarships"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261021_india_4",
+        "en": "gk_20261021_india_4__en"
+      },
+      "title": {
+        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ గడువు",
+        "en": "NSP renewal deadline"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 21న తనిఖీ చేసిన అధికారిక ఎన్‌ఎస్‌పీ ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి గడువు 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30. ముగింపు సమయం ఇవ్వలేదు. అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు కాదు.",
+        "en": "The official NSP announcement checked on October 21 says renewal applications are open for the PM-USP Central Sector Scheme for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student deadline is October 31, 2026; institute verification November 15; Level 2 verification November 30. No cutoff time is given. This applies only to eligible renewal applicants, not every scholarship."
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261021_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261021_reading_1",
+        "en": "gk_20261021_reading_1__en"
+      },
+      "source_ids": [
+        "worldnews"
+      ],
+      "title": {
+        "te": "ఊహించినది, కనుగొన్నది వేరు",
+        "en": "What we expect and what we find can differ"
+      },
+      "passage": {
+        "te": "శాస్త్రవేత్తలు ఒక విషయాన్ని ఊహించవచ్చు, కానీ నిజంగా చూసినప్పుడు మరో విషయం కనిపించవచ్చు. ఓసిరిస్-రెక్స్ బెన్ను చేరినప్పుడు వారు ముద్దొచ్చే ఉపరితలం ఆశించారు. కానీ అక్కడ పెద్ద పెద్ద రాళ్లు కనిపించాయి. అప్పుడు వారు కొత్త ప్రశ్న అడిగారు: ఈ రాళ్లు వేడిని ఎలా ఇంత వేగంగా కోల్పోతాయి? నమూనాలను పరీక్షించి సమాధానం కనుగొన్నారు. శాస్త్రం అంటే ఊహలతో ఆగిపోవడం కాదు; ఆధారాలు వెతకడం. ఆధారం దొరికినప్పుడు పాత అభిప్రాయాన్ని మార్చుకోవడం శాస్త్రం బలం.",
+        "en": "Scientists can expect one thing, but when they look closely they may find something else. When OSIRIS-REx reached Bennu, the team expected smooth ground. Instead they saw huge boulders. So they asked a new question: how do these rocks lose heat so quickly? They examined the returned samples and found the answer. Science does not stop at guesses; it looks for evidence. Changing an old idea when evidence arrives is a strength of science."
+      },
+      "vocabulary": [
+        {
+          "te": "ఊహ",
+          "en": "guess"
+        },
+        {
+          "te": "ఆధారాలు",
+          "en": "evidence"
+        },
+        {
+          "te": "నమూనాలు",
+          "en": "samples"
+        }
+      ]
+    },
+    {
+      "id": "gk_20261021_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261021_reading_2",
+        "en": "gk_20261021_reading_2__en"
+      },
+      "source_ids": [
+        "innews"
+      ],
+      "title": {
+        "te": "పెద్ద సంఖ్యను సరిగ్గా చదవడం",
+        "en": "Reading a big number carefully"
+      },
+      "passage": {
+        "te": "వార్తల్లో పెద్ద సంఖ్యలు వస్తాయి. వాటిని చదివేటప్పుడు ఆ సంఖ్య ఏ కాలానికి చెందినదో చూడాలి. భారత్-యూఏఈ వాణిజ్యం 100 బిలియన్ డాలర్లు దాటిందన్న వార్త ఒప్పందం అమలులోకి వచ్చిన నుండి మొత్తం గురించి; ఒకే ఏటి వాణిజ్యం గురించి కాదు. అలాగే అలాంటి విషయం ఎవరు చెప్పారో చూడాలి; ఇక్కడ ఇది విదేశాంగ మంత్రి ప్రకటన. సంఖ్య యొక్క కాలం, చెప్పినవారు రెండూ తెలిస్తే వార్త మరింత స్పష్టమవుతుంది. ఒకే సంఖ్య వేరువేరు అర్థాలిచ్చేలా ఉపయోగించకూడదు.",
+        "en": "News reports often carry big numbers. When reading one, check which period the number covers. The report that India-UAE trade crossed 100 billion dollars is about the total since the agreement began, not about a single year. Also check who said it; here it is the External Affairs Minister's statement. When we know the period a number covers and who stated it, the news becomes clearer. The same number should not be used to mean different things."
+      },
+      "vocabulary": [
+        {
+          "te": "వాణిజ్యం",
+          "en": "trade"
+        },
+        {
+          "te": "కాలం",
+          "en": "period"
+        },
+        {
+          "te": "ప్రకటన",
+          "en": "statement"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261021_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q1",
+        "en": "gk_20261021_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q1_answer",
+        "en": "gk_20261021_q1_answer__en"
+      },
+      "item_id": "gk_20261021_telangana_1",
+      "question": {
+        "te": "దసరా సందర్భంగా ముఖ్యమంత్రి ఏ పూజ చేశారు?",
+        "en": "Which puja did the Chief Minister perform on Dussehra?"
+      },
+      "options": {
+        "te": [
+          "ఆయుధ పూజ",
+          "సరస్వతి పూజ",
+          "లక్ష్మీ పూజ",
+          "గణపతి పూజ"
+        ],
+        "en": [
+          "Ayudha Puja",
+          "Saraswati Puja",
+          "Lakshmi Puja",
+          "Ganapati Puja"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నివేదిక ఆయుధ పూజ అని పేర్కొంది.",
+        "en": "The report names Ayudha Puja."
+      }
+    },
+    {
+      "id": "gk_20261021_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q2",
+        "en": "gk_20261021_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q2_answer",
+        "en": "gk_20261021_q2_answer__en"
+      },
+      "item_id": "gk_20261021_india_1",
+      "question": {
+        "te": "భారత్-యూఏఈ వాణిజ్యం ఎంత దాటిందని మంత్రి చెప్పారు?",
+        "en": "How much did the minister say India-UAE trade had crossed?"
+      },
+      "options": {
+        "te": [
+          "10 బిలియన్ డాలర్లు",
+          "100 బిలియన్ డాలర్లు",
+          "1 బిలియన్ డాలర్లు",
+          "500 బిలియన్ డాలర్లు"
+        ],
+        "en": [
+          "10 billion dollars",
+          "100 billion dollars",
+          "1 billion dollars",
+          "500 billion dollars"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "మంత్రి ప్రకటన 100 బిలియన్ డాలర్లు అని చెబుతుంది.",
+        "en": "The minister's statement gives 100 billion dollars."
+      }
+    },
+    {
+      "id": "gk_20261021_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q3",
+        "en": "gk_20261021_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q3_answer",
+        "en": "gk_20261021_q3_answer__en"
+      },
+      "item_id": "gk_20261021_world_1",
+      "question": {
+        "te": "బెన్ను రాళ్లు వేడిని వేగంగా కోల్పోవడానికి కారణం ఏమిటి?",
+        "en": "Why do Bennu's rocks lose heat quickly?"
+      },
+      "options": {
+        "te": [
+          "పొరలుగా, పగుళ్లతో ఉండటం వల్ల",
+          "లోహంతో తయారు కావడం వల్ల",
+          "మంచుతో కప్పబడి ఉండటం వల్ల",
+          "చాలా చిన్నగా ఉండటం వల్ల"
+        ],
+        "en": [
+          "They are porous and cracked",
+          "They are made of metal",
+          "They are covered in ice",
+          "They are very small"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "పరిశోధన ప్రకారం రాళ్లు పొరలుగా, పగుళ్లతో ఉన్నాయి.",
+        "en": "The research found the rocks are porous and cracked."
+      }
+    },
+    {
+      "id": "gk_20261021_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q4",
+        "en": "gk_20261021_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q4_answer",
+        "en": "gk_20261021_q4_answer__en"
+      },
+      "item_id": "gk_20261021_telangana_2",
+      "question": {
+        "te": "తెలంగాణ రాష్ట్ర జంతువు ఏది?",
+        "en": "What is the state animal of Telangana?"
+      },
+      "options": {
+        "te": [
+          "జింక",
+          "పులి",
+          "ఏనుగు",
+          "గుర్రం"
+        ],
+        "en": [
+          "Jinka (deer)",
+          "Tiger",
+          "Elephant",
+          "Horse"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అధికారిక పేజీ జింక అని చెబుతుంది.",
+        "en": "The official page names the Jinka (deer)."
+      }
+    },
+    {
+      "id": "gk_20261021_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q5",
+        "en": "gk_20261021_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q5_answer",
+        "en": "gk_20261021_q5_answer__en"
+      },
+      "item_id": "gk_20261021_india_2",
+      "question": {
+        "te": "జాతీయ పక్షి శాస్త్రీయ నామం ఏమిటి?",
+        "en": "What is the scientific name of the national bird?"
+      },
+      "options": {
+        "te": [
+          "పావో క్రిస్టేటస్",
+          "కోర్వస్ స్ప్లెండెన్స్",
+          "బుబో బెంగాలెన్సిస్",
+          "ఆక్విలా రాపాక్స్"
+        ],
+        "en": [
+          "Pavo cristatus",
+          "Corvus splendens",
+          "Bubo bengalensis",
+          "Aquila rapax"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నో ఇండియా పేజీ పావో క్రిస్టేటస్ అని చెబుతుంది.",
+        "en": "The Know India page gives Pavo cristatus."
+      }
+    },
+    {
+      "id": "gk_20261021_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q6",
+        "en": "gk_20261021_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q6_answer",
+        "en": "gk_20261021_q6_answer__en"
+      },
+      "item_id": "gk_20261021_world_2",
+      "question": {
+        "te": "ఐక్యరాజ్యసమితి ఏ ఏట ఏర్పడింది?",
+        "en": "In which year was the United Nations founded?"
+      },
+      "options": {
+        "te": [
+          "1945",
+          "1919",
+          "1950",
+          "1939"
+        ],
+        "en": [
+          "1945",
+          "1919",
+          "1950",
+          "1939"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అధికారిక పేజీ 1945 అని చెబుతుంది.",
+        "en": "The official page gives 1945."
+      }
+    },
+    {
+      "id": "gk_20261021_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q7",
+        "en": "gk_20261021_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q7_answer",
+        "en": "gk_20261021_q7_answer__en"
+      },
+      "item_id": "gk_20261021_reading_1",
+      "question": {
+        "te": "బెన్నుపై శాస్త్రవేత్తలు ఏమి ఆశించారు?",
+        "en": "What did scientists expect on Bennu?"
+      },
+      "options": {
+        "te": [
+          "ముద్దొచ్చే ఉపరితలం",
+          "పెద్ద రాళ్లు",
+          "మంచు నదులు",
+          "అడవులు"
+        ],
+        "en": [
+          "Smooth ground",
+          "Huge boulders",
+          "Ice rivers",
+          "Forests"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "వారు ముద్దొచ్చే ఉపరితలం ఆశించారు.",
+        "en": "They expected smooth ground."
+      }
+    },
+    {
+      "id": "gk_20261021_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q8",
+        "en": "gk_20261021_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q8_answer",
+        "en": "gk_20261021_q8_answer__en"
+      },
+      "item_id": "gk_20261021_reading_1",
+      "question": {
+        "te": "ఆధారం దొరికినప్పుడు పాత అభిప్రాయాన్ని మార్చుకోవడం ఏమిటి?",
+        "en": "What is changing an old idea when evidence arrives?"
+      },
+      "options": {
+        "te": [
+          "శాస్త్రం బలం",
+          "పొరపాటు",
+          "అలవాటు",
+          "అనుమానం"
+        ],
+        "en": [
+          "A strength of science",
+          "A mistake",
+          "A habit",
+          "A doubt"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఆధారంతో అభిప్రాయం మార్చుకోవడం శాస్త్రం బలం.",
+        "en": "Changing an idea with evidence is a strength of science."
+      }
+    },
+    {
+      "id": "gk_20261021_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q9",
+        "en": "gk_20261021_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q9_answer",
+        "en": "gk_20261021_q9_answer__en"
+      },
+      "item_id": "gk_20261021_reading_2",
+      "question": {
+        "te": "100 బిలియన్ డాలర్ల వాణిజ్యం అంటే ఏ కాలానిది?",
+        "en": "What period does the 100 billion dollar trade figure cover?"
+      },
+      "options": {
+        "te": [
+          "ఒకే ఏటిది",
+          "ఒప్పందం ప్రారంభం నుండి మొత్తం",
+          "ఒక వారం",
+          "ఒక రోజు"
+        ],
+        "en": [
+          "A single year",
+          "The total since the agreement began",
+          "One week",
+          "One day"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "ఇది ఒప్పందం అమలు నుండి మొత్తం; ఒకే ఏటిది కాదు.",
+        "en": "It is the total since the agreement began, not one year."
+      }
+    },
+    {
+      "id": "gk_20261021_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261021_q10",
+        "en": "gk_20261021_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261021_q10_answer",
+        "en": "gk_20261021_q10_answer__en"
+      },
+      "item_id": "gk_20261021_reading_2",
+      "question": {
+        "te": "పెద్ద సంఖ్య చదివేటప్పుడు ముందు ఏమి చూడాలి?",
+        "en": "What should we check first when reading a big number?"
+      },
+      "options": {
+        "te": [
+          "ఏ కాలానికి చెందినదో",
+          "అక్షరాల రంగు",
+          "పేజీ సంఖ్య",
+          "చిత్రం పరిమాణం"
+        ],
+        "en": [
+          "Which period it covers",
+          "The colour of the letters",
+          "The page number",
+          "The size of the picture"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "సంఖ్య ఏ కాలానికి చెందినదో చూడాలి.",
+        "en": "Check which period the number covers."
+      }
+    }
+  ],
+  "edition_date": "2026-10-21",
+  "verified_at": "2026-10-21T02:33:46+05:30",
+  "status": "source_checked_translation_review_recommended",
+  "coverage": {
+    "cards": 7,
+    "current_affairs": 4,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 58
+  },
+  "editorial_note": "Oct21 early reviewed selection: Ayudha Puja Oct20 completed event, festival-meaning remarks attributed to CM; India-UAE trade 100bn framed as minister statement, total since CEPA not single year; Bennu boulder study published Oct20 (Nature Communications), event date null; static state animal/tree, national bird, UN members rechecked; NSP named PM-USP renewal deadlines rechecked Oct21 (student Oct31, institute Nov15, L2 Nov30, no cutoff hour). No claim VVM open/closed. Original Class5-10 text, Telugu editor review recommended; audio pending."
+}
