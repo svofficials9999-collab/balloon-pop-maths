@@ -9,7 +9,7 @@ document.body.appendChild(dv);
 
 (function(){
 if(window.__svmc)return;window.__svmc=1;
-function isTe(){try{return typeof te!=='undefined'?!!te:true}catch(e){return true}}
+function isTe(){try{return (typeof S!=='undefined'&&S&&S.lang)?S.lang==='te':true}catch(e){return true}}
 function SND(k){try{if(typeof sfx==='function')sfx(k)}catch(e){}}
 var T={
 title:['🎓 (a+b)² మాస్టర్ క్లాస్','🎓 (a+b)² Master Class'],
@@ -42,7 +42,7 @@ function el(id){return document.getElementById(id)}
 function renderHead(){
  ov.innerHTML='<div class="mc-head"><button class="mc-hb" id="mc-back" aria-label="'+L('back')+'">←</button><div class="mc-t">'+T.title[isTe()?0:1]+'</div><button class="mc-hb" id="mc-lang">'+(isTe()?'EN':'తె')+'</button></div><div id="svmc-tabs"></div><div id="svmc-body"></div>';
  el('mc-back').onclick=closeMc;
- el('mc-lang').onclick=function(){try{document.getElementById('lang').click()}catch(e){}setTimeout(renderHead,120)};
+ el('mc-lang').onclick=function(){try{document.getElementById('blang').click()}catch(e){}setTimeout(renderHead,150)};
  var tabs=el('svmc-tabs');tabs.innerHTML='';
  T.tabs.forEach(function(t,i){var b=document.createElement('button');b.textContent=t[isTe()?0:1];if(i===cur)b.className='on';b.onclick=function(){cur=i;qi=0;qScore=0;renderHead()};tabs.appendChild(b)});
  renderBody();
@@ -142,7 +142,7 @@ function hook(){
 }
 new MutationObserver(hook).observe(document.body,{childList:true,subtree:true});
 hook();
-var langBtn=document.getElementById('lang');
+var langBtn=document.getElementById('blang');
 if(langBtn)langBtn.addEventListener('click',function(){if(ov.classList.contains('on'))setTimeout(renderHead,120)});
 })();
 })();
