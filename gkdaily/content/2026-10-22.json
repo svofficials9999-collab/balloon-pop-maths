@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "timezone": "Asia/Kolkata",
+  "sources": {
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-flag.php",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/un-emblem-and-flag",
+      "published_date": null
+    },
+    "scholarships": {
+      "publisher": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in/Students",
+      "published_date": null
+    },
+    "tgnews": {
+      "publisher": "Deccan Chronicle",
+      "url": "https://www.deccanchronicle.com/southern-states/telangana/likely-prehistoric-tool-making-site-found-in-hyderabad-1997669",
+      "published_date": "2026-10-21"
+    },
+    "innews": {
+      "publisher": "DD India",
+      "url": "https://ddindia.co.in/2026/10/pm-modi-to-lead-rashtriya-ekta-diwas-celebrations-parade-to-highlight-end-of-armed-naxalism/",
+      "published_date": "2026-10-21"
+    },
+    "worldnews": {
+      "publisher": "Phys.org",
+      "url": "https://phys.org/news/2026-10-reexamined-viking-reveals-marsquake-region.html",
+      "published_date": "2026-10-21"
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261022_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgnews"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261022_telangana_1",
+        "en": "gk_20261022_telangana_1__en"
+      },
+      "title": {
+        "te": "హైదరాబాద్‌లో పురాతన సాధన తయారీ గెరలు",
+        "en": "Possible prehistoric tool-making grooves in Hyderabad"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 21న డెక్కన్ క్రానికల్ నివేదిక ప్రకారం, రంగారెడ్డి జిల్లా చిల్కూర్‌లోని మృగవాణి జాతీయ ఉద్యానవనంలో పురాతన సాధన తయారీతో సంబంధం ఉండవచ్చనిపించే నాలుగు లోతైన గెరలు కనుగొన్నారు. ప్రతి గెర సుమారు ఒక అడుగు పొడవు, రెండు నుండి నాలుగు అంగుళాల లోతు ఉంది. ఇవి నియోలిథిక్ కాలానివి కావచ్చన్నది ఇంకా శాస్త్రీయంగా నిర్ధారించవలసిన ఊహ మాత్రమేనని నివేదిక స్పష్టం చేసింది. క్రమపద్ధతిలో పురావస్తు సర్వే అవసరమని పరిశోధకులు కోరారు.",
+        "en": "Deccan Chronicle reported on October 21 that four deep grooves, possibly linked to prehistoric tool making, were identified in Mrugavani National Park at Chilkur in Rangareddy district. Each groove is about one foot long and two to four inches deep. The report makes clear that a Neolithic link is only a hypothesis that still needs scientific verification. Researchers have called for a systematic archaeological survey."
+      }
+    },
+    {
+      "id": "gk_20261022_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": "2026-10-31",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261022_india_1",
+        "en": "gk_20261022_india_1__en"
+      },
+      "title": {
+        "te": "రాష్ట్రీయ ఏక్తా దివస్ ఏర్పాట్లు",
+        "en": "Rashtriya Ekta Diwas preparations"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 21న డీడీ ఇండియా నివేదిక ప్రకారం, అక్టోబర్ 31న రాష్ట్రీయ ఏక్తా దివస్ సందర్భంగా ప్రధానమంత్రి నరేంద్ర మోదీ గుజరాత్‌లోని ఏక్తా నగర్‌లో సర్దార్ వల్లభాయ్ పటేల్‌కు నివాళి అర్పిస్తారు. ఏక్తా పరేడ్ సాయుధ నక్సలిజానికి వ్యతిరేక పోరాటాన్ని ప్రదర్శిస్తుందని కేంద్ర హోం సెక్రటరీ గోవింద్ మోహన్ తెలిపారు. ఇది రాబోయే కార్యక్రమం గురించిన అధికారిక ప్రకటన; కార్యక్రమం జరిగిందని కాదు.",
+        "en": "DD India reported on October 21 that Prime Minister Narendra Modi will pay tribute to Sardar Vallabhbhai Patel at the Statue of Unity in Ekta Nagar, Gujarat, on October 31 for Rashtriya Ekta Diwas. Union Home Secretary Govind Mohan said the Ekta Parade will highlight the fight against armed Naxalism. This is an official announcement of an upcoming event; it has not yet taken place."
+      }
+    },
+    {
+      "id": "gk_20261022_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261022_world_1",
+        "en": "gk_20261022_world_1__en"
+      },
+      "title": {
+        "te": "వైకింగ్ 2 సిగ్నల్: మార్స్ భూకంపమా?",
+        "en": "Viking 2 signal: a possible marsquake"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 21న ఫిస్.ఆర్గ్ నివేదిక ప్రకారం, 1976లో మార్స్‌పై దిగిన వైకింగ్ 2 ల్యాండర్ నమోదు చేసిన ఒక సిగ్నల్‌ను శాస్త్రవేత్తలు మళ్లీ పరిశీలించారు. ఇన్‌సైట్ ల్యాండర్ దాదాపు 1,000 మార్స్ భూకంపాలు నమోదు చేసిన ప్రాంతం నుండే ఇది వచ్చి ఉండవచ్చని వారి అధ్యయనం చెబుతోంది. ఫలితాలు ఏజీయూ అడ్వాన్సెస్ పత్రికలో ప్రచురితమయ్యాయి. అది నిజంగా భూకంపమేనా, గాలి శబ్దమేనా అన్నది ఇంకా అనిశ్చితమేనని నివేదిక పేర్కొంది.",
+        "en": "Phys.org reported on October 21 that scientists re-examined a signal recorded by the Viking 2 lander, which reached Mars in 1976. Their study, published in AGU Advances, says the event could have been a real marsquake from the same region where the InSight lander later recorded nearly 1,000 marsquakes. The report notes it remains uncertain whether the signal was a true marsquake or wind noise."
+      }
+    },
+    {
+      "id": "gk_20261022_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "source_ids": [
+        "tggk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261022_telangana_2",
+        "en": "gk_20261022_telangana_2__en"
+      },
+      "title": {
+        "te": "తెలంగాణ ఆవిర్భావం",
+        "en": "Telangana formation"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది భారతదేశంలో 29వ రాష్ట్రం. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "Telangana became a state on June 2, 2014. It is the 29th state of India. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261022_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261022_india_2",
+        "en": "gk_20261022_india_2__en"
+      },
+      "title": {
+        "te": "భారత జాతీయ పతాకం",
+        "en": "National flag of India"
+      },
+      "summary": {
+        "te": "భారత జాతీయ పతాకం సమాన వాటాలతో కాషాయం, తెలుపు, ఆకుపచ్చ అడ్డ వరుసలతో కూడిన త్రివర్ణ పతాకం. వెడల్పు-పొడవు నిష్పత్తి 2:3. తెల్ల వరుస మధ్యలో 24 అరల నేవీ బ్లూ అశోక చక్రం ఉంటుందని నో ఇండియా పేజీ తెలియజేస్తుంది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The national flag of India is a horizontal tricolour of saffron, white and green in equal proportion. The ratio of width to length is two to three. The Know India page says a navy-blue Ashoka Chakra with 24 spokes sits in the centre of the white band. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261022_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261022_world_2",
+        "en": "gk_20261022_world_2__en"
+      },
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి చిహ్నం",
+        "en": "Emblem of the United Nations"
+      },
+      "summary": {
+        "te": "ఐక్యరాజ్యసమితి చిహ్నంలో ప్రపంచ పటం చుట్టూ ఆలివ్ చెట్టు కొమ్మలు ఉంటాయి. 1945లో రూపొందించిన ఈ చిహ్నం శాంతి, ఐక్యత ఆశలను సూచిస్తుందని అధికారిక పేజీ తెలియజేస్తుంది. యూఎన్ పతాక నీలం రంగు శాంతిని సూచిస్తుంది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The United Nations emblem shows a map of the world surrounded by olive tree branches. Designed in 1945, it speaks to hopes of peace and unity, and the UN blue stands for peace, the official page says. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261022_india_4",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "scholarships"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261022_india_4",
+        "en": "gk_20261022_india_4__en"
+      },
+      "title": {
+        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ గడువు",
+        "en": "NSP renewal deadline"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 22న తనిఖీ చేసిన అధికారిక ఎన్‌ఎస్‌పీ ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి గడువు 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30. ముగింపు సమయం ఇవ్వలేదు. అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు కాదు.",
+        "en": "The official NSP announcement checked on October 22 says renewal applications are open for the PM-USP Central Sector Scheme for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student deadline is October 31, 2026; institute verification November 15; Level 2 verification November 30. No cutoff time is given. This applies only to eligible renewal applicants, not every scholarship."
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261022_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261022_reading_1",
+        "en": "gk_20261022_reading_1__en"
+      },
+      "source_ids": [
+        "tgnews"
+      ],
+      "title": {
+        "te": "బహుశా అన్న మాట అర్థం ఏమిటి",
+        "en": "What the word possibly means"
+      },
+      "passage": {
+        "te": "ఒక కనుగొన్న విషయాన్ని శాస్త్రవేత్తలు వెంటనే ఖర్చుతూ చెప్పరు. చిల్కూర్ అడవిలో దొరికిన గెరలు పురాతన సాధన తయారీవి కావచ్చని పరిశోధకులు అనుకుంటున్నారు. కానీ అవి నిజంగా అంత పాతవేనా అని చెప్పడానికి మరిన్ని పరీక్షలు అవసరం. బహుశా అంటే అలా ఉండవచ్చు, కానీ ఇంకా నిర్ధారణ లేదు అని. నివేదికలో బహుశా, ఉండవచ్చు అన్న మాటలు చూసినప్పుడు అది ఖర్చయిన విషయం కాదని గుర్తుంచుకోవాలి. క్రమపద్ధతిలో సర్వే చేస్తేనే నిజం బయటపడుతుంది.",
+        "en": "Scientists do not confirm a discovery right away. Researchers think the grooves found in the Chilkur forest may be linked to prehistoric tool making. But more tests are needed before anyone can say they are truly that old. Possibly means it could be so, but it is not confirmed yet. When a report uses words like possibly or may be, remember that the matter is not settled. Only a careful survey will bring out the truth."
+      },
+      "vocabulary": [
+        {
+          "te": "గెరలు",
+          "en": "grooves"
+        },
+        {
+          "te": "నిర్ధారణ",
+          "en": "confirmation"
+        },
+        {
+          "te": "సర్వే",
+          "en": "survey"
+        }
+      ]
+    },
+    {
+      "id": "gk_20261022_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261022_reading_2",
+        "en": "gk_20261022_reading_2__en"
+      },
+      "source_ids": [
+        "innews"
+      ],
+      "title": {
+        "te": "దినోత్సవం వెనుక ఉన్న కారణం",
+        "en": "The reason behind a commemorative day"
+      },
+      "passage": {
+        "te": "ప్రతి దినోత్సవానికి ఒక కారణం ఉంటుంది. రాష్ట్రీయ ఏక్తా దివస్ సర్దార్ వల్లభాయ్ పటేల్‌ను స్మరించుకోవడానికి జరుపుతారు. దేశ ఐక్యతను గుర్తు చేసే రోజు ఇది. అలాంటి దినోత్సవ వార్త చదివేటప్పుడు రెండు విషయాలు చూడాలి: ఎవరిని, దేనిని స్మరించుకుంటున్నారు; ఆ రోజు ఏ కార్యక్రమాలు జరుగుతాయి. మొదటిది స్థిరమైన విషయం, రెండోది ఆ ఏటి ప్రణాళిక. రెండింటిని కలపకుండా చదివితే దినోత్సవం అర్థం మరింత స్పష్టమవుతుంది.",
+        "en": "Every commemorative day has a reason behind it. Rashtriya Ekta Diwas is observed to remember Sardar Vallabhbhai Patel and to recall the unity of the country. When reading about such a day, notice two things: whom or what it remembers, and what programmes are planned for the day. The first is a settled fact; the second is that year's plan. Reading the two separately makes the meaning of the day clearer."
+      },
+      "vocabulary": [
+        {
+          "te": "స్మరించుకోవడం",
+          "en": "remembrance"
+        },
+        {
+          "te": "ఐక్యత",
+          "en": "unity"
+        },
+        {
+          "te": "ప్రణాళిక",
+          "en": "plan"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261022_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261022_q1",
+        "en": "gk_20261022_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261022_q1_answer",
+        "en": "gk_20261022_q1_answer__en"
+      },
+      "item_id": "gk_20261022_telangana_1",
+      "question": {
+        "te": "పురాతన గెరలు ఏ ఉద్యానవనంలో కనుగొన్నారు?",
+        "en": "In which park were the ancient grooves identified?"
+      },
+      "options": {
+        "te": [
+          "మృగవాణి జాతీయ ఉద్యానవనం",
+          "కాజీరంగా",
+          "గిర్",
+          "సుందర్బన్స్"
+        ],
+        "en": [
+          "Mrugavani National Park",
+          "Kaziranga",
+          "Gir",
+          "Sundarbans"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నివేదిక చిల్కూర్‌లోని మృగవాణి ఉద్యానవనాన్ని పేర్కొంది.",
+        "en": "The report names Mrugavani National Park at Chilkur."
+      }
+    },
+    {
+      "id": "gk_20261022_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261022_q2",
+        "en": "gk_20261022_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261022_q2_answer",
+        "en": "gk_20261022_q2_answer__en"
+      },
+      "item_id": "gk_20261022_telangana_1",
+      "question": {
+        "te": "ఈ గెరలు నియోలిథిక్ కాలానివన్నది ఏమిటి?",
+        "en": "What is the claim that these grooves are Neolithic?"
+      },
+      "options": {
+        "te": [
+          "ధృవీకరించిన నిజం",
+          "అబద్ధం",
+          "ఇంకా నిర్ధారించవలసిన ఊహ",
+          "చట్టం"
+        ],
+        "en": [
+          "A confirmed fact",
+          "A lie",
+          "A hypothesis still to be verified",
+          "A law"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ఇది ఇంకా శాస్త్రీయ నిర్ధారణ అవసరమైన ఊహనే నివేదిక చెబుతుంది.",
+        "en": "The report says it is a hypothesis still needing scientific verification."
+      }
+    },
+    {
+      "id": "gk_20261022_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261022_q3",
+        "en": "gk_20261022_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261022_q3_answer",
+        "en": "gk_20261022_q3_answer__en"
+      },
+      "item_id": "gk_20261022_india_1",
+      "question": {
+        "te": "రాష్ట్రీయ ఏక్తా దివస్‌లో ఎవరికి నివాళి అర్పిస్తారు?",
+        "en": "Whom does Rashtriya Ekta Diwas pay tribute to?"
+      },
+      "options": {
+        "te": [
+          "సర్దార్ వల్లభాయ్ పటేల్",
+          "జవహర్‌లాల్ నెహ్రూ",
+          "సుభాష్ చంద్రబోస్",
+          "భగత్ సింగ్"
+        ],
+        "en": [
+          "Sardar Vallabhbhai Patel",
+          "Jawaharlal Nehru",
+          "Subhas Chandra Bose",
+          "Bhagat Singh"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "సర్దార్ పటేల్‌కు నివాళి అని నివేదిక చెబుతుంది.",
+        "en": "The report says the tribute is to Sardar Patel."
+      }
+    },
+    {
+      "id": "gk_20261022_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261022_q4",
+        "en": "gk_20261022_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261022_q4_answer",
+        "en": "gk_20261022_q4_answer__en"
+      },
+      "item_id": "gk_20261022_india_1",
+      "question": {
+        "te": "స్టాచ్యూ ఆఫ్ యూనిటీ ఏ రాష్ట్రంలో ఉంది?",
+        "en": "In which state is the Statue of Unity?"
+      },
+      "options": {
+        "te": [
+          "మహారాష్ట్ర",
+          "గుజరాత్",
+          "రాజస్థాన్",
+          "తెలంగాణ"
+        ],
+        "en": [
+          "Maharashtra",
+          "Gujarat",
+          "Rajasthan",
+          "Telangana"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "నివేదిక గుజరాత్‌లోని ఏక్తా నగర్‌ను పేర్కొంది.",
+        "en": "The report names Ekta Nagar in Gujarat."
+      }
+    },
+    {
+      "id": "gk_20261022_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261022_q5",
+        "en": "gk_20261022_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261022_q5_answer",
+        "en": "gk_20261022_q5_answer__en"
+      },
+      "item_id": "gk_20261022_world_1",
+      "question": {
+        "te": "వైకింగ్ 2 సిగ్నల్ మళ్లీ పరిశీలన ఏమి సూచించింది?",
+        "en": "What did the re-examination of the Viking 2 signal suggest?"
+      },
+      "options": {
+        "te": [
+          "మార్స్ భూకంపం కావచ్చు",
+          "అగ్నిపర్వతం పేలింది",
+          "సముద్రం దొరికింది",
+          "జీవం దొరికింది"
+        ],
+        "en": [
+          "A possible marsquake",
+          "A volcano erupted",
+          "An ocean was found",
+          "Life was found"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అది మార్స్ భూకంపం కావచ్చని, కానీ అనిశ్చితంగానే ఉందని అధ్యయనం చెబుతోంది.",
+        "en": "The study says it could be a marsquake, but it remains uncertain."
+      }
+    },
+    {
+      "id": "gk_20261022_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261022_q6",
+        "en": "gk_20261022_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261022_q6_answer",
+        "en": "gk_20261022_q6_answer__en"
+      },
+      "item_id": "gk_20261022_world_2",
+      "question": {
+        "te": "యూఎన్ చిహ్నంలో ప్రపంచ పటం చుట్టూ ఏమి ఉంటాయి?",
+        "en": "What surrounds the world map in the UN emblem?"
+      },
+      "options": {
+        "te": [
+          "ఆలివ్ కొమ్మలు",
+          "గులాబీ పువ్వులు",
+          "నక్షత్రాలు",
+          "అలలు"
+        ],
+        "en": [
+          "Olive branches",
+          "Roses",
+          "Stars",
+          "Waves"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అధికారిక పేజీ ఆలివ్ చెట్టు కొమ్మలు అని చెబుతుంది.",
+        "en": "The official page says olive tree branches."
+      }
+    },
+    {
+      "id": "gk_20261022_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261022_q7",
+        "en": "gk_20261022_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261022_q7_answer",
+        "en": "gk_20261022_q7_answer__en"
+      },
+      "item_id": "gk_20261022_reading_1",
+      "question": {
+        "te": "బహుశా అంటే ఏమిటి?",
+        "en": "What does possibly mean?"
+      },
+      "options": {
+        "te": [
+          "ఖచ్చితంగా నిజం",
+          "అలా ఉండవచ్చు, నిర్ధారణ లేదు",
+          "ఎప్పుడూ జరగదు",
+          "చట్టం ద్వారా నిర్ణయం"
+        ],
+        "en": [
+          "Certainly true",
+          "It could be so, not confirmed",
+          "It can never happen",
+          "Decided by law"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "బహుశా అంటే ఉండవచ్చు, కానీ ఇంకా నిర్ధారణ లేదు.",
+        "en": "Possibly means it could be so, but it is not confirmed."
+      }
+    },
+    {
+      "id": "gk_20261022_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261022_q8",
+        "en": "gk_20261022_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261022_q8_answer",
+        "en": "gk_20261022_q8_answer__en"
+      },
+      "item_id": "gk_20261022_reading_1",
+      "question": {
+        "te": "గెరల గురించి నిజం తెలియాలంటే ఏమి చేయాలి?",
+        "en": "What is needed to know the truth about the grooves?"
+      },
+      "options": {
+        "te": [
+          "క్రమపద్ధతిలో సర్వే",
+          "ఊహ",
+          "సినిమా చూడడం",
+          "పాత పుస్తకం మాత్రమే"
+        ],
+        "en": [
+          "A systematic survey",
+          "A guess",
+          "Watching a film",
+          "Only an old book"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "క్రమపద్ధతిలో సర్వే చేస్తేనే నిజం బయటపడుతుంది.",
+        "en": "Only a systematic survey will reveal the truth."
+      }
+    },
+    {
+      "id": "gk_20261022_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261022_q9",
+        "en": "gk_20261022_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261022_q9_answer",
+        "en": "gk_20261022_q9_answer__en"
+      },
+      "item_id": "gk_20261022_reading_2",
+      "question": {
+        "te": "రాష్ట్రీయ ఏక్తా దివస్ దేనిని గుర్తు చేస్తుంది?",
+        "en": "What does Rashtriya Ekta Diwas recall?"
+      },
+      "options": {
+        "te": [
+          "దేశ ఐక్యత",
+          "ఒక యుద్ధం",
+          "ఒక జంతువు",
+          "ఒక నది"
+        ],
+        "en": [
+          "The unity of the country",
+          "A war",
+          "An animal",
+          "A river"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఇది దేశ ఐక్యతను గుర్తు చేసే రోజు.",
+        "en": "It is a day that recalls the unity of the country."
+      }
+    },
+    {
+      "id": "gk_20261022_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261022_q10",
+        "en": "gk_20261022_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261022_q10_answer",
+        "en": "gk_20261022_q10_answer__en"
+      },
+      "item_id": "gk_20261022_reading_2",
+      "question": {
+        "te": "దినోత్సవ వార్తలో ఏ రెండు విషయాలు చూడాలి?",
+        "en": "Which two things should we notice in news about a commemorative day?"
+      },
+      "options": {
+        "te": [
+          "ఎవరిని స్మరిస్తున్నారు, ఏ కార్యక్రమాలు",
+          "ధరలు, రంగులు",
+          "సినిమాలు, పాటలు",
+          "ఊహలు, కలలు"
+        ],
+        "en": [
+          "Whom it remembers and what programmes are planned",
+          "Prices and colours",
+          "Films and songs",
+          "Guesses and dreams"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "స్మృతి విషయం, ఆ ఏటి కార్యక్రమాలు రెండూ చూడాలి.",
+        "en": "Notice whom it remembers and what programmes are planned."
+      }
+    }
+  ],
+  "edition_date": "2026-10-22",
+  "verified_at": "2026-10-22T02:33:33+05:30",
+  "status": "source_checked_translation_review_recommended",
+  "coverage": {
+    "cards": 7,
+    "current_affairs": 4,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 58
+  },
+  "editorial_note": "Oct22 early reviewed selection: Chilkur grooves reported Oct21 with Neolithic link framed as unverified hypothesis (event date null); Rashtriya Ekta Diwas Oct31 upcoming, framed as official announcement of planned event; Viking 2 possible marsquake published Oct21 in AGU Advances, uncertainty preserved (event date null); static Telangana formation, flag, UN emblem rechecked; NSP named PM-USP renewal deadlines rechecked Oct22 (student Oct31, institute Nov15, L2 Nov30, no cutoff hour). No claim VVM open/closed. Original Class5-10 text, Telugu editor review recommended; audio pending."
+}
