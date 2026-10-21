@@ -514,3 +514,26 @@ window.LearnApp.selfTest=async function(){
 
 // Real-life use lines: append __RL[id] to each topic when it registers (brl.js carries the data).
 ;(function(){function rlT(t){try{var L=window.__RL&&window.__RL[t&&t.id];if(L&&t.n&&t.n.indexOf(L)<0)t.n.push(L)}catch(e){}}var _a=LD.add;LD.add=function(s,cl,t){rlT(t);return _a(s,cl,t)};var _r=LD.reg;LD.reg=function(s,d){try{if(d&&typeof d==="object")Object.keys(d).forEach(function(k){var a=d[k];if(Array.isArray(a))a.forEach(rlT)})}catch(e){}return _r(s,d)}})();
+/* sv62: glossy green/red quiz feedback (glow+sparkle+sound correct / shake+green answer wrong). Patch layer; nothing removed. */
+(function(){
+if(window.__sv62)return;window.__sv62=1;
+var css=''
++'.lr-fb{position:relative;overflow:hidden;border:0!important;text-align:left}'
++'.lr-fb.ok{background:linear-gradient(135deg,#34d399,#059669 60%,#047857)!important;box-shadow:0 8px 20px rgba(5,150,105,.4)!important;animation:sv62glow 1.8s ease-in-out infinite}'
++'@keyframes sv62glow{0%,100%{box-shadow:0 0 0 3px #a7f3d0,0 8px 20px rgba(5,150,105,.4)}50%{box-shadow:0 0 0 5px #d1fae5,0 8px 34px rgba(16,185,129,.85)}}'
++'.lr-fb.bad{background:linear-gradient(135deg,#fb923c,#ea580c 55%,#dc2626)!important;box-shadow:0 8px 20px rgba(220,38,38,.4)!important;animation:sv62shake .5s ease}'
++'@keyframes sv62shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-7px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(3px)}}'
++'.lr-fb .hd{color:#fff!important;text-shadow:none!important;font-size:19px}'
++'.lr-fb p,.lr-fb .why{color:#f0fdf4!important}'
++'.lr-fb b{display:inline-block;background:rgba(255,255,255,.3);border:2px solid #bbf7d0;border-radius:10px;padding:0 10px;color:#fff!important;box-shadow:0 0 12px rgba(187,247,208,.7)}'
++'.sv62-sp{position:absolute;pointer-events:none;font-size:16px;animation:sv62sp 1.1s ease-out forwards}'
++'@keyframes sv62sp{0%{opacity:0;transform:translateY(8px) scale(.4)}30%{opacity:1}100%{opacity:0;transform:translateY(-28px) scale(1.25)}}'
++'@media (prefers-reduced-motion:reduce){.lr-fb.ok,.lr-fb.bad{animation:none}}';
+var st=document.createElement('style');st.id='sv62css';st.textContent=css;document.head.appendChild(st);
+var ac=null;
+function tone(ok){try{ac=ac||new(window.AudioContext||window.webkitAudioContext)();ac.resume();var t0=ac.currentTime,notes=ok?[[660,0,.1],[990,.09,.14]]:[[170,0,.22,'square']];notes.forEach(function(n){var o=ac.createOscillator(),g=ac.createGain();o.type=n[3]||'sine';o.frequency.value=n[0];o.connect(g);g.connect(ac.destination);g.gain.setValueAtTime(.05,t0+n[1]);g.gain.exponentialRampToValueAtTime(.001,t0+n[1]+n[2]);o.start(t0+n[1]);o.stop(t0+n[1]+n[2]+.02)})}catch(e){}}
+function sparkles(el){for(var i=0;i<6;i++){var s=document.createElement('span');s.className='sv62-sp';s.textContent='✨';s.style.left=(8+Math.random()*84)+'%';s.style.top=(8+Math.random()*50)+'%';s.style.animationDelay=(Math.random()*.6)+'s';el.appendChild(s)}}
+function decorate(){document.querySelectorAll('.lr-fb.ok:not([data-sv62]),.lr-fb.bad:not([data-sv62])').forEach(function(n){n.dataset.sv62='1';var ok=n.classList.contains('ok');if(ok)sparkles(n);tone(ok)})}
+new MutationObserver(decorate).observe(document.body,{childList:true,subtree:true});
+decorate();
+})();
