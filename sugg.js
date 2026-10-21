@@ -41,3 +41,6 @@ function homeBtn(){var h=document.querySelector('.home');if(!h||h.querySelector(
 var t=0;function run(){t=0;try{homeBtn();fab()}catch(e){}}
 new MutationObserver(function(){if(!t)t=setTimeout(run,300)}).observe(document.documentElement,{childList:true,subtree:true});run();
 })();
+
+/* SV80-MC loader: (a+b)^2 master class */
+(function(){var s=document.createElement('script');s.src='mc.js';s.defer=true;document.head.appendChild(s)})();
