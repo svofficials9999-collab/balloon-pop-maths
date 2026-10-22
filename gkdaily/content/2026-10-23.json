@@ -1,0 +1,612 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "timezone": "Asia/Kolkata",
+  "sources": {
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-flag.php",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/un-emblem-and-flag",
+      "published_date": null
+    },
+    "scholarships": {
+      "publisher": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in/All-Scholarships",
+      "published_date": null
+    },
+    "tgnews": {
+      "publisher": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-reels-under-dry-spell-as-october-rainfall-deficit-hits-95/articleshow/135106196.cms",
+      "published_date": "2026-10-22"
+    },
+    "innews": {
+      "publisher": "Prime Minister's Office, India",
+      "url": "https://www.pmindia.gov.in/en/news_updates/india-poland-joint-statement/?comment=disable",
+      "published_date": "2026-10-22"
+    },
+    "worldnews": {
+      "publisher": "Phys.org",
+      "url": "https://phys.org/news/2026-10-supermassive-black-holes-ejected-galactic.html",
+      "published_date": "2026-10-22"
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261023_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgnews"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261023_telangana_1",
+        "en": "gk_20261023_telangana_1__en"
+      },
+      "title": {
+        "te": "అక్టోబర్‌లో తెలంగాణకు 95 శాతం వర్షపాత లోటు",
+        "en": "95 percent October rainfall deficit in Telangana"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 22న టైమ్స్ ఆఫ్ ఇండియా నివేదిక ప్రకారం, ఈ అక్టోబర్ నెలలో తెలంగాణలో వర్షపాత లోటు 95 శాతానికి చేరింది. అంటే ఈ నెలలో సాధారణంగా పడాల్సిన వర్షంలో కేవలం సుమారు ఐదు శాతం మాత్రమే పడింది. అక్టోబర్ 21 నాటి నివేదిక ప్రకారం 12 జిల్లాల్లో ఈ నెల వర్షం అసలు పడలేదు. పొడి వాతావరణం కొనసాగుతోందని నివేదిక తెలిపింది.",
+        "en": "The Times of India reported on October 22 that Telangana's rainfall deficit for October has reached 95 percent. This means the state has received only about five percent of the rain it usually gets in this month. An earlier report on October 21 said 12 districts had received no rain at all this month. The report says the dry spell continues."
+      }
+    },
+    {
+      "id": "gk_20261023_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": "2026-10-22",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261023_india_1",
+        "en": "gk_20261023_india_1__en"
+      },
+      "title": {
+        "te": "పోలాండ్ ప్రధానమంత్రి భారత పర్యటన",
+        "en": "Polish Prime Minister's visit to India"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 22న ప్రధానమంత్రి కార్యాలయం విడుదల చేసిన అధికారిక ఉమ్మడి ప్రకటన ప్రకారం, పోలాండ్ ప్రధానమంత్రి డొనాల్డ్ టస్క్ ప్రధాని నరేంద్ర మోదీ ఆహ్వానంపై అక్టోబర్ 21 నుండి 23 వరకు భారతదేశంలో అధికారిక పర్యటనలో ఉన్నారు. అక్టోబర్ 22న ఢిల్లీలోని హైదరాబాద్ హౌస్‌లో ఇద్దరి మధ్య చర్చలు జరిగాయి. వర్తకం, రక్షణ, స్వచ్ఛమైన శక్తి రంగాల్లో సహకారం పెంచడంపై చర్చలు జరిగాయని నివేదికలు తెలిపాయి.",
+        "en": "According to the official joint statement released by the Prime Minister's Office on October 22, Poland's Prime Minister Donald Tusk is on an official visit to India from October 21 to 23 at the invitation of Prime Minister Narendra Modi. The two leaders held talks at Hyderabad House in New Delhi on October 22. Reports say they discussed expanding cooperation in trade, defence and clean energy."
+      }
+    },
+    {
+      "id": "gk_20261023_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261023_world_1",
+        "en": "gk_20261023_world_1__en"
+      },
+      "title": {
+        "te": "గెలాక్సీ కేంద్రాల నుండి బయటపడే నల్లరంధ్రాలు?",
+        "en": "Black holes ejected from galaxy centres?"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 22న ఫిస్.ఆర్గ్ నివేదిక ప్రకారం, హంగేరీలోని ఇయోట్వోస్ లోరాండ్ విశ్వవిద్యాలయం పరిశోధకులు సుమారు ఒక లక్ష క్వేసార్ల సమాచారాన్ని విశ్లేషించారు. కొన్ని గెలాక్సీల కేంద్రాల్లోని అతిపెద్ద నల్లరంధ్రాలు తమ స్థానాల నుండి బయటపడే ఉండవచ్చన్న సాంఖ్యిక ఆధారాలు దొరికాయని వారు తెలిపారు. ఇది సుమారు పదేళ్ల క్రితం చేసిన ఊహకు బలం చేకూర్చింది. ఇతర కారణాలను పూర్తిగా తోసిపుచ్చలేమని, మరిన్ని పరిశీలనలు అవసరమని పరిశోధకులే స్పష్టం చేశారు.",
+        "en": "Phys.org reported on October 22 that researchers at Eötvös Loránd University in Hungary analysed data from about 100,000 quasars, the extremely bright centres of galaxies. They found statistical evidence that some supermassive black holes may be ejected from their positions at the centres of galaxies. The finding supports a prediction made about ten years ago. The researchers themselves say other causes cannot be fully ruled out and more observations are needed."
+      }
+    },
+    {
+      "id": "gk_20261023_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "source_ids": [
+        "tggk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261023_telangana_2",
+        "en": "gk_20261023_telangana_2__en"
+      },
+      "title": {
+        "te": "తెలంగాణ ఆవిర్భావం",
+        "en": "Telangana formation"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది భారతదేశంలో 29వ రాష్ట్రం. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "Telangana became a state on June 2, 2014. It is the 29th state of India. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261023_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261023_india_2",
+        "en": "gk_20261023_india_2__en"
+      },
+      "title": {
+        "te": "భారత జాతీయ పతాకం",
+        "en": "National flag of India"
+      },
+      "summary": {
+        "te": "భారత జాతీయ పతాకం సమాన వాటాలతో కాషాయం, తెలుపు, ఆకుపచ్చ అడ్డ వరుసలతో కూడిన త్రివర్ణ పతాకం. వెడల్పు-పొడవు నిష్పత్తి 2:3. తెల్ల వరుస మధ్యలో 24 అరల నేవీ బ్లూ అశోక చక్రం ఉంటుందని నో ఇండియా పేజీ తెలియజేస్తుంది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The national flag of India is a horizontal tricolour of saffron, white and green in equal proportion. The ratio of width to length is two to three. The Know India page says a navy-blue Ashoka Chakra with 24 spokes sits in the centre of the white band. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261023_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261023_world_2",
+        "en": "gk_20261023_world_2__en"
+      },
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి చిహ్నం",
+        "en": "Emblem of the United Nations"
+      },
+      "summary": {
+        "te": "ఐక్యరాజ్యసమితి చిహ్నంలో ప్రపంచ పటం చుట్టూ ఆలివ్ చెట్టు కొమ్మలు ఉంటాయి. 1945లో రూపొందించిన ఈ చిహ్నం శాంతి, ఐక్యత ఆశలను సూచిస్తుందని అధికారిక పేజీ తెలియజేస్తుంది. యూఎన్ పతాక నీలం రంగు శాంతిని సూచిస్తుంది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The United Nations emblem shows a map of the world surrounded by olive tree branches. Designed in 1945, it speaks to hopes of peace and unity, and the UN blue stands for peace, the official page says. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261023_india_4",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "scholarships"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261023_india_4",
+        "en": "gk_20261023_india_4__en"
+      },
+      "title": {
+        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ గడువు అక్టోబర్ 31",
+        "en": "NSP renewal deadline October 31"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 23న తనిఖీ చేసిన అధికారిక జాతీయ స్కాలర్‌షిప్ పోర్టల్ ప్రకారం, పీఎం-యూఎస్‌పీ కేంద్ర రంగ పథకం, పీఎం-యూఎస్‌పీ జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి పునరుద్ధరణ గడువు 2026 అక్టోబర్ 31. తరువాతి తనిఖీ దశలు నవంబర్లో కొనసాగుతాయి. ఇది అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే వర్తిస్తుంది; అన్ని స్కాలర్‌షిప్‌లకు ఇదే గడువు కాదు.",
+        "en": "The official National Scholarship Portal, checked on October 23, shows renewal applications open for the PM-USP Central Sector Scheme for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student renewal deadline is October 31, 2026; further verification stages continue into November. This applies only to eligible renewal applicants; other scholarships have different deadlines."
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261023_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261023_reading_1",
+        "en": "gk_20261023_reading_1__en"
+      },
+      "source_ids": [
+        "tgnews"
+      ],
+      "title": {
+        "te": "వర్షపాత లోటు అంటే ఏమిటి",
+        "en": "What a rainfall deficit means"
+      },
+      "passage": {
+        "te": "వర్షపాత లోటు అంటే సాధారణంగా పడాల్సిన వర్షంతో పోలిస్తే ఎంత తక్కువ పడిందో చెప్పే కొలమానం. ఈ అక్టోబర్ తెలంగాణలో లోటు 95 శాతం. ఉదాహరణకు ఒక చోట సాధారణంగా వంద మిల్లీమీటర్ల వర్షం పడితే, ఈసారి కేవలం సుమారు ఐదు మిల్లీమీటర్లే పడిందన్నమాట. లోటు ఎక్కువగా ఉంటే పంటలకు, మంటినీటికి ఇబ్బంది అవుతుంది. కొన్ని జిల్లాల్లో అసలు వర్షం పడకపోవడం మరింత ఆందోళనకరం. నివేదికల్లో శాతాలు చదివినప్పుడు అవి దేనితో పోల్చి చెబుతున్నారో గమనించాలి.",
+        "en": "A rainfall deficit tells us how much less rain fell compared to what a place usually gets. This October, Telangana's deficit is 95 percent. For example, if a place usually receives 100 millimetres of rain, it has received only about 5 millimetres this time. A large deficit is hard on crops and drinking water. When some districts get no rain at all, the worry is greater. When you read percentages in a report, notice what they are being compared with."
+      }
+    },
+    {
+      "id": "gk_20261023_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261023_reading_2",
+        "en": "gk_20261023_reading_2__en"
+      },
+      "source_ids": [
+        "scholarships"
+      ],
+      "title": {
+        "te": "గడువు తేదీని ఎలా చదవాలి",
+        "en": "How to read a deadline"
+      },
+      "passage": {
+        "te": "ప్రభుత్వ పోర్టల్లో గడువు తేదీ చదివినప్పుడు మూడు విషయాలు చూడాలి. మొదటిది, ఆ గడువు ఏ పథకానిది. రెండోది, అది కొత్త దరఖాస్తుదారులకా, పునరుద్ధరణ దరఖాస్తుదారులకా. మూడోది, దరఖాస్తు గడువు తరువాత తనిఖీ దశలకు వేరే గడువులు ఉంటాయా. అక్టోబర్ 31 అన్నది పీఎం-యూఎస్‌పీ పునరుద్ధరణ విద్యార్థి గడువు మాత్రమే. అన్ని స్కాలర్‌షిప్‌లకు అదే తేదీ కాదు. అధికారిక పేజీనే మళ్లీ తనిఖీ చేయడం మంచి అలవాటు.",
+        "en": "When you read a deadline on a government portal, notice three things. First, which scheme the date belongs to. Second, whether it is for new applicants or for renewals. Third, whether later verification stages have their own separate dates. October 31 is only the student renewal deadline for the PM-USP schemes. It is not the same date for every scholarship. Checking the official page again is a good habit."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261023_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261023_q1",
+        "en": "gk_20261023_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261023_q1_answer",
+        "en": "gk_20261023_q1_answer__en"
+      },
+      "item_id": "gk_20261023_telangana_1",
+      "question": {
+        "te": "ఈ అక్టోబర్ తెలంగాణ వర్షపాత లోటు ఎంత శాతం?",
+        "en": "What is Telangana's rainfall deficit this October?"
+      },
+      "options": {
+        "te": [
+          "95 శాతం",
+          "50 శాతం",
+          "25 శాతం",
+          "5 శాతం"
+        ],
+        "en": [
+          "95 percent",
+          "50 percent",
+          "25 percent",
+          "5 percent"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "టైమ్స్ ఆఫ్ ఇండియా నివేదిక 95 శాతం లోటును పేర్కొంది.",
+        "en": "The Times of India report states a 95 percent deficit."
+      }
+    },
+    {
+      "id": "gk_20261023_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261023_q2",
+        "en": "gk_20261023_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261023_q2_answer",
+        "en": "gk_20261023_q2_answer__en"
+      },
+      "item_id": "gk_20261023_telangana_1",
+      "question": {
+        "te": "నివేదిక ప్రకారం ఎన్ని జిల్లాల్లో ఈ నెల వర్షం అసలు పడలేదు?",
+        "en": "In how many districts did no rain fall at all this month, as per the report?"
+      },
+      "options": {
+        "te": [
+          "12",
+          "5",
+          "20",
+          "33"
+        ],
+        "en": [
+          "12",
+          "5",
+          "20",
+          "33"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అక్టోబర్ 21 నాటి నివేదిక 12 జిల్లాలను పేర్కొంది.",
+        "en": "The October 21 report names 12 districts."
+      }
+    },
+    {
+      "id": "gk_20261023_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261023_q3",
+        "en": "gk_20261023_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261023_q3_answer",
+        "en": "gk_20261023_q3_answer__en"
+      },
+      "item_id": "gk_20261023_india_1",
+      "question": {
+        "te": "భారతదేశాన్ని అధికారికంగా సందర్శిస్తున్న పోలాండ్ ప్రధానమంత్రి ఎవరు?",
+        "en": "Which Prime Minister of Poland is on an official visit to India?"
+      },
+      "options": {
+        "te": [
+          "డొనాల్డ్ టస్క్",
+          "ఎమ్మాన్యుయేల్ మ్యాక్రాన్",
+          "ఆండ్రెజ్ దూదా",
+          "రిషి సునాక్"
+        ],
+        "en": [
+          "Donald Tusk",
+          "Emmanuel Macron",
+          "Andrzej Duda",
+          "Rishi Sunak"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అధికారిక ఉమ్మడి ప్రకటన డొనాల్డ్ టస్క్ పేరును పేర్కొంది.",
+        "en": "The official joint statement names Donald Tusk."
+      }
+    },
+    {
+      "id": "gk_20261023_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261023_q4",
+        "en": "gk_20261023_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261023_q4_answer",
+        "en": "gk_20261023_q4_answer__en"
+      },
+      "item_id": "gk_20261023_india_1",
+      "question": {
+        "te": "భారత్-పోలాండ్ నాయకుల చర్చలు ఎక్కడ జరిగాయి?",
+        "en": "Where were the India-Poland leaders' talks held?"
+      },
+      "options": {
+        "te": [
+          "హైదరాబాద్ హౌస్, ఢిల్లీ",
+          "రాష్ట్రపతి భవన్",
+          "పార్లమెంట్ భవన్",
+          "హైదరాబాద్ నగరం"
+        ],
+        "en": [
+          "Hyderabad House, New Delhi",
+          "Rashtrapati Bhavan",
+          "Parliament House",
+          "Hyderabad city"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "చర్చలు ఢిల్లీలోని హైదరాబాద్ హౌస్‌లో జరిగాయి.",
+        "en": "The talks were held at Hyderabad House in New Delhi."
+      }
+    },
+    {
+      "id": "gk_20261023_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261023_q5",
+        "en": "gk_20261023_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261023_q5_answer",
+        "en": "gk_20261023_q5_answer__en"
+      },
+      "item_id": "gk_20261023_world_1",
+      "question": {
+        "te": "పరిశోధకులు సుమారు ఎన్ని క్వేసార్ల సమాచారాన్ని విశ్లేషించారు?",
+        "en": "About how many quasars did the researchers analyse?"
+      },
+      "options": {
+        "te": [
+          "ఒక లక్ష",
+          "వేయి",
+          "పది వేలు",
+          "ఒక కోటి"
+        ],
+        "en": [
+          "One hundred thousand",
+          "One thousand",
+          "Ten thousand",
+          "Ten million"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నివేదిక సుమారు ఒక లక్ష క్వేసార్లను పేర్కొంది.",
+        "en": "The report says about 100,000 quasars."
+      }
+    },
+    {
+      "id": "gk_20261023_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261023_q6",
+        "en": "gk_20261023_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261023_q6_answer",
+        "en": "gk_20261023_q6_answer__en"
+      },
+      "item_id": "gk_20261023_world_1",
+      "question": {
+        "te": "ఈ అధ్యయనం చేసినది ఏ విశ్వవిద్యాలయం పరిశోధకులు?",
+        "en": "Which university's researchers did this study?"
+      },
+      "options": {
+        "te": [
+          "ఇయోట్వోస్ లోరాండ్ విశ్వవిద్యాలయం",
+          "ఆక్స్‌ఫర్డ్ విశ్వవిద్యాలయం",
+          "హార్వర్డ్ విశ్వవిద్యాలయం",
+          "టోక్యో విశ్వవిద్యాలయం"
+        ],
+        "en": [
+          "Eötvös Loránd University",
+          "Oxford University",
+          "Harvard University",
+          "University of Tokyo"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "హంగేరీలోని ఇయోట్వోస్ లోరాండ్ విశ్వవిద్యాలయం పరిశోధకులు ఈ అధ్యయనం చేశారు.",
+        "en": "Researchers at Eötvös Loránd University in Hungary did the study."
+      }
+    },
+    {
+      "id": "gk_20261023_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261023_q7",
+        "en": "gk_20261023_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261023_q7_answer",
+        "en": "gk_20261023_q7_answer__en"
+      },
+      "item_id": "gk_20261023_india_4",
+      "question": {
+        "te": "పీఎం-యూఎస్‌పీ పునరుద్ధరణ విద్యార్థి గడువు ఏ తేదీ?",
+        "en": "What is the PM-USP renewal student deadline?"
+      },
+      "options": {
+        "te": [
+          "2026 అక్టోబర్ 31",
+          "2026 సెప్టెంబర్ 30",
+          "2026 నవంబర్ 30",
+          "2026 డిసెంబర్ 31"
+        ],
+        "en": [
+          "October 31, 2026",
+          "September 30, 2026",
+          "November 30, 2026",
+          "December 31, 2026"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "జాతీయ స్కాలర్‌షిప్ పోర్టల్ విద్యార్థి పునరుద్ధరణ గడువును 2026 అక్టోబర్ 31గా చూపిస్తోంది.",
+        "en": "The National Scholarship Portal shows the student renewal deadline as October 31, 2026."
+      }
+    },
+    {
+      "id": "gk_20261023_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261023_q8",
+        "en": "gk_20261023_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261023_q8_answer",
+        "en": "gk_20261023_q8_answer__en"
+      },
+      "item_id": "gk_20261023_india_4",
+      "question": {
+        "te": "ఈ గడువు ఎవరికి వర్తిస్తుంది?",
+        "en": "Whom does this deadline apply to?"
+      },
+      "options": {
+        "te": [
+          "అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు",
+          "అన్ని కొత్త దరఖాస్తుదారులకు",
+          "అన్ని స్కాలర్‌షిప్‌లకు",
+          "ఉపాధ్యాయులకు"
+        ],
+        "en": [
+          "Eligible renewal applicants",
+          "All new applicants",
+          "Every scholarship",
+          "Teachers"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఇది అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే వర్తిస్తుంది.",
+        "en": "It applies only to eligible renewal applicants."
+      }
+    },
+    {
+      "id": "gk_20261023_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261023_q9",
+        "en": "gk_20261023_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261023_q9_answer",
+        "en": "gk_20261023_q9_answer__en"
+      },
+      "item_id": "gk_20261023_india_2",
+      "question": {
+        "te": "భారత జాతీయ పతాకంలోని అశోక చక్రంలో ఎన్ని అరలు ఉంటాయి?",
+        "en": "How many spokes does the Ashoka Chakra on the national flag have?"
+      },
+      "options": {
+        "te": [
+          "24",
+          "12",
+          "36",
+          "8"
+        ],
+        "en": [
+          "24",
+          "12",
+          "36",
+          "8"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నో ఇండియా పేజీ ప్రకారం అశోక చక్రంలో 24 అరలు ఉంటాయి.",
+        "en": "The Know India page says the Ashoka Chakra has 24 spokes."
+      }
+    },
+    {
+      "id": "gk_20261023_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261023_q10",
+        "en": "gk_20261023_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261023_q10_answer",
+        "en": "gk_20261023_q10_answer__en"
+      },
+      "item_id": "gk_20261023_telangana_2",
+      "question": {
+        "te": "తెలంగాణ రాష్ట్రం ఏ తేదీన ఏర్పడింది?",
+        "en": "On which date was the state of Telangana formed?"
+      },
+      "options": {
+        "te": [
+          "2014 జూన్ 2",
+          "2014 జూన్ 15",
+          "2015 జూన్ 2",
+          "2013 డిసెంబర్ 2"
+        ],
+        "en": [
+          "June 2, 2014",
+          "June 15, 2014",
+          "June 2, 2015",
+          "December 2, 2013"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "తెలంగాణ 2014 జూన్ 2న ఏర్పడింది.",
+        "en": "Telangana was formed on June 2, 2014."
+      }
+    }
+  ],
+  "edition_date": "2026-10-23",
+  "verified_at": "2026-10-23T02:37:00+05:30",
+  "status": "source_checked_translation_review_recommended",
+  "coverage": {
+    "cards": 7,
+    "current_affairs": 4,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 58
+  },
+  "editorial_note": "Oct23 early reviewed selection: Telangana October rainfall deficit 95% with 12 districts no rain (TOI Oct22, condition ongoing, event date null); India-Poland joint statement issued Oct22 during Tusk's official visit Oct21-23 (PMO official source, talks held Oct22, event date 2026-10-22); ELTE quasar survey of about 100,000 quasars with statistical evidence of ejected supermassive black holes, researchers' own uncertainty preserved (Phys.org Oct22, event date null); NSP PM-USP renewal deadline Oct31 2026 rechecked Oct23 on the official All-Scholarships page (renewal applicants only). Static Telangana formation, national flag, UN emblem rechecked. No claim about other scholarships' dates. Original Class5-10 text, Telugu editor review recommended; audio pending."
+}
