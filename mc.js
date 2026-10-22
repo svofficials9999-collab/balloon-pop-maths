@@ -331,10 +331,10 @@ id:'hindi',icon:'🇮🇳',
 te:'హిందీ అక్షరాలు & మాటలు',en:'Hindi Letters & Words',
 meta:['హిందీ · తరగతి 6 · చిత్రం + క్విజ్','Hindi · Class 6 · picture + quiz'],
 title:['🇮🇳 హిందీ మాస్టర్ క్లాస్','🇮🇳 Hindi Master Class'],
-PIC:{h:['देवनागari अक्षरालు మన అక్షరాల్లాగే','Devanagari letters look like ours'],svg:svgHindi,cap:['स्वर = అచ్చులు · व्यंजन = హల్లులు','Swar = vowels · Vyanjan = consonants'],
- listen:[['हिंदी देवनागरी लिपిలో రాస్తారు. स्वर అంటే అచ్చులు, व्यंजन అంటే హల్లులు.','అ చూసి అ అని, आ చూసి ఆ అని చదవాలి — చాలా అక్షరాలు మన తెలుగు ధ్వనుల్లాగే ఉంటాయి.'],['Hindi is written in the Devanagari script. Swar means vowels and vyanjan means consonants.','Read अ as a and आ as aa — many sounds match Telugu sounds.']]},
+PIC:{h:['దేవనాగరి అక్షరాలు మన అక్షరాల్లాగే','Devanagari letters look like ours'],svg:svgHindi,cap:['स्वर = అచ్చులు · व्यंजन = హల్లులు','Swar = vowels · Vyanjan = consonants'],
+ listen:[['హిందీ దేవనాగరి లిపిలో రాస్తారు. स्वर అంటే అచ్చులు, व्यंजन అంటే హల్లులు.','అ చూసి అ అని, आ చూసి ఆ అని చదవాలి — చాలా అక్షరాలు మన తెలుగు ధ్వనుల్లాగే ఉంటాయి.'],['Hindi is written in the Devanagari script. Swar means vowels and vyanjan means consonants.','Read अ as a and आ as aa — many sounds match Telugu sounds.']]},
 REAL:[
- {t:['మొదటి పలకరింపు: नमस्ते','First greeting: namaste'],b:['हिंदीలో ఎవర్ని కలిసినా "नमस्ते" అంటారు — మన "నమస్తే" లాగే. జోడించిన చేతులతో చెబితే మర్యాద.','In Hindi everyone is greeted with "namaste", just like our namaste. Join your palms for respect.']},
+ {t:['మొదటి పలకరింపు: नमस्ते','First greeting: namaste'],b:['హిందీలో ఎవర్ని కలిసినా "नमस्ते" అంటారు — మన "నమస్తే" లాగే. జోడించిన చేతులతో చెబితే మర్యాద.','In Hindi everyone is greeted with "namaste", just like our namaste. Join your palms for respect.']},
  {t:['రోజువారీ పదాలు','Everyday words'],b:['पानी = నీళ్లు · किताब = పుస్తకం · स्कूल = పాఠశాల · दोस्त = స్నేహితుడు · घर = ఇల్లు. ఇవి తెలిస్తే హిందీ సినిమా, పాటలు అర్థమవుతాయి!','paani = water · kitaab = book · school = school · dost = friend · ghar = home. Know these and Hindi songs start making sense!']},
  {t:['నీ పేరు చెప్పడం','Saying your name'],b:['"मेरा नाम राम है" = నా పేరు రామ్. మీ పేరు పెట్టి ప్రాక్టీస్ చేయండి: "मेरा नाम ___ है"','"mera naam Ram hai" means my name is Ram. Practice with your own name: mera naam ___ hai.']},
  {t:['లెక్కలు १-५','Numbers 1 to 5'],b:['१ एक (ఒకటి) · २ दो (రెండు) · ३ तीन (మూడు) · ४ चार (నాలుగు) · ५ पांच (ఐదు). హిందీ అంకెలు కొంచెం భిన్నంగా కనిపిస్తాయి కానీ ధ్వని సులభం.','1 ek · 2 do · 3 teen · 4 chaar · 5 paanch. Hindi digits look different but the sounds are easy.']}],
@@ -343,16 +343,16 @@ CARDS:[
  [['व्यंजन (హల్లులు)','Vyanjan (consonants)'],['क ख ग घ — తెలుగు క ఖ గ ఘ లాగే','ka kha ga gha — like Telugu ka kha ga gha']],
  [['नमस्ते','Namaste'],['పలకరింపు — hello / నమస్తే','A greeting — hello / namaste']],
  [['पानी','Paani'],['నీళ్లు — water','Water']],
- [['धन्यवाद్','Dhanyavaad'],['ధన్యవాదాలు — thank you','Thank you']],
+ [['धन्यवाद्','Dhanyavaad'],['ధన్యవాదాలు — thank you','Thank you']],
  [['मेरा नाम ___ है','Mera naam ___ hai'],['నా పేరు ___ — my name is ___','My name is ___']]],
 QUIZ:[
  {q:['हिंदी ఏ లిపిలో రాస్తారు?','Hindi is written in which script?'],o:['తెలుగు§Telugu','देवनागरि§Devanagari','రోమన్§Roman','అరబిక్§Arabic'],a:1},
  {q:['"पानी" అంటే ఏమిటి?','What does "paani" mean?'],o:['పుస్తకం§Book','నీళ్లు§Water','ఇల్లు§Home','స్నేహితుడు§Friend'],a:1},
  {q:['"नमस्ते" ఎప్పుడు అంటారు?','When do we say "namaste"?'],o:['వెళ్తున్నప్పుడు మాత్రమే§Only while leaving','కలిసినప్పుడు పలకరింపుగా§As a greeting when meeting','కోపంగా ఉన్నప్పుడు§When angry','నవ్వినప్పుడు§When laughing'],a:1},
  {q:['"मेरा नाम सीता है" — ఇక్కడ "मेरा नाम" అంటే?','In "mera naam Sita hai", what does "mera naam" mean?'],o:['నా పేరు§My name','నా ఇల్లు§My home','నా పాఠశాల§My school','నా పుస్తకం§My book'],a:0},
- {q:['हिंदीలో "दो" (२) అంటే?','What is "do" (२) in Hindi?'],o:['ఒకటి§One','మూడు§Three','రెండు§Two','ఐదు§Five'],a:2},
- {q:['"धन्यवाद్" కు సరైన తెలుగు అర్థం?','The right Telugu meaning of "dhanyavaad"?'],o:['శుభోదయం§Good morning','ధన్యవాదాలు§Thank you','విడాకులు§Goodbye','మళ్లీ కలుద్దాం§See you again'],a:1}],
-SUMM:[['हिंदी దేవనागरी లిపిలో రాస్తారు; स्वर = అచ్చులు, व्यंजन = హల్లులు.','Hindi is written in Devanagari; swar means vowels, vyanjan means consonants.'],['చాలా హిందీ ధ్వనులు తెలుగులోనే ఉన్నాయి: अ=అ, क=క, म=మ — భయం వద్దు, నేర్చుకోవడం సులభం.','Most Hindi sounds exist in Telugu: a=అ, ka=క, ma=మ — it is easier than it looks.'],['రోజువారీ పదాలు: पानी నీళ్లు, किताब పుస్తకం, दोस्त స్నేహితుడు, घर ఇల్లు, धन्यवाद్ ధన్యవాదాలు.','Everyday words: paani water, kitaab book, dost friend, ghar home, dhanyavaad thank you.'],['"मेरा नाम ___ है" అంటే నా పేరు ___ — మొదటి హిందీ వాక్యం రేపే ప్రాక్టీస్ చేయండి!','"mera naam ___ hai" means my name is ___ — practice your first Hindi sentence today!']],
+ {q:['హిందీలో "दो" (२) అంటే?','What is "do" (२) in Hindi?'],o:['ఒకటి§One','మూడు§Three','రెండు§Two','ఐదు§Five'],a:2},
+ {q:['"धन्यवाद्" కు సరైన తెలుగు అర్థం?','The right Telugu meaning of "dhanyavaad"?'],o:['శుభోదయం§Good morning','ధన్యవాదాలు§Thank you','విడాకులు§Goodbye','మళ్లీ కలుద్దాం§See you again'],a:1}],
+SUMM:[['हिंदी దేవనాగరి లిపిలో రాస్తారు; स्वर = అచ్చులు, व्यंजन = హల్లులు.','Hindi is written in Devanagari; swar means vowels, vyanjan means consonants.'],['చాలా హిందీ ధ్వనులు తెలుగులోనే ఉన్నాయి: अ=అ, क=క, म=మ — భయం వద్దు, నేర్చుకోవడం సులభం.','Most Hindi sounds exist in Telugu: a=అ, ka=క, ma=మ — it is easier than it looks.'],['రోజువారీ పదాలు: पानी నీళ్లు, किताब పుస్తకం, दोस्त స్నేహితుడు, घर ఇల్లు, धन्यवाद् ధన్యవాదాలు.','Everyday words: paani water, kitaab book, dost friend, ghar home, dhanyavaad thank you.'],['"मेरा नाम ___ है" అంటే నా పేరు ___ — మొదటి హిందీ వాక్యం రేపే ప్రాక్టీస్ చేయండి!','"mera naam ___ hai" means my name is ___ — practice your first Hindi sentence today!']],
 MAP:{center:'🇮🇳 హిందీ మొదటి అడుగులు',rows:[
  ['✍️','లిపి: देवनागरी','Script: Devanagari'],
  ['🔤','स्वर అచ్చులు · व्यंजन హల్లులు','Swar vowels · Vyanjan consonants'],
@@ -369,7 +369,7 @@ function svgGK(){
  +'<rect x="70" y="113" width="160" height="37" fill="#138808"/>'
  +'<circle cx="150" cy="95" r="16" fill="none" stroke="#2b5ea7" stroke-width="2.5"/>'+sp
  +'<text x="150" y="26" text-anchor="middle" font-size="12" font-weight="800" fill="#ffe27a">త్రివర్ణ పతాకం — The Tricolour</text>'
- +'<text x="150" y="168" text-anchor="middle" font-size="10" fill="#dde3f7">కేసరिया · తెలుపు · ఆకుపచ్చ + నీలి అశోక చక్రం (24 అరలు)</text>'
+ +'<text x="150" y="168" text-anchor="middle" font-size="10" fill="#dde3f7">కేసరి · తెలుపు · ఆకుపచ్చ + నీలి అశోక చక్రం (24 అరలు)</text>'
  +'<text x="150" y="183" text-anchor="middle" font-size="9" fill="#8fa3e8">Saffron · White · Green + navy Ashoka Chakra (24 spokes)</text>'
  +'</svg>';
 }
@@ -379,14 +379,14 @@ te:'భారత జాతీయ చిహ్నాలు',en:'India: National S
 meta:['జనరల్ నాలెడ్జ్ · తరగతి 6 · చిత్రం + క్విజ్','GK · Class 6 · picture + quiz'],
 title:['🌏 జాతీయ చిహ్నాలు మాస్టర్ క్లాస్','🌏 National Symbols Master Class'],
 PIC:{h:['త్రివర్ణ పతాకం మన గర్వం','The Tricolour is our pride'],svg:svgGK,cap:['24 అరల అశోక చక్రం = ధర్మం ఎప్పటికీ తిరగాలి','24 spokes of the Ashoka Chakra = righteousness must keep moving'],
- listen:[['భారత జాతీయ పతాకాన్ని త్రివర్ణ పతాకం అంటారు. కేసరिया, తెలుపు, ఆకుపచ్చ రంగులు, మధ్యలో 24 అరల నీలి అశోక చక్రం.','కేసरి ధైర్యాన్ని, తెలుపు శాంతిని, ఆకుపచ్చ సిరిసంపదలను చెబుతాయి.'],['The Indian national flag is called the Tricolour. It has saffron, white and green bands with a 24-spoke navy Ashoka Chakra in the middle.','Saffron stands for courage, white for peace, and green for prosperity.']]},
+ listen:[['భారత జాతీయ పతాకాన్ని త్రివర్ణ పతాకం అంటారు. కేసరి, తెలుపు, ఆకుపచ్చ రంగులు, మధ్యలో 24 అరల నీలి అశోక చక్రం.','కేసరి ధైర్యాన్ని, తెలుపు శాంతిని, ఆకుపచ్చ సిరిసంపదలను చెబుతాయి.'],['The Indian national flag is called the Tricolour. It has saffron, white and green bands with a 24-spoke navy Ashoka Chakra in the middle.','Saffron stands for courage, white for peace, and green for prosperity.']]},
 REAL:[
  {t:['జెండా ఎగరవేసినప్పుడు','When the flag is hoisted'],b:['స్వాతంత్ర్య దినోత్సవం (ఆగష్టు 15), గణతంత్ర దినోత్సవం (జనవరి 26) రోజుల్లా జెండా ఎగరవేసి జాతీయ గీతం పాడతాం. జెండా భూమిని తాకకూడదు.','On Independence Day (Aug 15) and Republic Day (Jan 26) we hoist the flag and sing the anthem. The flag must never touch the ground.']},
  {t:['జాతీయ గీతం పాడటం','Singing the anthem'],b:['"జనగణమన" — రవీంద్రనాథ్ ఠాకూర్ రాశారు. పాడటానికి సుమారు 52 సెకన్లు. స్కూళ్లలో ప్రార్థన సమయంలో గౌరవంగా నిలబడి పాడతాం.','"Jana Gana Mana" was written by Rabindranath Tagore. It takes about 52 seconds to sing. We stand respectfully while it plays.']},
  {t:['జంతువులు, పక్షులు చుట్టూ','Animals and birds around us'],b:['జాతీయ జంతువు బెంగాల్ పులి — జూలో చూడొచ్చు. జాతీయ పక్షి నెమలి — వానకాలంలో డ్యాన్స్ చేస్తుంది. జాతీయ పువ్వు తామర — చెరువుల్లో పూయుంటుంది.','The national animal is the Bengal tiger, the national bird is the peacock, and the national flower is the lotus. You can spot all three in India.']},
  {t:['చెట్టు, పండు, నది','Tree, fruit and river'],b:['జాతీయ చెట్టు మర్రి (బర్గద్) — విస్తారంగా పెరుగుతుంది. జాతీయ పండు మామిడి. జాతీయ నది గంగ — ఉత్తరాదిని ప్రవహిస్తుంది.','The national tree is the banyan, the national fruit is the mango, and the national river is the Ganga.']}],
 CARDS:[
- [['జాతీయ పతాకం','National flag'],['త్రివర్ణం: కేసरి, తెలుపు, ఆకుపచ్చ + అశోక చక్రం','Tricolour: saffron, white, green + Ashoka Chakra']],
+ [['జాతీయ పతాకం','National flag'],['త్రివర్ణం: కేసరి, తెలుపు, ఆకుపచ్చ + అశోక చక్రం','Tricolour: saffron, white, green + Ashoka Chakra']],
  [['జాతీయ గీతం','National anthem'],['జనగణమన — రచయిత రవీంద్రనాథ్ ఠాకూర్','Jana Gana Mana by Rabindranath Tagore']],
  [['జాతీయ జంతువు','National animal'],['బెంగాల్ పులి (tiger)','Bengal tiger']],
  [['జాతీయ పక్షి','National bird'],['నెమలి (peacock)','Peacock']],
@@ -398,8 +398,8 @@ QUIZ:[
  {q:['మన జాతీయ గీతం "జనగణమన" ఎవరు రాశారు?','Who wrote our national anthem "Jana Gana Mana"?'],o:['బంకిం చంద్ర చటర్జీ§Bankim Chandra Chatterjee','రవీంద్రనాథ్ ఠాకూర్§Rabindranath Tagore','మహాత్మా గాంధీ§Mahatma Gandhi','సుభాష్ చంద్రబోస్§Subhas Chandra Bose'],a:1},
  {q:['భారత జాతీయ జంతువు ఏది?','What is the national animal of India?'],o:['సింహం§Lion','ఏనుగు§Elephant','బెంగాల్ పులి§Bengal tiger','చిరుత§Leopard'],a:2},
  {q:['జాతీయ పువ్వు ఏది?','Which is the national flower?'],o:['గులాబీ§Rose','తామర§Lotus','బంతి§Marigold','మల్లె§Jasmine'],a:1},
- {q:['జెండాలో కేసरి (orange) రంగు దేన్ని సూచిస్తుంది?','What does the saffron band of the flag stand for?'],o:['శాంతి§Peace','ధైర్యం, త్యాగం§Courage and sacrifice','సిరిసంపదలు§Prosperity','చదువు§Education'],a:1}],
-SUMM:[['జాతీయ పతాకం = త్రివర్ణం: కేసरి (ధైర్యం), తెలుపు (శాంతి), ఆకుపచ్చ (సిరిసంపదలు); మధ్యలో 24 అరల నీలి అశోక చక్రం.','The Tricolour: saffron for courage, white for peace, green for prosperity, with the 24-spoke navy Ashoka Chakra at the centre.'],['జాతీయ గీతం "జనగణమన" రవీంద్రనాథ్ ఠాకూర్ రాశారు; జాతీయ గానం "వందేమాతరం" బంకిం చంద్ర చటర్జీ రాశారు.','The anthem Jana Gana Mana is by Tagore; the national song Vande Mataram is by Bankim Chandra Chatterjee.'],['జంతువు పులి · పక్షి నెమలి · పువ్వు తామర · పండు మామిడి · చెట్టు మర్రి · నది గంగ.','Animal tiger · bird peacock · flower lotus · fruit mango · tree banyan · river Ganga.'],['జెండా గౌరవం: భూమిని తాకకూడదు, పళ్లు చిరిగిపోయిన జెండాను వాడకూడదు.','Respect the flag: it must never touch the ground, and a torn flag must not be used.']],
+ {q:['జెండాలో కేసరి (orange) రంగు దేన్ని సూచిస్తుంది?','What does the saffron band of the flag stand for?'],o:['శాంతి§Peace','ధైర్యం, త్యాగం§Courage and sacrifice','సిరిసంపదలు§Prosperity','చదువు§Education'],a:1}],
+SUMM:[['జాతీయ పతాకం = త్రివర్ణం: కేసరి (ధైర్యం), తెలుపు (శాంతి), ఆకుపచ్చ (సిరిసంపదలు); మధ్యలో 24 అరల నీలి అశోక చక్రం.','The Tricolour: saffron for courage, white for peace, green for prosperity, with the 24-spoke navy Ashoka Chakra at the centre.'],['జాతీయ గీతం "జనగణమన" రవీంద్రనాథ్ ఠాకూర్ రాశారు; జాతీయ గానం "వందేమాతరం" బంకిం చంద్ర చటర్జీ రాశారు.','The anthem Jana Gana Mana is by Tagore; the national song Vande Mataram is by Bankim Chandra Chatterjee.'],['జంతువు పులి · పక్షి నెమలి · పువ్వు తామర · పండు మామిడి · చెట్టు మర్రి · నది గంగ.','Animal tiger · bird peacock · flower lotus · fruit mango · tree banyan · river Ganga.'],['జెండా గౌరవం: భూమిని తాకకూడదు, పళ్లు చిరిగిపోయిన జెండాను వాడకూడదు.','Respect the flag: it must never touch the ground, and a torn flag must not be used.']],
 MAP:{center:'🌏 జాతీయ చిహ్నాలు',rows:[
  ['🚩','పతాకం: త్రివర్ణం + అశోక చక్రం (24 అరలు)','Flag: Tricolour + 24-spoke Chakra'],
  ['🎵','గీతం జనగణమన · గానం వందేమాతరం','Anthem Jana Gana Mana · Song Vande Mataram'],
