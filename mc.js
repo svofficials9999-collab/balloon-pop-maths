@@ -10,7 +10,7 @@ document.body.appendChild(dv);
 (function(){
 if(window.__svmc)return;window.__svmc=1;
 function isTe(){try{return (typeof S!=='undefined'&&S&&S.lang)?S.lang==='te':true}catch(e){return true}}
-function SND(k){try{if(typeof sfx==='function')sfx(k)}catch(e){}}
+function SND(k){try{var x=(typeof SFX!=='undefined')?SFX:window.SFX;if(!x)return;if(k==='pop')x.pop();else if(k==='nope')x.wrong();else x.tap()}catch(e){}}
 var T={
 title:['🎓 (a+b)² మాస్టర్ క్లాస్','🎓 (a+b)² Master Class'],
 hubTitle:['🎓 మాస్టర్ క్లాసులు','🎓 Master Classes'],
