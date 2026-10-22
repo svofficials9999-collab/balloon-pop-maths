@@ -215,6 +215,99 @@ MAP:{center:'⏳ మూడు కాలాలు',rows:[
  ['🔵','Future = will + V1 (రాబోయేవి)','Future = will + V1 (coming)'],
  ['👤','He/She/It + s: she goes','He/She/It + s: she goes'],
  ['🔑','yesterday→Past · every day→Present · tomorrow→Future','yesterday→Past · every day→Present · tomorrow→Future']]}};
+/* ---------- Class 5: Telugu Sandhi (Telugu grammar) ---------- */
+function svgSandhi(){
+ return '<svg class="mc-svg2" viewBox="0 0 300 190">'
+ +'<rect width="300" height="190" fill="#0b1030" rx="12"/>'
+ +'<text x="150" y="26" text-anchor="middle" font-size="12" font-weight="800" fill="#ffe27a">పదం + పదం = కలిసిన పదం</text>'
+ +'<rect x="14" y="44" width="272" height="34" rx="10" fill="#232c4e"/><text x="150" y="66" text-anchor="middle" font-size="13" fill="#dde3f7">విద్య + ఆలయం = <tspan fill="#aff7d2" font-weight="900">విద్యాలయం</tspan></text>'
+ +'<rect x="14" y="88" width="272" height="34" rx="10" fill="#232c4e"/><text x="150" y="110" text-anchor="middle" font-size="13" fill="#dde3f7">దేవ + ఇంద్రుడు = <tspan fill="#aff7d2" font-weight="900">దేవేంద్రుడు</tspan></text>'
+ +'<rect x="14" y="132" width="272" height="34" rx="10" fill="#232c4e"/><text x="150" y="154" text-anchor="middle" font-size="13" fill="#dde3f7">ప్రతి + ఒక్కరు = <tspan fill="#aff7d2" font-weight="900">ప్రతియొక్కరు</tspan></text>'
+ +'<text x="150" y="182" text-anchor="middle" font-size="9.5" fill="#8fa3e8">కలిసిన చోట అక్షరం మారుతుంది — అదే సంధి!</text>'
+ +'</svg>';
+}
+var SANDHI={
+id:'sandhi',icon:'🪷',
+te:'సంధులు (పదాలు కలపడం)',en:'Sandhi — Joining Words',
+meta:['తెలుగు · తరగతి 7 · చిత్రం + క్విజ్','Telugu · Class 7 · picture + quiz'],
+title:['🪷 సంధులు మాస్టర్ క్లాస్','🪷 Sandhi Master Class'],
+PIC:{h:['రెండు పదాలు కలిసినప్పుడు ఏమవుతుంది?','What happens when two words join?'],svg:svgSandhi,cap:['సంధి = పదాలు కలిసిన చోట వచ్చే అక్షర మార్పు','Sandhi = the letter change where two words join'],
+ listen:[['సంధి అంటే రెండు పదాలు కలిసినప్పుడు అక్షరాలు మారడం','విద్య ఆలయం కలిపి విద్యాలయం','దేవ ఇంద్రుడు కలిపి దేవేంద్రుడు'],['Sandhi means letters changing when two words join','vidya plus aalayam becomes vidyaalayam','deva plus indrudu becomes devendrudu']]},
+REAL:[
+ {t:['మనం రోజూ వాడే సంధులు','Sandhis we use every day'],b:['విద్యాలయం, మహర్షి, దేవాలయం, ప్రతియొక్కరు — ఇవన్నీ సంధితో ఏర్పడిన పదాలే! మనం రోజూ మాట్లాడే మాటల్లో సంధులు ఎన్నో ఉన్నాయి.','Vidyalayam, maharshi, devalayam, pratiyokkaru — all these are sandhi words. Our daily speech is full of them.']},
+ {t:['పరీక్షలో మార్కులు దెంతులు','Exam marks from sandhi'],b:['"విద్యాలయం సంధి చేయండి" అంటే విద్య + ఆలయం అని విడదీయాలి. "దేవేంద్రుడు" అంటే దేవ + ఇంద్రుడు. విడదీత, కలపడం — రెండూ వస్తాయి.','If the exam says "split vidyalayam", answer vidya + aalayam. Joining and splitting both come as questions.']},
+ {t:['పేర్లలో కూడా సంధి','Sandhi hides in names too'],b:['రవి + ఇంద్రుడు = రవీంద్రుడు (రవీంద్ర), సుర + ఇంద్రుడు = సురేంద్రుడు (సురేంద్ర). పేర్లు విన్నప్పుడు సంధి గుర్తుపట్టవచ్చు.','Ravi + indrudu = Raveendrudu, Sura + indrudu = Surendrudu. You can spot sandhi inside common names.']},
+ {t:['రాయడంలో జాగ్రత్త','Careful while writing'],b:['"విద్య ఆలయం" వేర్వేరుగా రాసినా అర్థం అదే; కానీ కలిపి రాస్తే సరైన రూపం విద్యాలయం. పొడవు అక్షరం మరిచిపోకూడదు!','Writing vidya aalayam separately gives the same meaning, but joined, the correct form is vidyaalayam — do not drop the long aa!']}],
+CARDS:[
+ [['సంధి అంటే?','What is sandhi?'],['పదాలు కలిసిన చోట అక్షర మార్పు','The letter change where words join']],
+ [['సవర్ణదీర్ఘ సంధి','Savarna-deergha sandhi'],['అ + అ = ఆ: విద్య + ఆలయం = విద్యాలయం','a + a = aa: vidya + aalayam = vidyaalayam']],
+ [['గుణసంధి','Guna sandhi'],['అ + ఇ = ఏ: దేవ + ఇంద్రుడు = దేవేంద్రుడు','a + i = e: deva + indrudu = devendrudu']],
+ [['గుణసంధి మరో ఉదాహరణ','One more guna example'],['అ + ఋ = అర్: మహా + ఋషి = మహర్షి','a + ru = ar: maha + rishi = maharshi']],
+ [['యణాదేశ సంధి','Yanaadesha sandhi'],['ఇ + ఒ = యొ: ప్రతి + ఒక్కరు = ప్రతియొక్కరు','i + o = yo: prati + okkaru = pratiyokkaru']],
+ [['విడదీయడం (విగ్రహం)','Splitting (vigraham)'],['విద్యాలయం = విద్య + ఆలయం','vidyaalayam = vidya + aalayam']]],
+QUIZ:[
+ {q:['విద్యాలయం = విద్య + ?','Vidyalayam = vidya + ?'],o:['ఆలయం','అలయం','ఇలయం','ఉలయం'],a:0},
+ {q:['దేవ + ఇంద్రుడు కలిపితే ఏమవుతుంది?','Deva + indrudu gives?'],o:['దేవింద్రుడు','దేవేంద్రుడు','దేవంద్రుడు','దేవీంద్రుడు'],a:1},
+ {q:['మహా + ఋషి = ?','Maha + rishi = ?'],o:['మహర్షి','మహాఋషి','మహేర్షి','మహార్షి'],a:0},
+ {q:['ప్రతి + ఒక్కరు = ?','Prati + okkaru = ?'],o:['ప్రతివొక్కరు','ప్రతిఒక్కరు','ప్రతియొక్కరు','ప్రతేక్కరు'],a:2},
+ {q:['అ + అ కలిస్తే ఏమవుతుంది? (సవర్ణదీర్ఘం)','a + a becomes? (savarna-deergha)'],o:['ఇ','ఆ','ఏ','ఓ'],a:1},
+ {q:['సంధి అంటే ఏమిటి?','What is sandhi?'],o:['పదాలు కలిసిన చోట అక్షర మార్పు§The letter change where words join','పదాలు వేరు చేయడం§Splitting words','కొత్త పదాలు కనిపెట్టడం§Inventing new words','పదాల అర్థం మారడం§Changing word meanings'],a:0}],
+SUMM:[['సంధి = రెండు పదాలు కలిసిన చోట వచ్చే అక్షర మార్పు.','Sandhi = the letter change where two words join.'],['సవర్ణదీర్ఘం: అ+అ=ఆ (విద్యాలయం); గుణసంధి: అ+ఇ=ఏ (దేవేంద్రుడు), అ+ఋ=అర్ (మహర్షి).','Savarna: a+a=aa (vidyaalayam); Guna: a+i=e (devendrudu), a+ru=ar (maharshi).'],['యణాదేశం: ఇ+ఒ=యొ (ప్రతియొక్కరు).','Yanaadesha: i+o=yo (pratiyokkaru).'],['కలపడం (సంధి), విడదీయడం (విగ్రహం) — రెండూ ప్రాక్టీస్ చేయి, పరీక్షలో రెండూ అడుగుతారు.','Practice both joining (sandhi) and splitting (vigraham) — exams ask both.']],
+MAP:{center:'🪷 సంధి',rows:[
+ ['🔗','పదం + పదం = కలిసిన పదం','Word + word = joined word'],
+ ['ఆ','అ+అ=ఆ: విద్యాలయం','a+a=aa: vidyaalayam'],
+ ['ఏ','అ+ఇ=ఏ: దేవేంద్రుడు','a+i=e: devendrudu'],
+ ['యొ','ఇ+ఒ=యొ: ప్రతియొక్కరు','i+o=yo: pratiyokkaru'],
+ ['✍️','కలపడం + విడదీయడం రెండూ నేర్చుకో','Learn both joining and splitting']]}};
+/* ---------- Class 6: Pythagoras (Maths) ---------- */
+function svgPyth(){
+ return '<svg class="mc-svg2" viewBox="0 0 300 250">'
+ +'<rect width="300" height="250" fill="#0b1030" rx="12"/>'
+ +'<rect x="30" y="140" width="90" height="90" fill="#ff6b81" opacity=".85"/><text x="75" y="190" text-anchor="middle" font-size="13" font-weight="900" fill="#fff">3²=9</text>'
+ +'<rect x="120" y="170" width="120" height="60" fill="#4cd97b" opacity=".85"/><text x="180" y="205" text-anchor="middle" font-size="13" font-weight="900" fill="#063">4²=16</text>'
+ +'<polygon points="120,140 120,170 240,170" fill="#232c4e" stroke="#ffd76a" stroke-width="2"/>'
+ +'<rect x="120" y="160" width="10" height="10" fill="none" stroke="#ffd76a" stroke-width="1.5"/>'
+ +'<text x="112" y="158" text-anchor="end" font-size="11" fill="#dde3f7">3</text>'
+ +'<text x="180" y="186" text-anchor="middle" font-size="11" fill="#063" font-weight="700">4</text>'
+ +'<polygon points="120,140 240,170 120,170" fill="none" stroke="#5aa9ff" stroke-width="3"/>'
+ +'<text x="185" y="148" text-anchor="middle" font-size="11" fill="#9cc4ff">5 (కర్ణం)</text>'
+ +'<text x="150" y="30" text-anchor="middle" font-size="14" font-weight="900" fill="#ffe27a">3² + 4² = 5²  →  9 + 16 = 25</text>'
+ +'<text x="150" y="55" text-anchor="middle" font-size="11" fill="#dde3f7">లంబకోణ త్రిభుజంలోనే పనిచేస్తుంది!</text>'
+ +'</svg>';
+}
+var PYTH={
+id:'pyth',icon:'📐',
+te:'పైథాగరస్ సిద్ధాంతం',en:'Pythagoras Theorem',
+meta:['గణితం · తరగతి 8 · చిత్రం + క్విజ్','Maths · Class 8 · picture + quiz'],
+title:['📐 పైథాగరస్ మాస్టర్ క్లాస్','📐 Pythagoras Master Class'],
+PIC:{h:['3-4-5 త్రిభుజం: చిన్న వర్గాలు కలిస్తే పెద్ద వర్గం','The 3-4-5 triangle: small squares add to the big one'],svg:svgPyth,cap:['a² + b² = c² — కర్ణం వర్గం = మిగతా రెండు భుజాల వర్గాల మొత్తం','a² + b² = c² — hypotenuse square = sum of the other two squares'],
+ listen:[['లంబకోణ త్రిభుజంలో కర్ణం వర్గం మిగతా రెండు భుజాల వర్గాల మొత్తానికి సమానం','మూడు నాలుగు ఐదు అతి ప్రసిద్ధ త్రిభుజం'],['In a right triangle, the hypotenuse square equals the sum of the other two squares','Three four five is the most famous triangle']]},
+REAL:[
+ {t:['గోడకు ఆనించిన నిచ్చెన','A ladder against the wall'],b:['నిచ్చెన పొడవు 5 మీ, గోడకు కాలువ 3 మీ దూరంలో ఉంటే ఎంత ఎత్తు వరకు చేరుతుంది? 5² − 3² = 16 → √16 = 4 మీ!','A 5 m ladder stands 3 m from a wall. How high does it reach? 5² − 3² = 16, so the answer is 4 m.']},
+ {t:['TV / ఫోన్ స్క్రీన్ కొలత','TV and phone screen size'],b:['స్క్రీన్ సైజు ఎల్లప్పుడూ కర్ణంలో (డయాగనల్) చెబుతారు — 55 అంగుళాల TV అంటే మూల నుండి మూలకు కొలత.','Screen size is always the diagonal — a 55 inch TV is measured corner to corner.']},
+ {t:['నేరుగా దగ్గరి దారి','The shortcut across'],b:['చతురస్రాకార మైదానంలో రెండు వైపులా నడిస్తే 3+4=7 మీ; కొలత దాటి (కర్ణం) వెళ్తే 5 మీ మాత్రమే — 2 మీ ఆదా!','Walking around a 3-4 field takes 7 m; crossing the diagonal takes just 5 m — you save 2 m.']},
+ {t:['కూలి/కార్పెంటర్ గుర్తు','The masons trick'],b:['గోడలు లంబకోణంలో ఉన్నాయా అని చూడటానికి కూలిలు 3-4-5 కొలత వాడతారు — టేపుతో 3, 4 కొనలు కొనిసి మూడోది 5 అయితే కోణం సరిగ్గా ఉంటుంది.','Masons use the 3-4-5 measure to check right angles — if the third side reads 5, the corner is perfectly square.']}],
+CARDS:[
+ [['సూత్రం','The formula'],['a² + b² = c²','a² + b² = c²']],
+ [['కర్ణం (c)','The hypotenuse (c)'],['లంబకోణానికి ఎదురుగా ఉండే అతి పొడవైన భుజం','The longest side, opposite the right angle']],
+ [['ప్రసిద్ధ త్రిభుజం','The famous triangle'],['3, 4, 5 — కచ్చితంగా గుర్తు','3, 4, 5 — know it by heart']],
+ [['ఎప్పుడు వాడాలి?','When can you use it?'],['లంబకోణ త్రిభుజాల్లో మాత్రమే!','Right-angled triangles only!']],
+ [['మరో త్రిభుజం','Another triple'],['6, 8, 10 (3-4-5 × 2)','6, 8, 10 (3-4-5 times 2)']],
+ [['అతిపెద్ద పొరపాటు','Biggest mistake'],['c² కాకుండా c అడుగుతున్నారేమో చూడు — √ మర్చిపోకు!','If they ask for c, do not forget the square root!']]],
+QUIZ:[
+ {q:['పైథాగరస్ సూత్రం ఏది?','Which is the Pythagoras formula?'],o:['a² + b² = c²','a + b = c','a² − b² = c²','2a + 2b = c'],a:0},
+ {q:['కర్ణం అంటే?','What is the hypotenuse?'],o:['అతి చిన్న భుజం§The shortest side','లంబకోణానికి ఎదురుగా ఉండే అతి పొడవైన భుజం§The longest side, opposite the right angle','భూమి వైపు భుజం§The bottom side','ఏ భుజమైనా§Any side'],a:1},
+ {q:['భుజాలు 3, 4 అయితే కర్ణం ఎంత?','If the sides are 3 and 4, the hypotenuse is?'],o:['7','25','5','12'],a:2},
+ {q:['పైథాగరస్ సిద్ధాంతం ఏ త్రిభుజాలకు వర్తిస్తుంది?','The theorem works for which triangles?'],o:['అన్ని త్రిభుజాలు§All triangles','లంబకోణ త్రిభుజాలు మాత్రమే§Right-angled triangles only','సమబాహు త్రిభుజాలు§Equilateral triangles','సమద్విబాహు త్రిభుజాలు§Isosceles triangles'],a:1},
+ {q:['6, 8, ? — మూడో భుజం ఎంత?','6, 8, ? — what is the third side?'],o:['10','14','9','12'],a:0},
+ {q:['కర్ణం 13, ఒక భుజం 5 అయితే మరో భుజం?','Hypotenuse 13, one side 5 — the other side?'],o:['8','12','11','√18'],a:1}],
+SUMM:[['లంబకోణ త్రిభుజంలో: a² + b² = c² (c = కర్ణం, అతి పొడవైన భుజం).','In a right triangle: a² + b² = c² (c = hypotenuse, the longest side).'],['3-4-5 గుర్తు పెట్టుకో — దాని గుణకాలు (6-8-10, 9-12-15) కూడా త్రిభుజాలే.','Remember 3-4-5 — its multiples (6-8-10, 9-12-15) also work.'],['కర్ణం కావాలంటే వర్గాలు కూడి √ పెట్టు; భుజం కావాలంటే c² నుండి తీసివేసి √ పెట్టు.','For the hypotenuse, add the squares and root; for a side, subtract from c² and root.'],['నిచ్చెన, స్క్రీన్, దగ్గరి దారి, కూలి కొలత — నిజ జీవితంలో నేరుగా వాడవచ్చు.','Ladders, screens, shortcuts, masonry — you can use it directly in real life.']],
+MAP:{center:'📐 a² + b² = c²',rows:[
+ ['📐','లంబకోణ త్రిభుజాల్లో మాత్రమే','Right triangles only'],
+ ['🎯','కర్ణం = అతి పొడవైన భుజం','Hypotenuse = longest side'],
+ ['3️⃣','3-4-5 ప్రసిద్ధ త్రిభుజం','3-4-5 the famous triple'],
+ ['🪜','నిచ్చెన, స్క్రీన్, దగ్గరి దారి','Ladder, screen, shortcut'],
+ ['⚠️','√ మర్చిపోకు!','Do not forget the square root!']]}};
 /* ---------- Engine ---------- */
 var ov=document.getElementById('svmc-ov'),cur=0,qi=0,qScore=0,cardI=0,cardFlip=false,inList=true,curCls=APLUSB;
 function el(id){return document.getElementById(id)}
@@ -285,8 +378,8 @@ function renderHead(){
  T.tabs.forEach(function(t,i){var b=document.createElement('button');b.textContent=t[isTe()?0:1];if(i===cur)b.className='on';b.onclick=function(){cur=i;qi=0;qScore=0;renderHead()};tabs.appendChild(b)});
  renderBody();
 }
-var CLASSES=[APLUSB,SOLAR,INDIAGEO,TENSES];
-var MCSOON=[['🪷','తెలుగు','Telugu'],['➕','మరిన్ని గణితం','More maths'],['🇮🇳','హిందీ','Hindi'],['🌏','జనరల్ నాలెడ్జ్','GK']];
+var CLASSES=[APLUSB,SOLAR,INDIAGEO,TENSES,SANDHI,PYTH];
+var MCSOON=[['🇮🇳','హిందీ','Hindi'],['🌏','జనరల్ నాలెడ్జ్','GK'],['➕','మరిన్ని గణితం','More maths']];
 function renderList(){
  inList=true;stopSpeak();
  ov.innerHTML='<div class="mc-head"><button class="mc-hb" id="mc-back" aria-label="close">✕</button><div class="mc-t">'+L('hubTitle')+'</div><button class="mc-hb" id="mc-lang">'+(isTe()?'EN':'తె')+'</button></div><div id="svmc-body"></div>';
