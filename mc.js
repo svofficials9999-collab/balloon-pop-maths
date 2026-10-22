@@ -13,6 +13,10 @@ function isTe(){try{return (typeof S!=='undefined'&&S&&S.lang)?S.lang==='te':tru
 function SND(k){try{if(typeof sfx==='function')sfx(k)}catch(e){}}
 var T={
 title:['🎓 (a+b)² మాస్టర్ క్లాస్','🎓 (a+b)² Master Class'],
+hubTitle:['🎓 మాస్టర్ క్లాసులు','🎓 Master Classes'],
+hubSub:['ఒక్కో ముఖ్యమైన అంశానికి లోతైన పాఠం — చిత్రం, జీవిత ఉదాహరణలు, ఫ్లాష్‌కార్డ్స్, మైండ్ మ్యాప్, క్విజ్.','One key idea at a time, taught deeply — picture, real life, flashcards, mind map, quiz.'],
+avail:['ఇప్పుడు అందుబాటులో','Available now'],
+soon:['త్వరలో — మరిన్ని మాస్టర్ క్లాసులు వస్తున్నాయి','Coming soon — more master classes'],
 tabs:[['🔲 చిత్రం','🔲 Picture'],['🌍 జీవితంలో','🌍 Real life'],['🃏 ఫ్లాష్‌కార్డ్స్','🃏 Flashcards'],['🧠 మైండ్ మ్యాప్','🧠 Mind map'],['❓ క్విజ్','❓ Quiz'],['📄 సారాంశం','📄 Summary']],
 listen:['🔊 వినండి','🔊 Listen'],stop:['⏹ ఆపు','⏹ Stop'],back:['వెనుక్కి','Back'],
 score:['స్కోరు','Score'],again:['మళ్లీ ప్రయత్నించండి','Try again'],next:['తర్వాత','Next'],prev:['ముందు','Back'],flip:['తిప్పండి','Flip']};
@@ -37,11 +41,14 @@ var QUIZ=[
  {q:['ఒక చదరపు పొలం వైపు 30 మీ. ప్రతి వైపు 2 మీ పెరిగితే కొత్త వైశాల్యం?','A square field side is 30 m. Each side grows by 2 m. New area?'],o:[['904 చ.మీ','904 sq m'],['960 చ.మీ','960 sq m'],['1024 చ.మీ','1024 sq m'],['964 చ.మీ','964 sq m']],a:2},
  {q:['45² = (40+5)² = ?','45² = (40+5)² = ?'],o:[['2025','2025'],['1625','1625'],['2005','2005'],['2125','2125']],a:0}];
 var SUMM=[['(a+b)² = a² + 2ab + b² — మూడు భాగాలు: మొదటిది వర్గం, రెండింటి రెట్టింపు లబ్దం, రెండోది వర్గం.','(a+b)² = a² + 2ab + b² — three parts: square of first, twice the product, square of last.'],['చదరపు చిత్రంలో 4 భాగాలుగా చూపవచ్చు: a², ab, ab, b².','In a square picture it shows as 4 areas: a², ab, ab, b².'],['రోజువారీ లెక్కల్లో (103², 45², టైల్స్, ప్లాట్లు) నేరుగా వాడవచ్చు.','Use it directly in daily maths: 103², 45², tiles, plots.'],['గుర్తుంచుకోండి: (a+b)² అంటే a² + b² కాదు — మధ్య 2ab తప్పనిసరి!','Remember: (a+b)² is NOT a² + b² — the middle 2ab is a must!']];
-var ov=document.getElementById('svmc-ov'),cur=0,qi=0,qScore=0,cardI=0,cardFlip=false,mcA=3,mcB=2;
+var MCLIST=[{icon:'🧮',te:'(a+b)² వర్గ సూత్రం',en:'(a+b)² — the square formula',meta:['గణితం · తరగతి 8 · చిత్రం + క్విజ్','Maths · Class 8 · picture + quiz']}];
+var MCSOON=[['🔬','సైన్స్','Science'],['🏛️','సాంఘిక శాస్త్రం','Social'],['🔤','ఇంగ్లీష్','English'],['🪷','తెలుగు','Telugu'],['➕','మరిన్ని గణితం','More maths']];
+var ov=document.getElementById('svmc-ov'),cur=0,qi=0,qScore=0,cardI=0,cardFlip=false,mcA=3,mcB=2,inList=true;
 function el(id){return document.getElementById(id)}
 function renderHead(){
+ inList=false;
  ov.innerHTML='<div class="mc-head"><button class="mc-hb" id="mc-back" aria-label="'+L('back')+'">←</button><div class="mc-t">'+T.title[isTe()?0:1]+'</div><button class="mc-hb" id="mc-lang">'+(isTe()?'EN':'తె')+'</button></div><div id="svmc-tabs"></div><div id="svmc-body"></div>';
- el('mc-back').onclick=closeMc;
+ el('mc-back').onclick=function(){stopSpeak();renderList()};
  el('mc-lang').onclick=function(){try{document.getElementById('blang').click()}catch(e){}setTimeout(renderHead,150)};
  var tabs=el('svmc-tabs');tabs.innerHTML='';
  T.tabs.forEach(function(t,i){var b=document.createElement('button');b.textContent=t[isTe()?0:1];if(i===cur)b.className='on';b.onclick=function(){cur=i;qi=0;qScore=0;renderHead()};tabs.appendChild(b)});
@@ -131,10 +138,29 @@ window.__mcAns=function(i,btn){
  if(ok){qScore++;SND('pop')}else{SND('nope');btn.classList.add('bad')}
  setTimeout(function(){qi++;renderBody()},900);
 };
-function openMc(){renderHead();ov.classList.add('on');ov.setAttribute('aria-hidden','false');document.body.style.overflow='hidden'}
+function renderList(){
+ inList=true;stopSpeak();
+ ov.innerHTML='<div class="mc-head"><button class="mc-hb" id="mc-back" aria-label="close">✕</button><div class="mc-t">'+L('hubTitle')+'</div><button class="mc-hb" id="mc-lang">'+(isTe()?'EN':'తె')+'</button></div><div id="svmc-body"></div>';
+ el('mc-back').onclick=closeMc;
+ el('mc-lang').onclick=function(){try{document.getElementById('blang').click()}catch(e){}setTimeout(function(){paintBtn();renderList()},150)};
+ var h='<div class="mc-card"><p style="margin:0">'+L('hubSub')+'</p></div>';
+ h+='<div class="mc-card"><h3>'+L('avail')+'</h3>';
+ MCLIST.forEach(function(c,i){
+  h+='<button class="mc-opt" data-mc="'+i+'" style="font-size:15px;font-weight:800">'+c.icon+' '+(isTe()?c.te:c.en)+'<br><small style="font-weight:600;color:#aab3d6">'+c.meta[isTe()?0:1]+'</small></button>';
+ });
+ h+='</div><div class="mc-card"><h3>'+L('soon')+'</h3><div class="mc-map" style="flex-direction:row;flex-wrap:wrap;justify-content:center">'
+ +MCSOON.map(function(s){return '<span class="mc-node mc-branch" style="opacity:.6">'+s[0]+' '+(isTe()?s[1]:s[2])+'</span>'}).join('')+'</div></div>';
+ var b=el('svmc-body');b.innerHTML=h;
+ [...b.querySelectorAll('[data-mc]')].forEach(function(btn){btn.onclick=function(){SND('ui');cur=0;qi=0;qScore=0;renderHead()}});
+}
+function openMc(){renderList();ov.classList.add('on');ov.setAttribute('aria-hidden','false');document.body.style.overflow='hidden'}
 function closeMc(){stopSpeak();ov.classList.remove('on');ov.setAttribute('aria-hidden','true');document.body.style.overflow=''}
 var mcBtn=document.createElement('button');
-mcBtn.id='svmc-btn';mcBtn.className='small-btn premium-feature';mcBtn.textContent='🎓 (a+b)²';
+mcBtn.id='svmc-btn';mcBtn.className='small-btn premium-feature';
+function paintBtn(){
+ mcBtn.innerHTML='<span style="display:block;font-size:15px;font-weight:900;line-height:1.3">'+(isTe()?'🎓 మాస్టర్ క్లాసులు':'🎓 Master Classes')+'</span><span style="display:block;font-size:11px;font-weight:800;opacity:.92;line-height:1.35;margin-top:2px">'+(isTe()?'Master Classes — గణితం · సైన్స్ · సోషల్ · ఇంగ్లీష్':'Deep lessons — Maths · Science · Social · English')+'</span>';
+}
+paintBtn();
 mcBtn.onclick=function(){SND('ui');openMc()};
 function hook(){
  var g=document.querySelector('.hgrid');
@@ -143,6 +169,6 @@ function hook(){
 new MutationObserver(hook).observe(document.body,{childList:true,subtree:true});
 hook();
 var langBtn=document.getElementById('blang');
-if(langBtn)langBtn.addEventListener('click',function(){if(ov.classList.contains('on'))setTimeout(renderHead,120)});
+if(langBtn)langBtn.addEventListener('click',function(){paintBtn();if(ov.classList.contains('on'))setTimeout(function(){inList?renderList():renderHead()},120)});
 })();
 })();

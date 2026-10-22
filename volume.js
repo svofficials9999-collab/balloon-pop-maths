@@ -27,8 +27,34 @@ try{
 }catch(e){}
 try{
  if(window.speechSynthesis&&window.speechSynthesis.speak){
-  var os=window.speechSynthesis.speak.bind(window.speechSynthesis);
-  window.speechSynthesis.speak=function(u){try{u.volume=get()}catch(e){}return os(u)};
+  var ss=window.speechSynthesis;
+  var os=ss.speak.bind(ss);
+  var trig=null;
+  document.addEventListener('click',function(e){try{trig=e.target&&e.target.closest?(e.target.closest('button')||e.target):e.target}catch(x){}},true);
+  function note(){
+   try{
+    var p=(trig&&trig.closest&&trig.closest('.phrase,.panel,.card,section,.mc-card,main,#app'))||document.querySelector('main,#app')||document.body;
+    if(!p)return;
+    var n=p.querySelector('[data-audio-missing]');
+    if(!n){n=document.createElement('p');n.setAttribute('data-audio-missing','');n.setAttribute('role','status');n.style.cssText='position:static;margin:10px 0;padding:10px 12px;background:#171b4a;color:#fff;border:1px solid #6a5cff;border-radius:12px;font:14px/1.6 system-ui';p.appendChild(n)}
+    n.textContent=(document.documentElement.lang==='en'?'Voice playback failed on this device. Please read the text aloud.':'\u0C38\u0C4D\u0C35\u0C30\u0C02 \u0C35\u0C3F\u0C28\u0C3F\u0C2A\u0C3F\u0C02\u0C1A\u0C32\u0C47\u0C26\u0C41. \u0C2A\u0C3E\u0C20\u0C3E\u0C28\u0C4D\u0C28\u0C3F \u0C2C\u0C3F\u0C17\u0C4D\u0C17\u0C30\u0C17\u0C3E \u0C1A\u0C26\u0C35\u0C02\u0C21\u0C3F.');
+   }catch(e){}
+  }
+  var keep=null;
+  ss.speak=function(u){
+   try{u.volume=get()}catch(e){}
+   try{
+    var prevErr=u.onerror;
+    u.onerror=function(ev){note();if(typeof prevErr==='function'){try{prevErr.call(u,ev)}catch(e){}}};
+   }catch(e){}
+   var r=os(u);
+   try{
+    if(!keep)keep=setInterval(function(){
+     try{if(ss.speaking){ss.resume()}else{clearInterval(keep);keep=null}}catch(e){}
+    },8000);
+   }catch(e){}
+   return r;
+  };
  }
 }catch(e){}
 window.__aknVol={get:get,set:set};
