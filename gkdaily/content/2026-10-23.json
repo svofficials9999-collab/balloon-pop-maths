@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 1,
+  "revision": 2,
   "timezone": "Asia/Kolkata",
   "sources": {
     "tggk": {
@@ -58,8 +58,8 @@
         "en": "Target of 140 million units of power a day"
       },
       "summary": {
-        "te": "అక్టోబర్ 22న డెక్కన్ క్రానికల్ నివేదిక ప్రకారం, డిప్యూటీ సీఎం మల్లు భట్టి విక్రమార్క విద్యుత్ అధికారులతో సమీక్ష నిర్వహించారు. రబీ, వేసవి కాలాల్లో పెరుగుతున్న విద్యుత్ డిమాండ్‌ను భర్తీ చేయడానికి రోజువారీ థర్మల్ విద్యుత్ ఉత్పత్తిని ప్రస్తుత 118 మిలియన్ యూనిట్ల నుండి 140 మిలియన్ యూనిట్లకు పెంచాలని ఆదేశించారు. జలవిద్యుత్ ఉత్పత్తి తగ్గిన నేపథ్యంలో ఈ నిర్ణయం వచ్చిందని నివేదిక తెలిపింది. అన్ని థర్మల్ యూనిట్లను పూర్తి సామర్థ్యంతో నడపాలని, రోజువారీ పర్యవేక్షణ చేయాలని ఆయన కోరారు.",
-        "en": "Deccan Chronicle reported on October 22 that Deputy Chief Minister Mallu Bhatti Vikramarka held a review with energy officials. He directed them to raise daily thermal power generation from the current 118 million units to 140 million units to meet rising electricity demand in the rabi and summer seasons. The report says the decision comes as hydel generation has fallen. He asked officials to run all thermal units at full capacity and to monitor generation every day."
+        "te": "అక్టోబర్ 22న డెక్కన్ క్రానికల్ నివేదిక ప్రకారం, డిప్యూటీ సీఎం మల్లు భట్టి విక్రమార్క విద్యుత్ అధికారులతో సమీక్ష నిర్వహించారు. రబీ, వేసవి కాలాల్లో పెరుగుతున్న విద్యుత్ డిమాండ్‌ను భర్తీ చేయడానికి ఇటీవలి ఒక రోజు 118 మిలియన్ యూనిట్లు నమోదైన రోజువారీ థర్మల్ విద్యుత్ ఉత్పత్తిని 140 మిలియన్ యూనిట్లకు పెంచాలని ఆదేశించారు. జలవిద్యుత్ ఉత్పత్తి తగ్గిన నేపథ్యంలో ఈ నిర్ణయం వచ్చిందని నివేదిక తెలిపింది. అన్ని థర్మల్ యూనిట్లను పూర్తి సామర్థ్యంతో నడపాలని, రోజువారీ పర్యవేక్షణ చేయాలని ఆయన కోరారు.",
+        "en": "Deccan Chronicle reported on October 22 that Deputy Chief Minister Mallu Bhatti Vikramarka held a review with energy officials. He directed them to raise daily thermal power generation from the recent-day generation of 118 million units to 140 million units to meet rising electricity demand in the rabi and summer seasons. The report says the decision comes as hydel generation has fallen. He asked officials to run all thermal units at full capacity and to monitor generation every day."
       }
     },
     {
@@ -211,8 +211,8 @@
         "en": "What a unit of electricity means"
       },
       "passage": {
-        "te": "విద్యుత్ వినియోగాన్ని యూనిట్లలో కొలుస్తారు. ఒక యూనిట్ అంటే వేయి వాట్ల విద్యుత్తును ఒక గంటపాటు వాడితే వచ్చే శక్తి. దీన్ని కిలోవాట్ గంట అంటారు. వేలాది ఇళ్లు, పొలాలు ఒకేసారి విద్యుత్ వాడినప్పుడు డిమాండ్ పెరుగుతుంది. అందుకే ప్రభుత్వం రోజుకు ఎన్ని మిలియన్ యూనిట్లు ఉత్పత్తి చేయాలో లెక్కేసి ప్రణాళిక వేస్తుంది. 118 నుండి 140 మిలియన్ యూనిట్లకు పెంచాలన్న లక్ష్యం ఈ పెద్ద లెక్కలో చిన్న మార్పు కాదు.",
-        "en": "Electricity use is measured in units. One unit is the energy used when one thousand watts of power run for one hour. It is called a kilowatt-hour. When thousands of homes and farms use power at the same time, demand rises. That is why the government plans how many million units must be generated each day. Raising the target from 118 to 140 million units is not a small change at this scale."
+        "te": "విద్యుత్ వినియోగాన్ని యూనిట్లలో కొలుస్తారు. ఒక యూనిట్ అంటే వేయి వాట్ల విద్యుత్తును ఒక గంటపాటు వాడితే వచ్చే శక్తి. దీన్ని కిలోవాట్ గంట అంటారు. వేలాది ఇళ్లు, పొలాలు ఒకేసారి విద్యుత్ వాడినప్పుడు డిమాండ్ పెరుగుతుంది. అందుకే ప్రభుత్వం రోజుకు ఎన్ని మిలియన్ యూనిట్లు ఉత్పత్తి చేయాలో లెక్కేసి ప్రణాళిక వేస్తుంది. ఇటీవలి ఒక రోజు 118 మిలియన్ యూనిట్లు నమోదయ్యాయి; లక్ష్యం 140 మిలియన్ యూనిట్లు. ఈ పెద్ద లెక్కలో అది చిన్న మార్పు కాదు.",
+        "en": "Electricity use is measured in units. One unit is the energy used when one thousand watts of power run for one hour. It is called a kilowatt-hour. When thousands of homes and farms use power at the same time, demand rises. That is why the government plans how many million units must be generated each day. The report says 118 million units were generated on a recent day; the target is 140 million units. At this scale that is not a small change."
       }
     },
     {
@@ -285,8 +285,8 @@
       },
       "item_id": "gk_20261023_telangana_1",
       "question": {
-        "te": "ప్రస్తుతం రోజుకు థర్మల్ విద్యుత్ ఉత్పత్తి ఎన్ని మిలియన్ యూనిట్లు?",
-        "en": "What is the current daily thermal power generation?"
+        "te": "ఇటీవల నమోదైన రోజువారీ ఉత్పత్తి ఎన్ని మిలియన్ యూనిట్లని నివేదిక తెలిపింది?",
+        "en": "What daily generation did the report say was recently reached?"
       },
       "options": {
         "te": [
@@ -304,8 +304,8 @@
       },
       "answer_index": 0,
       "explanation": {
-        "te": "ప్రస్తుత ఉత్పత్తి 118 మిలియన్ యూనిట్లని నివేదిక పేర్కొంది.",
-        "en": "The report says current generation is 118 million units."
+        "te": "ఇటీవలి ఒక రోజు 118 మిలియన్ యూనిట్లు నమోదయ్యాయని నివేదిక పేర్కొంది.",
+        "en": "The report says 118 million units were reached on a recent day."
       }
     },
     {
@@ -598,7 +598,7 @@
     }
   ],
   "edition_date": "2026-10-23",
-  "verified_at": "2026-10-23T02:41:00+05:30",
+  "verified_at": "2026-10-23T02:46:00+05:30",
   "status": "source_checked_translation_review_recommended",
   "coverage": {
     "cards": 7,
