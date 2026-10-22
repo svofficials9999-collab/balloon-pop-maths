@@ -24,18 +24,18 @@
       "published_date": null
     },
     "tgnews": {
-      "publisher": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-reels-under-dry-spell-as-october-rainfall-deficit-hits-95/articleshow/135106196.cms",
+      "publisher": "Deccan Chronicle",
+      "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-govt-asks-officials-to-step-up-power-output-1997994",
       "published_date": "2026-10-22"
     },
     "innews": {
-      "publisher": "Prime Minister's Office, India",
-      "url": "https://www.pmindia.gov.in/en/news_updates/india-poland-joint-statement/?comment=disable",
+      "publisher": "DD India",
+      "url": "https://ddindia.co.in/2026/10/eam-jaishankar-to-visit-azerbaijan-on-friday-review-bilateral-ties/",
       "published_date": "2026-10-22"
     },
     "worldnews": {
-      "publisher": "Phys.org",
-      "url": "https://phys.org/news/2026-10-supermassive-black-holes-ejected-galactic.html",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261021231248.htm",
       "published_date": "2026-10-22"
     }
   },
@@ -47,19 +47,19 @@
       "source_ids": [
         "tgnews"
       ],
-      "event_date": null,
+      "event_date": "2026-10-22",
       "age_band": "class5-10",
       "audio_ids": {
         "te": "gk_20261023_telangana_1",
         "en": "gk_20261023_telangana_1__en"
       },
       "title": {
-        "te": "అక్టోబర్‌లో తెలంగాణకు 95 శాతం వర్షపాత లోటు",
-        "en": "95 percent October rainfall deficit in Telangana"
+        "te": "రోజుకు 140 మిలియన్ యూనిట్ల విద్యుత్ లక్ష్యం",
+        "en": "Target of 140 million units of power a day"
       },
       "summary": {
-        "te": "అక్టోబర్ 22న టైమ్స్ ఆఫ్ ఇండియా నివేదిక ప్రకారం, ఈ అక్టోబర్ నెలలో తెలంగాణలో వర్షపాత లోటు 95 శాతానికి చేరింది. అంటే ఈ నెలలో సాధారణంగా పడాల్సిన వర్షంలో కేవలం సుమారు ఐదు శాతం మాత్రమే పడింది. అక్టోబర్ 21 నాటి నివేదిక ప్రకారం 12 జిల్లాల్లో ఈ నెల వర్షం అసలు పడలేదు. పొడి వాతావరణం కొనసాగుతోందని నివేదిక తెలిపింది.",
-        "en": "The Times of India reported on October 22 that Telangana's rainfall deficit for October has reached 95 percent. This means the state has received only about five percent of the rain it usually gets in this month. An earlier report on October 21 said 12 districts had received no rain at all this month. The report says the dry spell continues."
+        "te": "అక్టోబర్ 22న డెక్కన్ క్రానికల్ నివేదిక ప్రకారం, డిప్యూటీ సీఎం మల్లు భట్టి విక్రమార్క విద్యుత్ అధికారులతో సమీక్ష నిర్వహించారు. రబీ, వేసవి కాలాల్లో పెరుగుతున్న విద్యుత్ డిమాండ్‌ను భర్తీ చేయడానికి రోజువారీ థర్మల్ విద్యుత్ ఉత్పత్తిని ప్రస్తుత 118 మిలియన్ యూనిట్ల నుండి 140 మిలియన్ యూనిట్లకు పెంచాలని ఆదేశించారు. జలవిద్యుత్ ఉత్పత్తి తగ్గిన నేపథ్యంలో ఈ నిర్ణయం వచ్చిందని నివేదిక తెలిపింది. అన్ని థర్మల్ యూనిట్లను పూర్తి సామర్థ్యంతో నడపాలని, రోజువారీ పర్యవేక్షణ చేయాలని ఆయన కోరారు.",
+        "en": "Deccan Chronicle reported on October 22 that Deputy Chief Minister Mallu Bhatti Vikramarka held a review with energy officials. He directed them to raise daily thermal power generation from the current 118 million units to 140 million units to meet rising electricity demand in the rabi and summer seasons. The report says the decision comes as hydel generation has fallen. He asked officials to run all thermal units at full capacity and to monitor generation every day."
       }
     },
     {
@@ -69,19 +69,19 @@
       "source_ids": [
         "innews"
       ],
-      "event_date": "2026-10-22",
+      "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
         "te": "gk_20261023_india_1",
         "en": "gk_20261023_india_1__en"
       },
       "title": {
-        "te": "పోలాండ్ ప్రధానమంత్రి భారత పర్యటన",
-        "en": "Polish Prime Minister's visit to India"
+        "te": "అజర్బైజాన్‌కు జైశంకర్ పర్యటన",
+        "en": "Jaishankar's visit to Azerbaijan"
       },
       "summary": {
-        "te": "అక్టోబర్ 22న ప్రధానమంత్రి కార్యాలయం విడుదల చేసిన అధికారిక ఉమ్మడి ప్రకటన ప్రకారం, పోలాండ్ ప్రధానమంత్రి డొనాల్డ్ టస్క్ ప్రధాని నరేంద్ర మోదీ ఆహ్వానంపై అక్టోబర్ 21 నుండి 23 వరకు భారతదేశంలో అధికారిక పర్యటనలో ఉన్నారు. అక్టోబర్ 22న ఢిల్లీలోని హైదరాబాద్ హౌస్‌లో ఇద్దరి మధ్య చర్చలు జరిగాయి. వర్తకం, రక్షణ, స్వచ్ఛమైన శక్తి రంగాల్లో సహకారం పెంచడంపై చర్చలు జరిగాయని నివేదికలు తెలిపాయి.",
-        "en": "According to the official joint statement released by the Prime Minister's Office on October 22, Poland's Prime Minister Donald Tusk is on an official visit to India from October 21 to 23 at the invitation of Prime Minister Narendra Modi. The two leaders held talks at Hyderabad House in New Delhi on October 22. Reports say they discussed expanding cooperation in trade, defence and clean energy."
+        "te": "అక్టోబర్ 22న డీడీ ఇండియా నివేదిక ప్రకారం, విదేశాంగ మంత్రి ఎస్. జైశంకర్ అక్టోబర్ 23న అజర్బైజాన్‌లో అధికారిక పర్యటన చేస్తారని విదేశాంగ మంత్రిత్వ శాఖ తెలిపింది. ఈ పర్యటనలో ఆయన తన అజర్బైజాన్ సమకాలీకుడితో చర్చలు జరిపి, రెండు దేశాల ద్వైపాక్షిక సంబంధాలను సమీక్షిస్తారు. ఇది రాబోయే కార్యక్రమం గురించిన అధికారిక ప్రకటన; పర్యటన పూర్తయిందని కాదు.",
+        "en": "DD India reported on October 22 that External Affairs Minister S. Jaishankar will make an official visit to Azerbaijan on October 23, according to the Ministry of External Affairs. During the visit he will hold talks with his Azerbaijani counterpart and review bilateral ties between the two countries. This is an official announcement of an upcoming visit; it has not yet taken place."
       }
     },
     {
@@ -98,12 +98,12 @@
         "en": "gk_20261023_world_1__en"
       },
       "title": {
-        "te": "గెలాక్సీ కేంద్రాల నుండి బయటపడే నల్లరంధ్రాలు?",
-        "en": "Black holes ejected from galaxy centres?"
+        "te": "బ్లూప్రింట్ లేకుండా తామే ఏర్పడే వైరస్లు",
+        "en": "Viruses that build themselves without a blueprint"
       },
       "summary": {
-        "te": "అక్టోబర్ 22న ఫిస్.ఆర్గ్ నివేదిక ప్రకారం, హంగేరీలోని ఇయోట్వోస్ లోరాండ్ విశ్వవిద్యాలయం పరిశోధకులు సుమారు ఒక లక్ష క్వేసార్ల సమాచారాన్ని విశ్లేషించారు. కొన్ని గెలాక్సీల కేంద్రాల్లోని అతిపెద్ద నల్లరంధ్రాలు తమ స్థానాల నుండి బయటపడే ఉండవచ్చన్న సాంఖ్యిక ఆధారాలు దొరికాయని వారు తెలిపారు. ఇది సుమారు పదేళ్ల క్రితం చేసిన ఊహకు బలం చేకూర్చింది. ఇతర కారణాలను పూర్తిగా తోసిపుచ్చలేమని, మరిన్ని పరిశీలనలు అవసరమని పరిశోధకులే స్పష్టం చేశారు.",
-        "en": "Phys.org reported on October 22 that researchers at Eötvös Loránd University in Hungary analysed data from about 100,000 quasars, the extremely bright centres of galaxies. They found statistical evidence that some supermassive black holes may be ejected from their positions at the centres of galaxies. The finding supports a prediction made about ten years ago. The researchers themselves say other causes cannot be fully ruled out and more observations are needed."
+        "te": "అక్టోబర్ 22న సైన్స్‌డైలీ నివేదిక ప్రకారం, ఆక్స్‌ఫర్డ్ విశ్వవిద్యాలయం శాస్త్రవేత్తలు వైరస్-వంటి కణాలు ఒక్క అణువు చొప్పున తాముగా ఏర్పడటాన్ని ప్రత్యక్షంగా గమనించారు. సరళమైన ప్రయత్న-పొరపాటు పద్ధతితో సంక్లిష్ట నిర్మాణాలు అత్యంత ఖచ్చితంగా ఏర్పడతాయని వారు కనుగొన్నారు. ఫలితాలు నేచర్ పత్రికలో ప్రచురితమయ్యాయి. వైరస్లను అడ్డుకోవడానికి, టీకాలు అభివృద్ధి చేయడానికి ఈ అవగాహన సహాయపడవచ్చని నివేదిక తెలిపింది.",
+        "en": "ScienceDaily reported on October 22 that scientists at the University of Oxford have directly observed virus-like particles assembling themselves one molecule at a time. They found that a simple process of trial and error builds complex structures with remarkable precision. The findings were published in the journal Nature. The report says this understanding could help find new ways to disrupt viruses and develop vaccines."
       }
     },
     {
@@ -207,12 +207,12 @@
         "tgnews"
       ],
       "title": {
-        "te": "వర్షపాత లోటు అంటే ఏమిటి",
-        "en": "What a rainfall deficit means"
+        "te": "విద్యుత్ యూనిట్ అంటే ఏమిటి",
+        "en": "What a unit of electricity means"
       },
       "passage": {
-        "te": "వర్షపాత లోటు అంటే సాధారణంగా పడాల్సిన వర్షంతో పోలిస్తే ఎంత తక్కువ పడిందో చెప్పే కొలమానం. ఈ అక్టోబర్ తెలంగాణలో లోటు 95 శాతం. ఉదాహరణకు ఒక చోట సాధారణంగా వంద మిల్లీమీటర్ల వర్షం పడితే, ఈసారి కేవలం సుమారు ఐదు మిల్లీమీటర్లే పడిందన్నమాట. లోటు ఎక్కువగా ఉంటే పంటలకు, మంటినీటికి ఇబ్బంది అవుతుంది. కొన్ని జిల్లాల్లో అసలు వర్షం పడకపోవడం మరింత ఆందోళనకరం. నివేదికల్లో శాతాలు చదివినప్పుడు అవి దేనితో పోల్చి చెబుతున్నారో గమనించాలి.",
-        "en": "A rainfall deficit tells us how much less rain fell compared to what a place usually gets. This October, Telangana's deficit is 95 percent. For example, if a place usually receives 100 millimetres of rain, it has received only about 5 millimetres this time. A large deficit is hard on crops and drinking water. When some districts get no rain at all, the worry is greater. When you read percentages in a report, notice what they are being compared with."
+        "te": "విద్యుత్ వినియోగాన్ని యూనిట్లలో కొలుస్తారు. ఒక యూనిట్ అంటే వేయి వాట్ల విద్యుత్తును ఒక గంటపాటు వాడితే వచ్చే శక్తి. దీన్ని కిలోవాట్ గంట అంటారు. వేలాది ఇళ్లు, పొలాలు ఒకేసారి విద్యుత్ వాడినప్పుడు డిమాండ్ పెరుగుతుంది. అందుకే ప్రభుత్వం రోజుకు ఎన్ని మిలియన్ యూనిట్లు ఉత్పత్తి చేయాలో లెక్కేసి ప్రణాళిక వేస్తుంది. 118 నుండి 140 మిలియన్ యూనిట్లకు పెంచాలన్న లక్ష్యం ఈ పెద్ద లెక్కలో చిన్న మార్పు కాదు.",
+        "en": "Electricity use is measured in units. One unit is the energy used when one thousand watts of power run for one hour. It is called a kilowatt-hour. When thousands of homes and farms use power at the same time, demand rises. That is why the government plans how many million units must be generated each day. Raising the target from 118 to 140 million units is not a small change at this scale."
       }
     },
     {
@@ -249,27 +249,27 @@
       },
       "item_id": "gk_20261023_telangana_1",
       "question": {
-        "te": "ఈ అక్టోబర్ తెలంగాణ వర్షపాత లోటు ఎంత శాతం?",
-        "en": "What is Telangana's rainfall deficit this October?"
+        "te": "రోజువారీ థర్మల్ విద్యుత్ ఉత్పత్తి లక్ష్యం ఎన్ని మిలియన్ యూనిట్లు?",
+        "en": "What is the daily thermal power generation target?"
       },
       "options": {
         "te": [
-          "95 శాతం",
-          "50 శాతం",
-          "25 శాతం",
-          "5 శాతం"
+          "140 మిలియన్ యూనిట్లు",
+          "118 మిలియన్ యూనిట్లు",
+          "100 మిలియన్ యూనిట్లు",
+          "200 మిలియన్ యూనిట్లు"
         ],
         "en": [
-          "95 percent",
-          "50 percent",
-          "25 percent",
-          "5 percent"
+          "140 million units",
+          "118 million units",
+          "100 million units",
+          "200 million units"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "టైమ్స్ ఆఫ్ ఇండియా నివేదిక 95 శాతం లోటును పేర్కొంది.",
-        "en": "The Times of India report states a 95 percent deficit."
+        "te": "నివేదిక ప్రకారం లక్ష్యం 140 మిలియన్ యూనిట్లు.",
+        "en": "The report states the target of 140 million units."
       }
     },
     {
@@ -285,27 +285,27 @@
       },
       "item_id": "gk_20261023_telangana_1",
       "question": {
-        "te": "నివేదిక ప్రకారం ఎన్ని జిల్లాల్లో ఈ నెల వర్షం అసలు పడలేదు?",
-        "en": "In how many districts did no rain fall at all this month, as per the report?"
+        "te": "ప్రస్తుతం రోజుకు థర్మల్ విద్యుత్ ఉత్పత్తి ఎన్ని మిలియన్ యూనిట్లు?",
+        "en": "What is the current daily thermal power generation?"
       },
       "options": {
         "te": [
-          "12",
-          "5",
-          "20",
-          "33"
+          "118 మిలియన్ యూనిట్లు",
+          "140 మిలియన్ యూనిట్లు",
+          "95 మిలియన్ యూనిట్లు",
+          "160 మిలియన్ యూనిట్లు"
         ],
         "en": [
-          "12",
-          "5",
-          "20",
-          "33"
+          "118 million units",
+          "140 million units",
+          "95 million units",
+          "160 million units"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "అక్టోబర్ 21 నాటి నివేదిక 12 జిల్లాలను పేర్కొంది.",
-        "en": "The October 21 report names 12 districts."
+        "te": "ప్రస్తుత ఉత్పత్తి 118 మిలియన్ యూనిట్లని నివేదిక పేర్కొంది.",
+        "en": "The report says current generation is 118 million units."
       }
     },
     {
@@ -321,27 +321,27 @@
       },
       "item_id": "gk_20261023_india_1",
       "question": {
-        "te": "భారతదేశాన్ని అధికారికంగా సందర్శిస్తున్న పోలాండ్ ప్రధానమంత్రి ఎవరు?",
-        "en": "Which Prime Minister of Poland is on an official visit to India?"
+        "te": "విదేశాంగ మంత్రి ఎస్. జైశంకర్ ఏ దేశాన్ని సందర్శిస్తారు?",
+        "en": "Which country will External Affairs Minister S. Jaishankar visit?"
       },
       "options": {
         "te": [
-          "డొనాల్డ్ టస్క్",
-          "ఎమ్మాన్యుయేల్ మ్యాక్రాన్",
-          "ఆండ్రెజ్ దూదా",
-          "రిషి సునాక్"
+          "అజర్బైజాన్",
+          "ఆర్మేనియా",
+          "జార్జియా",
+          "కజకస్తాన్"
         ],
         "en": [
-          "Donald Tusk",
-          "Emmanuel Macron",
-          "Andrzej Duda",
-          "Rishi Sunak"
+          "Azerbaijan",
+          "Armenia",
+          "Georgia",
+          "Kazakhstan"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "అధికారిక ఉమ్మడి ప్రకటన డొనాల్డ్ టస్క్ పేరును పేర్కొంది.",
-        "en": "The official joint statement names Donald Tusk."
+        "te": "విదేశాంగ మంత్రిత్వ శాఖ ప్రకటన అజర్బైజాన్‌ను పేర్కొంది.",
+        "en": "The Ministry of External Affairs announcement names Azerbaijan."
       }
     },
     {
@@ -357,27 +357,27 @@
       },
       "item_id": "gk_20261023_india_1",
       "question": {
-        "te": "భారత్-పోలాండ్ నాయకుల చర్చలు ఎక్కడ జరిగాయి?",
-        "en": "Where were the India-Poland leaders' talks held?"
+        "te": "ఆ అధికారిక పర్యటన ఏ తేదీన?",
+        "en": "On which date is the official visit?"
       },
       "options": {
         "te": [
-          "హైదరాబాద్ హౌస్, ఢిల్లీ",
-          "రాష్ట్రపతి భవన్",
-          "పార్లమెంట్ భవన్",
-          "హైదరాబాద్ నగరం"
+          "అక్టోబర్ 23",
+          "అక్టోబర్ 22",
+          "అక్టోబర్ 25",
+          "నవంబర్ 1"
         ],
         "en": [
-          "Hyderabad House, New Delhi",
-          "Rashtrapati Bhavan",
-          "Parliament House",
-          "Hyderabad city"
+          "October 23",
+          "October 22",
+          "October 25",
+          "November 1"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "చర్చలు ఢిల్లీలోని హైదరాబాద్ హౌస్‌లో జరిగాయి.",
-        "en": "The talks were held at Hyderabad House in New Delhi."
+        "te": "పర్యటన అక్టోబర్ 23న ఉంటుందని ప్రకటన తెలిపింది.",
+        "en": "The announcement says the visit is on October 23."
       }
     },
     {
@@ -393,27 +393,27 @@
       },
       "item_id": "gk_20261023_world_1",
       "question": {
-        "te": "పరిశోధకులు సుమారు ఎన్ని క్వేసార్ల సమాచారాన్ని విశ్లేషించారు?",
-        "en": "About how many quasars did the researchers analyse?"
+        "te": "వైరస్-వంటి కణాల అసెంబ్లీని గమనించినది ఏ విశ్వవిద్యాలయం శాస్త్రవేత్తలు?",
+        "en": "Which university's scientists observed the virus-like particles assembling?"
       },
       "options": {
         "te": [
-          "ఒక లక్ష",
-          "వేయి",
-          "పది వేలు",
-          "ఒక కోటి"
+          "ఆక్స్‌ఫర్డ్ విశ్వవిద్యాలయం",
+          "కేంబ్రిడ్జ్ విశ్వవిద్యాలయం",
+          "హార్వర్డ్ విశ్వవిద్యాలయం",
+          "టోక్యో విశ్వవిద్యాలయం"
         ],
         "en": [
-          "One hundred thousand",
-          "One thousand",
-          "Ten thousand",
-          "Ten million"
+          "University of Oxford",
+          "University of Cambridge",
+          "Harvard University",
+          "University of Tokyo"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "నివేదిక సుమారు ఒక లక్ష క్వేసార్లను పేర్కొంది.",
-        "en": "The report says about 100,000 quasars."
+        "te": "ఆక్స్‌ఫర్డ్ విశ్వవిద్యాలయం శాస్త్రవేత్తలు ఈ పరిశోధన చేశారు.",
+        "en": "University of Oxford scientists did this research."
       }
     },
     {
@@ -429,27 +429,27 @@
       },
       "item_id": "gk_20261023_world_1",
       "question": {
-        "te": "ఈ అధ్యయనం చేసినది ఏ విశ్వవిద్యాలయం పరిశోధకులు?",
-        "en": "Which university's researchers did this study?"
+        "te": "ఈ ఫలితాలు ఏ పత్రికలో ప్రచురితమయ్యాయి?",
+        "en": "In which journal were the findings published?"
       },
       "options": {
         "te": [
-          "ఇయోట్వోస్ లోరాండ్ విశ్వవిద్యాలయం",
-          "ఆక్స్‌ఫర్డ్ విశ్వవిద్యాలయం",
-          "హార్వర్డ్ విశ్వవిద్యాలయం",
-          "టోక్యో విశ్వవిద్యాలయం"
+          "నేచర్",
+          "సైన్స్",
+          "లాన్సెట్",
+          "టైమ్"
         ],
         "en": [
-          "Eötvös Loránd University",
-          "Oxford University",
-          "Harvard University",
-          "University of Tokyo"
+          "Nature",
+          "Science",
+          "The Lancet",
+          "Time"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "హంగేరీలోని ఇయోట్వోస్ లోరాండ్ విశ్వవిద్యాలయం పరిశోధకులు ఈ అధ్యయనం చేశారు.",
-        "en": "Researchers at Eötvös Loránd University in Hungary did the study."
+        "te": "ఫలితాలు నేచర్ పత్రికలో ప్రచురితమయ్యాయి.",
+        "en": "The findings were published in Nature."
       }
     },
     {
@@ -598,7 +598,7 @@
     }
   ],
   "edition_date": "2026-10-23",
-  "verified_at": "2026-10-23T02:37:00+05:30",
+  "verified_at": "2026-10-23T02:41:00+05:30",
   "status": "source_checked_translation_review_recommended",
   "coverage": {
     "cards": 7,
@@ -608,5 +608,5 @@
     "questions": 10,
     "listen_clips": 58
   },
-  "editorial_note": "Oct23 early reviewed selection: Telangana October rainfall deficit 95% with 12 districts no rain (TOI Oct22, condition ongoing, event date null); India-Poland joint statement issued Oct22 during Tusk's official visit Oct21-23 (PMO official source, talks held Oct22, event date 2026-10-22); ELTE quasar survey of about 100,000 quasars with statistical evidence of ejected supermassive black holes, researchers' own uncertainty preserved (Phys.org Oct22, event date null); NSP PM-USP renewal deadline Oct31 2026 rechecked Oct23 on the official All-Scholarships page (renewal applicants only). Static Telangana formation, national flag, UN emblem rechecked. No claim about other scholarships' dates. Original Class5-10 text, Telugu editor review recommended; audio pending."
+  "editorial_note": "Oct23 early reviewed selection: Deputy CM direction to raise daily thermal generation from 118 to 140 million units for rabi and summer demand amid reduced hydel (Deccan Chronicle Oct22, event date 2026-10-22); EAM Jaishankar's official visit to Azerbaijan on Oct23 framed as official MEA announcement of an upcoming visit (DD India Oct22, event date null); Oxford observation of virus-like particle self-assembly published in Nature (ScienceDaily Oct22, event date null); NSP PM-USP renewal deadline Oct31 2026 rechecked Oct23 on the official All-Scholarships page (renewal applicants only). Static Telangana formation, national flag, UN emblem rechecked. No claim about other scholarships' dates. Original Class5-10 text, Telugu editor review recommended; audio pending."
 }
