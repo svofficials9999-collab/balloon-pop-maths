@@ -70,7 +70,7 @@ function visual(){
  +'</svg>'
  +'<div class="mc-formula">('+a+'+'+b+')² = '+a*a+' + '+(2*a*b)+' + '+(b*b)+' = '+(tot*tot)+'</div>'
  +'<p style="text-align:center">'+(isTe()?'ఆకుపచ్చ రెండు భాగాలే 2ab! అవి లేకుండా a² + b² మాత్రమే చేస్తే వైశాల్యం తగ్గిపోతుంది.':'The two green parts are 2ab! Without them, a² + b² alone falls short.')+'</p></div>'
- +listenBtn(isTe()?['(a+b)² = a² + 2ab + b²','చదరపు చిత్రంలో నాలుగు భాగాలు: a వర్గం, రెండు ab భాగాలు, b వర్గం','ఆకుపచ్చ రెండు భాగాలే 2ab']:['(a+b) squared equals a squared plus 2ab plus b squared','The square picture has 4 areas: a squared, two a-b strips, and b squared','The two green strips are the 2ab part']);
+ +listenBtn(isTe()?['(a+b)² = a² + 2ab + b²','చదరపు చిత్రంలో నాలుగు భాగాలు: a వర్గం, రెండు ab భాగాలు, b వర్గం','ఆకుపచ్చ రెండు భాగాలే 2ab']:['(a+b) squared equals a squared plus 2ab plus b squared','The square picture has 4 areas: a squared, two a-b strips, and b squared','The two green strips are the 2ab part'],'aplusb-pic');
 }
 /* ---------- Class 2: Solar System (Science) ---------- */
 function svgSolar(){
@@ -410,18 +410,39 @@ MAP:{center:'🌏 జాతీయ చిహ్నాలు',rows:[
 var ov=document.getElementById('svmc-ov'),cur=0,qi=0,qScore=0,cardI=0,cardFlip=false,inList=true,curCls=APLUSB;
 function el(id){return document.getElementById(id)}
 function OL(x){var p=Array.isArray(x)?x:String(x).split('§');return isTe()?p[0]:(p[1]||p[0])}
-function listenBtn(lines){
- return '<button class="mc-btn sec mc-listen" onclick="(function(b){if(b.__on){b.__on=false;b.textContent=b.dataset.l;window.speechSynthesis.cancel()}else{b.__on=true;b.textContent=b.dataset.s;var u=new SpeechSynthesisUtterance(b.dataset.txt);u.lang=b.dataset.lang;speechSynthesis.cancel();speechSynthesis.speak(u);u.onend=function(){b.__on=false;b.textContent=b.dataset.l}}})(this)" data-l="'+L('listen')+'" data-s="'+L('stop')+'" data-lang="'+(isTe()?'te-IN':'en-IN')+'" data-txt="'+lines.join('. ').replace(/"/g,'')+'">'+L('listen')+'</button>';
+function listenBtn(lines,key){
+ return '<button class="mc-btn sec mc-listen" data-key="'+(key||'')+'" onclick="__mcListen(this)" data-l="'+L('listen')+'" data-s="'+L('stop')+'" data-lang="'+(isTe()?'te-IN':'en-IN')+'" data-txt="'+lines.join('. ').replace(/"/g,'')+'">'+L('listen')+'</button>';
 }
-function stopSpeak(){try{speechSynthesis.cancel()}catch(e){}}
+window.__mcAudioEl=null;
+function __mcSha(s){try{return crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)).then(function(b){return Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,'0')}).join('').slice(0,10)}).catch(function(){return null})}catch(e){return Promise.resolve(null)}}
+window.__mcListen=function(b){
+ if(b.__on){b.__on=false;b.textContent=b.dataset.l;try{speechSynthesis.cancel()}catch(e){}if(window.__mcAudioEl){try{window.__mcAudioEl.pause()}catch(e){}window.__mcAudioEl=null;}return}
+ b.__on=true;b.textContent=b.dataset.s;
+ var txt=b.dataset.txt;
+ var tts=function(){try{var u=new SpeechSynthesisUtterance(txt);u.lang=b.dataset.lang;speechSynthesis.cancel();speechSynthesis.speak(u);u.onend=function(){b.__on=false;b.textContent=b.dataset.l}}catch(e){b.__on=false;b.textContent=b.dataset.l}};
+ if(b.dataset.lang!=='te-IN'||!b.dataset.key){tts();return}
+ __mcSha(txt).then(function(h){
+  if(!b.__on)return;
+  if(!h){tts();return}
+  var el=new Audio('audio/mc-'+b.dataset.key+'-'+h+'-te.mp3');
+  window.__mcAudioEl=el;
+  var settled=false,wd=null;
+  var bad=function(){if(settled)return;settled=true;if(wd)clearTimeout(wd);try{el.pause()}catch(e){}if(window.__mcAudioEl===el)window.__mcAudioEl=null;if(b.__on)tts()};
+  el.onerror=bad;
+  el.onended=function(){if(settled)return;settled=true;if(wd)clearTimeout(wd);window.__mcAudioEl=null;b.__on=false;b.textContent=b.dataset.l};
+  var p=el.play();if(p&&p.catch)p.catch(bad);
+  wd=setTimeout(function(){try{if(!settled&&!el.paused&&el.currentTime===0)bad()}catch(e){}},2500);
+ }).catch(function(){if(b.__on)tts()});
+};
+function stopSpeak(){try{speechSynthesis.cancel()}catch(e){}if(window.__mcAudioEl){try{window.__mcAudioEl.pause()}catch(e){}window.__mcAudioEl=null;}try{document.querySelectorAll('.mc-listen').forEach(function(b){if(b.__on){b.__on=false;b.textContent=b.dataset.l}})}catch(e){}}
 function picGeneric(){
  var P=curCls.PIC;
  return '<div class="mc-card"><h3>'+P.h[isTe()?0:1]+'</h3>'+P.svg()+'<div class="mc-formula" style="font-size:15px;line-height:1.5">'+P.cap[isTe()?0:1]+'</div></div>'
- +listenBtn(P.listen[isTe()?0:1]);
+ +listenBtn(P.listen[isTe()?0:1],curCls.id+'-pic');
 }
 function realLife(){
  return curCls.REAL.map(function(r){return '<div class="mc-card"><h3>'+OL(r.t)+'</h3><p>'+OL(r.b)+'</p></div>'}).join('')
- +listenBtn(curCls.REAL.map(function(r){return OL(r.t)+'. '+OL(r.b)}));
+ +listenBtn(curCls.REAL.map(function(r){return OL(r.t)+'. '+OL(r.b)}),curCls.id+'-real');
 }
 function flash(){
  var CARDS=curCls.CARDS,c=CARDS[cardI];
@@ -429,13 +450,13 @@ function flash(){
  +'<button class="mc-fcard '+(cardFlip?'back':'')+'" onclick="window.__mcFlip()">'+(cardFlip?OL(c[1]):OL(c[0]))+'</button>'
  +'<p style="color:#9aa5cf;font-size:12px">'+(cardI+1)+' / '+CARDS.length+'</p>'
  +'<div style="display:flex;gap:8px;justify-content:center"><button class="mc-btn sec" onclick="window.__mcCard(-1)">'+L('prev')+'</button><button class="mc-btn" onclick="window.__mcFlip()">'+L('flip')+'</button><button class="mc-btn sec" onclick="window.__mcCard(1)">'+L('next')+'</button></div></div>'
- +listenBtn(CARDS.map(function(x){return OL(x[0])+'. '+OL(x[1])}));
+ +listenBtn(CARDS.map(function(x){return OL(x[0])+'. '+OL(x[1])}),curCls.id+'-cards');
 }
 function mmap(){
  var M=curCls.MAP;
  return '<div class="mc-card"><div class="mc-map"><div class="mc-node mc-center">'+M.center+'</div>'
  +M.rows.map(function(x){return '<div class="mc-line"></div><div class="mc-node mc-branch"><b>'+x[0]+'</b><small>'+(isTe()?x[1]:x[2])+'</small></div>'}).join('')
- +'</div></div>'+listenBtn([curCls.title[isTe()?0:1]].concat(M.rows.map(function(x){return isTe()?x[1]:x[2]})));
+ +'</div></div>'+listenBtn([curCls.title[isTe()?0:1]].concat(M.rows.map(function(x){return isTe()?x[1]:x[2]})),curCls.id+'-map');
 }
 function quiz(){
  var QUIZ=curCls.QUIZ;
@@ -450,7 +471,7 @@ function quiz(){
 function summary(){
  return '<div class="mc-card"><h3>📄 '+T.tabs[5][isTe()?0:1]+'</h3><ul style="margin:0;padding-left:18px">'
  +curCls.SUMM.map(function(s){return '<li>'+OL(s)+'</li>'}).join('')+'</ul></div>'
- +listenBtn(curCls.SUMM.map(function(s){return OL(s)}));
+ +listenBtn(curCls.SUMM.map(function(s){return OL(s)}),curCls.id+'-summ');
 }
 function renderBody(){
  var b=el('svmc-body');
