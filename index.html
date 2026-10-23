@@ -925,9 +925,43 @@ if(/^#learn/.test(location.hash))openLearn(location.hash);
 if(location.hash==='#parents')setTimeout(()=>openParents(0),400);
 if(location.hash==='#speed')setTimeout(()=>openSpeed(),500);if(location.hash==='#puzzles')setTimeout(()=>openPuzzles(),500);if(location.hash==='#martial')setTimeout(()=>openMartial(),500);if(location.hash==='#meditation')setTimeout(()=>openMeditation(),500);if(location.hash==='#courses')setTimeout(()=>openCourses(),500);
 
-;(function(){try{const ss=window.speechSynthesis;if(!ss||ss.__fv)return;const F=/female|heera|priya|neerja|shruti|swara|kalpana|veena|lekha|sangeeta|aditi|raveena|google (हिन्दी|తెలుగు|english)|\bf\b/i,M=/\bmale\b|ravi|prabhat|hemant|madhur|mohan|rishi/i;let cache={};function pick(lang){const base=(lang||'en-IN').toLowerCase().slice(0,2);const want=base==='te'?'te-in':'en-in';const vs=ss.getVoices()||[];const k=want+vs.length;if(cache[k]!==undefined)return cache[k];const c=vs.filter(v=>(v.lang||'').toLowerCase().replace('_','-')===want);const sv=(()=>{try{return localStorage.getItem('an_voice_'+base)||''}catch(e){return ''}})();const rank=v=>{const n=(v.name||'')+' '+(v.voiceURI||'');let r=0;if(F.test(n)&&!M.test(n))r+=4;if(M.test(n))r-=4;if(v.localService===false)r+=2;if(/google/i.test(n))r+=1;if(/-x-[a-z]{2}f-|female/i.test(n))r+=2;return r};let best=(sv&&c.find(v=>v.name===sv))||c.slice().sort((a,b)=>rank(b)-rank(a))[0]||null;cache[k]=best;return best}
-window.__voiceList=function(lang){const w=(lang==='te'?'te-in':'en-in');return(ss.getVoices()||[]).filter(v=>(v.lang||'').toLowerCase().replace('_','-')===w)};
-window.__cycleVoice=function(lang){const l=window.__voiceList(lang);if(!l.length)return null;const cur=pick(lang);const i=Math.max(0,l.findIndex(v=>cur&&v.name===cur.name));const nx=l[(i+1)%l.length];try{localStorage.setItem('an_voice_'+lang,nx.name)}catch(e){}cache={};return{name:nx.name,n:(l.indexOf(nx)+1),of:l.length}};const sp=ss.speak.bind(ss);ss.speak=function(u){try{if(u&&!u.__set){u.__set=1;const l=(u.lang||'').toLowerCase();if(l.startsWith('te')||l.startsWith('en')){const v=pick(u.lang);if(v){u.voice=v;u.lang=v.lang}}}}catch(e){}return sp(u)};ss.__fv=1;if(ss.addEventListener)ss.addEventListener('voiceschanged',()=>{cache={}})}catch(e){}})();
+<script>
+/* sv-voice.js v2 - app-wide female-leaning Indic voice selection for device TTS.
+   Wraps speechSynthesis.speak: for te/en/hi utterances, picks the best female-leaning
+   voice available on the device. Name heuristics are NOT gender proof (e.g. "Google
+   తెలుగు" declares no identity); they only prefer female-named voices when present.
+   No voice can be guaranteed on any device; when no matching voice exists the
+   utterance plays with the system default (callers surface their own warnings). */
+(function(){try{
+var ss=window.speechSynthesis;if(!ss||ss.__fv)return;
+var FNAMES=/\b(female|heera|priya|neerja|shruti|swara|kalpana|veena|lekha|sangeeta|aditi|raveena|zira|helena|meera|ananya|kavya|lakshmi|sulafat)\b/i;
+var MNAMES=/\b(male|ravi|prabhat|hemant|madhur|mohan|rishi|arjun|vikram|kiran|rohan)\b/i;
+var GOOGLE_INDIC=/google (हिन्दी|తెలుగు|english|తమిళ్|हिंदी)/i;
+var cache={};
+function pick(lang){
+ var base=(lang||'en-IN').toLowerCase().slice(0,2);
+ var want=base==='te'?'te-in':(base==='hi'?'hi-in':(base==='en'?'en-in':base));
+ var vs=ss.getVoices()||[];var k=want+'|'+vs.length;if(cache[k]!==undefined)return cache[k];
+ var norm=function(l){return (l||'').toLowerCase().replace('_','-')};
+ var c=vs.filter(function(v){return norm(v.lang)===want});
+ if(!c.length)c=vs.filter(function(v){return norm(v.lang).indexOf(base+'-')===0||norm(v.lang)===base});
+ function rank(v){
+  var n=(v.name||'')+' '+(v.voiceURI||'');var r=0;
+  var f=FNAMES.test(n),m=MNAMES.test(n);
+  if(f&&!m)r+=4;if(m)r-=4;              /* exact-token name hints only; never proof */
+  if(GOOGLE_INDIC.test(n))r+=1;          /* Indic google voice: language fit, no gender claim */
+  if(v.localService===false)r+=1;
+  return r;
+ }
+ var best=c.slice().sort(function(a,b){return rank(b)-rank(a)})[0]||null;
+ cache[k]=best;return best;
+}
+var sp=ss.speak.bind(ss);
+ss.speak=function(u){try{if(u&&!u.__set){u.__set=1;var l=(u.lang||'').toLowerCase();if(/^(te|en|hi)/.test(l)){var v=pick(u.lang||'en-IN');if(v){u.voice=v;u.lang=v.lang}}}}catch(e){}return sp(u)};
+ss.__fv=2;
+if(ss.addEventListener)ss.addEventListener('voiceschanged',function(){cache={}});
+}catch(e){}})();
+</script>
 </script><script src="sugg.js?v=1" defer></script><script src="./voice-search.js?v=81" defer></script><script>const homeBeforeBR=home;home=function(){homeBeforeBR();for(const [id,te,en,num] of [["par-btn", "తల్లిదండ్రుల గైడ్", "Parents & Study Guide", "01"], ["speed-btn", "స్పీడ్ రీడింగ్", "Speed Reading", "02"], ["pz-btn", "పజిల్స్ · ఆటలు", "Puzzles & Games", "03"], ["ma-btn", "మార్షల్ ఆర్ట్స్", "Martial Arts", "04"], ["md-btn", "ధ్యానం", "Meditation", "05"], ["cr-btn", "కోర్సులు", "Courses", "06"], ["student-portals-btn", "ప్రభుత్వ వెబ్‌సైట్లు", "Government websites", "07"], ["student-updates-btn", "అప్‌డేట్ బాక్స్", "Update Box", "08"], ["co-btn", "స్టడీ కోచ్", "Study Coach", "09"], ["ex-btn", "పరీక్ష సిద్ధత", "Exam Prep", "10"]]){const button=document.getElementById(id);if(button){button.classList.add('premium-feature');button.innerHTML='<span class="premium-icon" aria-hidden="true">'+num+'</span><span class="premium-title">'+(S.lang==='te'?te:en)+'</span>';button.setAttribute('aria-label',S.lang==='te'?te:en)}}const grid=document.querySelector('.home > .subjs');if(grid&&!document.querySelector('#br-round-btn')){const tile=document.createElement('button');tile.id='br-round-btn';tile.type='button';tile.setAttribute('aria-label','భారత రాజ్యాంగం / Bharatha Rajyangam');tile.innerHTML='<span aria-hidden="true">🇮🇳</span><strong>భారత<br>రాజ్యాంగం</strong><small>Constitution</small>';tile.onclick=openBR;grid.append(tile)}};let brLoading=null;function openBR(){if(window.BharathaRajyangam)return BharathaRajyangam.open();if(!brLoading)brLoading=new Promise((yes,no)=>{const css=document.createElement('link');css.rel='stylesheet';css.href='./learn/br/style.css?v=brclarity2';document.head.append(css);const js=document.createElement('script');js.src='./learn/br/module.js?v=brFG138';js.onload=yes;js.onerror=()=>{brLoading=null;no()};document.head.append(js)});return brLoading.then(()=>BharathaRajyangam.open()).catch(()=>toast('Needs internet once / ఒకసారి ఇంటర్నెట్ కావాలి'))}if(location.hash.startsWith('#br'))setTimeout(openBR,500);home();</script>
 <script src="https://svofficials9999-collab.github.io/sv-visit.js" data-app="AksharaNova" defer></script>
 <script src="./volume.js" defer></script><script src="./round-install.js" defer></script></body></html>
