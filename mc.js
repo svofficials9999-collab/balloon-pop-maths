@@ -189,34 +189,34 @@ id:'tenses',icon:'⏳',
 te:'కాలాలు (Tenses)',en:'Simple Tenses',
 meta:['ఇంగ్లీష్ · తరగతి 6 · చిత్రం + క్విజ్','English · Class 6 · picture + quiz'],
 title:['⏳ కాలాలు మాస్టర్ క్లాస్','⏳ Simple Tenses Master Class'],
-PIC:{h:['సమయ గీతపై మూడు కాలాలు','Three tenses on the timeline'],svg:svgTenses,cap:['V1 = ప్రస్తుతం · V2 = గతం · will + V1 = భవిష్యత్','V1 = present · V2 = past · will + V1 = future'],
- listen:[['మూడు ప్రధాన కాలాలు: గతం, వర్తమానం, భవిష్యత్','గతానికి V2, వర్తమానానికి V1, భవిష్యత్తుకు will V1 వాడతాము'],['There are three main tenses: past, present and future','We use V2 for past, V1 for present, and will plus V1 for future']]},
+PIC:{h:['సమయ గీతపై మూడు కాలాలు','Three tenses on the timeline'],svg:svgTenses,cap:['Simple Present = V1 · Simple Past = V2 · will + V1 = భవిష్యత్','Simple Present = V1 · Simple Past = V2 · will + V1 = future'],
+ listen:[['ఈ పాఠంలో మూడు సింపుల్ రూపాలు: సింపుల్ ప్రెజెంట్, సింపుల్ పాస్ట్, will భవిష్యత్','సింపుల్ ప్రెజెంట్ కు V1, సింపుల్ పాస్ట్ కు V2, భవిష్యత్తుకు will + V1 వాడతాము'],['This lesson covers three simple forms: simple present, simple past and will-future','Simple present takes V1, simple past takes V2, and the future takes will plus V1']]},
 REAL:[
- {t:['రోజువారీ అలవాట్లు = Present','Daily habits = Present'],b:['"I wake up at 6." "She goes to school daily." అలవాట్లు, నిత్యం జరిగే పనులు ప్రస్తుత కాలంలో చెబుతాం. He/She/It తో క్రియకు -s/-es చేరుతుంది.','"I wake up at 6." "She goes to school daily." Habits and daily actions take the present tense. With he/she/it the verb takes -s or -es.']},
- {t:['నిన్నటి విషయాలు = Past','Yesterday\'s things = Past'],b:['"We played cricket yesterday." "అమ్మమ్మ కథ చెప్పింది — Grandma told a story." గతంలో జరిగినవి చెప్పడానికి V2 (played, told, went) వాడతాం.','"We played cricket yesterday." For things that already happened we use V2 — played, told, went.']},
- {t:['రేపటి ప్రణాళిక = Future','Tomorrow\'s plan = Future'],b:['"We will visit grandma tomorrow." "రేపు వర్షం పడుతుంది — It will rain tomorrow." ముందు జరిగేదానికి will + V1 వాడతాం.','"We will visit grandma tomorrow." For things yet to happen we use will + V1.']},
- {t:['సూచక పదాలు గుర్తించు','Spot the signal words'],b:['every day, always → Present · yesterday, last week → Past · tomorrow, next year → Future. ఈ పదాలు చూస్తేనే కాలం అర్థమవుతుంది!','every day, always → Present · yesterday, last week → Past · tomorrow, next year → Future. These words tell you the tense!']}],
+ {t:['రోజువారీ అలవాట్లు = Simple Present','Daily habits = Simple Present'],b:['"I wake up at 6." "She goes to school daily." అలవాట్లు, నిత్యం జరిగే పనులు సింపుల్ ప్రెజెంట్ లో చెబుతాం. He/She/It తో క్రియకు -s/-es చేరుతుంది.','"I wake up at 6." "She goes to school daily." Habits and daily actions take the simple present. With he/she/it the verb takes -s or -es.']},
+ {t:['నిన్నటి విషయాలు = Simple Past','Yesterday\'s things = Simple Past'],b:['"We played cricket yesterday." "అమ్మమ్మ కథ చెప్పింది — Grandma told a story." గతంలో జరిగినవి చెప్పడానికి సింపుల్ పాస్ట్ V2 (played, told, went) వాడతాం.','"We played cricket yesterday." For things that already happened we use simple past V2 - played, told, went.']},
+ {t:['రేపటి ప్రణాళిక = will-Future','Tomorrow\'s plan = will-Future'],b:['"We will visit grandma tomorrow." "రేపు వర్షం పడుతుంది — It will rain tomorrow." ముందు జరిగేదానికి will + V1 వాడతాం.','"We will visit grandma tomorrow." For things yet to happen we use will + V1.']},
+ {t:['సూచక పదాలు గుర్తించు','Spot the signal words'],b:['every day → సాధారణంగా Simple Present · yesterday → సాధారణంగా Simple Past · tomorrow → సాధారణంగా will-Future. కానీ ఈ పదాలు ఎల్లప్పుడూ నిర్ణయించవు - I am visiting tomorrow లో tomorrow ఉన్నా ప్రస్తుత ప్రణాళిక గురించే మాట్లాడుతున్నాం. వాక్యం మొత్తం చదవాలి!','every day usually means simple present, yesterday usually means simple past, tomorrow usually means will-future. But not always - I am visiting tomorrow talks about a present plan. Read the whole sentence!']}],
 CARDS:[
- [['Present (వర్తమానం)','Present'],['V1 — go, play, eat (అలవాట్లు, నిజాలు)','V1 — go, play, eat (habits, facts)']],
- [['Past (గతం)','Past'],['V2 — went, played, ate (జరిగిపోయినవి)','V2 — went, played, ate (finished actions)']],
- [['Future (భవిష్యత్)','Future'],['will + V1 — will go, will play','will + V1 — will go, will play']],
+ [['Simple Present (వర్తమానం)','Simple Present'],['V1 — go, play, eat (అలవాట్లు, నిజాలు)','V1 — go, play, eat (habits, facts)']],
+ [['Simple Past (గతం)','Simple Past'],['V2 — went, played, ate (జరిగిపోయినవి)','V2 — went, played, ate (finished actions)']],
+ [['will-Future (భవిష్యత్)','will-Future'],['will + V1 — will go, will play','will + V1 — will go, will play']],
  [['He/She/It నియమం','The he/she/it rule'],['Present లో క్రియకు -s/-es: she goes, he plays','In the present the verb takes -s/-es: she goes, he plays']],
- [['yesterday చూస్తే...','When you see yesterday...'],['Past! V2 వాడు — I walked yesterday.','Past! Use V2 — I walked yesterday.']],
- [['tomorrow చూస్తే...','When you see tomorrow...'],['Future! will+V1 — I will walk tomorrow.','Future! will + V1 — I will walk tomorrow.']]],
+ [['yesterday చూస్తే...','When you see yesterday...'],['సాధారణంగా Past! V2 వాడు - I walked yesterday.','Usually past! Use V2 - I walked yesterday.']],
+ [['tomorrow చూస్తే...','When you see tomorrow...'],['సాధారణంగా Future! will + V1 - I will walk tomorrow.','Usually future! will + V1 - I will walk tomorrow.']]],
 QUIZ:[
  {q:['She ___ to school daily.','She ___ to school daily.'],o:['go','goes','went','will go'],a:1},
  {q:['We ___ cricket yesterday.','We ___ cricket yesterday.'],o:['play','will play','played','plays'],a:2},
  {q:['I ___ you tomorrow.','I ___ you tomorrow.'],o:['will help','helped','helps','helping'],a:0},
- {q:['"రేపు" (tomorrow) అనే పదం ఏ కాలం సూచిస్తుంది?','The word "tomorrow" signals which tense?'],o:['గతం§Past','వర్తమానం§Present','భవిష్యత్§Future','ఏదీకాదు§None'],a:2},
+ {q:['"రేపు" (tomorrow) అనే పదం సాధారణంగా ఏ కాలాన్ని సూచిస్తుంది?','The word "tomorrow" usually signals which tense?'],o:['గతం§Past','వర్తమానం§Present','భవిష్యత్§Future','ఏదీకాదు§None'],a:2},
  {q:['"write" యొక్క V2 రూపం?','What is the V2 (past) form of "write"?'],o:['writed','wrote','written','writes'],a:1},
  {q:['ఏ వాక్యం ప్రస్తుత అలవాటును చెబుతుంది?','Which sentence shows a present habit?'],o:['He drank milk yesterday.§He drank milk yesterday.','He will drink milk tomorrow.§He will drink milk tomorrow.','He drinks milk every morning.§He drinks milk every morning.','He is drinking milk now.§He is drinking milk now.'],a:2}],
-SUMM:[['మూడు ప్రధాన కాలాలు: Present (V1), Past (V2), Future (will + V1).','Three main tenses: Present (V1), Past (V2), Future (will + V1).'],['He/She/It తో ప్రస్తుత కాలంలో క్రియకు -s/-es: she goes, he plays.','With he/she/it in the present, the verb takes -s/-es: she goes, he plays.'],['సూచక పదాలు గుర్తు పెట్టుకో: every day → present, yesterday → past, tomorrow → future.','Remember signal words: every day → present, yesterday → past, tomorrow → future.'],['ముందు సూచక పదం చూసి, ఆ తర్వాత క్రియ రూపం ఎంచుకో — రెండు మార్కుల పొరపాట్లు తప్పతాయి!','Read the signal word first, then pick the verb form — no more tense mistakes!']],
+SUMM:[['ఈ పాఠంలో మూడు సింపుల్ రూపాలు: Simple Present (V1), Simple Past (V2), will-Future (will + V1).','This lesson covers three simple forms: Simple Present (V1), Simple Past (V2), will-Future (will + V1).'],['He/She/It తో ప్రస్తుత కాలంలో క్రియకు -s/-es: she goes, he plays.','With he/she/it in the present, the verb takes -s/-es: she goes, he plays.'],['సూచక పదాలు సాధారణంగా సహాయపడతాయి: every day → present, yesterday → past, tomorrow → future - కానీ ఎల్లప్పుడూ కాదు.','Signal words usually help: every day → present, yesterday → past, tomorrow → future - but not always.'],['సూచక పదంతో పాటు వాక్యం మొత్తం చదివి క్రియ రూపం ఎంచుకో!','Read the whole sentence along with the signal word, then pick the verb form!']],
 MAP:{center:'⏳ మూడు కాలాలు',rows:[
- ['🟢','Present = V1 (అలవాట్లు)','Present = V1 (habits)'],
- ['🟠','Past = V2 (జరిగిపోయినవి)','Past = V2 (finished)'],
+ ['🟢','Simple Present = V1 (అలవాట్లు)','Simple Present = V1 (habits)'],
+ ['🟠','Simple Past = V2 (జరిగిపోయినవి)','Simple Past = V2 (finished)'],
  ['🔵','Future = will + V1 (రాబోయేవి)','Future = will + V1 (coming)'],
  ['👤','He/She/It + s: she goes','He/She/It + s: she goes'],
- ['🔑','yesterday→Past · every day→Present · tomorrow→Future','yesterday→Past · every day→Present · tomorrow→Future']]}};
+ ['🔑','సూచక పదాలు సాధారణ సూచనలే - కచ్చితమైన నియమం కాదు','Signal words are usual hints, not fixed rules']]}};
 /* ---------- Class 5: Telugu Sandhi (Telugu grammar) ---------- */
 function svgSandhi(){
  return '<svg class="mc-svg2" viewBox="0 0 300 190">'
@@ -237,15 +237,15 @@ PIC:{h:['రెండు పదాలు కలిసినప్పుడు �
  listen:[['సంధి అంటే రెండు పదాలు కలిసినప్పుడు అక్షరాలు మారడం','విద్య ఆలయం కలిపి విద్యాలయం','దేవ ఇంద్రుడు కలిపి దేవేంద్రుడు'],['Sandhi means letters changing when two words join','vidya plus aalayam becomes vidyaalayam','deva plus indrudu becomes devendrudu']]},
 REAL:[
  {t:['మనం రోజూ వాడే సంధులు','Sandhis we use every day'],b:['విద్యాలయం, మహర్షి, దేవాలయం, ప్రతియొక్కరు — ఇవన్నీ సంధితో ఏర్పడిన పదాలే! మనం రోజూ మాట్లాడే మాటల్లో సంధులు ఎన్నో ఉన్నాయి.','Vidyalayam, maharshi, devalayam, pratiyokkaru — all these are sandhi words. Our daily speech is full of them.']},
- {t:['పరీక్షలో సంధి మార్కులు','Exam marks from sandhi'],b:['"విద్యాలయం సంధి చేయండి" అంటే విద్య + ఆలయం అని విడదీయాలి. "దేవేంద్రుడు" అంటే దేవ + ఇంద్రుడు. విడదీత, కలపడం — రెండూ వస్తాయి.','If the exam says "split vidyalayam", answer vidya + aalayam. Joining and splitting both come as questions.']},
+ {t:['పరీక్షలో సంధి మార్కులు','Exam marks from sandhi'],b:['"విద్యాలయం సంధి విడదీయండి" అంటే విద్య + ఆలయం అని విడదీయాలి. పదాలు కలపడాన్ని సంధి, కలిసిన పదాన్ని విడదీయడాన్ని సంధి విచ్ఛేదం అంటారు - పరీక్షలో రెండూ అడుగుతారు.','If the exam says "do sandhi vicchedam of vidyalayam", answer vidya + aalayam. Joining is sandhi; splitting is sandhi vicchedam - exams ask both.']},
  {t:['పేర్లలో కూడా సంధి','Sandhi hides in names too'],b:['రవి + ఇంద్రుడు = రవీంద్రుడు (రవీంద్ర), సుర + ఇంద్రుడు = సురేంద్రుడు (సురేంద్ర). పేర్లు విన్నప్పుడు సంధి గుర్తుపట్టవచ్చు.','Ravi + indrudu = Raveendrudu, Sura + indrudu = Surendrudu. You can spot sandhi inside common names.']},
  {t:['రాయడంలో జాగ్రత్త','Careful while writing'],b:['"విద్య ఆలయం" వేర్వేరుగా రాసినా అర్థం అదే; కానీ కలిపి రాస్తే సరైన రూపం విద్యాలయం. పొడవు అక్షరం మరిచిపోకూడదు!','Writing vidya aalayam separately gives the same meaning, but joined, the correct form is vidyaalayam — do not drop the long aa!']}],
 CARDS:[
  [['సంధి అంటే?','What is sandhi?'],['పదాలు కలిసిన చోట అక్షర మార్పు','The letter change where words join']],
- [['సవర్ణదీర్ఘ సంధి','Savarna-deergha sandhi'],['అ + అ = ఆ: విద్య + ఆలయం = విద్యాలయం','a + a = aa: vidya + aalayam = vidyaalayam']],
+ [['సవర్ణదీర్ఘ సంధి','Savarna-deergha sandhi'],['అ/ఆ + అ/ఆ = ఆ: విద్య + ఆలయం = విద్యాలయం, దిన + అంతం = దినాంతం','same vowels merge long: vidya + aalayam = vidyaalayam, dina + antam = dinaantam']],
  [['గుణసంధి','Guna sandhi'],['అ + ఇ = ఏ: దేవ + ఇంద్రుడు = దేవేంద్రుడు','a + i = e: deva + indrudu = devendrudu']],
  [['గుణసంధి మరో ఉదాహరణ','One more guna example'],['అ + ఋ = అర్: మహా + ఋషి = మహర్షి','a + ru = ar: maha + rishi = maharshi']],
- [['యణాదేశ సంధి','Yanaadesha sandhi'],['ఇ + ఒ = యొ: ప్రతి + ఒక్కరు = ప్రతియొక్కరు','i + o = yo: prati + okkaru = pratiyokkaru']],
+ [['యణాదేశ సంధి','Yanaadesha sandhi'],['ఇ + ఏ = యే: ప్రతి + ఏకం = ప్రత్యేకం','i + e = ye: prati + ekam = pratyekam']],
  [['విడదీయడం (విగ్రహం)','Splitting (vigraham)'],['విద్యాలయం = విద్య + ఆలయం','vidyaalayam = vidya + aalayam']]],
 QUIZ:[
  {q:['విద్యాలయం = విద్య + ?','Vidyalayam = vidya + ?'],o:['ఆలయం','అలయం','ఇలయం','ఉలయం'],a:0},
@@ -254,12 +254,12 @@ QUIZ:[
  {q:['ప్రతి + ఒక్కరు = ?','Prati + okkaru = ?'],o:['ప్రతివొక్కరు','ప్రతిఒక్కరు','ప్రతియొక్కరు','ప్రతేక్కరు'],a:2},
  {q:['అ + అ కలిస్తే ఏమవుతుంది? (సవర్ణదీర్ఘం)','a + a becomes? (savarna-deergha)'],o:['ఇ','ఆ','ఏ','ఓ'],a:1},
  {q:['సంధి అంటే ఏమిటి?','What is sandhi?'],o:['పదాలు కలిసిన చోట అక్షర మార్పు§The letter change where words join','పదాలు వేరు చేయడం§Splitting words','కొత్త పదాలు కనిపెట్టడం§Inventing new words','పదాల అర్థం మారడం§Changing word meanings'],a:0}],
-SUMM:[['సంధి = రెండు పదాలు కలిసిన చోట వచ్చే అక్షర మార్పు.','Sandhi = the letter change where two words join.'],['సవర్ణదీర్ఘం: అ+అ=ఆ (విద్యాలయం); గుణసంధి: అ+ఇ=ఏ (దేవేంద్రుడు), అ+ఋ=అర్ (మహర్షి).','Savarna: a+a=aa (vidyaalayam); Guna: a+i=e (devendrudu), a+ru=ar (maharshi).'],['యణాదేశం: ఇ+ఒ=యొ (ప్రతియొక్కరు).','Yanaadesha: i+o=yo (pratiyokkaru).'],['కలపడం (సంధి), విడదీయడం (విగ్రహం) — రెండూ ప్రాక్టీస్ చేయి, పరీక్షలో రెండూ అడుగుతారు.','Practice both joining (sandhi) and splitting (vigraham) — exams ask both.']],
+SUMM:[['సంధి = రెండు పదాలు కలిసిన చోట వచ్చే అక్షర మార్పు.','Sandhi = the letter change where two words join.'],['సవర్ణదీర్ఘం: సమాన అచ్చులు దీర్ఘం (విద్యాలయం, దినాంతం); గుణసంధి: అ+ఇ=ఏ (దేవేంద్రుడు), అ+ఋ=అర్ (మహర్షి).','Savarna: same vowels merge long (vidyaalayam, dinaantam); Guna: a+i=e (devendrudu), a+ru=ar (maharshi).'],['యణాదేశం: ఇ+ఏ=యే (ప్రత్యేకం).','Yanaadesha: i+e=ye (pratyekam).'],['కలపడం (సంధి), విడదీయడం (విగ్రహం) — రెండూ ప్రాక్టీస్ చేయి, పరీక్షలో రెండూ అడుగుతారు.','Practice both joining (sandhi) and splitting (vigraham) — exams ask both.']],
 MAP:{center:'🪷 సంధి',rows:[
  ['🔗','పదం + పదం = కలిసిన పదం','Word + word = joined word'],
  ['ఆ','అ+అ=ఆ: విద్యాలయం','a+a=aa: vidyaalayam'],
  ['ఏ','అ+ఇ=ఏ: దేవేంద్రుడు','a+i=e: devendrudu'],
- ['యొ','ఇ+ఒ=యొ: ప్రతియొక్కరు','i+o=yo: pratiyokkaru'],
+ ['యే','ఇ+ఏ=యే: ప్రత్యేకం','i+e=ye: pratyekam'],
  ['✍️','కలపడం + విడదీయడం రెండూ నేర్చుకో','Learn both joining and splitting']]}};
 /* ---------- Class 6: Pythagoras (Maths) ---------- */
 function svgPyth(){
@@ -285,10 +285,10 @@ title:['📐 పైథాగరస్ మాస్టర్ క్లాస్',
 PIC:{h:['3-4-5 త్రిభుజం: చిన్న వర్గాలు కలిస్తే పెద్ద వర్గం','The 3-4-5 triangle: small squares add to the big one'],svg:svgPyth,cap:['a² + b² = c² — కర్ణం వర్గం = మిగతా రెండు భుజాల వర్గాల మొత్తం','a² + b² = c² — hypotenuse square = sum of the other two squares'],
  listen:[['లంబకోణ త్రిభుజంలో కర్ణం వర్గం మిగతా రెండు భుజాల వర్గాల మొత్తానికి సమానం','మూడు నాలుగు ఐదు అతి ప్రసిద్ధ త్రిభుజం'],['In a right triangle, the hypotenuse square equals the sum of the other two squares','Three four five is the most famous triangle']]},
 REAL:[
- {t:['గోడకు ఆనించిన నిచ్చెన','A ladder against the wall'],b:['నిచ్చెన పొడవు 5 మీ, గోడకు కాలువ 3 మీ దూరంలో ఉంటే ఎంత ఎత్తు వరకు చేరుతుంది? 5² − 3² = 16 → √16 = 4 మీ!','A 5 m ladder stands 3 m from a wall. How high does it reach? 5² − 3² = 16, so the answer is 4 m.']},
+ {t:['గోడకు ఆనించిన నిచ్చెన','A ladder against the wall'],b:['నిచ్చెన పొడవు 5 మీ, దాని అడుగు గోడ నుండి 3 మీ దూరంలో ఉంటే, గోడపై ఎంత ఎత్తు వరకు చేరుతుంది? 5² − 3² = 16 → √16 = 4 మీ!','A 5 m ladder stands 3 m from a wall. How high does it reach? 5² − 3² = 16, so the answer is 4 m.']},
  {t:['TV / ఫోన్ స్క్రీన్ కొలత','TV and phone screen size'],b:['స్క్రీన్ సైజు సాధారణంగా కర్ణంలో (డయాగనల్) చెబుతారు — 55 అంగుళాల TV అంటే మూల నుండి మూలకు కొలత.','Screen size is usually the diagonal — a 55 inch TV is measured corner to corner.']},
- {t:['నేరుగా దగ్గరి దారి','The shortcut across'],b:['చతురస్రాకార మైదానంలో రెండు వైపులా నడిస్తే 3+4=7 మీ; కొలత దాటి (కర్ణం) వెళ్తే 5 మీ మాత్రమే — 2 మీ ఆదా!','Walking around a 3-4 field takes 7 m; crossing the diagonal takes just 5 m — you save 2 m.']},
- {t:['కూలి/కార్పెంటర్ గుర్తు','The masons trick'],b:['గోడలు లంబకోణంలో ఉన్నాయా అని చూడటానికి కూలిలు 3-4-5 కొలత వాడతారు — టేపుతో 3, 4 కొనలు కొనిసి మూడోది 5 అయితే కోణం సరిగ్గా ఉంటుంది.','Masons use the 3-4-5 measure to check right angles — if the third side reads 5, the corner is perfectly square.']}],
+ {t:['నేరుగా దగ్గరి దారి','The shortcut across'],b:['దీర్ఘచతురస్రాకార మైదానం వైపులు 3 మీ, 4 మీ అయితే రెండు వైపులా నడిస్తే 3+4 = 7 మీ; ఒక మూల నుండి ఎదురు మూలకు (కర్ణం గుండా) వెళ్తే 5 మీ మాత్రమే - 2 మీ ఆదా!','Around a 3 m by 4 m field the edges take 7 m; corner to corner across the diagonal takes just 5 m - you save 2 m.']},
+ {t:['కూలి/కార్పెంటర్ గుర్తు','The masons trick'],b:['గోడలు లంబకోణంలో ఉన్నాయా అని చూడటానికి కూలిలు 3-4-5 కొలత వాడతారు — టేపుతో 3 మీ, 4 మీ కొనలు కొలిచి, మూడో కొన 5 మీ అయితే కోణం సరిగ్గా ఉంటుంది.','Masons use the 3-4-5 measure to check right angles - measure 3 m and 4 m on two sides; if the third side reads 5 m, the corner is square.']}],
 CARDS:[
  [['సూత్రం','The formula'],['a² + b² = c²','a² + b² = c²']],
  [['కర్ణం (c)','The hypotenuse (c)'],['లంబకోణానికి ఎదురుగా ఉండే అతి పొడవైన భుజం','The longest side, opposite the right angle']],
@@ -334,18 +334,18 @@ te:'హిందీ అక్షరాలు & మాటలు',en:'Hindi Letter
 meta:['హిందీ · తరగతి 6 · చిత్రం + క్విజ్','Hindi · Class 6 · picture + quiz'],
 title:['🇮🇳 హిందీ మాస్టర్ క్లాస్','🇮🇳 Hindi Master Class'],
 PIC:{h:['దేవనాగరి అక్షరాలు మన అక్షరాల్లాగే','Devanagari letters look like ours'],svg:svgHindi,cap:['स्वर = అచ్చులు · व्यंजन = హల్లులు','Swar = vowels · Vyanjan = consonants'],
- listen:[['హిందీ దేవనాగరి లిపిలో రాస్తారు. स्वर అంటే అచ్చులు, व्यंजन అంటే హల్లులు.','అ చూసి అ అని, आ చూసి ఆ అని చదవాలి — చాలా అక్షరాలు మన తెలుగు ధ్వనుల్లాగే ఉంటాయి.'],['Hindi is written in the Devanagari script. Swar means vowels and vyanjan means consonants.','Read अ as a and आ as aa — many sounds match Telugu sounds.']]},
+ listen:[['హిందీ దేవనాగరి లిపిలో రాస్తారు. स्वर అంటే అచ్చులు, व्यंजन అంటే హల్లులు.','अ చూసి అ అని, आ చూసి ఆ అని చదవాలి — చాలా అక్షరాలు మన తెలుగు ధ్వనుల్లాగే ఉంటాయి.'],['Hindi is written in the Devanagari script. Swar means vowels and vyanjan means consonants.','Read अ as a and आ as aa — many sounds match Telugu sounds.']]},
 REAL:[
  {t:['మొదటి పలకరింపు: नमस्ते','First greeting: namaste'],b:['హిందీలో ఎవర్ని కలిసినా "नमस्ते" అంటారు — మన "నమస్తే" లాగే. జోడించిన చేతులతో చెబితే మర్యాద.','In Hindi everyone is greeted with "namaste", just like our namaste. Join your palms for respect.']},
- {t:['రోజువారీ పదాలు','Everyday words'],b:['पानी = నీళ్లు · किताब = పుస్తకం · स्कूल = పాఠశాల · दोस्त = స్నేహితుడు · घर = ఇల్లు. ఇవి తెలిస్తే హిందీ సినిమా, పాటలు అర్థమవుతాయి!','paani = water · kitaab = book · school = school · dost = friend · ghar = home. Know these and Hindi songs start making sense!']},
+ {t:['రోజువారీ పదాలు','Everyday words'],b:['पानी = నీళ్లు · किताब = పుస్తకం · स्कूल = పాఠశాల · दोस्त = స్నేహితుడు · घर = ఇల్లు. ఇవి రోజువారీ మాటల్లో, పాటల్లో తరచుగా వినిపిస్తాయి!','paani = water · kitaab = book · school = school · dost = friend · ghar = home. You will hear these often in daily talk and songs!']},
  {t:['నీ పేరు చెప్పడం','Saying your name'],b:['"मेरा नाम राम है" = నా పేరు రామ్. మీ పేరు పెట్టి ప్రాక్టీస్ చేయండి: "मेरा नाम ___ है"','"mera naam Ram hai" means my name is Ram. Practice with your own name: mera naam ___ hai.']},
  {t:['లెక్కలు १-५','Numbers 1 to 5'],b:['१ एक (ఒకటి) · २ दो (రెండు) · ३ तीन (మూడు) · ४ चार (నాలుగు) · ५ पांच (ఐదు). హిందీ అంకెలు కొంచెం భిన్నంగా కనిపిస్తాయి కానీ ధ్వని సులభం.','1 ek · 2 do · 3 teen · 4 chaar · 5 paanch. Hindi digits look different but the sounds are easy.']}],
 CARDS:[
- [['स्वर (అచ్చులు)','Swar (vowels)'],['अ ఆ इ ఈ उ ऊ ए ఏ ऐ ఓ औ','a aa i ee u oo e ai o au']],
+ [['स्वर (అచ్చులు)','Swar (vowels)'],['अ आ इ ई उ ऊ ऋ ए ऐ ओ औ - అ ఆ ఇ ఈ ఉ ఊ ఋ ఏ ఐ ఓ ఔ అని చదవాలి','a aa i ee u oo ri e ai o au']],
  [['व्यंजन (హల్లులు)','Vyanjan (consonants)'],['क ख ग घ — తెలుగు క ఖ గ ఘ లాగే','ka kha ga gha — like Telugu ka kha ga gha']],
  [['नमस्ते','Namaste'],['పలకరింపు — hello / నమస్తే','A greeting — hello / namaste']],
  [['पानी','Paani'],['నీళ్లు — water','Water']],
- [['धन्यवाद्','Dhanyavaad'],['ధన్యవాదాలు — thank you','Thank you']],
+ [['धन्यवाद','Dhanyavaad'],['ధన్యవాదాలు — thank you','Thank you']],
  [['मेरा नाम ___ है','Mera naam ___ hai'],['నా పేరు ___ — my name is ___','My name is ___']]],
 QUIZ:[
  {q:['हिंदी ఏ లిపిలో రాస్తారు?','Hindi is written in which script?'],o:['తెలుగు§Telugu','देवनागरि§Devanagari','రోమన్§Roman','అరబిక్§Arabic'],a:1},
@@ -353,8 +353,8 @@ QUIZ:[
  {q:['"नमस्ते" ఎప్పుడు అంటారు?','When do we say "namaste"?'],o:['వెళ్తున్నప్పుడు మాత్రమే§Only while leaving','కలిసినప్పుడు పలకరింపుగా§As a greeting when meeting','కోపంగా ఉన్నప్పుడు§When angry','నవ్వినప్పుడు§When laughing'],a:1},
  {q:['"मेरा नाम सीता है" — ఇక్కడ "मेरा नाम" అంటే?','In "mera naam Sita hai", what does "mera naam" mean?'],o:['నా పేరు§My name','నా ఇల్లు§My home','నా పాఠశాల§My school','నా పుస్తకం§My book'],a:0},
  {q:['హిందీలో "दो" (२) అంటే?','What is "do" (२) in Hindi?'],o:['ఒకటి§One','మూడు§Three','రెండు§Two','ఐదు§Five'],a:2},
- {q:['"धन्यवाद्" కు సరైన తెలుగు అర్థం?','The right Telugu meaning of "dhanyavaad"?'],o:['శుభోదయం§Good morning','ధన్యవాదాలు§Thank you','విడాకులు§Goodbye','మళ్లీ కలుద్దాం§See you again'],a:1}],
-SUMM:[['हिंदी దేవనాగరి లిపిలో రాస్తారు; स्वर = అచ్చులు, व्यंजन = హల్లులు.','Hindi is written in Devanagari; swar means vowels, vyanjan means consonants.'],['చాలా హిందీ ధ్వనులు తెలుగులోనే ఉన్నాయి: अ=అ, क=క, म=మ — భయం వద్దు, నేర్చుకోవడం సులభం.','Most Hindi sounds exist in Telugu: a=అ, ka=క, ma=మ — it is easier than it looks.'],['రోజువారీ పదాలు: पानी నీళ్లు, किताब పుస్తకం, दोस्त స్నేహితుడు, घर ఇల్లు, धन्यवाद् ధన్యవాదాలు.','Everyday words: paani water, kitaab book, dost friend, ghar home, dhanyavaad thank you.'],['"मेरा नाम ___ है" అంటే నా పేరు ___ — మొదటి హిందీ వాక్యం రేపే ప్రాక్టీస్ చేయండి!','"mera naam ___ hai" means my name is ___ — practice your first Hindi sentence today!']],
+ {q:['"धन्यवाद" కు సరైన తెలుగు అర్థం?','The right Telugu meaning of "dhanyavaad"?'],o:['శుభోదయం§Good morning','ధన్యవాదాలు§Thank you','విడాకులు§Goodbye','మళ్లీ కలుద్దాం§See you again'],a:1}],
+SUMM:[['हिंदी దేవనాగరి లిపిలో రాస్తారు; स्वर = అచ్చులు, व्यंजन = హల్లులు.','Hindi is written in Devanagari; swar means vowels, vyanjan means consonants.'],['చాలా హిందీ ధ్వనులు తెలుగులోనే ఉన్నాయి: अ=అ, क=క, म=మ — భయం వద్దు, నేర్చుకోవడం సులభం.','Most Hindi sounds exist in Telugu: a=అ, ka=క, ma=మ — it is easier than it looks.'],['రోజువారీ పదాలు: पानी నీళ్లు, किताब పుస్తకం, दोस्त స్నేహితుడు, घर ఇల్లు, धन्यवाद ధన్యవాదాలు.','Everyday words: paani water, kitaab book, dost friend, ghar home, dhanyavaad thank you.'],['"मेरा नाम ___ है" అంటే నా పేరు ___ — మొదటి హిందీ వాక్యం రేపే ప్రాక్టీస్ చేయండి!','"mera naam ___ hai" means my name is ___ — practice your first Hindi sentence today!']],
 MAP:{center:'🇮🇳 హిందీ మొదటి అడుగులు',rows:[
  ['✍️','లిపి: देवनागरी','Script: Devanagari'],
  ['🔤','स्वर అచ్చులు · व्यंजन హల్లులు','Swar vowels · Vyanjan consonants'],
