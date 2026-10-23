@@ -571,15 +571,15 @@ PIC:{h:['నీరు ఎగిసి, కురిసి, మళ్లీ త�
 REAL:[
  {t:['బట్టలు ఎండలో ఆరడం','Clothes drying in the sun'],b:['తడి బట్టల్లోని నీరు సూర్యుడి వేడితో ఆవిరై గాలిలో కలిసిపోతుంది — ఇదే ఆవిరైపోవడం. గాలి, వేడి ఎక్కువైతే త్వరగా ఆరతాయి.','Water in wet clothes turns to vapour in the Sun\'s heat and joins the air — that is evaporation. Wind and heat dry them faster.']},
  {t:['మరిగే పాత్ర మూతపై చినుకులు','Drops on a boiling pot lid'],b:['ఆవిరి చల్లటి మూతను తాకగానే చిన్న నీటి బిందువులవుతుంది — ఇదే సంఘననం. మేఘాలు కూడా ఇలాగే ఏర్పడతాయి.','When vapour touches the cool lid it becomes tiny water drops — that is condensation. Clouds form the same way.']},
- {t:['వేసవి తరువాత వర్షాలు','Rains after hot days'],b:['వేసవిలో ఎక్కువ నీరు ఆవిరై మేఘాలు ఏర్పడతాయి; అవి భారంగా మారినప్పుడు వర్షం కురుస్తుంది — అందుకే వేడి రోజుల తరువాత వాన వస్తుంది.','Hot days evaporate more water and build clouds; when they grow heavy, rain falls — that is why rain often follows hot days.']},
- {t:['బావి, భూగర్భ జలం','Wells and groundwater'],b:['కురిసిన వర్షం నేలలోకి జారి భూగర్భ జలంగా నిలుస్తుంది — మన బావులు, బోర్లు ఇదే నీటిని ఇస్తాయి. అందుకే వర్షపు నీటి కోతలు ముఖ్యం.','Rainwater soaks into the ground and is stored as groundwater — our wells and borewells draw from it. That is why rainwater harvesting matters.']}],
+ {t:['వర్షం ఎలా కురుస్తుంది','How rain falls'],b:['మేఘాల్లో నీటి బిందువులు, మంచు కణాలు పెరిగి బరువైతే అవి కింద పడతాయి - దీన్నే వర్షపాతం అంటారు. మేఘాలు అలా ఏర్పడినప్పుడే వర్షం వస్తుంది; ప్రతి వేడి రోజు తరువాత వాన తప్పకుండా వస్తుందనే నియమం లేదు.','In clouds, water droplets and ice crystals grow until they are heavy enough to fall - that is precipitation. Rain comes only when clouds grow that way; it does not have to rain after every hot day.']},
+ {t:['బావి, భూగర్భ జలం','Wells and groundwater'],b:['కురిసిన వర్షంలో కొంత నేలలోకి ఇంకి భూగర్భ జలంగా మారుతుంది - మన బావులు, బోర్లు ఈ నీటిని ఇస్తాయి. అందుకే వర్షపు నీటిని సంరక్షించి నేలలోకి ఇంకేలా చేయడం ముఖ్యం.','Some of the rain soaks into the ground and becomes groundwater - our wells and borewells draw from it. That is why saving rainwater and helping it soak into the soil matters.']}],
 CARDS:[
  [['ఆవిరైపోవడం','Evaporation'],['వేడితో నీరు ఆవిరిగా మారడం','Water turning into vapour by heat']],
  [['సంఘననం','Condensation'],['ఆవిరి చల్లబడి చిన్న బిందువులు/మేఘాలు కావడం','Vapour cooling into tiny drops or clouds']],
  [['వర్షపాతం','Precipitation'],['మేఘాల నుండి వర్షం, మంచు కురవడం','Rain or snow falling from clouds']],
  [['సేకరణ','Collection'],['నీరు నదులు, చెరువులు, సముద్రాల్లో చేరడం','Water gathering in rivers, lakes and seas']],
- [['చక్రానికి యంత్రం?','What powers the cycle?'],['సూర్యుడు — ఆయన వేడే అన్ని కదిలిస్తుంది','The Sun — its heat moves everything']],
- [['నీరు కోల్పోతుందా?','Is water ever lost?'],['లేదు — అదే నీరు యుగయుగాలుగా తిరుగుతోంది','No — the same water has been cycling for ages']]],
+ [['చక్రానికి యంత్రం?','What powers the cycle?'],['సూర్యుడి శక్తి పైకి లేపుతుంది, గురుత్వం కిందకు లాగుతుంది','The Sun\'s energy lifts, gravity pulls down']],
+ [['నీరు కోల్పోతుందా?','Is water ever lost?'],['నీరు రూపు మారుతూ గాలిలో, నేలపై, నేలలో తిరుగుతూనే ఉంటుంది','Water keeps changing form and moving through air, land and ground']]],
 QUIZ:[
  {q:['సూర్యుడి వేడితో నీరు ఏమవుతుంది?','What happens to water in the Sun\'s heat?'],o:['మంచుగా మారుతుంది§It turns to ice','ఆవిరైపోతుంది§It evaporates','మట్టిగా మారుతుంది§It turns to soil','అదృశ్యమై పోతుంది§It disappears forever'],a:1},
  {q:['మేఘాలు ఎలా ఏర్పడతాయి?','How do clouds form?'],o:['నీటి ఆవిరి పైకి వెళ్లి చల్లబడటంతో§Water vapour rises and cools','సముద్రం పైకి ఎగరడంతో§The sea flies up','గాలి నీలిగా మారడంతో§Air turns blue','మంచు కరగడంతో§Ice melts in the sky'],a:0},
@@ -587,9 +587,9 @@ QUIZ:[
  {q:['జలచక్రానికి అవసరమైన ప్రధాన శక్తి ఏది?','What is the main power for the water cycle?'],o:['గాలి§Wind','సూర్యుడు§The Sun','చంద్రుడు§The Moon','చెట్లు§Trees'],a:1},
  {q:['తడి బట్టలు ఎండలో ఎందుకు ఆరతాయి?','Why do wet clothes dry in the sun?'],o:['నీరు ఆవిరైపోవడం వల్ల§Because water evaporates','నీరు మంచుగా మారడం వల్ల§Because water freezes','గాలి నీరు తాగేయడం వల్ల§Because wind drinks the water','బట్టలు నీటిని పీల్చడం వల్ల§Because clothes soak it back'],a:0},
  {q:['భూమిపై నీటి గురించి సరైనది ఏది?','Which is true about Earth\'s water?'],o:['ప్రతిరోజూ కొత్త నీరు పుడుతుంది§New water is born daily','నీరు శాశ్వతంగా పోతుంది§Water is lost forever','అదే నీరు చక్రంగా మళ్లీ మళ్లీ తిరుగుతుంది§The same water cycles again and again','వర్షం నీరు వాడలేము§Rain water cannot be used'],a:2}],
-SUMM:[['జలచక్రం నాలుగు అడుగులు: ఆవిరైపోవడం → సంఘననం → వర్షపాతం → సేకరణ.','The water cycle has four steps: evaporation → condensation → precipitation → collection.'],['సూర్యుడి వేడి ఈ చక్రానికి యంత్రం — ఆవిరిని పైకి లేపుతుంది.','The Sun\'s heat is the engine — it lifts the vapour up.'],['భూమిపై నీరు కొత్తగా పుట్టదు, పోదు — అదే నీరు మళ్లీ మళ్లీ తిరుగుతుంది.','Earth\'s water is neither created nor lost — the same water cycles endlessly.'],['బట్టలు ఆరడం, పాత్ర మూతపై చినుకులు — ఇలా రోజువారీ జీవితంలోనే జలచక్రం కనిపిస్తుంది.','Drying clothes and drops on a pot lid — the water cycle shows up in daily life.']],
+SUMM:[['జలచక్రం నాలుగు అడుగులు: ఆవిరైపోవడం → సంఘననం → వర్షపాతం → సేకరణ.','The water cycle has four steps: evaporation → condensation → precipitation → collection.'],['సూర్యుడి శక్తి ఆవిరిని పైకి లేపుతుంది; గురుత్వం నీటిని కిందకు లాగుతుంది.','The Sun\'s energy lifts the vapour up; gravity pulls the water down.'],['నీరు ఆవిరి, ద్రవం, మంచు రూపాలు మారుతూ గాలిలో, నేలపై, నేలలో తిరుగుతూనే ఉంటుంది - దీన్నే జలచక్రం అంటారు.','Water keeps changing between vapour, liquid and ice and moves through the air, the surface and the ground - that is the water cycle.'],['బట్టలు ఆరడం, పాత్ర మూతపై చినుకులు — ఇలా రోజువారీ జీవితంలోనే జలచక్రం కనిపిస్తుంది.','Drying clothes and drops on a pot lid — the water cycle shows up in daily life.']],
 MAP:{center:'💧 జలచక్రం',rows:[
- ['☀️','సూర్యుడు = యంత్రం','The Sun = the engine'],
+ ['☀️','సూర్యుడు + గురుత్వం','Sun + gravity'],
  ['⬆️','ఆవిరైపోవడం: నీరు పైకి','Evaporation: water rises'],
  ['☁️','సంఘననం: మేఘాలు','Condensation: clouds form'],
  ['🌧️','వర్షపాతం → సేకరణ','Precipitation → collection'],
