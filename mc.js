@@ -23,13 +23,13 @@ function L(k){var a=T[k];return a[isTe()?0:1]}
 /* ---------- Class 1: (a+b)² (Maths, custom interactive picture) ---------- */
 var APLUSB={
 id:'aplusb',icon:'🧮',custom:true,
-te:'(a+b)² వర్గ సూత్రం',en:'(a+b)² — the square formula',
+te:'(a+b)² వర్గ సూత్రం',en:'(a+b)² - the square formula',
 meta:['గణితం · తరగతి 8 · చిత్రం + క్విజ్','Maths · Class 8 · picture + quiz'],
 title:['🎓 (a+b)² మాస్టర్ క్లాస్','🎓 (a+b)² Master Class'],
 REAL:[
  {t:['వేగంగా లెక్క: 103²','Fast maths: 103²'],b:['103 = 100+3 అని వ్రాయండి. 103² = 100² + 2×100×3 + 3² = 10000 + 600 + 9 = 10609. కేలిక్యులేటర్ లేకుండా సెకన్లలో!','Write 103 = 100+3. Then 103² = 100² + 2×100×3 + 3² = 10000 + 600 + 9 = 10609. Seconds, no calculator!']},
  {t:['గది/టైల్స్ లెక్క','Room and tiles'],b:['గది పొడవు, వెడల్పు రెండింటికీ కొంత జోడించినప్పుడు కొత్త వైశాల్యం = పాత వైశాల్యం + రెండు అదనపు భాగాలు + చిన్న మూల. టైల్స్ ఎన్ని కావాలో లెక్కేసేటప్పుడు ఇదే సూత్రం వాడతారు.','When both sides of a room grow a little, the new area = old area + two extra strips + a small corner. Tile estimators use exactly this formula.']},
- {t:['పొలం/ప్లాట్ కొలత','Field or plot measure'],b:['చదరపు ప్లాట్ వైపు 20 మీ నుండి 22 మీ అయితే వైశాల్యం 400 నుండి 484 చ.మీ — పెరుగుదల 2×20×2 + 2² = 84 చ.మీ. అంచనా వేయడం త్వరగా అవుతుంది.','If a square plot side goes from 20 m to 22 m, the area goes from 400 to 484 sq m — the growth is 2×20×2 + 2² = 84 sq m. Quick estimates become easy.']},
+ {t:['పొలం/ప్లాట్ కొలత','Field or plot measure'],b:['చదరపు ప్లాట్ వైపు 20 మీ నుండి 22 మీ అయితే వైశాల్యం 400 నుండి 484 చ.మీ - పెరుగుదల 2×20×2 + 2² = 84 చ.మీ. అంచనా వేయడం త్వరగా అవుతుంది.','If a square plot side goes from 20 m to 22 m, the area goes from 400 to 484 sq m - the growth is 2×20×2 + 2² = 84 sq m. Quick estimates become easy.']},
  {t:['5తో అయ్యే సంఖ్యల వర్గం','Squaring numbers ending in 5'],b:['25² = (20+5)² = 400 + 200 + 25 = 625. 85² కూడా అలాగే: (80+5)² = 6400+800+25 = 7225.','25² = (20+5)² = 400 + 200 + 25 = 625. Same for 85² = (80+5)² = 6400+800+25 = 7225.']}],
 CARDS:[
  [['(a+b)² సూత్రం','(a+b)² formula'],['a² + 2ab + b²','a² + 2ab + b²']],
@@ -45,7 +45,7 @@ QUIZ:[
  {q:['రేణు "21² = 400 + 41" అని వ్రాశింది. ఎక్కడ తప్పు?','Renu wrote 21² = 400 + 41. Where is the slip?'],o:[['అది సరియైనదే','It is correct'],['2×20×1 = 40 మరిచింది','She forgot 2×20×1 = 40'],['20² తప్పు','20² is wrong'],['1² తప్పు','1² is wrong']],a:1},
  {q:['ఒక చదరపు పొలం వైపు 30 మీ. ప్రతి వైపు 2 మీ పెరిగితే కొత్త వైశాల్యం?','A square field side is 30 m. Each side grows by 2 m. New area?'],o:[['904 చ.మీ','904 sq m'],['960 చ.మీ','960 sq m'],['1024 చ.మీ','1024 sq m'],['964 చ.మీ','964 sq m']],a:2},
  {q:['45² = (40+5)² = ?','45² = (40+5)² = ?'],o:[['2025','2025'],['1625','1625'],['2005','2005'],['2125','2125']],a:0}],
-SUMM:[['(a+b)² = a² + 2ab + b² — మూడు భాగాలు: మొదటిది వర్గం, రెండింటి రెట్టింపు లబ్దం, రెండోది వర్గం.','(a+b)² = a² + 2ab + b² — three parts: square of first, twice the product, square of last.'],['చదరపు చిత్రంలో 4 భాగాలుగా చూపవచ్చు: a², ab, ab, b².','In a square picture it shows as 4 areas: a², ab, ab, b².'],['రోజువారీ లెక్కల్లో (103², 45², టైల్స్, ప్లాట్లు) నేరుగా వాడవచ్చు.','Use it directly in daily maths: 103², 45², tiles, plots.'],['గుర్తుంచుకోండి: (a+b)² అంటే a² + b² కాదు — మధ్య 2ab తప్పనిసరి!','Remember: (a+b)² is NOT a² + b² — the middle 2ab is a must!']],
+SUMM:[['(a+b)² = a² + 2ab + b² - మూడు భాగాలు: మొదటిది వర్గం, రెండింటి రెట్టింపు లబ్దం, రెండోది వర్గం.','(a+b)² = a² + 2ab + b² - three parts: square of first, twice the product, square of last.'],['చదరపు చిత్రంలో 4 భాగాలుగా చూపవచ్చు: a², ab, ab, b².','In a square picture it shows as 4 areas: a², ab, ab, b².'],['రోజువారీ లెక్కల్లో (103², 45², టైల్స్, ప్లాట్లు) నేరుగా వాడవచ్చు.','Use it directly in daily maths: 103², 45², tiles, plots.'],['గుర్తుంచుకోండి: (a+b)² అంటే a² + b² కాదు - మధ్య 2ab తప్పనిసరి!','Remember: (a+b)² is NOT a² + b² - the middle 2ab is a must!']],
 MAP:{center:'(a+b)²',rows:[
  ['a² + 2ab + b²','సూత్రం','Formula'],
  ['🔲','చదరపు చిత్రంలో 4 భాగాలు','4 areas in the square picture'],
@@ -56,7 +56,7 @@ var mcA=3,mcB=2;
 function visual(){
  var a=mcA,b=mcB,tot=a+b,S=260,sa=a*S/tot,sb=b*S/tot;
  function ctl(k,v,lab){return '<div style="display:flex;align-items:center;gap:8px;justify-content:center;margin:4px 0"><b>'+lab+' = '+v+'</b><button class="mc-btn sec" style="min-height:34px;padding:4px 12px" onclick="window.__mcStep(\''+k+'\',-1)">−</button><button class="mc-btn sec" style="min-height:34px;padding:4px 12px" onclick="window.__mcStep(\''+k+'\',1)">+</button></div>'}
- return '<div class="mc-card"><h3>'+(isTe()?'చదరపు చిత్రం — ఎందుకు 2ab వస్తుంది':'The square picture — why 2ab appears')+'</h3>'
+ return '<div class="mc-card"><h3>'+(isTe()?'చదరపు చిత్రం - ఎందుకు 2ab వస్తుంది':'The square picture - why 2ab appears')+'</h3>'
  +ctl('a',a,'a')+ctl('b',b,'b')
  +'<svg id="mc-svg" viewBox="0 0 260 260">'
  +'<rect x="0" y="0" width="'+sa+'" height="'+sa+'" fill="#ff6b81" stroke="#0c1022" stroke-width="3"/>'
