@@ -237,7 +237,7 @@ PIC:{h:['రెండు పదాలు కలిసినప్పుడు �
  listen:[['సంధి అంటే రెండు పదాలు కలిసినప్పుడు అక్షరాలు మారడం','విద్య ఆలయం కలిపి విద్యాలయం','దేవ ఇంద్రుడు కలిపి దేవేంద్రుడు'],['Sandhi means letters changing when two words join','vidya plus aalayam becomes vidyaalayam','deva plus indrudu becomes devendrudu']]},
 REAL:[
  {t:['మనం రోజూ వాడే సంధులు','Sandhis we use every day'],b:['విద్యాలయం, మహర్షి, దేవాలయం, ప్రతియొక్కరు — ఇవన్నీ సంధితో ఏర్పడిన పదాలే! మనం రోజూ మాట్లాడే మాటల్లో సంధులు ఎన్నో ఉన్నాయి.','Vidyalayam, maharshi, devalayam, pratiyokkaru — all these are sandhi words. Our daily speech is full of them.']},
- {t:['పరీక్షలో మార్కులు దెంతులు','Exam marks from sandhi'],b:['"విద్యాలయం సంధి చేయండి" అంటే విద్య + ఆలయం అని విడదీయాలి. "దేవేంద్రుడు" అంటే దేవ + ఇంద్రుడు. విడదీత, కలపడం — రెండూ వస్తాయి.','If the exam says "split vidyalayam", answer vidya + aalayam. Joining and splitting both come as questions.']},
+ {t:['పరీక్షలో సంధి మార్కులు','Exam marks from sandhi'],b:['"విద్యాలయం సంధి చేయండి" అంటే విద్య + ఆలయం అని విడదీయాలి. "దేవేంద్రుడు" అంటే దేవ + ఇంద్రుడు. విడదీత, కలపడం — రెండూ వస్తాయి.','If the exam says "split vidyalayam", answer vidya + aalayam. Joining and splitting both come as questions.']},
  {t:['పేర్లలో కూడా సంధి','Sandhi hides in names too'],b:['రవి + ఇంద్రుడు = రవీంద్రుడు (రవీంద్ర), సుర + ఇంద్రుడు = సురేంద్రుడు (సురేంద్ర). పేర్లు విన్నప్పుడు సంధి గుర్తుపట్టవచ్చు.','Ravi + indrudu = Raveendrudu, Sura + indrudu = Surendrudu. You can spot sandhi inside common names.']},
  {t:['రాయడంలో జాగ్రత్త','Careful while writing'],b:['"విద్య ఆలయం" వేర్వేరుగా రాసినా అర్థం అదే; కానీ కలిపి రాస్తే సరైన రూపం విద్యాలయం. పొడవు అక్షరం మరిచిపోకూడదు!','Writing vidya aalayam separately gives the same meaning, but joined, the correct form is vidyaalayam — do not drop the long aa!']}],
 CARDS:[
@@ -286,7 +286,7 @@ PIC:{h:['3-4-5 త్రిభుజం: చిన్న వర్గాలు �
  listen:[['లంబకోణ త్రిభుజంలో కర్ణం వర్గం మిగతా రెండు భుజాల వర్గాల మొత్తానికి సమానం','మూడు నాలుగు ఐదు అతి ప్రసిద్ధ త్రిభుజం'],['In a right triangle, the hypotenuse square equals the sum of the other two squares','Three four five is the most famous triangle']]},
 REAL:[
  {t:['గోడకు ఆనించిన నిచ్చెన','A ladder against the wall'],b:['నిచ్చెన పొడవు 5 మీ, గోడకు కాలువ 3 మీ దూరంలో ఉంటే ఎంత ఎత్తు వరకు చేరుతుంది? 5² − 3² = 16 → √16 = 4 మీ!','A 5 m ladder stands 3 m from a wall. How high does it reach? 5² − 3² = 16, so the answer is 4 m.']},
- {t:['TV / ఫోన్ స్క్రీన్ కొలత','TV and phone screen size'],b:['స్క్రీన్ సైజు ఎల్లప్పుడూ కర్ణంలో (డయాగనల్) చెబుతారు — 55 అంగుళాల TV అంటే మూల నుండి మూలకు కొలత.','Screen size is always the diagonal — a 55 inch TV is measured corner to corner.']},
+ {t:['TV / ఫోన్ స్క్రీన్ కొలత','TV and phone screen size'],b:['స్క్రీన్ సైజు సాధారణంగా కర్ణంలో (డయాగనల్) చెబుతారు — 55 అంగుళాల TV అంటే మూల నుండి మూలకు కొలత.','Screen size is usually the diagonal — a 55 inch TV is measured corner to corner.']},
  {t:['నేరుగా దగ్గరి దారి','The shortcut across'],b:['చతురస్రాకార మైదానంలో రెండు వైపులా నడిస్తే 3+4=7 మీ; కొలత దాటి (కర్ణం) వెళ్తే 5 మీ మాత్రమే — 2 మీ ఆదా!','Walking around a 3-4 field takes 7 m; crossing the diagonal takes just 5 m — you save 2 m.']},
  {t:['కూలి/కార్పెంటర్ గుర్తు','The masons trick'],b:['గోడలు లంబకోణంలో ఉన్నాయా అని చూడటానికి కూలిలు 3-4-5 కొలత వాడతారు — టేపుతో 3, 4 కొనలు కొనిసి మూడోది 5 అయితే కోణం సరిగ్గా ఉంటుంది.','Masons use the 3-4-5 measure to check right angles — if the third side reads 5, the corner is perfectly square.']}],
 CARDS:[
