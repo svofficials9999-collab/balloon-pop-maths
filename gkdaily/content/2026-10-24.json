@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "timezone": "Asia/Kolkata",
+  "sources": {
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/about/state-symbols/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-animal.php",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/our-work/official-languages",
+      "published_date": null
+    },
+    "scholarships": {
+      "publisher": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in/Students",
+      "published_date": null
+    },
+    "tgnews": {
+      "publisher": "Deccan Chronicle",
+      "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-hmwssb-to-launch-green-tankers-with-treated-wastewater-1998286",
+      "published_date": "2026-10-23"
+    },
+    "innews": {
+      "publisher": "DD India",
+      "url": "https://ddindia.co.in/2026/10/eam-jaishankar-holds-talks-with-azerbaijan-leadership-to-deepen-bilateral-ties/",
+      "published_date": "2026-10-23"
+    },
+    "worldnews": {
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/",
+      "published_date": "2026-10-23"
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261024_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "tgnews"
+      ],
+      "event_date": "2026-11-01",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261024_telangana_1",
+        "en": "gk_20261024_telangana_1__en"
+      },
+      "title": {
+        "te": "గ్రీన్ వాటర్ ట్యాంకర్ల ప్రణాళిక",
+        "en": "Green Water Tanker plan"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 23న డెక్కన్ క్రానికల్ నివేదిక ప్రకారం, హైదరాబాద్ జలమండలి (హెచ్‌ఎండబ్ల్యూఎస్‌అండ్‌ఎస్‌బీ) నవంబర్ 1 నుండి గ్రీన్ వాటర్ ట్యాంకర్ సేవలు ప్రారంభించే ప్రణాళిక చేస్తోంది. నిర్మాణాలు, పరిశ్రమలు, పార్కుల కోసం శుద్ధి చేసిన మురుగునీటిని జీపీఎస్ ట్యాంకర్లు, ఆన్‌లైన్ బుకింగ్ ద్వారా సరఫరా చేస్తారు. భూగర్భజలం, తాగునీటిపై ఆధారపడటం తగ్గించడమే లక్ష్యం. ఇది ప్రణాళిక గురించిన వార్త; సేవలు ఇంకా ప్రారంభం కాలేదు.",
+        "en": "Deccan Chronicle reported on October 23 that the Hyderabad water board (HMWS&SB) plans to launch Green Water Tanker services from November 1. Treated wastewater will be supplied for construction, industries and parks through GPS-equipped tankers and online bookings, to reduce dependence on groundwater and drinking water. This reports a plan; the service has not started yet."
+      }
+    },
+    {
+      "id": "gk_20261024_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "innews"
+      ],
+      "event_date": "2026-10-23",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261024_india_1",
+        "en": "gk_20261024_india_1__en"
+      },
+      "title": {
+        "te": "అజర్బైజాన్‌తో భారత్ చర్చలు",
+        "en": "India holds talks with Azerbaijan"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 23న డీడీ ఇండియా నివేదిక ప్రకారం, విదేశాంగ మంత్రి ఎస్. జైశంకర్ బాకూలో అజర్బైజాన్ అధ్యక్షుడు ఇల్హామ్ అలియెవ్, విదేశాంగ మంత్రి జేహున్ బయ్రమోవ్‌తో చర్చలు జరిపారు. ద్వైపాక్షిక సంబంధాలు, వాణిజ్యం, పెట్టుబడులు, ఇంధన రంగాల్లో సహకారం, ప్రాంతీయ అంశాలు చర్చించారు. రాష్ట్రపతి ద్రౌపది ముర్ము, ప్రధానమంత్రి నరేంద్ర మోదీ శుభాకాంక్షలు ఆయన తెలిపారు. ఇది జరిగిన చర్చల గురించిన వార్త.",
+        "en": "DD India reported on October 23 that External Affairs Minister S. Jaishankar held talks in Baku with Azerbaijan President Ilham Aliyev and Foreign Minister Jeyhun Bayramov. They reviewed bilateral ties and cooperation in trade, investment and energy, and discussed regional and global issues. He conveyed the greetings of President Droupadi Murmu and Prime Minister Narendra Modi. This reports completed talks."
+      }
+    },
+    {
+      "id": "gk_20261024_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": "2026-10-23",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261024_world_1",
+        "en": "gk_20261024_world_1__en"
+      },
+      "title": {
+        "te": "డ్రాగన్‌ఫ్లై మొదటి అభ్యాస యాత్ర",
+        "en": "Dragonfly completes first simulated flight"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 23న నాసా తెలిపింది: టైటాన్ ఉపగ్రహానికి పంపే డ్రాగన్‌ఫ్లై హెలికాప్టర్-వంటి నౌక తన మొదటి అనుకరణ (సిమ్యులేషన్) యాత్రను కంప్యూటర్ టెస్ట్‌బెడ్‌పై విజయవంతంగా పూర్తి చేసింది. ఇది నిజంగా టైటాన్‌పై ఎగరలేదు; జాన్స్ హాప్కిన్స్ ప్రయోగశాలలో యంత్రాల పరీక్ష. ప్రణాళిక ప్రకారం డ్రాగన్‌ఫ్లై 2028లో లేదా ఆ తరువాత ప్రయోగించి, 2034లో టైటాన్ చేరుకుంటుంది. పరీక్ష జరిగినది; నిజమైన యాత్ర భవిష్యత్తు ప్రణాళిక.",
+        "en": "NASA said on October 23 that the Dragonfly rotorcraft completed its first simulated flight on a computer testbed at the Johns Hopkins Applied Physics Laboratory. It did not really fly on Titan; this was a test of its systems. On the current plan, Dragonfly will launch no earlier than 2028 and reach Saturn's moon Titan in 2034. The test is a completed event; the real voyage is a future plan."
+      }
+    },
+    {
+      "id": "gk_20261024_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "source_ids": [
+        "tggk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261024_telangana_2",
+        "en": "gk_20261024_telangana_2__en"
+      },
+      "title": {
+        "te": "తెలంగాణ రాష్ట్ర పక్షి పాలపిట్ట",
+        "en": "Telangana state bird Palapitta"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్ర పక్షి పాలపిట్ట (ఇండియన్ రోలర్ లేదా బ్లూ జే). రాష్ట్ర పువ్వు తంగేడు; బతుకమ్మలను అమర్చడానికి తంగేడు పూలను వాడతారని అధికారిక పేజీ తెలియజేస్తుంది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The state bird of Telangana is the Palapitta (Indian Roller or Blue Jay). The state flower is Tangedu, and the official page says Tangedu flowers are used in stacking Bathukammas. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261024_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261024_india_2",
+        "en": "gk_20261024_india_2__en"
+      },
+      "title": {
+        "te": "భారత జాతీయ జంతువు",
+        "en": "National animal of India"
+      },
+      "summary": {
+        "te": "భారత జాతీయ జంతువు పులి. దాని శాస్త్రీయ నామం పాంథెరా టైగ్రిస్. పులుల సంఖ్య తగ్గుతోందని గమనించి 1973 ఏప్రిల్‌లో ప్రాజెక్ట్ టైగర్ ప్రారంభించారని నో ఇండియా పేజీ తెలియజేస్తుంది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The tiger is the national animal of India. Its scientific name is Panthera tigris. The Know India page says Project Tiger was launched in April 1973 to check the dwindling population of tigers. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261024_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261024_world_2",
+        "en": "gk_20261024_world_2__en"
+      },
+      "title": {
+        "te": "యూఎన్ అధికారిక భాషలు",
+        "en": "Official languages of the United Nations"
+      },
+      "summary": {
+        "te": "ఐక్యరాజ్యసమితికి ఆరు అధికారిక భాషలు ఉన్నాయి: అరబిక్, చైనీస్, ఇంగ్లీష్, ఫ్రెంచ్, రష్యన్, స్పానిష్. ఈ ఆరు భాషల్లో స్పష్టమైన అనువాదం, అర్థం చేసుకోవడం సంస్థ పనికి చాలా అవసరమని అధికారిక పేజీ తెలియజేస్తుంది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The United Nations has six official languages: Arabic, Chinese, English, French, Russian and Spanish. The official page says correct interpretation and translation in these six languages is very important to the work of the Organization. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261024_india_4",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "scholarships"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261024_india_4",
+        "en": "gk_20261024_india_4__en"
+      },
+      "title": {
+        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ గడువు",
+        "en": "NSP renewal deadline"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 24న తనిఖీ చేసిన అధికారిక ఎన్‌ఎస్‌పీ ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి గడువు 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30. ముగింపు సమయం ఇవ్వలేదు. అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు కాదు.",
+        "en": "The official NSP announcement checked on October 24 says renewal applications are open for the PM-USP Central Sector Scheme for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student deadline is October 31, 2026; institute verification November 15; Level 2 verification November 30. No cutoff time is given. This applies only to eligible renewal applicants, not every scholarship."
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261024_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261024_reading_1",
+        "en": "gk_20261024_reading_1__en"
+      },
+      "source_ids": [
+        "worldnews"
+      ],
+      "title": {
+        "te": "అభ్యాస యాత్ర, నిజమైన యాత్ర వేరు",
+        "en": "A practice flight and a real flight differ"
+      },
+      "passage": {
+        "te": "కొత్త యంత్రాన్ని నిజంగా పంపే ముందు శాస్త్రవేత్తలు దానిని అనేక సార్లు పరీక్షిస్తారు. డ్రాగన్‌ఫ్లై నౌక మొదటి యాత్ర కంప్యూటర్ టెస్ట్‌బెడ్‌పై జరిగింది. అంటే అది నిజంగా టైటాన్‌పై ఎగరలేదు; యంత్రాలు సరిగ్గా పని చేస్తాయా అని చూశారు. అనుకరణ పరీక్ష విజయవంతం అంటే ప్రతిదీ బాగుందన్న నమ్మకం పెరుగుతుంది, కానీ నిజమైన ప్రయాణం ఇంకా రావాలి. వార్త చదివేటప్పుడు అభ్యాసం జరిగిందనా, నిజమైన పని జరిగిందనా అని గమనించాలి.",
+        "en": "Before sending a new machine far away, scientists test it many times. Dragonfly's first flight happened on a computer testbed. That means it did not really fly over Titan; the team checked whether its systems work correctly. A successful simulation raises confidence, but the real voyage is still ahead. When reading the news, notice whether a practice run happened or the real task happened."
+      },
+      "vocabulary": [
+        {
+          "te": "అనుకరణ",
+          "en": "simulation"
+        },
+        {
+          "te": "పరీక్ష",
+          "en": "test"
+        },
+        {
+          "te": "నమ్మకం",
+          "en": "confidence"
+        }
+      ]
+    },
+    {
+      "id": "gk_20261024_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261024_reading_2",
+        "en": "gk_20261024_reading_2__en"
+      },
+      "source_ids": [
+        "tgnews"
+      ],
+      "title": {
+        "te": "నీటిని పనికి తగ్గట్టు వాడడం",
+        "en": "Matching water to its use"
+      },
+      "passage": {
+        "te": "ప్రతి పనికి తాగునీరు అవసరం లేదు. నిర్మాణాలు, పార్కులు, కొన్ని పరిశ్రమలు శుద్ధి చేసిన మురుగునీటితో నడవచ్చు. అలా వాడితే తాగునీరు, భూగర్భజలం ఆదా అవుతాయి. హైదరాబాద్ గ్రీన్ వాటర్ ట్యాంకర్ ప్రణాళిక ఇదే సూత్రంపై ఆధారపడింది. వనరును దాని ఉపయోగానికి తగ్గట్టు కేటాయించడాన్ని సమర్థ వినియోగం అంటారు. ఇది ప్రణాళిక; అమలు ఎలా జరుగుతుందో తరువాతి నివేదికల్లో చూడాలి. మురుగునీటిని శుద్ధి చేయకుండా ఏ పనికీ వాడకూడదు.",
+        "en": "Not every task needs drinking water. Construction, parks and some industries can run on treated wastewater. Using it there saves drinking water and groundwater. Hyderabad's Green Water Tanker plan is based on this idea. Matching a resource to its proper use is called efficient use. This is a plan; how well it works must be checked in later reports. Wastewater must never be used for any purpose without proper treatment."
+      },
+      "vocabulary": [
+        {
+          "te": "శుద్ధి",
+          "en": "treatment"
+        },
+        {
+          "te": "భూగర్భజలం",
+          "en": "groundwater"
+        },
+        {
+          "te": "వినియోగం",
+          "en": "use"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261024_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261024_q1",
+        "en": "gk_20261024_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261024_q1_answer",
+        "en": "gk_20261024_q1_answer__en"
+      },
+      "item_id": "gk_20261024_telangana_1",
+      "question": {
+        "te": "గ్రీన్ వాటర్ ట్యాంకర్ సేవలు ఎప్పటి నుండి ప్రణాళిక?",
+        "en": "From when is the Green Water Tanker service planned?"
+      },
+      "options": {
+        "te": [
+          "నవంబర్ 1",
+          "అక్టోబర్ 23",
+          "జనవరి 1",
+          "డిసెంబర్ 25"
+        ],
+        "en": [
+          "November 1",
+          "October 23",
+          "January 1",
+          "December 25"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నివేదిక నవంబర్ 1 నుండి అని చెబుతుంది.",
+        "en": "The report says the service is planned from November 1."
+      }
+    },
+    {
+      "id": "gk_20261024_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261024_q2",
+        "en": "gk_20261024_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261024_q2_answer",
+        "en": "gk_20261024_q2_answer__en"
+      },
+      "item_id": "gk_20261024_telangana_1",
+      "question": {
+        "te": "ఈ ట్యాంకర్లు ఏ నీరు సరఫరా చేస్తాయి?",
+        "en": "What water will these tankers supply?"
+      },
+      "options": {
+        "te": [
+          "తాగునీరు",
+          "శుద్ధి చేసిన మురుగునీరు",
+          "సముద్ర జలం",
+          "మంచు నీరు"
+        ],
+        "en": [
+          "Drinking water",
+          "Treated wastewater",
+          "Sea water",
+          "Ice water"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "శుద్ధి చేసిన మురుగునీటిని సరఫరా చేస్తాయని నివేదిక చెబుతుంది.",
+        "en": "The report says they will supply treated wastewater."
+      }
+    },
+    {
+      "id": "gk_20261024_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261024_q3",
+        "en": "gk_20261024_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261024_q3_answer",
+        "en": "gk_20261024_q3_answer__en"
+      },
+      "item_id": "gk_20261024_india_1",
+      "question": {
+        "te": "జైశంకర్ అజర్బైజాన్ నాయకులతో ఎక్కడ చర్చించారు?",
+        "en": "Where did Jaishankar hold talks with Azerbaijan's leaders?"
+      },
+      "options": {
+        "te": [
+          "ఢిల్లీ",
+          "ముంబై",
+          "బాకూ",
+          "ఈస్టన్"
+        ],
+        "en": [
+          "New Delhi",
+          "Mumbai",
+          "Baku",
+          "Astana"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "నివేదిక బాకూ అని పేర్కొంది.",
+        "en": "The report names Baku."
+      }
+    },
+    {
+      "id": "gk_20261024_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261024_q4",
+        "en": "gk_20261024_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261024_q4_answer",
+        "en": "gk_20261024_q4_answer__en"
+      },
+      "item_id": "gk_20261024_world_1",
+      "question": {
+        "te": "డ్రాగన్‌ఫ్లై మొదటి యాత్ర ఎక్కడ జరిగింది?",
+        "en": "Where did Dragonfly's first flight take place?"
+      },
+      "options": {
+        "te": [
+          "టైటాన్‌పై",
+          "కంప్యూటర్ టెస్ట్‌బెడ్‌పై",
+          "చంద్రుడిపై",
+          "మార్స్‌పై"
+        ],
+        "en": [
+          "On Titan",
+          "On a computer testbed",
+          "On the Moon",
+          "On Mars"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "ఇది కంప్యూటర్ టెస్ట్‌బెడ్‌పై జరిగిన అనుకరణ పరీక్ష.",
+        "en": "It was a simulation on a computer testbed."
+      }
+    },
+    {
+      "id": "gk_20261024_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261024_q5",
+        "en": "gk_20261024_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261024_q5_answer",
+        "en": "gk_20261024_q5_answer__en"
+      },
+      "item_id": "gk_20261024_telangana_2",
+      "question": {
+        "te": "తెలంగాణ రాష్ట్ర పక్షి ఏది?",
+        "en": "What is the state bird of Telangana?"
+      },
+      "options": {
+        "te": [
+          "నెమలి",
+          "పాలపిట్ట",
+          "కొంగ",
+          "గద్ద"
+        ],
+        "en": [
+          "Peacock",
+          "Palapitta",
+          "Crane",
+          "Eagle"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "అధికారిక పేజీ పాలపిట్ట అని చెబుతుంది.",
+        "en": "The official page names the Palapitta."
+      }
+    },
+    {
+      "id": "gk_20261024_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261024_q6",
+        "en": "gk_20261024_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261024_q6_answer",
+        "en": "gk_20261024_q6_answer__en"
+      },
+      "item_id": "gk_20261024_world_2",
+      "question": {
+        "te": "యూఎన్‌కు ఎన్ని అధికారిక భాషలు ఉన్నాయి?",
+        "en": "How many official languages does the UN have?"
+      },
+      "options": {
+        "te": [
+          "నాలుగు",
+          "ఐదు",
+          "ఆరు",
+          "పది"
+        ],
+        "en": [
+          "Four",
+          "Five",
+          "Six",
+          "Ten"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "అధికారిక పేజీ ఆరు భాషలు అని చెబుతుంది.",
+        "en": "The official page says six languages."
+      }
+    },
+    {
+      "id": "gk_20261024_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261024_q7",
+        "en": "gk_20261024_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261024_q7_answer",
+        "en": "gk_20261024_q7_answer__en"
+      },
+      "item_id": "gk_20261024_reading_1",
+      "question": {
+        "te": "అనుకరణ పరీక్ష విజయవంతం అంటే ఏమిటి?",
+        "en": "What does a successful simulation mean?"
+      },
+      "options": {
+        "te": [
+          "నిజమైన ప్రయాణం పూర్తయింది",
+          "యంత్రాలు పని చేస్తాయన్న నమ్మకం పెరిగింది",
+          "మిషన్ రద్దు",
+          "టైటాన్‌పై దిగింది"
+        ],
+        "en": [
+          "The real voyage is complete",
+          "Confidence grew that the systems work",
+          "The mission is cancelled",
+          "It landed on Titan"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "అనుకరణ విజయం నమ్మకాన్ని పెంచుతుంది; నిజమైన యాత్ర ఇంకా రావాలి.",
+        "en": "A successful simulation raises confidence; the real voyage is still ahead."
+      }
+    },
+    {
+      "id": "gk_20261024_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261024_q8",
+        "en": "gk_20261024_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261024_q8_answer",
+        "en": "gk_20261024_q8_answer__en"
+      },
+      "item_id": "gk_20261024_reading_1",
+      "question": {
+        "te": "డ్రాగన్‌ఫ్లై నిజంగా టైటాన్ ఎప్పుడు చేరుకుంటుంది?",
+        "en": "When is Dragonfly planned to actually reach Titan?"
+      },
+      "options": {
+        "te": [
+          "ఇప్పటికే చేరింది",
+          "2028లో",
+          "2034లో",
+          "2014లో"
+        ],
+        "en": [
+          "It already arrived",
+          "In 2028",
+          "In 2034",
+          "In 2014"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "ప్రణాళిక ప్రకారం 2034లో చేరుకుంటుంది.",
+        "en": "On the current plan it reaches Titan in 2034."
+      }
+    },
+    {
+      "id": "gk_20261024_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261024_q9",
+        "en": "gk_20261024_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261024_q9_answer",
+        "en": "gk_20261024_q9_answer__en"
+      },
+      "item_id": "gk_20261024_reading_2",
+      "question": {
+        "te": "నిర్మాణాలకు శుద్ధి చేసిన మురుగునీరు వాడితే ఏమి ఆదా అవుతుంది?",
+        "en": "What is saved by using treated wastewater for construction?"
+      },
+      "options": {
+        "te": [
+          "చినుకులు",
+          "తాగునీరు, భూగర్భజలం",
+          "ఇంధనం",
+          "ఇసుక"
+        ],
+        "en": [
+          "Drops of rain",
+          "Drinking water and groundwater",
+          "Fuel",
+          "Sand"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "తాగునీరు, భూగర్భజలం ఆదా అవుతాయి.",
+        "en": "Drinking water and groundwater are saved."
+      }
+    },
+    {
+      "id": "gk_20261024_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261024_q10",
+        "en": "gk_20261024_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261024_q10_answer",
+        "en": "gk_20261024_q10_answer__en"
+      },
+      "item_id": "gk_20261024_reading_2",
+      "question": {
+        "te": "వనరును దాని ఉపయోగానికి తగ్గట్టు కేటాయించడాన్ని ఏమంటారు?",
+        "en": "What is matching a resource to its proper use called?"
+      },
+      "options": {
+        "te": [
+          "వ్యర్థం",
+          "సమర్థ వినియోగం",
+          "అమ్మకం",
+          "నిషేధం"
+        ],
+        "en": [
+          "Waste",
+          "Efficient use",
+          "A sale",
+          "A ban"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "దీనిని సమర్థ వినియోగం అంటారు.",
+        "en": "This is called efficient use."
+      }
+    }
+  ],
+  "edition_date": "2026-10-24",
+  "verified_at": "2026-10-24T02:33:41+05:30",
+  "status": "source_checked_translation_review_recommended",
+  "coverage": {
+    "cards": 7,
+    "current_affairs": 4,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 58
+  },
+  "editorial_note": "Oct24 early reviewed selection: HMWSSB Green Water Tanker plan pub Oct23, service from Nov1 framed as plan; Jaishankar-Azerbaijan Baku talks Oct23 completed event; NASA Dragonfly first simulated flight Oct23 framed as test, real Titan arrival 2034 plan; static state bird/flower, national animal tiger/Project Tiger, UN six official languages rechecked; NSP named PM-USP renewal deadlines rechecked Oct24 (student Oct31, institute Nov15, L2 Nov30, no cutoff hour). No claim VVM open/closed. Original Class5-10 text, Telugu editor review recommended; audio pending."
+}
