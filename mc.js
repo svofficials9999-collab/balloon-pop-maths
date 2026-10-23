@@ -478,11 +478,11 @@ function renderHead(){
 }
 /* ---------- Class 9: Percentage (Maths) ---------- */
 function svgPercent(){
- var s='<svg class="mc-svg2" viewBox="0 0 300 220"><rect width="300" height="220" fill="#0b1030" rx="12"/>';
- for(var r=0;r<5;r++)for(var c=0;c<10;c++){var i=r*10+c;var fill=i<20?'#4cd97b':'#232c4e';
-  s+='<rect x="'+(18+c*27)+'" y="'+(30+r*27)+'" width="24" height="24" rx="4" fill="'+fill+'" stroke="#3d4878" stroke-width="1"/>'}
- s+='<text x="150" y="20" text-anchor="middle" font-size="14" font-weight="900" fill="#ffe27a">50 మందిలో 20 = 40% (ప్రతి 100లో 40)</text>';
- s+='<text x="150" y="200" text-anchor="middle" font-size="12" fill="#dde3f7">50 గడుల్లో 20 రంగులవి → అదే 100 గడుల్లో 40 అన్నట్టే!</text></svg>';
+ var s='<svg class="mc-svg2" viewBox="0 0 300 330"><rect width="300" height="330" fill="#0b1030" rx="12"/>';
+ for(var r=0;r<10;r++)for(var c=0;c<10;c++){var i=r*10+c;var fill=i<40?'#4cd97b':'#232c4e';
+  s+='<rect x="'+(20+c*26)+'" y="'+(32+r*26)+'" width="23" height="23" rx="4" fill="'+fill+'" stroke="#3d4878" stroke-width="1"/>'}
+ s+='<text x="150" y="20" text-anchor="middle" font-size="14" font-weight="900" fill="#ffe27a">100 గడుల్లో 40 రంగులవి = 40%</text>';
+ s+='<text x="150" y="316" text-anchor="middle" font-size="12.5" fill="#dde3f7">ప్రతి గడి సరిగ్గా 1% — మొత్తం 100 గడులు, 40 రంగులవి!</text></svg>';
  return s;
 }
 var PERCENT={
@@ -520,19 +520,24 @@ MAP:{center:'📊 శాతం',rows:[
  ['⚠️','10% కాదు 1% కాదు గందరగోళం — గడులు లెక్కపెట్టు','Do not mix up 10% and 1% — count the cells']]}};
 /* ---------- Class 10: Water Cycle (Science) ---------- */
 function svgWater(){
- return '<svg class="mc-svg2" viewBox="0 0 300 240"><rect width="300" height="240" fill="#0b1030" rx="12"/>'
- +'<circle cx="52" cy="42" r="20" fill="#ffcf3f"/><text x="52" y="46" text-anchor="middle" font-size="9" font-weight="900" fill="#7a4a00">సూర్యుడు</text>'
- +'<ellipse cx="210" cy="55" rx="52" ry="18" fill="#cdd5f2"/><ellipse cx="185" cy="46" rx="30" ry="14" fill="#e8ecf9"/>'
- +'<path d="M90 190 L150 110 L200 190 Z" fill="#3d4a70"/><path d="M140 118 L150 104 L160 118 Z" fill="#fff"/>'
- +'<rect x="0" y="190" width="300" height="50" fill="#1d5f9e"/><text x="40" y="222" font-size="10" fill="#bfe0ff">సముద్రం / చెరువు</text>'
- +'<path d="M70 180 C75 140 90 110 120 85" fill="none" stroke="#7fd4ff" stroke-width="3" stroke-dasharray="6 5" marker-end="url(#aw)"/>'
- +'<path d="M235 75 C250 100 240 140 215 165" fill="none" stroke="#9cc4ff" stroke-width="3" stroke-dasharray="6 5"/>'
+ return '<svg class="mc-svg2" viewBox="0 0 300 250"><rect width="300" height="250" fill="#0b1030" rx="12"/>'
+ +'<defs>'
+ +'<marker id="awUp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7fd4ff"/></marker>'
+ +'<marker id="awDn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9cc4ff"/></marker>'
+ +'<marker id="awCl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#bfe0ff"/></marker>'
+ +'</defs>'
+ +'<circle cx="50" cy="40" r="20" fill="#ffcf3f"/><text x="50" y="44" text-anchor="middle" font-size="11" font-weight="900" fill="#7a4a00">సూర్యుడు</text>'
+ +'<ellipse cx="212" cy="52" rx="54" ry="19" fill="#cdd5f2"/><ellipse cx="186" cy="43" rx="30" ry="14" fill="#e8ecf9"/>'
+ +'<text x="212" y="56" text-anchor="middle" font-size="11" font-weight="900" fill="#33415c">సంఘననం</text>'
+ +'<path d="M90 195 L150 115 L202 195 Z" fill="#3d4a70"/><path d="M140 123 L150 109 L160 123 Z" fill="#fff"/>'
+ +'<rect x="0" y="195" width="300" height="55" fill="#1d5f9e"/><text x="30" y="228" font-size="11.5" font-weight="700" fill="#bfe0ff">సముద్రం / చెరువు</text>'
+ +'<path d="M68 185 C73 145 88 112 118 86" fill="none" stroke="#7fd4ff" stroke-width="3" stroke-dasharray="6 5" marker-end="url(#awUp)"/>'
+ +'<text x="66" y="128" font-size="11.5" font-weight="700" fill="#7fd4ff">ఆవిరైపోవడం</text>'
+ +'<path d="M238 74 C254 100 246 142 220 168" fill="none" stroke="#9cc4ff" stroke-width="3" stroke-dasharray="6 5" marker-end="url(#awDn)"/>'
+ +'<text x="236" y="128" font-size="11.5" font-weight="700" fill="#9cc4ff" text-anchor="start">వర్షం</text>'
  +'<line x1="200" y1="80" x2="192" y2="110" stroke="#7fd4ff" stroke-width="2"/><line x1="220" y1="82" x2="212" y2="112" stroke="#7fd4ff" stroke-width="2"/><line x1="240" y1="80" x2="232" y2="110" stroke="#7fd4ff" stroke-width="2"/>'
- +'<path d="M180 200 C140 205 100 205 60 200" fill="none" stroke="#bfe0ff" stroke-width="3" stroke-dasharray="6 5"/>'
- +'<text x="96" y="120" font-size="9" fill="#7fd4ff">ఆవిరైపోవడం</text>'
- +'<text x="248" y="125" font-size="9" fill="#9cc4ff">వర్షం</text>'
- +'<text x="120" y="230" font-size="9" fill="#bfe0ff">సేకరణ</text>'
- +'<text x="216" y="40" text-anchor="middle" font-size="9" font-weight="700" fill="#33415c">సంఘననం</text>'
+ +'<path d="M185 206 C145 212 100 212 62 206" fill="none" stroke="#bfe0ff" stroke-width="3" stroke-dasharray="6 5" marker-end="url(#awCl)"/>'
+ +'<text x="118" y="243" font-size="11.5" font-weight="700" fill="#bfe0ff">సేకరణ</text>'
  +'</svg>';
 }
 var WATER={
