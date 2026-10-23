@@ -476,7 +476,99 @@ function renderHead(){
  T.tabs.forEach(function(t,i){var b=document.createElement('button');b.textContent=t[isTe()?0:1];if(i===cur)b.className='on';b.onclick=function(){cur=i;qi=0;qScore=0;renderHead()};tabs.appendChild(b)});
  renderBody();
 }
-var CLASSES=[APLUSB,SOLAR,INDIAGEO,TENSES,SANDHI,PYTH,HINDI,GKC];
+/* ---------- Class 9: Percentage (Maths) ---------- */
+function svgPercent(){
+ var s='<svg class="mc-svg2" viewBox="0 0 300 220"><rect width="300" height="220" fill="#0b1030" rx="12"/>';
+ for(var r=0;r<5;r++)for(var c=0;c<10;c++){var i=r*10+c;var fill=i<20?'#4cd97b':'#232c4e';
+  s+='<rect x="'+(18+c*27)+'" y="'+(30+r*27)+'" width="24" height="24" rx="4" fill="'+fill+'" stroke="#3d4878" stroke-width="1"/>'}
+ s+='<text x="150" y="20" text-anchor="middle" font-size="14" font-weight="900" fill="#ffe27a">50 మందిలో 20 = 40% (ప్రతి 100లో 40)</text>';
+ s+='<text x="150" y="200" text-anchor="middle" font-size="12" fill="#dde3f7">50 గడుల్లో 20 రంగులవి → అదే 100 గడుల్లో 40 అన్నట్టే!</text></svg>';
+ return s;
+}
+var PERCENT={
+id:'percent',icon:'📊',
+te:'శాతం (పర్సంటేజ్)',en:'Percentage',
+meta:['గణితం · తరగతి 7 · చిత్రం + క్విజ్','Maths · Class 7 · picture + quiz'],
+title:['📊 శాతం మాస్టర్ క్లాస్','📊 Percentage Master Class'],
+PIC:{h:['100 గడుల్లో ఎన్ని రంగులవో చూడండి','Count the coloured cells out of 100'],svg:svgPercent,cap:['శాతం అంటే "ప్రతి వందలో ఎంత" — % గుర్తు అదే చెబుతుంది','Percentage means "how many out of every hundred" — the % sign says exactly that'],
+ listen:[['శాతం అంటే ప్రతి వందలో ఎంత','యాభై శాతం అంటే వందలో యాభై, అంటే సగం','పది శాతం అంటే వందలో పది'],['Percentage means how many out of every hundred','Fifty percent means fifty out of a hundred, that is half','Ten percent means ten out of a hundred']]},
+REAL:[
+ {t:['దుకాణంలో డిస్కౌంట్','Shop discount'],b:['₹500 చొక్కాపై 40% తగ్గింపు అంటే ప్రతి ₹100లో ₹40 తగ్గింపు — మొత్తం ₹200 తగ్గి, చెల్లించాల్సింది ₹300 మాత్రమే.','40% off on a ₹500 shirt means ₹40 off per ₹100 — ₹200 off in total, so you pay just ₹300.']},
+ {t:['మార్కులు శాతంలో','Marks in percent'],b:['50 మార్కుల పరీక్షలో 40 వస్తే, అదే 100కు 80 — అంటే 80%. ఏ పరీక్ష అయినా శాతంతో పోల్చవచ్చు.','40 out of 50 in a test is the same as 80 out of 100 — 80%. Percent lets you compare any two exams.']},
+ {t:['ఫోన్ బ్యాటరీ','Phone battery'],b:['బ్యాటరీ 25% అంటే నిండుగా ఉన్న దానిలో నాలుగో వంతు మాత్రమే మిగిలింది — చార్జ్ పెట్టే సమయం ఆసన్నమైంది!','A battery at 25% has just one quarter of full charge left — time to plug in soon!']},
+ {t:['వడ్డీ, పొదుపు','Interest and savings'],b:['బ్యాంక్ సంవత్సరానికి 6% వడ్డీ అంటే ₹100 పొదుపుపై ఏటా ₹6. ₹1,000 ఉంటే ₹60 — శాతం తెలిస్తే వడ్డీ లెక్క సులభం.','6% yearly interest means ₹6 a year on every ₹100 saved — ₹60 on ₹1,000. Percent makes interest easy.']}],
+CARDS:[
+ [['శాతం అంటే?','What is percent?'],['ప్రతి వందలో ఎంత (per hundred)','How many out of every hundred']],
+ [['% గుర్తు','The % sign'],['వంద (100) తో పోల్చిన కొలమానం','A measure compared to 100']],
+ [['50% = ?','50% = ?'],['1/2 — సగం','1/2 — one half']],
+ [['25% = ?','25% = ?'],['1/4 — పావు వంతు','1/4 — one quarter']],
+ [['10% = ?','10% = ?'],['1/10 — పదో వంతు','1/10 — one tenth']],
+ [['"యొక్క" అంటే గుణకారం','"Of" means multiply'],['40% of 500 = 40/100 × 500 = 200','40% of 500 = 40/100 × 500 = 200']]],
+QUIZ:[
+ {q:['200లో 50% ఎంత?','What is 50% of 200?'],o:['50','100','150','25'],a:1},
+ {q:['80లో 25% ఎంత?','What is 25% of 80?'],o:['25','40','20','10'],a:2},
+ {q:['350లో 10% ఎంత?','What is 10% of 350?'],o:['35','70','10','3.5'],a:0},
+ {q:['శాతం అంటే ఏమిటి?','What does percentage mean?'],o:['ప్రతి పదిలో ఎంత§How many out of ten','ప్రతి వందలో ఎంత§How many out of every hundred','మొత్తం ఎంత§The total amount','వంద రెట్లు§A hundred times more'],a:1},
+ {q:['3/4 భిన్నాన్ని శాతంగా రాస్తే?','What is the fraction 3/4 as a percent?'],o:['34%','50%','25%','75%'],a:3},
+ {q:['₹600 వస్తువుపై 20% తగ్గింపు = ఎంత తగ్గింపు?','20% off on a ₹600 item = how much off?'],o:['₹20','₹60','₹120','₹200'],a:2}],
+SUMM:[['శాతం = ప్రతి వందలో ఎంత; % గుర్తు వందనే సూచిస్తుంది.','Percentage = how many out of every hundred; the % sign stands for the hundred.'],['50% = 1/2, 25% = 1/4, 10% = 1/10 — ఇవి గుర్తుంచుకుంటే చాలా లెక్కలు సులభం.','50% = 1/2, 25% = 1/4, 10% = 1/10 — remembering these makes most sums easy.'],['ఏ సంఖ్యలోనైనా శాతం కావాలంటే: శాతం/100 × ఆ సంఖ్య.','To find a percent of any number: percent/100 × that number.'],['డిస్కౌంట్, మార్కులు, బ్యాటరీ, వడ్డీ — అన్ని చోట్ల శాతమే!','Discounts, marks, battery, interest — percent is everywhere!']],
+MAP:{center:'📊 శాతం',rows:[
+ ['💯','ప్రతి వందలో ఎంత','How many per hundred'],
+ ['½','50% = సగం, 25% = పావు','50% = half, 25% = quarter'],
+ ['✖️','శాతం/100 × సంఖ్య','percent/100 × number'],
+ ['🏷️','డిస్కౌంట్, మార్కులు, వడ్డీ','Discounts, marks, interest'],
+ ['⚠️','10% కాదు 1% కాదు గందరగోళం — గడులు లెక్కపెట్టు','Do not mix up 10% and 1% — count the cells']]}};
+/* ---------- Class 10: Water Cycle (Science) ---------- */
+function svgWater(){
+ return '<svg class="mc-svg2" viewBox="0 0 300 240"><rect width="300" height="240" fill="#0b1030" rx="12"/>'
+ +'<circle cx="52" cy="42" r="20" fill="#ffcf3f"/><text x="52" y="46" text-anchor="middle" font-size="9" font-weight="900" fill="#7a4a00">సూర్యుడు</text>'
+ +'<ellipse cx="210" cy="55" rx="52" ry="18" fill="#cdd5f2"/><ellipse cx="185" cy="46" rx="30" ry="14" fill="#e8ecf9"/>'
+ +'<path d="M90 190 L150 110 L200 190 Z" fill="#3d4a70"/><path d="M140 118 L150 104 L160 118 Z" fill="#fff"/>'
+ +'<rect x="0" y="190" width="300" height="50" fill="#1d5f9e"/><text x="40" y="222" font-size="10" fill="#bfe0ff">సముద్రం / చెరువు</text>'
+ +'<path d="M70 180 C75 140 90 110 120 85" fill="none" stroke="#7fd4ff" stroke-width="3" stroke-dasharray="6 5" marker-end="url(#aw)"/>'
+ +'<path d="M235 75 C250 100 240 140 215 165" fill="none" stroke="#9cc4ff" stroke-width="3" stroke-dasharray="6 5"/>'
+ +'<line x1="200" y1="80" x2="192" y2="110" stroke="#7fd4ff" stroke-width="2"/><line x1="220" y1="82" x2="212" y2="112" stroke="#7fd4ff" stroke-width="2"/><line x1="240" y1="80" x2="232" y2="110" stroke="#7fd4ff" stroke-width="2"/>'
+ +'<path d="M180 200 C140 205 100 205 60 200" fill="none" stroke="#bfe0ff" stroke-width="3" stroke-dasharray="6 5"/>'
+ +'<text x="96" y="120" font-size="9" fill="#7fd4ff">ఆవిరైపోవడం</text>'
+ +'<text x="248" y="125" font-size="9" fill="#9cc4ff">వర్షం</text>'
+ +'<text x="120" y="230" font-size="9" fill="#bfe0ff">సేకరణ</text>'
+ +'<text x="216" y="40" text-anchor="middle" font-size="9" font-weight="700" fill="#33415c">సంఘననం</text>'
+ +'</svg>';
+}
+var WATER={
+id:'watercycle',icon:'💧',
+te:'జలచక్రం',en:'The Water Cycle',
+meta:['సైన్స్ · తరగతి 5 · చిత్రం + క్విజ్','Science · Class 5 · picture + quiz'],
+title:['💧 జలచక్రం మాస్టర్ క్లాస్','💧 Water Cycle Master Class'],
+PIC:{h:['నీరు ఎగిసి, కురిసి, మళ్లీ తిరిగే ప్రయాణం','The journey of water — up, down and back again'],svg:svgWater,cap:['ఆవిరైపోవడం → సంఘననం → వర్షపాతం → సేకరణ — ఇదే చక్రం!','Evaporation → condensation → precipitation → collection — the same cycle!'],
+ listen:[['సూర్యుడి వేడితో నీరు ఆవిరవుతుంది','పైకి వెళ్లిన ఆవిరి చల్లబడి మేఘాలవుతుంది','మేఘాల నుండి వర్షం కురిసి నీరు మళ్లీ చేరుతుంది'],['The Sun heats water and it evaporates','The vapour cools high up and forms clouds','Rain falls from clouds and the water returns']]},
+REAL:[
+ {t:['బట్టలు ఎండలో ఆరడం','Clothes drying in the sun'],b:['తడి బట్టల్లోని నీరు సూర్యుడి వేడితో ఆవిరై గాలిలో కలిసిపోతుంది — ఇదే ఆవిరైపోవడం. గాలి, వేడి ఎక్కువైతే త్వరగా ఆరతాయి.','Water in wet clothes turns to vapour in the Sun\'s heat and joins the air — that is evaporation. Wind and heat dry them faster.']},
+ {t:['మరిగే పాత్ర మూతపై చినుకులు','Drops on a boiling pot lid'],b:['ఆవిరి చల్లటి మూతను తాకగానే చిన్న నీటి బిందువులవుతుంది — ఇదే సంఘననం. మేఘాలు కూడా ఇలాగే ఏర్పడతాయి.','When vapour touches the cool lid it becomes tiny water drops — that is condensation. Clouds form the same way.']},
+ {t:['వేసవి తరువాత వర్షాలు','Rains after hot days'],b:['వేసవిలో ఎక్కువ నీరు ఆవిరై మేఘాలు ఏర్పడతాయి; అవి భారంగా మారినప్పుడు వర్షం కురుస్తుంది — అందుకే వేడి రోజుల తరువాత వాన వస్తుంది.','Hot days evaporate more water and build clouds; when they grow heavy, rain falls — that is why rain often follows hot days.']},
+ {t:['బావి, భూగర్భ జలం','Wells and groundwater'],b:['కురిసిన వర్షం నేలలోకి జారి భూగర్భ జలంగా నిలుస్తుంది — మన బావులు, బోర్లు ఇదే నీటిని ఇస్తాయి. అందుకే వర్షపు నీటి కోతలు ముఖ్యం.','Rainwater soaks into the ground and is stored as groundwater — our wells and borewells draw from it. That is why rainwater harvesting matters.']}],
+CARDS:[
+ [['ఆవిరైపోవడం','Evaporation'],['వేడితో నీరు ఆవిరిగా మారడం','Water turning into vapour by heat']],
+ [['సంఘననం','Condensation'],['ఆవిరి చల్లబడి చిన్న బిందువులు/మేఘాలు కావడం','Vapour cooling into tiny drops or clouds']],
+ [['వర్షపాతం','Precipitation'],['మేఘాల నుండి వర్షం, మంచు కురవడం','Rain or snow falling from clouds']],
+ [['సేకరణ','Collection'],['నీరు నదులు, చెరువులు, సముద్రాల్లో చేరడం','Water gathering in rivers, lakes and seas']],
+ [['చక్రానికి యంత్రం?','What powers the cycle?'],['సూర్యుడు — ఆయన వేడే అన్ని కదిలిస్తుంది','The Sun — its heat moves everything']],
+ [['నీరు కోల్పోతుందా?','Is water ever lost?'],['లేదు — అదే నీరు యుగయుగాలుగా తిరుగుతోంది','No — the same water has been cycling for ages']]],
+QUIZ:[
+ {q:['సూర్యుడి వేడితో నీరు ఏమవుతుంది?','What happens to water in the Sun\'s heat?'],o:['మంచుగా మారుతుంది§It turns to ice','ఆవిరైపోతుంది§It evaporates','మట్టిగా మారుతుంది§It turns to soil','అదృశ్యమై పోతుంది§It disappears forever'],a:1},
+ {q:['మేఘాలు ఎలా ఏర్పడతాయి?','How do clouds form?'],o:['నీటి ఆవిరి పైకి వెళ్లి చల్లబడటంతో§Water vapour rises and cools','సముద్రం పైకి ఎగరడంతో§The sea flies up','గాలి నీలిగా మారడంతో§Air turns blue','మంచు కరగడంతో§Ice melts in the sky'],a:0},
+ {q:['మేఘాల నుండి నీరు కురవడాన్ని ఏమంటారు?','What is water falling from clouds called?'],o:['ఆవిరైపోవడం§Evaporation','సంఘననం§Condensation','వర్షపాతం§Precipitation','సేకరణ§Collection'],a:2},
+ {q:['జలచక్రానికి అవసరమైన ప్రధాన శక్తి ఏది?','What is the main power for the water cycle?'],o:['గాలి§Wind','సూర్యుడు§The Sun','చంద్రుడు§The Moon','చెట్లు§Trees'],a:1},
+ {q:['తడి బట్టలు ఎండలో ఎందుకు ఆరతాయి?','Why do wet clothes dry in the sun?'],o:['నీరు ఆవిరైపోవడం వల్ల§Because water evaporates','నీరు మంచుగా మారడం వల్ల§Because water freezes','గాలి నీరు తాగేయడం వల్ల§Because wind drinks the water','బట్టలు నీటిని పీల్చడం వల్ల§Because clothes soak it back'],a:0},
+ {q:['భూమిపై నీటి గురించి సరైనది ఏది?','Which is true about Earth\'s water?'],o:['ప్రతిరోజూ కొత్త నీరు పుడుతుంది§New water is born daily','నీరు శాశ్వతంగా పోతుంది§Water is lost forever','అదే నీరు చక్రంగా మళ్లీ మళ్లీ తిరుగుతుంది§The same water cycles again and again','వర్షం నీరు వాడలేము§Rain water cannot be used'],a:2}],
+SUMM:[['జలచక్రం నాలుగు అడుగులు: ఆవిరైపోవడం → సంఘననం → వర్షపాతం → సేకరణ.','The water cycle has four steps: evaporation → condensation → precipitation → collection.'],['సూర్యుడి వేడి ఈ చక్రానికి యంత్రం — ఆవిరిని పైకి లేపుతుంది.','The Sun\'s heat is the engine — it lifts the vapour up.'],['భూమిపై నీరు కొత్తగా పుట్టదు, పోదు — అదే నీరు మళ్లీ మళ్లీ తిరుగుతుంది.','Earth\'s water is neither created nor lost — the same water cycles endlessly.'],['బట్టలు ఆరడం, పాత్ర మూతపై చినుకులు — ఇలా రోజువారీ జీవితంలోనే జలచక్రం కనిపిస్తుంది.','Drying clothes and drops on a pot lid — the water cycle shows up in daily life.']],
+MAP:{center:'💧 జలచక్రం',rows:[
+ ['☀️','సూర్యుడు = యంత్రం','The Sun = the engine'],
+ ['⬆️','ఆవిరైపోవడం: నీరు పైకి','Evaporation: water rises'],
+ ['☁️','సంఘననం: మేఘాలు','Condensation: clouds form'],
+ ['🌧️','వర్షపాతం → సేకరణ','Precipitation → collection'],
+ ['🔁','అదే నీరు మళ్లీ మళ్లీ','The same water, again and again']]}};
+var CLASSES=[APLUSB,SOLAR,INDIAGEO,TENSES,SANDHI,PYTH,HINDI,GKC,PERCENT,WATER];
 var MCSOON=[['➕','మరిన్ని గణితం','More maths'],['🧪','మరిన్ని సైన్స్','More science'],['📖','మరిన్ని ఇంగ్లీష్','More English']];
 function renderList(){
  inList=true;stopSpeak();
