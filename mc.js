@@ -236,7 +236,7 @@ title:['🪷 సంధులు మాస్టర్ క్లాస్','🪷 
 PIC:{h:['రెండు పదాలు కలిసినప్పుడు ఏమవుతుంది?','What happens when two words join?'],svg:svgSandhi,cap:['సంధి = పదాలు కలిసిన చోట వచ్చే అక్షర మార్పు','Sandhi = the letter change where two words join'],
  listen:[['సంధి అంటే రెండు పదాలు కలిసినప్పుడు అక్షరాలు మారడం','విద్య ఆలయం కలిపి విద్యాలయం','దేవ ఇంద్రుడు కలిపి దేవేంద్రుడు'],['Sandhi means letters changing when two words join','vidya plus aalayam becomes vidyaalayam','deva plus indrudu becomes devendrudu']]},
 REAL:[
- {t:['మనం రోజూ వాడే సంధులు','Sandhis we use every day'],b:['విద్యాలయం, మహర్షి, దేవాలయం, ప్రతియొక్కరు — ఇవన్నీ సంధితో ఏర్పడిన పదాలే! మనం రోజూ మాట్లాడే మాటల్లో సంధులు ఎన్నో ఉన్నాయి.','Vidyalayam, maharshi, devalayam, pratiyokkaru — all these are sandhi words. Our daily speech is full of them.']},
+ {t:['మనం రోజూ వాడే సంధులు','Sandhis we use every day'],b:['విద్యాలయం, మహర్షి, దేవాలయం, ప్రత్యేకం — ఇవన్నీ సంధితో ఏర్పడిన పదాలే! మనం రోజూ మాట్లాడే మాటల్లో సంధులు ఎన్నో ఉన్నాయి.','Vidyalayam, maharshi, devalayam, pratyekam — all these are sandhi words. Our daily speech is full of them.']},
  {t:['పరీక్షలో సంధి మార్కులు','Exam marks from sandhi'],b:['"విద్యాలయం సంధి విడదీయండి" అంటే విద్య + ఆలయం అని విడదీయాలి. పదాలు కలపడాన్ని సంధి, కలిసిన పదాన్ని విడదీయడాన్ని సంధి విచ్ఛేదం అంటారు - పరీక్షలో రెండూ అడుగుతారు.','If the exam says "do sandhi vicchedam of vidyalayam", answer vidya + aalayam. Joining is sandhi; splitting is sandhi vicchedam - exams ask both.']},
  {t:['పేర్లలో కూడా సంధి','Sandhi hides in names too'],b:['రవి + ఇంద్రుడు = రవీంద్రుడు (రవీంద్ర), సుర + ఇంద్రుడు = సురేంద్రుడు (సురేంద్ర). పేర్లు విన్నప్పుడు సంధి గుర్తుపట్టవచ్చు.','Ravi + indrudu = Raveendrudu, Sura + indrudu = Surendrudu. You can spot sandhi inside common names.']},
  {t:['రాయడంలో జాగ్రత్త','Careful while writing'],b:['"విద్య ఆలయం" వేర్వేరుగా రాసినా అర్థం అదే; కానీ కలిపి రాస్తే సరైన రూపం విద్యాలయం. పొడవు అక్షరం మరిచిపోకూడదు!','Writing vidya aalayam separately gives the same meaning, but joined, the correct form is vidyaalayam — do not drop the long aa!']}],
@@ -245,8 +245,8 @@ CARDS:[
  [['సవర్ణదీర్ఘ సంధి','Savarna-deergha sandhi'],['అ/ఆ + అ/ఆ = ఆ: విద్య + ఆలయం = విద్యాలయం, దిన + అంతం = దినాంతం','same vowels merge long: vidya + aalayam = vidyaalayam, dina + antam = dinaantam']],
  [['గుణసంధి','Guna sandhi'],['అ + ఇ = ఏ: దేవ + ఇంద్రుడు = దేవేంద్రుడు','a + i = e: deva + indrudu = devendrudu']],
  [['గుణసంధి మరో ఉదాహరణ','One more guna example'],['అ + ఋ = అర్: మహా + ఋషి = మహర్షి','a + ru = ar: maha + rishi = maharshi']],
- [['యణాదేశ సంధి','Yanaadesha sandhi'],['ఇ + ఏ = యే: ప్రతి + ఏకం = ప్రత్యేకం','i + e = ye: prati + ekam = pratyekam']],
- [['విడదీయడం (విగ్రహం)','Splitting (vigraham)'],['విద్యాలయం = విద్య + ఆలయం','vidyaalayam = vidya + aalayam']]],
+ [['యణాదేశ సంధి','Yanaadesha sandhi'],['ఇ/ఈ కు వేరే అచ్చు పరమైతే య్: ప్రతి + ఏకం = ప్రత్యేకం','i/ii before a dissimilar vowel becomes y: prati + ekam = pratyekam']],
+ [['సంధి విచ్ఛేదం (విడదీయడం)','Sandhi vicchedam (splitting)'],['విద్యాలయం = విద్య + ఆలయం','vidyaalayam = vidya + aalayam']]],
 QUIZ:[
  {q:['విద్యాలయం = విద్య + ?','Vidyalayam = vidya + ?'],o:['ఆలయం','అలయం','ఇలయం','ఉలయం'],a:0},
  {q:['దేవ + ఇంద్రుడు కలిపితే ఏమవుతుంది?','Deva + indrudu gives?'],o:['దేవింద్రుడు','దేవేంద్రుడు','దేవంద్రుడు','దేవీంద్రుడు'],a:1},
@@ -254,13 +254,13 @@ QUIZ:[
  {q:['ప్రతి + ఒక్కరు = ?','Prati + okkaru = ?'],o:['ప్రతివొక్కరు','ప్రతిఒక్కరు','ప్రతియొక్కరు','ప్రతేక్కరు'],a:2},
  {q:['అ + అ కలిస్తే ఏమవుతుంది? (సవర్ణదీర్ఘం)','a + a becomes? (savarna-deergha)'],o:['ఇ','ఆ','ఏ','ఓ'],a:1},
  {q:['సంధి అంటే ఏమిటి?','What is sandhi?'],o:['పదాలు కలిసిన చోట అక్షర మార్పు§The letter change where words join','పదాలు వేరు చేయడం§Splitting words','కొత్త పదాలు కనిపెట్టడం§Inventing new words','పదాల అర్థం మారడం§Changing word meanings'],a:0}],
-SUMM:[['సంధి = రెండు పదాలు కలిసిన చోట వచ్చే అక్షర మార్పు.','Sandhi = the letter change where two words join.'],['సవర్ణదీర్ఘం: సమాన అచ్చులు దీర్ఘం (విద్యాలయం, దినాంతం); గుణసంధి: అ+ఇ=ఏ (దేవేంద్రుడు), అ+ఋ=అర్ (మహర్షి).','Savarna: same vowels merge long (vidyaalayam, dinaantam); Guna: a+i=e (devendrudu), a+ru=ar (maharshi).'],['యణాదేశం: ఇ+ఏ=యే (ప్రత్యేకం).','Yanaadesha: i+e=ye (pratyekam).'],['కలపడం (సంధి), విడదీయడం (విగ్రహం) — రెండూ ప్రాక్టీస్ చేయి, పరీక్షలో రెండూ అడుగుతారు.','Practice both joining (sandhi) and splitting (vigraham) — exams ask both.']],
+SUMM:[['సంధి = రెండు పదాలు కలిసిన చోట వచ్చే అక్షర మార్పు.','Sandhi = the letter change where two words join.'],['సవర్ణదీర్ఘం: సమాన అచ్చులు దీర్ఘం (విద్యాలయం, దినాంతం); గుణసంధి: అ+ఇ=ఏ (దేవేంద్రుడు), అ+ఋ=అర్ (మహర్షి).','Savarna: same vowels merge long (vidyaalayam, dinaantam); Guna: a+i=e (devendrudu), a+ru=ar (maharshi).'],['యణాదేశం: ఇ/ఈ కు అసవర్ణ అచ్చు పరమైతే య్ (ప్రత్యేకం).','Yanaadesha: i/ii followed by a dissimilar vowel becomes y (pratyekam).'],['కలపడం (సంధి), విడదీయడం (సంధి విచ్ఛేదం) — రెండూ ప్రాక్టీస్ చేయి, పరీక్షలో రెండూ అడుగుతారు.','Practice both joining (sandhi) and splitting (sandhi vicchedam) — exams ask both.']],
 MAP:{center:'🪷 సంధి',rows:[
  ['🔗','పదం + పదం = కలిసిన పదం','Word + word = joined word'],
- ['ఆ','అ+అ=ఆ: విద్యాలయం','a+a=aa: vidyaalayam'],
+ ['ఆ','అ/ఆ+అ/ఆ=ఆ: విద్యాలయం, దినాంతం','same vowels merge long: vidyaalayam, dinaantam'],
  ['ఏ','అ+ఇ=ఏ: దేవేంద్రుడు','a+i=e: devendrudu'],
- ['యే','ఇ+ఏ=యే: ప్రత్యేకం','i+e=ye: pratyekam'],
- ['✍️','కలపడం + విడదీయడం రెండూ నేర్చుకో','Learn both joining and splitting']]}};
+ ['య్','ఇ + వేరే అచ్చు → య్: ప్రత్యేకం','i + dissimilar vowel → y: pratyekam'],
+ ['✍️','కలపడం (సంధి) + విడదీయడం (సంధి విచ్ఛేదం)','Learn sandhi and sandhi vicchedam']]}};
 /* ---------- Class 6: Pythagoras (Maths) ---------- */
 function svgPyth(){
  return '<svg class="mc-svg2" viewBox="0 0 300 250">'
