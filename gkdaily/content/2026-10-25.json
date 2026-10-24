@@ -1,0 +1,647 @@
+{
+  "schema_version": 1,
+  "revision": 3,
+  "timezone": "Asia/Kolkata",
+  "sources": {
+    "tggk": {
+      "publisher": "Telangana State Portal",
+      "url": "https://www.telangana.gov.in/",
+      "published_date": null
+    },
+    "ingk": {
+      "publisher": "Know India",
+      "url": "https://knowindia.india.gov.in/national-identity-elements/national-flag.php",
+      "published_date": null
+    },
+    "worldgk": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us",
+      "published_date": null
+    },
+    "scholarships": {
+      "publisher": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in/Students",
+      "published_date": null
+    },
+    "tgnews": {
+      "publisher": "Deccan Chronicle",
+      "url": "https://www.deccanchronicle.com/southern-states/telangana/cyclone-threat-red-alert-for-three-telangana-districts-1998499",
+      "published_date": "2026-10-24"
+    },
+    "imdkol": {
+      "publisher": "India Meteorological Department, RMC Kolkata",
+      "url": "https://mausam.imd.gov.in/kolkata/mcdata/Press_Release.pdf",
+      "published_date": "2026-10-24"
+    },
+    "imdhyd": {
+      "publisher": "India Meteorological Department, MC Hyderabad",
+      "url": "https://mausam.imd.gov.in/hyderabad/mcdata/press_release.pdf",
+      "published_date": "2026-10-24"
+    },
+    "worldnews": {
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/observances/un-day",
+      "published_date": null
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261025_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "imdhyd",
+        "tgnews"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261025_telangana_1",
+        "en": "gk_20261025_telangana_1__en"
+      },
+      "title": {
+        "te": "మూడు జిల్లాలకు రెడ్ హెచ్చరిక",
+        "en": "Red warning for three districts"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 24న భారత వాతావరణ శాఖ హైదరాబాద్ కేంద్రం జారీ చేసిన ప్రకటన ప్రకారం, బంగాళాఖాతంలోని వాతావరణ వ్యవస్థ ప్రభావంతో అక్టోబర్ 28న ములుగు, భద్రాద్రి కొత్తగూడెం, ఖమ్మం జిల్లాల్లో భారీ నుండి అతిభారీ వర్షాలు, కొన్ని చోట్ల అత్యంత భారీ వర్షం కురవచ్చని రెడ్ హెచ్చరిక జారీయైంది. రెడ్ అంటే జాగ్రత్తలు తీసుకోవాలని చెప్పే హెచ్చరిక. లోతట్టు ప్రాంతాల వాసులకు జలమయం, వాగులు పొంగే అవకాశం గురించి డెక్కన్ క్రానికల్ నివేదిక హెచ్చరించింది. ఇది అక్టోబర్ 28కి సంబంధించిన అంచనా, హెచ్చరిక; ఇంకా జరిగిన వర్షం గురించి కాదు.",
+        "en": "The Hyderabad centre of the India Meteorological Department issued a red warning on October 24. Heavy to very heavy rainfall, with extremely heavy rainfall at isolated places, is very likely in Mulugu, Bhadradri Kothagudem and Khammam districts on October 28 under the influence of the Bay of Bengal weather system. A red warning asks people to take action to stay safe. Deccan Chronicle reported advice for residents in low-lying areas about possible waterlogging and overflowing streams. This is a rainfall forecast and warning for October 28, not a report of rain that has already happened."
+      }
+    },
+    {
+      "id": "gk_20261025_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "imdkol"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261025_india_1",
+        "en": "gk_20261025_india_1__en"
+      },
+      "title": {
+        "te": "బంగాళాఖాతంలో తుఫాను ఏర్పడే అంచనా",
+        "en": "Cyclone likely over Bay of Bengal"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 24 రాత్రి భారత వాతావరణ శాఖ కోల్‌కతా కేంద్రం ప్రకటన ప్రకారం, బంగాళాఖాతంలోని అల్పపీడనం డిప్రెషన్‌గా మారింది. అక్టోబర్ 25న డీప్ డిప్రెషన్‌గా, అక్టోబర్ 26 ఉదయానికి తుఫానుగా, అక్టోబర్ 27 ఉదయానికి తీవ్ర తుఫానుగా ఏర్పడే అంచనా. అక్టోబర్ 28 ఉదయానికి ఆంధ్రప్రదేశ్ తీరం సమీపంలో అత్యంత తీవ్ర తుఫానుగా మారి, ఆ రోజు మధ్యాహ్నానికల్లా బాపట్ల - విశాఖపట్నం మధ్య ఆంధ్రప్రదేశ్, యానాం తీరాలను దాటే అవకాశం ఉందని తెలిపింది. ఆంధ్రప్రదేశ్, దానికి పక్కనున్న దక్షిణ ఒడిశా తీరాలకు ప్రీ-సైక్లోన్ వాచ్ జారీ చేసింది. ఇది అంచనా; తుఫాను తీవ్రత, దారి మారవచ్చు.",
+        "en": "The Kolkata centre of the India Meteorological Department reported late on October 24 that a low-pressure area over the Bay of Bengal has become a depression. It is likely to become a deep depression on October 25, a cyclonic storm by the morning of October 26 and a severe cyclonic storm by the morning of October 27. It is expected to become a very severe cyclonic storm near the Andhra Pradesh coast by the morning of October 28 and to cross the Andhra Pradesh and Yanam coasts between Bapatla and Visakhapatnam by the forenoon of October 28. A pre-cyclone watch has been issued for the Andhra Pradesh and adjoining south Odisha coasts. This is a forecast; the strength and path of the system can change."
+      }
+    },
+    {
+      "id": "gk_20261025_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "worldnews"
+      ],
+      "event_date": "2026-10-24",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261025_world_1",
+        "en": "gk_20261025_world_1__en"
+      },
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి దినోత్సవం",
+        "en": "United Nations Day"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 24 ఐక్యరాజ్యసమితి దినోత్సవం. 1945 అక్టోబర్ 24న యూఎన్ చార్టర్ అమలులోకి రావడంతో ఐక్యరాజ్యసమితి అధికారికంగా ఏర్పడింది. చార్టర్ రూపొందించడానికి 1945లో శాన్ ఫ్రాన్సిస్కోలో 50 దేశాల ప్రతినిధులు సమావేశమయ్యారని యూఎన్ పేజీ తెలియజేస్తుంది. ఈ దినోత్సవం చార్టర్ సూత్రాలను మళ్లీ ధృవీకరించే అవకాశం.",
+        "en": "October 24 is United Nations Day. The United Nations officially came into being when the UN Charter entered into force on October 24, 1945. The UN page says representatives of 50 countries met in San Francisco in 1945 to draw up the Charter. The day is an opportunity to reaffirm the purposes and principles of the Charter."
+      }
+    },
+    {
+      "id": "gk_20261025_telangana_2",
+      "region": "telangana",
+      "type": "static_gk",
+      "source_ids": [
+        "tggk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261025_telangana_2",
+        "en": "gk_20261025_telangana_2__en"
+      },
+      "title": {
+        "te": "తెలంగాణ ఆవిర్భావం",
+        "en": "Telangana formation"
+      },
+      "summary": {
+        "te": "తెలంగాణ రాష్ట్రం 2014 జూన్ 2న ఏర్పడింది. ఇది భారతదేశంలో 29వ రాష్ట్రం. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "Telangana became a state on June 2, 2014. It is the 29th state of India. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261025_india_2",
+      "region": "india",
+      "type": "static_gk",
+      "source_ids": [
+        "ingk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261025_india_2",
+        "en": "gk_20261025_india_2__en"
+      },
+      "title": {
+        "te": "భారత జాతీయ పతాకం",
+        "en": "National flag of India"
+      },
+      "summary": {
+        "te": "భారత జాతీయ పతాకం సమాన వాటాలతో కాషాయం, తెలుపు, ఆకుపచ్చ అడ్డ వరుసలతో కూడిన త్రివర్ణ పతాకం. వెడల్పు-పొడవు నిష్పత్తి 2:3. తెల్ల వరుస మధ్యలో 24 అరల నేవీ బ్లూ అశోక చక్రం ఉంటుందని నో ఇండియా పేజీ తెలియజేస్తుంది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The national flag of India is a horizontal tricolour of saffron, white and green in equal proportion. The ratio of width to length is two to three. The Know India page says a navy-blue Ashoka Chakra with 24 spokes sits in the centre of the white band. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261025_world_2",
+      "region": "world",
+      "type": "static_gk",
+      "source_ids": [
+        "worldgk"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261025_world_2",
+        "en": "gk_20261025_world_2__en"
+      },
+      "title": {
+        "te": "ఐక్యరాజ్యసమితి సభ్య దేశాలు",
+        "en": "United Nations member states"
+      },
+      "summary": {
+        "te": "ఐక్యరాజ్యసమితి 1945లో ఏర్పడింది. ప్రస్తుతం దానిలో 193 సభ్య దేశాలు ఉన్నాయని అధికారిక పేజీ తెలియజేస్తుంది. ఏర్పాటు సమయంలో 51 సభ్య దేశాలుండగా, క్రమంగా సంఖ్య 193కు చేరింది. ఇది స్థిరమైన సాధారణ జ్ఞానం; ఈరోజు జరిగిన కొత్త సంఘటన కాదు. అధికారిక మూలాన్ని మళ్లీ తనిఖీ చేశాం.",
+        "en": "The United Nations was founded in 1945. The official page says it currently has 193 Member States, having grown from 51 original members. This is static GK, not a new event today. The official source was checked again."
+      }
+    },
+    {
+      "id": "gk_20261025_india_4",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "scholarships"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261025_india_4",
+        "en": "gk_20261025_india_4__en"
+      },
+      "title": {
+        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ గడువు",
+        "en": "NSP renewal deadline"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 25న తనిఖీ చేసిన అధికారిక ఎన్‌ఎస్‌పీ ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కాలేజీ, విశ్వవిద్యాలయ విద్యార్థుల కేంద్ర రంగ పథకం, జమ్మూ కశ్మీర్ లడఖ్ ప్రత్యేక పథకం పునరుద్ధరణ దరఖాస్తులు తెరిచి ఉన్నాయి. విద్యార్థి గడువు 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30. ముగింపు సమయం ఇవ్వలేదు. అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే; అన్ని స్కాలర్‌షిప్‌లకు ఒకే గడువు కాదు.",
+        "en": "The official NSP announcement checked on October 25 says renewal applications are open for the PM-USP Central Sector Scheme for College and University Students and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. The student deadline is October 31, 2026; institute verification November 15; Level 2 verification November 30. No cutoff time is given. This applies only to eligible renewal applicants, not every scholarship."
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261025_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261025_reading_1",
+        "en": "gk_20261025_reading_1__en"
+      },
+      "source_ids": [
+        "imdkol",
+        "imdhyd"
+      ],
+      "title": {
+        "te": "వాతావరణ హెచ్చరిక అంటే ఏమిటి",
+        "en": "What a weather warning means"
+      },
+      "passage": {
+        "te": "వాతావరణ శాఖ హెచ్చరిక జారీ చేసిందంటే ప్రమాదం ఖచ్చితంగా జరిగిందని కాదు. ముందుగా జాగ్రత్తగా ఉండమన్న సూచన అది. తుఫాను అంచనా దారి, తీవ్రత సమయం గడిచేకొద్దీ మారవచ్చు. అందుకే కొత్త సమాచారం కోసం అధికారిక ప్రకటనలను మళ్లీ మళ్లీ చూడాలి. రెడ్ హెచ్చరిక అంటే జాగ్రత్తలు తీసుకోవాలని చెప్పే తీవ్రమైన హెచ్చరిక; సిబ్బంది, ప్రజలు సన్నాహాలు చేసుకోవాలి. హెచ్చరికను భయపడటానికి కాదు, సిద్ధం కావడానికి వాడాలి.",
+        "en": "When the weather department issues a warning, it does not mean the danger has certainly happened. It is advice to stay careful in advance. A cyclone's forecast path and strength can change as time passes. That is why official bulletins should be checked again and again. A red warning is a serious warning that asks people to take action; officials and people should prepare. A warning is for getting ready, not for panic."
+      },
+      "vocabulary": [
+        {
+          "te": "హెచ్చరిక",
+          "en": "warning"
+        },
+        {
+          "te": "అంచనా",
+          "en": "forecast"
+        },
+        {
+          "te": "సన్నాహాలు",
+          "en": "preparations"
+        }
+      ]
+    },
+    {
+      "id": "gk_20261025_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261025_reading_2",
+        "en": "gk_20261025_reading_2__en"
+      },
+      "source_ids": [
+        "worldnews"
+      ],
+      "title": {
+        "te": "చార్టర్ అమలు, సంస్థ ఆవిర్భావం",
+        "en": "A charter in force and an organization is born"
+      },
+      "passage": {
+        "te": "ఒక సంస్థ ఎప్పుడు అధికారికంగా ఏర్పడిందని చెప్పడానికి ఒక సంఘటన నిర్ణయిస్తుంది. ఐక్యరాజ్యసమితి విషయంలో అది 1945 అక్టోబర్ 24. ఆ రోజున యూఎన్ చార్టర్ అమలులోకి వచ్చింది. చార్టర్ అంటే సంస్థ ఏ సూత్రాలపై పని చేస్తుందో చెప్పే ప్రాథమిక పత్రం. కేవలం 50 దేశాలు కలిసి పత్రం రాయడం ఒక అడుగు; మెజారిటీ దేశాలు దాన్ని ఆమోదించడం మరో అడుగు. ఆమోదం తరువాతే సంస్థ జన్మించింది. ఈ తేడా తెలిస్తే దినోత్సవ తేదీ ఎందుకు అదే అర్థమవుతుంది.",
+        "en": "A single event decides when an organization officially came into being. For the United Nations, that event is October 24, 1945, when the UN Charter entered into force. A charter is the founding document that states the principles by which an organization works. Fifty countries drawing up the document together was one step; a majority of them ratifying it was another. The organization was born only after that ratification. Knowing this difference explains why the day is marked on this date."
+      },
+      "vocabulary": [
+        {
+          "te": "చార్టర్",
+          "en": "charter"
+        },
+        {
+          "te": "ఆమోదం",
+          "en": "ratification"
+        },
+        {
+          "te": "సూత్రాలు",
+          "en": "principles"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261025_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261025_q1",
+        "en": "gk_20261025_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261025_q1_answer",
+        "en": "gk_20261025_q1_answer__en"
+      },
+      "item_id": "gk_20261025_telangana_1",
+      "question": {
+        "te": "రెడ్ హెచ్చరిక ఎన్ని జిల్లాలకు జారీయైంది?",
+        "en": "How many districts are under the red warning?"
+      },
+      "options": {
+        "te": [
+          "రెండు",
+          "మూడు",
+          "ఐదు",
+          "ఏడు"
+        ],
+        "en": [
+          "Two",
+          "Three",
+          "Five",
+          "Seven"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "ఖమ్మం, భద్రాద్రి కొత్తగూడెం, ములుగు - మూడు జిల్లాలు.",
+        "en": "Khammam, Bhadradri Kothagudem and Mulugu - three districts."
+      }
+    },
+    {
+      "id": "gk_20261025_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261025_q2",
+        "en": "gk_20261025_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261025_q2_answer",
+        "en": "gk_20261025_q2_answer__en"
+      },
+      "item_id": "gk_20261025_india_1",
+      "question": {
+        "te": "తీరం దాటే అంచనా ఏ ప్రాంతం మధ్య?",
+        "en": "Where is the system expected to cross the coast?"
+      },
+      "options": {
+        "te": [
+          "బాపట్ల - విశాఖపట్నం మధ్య",
+          "చెన్నై - పాండిచ్చేరి మధ్య",
+          "కోల్‌కతా - దీఘా మధ్య",
+          "కన్యాకుమారి - తూత్తుకుడి మధ్య"
+        ],
+        "en": [
+          "Between Bapatla and Visakhapatnam",
+          "Between Chennai and Puducherry",
+          "Between Kolkata and Digha",
+          "Between Kanyakumari and Thoothukudi"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అక్టోబర్ 28 మధ్యాహ్నానికల్లా ఆంధ్రప్రదేశ్, యానాం తీరాల్లో బాపట్ల - విశాఖపట్నం మధ్య దాటే అంచనా.",
+        "en": "The forecast gives the Andhra Pradesh and Yanam coasts between Bapatla and Visakhapatnam by the forenoon of October 28."
+      }
+    },
+    {
+      "id": "gk_20261025_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261025_q3",
+        "en": "gk_20261025_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261025_q3_answer",
+        "en": "gk_20261025_q3_answer__en"
+      },
+      "item_id": "gk_20261025_india_1",
+      "question": {
+        "te": "తుఫానుగా ఏర్పడే అంచనా తేదీ ఏది?",
+        "en": "By when is the system expected to become a cyclonic storm?"
+      },
+      "options": {
+        "te": [
+          "అక్టోబర్ 26 ఉదయం",
+          "నవంబర్ 1",
+          "డిసెంబర్ 25",
+          "అక్టోబర్ 20"
+        ],
+        "en": [
+          "Morning of October 26",
+          "November 1",
+          "December 25",
+          "October 20"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "వాతావరణ శాఖ అంచనా అక్టోబర్ 26 ఉదయం.",
+        "en": "The IMD forecast gives the morning of October 26."
+      }
+    },
+    {
+      "id": "gk_20261025_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261025_q4",
+        "en": "gk_20261025_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261025_q4_answer",
+        "en": "gk_20261025_q4_answer__en"
+      },
+      "item_id": "gk_20261025_world_1",
+      "question": {
+        "te": "ఐక్యరాజ్యసమితి దినోత్సవం ఏ తేదీన?",
+        "en": "On which date is United Nations Day observed?"
+      },
+      "options": {
+        "te": [
+          "అక్టోబర్ 24",
+          "జనవరి 1",
+          "జూన్ 5",
+          "డిసెంబర్ 10"
+        ],
+        "en": [
+          "October 24",
+          "January 1",
+          "June 5",
+          "December 10"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అక్టోబర్ 24న చార్టర్ అమలులోకి వచ్చింది.",
+        "en": "The Charter entered into force on October 24."
+      }
+    },
+    {
+      "id": "gk_20261025_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261025_q5",
+        "en": "gk_20261025_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261025_q5_answer",
+        "en": "gk_20261025_q5_answer__en"
+      },
+      "item_id": "gk_20261025_telangana_2",
+      "question": {
+        "te": "తెలంగాణ భారతదేశంలో ఎన్నో రాష్ట్రం?",
+        "en": "Which number state of India is Telangana?"
+      },
+      "options": {
+        "te": [
+          "28వ",
+          "29వ",
+          "30వ",
+          "25వ"
+        ],
+        "en": [
+          "28th",
+          "29th",
+          "30th",
+          "25th"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "అధికారిక పోర్టల్ 29వ రాష్ట్రం అని చెబుతుంది.",
+        "en": "The official portal says it is the 29th state."
+      }
+    },
+    {
+      "id": "gk_20261025_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261025_q6",
+        "en": "gk_20261025_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261025_q6_answer",
+        "en": "gk_20261025_q6_answer__en"
+      },
+      "item_id": "gk_20261025_world_2",
+      "question": {
+        "te": "యూఎన్‌లో ప్రస్తుతం ఎన్ని సభ్య దేశాలు ఉన్నాయి?",
+        "en": "How many Member States does the UN currently have?"
+      },
+      "options": {
+        "te": [
+          "51",
+          "100",
+          "193",
+          "250"
+        ],
+        "en": [
+          "51",
+          "100",
+          "193",
+          "250"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "అధికారిక పేజీ 193 అని చెబుతుంది.",
+        "en": "The official page says 193."
+      }
+    },
+    {
+      "id": "gk_20261025_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261025_q7",
+        "en": "gk_20261025_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261025_q7_answer",
+        "en": "gk_20261025_q7_answer__en"
+      },
+      "item_id": "gk_20261025_reading_1",
+      "question": {
+        "te": "వాతావరణ హెచ్చరిక జారీ అంటే ఏమిటి?",
+        "en": "What does a weather warning mean?"
+      },
+      "options": {
+        "te": [
+          "ప్రమాదం ఖచ్చితంగా జరిగింది",
+          "ముందు జాగ్రత్తగా ఉండమన్న సూచన",
+          "ఎలాంటి చర్యా అవసరం లేదు",
+          "వర్షం ఆగిపోయింది"
+        ],
+        "en": [
+          "The danger has certainly happened",
+          "Advice to stay careful in advance",
+          "No action is needed",
+          "The rain has stopped"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "హెచ్చరిక ముందు జాగ్రత్త సూచన.",
+        "en": "A warning is advice to be careful in advance."
+      }
+    },
+    {
+      "id": "gk_20261025_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261025_q8",
+        "en": "gk_20261025_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261025_q8_answer",
+        "en": "gk_20261025_q8_answer__en"
+      },
+      "item_id": "gk_20261025_reading_1",
+      "question": {
+        "te": "రెడ్ హెచ్చరిక అంటే ఏమిటి?",
+        "en": "What is a red warning?"
+      },
+      "options": {
+        "te": [
+          "చిన్న హెచ్చరిక",
+          "జాగ్రత్తలు తీసుకోవాలని చెప్పే తీవ్రమైన హెచ్చరిక",
+          "పండుగ ప్రకటన",
+          "పాఠశాల సెలవు"
+        ],
+        "en": [
+          "A minor warning",
+          "A serious warning asking people to take action",
+          "A festival announcement",
+          "A school holiday"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "రెడ్ హెచ్చరిక జాగ్రత్తలు తీసుకోమనే సూచన; సిద్ధం కావాలి.",
+        "en": "A red warning asks people to take action and get ready."
+      }
+    },
+    {
+      "id": "gk_20261025_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261025_q9",
+        "en": "gk_20261025_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261025_q9_answer",
+        "en": "gk_20261025_q9_answer__en"
+      },
+      "item_id": "gk_20261025_reading_2",
+      "question": {
+        "te": "1945 అక్టోబర్ 24న ఏమి జరిగింది?",
+        "en": "What happened on October 24, 1945?"
+      },
+      "options": {
+        "te": [
+          "యూఎన్ చార్టర్ అమలులోకి వచ్చింది",
+          "మొదటి అంతరిక్ష యాత్ర",
+          "మొదటి ఒలింపిక్స్",
+          "చార్టర్ రాశారు"
+        ],
+        "en": [
+          "The UN Charter entered into force",
+          "The first space flight",
+          "The first Olympics",
+          "The Charter was written"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఆ రోజున చార్టర్ అమలులోకి రావడంతో యూఎన్ ఏర్పడింది.",
+        "en": "The UN came into being when the Charter took effect that day."
+      }
+    },
+    {
+      "id": "gk_20261025_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261025_q10",
+        "en": "gk_20261025_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261025_q10_answer",
+        "en": "gk_20261025_q10_answer__en"
+      },
+      "item_id": "gk_20261025_reading_2",
+      "question": {
+        "te": "శాన్ ఫ్రాన్సిస్కోలో ఎంత మంది దేశాల ప్రతినిధులు చార్టర్ రూపొందించారు?",
+        "en": "How many countries drew up the Charter in San Francisco?"
+      },
+      "options": {
+        "te": [
+          "193",
+          "51",
+          "50",
+          "28"
+        ],
+        "en": [
+          "193",
+          "51",
+          "50",
+          "28"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "యూఎన్ పేజీ 50 దేశాలు అని చెబుతుంది.",
+        "en": "The UN page says 50 countries."
+      }
+    }
+  ],
+  "edition_date": "2026-10-25",
+  "verified_at": "2026-10-25T02:41:25+05:30",
+  "status": "source_checked_translation_review_recommended",
+  "coverage": {
+    "cards": 7,
+    "current_affairs": 4,
+    "static_gk": 3,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 58
+  },
+  "editorial_note": "Oct25 pack, revision 3 after guardian rev2 gate: cyclone items re-grounded on official IMD releases fetched and read Oct25 ~0245 IST (RMC Kolkata press release 2300 IST Oct24: depression formed 1730 IST Oct24, deep depression Oct25, cyclonic storm by Oct26 morning, severe Oct27 morning, very severe near AP coast Oct28 morning, likely crossing AP and Yanam coasts between Bapatla and Visakhapatnam forenoon Oct28; pre-cyclone watch AP and adjoining south Odisha coasts; MC Hyderabad press release 1400 IST Oct24: RED heavy to very heavy with isolated extremely heavy rain in Mulugu/Bhadradri Kothagudem/Khammam on Oct28, framed as take-action rainfall warning, not occurred rain). Storm name omitted (no official naming verified); naming-status sentence removed at guardian rev2 gate to avoid inference from a missing name; name-based quiz question replaced with official track question. Red warning described as asking people to take action, without unsupported most-serious-level claim. UN Day Oct24 via un.org (Charter in force Oct24 1945, 50 countries San Francisco); static formation, flag, UN members rechecked; NSP named PM-USP renewal deadlines rechecked Oct25 (student Oct31, institute Nov15, L2 Nov30, no cutoff hour). No claim VVM open/closed. Original Class5-10 text, Telugu editor review recommended; audio pending."
+}
