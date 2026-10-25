@@ -142,3 +142,8 @@ Materials,Birds,SaveWater expanded3to7bilingualquestions each;12newquestions acr
 - evs_fruits_veg:3to7 bilingual questions in existing Classes1-4 placements. Four original application questions cover running-water rinse/no soap on produce, wash before peeling,20-second handwash,clean drying towel. Existing3questions,lesson,narration,audioIDs,topic/classIDsunchanged.
 - Sources fetched25Oct: https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely and https://www.fda.gov/consumers/consumer-updates/7-tips-cleaning-fruits-vegetables . No claim washing removes all germs,medicaltreatment,SCERTchaptermappingornewquestionrecordings.
 - v4.15.198-producePractice,rootcacheversionaligned;medicalmodule,progress/PIN/storageformatsanddailyGKuntouched. ScopedliveQA reportedseparately. Fullplatformcoverageunfinished.
+
+##2026-10-25 - Existing road-safety practice depth
+- evs_road_safety3to7bilingualquestions in existingClasses1-5. Four new applicationitems:usefootpath,waituntilvehiclesstopandwayissafe,walknotrunwithadult/keepwatching,boardbusonlywhenfullystoppedwithadultsupervision. Original3questions,lesson/Oct10signalcorrection,narration/audioIDsandprogressunchanged.
+- Sources fetched25Oct: https://traffic.delhipolice.gov.in/safety-guidelines and https://www.nhtsa.gov/road-safety/pedestrian-safety . Imported only sharedbasicpedestrianpractices,notUSleft-right-leftsequence,driving-side/legalage/trafficlaw. No trafficcolourrevisionornewrecordingclaim.
+- v4.15.199-roadPractice/rootcachealigned. Fullcurriculumnotcomplete.
