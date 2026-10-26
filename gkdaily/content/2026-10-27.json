@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 3,
+  "revision": 4,
   "timezone": "Asia/Kolkata",
   "sources": {
     "imdhyd": {
@@ -42,6 +42,11 @@
       "publisher": "National Testing Agency Public Notice",
       "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/20261024390682350.pdf",
       "published_date": "2026-10-24"
+    },
+    "imdnb14": {
+      "publisher": "India Meteorological Department, National Bulletin No. 14 (BOB/08/2026), issued 0230 IST 27.10.2026",
+      "url": "https://mausam.imd.gov.in/Forecast/marquee_data/14.%20National%20Bulletin%20No%2014-26Oct2026_2330IST.pdf",
+      "published_date": "2026-10-27"
     }
   },
   "cards": [
@@ -73,7 +78,9 @@
       "type": "current_affairs",
       "source_ids": [
         "imdkol",
-        "imdhyd"
+        "imdhyd",
+        "imdnb14",
+        "rsmcnames"
       ],
       "event_date": null,
       "age_band": "class5-10",
@@ -82,12 +89,12 @@
         "en": "gk_20261027_india_1__en"
       },
       "title": {
-        "te": "తీవ్ర తుఫాను అర్నబ్; ఆంధ్ర తీరానికి రెడ్ హెచ్చరిక",
-        "en": "Severe Cyclone Arnab; red warning for Andhra coast"
+        "te": "అత్యంత తీవ్ర తుఫాను అర్నబ్; ఆంధ్ర తీరానికి రెడ్ హెచ్చరిక",
+        "en": "Very Severe Cyclone Arnab; red warning for Andhra coast"
       },
       "summary": {
-        "te": "అక్టోబర్ 26 రాత్రి భారత వాతావరణ శాఖ ప్రకటన ప్రకారం, బంగాళాఖాతంలోని వ్యవస్థ తుఫానుగా మారినప్పుడు దానికి అర్నబ్ అని పేరు పెట్టారు; అది తీవ్ర తుఫానుగా మారింది. ఆంధ్రప్రదేశ్, దానికి పక్కనున్న దక్షిణ ఒడిశా తీరాలకు సైక్లోన్ హెచ్చరిక (రెడ్ సందేశం) జారీయైంది. అక్టోబర్ 28 మధ్యాహ్నానికి ముందే బాపట్ల - విశాఖపట్నం మధ్య, యానాం దగ్గరగా ఆంధ్రప్రదేశ్, యానాం తీరాలను అత్యంత తీవ్ర తుఫానుగా దాటే అంచనా. పేరు అర్నబ్; ఆ పేరు బంగ్లాదేశ్ సూచించింది. ఇది అంచనా; తీవ్రత, దారి మారవచ్చు.",
-        "en": "The India Meteorological Department reported late on October 26 that the system over the Bay of Bengal has been named Arnab after becoming a cyclonic storm, and it has since intensified into a severe cyclonic storm. A cyclone warning (red message) has been issued for the Andhra Pradesh and adjoining south Odisha coasts. It is expected to cross the Andhra Pradesh and Yanam coasts between Bapatla and Visakhapatnam, close to Yanam, as a very severe cyclonic storm by the forenoon of October 28. The name Arnab was contributed by Bangladesh. This is a forecast; the strength and path can change."
+        "te": "అక్టోబర్ 27 తెల్లవారుజామున 2:30 గంటలకు జారీ చేసిన భారత వాతావరణ శాఖ జాతీయ బులెటిన్ ప్రకారం, అక్టోబర్ 26న తుఫానుగా మారినప్పుడు అర్నబ్ అని పేరు పొందిన వ్యవస్థ అక్టోబర్ 26 అర్ధరాత్రి నాటికి పడమటి మధ్య బంగాళాఖాతంలో అత్యంత తీవ్ర తుఫానుగా తీవ్రమైంది. ఆంధ్రప్రదేశ్, దానికి పక్కనున్న దక్షిణ ఒడిశా తీరాలకు సైక్లోన్ హెచ్చరిక (రెడ్ సందేశం) కొనసాగుతోంది. అక్టోబర్ 28 మధ్యాహ్నానికి ముందే బాపట్ల - విశాఖపట్నం మధ్య, యానాం దగ్గరగా ఆంధ్రప్రదేశ్, యానాం తీరాలను అత్యంత తీవ్ర తుఫానుగానే దాటే అంచనా. పేరు అర్నబ్; ఆ పేరు బంగ్లాదేశ్ సూచించింది. తుఫాను దాటడం గురించినది అంచనా; తీవ్రత, దారి మారవచ్చు.",
+        "en": "The India Meteorological Department's national bulletin issued at 2:30 AM on October 27 says the system named Arnab when it became a cyclonic storm on October 26 intensified into a very severe cyclonic storm late on October 26 over the westcentral Bay of Bengal. A cyclone warning (red message) continues for the Andhra Pradesh and adjoining south Odisha coasts. It is expected to cross the Andhra Pradesh and Yanam coasts between Bapatla and Visakhapatnam, close to Yanam, as a very severe cyclonic storm by the forenoon of October 28. The name Arnab was contributed by Bangladesh. The crossing is a forecast; the strength and path can change."
       }
     },
     {
@@ -633,7 +640,7 @@
     }
   ],
   "edition_date": "2026-10-27",
-  "verified_at": "2026-10-27T02:34:19+05:30",
+  "verified_at": "2026-10-27T04:08:00+05:30",
   "status": "source_checked_translation_review_recommended",
   "coverage": {
     "cards": 7,
