@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "revision": "2026-10-30-rev4",
+  "timezone": "Asia/Kolkata",
+  "sources": {
+    "imdnb30": {
+      "publisher": "India Meteorological Department, National Bulletin No. 30 (BOB/08/2026), issued 0300 IST 29.10.2026",
+      "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/30__National_Bulletin_No_30-28Oct2026_2330IST.pdf",
+      "published_date": "2026-10-29"
+    },
+    "imdpr29": {
+      "publisher": "India Meteorological Department, National Press Release, issued 1410 IST 29.10.2026",
+      "url": "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2029-10-2026.pdf",
+      "published_date": "2026-10-29"
+    },
+    "imdnb15ref": {
+      "publisher": "India Meteorological Department, National Bulletin No. 15 (rainfall category wording: heavy 7-20 cm, extremely heavy >=21 cm)",
+      "url": "https://mausam.imd.gov.in/Forecast/marquee_data/15.%20National%20Bulletin%20No%2015-27Oct2026_0230IST.pdf",
+      "published_date": "2026-10-27"
+    },
+    "reuters": {
+      "publisher": "Reuters World News Summary via DevDiscourse",
+      "url": "https://www.devdiscourse.com/article/international/3998957-reuters-world-news-summary",
+      "published_date": "2026-10-29"
+    },
+    "ecb": {
+      "publisher": "European Central Bank, All about us",
+      "url": "https://www.ecb.europa.eu/ecb/html/index.en.html",
+      "published_date": null
+    },
+    "scholarships": {
+      "publisher": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in/Students",
+      "published_date": null
+    },
+    "jeeadvisory": {
+      "publisher": "National Testing Agency, Public Notice dated 28.10.2026 (registration advisory)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610281658843201.pdf",
+      "published_date": "2026-10-28"
+    },
+    "jeenotice": {
+      "publisher": "National Testing Agency, Public Notice dated 24.10.2026 (JEE Main 2027 Session 1)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/20261024390682350.pdf",
+      "published_date": "2026-10-24"
+    },
+    "imdtcp": {
+      "publisher": "India Meteorological Department, Tropical Cyclone Programme document (storm season definition)",
+      "url": "https://mausam.imd.gov.in/ptc/TCP/TCP2022.pdf",
+      "published_date": null
+    },
+    "imdnb33": {
+      "publisher": "India Meteorological Department, National Bulletin No. 33 (BOB/08/2026), issued 1430 IST 29.10.2026",
+      "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/33__National_Bulletin_No_33-29Oct2026_1130IST.pdf",
+      "published_date": "2026-10-29"
+    },
+    "imdhyd": {
+      "publisher": "India Meteorological Department, MC Hyderabad",
+      "url": "https://mausam.imd.gov.in/hyderabad/mcdata/press_release.pdf",
+      "published_date": "2026-10-29"
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261030_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "imdpr29",
+        "imdhyd"
+      ],
+      "event_date": "2026-10-29",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261030_telangana_1",
+        "en": "gk_20261030_telangana_1__en"
+      },
+      "title": {
+        "te": "తెలంగాణలో భారీ వర్షం నమోదు; నేడు హెచ్చరిక లేదు",
+        "en": "Heavy rain recorded in Telangana; no warning today"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 29న జారీ చేసిన భారత వాతావరణ శాఖ జాతీయ ప్రకటన ప్రకారం, అక్టోబర్ 29 ఉదయం 8:30తో ముగిసిన 24 గంటల్లో తెలంగాణలో 7-11 సెం.మీ. భారీ వర్షం నమోదైంది; భద్రాద్రి కొత్తగూడెం జిల్లా అశ్వరావుపేటలో 7 సెం.మీ. అక్టోబర్ 29 తేదీ హైదరాబాద్ కేంద్ర ప్రకటన ప్రకారం, నేడు అక్టోబర్ 30న తెలంగాణలో హెచ్చరిక లేదు; నవంబర్ 1, 2 తేదీల్లో తూర్పు, దక్షిణ జిల్లాల్లో ఉరుములు మెరుపులతో కూడిన యెల్లో హెచ్చరిక ఉంది. అది అంచనా; మారవచ్చు.",
+        "en": "The India Meteorological Department's national press release of October 29 says heavy rain of 7-11 cm was recorded over Telangana in the 24 hours ending 8:30 AM on October 29; Aswaraopeta in Bhadradri Kothagudem district recorded 7 cm. The Hyderabad centre's release dated October 29 has NO warning for today, October 30; a yellow thunderstorm warning with gusty winds of 30-40 kmph is in place for eastern and southern districts on November 1 and 2. The warning part is a forecast and can change."
+      }
+    },
+    {
+      "id": "gk_20261030_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "imdnb30",
+        "imdnb33",
+        "imdpr29"
+      ],
+      "event_date": "2026-10-29",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261030_india_1",
+        "en": "gk_20261030_india_1__en"
+      },
+      "title": {
+        "te": "అర్నబ్ అవశేషం డిప్రెషన్‌గా మారింది",
+        "en": "Arnab's remnant weakened into a depression"
+      },
+      "summary": {
+        "te": "భారత వాతావరణ శాఖ బులెటిన్ల ప్రకారం, తీరం దాటిన అర్నబ్ తుఫాను అక్టోబర్ 28 రాత్రి 11:30 నాటికి డీప్ డిప్రెషన్‌గా, అక్టోబర్ 29 ఉదయం 11:30 నాటికి మధ్య ఛత్తీస్‌గఢ్, దానికి పక్కనున్న ఒడిశా పై డిప్రెషన్‌గా బలహీనపడింది; అక్టోబర్ 29 సాయంత్రం నాటికి వెల్ మార్క్డ్ అల్పపీడనం అవుతుందని బులెటిన్ అంచనా. అక్టోబర్ 29 ఉదయం 8:30తో ముగిసిన 24 గంటల్లో ఒడిశాలో 55 సెం.మీ. అత్యంత భారీ వర్షం, ఆంధ్రప్రదేశ్ తీరం, యానాంలో 21 సెం.మీ. కంటే ఎక్కువ వర్షం నమోదైంది.",
+        "en": "India Meteorological Department bulletins say that after crossing the coast, Arnab weakened into a deep depression by 11:30 PM on October 28, and into a depression over central Chhattisgarh and adjoining Odisha by 11:30 AM on October 29; the bulletin expected it to weaken into a well-marked low-pressure area by the evening of October 29. In the 24 hours ending 8:30 AM on October 29, Odisha recorded an exceptional 55 cm of rain, and coastal Andhra Pradesh and Yanam recorded more than 21 cm."
+      }
+    },
+    {
+      "id": "gk_20261030_india_2",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "imdpr29"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261030_india_2",
+        "en": "gk_20261030_india_2__en"
+      },
+      "title": {
+        "te": "బంగాళాఖాతంలో మరో వ్యవస్థ పరిశీలనలో",
+        "en": "Another system being watched in the Bay of Bengal"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 29న జారీ చేసిన భారత వాతావరణ శాఖ జాతీయ ప్రకటన ప్రకారం, దక్షిణ అండమాన్ సముద్రంలో ఒక అల్పపీడనం ఏర్పడింది. అది అక్టోబర్ 31 నాటికి డిప్రెషన్‌గా మారి, మరింత బలపడి, తరువాతి రెండు రోజుల్లో ఆంధ్రప్రదేశ్ తీరం వైపు కదిలే అంచనా. ఇప్పుడు దానికి పేరు లేదు; అది తుఫాను స్థాయికి చేరినప్పుడే పేరు ఇస్తారు. ఇది అంచనా; మారవచ్చు.",
+        "en": "The India Meteorological Department's national press release of October 29 says a low-pressure area has formed over the south Andaman Sea. It is expected to become a depression around October 31, grow stronger, and move towards the Andhra Pradesh coast over the following two days. It has no name now; a name is given only if it reaches cyclonic storm strength. This is a forecast and can change."
+      }
+    },
+    {
+      "id": "gk_20261030_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "reuters",
+        "ecb"
+      ],
+      "event_date": "2026-10-29",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261030_world_1",
+        "en": "gk_20261030_world_1__en"
+      },
+      "title": {
+        "te": "యూరోపియన్ సెంట్రల్ బ్యాంక్ అధిపతి లాగార్డ్ రాజీనామా",
+        "en": "European Central Bank chief Lagarde resigns"
+      },
+      "summary": {
+        "te": "యూరోపియన్ సెంట్రల్ బ్యాంక్ (ఈసీబీ) అధిపతి క్రిస్టిన్ లాగార్డ్ అక్టోబర్ 29న రాజీనామా చేశారని అక్టోబర్ 29న తాజాగా చేసిన రాయిటర్స్ ప్రపంచ వార్తా సంగ్రహం తెలిపింది; ఫిబ్రవరి 7న పదవి విడుస్తారు. తదుపరి అధిపతిని ఐరోపా నేతలు ఎంపిక చేస్తారు. ఈసీబీ యూరోపియన్ దేశాల కరెన్సీ యూరోను చూసుకుంటూ ధరలు స్థిరంగా ఉండేలా పనిచేస్తుంది.",
+        "en": "European Central Bank chief Christine Lagarde resigned on October 29, the Reuters world news summary updated on October 29 reported; she steps down on February 7. European Union leaders will choose her successor. The ECB looks after the euro currency and works to keep prices stable in the euro area."
+      }
+    },
+    {
+      "id": "gk_20261030_india_3",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "scholarships"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261030_india_3",
+        "en": "gk_20261030_india_3__en"
+      },
+      "title": {
+        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ గడువు అక్టోబర్ 31",
+        "en": "NSP renewal deadline on October 31"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 30న తనిఖీ చేసిన అధికారిక ఎన్‌ఎస్‌పీ ప్రకటన ప్రకారం, పీఎం-యూఎస్‌పీ కేంద్ర రంగ పథకం, జమ్మూ కశ్మీర్ లడాఖ్ ప్రత్యేక పథకం పునరుద్ధరణ దరఖాస్తుల విద్యార్థి గడువు 2026 అక్టోబర్ 31. సంస్థ తనిఖీ నవంబర్ 15, రెండో స్థాయి తనిఖీ నవంబర్ 30. ముగింపు సమయం ఇవ్వలేదు. అర్హులైన పునరుద్ధరణ దరఖాస్తుదారులకు మాత్రమే.",
+        "en": "The official NSP announcement checked on October 30 says the student deadline for renewal applications under the PM-USP Central Sector Scheme and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh is October 31, 2026. Institute verification ends November 15 and Level 2 verification November 30. No cutoff time is given. This applies only to eligible renewal applicants."
+      }
+    },
+    {
+      "id": "gk_20261030_india_4",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "jeeadvisory",
+        "jeenotice"
+      ],
+      "event_date": "2026-10-28",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261030_india_4",
+        "en": "gk_20261030_india_4__en"
+      },
+      "title": {
+        "te": "జేఈఈ దరఖాస్తుకు ముందు ఎన్‌టీఏ సూచనలు",
+        "en": "NTA's advice before the JEE application"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 28న ఎన్‌టీఏ జారీ చేసిన సూచనల ప్రకారం, జేఈఈ మెయిన్ 2027 దరఖాస్తు చేసే ముందు విద్యార్థులు తమ స్వంత డిజిలాకర్ లేదా జన్ పరిచయ్ లేదా ఇ-ప్రమాణ్ ఖాతాతోనే ప్రవేశించాలి; తాజా వివరాలు రావడానికి డిజిలాకర్‌లో రీ-కేవైసీ చేసుకోవాలి. దరఖాస్తులోని పేరు, పుట్టిన తేదీ పదో తరగతి సర్టిఫికెట్‌లో ఉన్నట్లే ఉండాలి. దరఖాస్తు గడువు నవంబర్ 22 రాత్రి 11:50 - మార్పు లేదు.",
+        "en": "An NTA advisory dated October 28 says that before applying for JEE Main 2027, students should log in only with their own DigiLocker, JanParichay or e-Pramaan account, and complete Re-KYC in DigiLocker so their latest details are fetched. The name and date of birth in the form must match the Class 10 certificate. The application deadline remains November 22 at 11:50 PM - no change."
+      }
+    },
+    {
+      "id": "gk_20261030_static_1",
+      "region": "static",
+      "type": "static_gk",
+      "source_ids": [
+        "imdtcp"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261030_static_1",
+        "en": "gk_20261030_static_1__en"
+      },
+      "title": {
+        "te": "తుఫానుల కాలం ఏ నెలల్లో",
+        "en": "Which months bring cyclones"
+      },
+      "summary": {
+        "te": "భారత వాతావరణ శాఖ పత్రం ప్రకారం, బంగాళాఖాతం, అరబ్బీ సముద్రంలో ఎక్కువ తుఫానులు రెండు కాలాల్లో ఏర్పడతాయి: ఏప్రిల్-మే, అక్టోబర్-డిసెంబర్. అందుకే ఇప్పుడు అక్టోబర్ చివరిలో అర్నబ్ తరువాత మరో వ్యవస్థ ఏర్పడటం ఆశ్చర్యం కాదు - ఇది తుఫానుల కాలమే.",
+        "en": "An India Meteorological Department document says most cyclones in the Bay of Bengal and the Arabian Sea form in two periods: April-May and October-December. So it is no surprise that after Arnab another system is forming in late October - this is cyclone season."
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261030_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261030_reading_1",
+        "en": "gk_20261030_reading_1__en"
+      },
+      "source_ids": [
+        "imdpr29",
+        "imdnb15ref"
+      ],
+      "title": {
+        "te": "భారీ, అతిభారీ వర్షం అంటే ఎంత",
+        "en": "What heavy and extremely heavy rain mean"
+      },
+      "passage": {
+        "te": "వాతావరణ శాఖ వర్షాన్ని కొలిచినప్పుడు, ఒక రోజులో ఎన్ని సెంటీమీటర్లు పడిందో చూసి దానికి పేరు ఇస్తుంది. ఒక రోజులో సుమారు 7 నుంచి 11 సెంటీమీటర్లు పడితే దానిని భారీ వర్షం అంటారు. సుమారు 12 నుంచి 20 సెంటీమీటర్లు పడితే అతిభారీ వర్షం అంటారు. 21 సెంటీమీటర్లు లేదా అంతకు ఎక్కువ పడితే అత్యంత భారీ వర్షం అంటారు. అర్నబ్ తుఫాను సమయంలో ఒడిశాలో ఒకే రోజు 55 సెంటీమీటర్లు పడిందని వాతావరణ శాఖ చెప్పింది - అంటే ఒక చిన్న బకెట్ నిండా నీళ్లు నింపినంత కంటే ఎక్కువ! ఈ కొలతలు అధికారులకు హెచ్చరికలు ఇవ్వడానికి, ప్రజలకు జాగ్రత్తగా ఉండటానికి సహాయపడతాయి.",
+        "en": "When the weather department measures rain, it names the rain by how many centimetres fell in one day. About 7 to 11 centimetres in a day is called heavy rain. About 12 to 20 centimetres is very heavy rain. 21 centimetres or more is extremely heavy rain. During cyclone Arnab, the weather department said Odisha recorded 55 centimetres in a single day - more than filling a small bucket with water! These measurements help officials give warnings and help people stay careful."
+      }
+    },
+    {
+      "id": "gk_20261030_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261030_reading_2",
+        "en": "gk_20261030_reading_2__en"
+      },
+      "source_ids": [
+        "reuters"
+      ],
+      "title": {
+        "te": "ఎవరికీ మెజారిటీ రాకపోతే ఏమవుతుంది",
+        "en": "What happens when no one wins a majority"
+      },
+      "passage": {
+        "te": "పార్లమెంటరీ ప్రజాస్వామ్యంలో ప్రభుత్వం ఏర్పడాలంటే పార్లమెంటులో సగానికి పైగా సీట్ల మద్దతు కావాలి. ఎన్నికల్లో ఏ పార్టీకీ లేదా కూటమికీ స్పష్టమైన మెజారిటీ రాకపోవడాన్ని హంగ్ పార్లమెంట్ అంటారు. అప్పుడు పార్టీలు ఒకదానితో ఒకటి మాట్లాడి కూటములు ఏర్పరుస్తాయి; మెజారిటీ కుదిరిన వారే ప్రభుత్వం ఏర్పరుస్తారు. చర్చలు విఫలమైతే మళ్లీ ఎన్నికలు జరగవచ్చు. ఈ వారం ఇజ్రాయిల్ ఎన్నికల్లో ఇలాగే జరిగింది: రాయిటర్స్ ప్రకారం ఏ వైపుకూ స్పష్టమైన మెజారిటీ రాలేదు, ఇప్పుడు కూటమి చర్చలు జరుగుతాయి. అప్పటి వరకు పాత ప్రభుత్వం తాత్కాలికంగా పనిచేస్తూనే ఉంటుంది.",
+        "en": "In a parliamentary democracy, a government needs the support of more than half the seats in parliament. When an election gives no party or alliance a clear majority, it is called a hung parliament. Parties then talk to each other and try to form alliances, and whichever side reaches a majority forms the government. If the talks fail, a fresh election can be called. This is what happened in Israel's election this week: Reuters reports that neither side won a clear majority, so coalition talks will now follow. Until then, the old government keeps working as a caretaker."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261030_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261030_q1",
+        "en": "gk_20261030_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261030_q1_answer",
+        "en": "gk_20261030_q1_answer__en"
+      },
+      "item_id": "gk_20261030_india_1",
+      "question": {
+        "te": "అక్టోబర్ 29 ఉదయం 11:30 నాటికి అర్నబ్ అవశేషం ఏ స్థాయిలో ఉంది?",
+        "en": "At what stage was Arnab's remnant at 11:30 AM on October 29?"
+      },
+      "options": {
+        "te": [
+          "డిప్రెషన్",
+          "అత్యంత తీవ్ర తుఫాను",
+          "తీవ్ర తుఫాను",
+          "సూపర్ తుఫాను"
+        ],
+        "en": [
+          "Depression",
+          "Very severe cyclonic storm",
+          "Severe cyclonic storm",
+          "Super cyclonic storm"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అక్టోబర్ 29 ఉదయం 11:30 నాటికి డిప్రెషన్; అదే రోజు సాయంత్రం నాటికి వెల్ మార్క్డ్ అల్పపీడనం అవుతుందని బులెటిన్ అంచనా.",
+        "en": "It was a depression at 11:30 AM on October 29; the bulletin expected it to become a well-marked low by that evening."
+      }
+    },
+    {
+      "id": "gk_20261030_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261030_q2",
+        "en": "gk_20261030_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261030_q2_answer",
+        "en": "gk_20261030_q2_answer__en"
+      },
+      "item_id": "gk_20261030_india_1",
+      "question": {
+        "te": "ఒడిశాలో ఒక రోజులో నమోదైన అత్యంత భారీ వర్షం ఎంత?",
+        "en": "How much exceptional rain did Odisha record in one day?"
+      },
+      "options": {
+        "te": [
+          "55 సెం.మీ.",
+          "21 సెం.మీ.",
+          "11 సెం.మీ.",
+          "7 సెం.మీ."
+        ],
+        "en": [
+          "55 cm",
+          "21 cm",
+          "11 cm",
+          "7 cm"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "అక్టోబర్ 29 ప్రకటన ప్రకారం ఒడిశాలో 55 సెం.మీ. నమోదైంది.",
+        "en": "The October 29 release says Odisha recorded 55 cm."
+      }
+    },
+    {
+      "id": "gk_20261030_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261030_q3",
+        "en": "gk_20261030_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261030_q3_answer",
+        "en": "gk_20261030_q3_answer__en"
+      },
+      "item_id": "gk_20261030_india_2",
+      "question": {
+        "te": "కొత్త వ్యవస్థకు పేరు ఎప్పుడు పెడతారు?",
+        "en": "When will the new system get a name?"
+      },
+      "options": {
+        "te": [
+          "తుఫాను స్థాయికి చేరినప్పుడు",
+          "అల్పపీడనంగా ఉన్నప్పుడే",
+          "డిప్రెషన్ అయినప్పుడు",
+          "తీరానికి చేరినప్పుడు"
+        ],
+        "en": [
+          "When it reaches cyclonic storm strength",
+          "While it is a low-pressure area",
+          "When it becomes a depression",
+          "When it nears the coast"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "తుఫాను స్థాయి (గాలి 34 నాట్స్) చేరినప్పుడే పేరు ఇస్తారు.",
+        "en": "A name is given only at cyclonic storm strength of 34 knots."
+      }
+    },
+    {
+      "id": "gk_20261030_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261030_q4",
+        "en": "gk_20261030_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261030_q4_answer",
+        "en": "gk_20261030_q4_answer__en"
+      },
+      "item_id": "gk_20261030_world_1",
+      "question": {
+        "te": "రాజీనామా చేసిన యూరోపియన్ సెంట్రల్ బ్యాంక్ అధిపతి ఎవరు?",
+        "en": "Who resigned as head of the European Central Bank?"
+      },
+      "options": {
+        "te": [
+          "క్రిస్టిన్ లాగార్డ్",
+          "మెరీన్ లె పెన్",
+          "ఉర్సులా వాన్ డర్ లేయెన్",
+          "ఏంజెలా మెర్కెల్"
+        ],
+        "en": [
+          "Christine Lagarde",
+          "Marine Le Pen",
+          "Ursula von der Leyen",
+          "Angela Merkel"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "లాగార్డ్ అక్టోబర్ 29న రాజీనామా చేశారు; ఫిబ్రవరి 7న పదవి విడుస్తారు.",
+        "en": "Lagarde resigned on October 29 and steps down on February 7."
+      }
+    },
+    {
+      "id": "gk_20261030_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261030_q5",
+        "en": "gk_20261030_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261030_q5_answer",
+        "en": "gk_20261030_q5_answer__en"
+      },
+      "item_id": "gk_20261030_world_1",
+      "question": {
+        "te": "యూరోపియన్ సెంట్రల్ బ్యాంక్ ఏ కరెన్సీని చూసుకుంటుంది?",
+        "en": "Which currency does the European Central Bank look after?"
+      },
+      "options": {
+        "te": [
+          "యూరో",
+          "డాలర్",
+          "పౌండ్",
+          "యెన్"
+        ],
+        "en": [
+          "Euro",
+          "Dollar",
+          "Pound",
+          "Yen"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఈసీబీ యూరో కరెన్సీని, ధరల స్థిరత్వాన్ని చూసుకుంటుంది.",
+        "en": "The ECB looks after the euro and keeps prices stable."
+      }
+    },
+    {
+      "id": "gk_20261030_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261030_q6",
+        "en": "gk_20261030_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261030_q6_answer",
+        "en": "gk_20261030_q6_answer__en"
+      },
+      "item_id": "gk_20261030_india_3",
+      "question": {
+        "te": "ఎన్‌ఎస్‌పీ పునరుద్ధరణ విద్యార్థి గడువు ఏ తేదీ?",
+        "en": "What is the NSP renewal student deadline?"
+      },
+      "options": {
+        "te": [
+          "2026 అక్టోబర్ 31",
+          "2026 నవంబర్ 15",
+          "2026 నవంబర్ 30",
+          "2026 నవంబర్ 22"
+        ],
+        "en": [
+          "October 31, 2026",
+          "November 15, 2026",
+          "November 30, 2026",
+          "November 22, 2026"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "గడువు అక్టోబర్ 31; ముగింపు సమయం ఇవ్వలేదు.",
+        "en": "The deadline is October 31; no cutoff hour is given."
+      }
+    },
+    {
+      "id": "gk_20261030_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261030_q7",
+        "en": "gk_20261030_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261030_q7_answer",
+        "en": "gk_20261030_q7_answer__en"
+      },
+      "item_id": "gk_20261030_india_4",
+      "question": {
+        "te": "జేఈఈ దరఖాస్తులోని పేరు, పుట్టిన తేదీ దేనితో సరిపోవాలి?",
+        "en": "What must the name and date of birth in the JEE form match?"
+      },
+      "options": {
+        "te": [
+          "పదో తరగతి సర్టిఫికెట్",
+          "ఇంటర్ మార్కులు",
+          "ఆధార్ కార్డు ఫోటో",
+          "పాస్‌పోర్ట్"
+        ],
+        "en": [
+          "The Class 10 certificate",
+          "Intermediate marks",
+          "The Aadhaar card photo",
+          "A passport"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఎన్‌టీఏ సూచన: పేరు, పుట్టిన తేదీ పదో తరగతి సర్టిఫికెట్‌లో ఉన్నట్లే ఉండాలి.",
+        "en": "The NTA advisory says they must match the Class 10 certificate."
+      }
+    },
+    {
+      "id": "gk_20261030_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261030_q8",
+        "en": "gk_20261030_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261030_q8_answer",
+        "en": "gk_20261030_q8_answer__en"
+      },
+      "item_id": "gk_20261030_static_1",
+      "question": {
+        "te": "బంగాళాఖాతంలో తుఫానుల కాలం ఏ నెలల్లో?",
+        "en": "Which months are cyclone season in the Bay of Bengal?"
+      },
+      "options": {
+        "te": [
+          "ఏప్రిల్-మే, అక్టోబర్-డిసెంబర్",
+          "జూన్-సెప్టెంబర్ మాత్రమే",
+          "జనవరి-మార్చి",
+          "ఏడాది పొడవునా సమానంగా"
+        ],
+        "en": [
+          "April-May and October-December",
+          "June-September only",
+          "January-March",
+          "Equally all year"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఐఎండీ పత్రం ప్రకారం ఎక్కువ తుఫానులు ఏప్రిల్-మే, అక్టోబర్-డిసెంబర్ కాలాల్లో ఏర్పడతాయి.",
+        "en": "The IMD document says most cyclones form in April-May and October-December."
+      }
+    },
+    {
+      "id": "gk_20261030_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261030_q9",
+        "en": "gk_20261030_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261030_q9_answer",
+        "en": "gk_20261030_q9_answer__en"
+      },
+      "item_id": "gk_20261030_reading_1",
+      "question": {
+        "te": "ఒక రోజులో 21 సెం.మీ. లేదా అంతకు ఎక్కువ వర్షం పడితే దానిని ఏమంటారు?",
+        "en": "What is 21 cm or more of rain in a day called?"
+      },
+      "options": {
+        "te": [
+          "అత్యంత భారీ వర్షం",
+          "తేలికపాటి వర్షం",
+          "భారీ వర్షం",
+          "సాధారణ వర్షం"
+        ],
+        "en": [
+          "Extremely heavy rain",
+          "Light rain",
+          "Heavy rain",
+          "Normal rain"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "21 సెం.మీ. లేదా అంతకు ఎక్కువ అంటే అత్యంత భారీ వర్షం.",
+        "en": "21 cm or more in a day is extremely heavy rain."
+      }
+    },
+    {
+      "id": "gk_20261030_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261030_q10",
+        "en": "gk_20261030_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261030_q10_answer",
+        "en": "gk_20261030_q10_answer__en"
+      },
+      "item_id": "gk_20261030_reading_2",
+      "question": {
+        "te": "ఎవరికీ స్పష్టమైన మెజారిటీ రాకపోవడాన్ని ఏమంటారు?",
+        "en": "What is it called when no side wins a clear majority?"
+      },
+      "options": {
+        "te": [
+          "హంగ్ పార్లమెంట్",
+          "రన్‌ఆఫ్ ఎన్నిక",
+          "ఉప ఎన్నిక",
+          "నామినేషన్"
+        ],
+        "en": [
+          "Hung parliament",
+          "Runoff election",
+          "By-election",
+          "Nomination"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఇజ్రాయిల్‌లో ఇలాగే జరిగింది; ఇప్పుడు కూటమి చర్చలు జరుగుతాయి.",
+        "en": "This happened in Israel; coalition talks now follow."
+      }
+    }
+  ],
+  "edition_date": "2026-10-30",
+  "verified_at": "2026-10-30T02:45:27+05:30",
+  "status": "source_checked_translation_review_recommended",
+  "coverage": {
+    "cards": 7,
+    "current_affairs": 6,
+    "static_gk": 1,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 58
+  },
+  "editorial_note": "Oct30 early reviewed selection: Arnab remnant is a Depression over south Chhattisgarh & adjoining south Odisha (NB30 issued 0300 IST 29.10.2026 - deep depression at 2330 IST Oct28; national Press Release issued 1410 IST 29.10.2026 confirms weakened into Depression). Realized weather (occurred, dated): 24h ending 0830 IST Oct29 - Odisha 55 cm exceptional, coastal AP & Yanam >21 cm extremely heavy, heavy 7-11 cm over Telangana (Aswaraopeta B. Kothagudem 7 cm). Forecasts framed as forecasts: extremely heavy rain east Chhattisgarh/north Odisha Oct29, north Bihar Oct30; TG scattered rain to Nov1, widespread Nov2, thundersquall 50-60 gusting 70 Nov1-2. NEW system: low pressure area over south Andaman Sea (formed, per PR29), expected depression around Oct31 towards AP coast - forecast framing, explicitly UNNAMED per guardian rule (no name until official IMD document). World: ECB chief Christine Lagarde resigned Oct29, steps down Feb7 (Reuters summary updated 29-10-2026 18:29 IST); ECB role grounded in ecb.europa.eu. NSP rechecked Oct30 unchanged - deadline TOMORROW Oct31. JEE: NTA advisory dated 28.10.2026 (own DigiLocker/JanParichay/ePramaan, ReKYC, Class10 name/DOB match) folded in per parent instruction; deadline notice re-read Oct30 unchanged (Nov22 23:50). Static: IMD TCP2022 storm season Apr-May & Oct-Dec. Rainfall-category reading uses IMD press-release wording (heavy 7-11, very heavy 12-20, extremely heavy >=21 cm); note a flood-forecasting terminology doc (nwp.imd.gov.in) uses different simplified thresholds - not used. AISSEE still not included. Original Class5-10 text, Telugu editor review recommended; audio pending. REV2 (02:47 IST Oct30, guardian corrections): card telangana_1 now uses the live MC Hyderabad release dated 29-10-2026 (NIL warning for Oct30, yellow thunderstorm 30-40 kmph Nov1-2); the earlier stale-release sentence removed (release updated between my 02:33 check and guardian's 02:39 fetch). Card india_1 and q1 use dated observations only: deep depression 2330 IST Oct28 (NB30), depression over central Chhattisgarh & adjoining Odisha 1130 IST Oct29 (NB33 issued 1430 IST 29.10.2026), forecast well-marked low by evening Oct29; 'now' phrasing removed. NSP card says 'on October 31' absolutely, no relative-day wording. verified_at set to actual build time. NB33 text and current Hyd release supplied by guardian and re-read. REV3: verified_at set to actual clock reading 2026-10-30T02:43:06+05:30 (rev2's 02:47 was a planned time, not actual). NSP-linked quiz (gk_20261030_q6) inspected: question, options and explanation already use the absolute date October 31 in TE/EN - no relative-day wording remains. q5 is the ECB currency item, no date wording. REV4: card india_1 event_date changed 2026-10-28 -> 2026-10-29 to match the NB33-anchored 1130 IST Oct29 depression stage; superseded rev1 prose about the stale Oct27 Hyderabad release removed (live release is dated 29-10-2026). verified_at is the actual clock reading."
+}
