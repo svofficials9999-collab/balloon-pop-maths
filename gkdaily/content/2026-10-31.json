@@ -1,0 +1,620 @@
+{
+  "schema_version": 1,
+  "revision": "2026-10-31-rev4",
+  "timezone": "Asia/Kolkata",
+  "sources": {
+    "imdpr30": {
+      "publisher": "India Meteorological Department, National Press Release, issued 1345 IST 30.10.2026",
+      "url": "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2030-10-2026.pdf",
+      "published_date": "2026-10-30"
+    },
+    "imdhyd30": {
+      "publisher": "India Meteorological Department, Meteorological Centre Hyderabad, Press Release issued 1400 IST 30.10.2026",
+      "url": "https://mausam.imd.gov.in/hyderabad/mcdata/press_release.pdf",
+      "published_date": "2026-10-30"
+    },
+    "eci_hindu": {
+      "publisher": "The Hindu (report on ECI's revised SIR schedule), 30.10.2026",
+      "url": "https://www.thehindu.com/news/national/telangana/sir-deadline-for-telangana-extended-to-november-30-2026/article71642273.ece",
+      "published_date": "2026-10-30"
+    },
+    "ecitt": {
+      "publisher": "Telangana Today (ECI extends Telangana SIR claims deadline to November 26; final rolls on November 30), 30.10.2026",
+      "url": "https://telanganatoday.com/eci-extends-telangana-sir-claims-deadline-to-november-26-final-rolls-on-november-30",
+      "published_date": "2026-10-30"
+    },
+    "pib_pmkisan": {
+      "publisher": "Press Information Bureau, '24th Instalment of PM-KISAN', posted 30 OCT 2026 3:53 PM",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2330414",
+      "published_date": "2026-10-30"
+    },
+    "nsp": {
+      "publisher": "National Scholarship Portal (scholarships.gov.in), Students page",
+      "url": "https://scholarships.gov.in/Students",
+      "published_date": null
+    },
+    "reuters": {
+      "publisher": "Reuters World News Summary, updated 29-10-2026 18:29 IST",
+      "url": "https://www.devdiscourse.com/article/international/3998957-reuters-world-news-summary",
+      "published_date": "2026-10-29"
+    },
+    "imdtcp": {
+      "publisher": "India Meteorological Department, Cyclone Warning Services: Standard Operation Procedure (TCP), Edition 2022",
+      "url": "https://mausam.imd.gov.in/ptc/TCP/TCP2022.pdf",
+      "published_date": null
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261031_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "imdhyd30",
+        "imdpr30"
+      ],
+      "event_date": "2026-10-30",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261031_telangana_1",
+        "en": "gk_20261031_telangana_1__en"
+      },
+      "title": {
+        "te": "అక్టోబర్ 31న తెలంగాణలో 15 జిల్లాల్లో ఉరుములు మెరుపుల యెల్లో హెచ్చరిక",
+        "en": "Yellow thunderstorm alert in 15 Telangana districts on October 31"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 30 మధ్యాహ్నం 2 గంటలకు హైదరాబాద్ వాతావరణ కేంద్రం జారీ చేసిన ప్రకటన ప్రకారం, అక్టోబర్ 31న ములుగు, భద్రాద్రి కొత్తగూడెం, ఖమ్మం, నల్గొండ, సూర్యాపేట, మహబూబాబాద్, వరంగల్ గ్రామీణ, హనుమకొండ పట్టణ, జనగాం, సిద్ధిపేట, యాదాద్రి భువనగిరి, రంగారెడ్డి, హైదరాబాద్, మేడ్చల్ మల్కాజిగిరి, నాగర్‌కర్నూల్ జిల్లాల్లో ఒకోచోట ఉరుములు మెరుపులతో కూడిన తుపానులు, గంటకు 30-40 కి.మీ. ఈదురుగాలులు ఉండే అంచనాతో యెల్లో హెచ్చరిక ఇచ్చింది. నవంబర్ 1న అన్ని జిల్లాల్లో ఇలాంటి హెచ్చరిక ఉండే అంచనా ఉంది. నవంబర్ 2న ఉత్తర, తూర్పు జిల్లాల్లోనూ ఒకోచోట భారీ వర్షం పడే అంచనా ఉంది. నవంబర్ 3న మెదక్, సంగారెడ్డి, నిజామాబాద్, నిర్మల్, వికారాబాద్, కామారెడ్డి, మహబూబ్‌నగర్ జిల్లాల్లోనూ ఒకోచోట భారీ వర్షం పడే అంచనా ఉంది. ఇది అంచనా మాత్రమే; హెచ్చరికలు రోజుకు రోజు మారవచ్చు.",
+        "en": "According to the Hyderabad Met Centre release issued at 2 PM on October 30, a yellow warning is in place on October 31 for thunderstorms with lightning and gusty winds of 30-40 km/h at isolated places in Mulugu, Bhadradri Kothagudem, Khammam, Nalgonda, Suryapet, Mahabubabad, Warangal (R), Hanumakonda (U), Jangaon, Siddipet, Yadadri Bhuvanagiri, Ranga Reddy, Hyderabad, Medchal Malkajgiri and Nagarkurnool districts. A similar warning is expected in all districts on November 1. Heavy rain is expected at isolated places in northern and eastern districts on November 2, and in Medak, Sangareddy, Nizamabad, Nirmal, Vikarabad, Kamareddy and Mahbubnagar on November 3. This is a forecast, and warnings can change day to day."
+      }
+    },
+    {
+      "id": "gk_20261031_telangana_2",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "eci_hindu",
+        "ecitt"
+      ],
+      "event_date": "2026-10-30",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261031_telangana_2",
+        "en": "gk_20261031_telangana_2__en"
+      },
+      "title": {
+        "te": "తెలంగాణ ఎస్‌ఐఆర్: నోటీసులు, దావాల పరిష్కారం నవంబర్ 26కు; తుది జాబితా నవంబర్ 30కు పొడగింపు",
+        "en": "Telangana SIR: notices and claims disposal phase extended to November 26; final rolls to November 30"
+      },
+      "summary": {
+        "te": "ది హిందూ, తెలంగాణ టుడే అక్టోబర్ 30 నివేదికల ప్రకారం, తెలంగాణలో జరుగుతున్న ఓటర్ల జాబితా ప్రత్యేక లోతైన సవరణ (స్పెషల్ ఇంటెన్సివ్ రివిజన్, ఎస్‌ఐఆర్) షెడ్యూలును భారత ఎన్నికల సంఘం అక్టోబర్ 29 రాత్రి ఆలస్యంగా మార్చినట్లు తెలిపాయి. ఆ నివేదికల ప్రకారం నోటీసుల దశ, దావాలు-అభ్యంతరాల పరిష్కారం నవంబర్ 26తో ముగుస్తుంది; తుది ఓటర్ల జాబితా ప్రచురణ తేదీని నవంబర్ 9 బదులు నవంబర్ 30కి మార్చినట్లు తెలిపాయి. ఎన్నికల సంఘం అధికారిక ఉత్తర్వు ఇంకా పరిశీలించలేదు; ఈ అంశం నివేదికల ఆధారంగానే ఇవ్వబడింది.",
+        "en": "According to reports in The Hindu and Telangana Today on October 30, the Election Commission of India revised the schedule of the Special Intensive Revision (SIR) of electoral rolls in Telangana in a late-night announcement on October 29. Per those reports, the notice phase and disposal of claims and objections will conclude on November 26, and the final electoral rolls will be published on November 30 instead of November 9. The official ECI memo has not been verified yet; this item is presented as reported attribution."
+      }
+    },
+    {
+      "id": "gk_20261031_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "imdpr30"
+      ],
+      "event_date": "2026-10-30",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261031_india_1",
+        "en": "gk_20261031_india_1__en"
+      },
+      "title": {
+        "te": "బంగాళాఖాతంలో మరో అల్పపీడనం; డిప్రెషన్ అయ్యే అంచనా",
+        "en": "Another low pressure in the Bay of Bengal; likely to become a depression"
+      },
+      "summary": {
+        "te": "అక్టోబర్ 30 మధ్యాహ్నం 1:45కు భారత వాతావరణ శాఖ జారీ చేసిన జాతీయ ప్రకటన ప్రకారం, దక్షిణ అండమాన్ సముద్రంలో ఒక అల్పపీడనం ఏర్పడింది. అది అక్టోబర్ 31 నాటికి ఆగ్నేయ బంగాళాఖాతంలో డిప్రెషన్‌గా మారే అవకాశం ఎక్కువగానే ఉంది; ఆ తరువాత ఆంధ్రప్రదేశ్ తీరం వైపు కదలవచ్చు. దీని ప్రభావంతో నవంబర్ 2, 3 తేదీల్లో కోస్తా ఆంధ్రప్రదేశ్‌లో ఒకోచోట భారీ నుంచి అతిభారీ వర్షం పడే అంచనా ఉంది. ఇది అంచనా మాత్రమే. ఈ వ్యవస్థకు ఇంకా పేరు లేదు - తుఫాను స్థాయికి చేరినప్పుడే వాతావరణ శాఖ పేరు పెడుతుంది. అర్నబ్ తుఫాను అవశేషం ఇప్పుడు ఉత్తర ఛత్తీస్‌గఢ్, తూర్పు మధ్యప్రదేశ్ పరిసరాల్లో అల్పపీడనంగా ఉంది.",
+        "en": "According to the IMD national press release issued at 1:45 PM on October 30, a low pressure area lies over the south Andaman Sea. It is very likely to concentrate into a depression over the southeast Bay of Bengal around October 31, and then move towards the Andhra Pradesh coast. Under its influence, isolated heavy to very heavy rain is likely over coastal Andhra Pradesh on November 2 and 3. This is only a forecast. The system has no name yet - the IMD names a system only when it reaches cyclone stage. The remnant of cyclone Arnab is now a low pressure area over north Chhattisgarh and adjoining East Madhya Pradesh."
+      }
+    },
+    {
+      "id": "gk_20261031_india_2",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "pib_pmkisan"
+      ],
+      "event_date": "2026-10-30",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261031_india_2",
+        "en": "gk_20261031_india_2__en"
+      },
+      "title": {
+        "te": "పీఎం-కిసాన్ 24వ విడత: 9.34 కోట్ల రైతులకు ₹18,690 కోట్లు",
+        "en": "PM-KISAN 24th installment: ₹18,690 crore to 9.34 crore farmers"
+      },
+      "summary": {
+        "te": "ప్రెస్ ఇన్ఫర్మేషన్ బ్యూరో అక్టోబర్ 30 ప్రకటన ప్రకారం, ప్రధానమంత్రి కిసాన్ సమ్మాన్ నిధి 24వ విడతను అక్టోబర్ 30న గుజరాత్‌లోని బનాస్‌కాంతాలో విడుదల చేశారు. 9.34 కోట్ల మంది అర్హులైన రైతుల ఖాతాల్లోకి నేరుగా (డైరెక్ట్ బెనిఫిట్ ట్రాన్స్‌ఫర్ ద్వారా) దాదాపు ₹18,690 కోట్లు చేరాయి. ఈ పథకంలో అర్హులైన రైతు కుటుంబాలకు ఏటా ₹6,000, మూడు విడతలుగా అందుతుంది. ఇప్పటివరకు మొత్తం ₹4.64 లక్షల కోట్లకు పైగా చెల్లించారు. ఈ పథకాన్ని 2030-31 వరకు కొనసాగించేందుకు ₹3.15 లక్షల కోట్లతో 2026 జూలైలో కేబినెట్ ఆమోదం ఇచ్చింది.",
+        "en": "According to the Press Information Bureau release of October 30, the 24th installment of the Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) was released on October 30 at Banaskantha in Gujarat. About ₹18,690 crore reached the bank accounts of 9.34 crore eligible farmers directly through Direct Benefit Transfer. Under the scheme, eligible farmer families receive ₹6,000 every year in three installments. Total payments so far have crossed ₹4.64 lakh crore, and the Union Cabinet approved continuing the scheme until 2030-31 in July 2026 with an outlay of ₹3.15 lakh crore."
+      }
+    },
+    {
+      "id": "gk_20261031_india_3",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "nsp"
+      ],
+      "event_date": "2026-10-31",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261031_india_3",
+        "en": "gk_20261031_india_3__en"
+      },
+      "title": {
+        "te": "పీఎం-యూఎస్పీ రెండు స్కాలర్‌షిప్ స్కీముల రెన్యూవల్ గడువు అక్టోబర్ 31",
+        "en": "Renewal for two PM-USP scholarship schemes closes October 31"
+      },
+      "summary": {
+        "te": "జాతీయ స్కాలర్‌షిప్ పోర్టల్ (scholarships.gov.in) ప్రకారం, పీఎం-యూఎస్పీ కళాశాల, విశ్వవిద్యాలయ విద్యార్థుల స్కాలర్‌షిప్ (సీఎస్‌ఎస్‌ఎస్), పీఎం-యూఎస్పీ జమ్మూ కశ్మీర్ మరియు లడఖ్ ప్రత్యేక స్కాలర్‌షిప్ - ఈ రెండు స్కీముల రెన్యూవల్ దరఖాస్తుల చివరి తేదీ అక్టోబర్ 31, 2026. ఈ రెండు స్కీముల్లో ఇప్పటికే స్కాలర్‌షిప్ పొందుతున్న విద్యార్థులు అక్టోబర్ 31 లోపే పోర్టల్‌లో రెన్యూవల్ చేసుకోవాలి. దరఖాస్తుకు వన్ టైమ్ రిజిస్ట్రేషన్ (ఓటీఆర్) తప్పనిసరి. ఇతర స్కీముల గడువులు వేర్వేరుగా ఉంటాయి; సరైన సమాచారం కోసం scholarships.gov.in అధికారిక పోర్టల్‌నే చూడాలి.",
+        "en": "According to the National Scholarship Portal (scholarships.gov.in), renewal applications close on October 31, 2026, for two schemes: the PM-USP Scheme of Scholarship for College and University Students (CSSS) and the PM-USP Special Scholarship Scheme for Jammu Kashmir and Ladakh. Students already receiving either of these scholarships must submit their renewal on the portal by October 31. One Time Registration (OTR) is mandatory. Other schemes have different deadlines; for correct information, students should use only the official portal, scholarships.gov.in."
+      }
+    },
+    {
+      "id": "gk_20261031_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "reuters"
+      ],
+      "event_date": "2026-10-29",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261031_world_1",
+        "en": "gk_20261031_world_1__en"
+      },
+      "title": {
+        "te": "ఆసియాన్ రక్షణ మంత్రుల సమావేశంలో ఫిలిప్పీన్స్-చైనా ఉద్రిక్తత",
+        "en": "Philippines-China tension resurfaces at ASEAN defence meeting"
+      },
+      "summary": {
+        "te": "రాయిటర్స్ అక్టోబర్ 29 ప్రపంచ వార్తా సారాంశం ప్రకారం, ఫిలిప్పీన్స్‌లోని సెబులో జరిగిన రెండు రోజుల ఆసియాన్ రక్షణ మంత్రుల సమావేశం ముగింపులో ఫిలిప్పీన్స్, చైనా మధ్య ఉద్రిక్తత మళ్లీ బయటపడింది. ఓ ఫిలిప్పీన్స్ రాజకీయ నాయకుడు ఈ సమావేశంలో చైనా పాల్గొనేందుకు అడ్డంకులు సృష్టించాడని చైనా రక్షణ మంత్రిత్వ శాఖ ఆరోపించగా, చైనాకు తమ వైఖరి చెప్పుకునే అవకాశం ఇచ్చామని ఫిలిప్పీన్స్ సమాధానం ఇచ్చింది.",
+        "en": "According to the Reuters world news summary of October 29, tensions between the Philippines and China resurfaced at the close of a two-day ASEAN defence ministers' gathering in Cebu, in the Philippines. China's defence ministry accused an unnamed Philippine politician of creating obstacles to China's participation, while Manila said China had been given an opportunity to state China's position."
+      }
+    },
+    {
+      "id": "gk_20261031_static_1",
+      "region": "static",
+      "type": "static_gk",
+      "source_ids": [
+        "imdtcp"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261031_static_1",
+        "en": "gk_20261031_static_1__en"
+      },
+      "title": {
+        "te": "అల్పపీడనం నుంచి తుఫాను ఎలా ఏర్పడుతుంది? పేరు ఎప్పుడు పడుతుంది?",
+        "en": "How does a low pressure become a cyclone, and when does it get a name?"
+      },
+      "summary": {
+        "te": "భారత వాతావరణ శాఖ ప్రమాణ పద్ధతి (టీసీపీ 2022) ప్రకారం, సముద్రంపై ఏర్పడే వాతావరణ వ్యవస్థలను గాలి వేగాన్ని బట్టి పిలుస్తారు. గాలి వేగం గంటకు 31 కి.మీ. కంటే తక్కువ ఉంటే అది అల్పపీడనం. గంటకు 31-51 కి.మీ. ఉంటే డిప్రెషన్, 52-61 కి.మీ. ఉంటే డీప్ డిప్రెషన్. గాలి వేగం గంటకు 62-88 కి.మీ. చేరినప్పుడు అది సైక్లోనిక్ స్టార్మ్, అంటే తుఫాను అవుతుంది. అప్పుడే న్యూఢిల్లీలోని ప్రాంతీయ ప్రత్యేక వాతావరణ కేంద్రం (ఆర్ఎస్ఎమ్సీ) 13 సభ్య దేశాల జాబితా నుంచి దానికి పేరు పెడుతుంది. అంటే అల్పపీడనం, డిప్రెషన్ దశల్లో ఉన్నంత వరకు వ్యవస్థకు పేరు ఉండదు.",
+        "en": "According to the India Meteorological Department's standard procedure (TCP 2022), weather systems over the sea are classified by wind speed. If the wind is below 31 km/h, it is a low pressure area. Winds of 31-51 km/h make it a depression, and 52-61 km/h a deep depression. When winds reach 62-88 km/h it becomes a cyclonic storm - and only then does the Regional Specialised Meteorological Centre in New Delhi give it a name, from a list contributed by 13 member countries. So a system has no name while it is still a low pressure or a depression."
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261031_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261031_reading_1",
+        "en": "gk_20261031_reading_1__en"
+      },
+      "source_ids": [
+        "pib_pmkisan"
+      ],
+      "title": {
+        "te": "రైతుల ఖాతాలోకి నేరుగా డబ్బు: పీఎం-కిసాన్",
+        "en": "Money straight into farmers' accounts: PM-KISAN"
+      },
+      "passage": {
+        "te": "ప్రభుత్వం పీఎం-కిసాన్ పథకం ద్వారా అర్హులైన రైతు కుటుంబాలకు ఏటా ఆరు వేల రూపాయలు ఇస్తుంది. ఈ డబ్బును మూడు సమాన విడతలుగా విడుదల చేస్తారు. గమనించాల్సిన విషయం ఏమిటంటే, ఈ డబ్బు మధ్యలో ఎవరి చేతిలోనూ ఉండదు. డైరెక్ట్ బెనిఫిట్ ట్రాన్స్‌ఫర్ అనే పద్ధతిలో రైతు ఆధార్‌తో జతచేసిన బ్యాంకు ఖాతాలోకి నేరుగా చేరుతుంది. అందుకే దానిని డీబీటీ అంటారు. అక్టోబర్ 30న జరిగిన 24వ విడతలో 9.34 కోట్ల మంది రైతులకు దాదాపు పద్దెనిమిది వేల ఆరు వందల తొంభై కోట్ల రూపాయలు చేరాయి. ఈ పథకం 2030-31 వరకు కొనసాగనుందని ప్రభుత్వం చెప్పింది.",
+        "en": "Under the PM-KISAN scheme, the government gives eligible farmer families six thousand rupees every year. This money is released in three equal installments. The important thing is that the money does not pass through anyone's hands in between. Through a method called Direct Benefit Transfer, it goes straight into the farmer's bank account linked with Aadhaar. That is why it is called DBT. In the 24th installment released on October 30, about eighteen thousand six hundred ninety crore rupees reached 9.34 crore farmers. The government says the scheme will continue until 2030-31."
+      }
+    },
+    {
+      "id": "gk_20261031_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261031_reading_2",
+        "en": "gk_20261031_reading_2__en"
+      },
+      "source_ids": [
+        "eci_hindu",
+        "ecitt"
+      ],
+      "title": {
+        "te": "ఓటర్ల జాబితా ప్రత్యేక లోతైన సవరణ (స్పెషల్ ఇంటెన్సివ్ రివిజన్, ఎస్‌ఐఆర్) అంటే ఏమిటి?",
+        "en": "What is the Special Intensive Revision (SIR) of the voter list?"
+      },
+      "passage": {
+        "te": "ఎన్నికల్లో ఓటు వేయాలంటే మన పేరు ఓటర్ల జాబితాలో ఉండాలి. ఈ జాబితాను భారత ఎన్నికల సంఘం మార్పులు చేస్తూ ఉంటుంది. కొన్నిసార్లు జాబితా మొత్తాన్ని లోతుగా పరిశీలించి సరిచేసే ప్రత్యేక వ్యూహాన్ని ప్రత్యేక లోతైన సవరణ (స్పెషల్ ఇంటెన్సివ్ రివిజన్), అంటే ఎస్‌ఐఆర్ అంటారు. ఇందులో గణనీయకులు ఇంటింటికీ వెళ్లి వివరాలు సేకరిస్తారు. కొత్తగా పద్దెనిమిది ఏళ్లు నిండినవారు ఫారం-6 ద్వారా పేరు చేర్చుకోవచ్చు. పేరు తప్పుగా ఉంటే సవరణ కోరవచ్చు; ఎవరి పేరు ఉండకూడదో అభ్యంతరం చెప్పవచ్చు. తెలంగాణలో ఈ దావాలు, అభ్యంతరాల నోటీసుల దశ, పరిష్కారం నవంబర్ 26తో ముగుస్తుందని, తుది జాబితా ప్రచురణ తేదీని నవంబర్ 9 బదులు నవంబర్ 30కి మార్చినట్లని అక్టోబర్ 30 నివేదికలు తెలిపాయి; అధికారిక ఉత్తర్వు ఇంకా పరిశీలించలేదు. ఓటు హక్కు కోల్పోకూడదనుకునే ప్రతి పౌరుడు ఈ తేదీలు గుర్తు పెట్టుకోవాలి.",
+        "en": "To vote in an election, your name must be on the electoral roll. The Election Commission of India keeps updating this list. Sometimes it checks the entire list deeply and corrects it; this special exercise is called the Special Intensive Revision, or SIR. In it, enumerators visit homes to collect details. Anyone who has turned eighteen can apply to be added through Form 6. If a name is wrong, a correction can be requested, and objections can be raised against names that should not be on the list. In Telangana, reports of October 30 say the notice phase and disposal of claims and objections will conclude on November 26, and the publication of the final rolls has moved from November 9 to November 30; the official memo has not been verified yet. Every citizen who does not want to lose the right to vote should remember these dates."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261031_q1",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261031_q1",
+        "en": "gk_20261031_q1__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261031_q1_answer",
+        "en": "gk_20261031_q1_answer__en"
+      },
+      "item_id": "gk_20261031_telangana_1",
+      "question": {
+        "te": "అక్టోబర్ 31 యెల్లో హెచ్చరికలో చెప్పిన ఈదురుగాలి వేగం ఎంత?",
+        "en": "What gusty wind speed does the October 31 yellow warning mention?"
+      },
+      "options": {
+        "te": [
+          "గంటకు 30-40 కి.మీ.",
+          "గంటకు 40-50 కి.మీ.",
+          "గంటకు 60-70 కి.మీ.",
+          "గంటకు 80-90 కి.మీ."
+        ],
+        "en": [
+          "30-40 km/h",
+          "40-50 km/h",
+          "60-70 km/h",
+          "80-90 km/h"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "హైదరాబాద్ వాతావరణ కేంద్ర ప్రకటనలో గంటకు 30-40 కి.మీ. ఈదురుగాలుల హెచ్చరిక ఉంది.",
+        "en": "The Hyderabad Met Centre release warns of gusty winds of 30-40 km/h."
+      }
+    },
+    {
+      "id": "gk_20261031_q2",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261031_q2",
+        "en": "gk_20261031_q2__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261031_q2_answer",
+        "en": "gk_20261031_q2_answer__en"
+      },
+      "item_id": "gk_20261031_telangana_1",
+      "question": {
+        "te": "వాతావరణ శాఖ అంచనా ప్రకారం నవంబర్ 3న భారీ వర్ష హెచ్చరిక ఉన్న జిల్లా ఏది?",
+        "en": "Which district has a heavy rain warning in the forecast for November 3?"
+      },
+      "options": {
+        "te": [
+          "మెదక్",
+          "హైదరాబాద్",
+          "ఆదిలాబాద్",
+          "కరీంనగర్"
+        ],
+        "en": [
+          "Medak",
+          "Hyderabad",
+          "Adilabad",
+          "Karimnagar"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నవంబర్ 3 అంచనాలో నిర్మల్, నిజామాబాద్, వికారాబాద్, సంగారెడ్డి, మెదక్, కామారెడ్డి, మహబూబ్‌నగర్ జిల్లాల్లో భారీ వర్ష హెచ్చరిక ఉంది.",
+        "en": "The November 3 forecast lists Nirmal, Nizamabad, Vikarabad, Sangareddy, Medak, Kamareddy and Mahbubnagar for heavy rain."
+      }
+    },
+    {
+      "id": "gk_20261031_q3",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261031_q3",
+        "en": "gk_20261031_q3__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261031_q3_answer",
+        "en": "gk_20261031_q3_answer__en"
+      },
+      "item_id": "gk_20261031_telangana_2",
+      "question": {
+        "te": "తెలంగాణలో తుది ఓటర్ల జాబితాను ఎప్పుడు ప్రచురిస్తారు?",
+        "en": "When will the final electoral rolls be published in Telangana?"
+      },
+      "options": {
+        "te": [
+          "నవంబర్ 9",
+          "నవంబర్ 30",
+          "డిసెంబర్ 31",
+          "నవంబర్ 26"
+        ],
+        "en": [
+          "November 9",
+          "November 30",
+          "December 31",
+          "November 26"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "నివేదికల ప్రకారం ఎన్నికల సంఘం తుది జాబితా తేదీని నవంబర్ 9 బదులు నవంబర్ 30కి మార్చినట్లు తెలిపాయి; అధికారిక ఉత్తర్వు ఇంకా పరిశీలించలేదు.",
+        "en": "Per the reports, the Commission moved the final rolls date from November 9 to November 30; the official memo has not been verified yet."
+      }
+    },
+    {
+      "id": "gk_20261031_q4",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261031_q4",
+        "en": "gk_20261031_q4__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261031_q4_answer",
+        "en": "gk_20261031_q4_answer__en"
+      },
+      "item_id": "gk_20261031_india_1",
+      "question": {
+        "te": "కొత్త అల్పపీడనం ఎక్కడ ఏర్పడింది?",
+        "en": "Where has the new low pressure area formed?"
+      },
+      "options": {
+        "te": [
+          "అరేబియా సముద్రంలో",
+          "దక్షిణ అండమాన్ సముద్రంలో",
+          "హిందూ మహాసముద్రంలో",
+          "బంగాళాఖాతం మధ్య భాగంలో"
+        ],
+        "en": [
+          "In the Arabian Sea",
+          "Over the south Andaman Sea",
+          "In the Indian Ocean",
+          "In the central Bay of Bengal"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "ఐఎండీ ప్రకటన ప్రకారం అల్పపీడనం దక్షిణ అండమాన్ సముద్రంపై ఉంది.",
+        "en": "The IMD release says the low pressure lies over the south Andaman Sea."
+      }
+    },
+    {
+      "id": "gk_20261031_q5",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261031_q5",
+        "en": "gk_20261031_q5__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261031_q5_answer",
+        "en": "gk_20261031_q5_answer__en"
+      },
+      "item_id": "gk_20261031_india_1",
+      "question": {
+        "te": "బంగాళాఖాతంలోని కొత్త వ్యవస్థకు ఇప్పుడు పేరు ఉందా?",
+        "en": "Does the new system in the Bay of Bengal have a name yet?"
+      },
+      "options": {
+        "te": [
+          "లేదు, ఇంకా పేరు పడలేదు",
+          "అర్నబ్",
+          "మాంథా",
+          "గులాబ్"
+        ],
+        "en": [
+          "No, it has no name yet",
+          "Arnab",
+          "Montha",
+          "Gulab"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "తుఫాను స్థాయికి చేరినప్పుడే వాతావరణ శాఖ పేరు పెడుతుంది; ఇది ఇంకా అల్పపీడన దశలోనే ఉంది.",
+        "en": "The IMD names a system only at cyclone stage; this is still a low pressure area."
+      }
+    },
+    {
+      "id": "gk_20261031_q6",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261031_q6",
+        "en": "gk_20261031_q6__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261031_q6_answer",
+        "en": "gk_20261031_q6_answer__en"
+      },
+      "item_id": "gk_20261031_india_2",
+      "question": {
+        "te": "పీఎం-కిసాన్ 24వ విడతలో ఎంత మంది రైతులకు డబ్బు చేరింది?",
+        "en": "How many farmers received money in the 24th PM-KISAN installment?"
+      },
+      "options": {
+        "te": [
+          "4.64 కోట్లు",
+          "9.34 కోట్లు",
+          "3.15 కోట్లు",
+          "18.69 కోట్లు"
+        ],
+        "en": [
+          "4.64 crore",
+          "9.34 crore",
+          "3.15 crore",
+          "18.69 crore"
+        ]
+      },
+      "answer_index": 1,
+      "explanation": {
+        "te": "పిఐబి ప్రకటన ప్రకారం 9.34 కోట్ల మంది అర్హులైన రైతులకు చేరింది.",
+        "en": "The PIB release says 9.34 crore eligible farmers received the installment."
+      }
+    },
+    {
+      "id": "gk_20261031_q7",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261031_q7",
+        "en": "gk_20261031_q7__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261031_q7_answer",
+        "en": "gk_20261031_q7_answer__en"
+      },
+      "item_id": "gk_20261031_india_2",
+      "question": {
+        "te": "పీఎం-కిసాన్‌లో రైతు కుటుంబానికి ఏటా ఎంత, ఎన్ని విడతలుగా అందుతుంది?",
+        "en": "How much does a farmer family get under PM-KISAN each year, and in how many installments?"
+      },
+      "options": {
+        "te": [
+          "₹10,000, రెండు విడతలు",
+          "₹12,000, నాలుగు విడతలు",
+          "₹6,000, మూడు విడతలు",
+          "₹5,000, మూడు విడతలు"
+        ],
+        "en": [
+          "₹10,000 in two installments",
+          "₹12,000 in four installments",
+          "₹6,000 in three installments",
+          "₹5,000 in three installments"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "అర్హులైన రైతు కుటుంబాలకు ఏటా ₹6,000, మూడు విడతలుగా అందుతుంది.",
+        "en": "Eligible farmer families receive ₹6,000 a year in three installments."
+      }
+    },
+    {
+      "id": "gk_20261031_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261031_q8",
+        "en": "gk_20261031_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261031_q8_answer",
+        "en": "gk_20261031_q8_answer__en"
+      },
+      "item_id": "gk_20261031_india_3",
+      "question": {
+        "te": "పీఎం-యూఎస్పీ సీఎస్‌ఎస్‌ఎస్, జమ్మూ కశ్మీర్ & లడఖ్ ప్రత్యేక స్కాలర్‌షిప్ స్కీముల రెన్యూవల్ చివరి తేదీ ఏది?",
+        "en": "What is the renewal closing date for the PM-USP CSSS and PM-USP Jammu Kashmir & Ladakh special scholarship schemes?"
+      },
+      "options": {
+        "te": [
+          "నవంబర్ 30, 2026",
+          "సెప్టెంబర్ 30, 2026",
+          "అక్టోబర్ 31, 2026",
+          "డిసెంబర్ 15, 2026"
+        ],
+        "en": [
+          "November 30, 2026",
+          "September 30, 2026",
+          "October 31, 2026",
+          "December 15, 2026"
+        ]
+      },
+      "answer_index": 2,
+      "explanation": {
+        "te": "పోర్టల్ ప్రకారం ఈ రెండు పీఎం-యూఎస్పీ స్కీముల రెన్యూవల్ చివరి తేదీ అక్టోబర్ 31, 2026; ఇతర స్కీముల గడువులు వేరుగా ఉంటాయి.",
+        "en": "The portal lists October 31, 2026 as the renewal closing date for these two PM-USP schemes; other schemes have different deadlines."
+      }
+    },
+    {
+      "id": "gk_20261031_q9",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261031_q9",
+        "en": "gk_20261031_q9__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261031_q9_answer",
+        "en": "gk_20261031_q9_answer__en"
+      },
+      "item_id": "gk_20261031_world_1",
+      "question": {
+        "te": "ఆసియాన్ రక్షణ మంత్రుల సమావేశం ఏ దేశంలో జరిగింది?",
+        "en": "In which country was the ASEAN defence ministers' meeting held?"
+      },
+      "options": {
+        "te": [
+          "ఇండోనేషియా",
+          "వియత్నాం",
+          "థాయ్‌లాండ్",
+          "ఫిలిప్పీన్స్"
+        ],
+        "en": [
+          "Indonesia",
+          "Vietnam",
+          "Thailand",
+          "Philippines"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "సమావేశం ఫిలిప్పీన్స్‌లోని సెబులో జరిగింది.",
+        "en": "The meeting took place in Cebu, in the Philippines."
+      }
+    },
+    {
+      "id": "gk_20261031_q10",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261031_q10",
+        "en": "gk_20261031_q10__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261031_q10_answer",
+        "en": "gk_20261031_q10_answer__en"
+      },
+      "item_id": "gk_20261031_static_1",
+      "question": {
+        "te": "వాతావరణ వ్యవస్థకు పేరు ఏ దశలో పడుతుంది?",
+        "en": "At which stage does a weather system get a name?"
+      },
+      "options": {
+        "te": [
+          "అల్పపీడనం",
+          "డిప్రెషన్",
+          "డీప్ డిప్రెషన్",
+          "సైక్లోనిక్ స్టార్మ్"
+        ],
+        "en": [
+          "Low pressure area",
+          "Depression",
+          "Deep depression",
+          "Cyclonic storm"
+        ]
+      },
+      "answer_index": 3,
+      "explanation": {
+        "te": "గాలి వేగం గంటకు 62 కి.మీ. చేరి సైక్లోనిక్ స్టార్మ్ అయినప్పుడే ఆర్ఎస్ఎమ్సీ న్యూఢిల్లీ పేరు పెడుతుంది.",
+        "en": "RSMC New Delhi names a system only when winds reach 62 km/h and it becomes a cyclonic storm."
+      }
+    }
+  ],
+  "edition_date": "2026-10-31",
+  "verified_at": "2026-10-31T03:11:29+05:30",
+  "status": "source_checked_independent_editorial_review_applied_audio_pending",
+  "coverage": {
+    "cards": 7,
+    "current_affairs": 6,
+    "static_gk": 1,
+    "reading_passages": 2,
+    "questions": 10,
+    "listen_clips": 58
+  },
+  "editorial_note": "Oct31 early reviewed selection: Arnab remnant is a Low Pressure Area over north Chhattisgarh & adjoining East MP (IMD national PR issued 1345 IST 30.10.2026). A new low pressure over the south Andaman Sea is very likely to become a depression around Oct 31 and move towards the A.P. coast; it has NO name - IMD names only at cyclone stage (TCP 2022: naming at 34 knots by RSMC New Delhi). TG: yellow thunderstorm warning Oct31 for 15 districts, all districts Nov 1, heavy rain Nov 2 (N+E districts) and Nov 3 (incl. Medak) - forecast, levels can change (Hyd MC PR 1400 IST 30.10.2026). SIR TG extended: claims/objections to Nov 26, final rolls Nov 30 (news-reported by The Hindu + Telangana Today, Oct 30; official ECI memo not verified - kept as reported attribution). PM-KISAN 24th installment RELEASED Oct 30 (occurred, PIB). Renewal for two named PM-USP schemes (CSSS; J&K/Ladakh special) closes Oct31 per scholarships.gov.in. NB34+ cyclone bulletins 404 at all tried paths; PR30 is the freshest verified national release. Rev2 corrections: NSP renewal narrowed to PM-USP CSSS and PM-USP J&K/Ladakh schemes only; SIR kept explicitly reported; district count fixed to 15. Rev3: SIR phrased as reported conclusion of notice/disposal phase on Nov 26 (Form 6 filing-window clause removed as unsupported). Rev4: independent linguistic/editorial corrections applied - dated Oct31 wording replaces time-fragile today, Nov2/Nov3 and coastal AP rain scoped as isolated, Bay depression likelihood kept very likely, SIR title/date wording distinguishes notice/disposal Nov26 from final rolls Nov30 and retains memo-not-verified attribution, PM-KISAN Cabinet approval dated July 2026, ASEAN participation wording clarified, PM-USP event_date set. No optional new content added."
+}
