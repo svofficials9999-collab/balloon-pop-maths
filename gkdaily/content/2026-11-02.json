@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "2026-11-02-rev1",
+  "revision": "2026-11-02-rev2",
   "timezone": "Asia/Kolkata",
   "sources": {
     "imdpr01": {
@@ -37,6 +37,11 @@
       "publisher": "Reuters World News Summary, updated 01.11.2026 18:30 IST",
       "url": "https://www.devdiscourse.com/article/international/4000309-reuters-world-news-summary",
       "published_date": "2026-11-01"
+    },
+    "imdadv4": {
+      "publisher": "RSMC - Tropical Cyclones, New Delhi, Tropical Cyclone Advisory No. 4, issued 2000 UTC 01.11.2026 (0130 IST 02.11.2026), based on 1800 UTC 01.11.2026",
+      "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/TROPICAL_CYCLONE_ADVISORY_NO__4_based_on_1800_UTC_of_01_11_2026.pdf",
+      "published_date": "2026-11-02"
     },
     "imdtcp": {
       "publisher": "India Meteorological Department, Cyclone Warning Services: Standard Operation Procedure (TCP), Edition 2022",
@@ -96,7 +101,8 @@
       "region": "india",
       "type": "current_affairs",
       "source_ids": [
-        "imdpr01"
+        "imdpr01",
+        "imdadv4"
       ],
       "event_date": "2026-11-01",
       "age_band": "class5-10",
@@ -109,8 +115,8 @@
         "en": "Bay of Bengal system becomes Cyclonic Storm Murasu"
       },
       "summary": {
-        "te": "నవంబర్ 1 మధ్యాహ్నం 2:05కు భారత వాతావరణ శాఖ జారీ చేసిన జాతీయ ప్రకటన ప్రకారం, బంగాళాఖాతంలోని తీవ్ర అల్పపీడనం నవంబర్ 1 ఉదయం 11:30కి సైక్లోనిక్ స్టార్మ్ (తుఫాను) గా మారింది; దానికి 'మురసు' అని పేరు పడింది. అప్పటికి అది చెన్నైకి తూర్పు-ఆగ్నేయంగా సుమారు 560 కి.మీ. దూరంలో ఉంది. నవంబర్ 2 ఉదయం నాటికి అది తీవ్ర తుఫాను (సీవియర్ సైక్లోనిక్ స్టార్మ్) గా మారే అంచనా ఉంది. ఆ తరువాత అది నవంబర్ 2 మధ్యరాత్రి (రాత్రి 11:30) నుంచి నవంబర్ 3 తెల్లవారుఝామున (ఉదయం 4 గంటల) మధ్య నెల్లూరు - నర్సాపూర్ మధ్య దక్షిణ ఆంధ్రప్రదేశ్ తీరాన్ని, గంటకు 100-110 కి.మీ. (ఈదురుతో 120 కి.మీ.) గాలులతో దాటే అంచనా ఉంది. ఇవి అంచనాలు మాత్రమే; మార్గం, తీవ్రత మారవచ్చు.",
-        "en": "According to the IMD national press release issued at 2:05 PM on November 1, the deep depression over the Bay of Bengal intensified into a cyclonic storm at 11:30 AM on November 1 and was named 'Murasu'. It then lay about 560 km east-southeast of Chennai. It is very likely to strengthen into a severe cyclonic storm around the morning of November 2, and to cross the south Andhra Pradesh coast between Nellore and Narsapur during midnight (11:30 PM) of November 2 to the early hours (4 AM) of November 3, with winds of 100-110 km/h gusting to 120 km/h. These are forecasts, and the track and strength can change."
+        "te": "నవంబర్ 1 మధ్యాహ్నం 2:05కు భారత వాతావరణ శాఖ జారీ చేసిన జాతీయ ప్రకటన ప్రకారం, బంగాళాఖాతంలోని తీవ్ర అల్పపీడనం నవంబర్ 1 ఉదయం 11:30కి తుఫానుగా మారి 'మురసు' పేరు పడింది. నవంబర్ 2 తెల్లవారు 1:30కు ఆర్ఎస్ఎమ్సీ న్యూఢిల్లీ జారీ చేసిన తాజా సలహా (అడ్వైజరీ నం. 4) ప్రకారం, అది తీవ్ర తుఫానుగా మారి, నవంబర్ 2 రాత్రి 11:30 నుంచి నవంబర్ 3 తెల్లవారుఝామున 3:30 మధ్య నెల్లూరు - నర్సాపూర్ మధ్య ఒంగోలు దగ్గరగా దక్షిణ ఏపీ తీరాన్ని గంటకు 100-110 కి.మీ. (ఈదురుతో 120 కి.మీ.) గాలులతో దాటే అంచనా ఉంది. తీరం దాటే సమయంలో సాధారణ జ్వార స్థాయి కంటే 1.0-1.5 మీటర్ల ఎత్తుకు స్టార్మ్ సర్జ్ వచ్చి దక్షిణ కోస్తా ఏపీలోని లోతట్టు ప్రాంతాలు ముంపుకు గురయ్యే అంచనా ఉంది; గరిష్ఠ సర్జ్ బాపట్ల, కృష్ణా, ప్రకాశం జిల్లాల్లో ఉండే అంచనా. ఇవి అంచనాలు మాత్రమే; మార్గం, తీవ్రత మారవచ్చు.",
+        "en": "According to the IMD national press release of 2:05 PM on November 1, the deep depression over the Bay of Bengal became a cyclonic storm at 11:30 AM on November 1 and was named 'Murasu'. The latest RSMC New Delhi advisory (No. 4, issued 1:30 AM on November 2) expects it to become a severe cyclonic storm and cross the south Andhra Pradesh coast between Nellore and Narsapur, close to Ongole, between 11:30 PM on November 2 and 3:30 AM on November 3, with winds of 100-110 km/h gusting to 120 km/h. During the crossing, a storm surge of 1.0-1.5 metres above the normal tide level is likely to inundate low-lying areas of south coastal A.P., with the maximum surge expected over Bapatla, Krishna and Prakasam districts. These are forecasts, and the track and strength can change."
       }
     },
     {
@@ -607,8 +613,8 @@
     }
   ],
   "edition_date": "2026-11-02",
-  "verified_at": "2026-11-02T02:42:43+05:30",
-  "status": "source_checked_independent_editorial_review_applied_audio_pending",
+  "verified_at": "2026-11-02T03:17:17+05:30",
+  "status": "source_checked_translation_review_recommended",
   "coverage": {
     "cards": 7,
     "current_affairs": 6,
@@ -617,5 +623,5 @@
     "questions": 10,
     "listen_clips": 58
   },
-  "editorial_note": "Nov2 early reviewed selection: Cyclonic Storm MURASU named by IMD at 1130 IST 01.11.2026 (national PR 1405 IST 01.11.2026) - name now official; severe cyclonic storm expected around Nov 2 morning; cross south A.P. coast between Nellore and Narsapur midnight (2330 IST) Nov 2 to early hours (0400 IST) Nov 3, winds 100-110 gusting 120 kmph; heavy-very heavy rain Coastal A.P./Rayalaseema/TG Nov 2-3, TN Nov 1-2, Chhattisgarh & south Odisha Nov 3-4; isolated extremely heavy Coastal A.P. & Yanam Nov 2-3, TG Nov 3. All track/intensity/rain framed as forecast with issue time. TG (Hyd MC PR 1400 IST 01.11.2026): Nov 2 ORANGE heavy-very heavy in 6 districts (Khammam, Nalgonda, Suryapet, Mahabubnagar, Nagarkurnool, Wanaparthy), YELLOW heavy rain in 5 (Jangaon, Yadadri Bhuvanagiri, Rangareddy, Hyderabad, Medchal-Malkajgiri); Nov 3 RED (extremely heavy) in Khammam/Suryapet/Mahabubabad, ORANGE in Bhadradri Kothagudem/Warangal/Hanamkonda, gusts 60-70 gusting 80 kmph in 7 districts; Nov 4 YELLOW heavy rain in 13 districts. Hyderabad Water Board launched green tanker service Nov 1 (37th Foundation Day); CM urged govt depts and industries to use treated water (The Hindu, Nov 1). Students: TS SSC March 2027 exam fee window Oct 30 - Nov 16, 2026 without late fee (DGE Telangana, per TOI 24.10.2026); subject-wise timetable pending (TOI expects December). World: US midterm vote Tuesday Nov 3 after final weekend (Alaska probe, California ballots/SCOTUS); France scuffles after peaceful marches (Reuters summary updated 01.11.2026 18:30 IST). Static: Murasu = Tamil for 'drum', contributed by India (TOI Oct 31); RSMC New Delhi names systems at cyclonic-storm stage, 13-country list, name retained for life (TCP 2022)."
+  "editorial_note": "Nov2 early reviewed selection: Cyclonic Storm MURASU named by IMD at 1130 IST 01.11.2026 (national PR 1405 IST 01.11.2026) - name now official; severe cyclonic storm expected around Nov 2 morning; cross south A.P. coast between Nellore and Narsapur midnight (2330 IST) Nov 2 to early hours (0400 IST) Nov 3, winds 100-110 gusting 120 kmph; heavy-very heavy rain Coastal A.P./Rayalaseema/TG Nov 2-3, TN Nov 1-2, Chhattisgarh & south Odisha Nov 3-4; isolated extremely heavy Coastal A.P. & Yanam Nov 2-3, TG Nov 3. All track/intensity/rain framed as forecast with issue time. TG (Hyd MC PR 1400 IST 01.11.2026): Nov 2 ORANGE heavy-very heavy in 6 districts (Khammam, Nalgonda, Suryapet, Mahabubnagar, Nagarkurnool, Wanaparthy), YELLOW heavy rain in 5 (Jangaon, Yadadri Bhuvanagiri, Rangareddy, Hyderabad, Medchal-Malkajgiri); Nov 3 RED (extremely heavy) in Khammam/Suryapet/Mahabubabad, ORANGE in Bhadradri Kothagudem/Warangal/Hanamkonda, gusts 60-70 gusting 80 kmph in 7 districts; Nov 4 YELLOW heavy rain in 13 districts. Hyderabad Water Board launched green tanker service Nov 1 (37th Foundation Day); CM urged govt depts and industries to use treated water (The Hindu, Nov 1). Students: TS SSC March 2027 exam fee window Oct 30 - Nov 16, 2026 without late fee (DGE Telangana, per TOI 24.10.2026); subject-wise timetable pending (TOI expects December). World: US midterm vote Tuesday Nov 3 after final weekend (Alaska probe, California ballots/SCOTUS); France scuffles after peaceful marches (Reuters summary updated 01.11.2026 18:30 IST). Static: Murasu = Tamil for 'drum', contributed by India (TOI Oct 31); RSMC New Delhi names systems at cyclonic-storm stage, 13-country list, name retained for life (TCP 2022). Rev2 (built ~03:20 IST Nov 2): card india_1 updated to the newer RSMC Tropical Cyclone Advisory No. 4 (issued 2000 UTC 01.11.2026 = 0130 IST 02.11.2026, based on 1800 UTC 01.11.2026) - crossing window narrowed to 2330 IST Nov 2 - 0330 IST Nov 3, location refined to close to Ongole, storm surge 1.0-1.5 m above astronomical tide with maximum over Bapatla/Krishna/Prakasam added. No older forecast relabeled as fresh; card still names the advisory and its issue time. Only clips gk_20261102_india_1 and gk_20261102_india_1__en change vs rev1."
 }
