@@ -1,46 +1,41 @@
 {
   "schema_version": 1,
-  "revision": "2026-11-02-rev2",
+  "revision": "2026-11-03-rev2",
   "timezone": "Asia/Kolkata",
   "sources": {
-    "imdpr01": {
-      "publisher": "India Meteorological Department, National Press Release, issued 1405 IST 01.11.2026",
-      "url": "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2001-11-2026.pdf",
-      "published_date": "2026-11-01"
+    "imdadv12": {
+      "publisher": "RSMC - Tropical Cyclones, New Delhi, Tropical Cyclone Advisory No. 12, issued 2000 UTC 02.11.2026 (0130 IST 03.11.2026), based on 1800 UTC 02.11.2026",
+      "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/TROPICAL_CYCLONE_ADVISORY_NO__12_based_on_1800_UTC_of_02_11_2026.pdf",
+      "published_date": "2026-11-03"
     },
-    "imdhyd01": {
-      "publisher": "India Meteorological Department, Meteorological Centre Hyderabad, Press Release issued 1400 IST 01.11.2026",
+    "imdpr02": {
+      "publisher": "India Meteorological Department, National Press Release, issued 1300 IST 02.11.2026",
+      "url": "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2002-11-2026.pdf",
+      "published_date": "2026-11-02"
+    },
+    "imdhyd02": {
+      "publisher": "India Meteorological Department, Meteorological Centre Hyderabad, Press Release issued 1400 IST 02.11.2026",
       "url": "https://mausam.imd.gov.in/hyderabad/mcdata/press_release.pdf",
-      "published_date": "2026-11-01"
+      "published_date": "2026-11-02"
     },
-    "hindu_tanker": {
-      "publisher": "The Hindu, 'Water Board launches green tanker services to promote idea of conservation', updated 01.11.2026 20:49 IST",
-      "url": "https://www.thehindu.com/news/cities/Hyderabad/water-board-launches-green-tanker-services-to-promote-idea-of-conservation/article71652990.ece",
-      "published_date": "2026-11-01"
+    "hindu_water": {
+      "publisher": "The Hindu, 'Water supply disruption in parts of Hyderabad on November 3 and 4', updated 02.11.2026 18:19 IST",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/water-supply-disruption-in-parts-of-hyderabad-on-november-3-and-4/article71656662.ece",
+      "published_date": "2026-11-02"
     },
-    "hindu_cm": {
-      "publisher": "The Hindu, 'Telangana CM Revanth Reddy urges govt departments, industries to use treated water', published 01.11.2026 19:21 IST",
-      "url": "https://www.thehindu.com/news/cities/Hyderabad/telangana-cm-revanth-reddy-urges-govt-departments-industries-to-use-treated-water/article71653131.ece",
-      "published_date": "2026-11-01"
+    "cna_murasu": {
+      "publisher": "Channel NewsAsia (Reuters), 'India evacuates thousands ahead of second cyclone in a week', 02.11.2026 13:16 IST",
+      "url": "https://www.channelnewsasia.com/asia/india-cyclone-murasu-evacuation-weather-6512186",
+      "published_date": "2026-11-02"
     },
-    "toi_murasu": {
-      "publisher": "The Times of India, 'Who named cyclone Murasu and why...', updated 31.10.2026 22:07 IST",
-      "url": "https://timesofindia.indiatimes.com/city/visakhapatnam/who-named-cyclone-murasu-and-why-where-will-it-make-landfall-andhra-pradesh-tamil-nadu-puducherry-kerala-on-high-alert/articleshow/135403924.cms",
+    "pib_nmmss": {
+      "publisher": "Press Information Bureau, Ministry of Education, Release ID 2330936, posted 31.10.2026 17:57 IST",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2330936",
       "published_date": "2026-10-31"
     },
-    "toi_ssc": {
-      "publisher": "The Times of India, 'TS SSC Time Table 2027: Telangana Class 10 date sheet expected in December, fee payment begins October 30', published 24.10.2026",
-      "url": "https://timesofindia.indiatimes.com/education/news/ts-ssc-time-table-2027-telangana-class-10-date-sheet-expected-in-december-fee-payment-begins-october-30/articleshow/135168025.cms",
-      "published_date": "2026-10-24"
-    },
-    "reuters01": {
-      "publisher": "Reuters World News Summary, updated 01.11.2026 18:30 IST",
-      "url": "https://www.devdiscourse.com/article/international/4000309-reuters-world-news-summary",
-      "published_date": "2026-11-01"
-    },
-    "imdadv4": {
-      "publisher": "RSMC - Tropical Cyclones, New Delhi, Tropical Cyclone Advisory No. 4, issued 2000 UTC 01.11.2026 (0130 IST 02.11.2026), based on 1800 UTC 01.11.2026",
-      "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/TROPICAL_CYCLONE_ADVISORY_NO__4_based_on_1800_UTC_of_01_11_2026.pdf",
+    "reuters02": {
+      "publisher": "Reuters World News Summary, updated 02.11.2026 18:28 IST",
+      "url": "https://www.devdiscourse.com/article/international/4000728-reuters-world-news-summary",
       "published_date": "2026-11-02"
     },
     "imdtcp": {
@@ -51,570 +46,570 @@
   },
   "cards": [
     {
-      "id": "gk_20261102_telangana_1",
+      "id": "gk_20261103_telangana_1",
       "region": "telangana",
       "type": "current_affairs",
       "source_ids": [
-        "imdhyd01",
-        "imdpr01"
+        "imdhyd02"
       ],
-      "event_date": "2026-11-01",
+      "event_date": "2026-11-02",
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261102_telangana_1",
-        "en": "gk_20261102_telangana_1__en"
+        "te": "gk_20261103_telangana_1",
+        "en": "gk_20261103_telangana_1__en"
       },
       "title": {
-        "te": "నేడు ఆరు జిల్లాల్లో అతిభారీ వర్ష ఆరెంజ్ హెచ్చరిక; రేపు మూడు జిల్లాల్లో రెడ్",
-        "en": "Orange alert for very heavy rain in six districts today; red in three tomorrow"
+        "te": "నేడు నల్గొండ, నాగర్‌కర్నూల్ జిల్లాల్లో రెడ్ అలర్ట్",
+        "en": "Red alert in Nalgonda and Nagarkurnool districts today"
       },
       "summary": {
-        "te": "నవంబర్ 1 మధ్యాహ్నం 2 గంటలకు హైదరాబాద్ వాతావరణ కేంద్రం జారీ చేసిన ప్రకటన ప్రకారం, మురసు తుఫాను ప్రభావంతో నేడు నవంబర్ 2న ఖమ్మం, నల్గొండ, సూర్యాపేట, మహబూబ్‌నగర్, నాగర్‌కర్నూల్, వనపర్తి జిల్లాల్లో ఒకోచోట భారీ నుంచి అతిభారీ వర్షం పడే అంచనాతో ఆరెంజ్ హెచ్చరిక ఉంది. జనగామ, యాదాద్రి భువనగిరి, రంగారెడ్డి, హైదరాబాద్, మేడ్చల్-మల్కాజ్‌గిరి జిల్లాల్లో భారీ వర్ష యెల్లో హెచ్చరిక ఉంది. రేపు నవంబర్ 3న ఖమ్మం, సూర్యాపేట, మహబూబాబాద్ జిల్లాల్లో అత్యంత భారీ వర్ష అంచనాతో రెడ్ హెచ్చరిక, భద్రాద్రి కొత్తగూడెం, వరంగల్, హనుమకొండ జిల్లాల్లో ఆరెంజ్ హెచ్చరిక ఉన్నాయి; భద్రాద్రి కొత్తగూడెం, ఖమ్మం, నల్గొండ, సూర్యాపేట, మహబూబాబాద్, వరంగల్, హనుమకొండ జిల్లాల్లో గంటకు 60-70 కి.మీ. (ఈదురుతో 80 కి.మీ.) గాలులు వీయే అంచనా ఉంది. నవంబర్ 4న 13 జిల్లాల్లో భారీ వర్ష యెల్లో హెచ్చరిక ఉంది. ఇవి అంచనాలు మాత్రమే; హెచ్చరిక స్థాయిలు రోజుకు రోజు మారవచ్చు.",
-        "en": "According to the Hyderabad Met Centre release issued at 2 PM on November 1, the Murasu cyclone's influence puts six districts - Khammam, Nalgonda, Suryapet, Mahabubnagar, Nagarkurnool and Wanaparthy - under an orange warning today, November 2, with heavy to very heavy rain likely at isolated places. A yellow warning for heavy rain covers Jangaon, Yadadri Bhuvanagiri, Rangareddy, Hyderabad and Medchal-Malkajgiri. Tomorrow, November 3, Khammam, Suryapet and Mahabubabad are under a red warning with isolated extremely heavy rain expected, and Bhadradri Kothagudem, Warangal and Hanamkonda under orange; gusty winds of 60-70 km/h gusting to 80 km/h are likely in seven districts. On November 4, a yellow heavy-rain warning covers 13 districts. These are forecasts, and warning levels can change day to day."
+        "te": "నవంబర్ 2 మధ్యాహ్నం 2 గంటలకు హైదరాబాద్ వాతావరణ కేంద్రం జారీ చేసిన తాజా ప్రకటన ప్రకారం, మురసు తుఫాను ప్రభావంతో నేడు నవంబర్ 3న నల్గొండ, నాగర్‌కర్నూల్ జిల్లాల్లో భారీ నుంచి అతిభారీ, ఒకోచోట అత్యంత భారీ వర్ష అంచనాతో రెడ్ హెచ్చరిక ఉంది. సూర్యాపేట, మహబూబ్‌నగర్, వనపర్తి జిల్లాల్లో ఆరెంజ్ హెచ్చరిక; ములుగు, భద్రాద్రి కొత్తగూడెం, ఖమ్మం, మహబూబాబాద్, వరంగల్, హనుమకొండ, జనగామ, యాదాద్రి భువనగిరి, రంగారెడ్డి, వికారాబాద్, నారాయణపేట, జోగులాంబ గద్వాల్ జిల్లాల్లో భారీ వర్ష యెల్లో హెచ్చరిక ఉన్నాయి. నల్గొండ, సూర్యాపేట, మహబూబ్‌నగర్, నాగర్‌కర్నూల్, వనపర్తి జిల్లాల్లో గంటకు 50-60 కి.మీ. (ఈదురుతో 70 కి.మీ.) గాలులు వీయే అంచనా ఉంది. నవంబర్ 4న ఆరు దక్షిణ జిల్లాల్లో యెల్లో హెచ్చరిక ఉంది. ఇవి అంచనాలు మాత్రమే; హెచ్చరికలు రోజుకు రోజు మారుతున్నాయి - నిన్నటి ప్రకటనలో ఈరోజు రెడ్ ఇతర జిల్లాల్లో ఉండేది.",
+        "en": "According to the Hyderabad Met Centre's latest release, issued at 2 PM on November 2, the Murasu cyclone's influence puts Nalgonda and Nagarkurnool districts under a red warning today, November 3, with heavy to very heavy and isolated extremely heavy rain expected. Suryapet, Mahabubnagar and Wanaparthy are under orange; a yellow heavy-rain warning covers Mulugu, Bhadradri Kothagudem, Khammam, Mahabubabad, Warangal, Hanumakonda, Jangaon, Yadadri Bhuvanagiri, Rangareddy, Vikarabad, Narayanpet and Jogulamba Gadwal. Gusty winds of 50-60 km/h gusting to 70 km/h are likely in five districts. A yellow warning continues in six southern districts on November 4. These are forecasts and the warnings are changing daily - yesterday's release had put different districts under today's red."
       }
     },
     {
-      "id": "gk_20261102_telangana_2",
+      "id": "gk_20261103_telangana_2",
       "region": "telangana",
       "type": "current_affairs",
       "source_ids": [
-        "hindu_tanker",
-        "hindu_cm"
+        "hindu_water"
+      ],
+      "event_date": "2026-11-02",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261103_telangana_2",
+        "en": "gk_20261103_telangana_2__en"
+      },
+      "title": {
+        "te": "హైదరాబాద్ కొన్ని ప్రాంతాల్లో నేడు, రేపు నీటి సరఫరా అంతరాయం",
+        "en": "Water supply disrupted in parts of Hyderabad today and tomorrow"
+      },
+      "summary": {
+        "te": "ది హిందూ నవంబర్ 2 నివేదిక ప్రకారం, గాంధీపేట్ కండక్ట్ పైప్లైన్ మరమ్మతుల కోసం నవంబర్ 3 ఉదయం 6 గంటల నుంచి నవంబర్ 4 సాయంత్రం 6 గంటల వరకు హైదరాబాద్ పలు ప్రాంతాల్లో తాగునీటి సరఫరా పాక్షికంగా అంతరాయం కలగనుంది. సబ్జా కాలనీ, టోలీచౌకీ, మాణికొండ వద్ద 20 ఎంజీడీ సామర్థ్యం ఉన్న ఆ పైప్లైన్‌లోని లీకేజీలను హైదరాబాద్ వాటర్ బోర్డు సరిచేయనుంది. రెడ్ హిల్స్, నాంపల్లి, మల్లేపల్లి, సీతారాంబాగ్, కర్వాన్, గోషామహల్, చింతల్ బస్తీ, విజయనగర్ కాలనీ, ఆసిఫ్ నగర్, అహమ్మద్ నగర్, దొమలగూడ, గాంధీనగర్ మొదలైన ప్రాంతాలు ప్రభావితమవుతాయి. తుఫాను వర్షాల నేపథ్యంలో నీటి నిల్వ, వినియోగంపై ప్రజలు శ్రద్ధ వహించాలి.",
+        "en": "According to The Hindu's November 2 report, drinking water supply will be partially disrupted in several parts of Hyderabad from 6 AM on Tuesday, November 3, till 6 PM on Wednesday, November 4, for repair works on the Gandipet conduit. The Hyderabad Water Board will fix leaks in the 20 MGD-capacity conduit near Sabza Colony, Tolichowki and Manikonda. Affected areas include Red Hills, Nampally, Mallepally, Sitarambagh, Karwan, Goshamahal, Chintal Basti, Vijayanagar Colony, Asif Nagar, Ahmed Nagar, Domalguda and Gandhinagar. With cyclone rains also expected, residents should store and use water carefully."
+      }
+    },
+    {
+      "id": "gk_20261103_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "imdadv12",
+        "imdpr02"
+      ],
+      "event_date": "2026-11-03",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261103_india_1",
+        "en": "gk_20261103_india_1__en"
+      },
+      "title": {
+        "te": "మురసు తీరం దాటే ప్రక్రియ అర్థరాత్రి 1 గంటలకు ప్రారంభం",
+        "en": "Murasu's landfall process began at 1 AM tonight"
+      },
+      "summary": {
+        "te": "నవంబర్ 3 తెల్లవారు 1:30కు ఆర్ఎస్ఎమ్సీ న్యూఢిల్లీ జారీ చేసిన తాజా సలహా (అడ్వైజరీ నం. 12) ప్రకారం, తీవ్ర తుఫాను మురసు తీరం దాటే (ల్యాండ్‌ఫాల్) ప్రక్రియ నవంబర్ 3 తెల్లవారు 1 గంటలకు ప్రారంభమైంది; నెల్లూరు - నర్సాపూర్ మధ్య ఒంగోలు దగ్గరగా ఉదయం 3:30 గంటల సమయంలో గంటకు 100-110 కి.మీ. (ఈదురుతో 120 కి.మీ.) గాలులతో తీరాన్ని దాటే అంచనా ఉంది. నవంబర్ 2 తెల్లవారు 2:30కి ఇది తీవ్ర తుఫానుగా మారిందని జాతీయ ప్రకటన తెలిపింది. తీరం దాటిన తరువాత ఇది క్రమంగా బలహీనపడి నవంబర్ 4 నాటికి అల్పపీడనం అయ్యే అంచనా. సాధారణ జ్వార స్థాయి కంటే 1.0-1.5 మీటర్ల గరిష్ఠ స్టార్మ్ సర్జ్ బాపట్ల, కృష్ణా, ప్రకాశం జిల్లాల్లో ఉండే అంచనా. ఇవి అంచనాలు మాత్రమే.",
+        "en": "According to the latest RSMC New Delhi advisory (No. 12, issued 1:30 AM on November 3), the landfall process of severe cyclonic storm Murasu commenced at 1 AM on November 3; it is expected to cross the coast between Nellore and Narsapur, close to Ongole, around 3:30 AM with winds of 100-110 km/h gusting to 120 km/h. The national release says it had strengthened into a severe cyclonic storm at 2:30 AM on November 2. After crossing, it is expected to weaken step by step into a depression by November 4. A maximum storm surge of 1.0-1.5 metres above the normal tide level is expected over Bapatla, Krishna and Prakasam districts. These are forecasts."
+      }
+    },
+    {
+      "id": "gk_20261103_india_2",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "cna_murasu",
+        "imdpr02"
+      ],
+      "event_date": "2026-11-02",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261103_india_2",
+        "en": "gk_20261103_india_2__en"
+      },
+      "title": {
+        "te": "వారంలో రెండో తుఫాను - ఏపీలో 30 వేల మందిని తరలించే ఏర్పాట్లు",
+        "en": "Second cyclone in a week - Andhra plans to move 30,000 people"
+      },
+      "summary": {
+        "te": "రాయిటర్స్ నివేదిక (నవంబర్ 2) ప్రకారం, మురసు తుఫాను నేపథ్యంలో ఆంధ్రప్రదేశ్ అధికారులు సోమవారం (నవంబర్ 2) తీరప్రాంతాల నుంచి ప్రజలను తరలించడం ప్రారంభించారు; సుమారు 2,000 మందిని తరలించారని, మొత్తం దాదాపు 30,000 మందిని తరలించే ప్రణాళిక ఉందని ఏపీ స్టేట్ డిజాస్టర్ మేనేజ్‌మెంట్ అతారిటీ ఎండీ ప్రఖర్ జైన్ చెప్పారు. వారం క్రితం అర్నబ్ తుఫాను దెబ్బతిన్న ప్రాంతానికే మరో తుఫాను రావడం ప్రత్యేకత. ఐఎండీ జాతీయ ప్రకటన (నవంబర్ 2) ప్రకారం, నవంబర్ 2, 3 తేదీల్లో కోస్తా ఏపీ, యానాం, రాయలసీమలోనూ, నవంబర్ 3న తెలంగాణలోనూ ఒకోచోట అత్యంత భారీ వర్ష అంచనా ఉంది.",
+        "en": "According to a Reuters report (November 2), Andhra Pradesh authorities began moving people from coastal areas on Monday, November 2, ahead of cyclone Murasu; about 2,000 people had been evacuated and there was a plan to move around 30,000 in all, said Prakhar Jain, managing director of the A.P. State Disaster Management Authority. It is the second cyclone in a week for a region still recovering from cyclone Arnab. The IMD national release (November 2) forecasts isolated extremely heavy rain over coastal A.P., Yanam and Rayalaseema on November 2 and 3, and over Telangana on November 3."
+      }
+    },
+    {
+      "id": "gk_20261103_india_3",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "pib_nmmss"
       ],
       "event_date": "2026-11-01",
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261102_telangana_2",
-        "en": "gk_20261102_telangana_2__en"
+        "te": "gk_20261103_india_3",
+        "en": "gk_20261103_india_3__en"
       },
       "title": {
-        "te": "హైదరాబాద్‌లో 'గ్రీన్ ట్యాంకర్' సేవలు - తాగునీరు కాదన్న పనులకు శుద్ధిచేసిన నీరే",
-        "en": "Hyderabad launches 'green tanker' services - treated water for non-drinking uses"
+        "te": "ఎన్ఎంఎంఎస్ఎస్ స్కాలర్‌షిప్ దరఖాస్తు గడువు నవంబర్ 15కు పొడిగింపు",
+        "en": "NMMSS scholarship application deadline extended to November 15"
       },
       "summary": {
-        "te": "ది హిందూ నవంబర్ 1 నివేదిక ప్రకారం, హైదరాబాద్ మెట్రో వాటర్ సప్లై అండ్ సీవరేజ్ బోర్డు ఆదివారం (నవంబర్ 1) నగరవ్యాప్తంగా గ్రీన్ వాటర్ ట్యాంకర్ కార్యక్రమాన్ని ప్రారంభించింది; ఇది బోర్డు 37వ ఆవిర్భావ దినోత్సవం రోజే జరిగింది. నమోదైన మురుగునీటి శుద్ధి కేంద్రాల (ఎస్‌టీపీ) నుంచి శుద్ధిచేసిన నీటిని నిర్మాణాలు, తోటల పెంపకం, పార్కుల నిర్వహణ, పరిశ్రమల వంటి తాగునీరు అవసరం లేని పనులకు సరఫరా చేయడమే లక్ష్యం. ముఖ్యమంత్రి రేవంత్ రెడ్డి ఆదేశాలతో ఈ చర్య మొదలైంది; 'డయల్ గ్రీన్ ట్యాంకర్' చర్యను ఆయన స్వాగతించి, ప్రభుత్వ శాఖలు, పరిశ్రమలు శుద్ధిచేసిన నీటిని వాడాలని కోరారు - అప్పుడే తాగునీరు ఇళ్ల అవసరాలకు మిగులుతుందని చెప్పారు.",
-        "en": "According to The Hindu's November 1 report, the Hyderabad Metropolitan Water Supply and Sewerage Board launched the green water tanker programme across the city on Sunday, November 1, which was also the Board's 37th Foundation Day. The aim is to supply treated wastewater from registered sewage treatment plants (STPs) for uses that do not need drinking water, such as construction, landscaping, gardening, park maintenance and industry. The initiative began on Chief Minister A. Revanth Reddy's directive; welcoming the 'Dial Green Tanker' effort, he urged government departments and industries to use treated water, so that drinking water is preserved for household needs."
+        "te": "విద్యా మంత్రిత్వ శాఖ అక్టోబర్ 31 అధికారిక ప్రకటన (పీఐబీ) ప్రకారం, నేషనల్ మీన్స్-కమ్-మెరిట్ స్కాలర్‌షిప్ పథకం (ఎన్ఎంఎంఎస్ఎస్) 2026-27 దరఖాస్తు గడువు నవంబర్ 15, 2026కు పొడిగించారు. దరఖాస్తుకు ముందు నేషనల్ స్కాలర్‌షిప్ పోర్టల్ (ఎన్ఎస్పీ) లో వన్-టైమ్ రిజిస్ట్రేషన్ (ఓటీఆర్) పూర్తి చేయడం తప్పనిసరి. ఇప్పటికే దరఖాస్తు చేసినవారు పాఠశాల స్థాయిలో (ఎల్1) నవంబర్ 30లోపు, జిల్లా స్థాయిలో (ఎల్2) డిసెంబర్ 15లోపు ధృవీకరణ జరగాలి. అక్టోబర్ 30 నాటికి 90,483 కొత్త, 1,99,531 రెన్యువల్ దరఖాస్తులు వచ్చాయి. ఏడో తరగతిలో కనీసం 55% మార్కులు (ఎస్సీ/ఎస్టీలకు 50%), కుటుంబ ఆదాయం ఏటా ₹3.5 లక్షల లోపు ఉన్న విద్యార్థులు అర్హులు; ఎంపికైన తొమ్మిదో తరగతి విద్యార్థికి ఏటా ₹12,000 నేరుగా బ్యాంక్ ఖాతాలో జమవుతుంది.",
+        "en": "According to the Ministry of Education's official release (PIB, October 31), the last date for applications under the National Means-cum-Merit Scholarship Scheme (NMMSS) for 2026-27 has been extended to November 15, 2026. Students must complete One-Time Registration (OTR) on the National Scholarship Portal before applying. Those who have already applied should ensure their application is verified at institute level (L1) by November 30 and at district level (L2) by December 15. As of October 30, 90,483 fresh and 1,99,531 renewal applications had been submitted. Students with at least 55 percent marks in Class 7 (50 percent for SC/ST) and family income up to Rs 3.5 lakh a year are eligible; a selected Class 9 student receives Rs 12,000 a year directly in the bank account."
       }
     },
     {
-      "id": "gk_20261102_india_1",
-      "region": "india",
-      "type": "current_affairs",
-      "source_ids": [
-        "imdpr01",
-        "imdadv4"
-      ],
-      "event_date": "2026-11-01",
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261102_india_1",
-        "en": "gk_20261102_india_1__en"
-      },
-      "title": {
-        "te": "తుఫానుగా మారిన బంగాళాఖాత వ్యవస్థకు 'మురసు' పేరు",
-        "en": "Bay of Bengal system becomes Cyclonic Storm Murasu"
-      },
-      "summary": {
-        "te": "నవంబర్ 1 మధ్యాహ్నం 2:05కు భారత వాతావరణ శాఖ జారీ చేసిన జాతీయ ప్రకటన ప్రకారం, బంగాళాఖాతంలోని తీవ్ర అల్పపీడనం నవంబర్ 1 ఉదయం 11:30కి తుఫానుగా మారి 'మురసు' పేరు పడింది. నవంబర్ 2 తెల్లవారు 1:30కు ఆర్ఎస్ఎమ్సీ న్యూఢిల్లీ జారీ చేసిన తాజా సలహా (అడ్వైజరీ నం. 4) ప్రకారం, అది తీవ్ర తుఫానుగా మారి, నవంబర్ 2 రాత్రి 11:30 నుంచి నవంబర్ 3 తెల్లవారుఝామున 3:30 మధ్య నెల్లూరు - నర్సాపూర్ మధ్య ఒంగోలు దగ్గరగా దక్షిణ ఏపీ తీరాన్ని గంటకు 100-110 కి.మీ. (ఈదురుతో 120 కి.మీ.) గాలులతో దాటే అంచనా ఉంది. తీరం దాటే సమయంలో సాధారణ జ్వార స్థాయి కంటే 1.0-1.5 మీటర్ల ఎత్తుకు స్టార్మ్ సర్జ్ వచ్చి దక్షిణ కోస్తా ఏపీలోని లోతట్టు ప్రాంతాలు ముంపుకు గురయ్యే అంచనా ఉంది; గరిష్ఠ సర్జ్ బాపట్ల, కృష్ణా, ప్రకాశం జిల్లాల్లో ఉండే అంచనా. ఇవి అంచనాలు మాత్రమే; మార్గం, తీవ్రత మారవచ్చు.",
-        "en": "According to the IMD national press release of 2:05 PM on November 1, the deep depression over the Bay of Bengal became a cyclonic storm at 11:30 AM on November 1 and was named 'Murasu'. The latest RSMC New Delhi advisory (No. 4, issued 1:30 AM on November 2) expects it to become a severe cyclonic storm and cross the south Andhra Pradesh coast between Nellore and Narsapur, close to Ongole, between 11:30 PM on November 2 and 3:30 AM on November 3, with winds of 100-110 km/h gusting to 120 km/h. During the crossing, a storm surge of 1.0-1.5 metres above the normal tide level is likely to inundate low-lying areas of south coastal A.P., with the maximum surge expected over Bapatla, Krishna and Prakasam districts. These are forecasts, and the track and strength can change."
-      }
-    },
-    {
-      "id": "gk_20261102_india_2",
-      "region": "india",
-      "type": "current_affairs",
-      "source_ids": [
-        "imdpr01"
-      ],
-      "event_date": "2026-11-01",
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261102_india_2",
-        "en": "gk_20261102_india_2__en"
-      },
-      "title": {
-        "te": "మురసు ప్రభావం: నేడు, రేపు కోస్తా ఏపీ, తెలంగాణలో భారీ నుంచి అతిభారీ వర్షం",
-        "en": "Murasu's rain: heavy to very heavy rain in coastal A.P., Telangana today and tomorrow"
-      },
-      "summary": {
-        "te": "అదే జాతీయ ప్రకటన ప్రకారం, నవంబర్ 2, 3 తేదీల్లో కోస్తా ఆంధ్రప్రదేశ్, రాయలసీమ, తెలంగాణలో భారీ నుంచి అతిభారీ వర్షం; నవంబర్ 1, 2 తేదీల్లో తమిళనాడులో; నవంబర్ 3, 4 తేదీల్లో ఛత్తీస్‌గఢ్, దక్షిణ ఒడిశాలో భారీ నుంచి అతిభారీ వర్షం పడే అంచనా ఉంది. నవంబర్ 2, 3 తేదీల్లో కోస్తా ఆంధ్రప్రదేశ్, యానాంలోనూ, నవంబర్ 3న తెలంగాణలోనూ ఒకోచోట అత్యంత భారీ వర్షం పడే అంచనా ఉంది. నవంబర్ 2, 3 తేదీల్లో కోస్తా ఏపీ, యానాంలో గంటకు 80-90 కి.మీ. ఈదురుగాలులు ఉండే అంచనా. అలాగే, అర్నబ్ తుఫాను అవశేషం (అల్పపీడనం) నవంబర్ 1 ఉదయం 5:30 నాటికి బలహీనపడిందని ప్రకటన తెలిపింది.",
-        "en": "The same national release says heavy to very heavy rain is likely over coastal Andhra Pradesh, Rayalaseema and Telangana on November 2 and 3; over Tamil Nadu on November 1 and 2; and over Chhattisgarh and south Odisha on November 3 and 4. Isolated extremely heavy rain is likely over coastal Andhra Pradesh and Yanam on November 2 and 3, and over Telangana on November 3. Gusty winds of 80-90 km/h are likely over coastal A.P. and Yanam on November 2 and 3. The release also says the remnant of cyclone Arnab became less marked over southeast Uttar Pradesh at 5:30 AM on November 1."
-      }
-    },
-    {
-      "id": "gk_20261102_india_3",
-      "region": "india",
-      "type": "current_affairs",
-      "source_ids": [
-        "toi_ssc"
-      ],
-      "event_date": "2026-10-30",
-      "age_band": "class5-10",
-      "audio_ids": {
-        "te": "gk_20261102_india_3",
-        "en": "gk_20261102_india_3__en"
-      },
-      "title": {
-        "te": "టీఎస్ ఎస్ఎస్సీ 2027: పరీక్ష ఫీజు చెల్లింపు నవంబర్ 16లోపు",
-        "en": "TS SSC 2027: exam fee window closes November 16"
-      },
-      "summary": {
-        "te": "టైమ్స్ ఆఫ్ ఇండియా నివేదిక (అక్టోబర్ 24) ప్రకారం, మార్చి 2027లో జరిగే ఎస్ఎస్సీ (పదో తరగతి) పబ్లిక్ పరీక్షల ఫీజు షెడ్యూల్‌ను తెలంగాణ ప్రభుత్వ పరీక్షల దర్శకత్వం (డైరెక్టరేట్ ఆఫ్ గవర్నమెంట్ ఎగ్జామినేషన్స్) ప్రకటించింది. అదనపు చెల్లింపు (లేట్ ఫీజు) లేకుండా అక్టోబర్ 30 నుంచి నవంబర్ 16, 2026 వరకు ఫీజు చెల్లించవచ్చు. సబ్జెక్ట్ వారీగా పరీక్షా తేదీల టైమ్ టేబుల్ ఇంకా విడుదల కాలేదు; అది డిసెంబర్‌లో వచ్చే అవకాశం ఉందని నివేదిక అంచనా. విద్యార్థులు తమ పాఠశాలల్లో ఫీజు చెల్లింపు విధానం, గడువులను ధృవీకరించుకోవాలని, బోర్డు అధికారిక ప్రకటనే తుది ప్రమాణమని నివేదిక సూచిస్తోంది.",
-        "en": "According to a Times of India report (October 24), the Directorate of Government Examinations, Telangana, has announced the examination fee schedule for the SSC (Class 10) Public Examinations to be held in March 2027. Students can pay the fee without a late charge from October 30 to November 16, 2026. The subject-wise timetable is yet to be released, and the report expects it in December. Students should confirm the fee procedure and deadlines with their schools, and treat the board's official notification as final."
-      }
-    },
-    {
-      "id": "gk_20261102_world_1",
+      "id": "gk_20261103_world_1",
       "region": "world",
       "type": "current_affairs",
       "source_ids": [
-        "reuters01"
+        "reuters02"
       ],
-      "event_date": "2026-11-01",
+      "event_date": "2026-11-02",
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261102_world_1",
-        "en": "gk_20261102_world_1__en"
+        "te": "gk_20261103_world_1",
+        "en": "gk_20261103_world_1__en"
       },
       "title": {
-        "te": "అమెరికా మధ్యంతర ఎన్నికలు రేపు - ప్రచారం చివరి వారాంతం ముగిసింది",
-        "en": "US midterm elections tomorrow - final campaign weekend ends"
+        "te": "నేడు అమెరికా మధ్యంతర ఎన్నికల ఓటింగ్ - సెనేట్ పట్టు ఎవరిదో అసలు పోటీ",
+        "en": "US votes today - the real battle is for Senate control"
       },
       "summary": {
-        "te": "నవంబర్ 1 సాయంత్రం 6:30కు తాజాగా ఉన్న రాయిటర్స్ ప్రపంచ వార్తా సారాంశం ప్రకారం, అమెరికా కాంగ్రెస్ మధ్యంతర ఎన్నికల ప్రచారం చివరి వారాంతంతో ముగిసింది; మంగళవారం (నవంబర్ 3) ఓటింగ్ జరుగుతుంది. అలాస్కా సెనేట్ రేసుపై క్రిమినల్ దర్యాప్తు ప్రారంభించిన అమెరికా ప్రభుత్వం, కాలిఫోర్నియా తపాలా ఓట్ల వివాదాన్ని సుప్రీంకోర్టుకు తీసుకెళ్లే అవకాశం ఉందని చెప్పింది. ఫ్రాన్స్‌లో, జీవన వ్యయంపై శనివారం జరిగిన ప్రదర్శనలు శాంతియుతంగా ముగిసినా, సాయంత్రం పారిస్ తదితర నగరాల్లో చిన్న గొడవలు జరిగాయి; హాలోవీన్ రాత్రి ఉద్రిక్తతలపై పోలీసులు అప్రమత్తంగా ఉన్నారు.",
-        "en": "According to the Reuters world news summary updated at 6:30 PM on November 1, the campaign for the US midterm elections ended its final weekend, with voting on Tuesday, November 3, to decide control of Congress. The US administration opened a criminal investigation into Alaska's pivotal Senate race and said it would likely take its fight over thousands of California mail-in ballots to the Supreme Court. In France, scuffles broke out in Paris and other cities on Saturday evening after nationwide marches over living costs ended mostly peacefully, and police stayed alert for Halloween-night violence."
+        "te": "నవంబర్ 2 సాయంత్రం 6:28కు తాజాగా ఉన్న రాయిటర్స్ ప్రపంచ వార్తా సారాంశం ప్రకారం, నేడు (మంగళవారం, నవంబర్ 3) అమెరికా మధ్యంతర ఎన్నికల ఓటింగ్ జరుగుతోంది. సెనేట్‌లో ప్రస్తుతం రిపబ్లికన్లకు 53-47 మెజారిటీ ఉంది; పట్టు మార్చుకోవాలంటే డెమోక్రెట్లు కనీసం 4 సీట్లు కూడా గెలవాలి. ధరల పెరుగుదల అసంతృప్తి నేపథ్యంలో గతంలో రిపబ్లికన్ బలమైన రాష్ట్రాల్లోనూ పోటీ తీవ్రమైంది. మరో వార్త: ఫ్రాన్స్ తరువాత లక్జెంబర్గ్, స్వీడన్ సూపర్ మార్కెట్ల ఫ్రిజ్ వ్యవస్థలపైనా సైబర్ దాడులు జరిగాయి.",
+        "en": "According to the Reuters world news summary updated at 6:28 PM on November 2, the US midterm election vote takes place today, Tuesday, November 3. Republicans currently hold the Senate 53-47, and Democrats need a net gain of at least four seats to take control; with voter discontent over rising prices, races have become competitive even in once-solidly Republican states. In other news, after a similar incident in France, hackers hit the refrigeration systems of supermarkets in Luxembourg and Sweden."
       }
     },
     {
-      "id": "gk_20261102_static_1",
+      "id": "gk_20261103_static_1",
       "region": "static",
       "type": "static_gk",
       "source_ids": [
-        "toi_murasu",
-        "imdtcp"
+        "imdtcp",
+        "imdadv12"
       ],
       "event_date": null,
       "age_band": "class5-10",
       "audio_ids": {
-        "te": "gk_20261102_static_1",
-        "en": "gk_20261102_static_1__en"
+        "te": "gk_20261103_static_1",
+        "en": "gk_20261103_static_1__en"
       },
       "title": {
-        "te": "'మురసు' అంటే డ్రమ్ - తుఫానులకు పేర్లు ఎలా పడతాయి?",
-        "en": "'Murasu' means drum - how cyclones get their names"
+        "te": "'తీవ్ర తుఫాను' అంటే ఏమిటి? - గాలి వేగం ఆధారిత వర్గాలు",
+        "en": "What makes a cyclone 'severe'? - classes by wind speed"
       },
       "summary": {
-        "te": "టైమ్స్ ఆఫ్ ఇండియా (అక్టోబర్ 31) నివేదిక ప్రకారం, ఉత్తర హిందూ మహాసముద్రంపై తుఫానులకు పెట్టే పేర్ల జాబితాకు 'మురసు' అనే పేరును భారతదేశం అందించింది; తమిళంలో దాని అర్థం 'డ్రమ్' (పెద్ద భేరీ). భారత వాతావరణ శాఖ ప్రమాణ పద్ధతి (టీసీపీ 2022) ప్రకారం, వ్యవస్థ సైక్లోనిక్ స్టార్మ్ స్థాయికి (గంటకు 62-88 కి.మీ. గాలులు) చేరినప్పుడే న్యూఢిల్లీ ప్రాంతీయ ప్రత్యేక వాతావరణ కేంద్రం (ఆర్ఎస్ఎమ్సీ) పేరు పెడుతుంది; పేర్లు 13 సభ్య దేశాలు అందించిన జాబితా నుంచి వస్తాయి. పేరు పడిన వ్యవస్థ బలహీనపడినా ఆ పేరే కొనసాగుతుంది - అందుకే గత బులెటిన్లలో 'అర్నబ్ అవశేషం' అని చదివాం.",
-        "en": "According to a Times of India report (October 31), the name 'Murasu' was contributed by India to the list of names used for tropical cyclones over the North Indian Ocean; it means 'drum' in Tamil. Under the India Meteorological Department's standard procedure (TCP 2022), the Regional Specialised Meteorological Centre in New Delhi names a system only once it reaches cyclonic storm strength (winds of 62-88 km/h), and the names come from a list contributed by 13 member countries. A named system keeps its name for its entire lifetime - which is why recent bulletins still spoke of the 'remnant of Arnab'."
+        "te": "భారత వాతావరణ శాఖ ప్రమాణ పద్ధతి (టీసీపీ 2022) ప్రకారం, తుఫాను వర్గాలు గాలి వేగం ఆధారంగానే నిర్ణయిస్తారు: గంటకు 62-88 కి.మీ. ఉంటే సైక్లోనిక్ స్టార్మ్, 89-118 ఉంటే సీవియర్ (తీవ్ర) సైక్లోనిక్ స్టార్మ్, 119-221 ఉంటే వెరీ సీవియర్, 222 కి.మీ. లేదా అంతకంటే ఎక్కువ ఉంటే సూపర్ సైక్లోనిక్ స్టార్మ్. గంటకు 100-110 కి.మీ. గాలులతో మురసు ప్రస్తుతం 'సీవియర్' వర్గంలో ఉంది. ఆర్ఎస్ఎమ్సీ సలహా (నవంబర్ 3 తెల్లవారు 1:30) ప్రకారం, తీరం దాటిన తరువాత ఇది క్రమంగా సైక్లోనిక్ స్టార్మ్, తీవ్ర అల్పపీడనం, అల్పపీడనం దశలకు బలహీనపడే అంచనా. వర్గం తగ్గినా వర్ష ప్రమాదం కొనసాగవచ్చు.",
+        "en": "Under the India Meteorological Department's standard procedure (TCP 2022), cyclone classes are decided by wind speed: 62-88 km/h is a cyclonic storm, 89-118 km/h a severe cyclonic storm, 119-221 km/h a very severe cyclonic storm, and 222 km/h or more a super cyclonic storm. With winds of 100-110 km/h, Murasu is currently in the 'severe' class. The RSMC advisory (issued 1:30 AM on November 3) expects it to weaken step by step - cyclonic storm, then deep depression, then depression - after crossing the coast. Even as the class falls, the rain danger can continue."
       }
     }
   ],
   "readings": [
     {
-      "id": "gk_20261102_reading_1",
+      "id": "gk_20261103_reading_1",
       "age_band": "class5-7",
       "audio_ids": {
-        "te": "gk_20261102_reading_1",
-        "en": "gk_20261102_reading_1__en"
+        "te": "gk_20261103_reading_1",
+        "en": "gk_20261103_reading_1__en"
       },
       "source_ids": [
-        "imdhyd01"
+        "imdhyd02",
+        "imdadv12"
       ],
       "title": {
-        "te": "యెల్లో, ఆరెంజ్, రెడ్ - వర్ష హెచ్చరికల్లో రంగుల అర్థం",
-        "en": "Yellow, orange, red - what the rain warning colours mean"
+        "te": "తుఫాను తీరం దాటుతున్నప్పుడు మనం ఏం చేయాలి?",
+        "en": "What should we do while a cyclone is crossing the coast?"
       },
       "passage": {
-        "te": "వర్ష హెచ్చరికలను వాతావరణ శాఖ మూడు రంగుల్లో ఇస్తుంది. యెల్లో వచ్చినప్పుడు భారీ వర్షం పడే అవకాశం ఉందని అర్థం - తాజా వాతావరణ సమాచారాన్ని గమనిస్తూ ఉండాలి. ఆరెంజ్ వచ్చినప్పుడు భారీ నుంచి అతిభారీ వర్షం పడే అంచనా ఉందని అర్థం - జాగ్రత్తలతో సిద్ధంగా ఉండాలి. రెడ్ వచ్చినప్పుడు అత్యంత భారీ వర్ష స్థాయి కూడా ఉండే అతి తీవ్రమైన హెచ్చరిక - వెంటనే జాగ్రత్తలు పాటించాలి. ఉదాహరణకు, ఈ వారం హైదరాబాద్ వాతావరణ కేంద్రం నవంబర్ 2న ఆరు జిల్లాల్లో ఆరెంజ్, నవంబర్ 3న మూడు జిల్లాల్లో రెడ్ హెచ్చరిక ఇచ్చింది. రంగు ఏదైనా కొన్ని నియమాలు ఉంటాయి: వరద నీటిలోకి, మురుగు కాలువల్లోకి అడుగుపెట్టకూడదు; మెరుపుల వేళ చెట్ల కింద, ఎత్తైన విద్యుత్ స్తంభాల దగ్గర నిలబడకూడదు; పెద్దలు, అధికారులు చెప్పినట్లు పాటించాలి. హెచ్చరిక అంటే భయపడాలని కాదు - జాగ్రత్తగా ఉండాలని.",
-        "en": "The weather department gives rain warnings in three colours. Yellow means heavy rain is possible - keep watching the latest weather news. Orange means heavy to very heavy rain is expected - be prepared and careful. Red is the most serious warning, with extremely heavy rain also expected - follow safety steps at once. For example, this week the Hyderabad Met Centre issued an orange warning for six districts on November 2 and a red warning for three districts on November 3. Whatever the colour, some rules stay the same: never step into floodwater or open drains; do not stand under trees or near tall electric poles during lightning; and do what parents and officials say. A warning does not mean we should be scared - it means we should be careful."
+        "te": "తుఫాను తీరానికి చేరుకుంటున్నప్పుడు గాలులు బలంగా, వర్షం కురుస్తూ ఉంటాయి. అలాంటప్పుడు ఇంట్లోనే, కిటికీలకు దూరంగా, గట్టి గోడల పక్క ఉండాలి. గాలులు కొద్దిసేపు అకస్మాత్తుగా తగ్గినట్టు అనిపించినా వెంటనే బయటకు వెళ్లకూడదు - తుఫాను కేంద్రం (కన్ను) దాటిపోతున్నప్పుడు అలా అనిపించవచ్చు, కొద్దిసేపటికే మళ్లీ తీవ్ర గాలులు మరో వైపు నుంచి వస్తాయి. అధికారులు తరలించమంటే తప్పక తరలాలి; వరద నీటిలోకి, మురుగు కాలువల్లోకి అడుగుపెట్టకూడదు; మెరుపుల వేళ చెట్ల కింద, విద్యుత్ స్తంభాల దగ్గర నిలబడకూడదు. టార్చ్, నీరు, ఎమర్జెన్సీ నంబర్లు సిద్ధంగా ఉంచుకోవాలి. అధికారిక వాతావరణ సమాచారం వింటూనే ఉండాలి. జాగ్రత్త ఉంటే ప్రమాదం తగ్గుతుంది.",
+        "en": "When a cyclone is crossing the coast, winds blow strongly and rain keeps pouring. At such times we should stay indoors, away from windows, near strong walls. If the winds suddenly seem to calm down for a short while, do not step out at once - that can happen when the cyclone's centre (the eye) is passing, and strong winds return soon from the other side. If officials ask us to move to a safer place, we must go. Never step into floodwater or open drains, and never stand under trees or near electric poles during lightning. Keep a torch, drinking water and emergency numbers ready, and keep listening to official weather updates. Being careful brings the danger down."
       }
     },
     {
-      "id": "gk_20261102_reading_2",
+      "id": "gk_20261103_reading_2",
       "age_band": "class8-10",
       "audio_ids": {
-        "te": "gk_20261102_reading_2",
-        "en": "gk_20261102_reading_2__en"
+        "te": "gk_20261103_reading_2",
+        "en": "gk_20261103_reading_2__en"
       },
       "source_ids": [
-        "imdpr01",
+        "imdadv12",
         "imdtcp"
       ],
       "title": {
-        "te": "తుఫాను తీరం దాటినప్పుడు - ల్యాండ్‌ఫాల్, స్టార్మ్ సర్జ్",
-        "en": "When a cyclone crosses the coast - landfall and storm surge"
+        "te": "మురసు స్టార్మ్ సర్జ్ అంచనా - సంఖ్యల్లో అర్థం చేసుకుందాం",
+        "en": "Murasu's storm surge forecast - understanding the numbers"
       },
       "passage": {
-        "te": "తుఫాను కేంద్రం సముద్రం నుంచి తీరంపైకి వచ్చే దశను వాతావరణ శాఖ 'తీరాన్ని దాటడం' (ల్యాండ్‌ఫాల్) అని చెబుతుంది; దాని ప్రాంతాన్ని, సమయాన్ని ఖచ్చితంగా ప్రకటిస్తుంది. ఉదాహరణకు, నవంబర్ 1 జాతీయ ప్రకటన ప్రకారం మురసు నవంబర్ 2 మధ్యరాత్రి నుంచి నవంబర్ 3 తెల్లవారుఝామున మధ్య నెల్లూరు - నర్సాపూర్ మధ్య తీరాన్ని దాటే అంచనా ఉంది. టీసీపీ 2022 ప్రకారం, తుఫాను తీరాన్ని తాకడానికి 12 గంటల ముందు 'పోస్ట్ ల్యాండ్‌ఫాల్ అవుట్‌లుక్' అనే ప్రత్యేక సందేశం ఇస్తుంది - అందులో ప్రాంతం, సమయం మరింత ఖచ్చితంగా ఉంటాయి. ఈ సమయంలో సముద్రం నుంచి అతిపెద్ద ప్రమాదం 'స్టార్మ్ సర్జ్': తుఫాను ప్రభావంతో పెరిగే నిజమైన సముద్ర మట్టానికి, సాధారణ జ్వార స్థాయికి మధ్య ఉండే తేడా దీన్ని టీసీపీ నిర్వచిస్తుంది; గాలి నీటిని తీరం వైపుకు నెట్టడమే దీనికి ప్రధాన కారణం. అందుకే తీవ్ర తుఫాను రాకముందు లోతట్టు తీరప్రాంతాల్లోని ప్రజలను ముందుగానే సురక్షిత ప్రాంతాలకు తరలిస్తారు.",
-        "en": "When a cyclone's centre moves from the sea onto land, the weather department says it is 'crossing the coast' (landfall), and it announces the place and time precisely. For example, the November 1 national release says Murasu is expected to cross the coast between Nellore and Narsapur between midnight of November 2 and the early hours of November 3. Under TCP 2022, twelve hours before a cyclone crosses, the department issues a special 'Post Landfall Outlook' message with a more exact place and time. The greatest danger from the sea at this time is the 'storm surge': TCP defines it as the difference between the actual sea level under the storm's influence and the normal astronomical tide level, caused mainly by wind pushing water towards the shore. That is why people in low-lying coastal areas are moved to safer places before a severe cyclone crosses."
+        "te": "టీసీపీ 2022 నిర్వచనం ప్రకారం, తుఫాను ప్రభావంతో పెరిగే నిజమైన సముద్ర మట్టానికి, సాధారణ జ్వార (అస్ట్రానామికల్ టైడ్) స్థాయికి మధ్య తేడానే 'స్టార్మ్ సర్జ్'; గాలి నీటిని తీరం వైపుకు నెట్టడమే ప్రధాన కారణం. నవంబర్ 3 తెల్లవారు 1:30కు విడుదలైన ఆర్ఎస్ఎమ్సీ అడ్వైజరీ నం. 12 ప్రకారం, మురసు విషయంలో నవంబర్ 2 సాయంత్రం నుంచి నవంబర్ 3 ఉదయం వరకు సాధారణ జ్వార స్థాయి కంటే 0.5 మీటర్ల కంటే ఎక్కువ సర్జ్ ఉండే అంచనా; రాత్రి - తెల్లవారు గంటల్లో గరిష్ఠంగా 1.0-1.5 మీటర్లు, అదీ బాపట్ల, కృష్ణా, ప్రకాశం జిల్లాల్లో ఉండే అంచనా. అంటే సాధారణ అలల మట్టం కంటే నీరు మన ఎత్తు దాదాపు పైకి లేచి లోతట్టు ప్రాంతాల్లోకి చొరవచ్చు. అందుకే అధికారులు ముందుగానే లోతట్టు తీరప్రాంతాల ప్రజలను సురక్షిత ప్రదేశాలకు తరలిస్తారు. తీరం దాటిన తుఫాను గాలి వేగం తగ్గి క్రమంగా బలహీనపడినా, దాని వర్షం, సర్జ్ ప్రభావం కొంతసేపు కొనసాగుతుంది.",
+        "en": "By the TCP 2022 definition, a 'storm surge' is the difference between the actual sea level under the storm's influence and the normal astronomical tide level, caused mainly by wind pushing water towards the shore. The RSMC Advisory No. 12, issued at 1:30 AM on November 3, says that for Murasu, a surge of more than 0.5 metres above the tide is likely from the evening of November 2 till the morning of November 3, peaking at 1.0-1.5 metres during the night to early hours, with the maximum expected over Bapatla, Krishna and Prakasam districts. That means water can rise nearly to a person's height above the usual level and enter low-lying areas. That is why officials move people from low coastal areas to safer places beforehand. Even after a cyclone crosses the coast and its winds weaken step by step, its rain and surge effects continue for some time."
       }
     }
   ],
   "quiz": [
     {
-      "id": "gk_20261102_q1",
+      "id": "gk_20261103_q1",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261102_q1",
-        "en": "gk_20261102_q1__en"
+        "te": "gk_20261103_q1",
+        "en": "gk_20261103_q1__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261102_q1_answer",
-        "en": "gk_20261102_q1_answer__en"
+        "te": "gk_20261103_q1_answer",
+        "en": "gk_20261103_q1_answer__en"
       },
-      "item_id": "gk_20261102_telangana_1",
+      "item_id": "gk_20261103_telangana_1",
       "question": {
         "te": "నవంబర్ 3న రెడ్ హెచ్చరిక ఉన్న జిల్లాలు ఏవి?",
         "en": "Which districts are under a red warning on November 3?"
       },
       "options": {
         "te": [
-          "ఖమ్మం, సూర్యాపేట, మహబూబాబాద్",
-          "హైదరాబాద్, రంగారెడ్డి, మేడ్చల్",
-          "ఆదిలాబాద్, నిర్మల్, మంచిర్యాల",
-          "వనపర్తి, నాగర్‌కర్నూల్, జోగులాంబ గద్వాల్"
+          "నల్గొండ, నాగర్‌కర్నూల్",
+          "ఖమ్మం, సూర్యాపేట",
+          "హైదరాబాద్, రంగారెడ్డి",
+          "ఆదిలాబాద్, నిర్మల్"
         ],
         "en": [
-          "Khammam, Suryapet, Mahabubabad",
-          "Hyderabad, Rangareddy, Medchal",
-          "Adilabad, Nirmal, Mancherial",
-          "Wanaparthy, Nagarkurnool, Jogulamba Gadwal"
+          "Nalgonda and Nagarkurnool",
+          "Khammam and Suryapet",
+          "Hyderabad and Rangareddy",
+          "Adilabad and Nirmal"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "హైదరాబాద్ వాతావరణ కేంద్ర ప్రకటన ప్రకారం నవంబర్ 3న ఖమ్మం, సూర్యాపేట, మహబూబాబాద్ జిల్లాల్లో రెడ్ హెచ్చరిక ఉంది.",
-        "en": "The Hyderabad Met Centre release puts Khammam, Suryapet and Mahabubabad under a red warning on November 3."
+        "te": "హైదరాబాద్ వాతావరణ కేంద్రం నవంబర్ 2 ప్రకటన ప్రకారం నవంబర్ 3న నల్గొండ, నాగర్‌కర్నూల్ జిల్లాల్లో రెడ్ హెచ్చరిక ఉంది.",
+        "en": "The Hyderabad Met Centre's November 2 release puts Nalgonda and Nagarkurnool under a red warning on November 3."
       }
     },
     {
-      "id": "gk_20261102_q2",
+      "id": "gk_20261103_q2",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261102_q2",
-        "en": "gk_20261102_q2__en"
+        "te": "gk_20261103_q2",
+        "en": "gk_20261103_q2__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261102_q2_answer",
-        "en": "gk_20261102_q2_answer__en"
+        "te": "gk_20261103_q2_answer",
+        "en": "gk_20261103_q2_answer__en"
       },
-      "item_id": "gk_20261102_telangana_1",
+      "item_id": "gk_20261103_telangana_1",
       "question": {
-        "te": "నేడు (నవంబర్ 2) ఆరెంజ్ హెచ్చరిక ఎన్ని జిల్లాల్లో ఉంది?",
-        "en": "How many districts are under an orange warning today (November 2)?"
+        "te": "నవంబర్ 3న ఐదు జిల్లాల్లో ఈదురుతో కూడిన గాలి వేగం అంచనా ఎంత?",
+        "en": "What gusty wind speed is forecast in five districts on November 3?"
       },
       "options": {
         "te": [
-          "ఆరు",
-          "మూడు",
-          "పది",
-          "పదిహేడు"
+          "గంటకు 50-60 కి.మీ. (ఈదురుతో 70)",
+          "గంటకు 10-15 కి.మీ.",
+          "గంటకు 100-110 కి.మీ.",
+          "గంటకు 200 కి.మీ."
         ],
         "en": [
-          "Six",
-          "Three",
-          "Ten",
-          "Fifteen"
+          "50-60 km/h, gusting to 70",
+          "10-15 km/h",
+          "100-110 km/h",
+          "200 km/h"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "నవంబర్ 2న ఖమ్మం, నల్గొండ, సూర్యాపేట, మహబూబ్‌నగర్, నాగర్‌కర్నూల్, వనపర్తి - ఆరు జిల్లాల్లో ఆరెంజ్ హెచ్చరిక ఉంది.",
-        "en": "On November 2, six districts - Khammam, Nalgonda, Suryapet, Mahabubnagar, Nagarkurnool and Wanaparthy - are under an orange warning."
+        "te": "నల్గొండ, సూర్యాపేట, మహబూబ్‌నగర్, నాగర్‌కర్నూల్, వనపర్తి జిల్లాల్లో గంటకు 50-60 కి.మీ. (ఈదురుతో 70) గాలుల అంచనా.",
+        "en": "50-60 km/h winds gusting to 70 are forecast in Nalgonda, Suryapet, Mahabubnagar, Nagarkurnool and Wanaparthy."
       }
     },
     {
-      "id": "gk_20261102_q3",
+      "id": "gk_20261103_q3",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261102_q3",
-        "en": "gk_20261102_q3__en"
+        "te": "gk_20261103_q3",
+        "en": "gk_20261103_q3__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261102_q3_answer",
-        "en": "gk_20261102_q3_answer__en"
+        "te": "gk_20261103_q3_answer",
+        "en": "gk_20261103_q3_answer__en"
       },
-      "item_id": "gk_20261102_telangana_2",
+      "item_id": "gk_20261103_telangana_2",
       "question": {
-        "te": "నవంబర్ 1న హైదరాబాద్ వాటర్ బోర్డు ప్రారంభించిన కొత్త సేవ ఏమిటి?",
-        "en": "What new service did the Hyderabad Water Board launch on November 1?"
+        "te": "హైదరాబాద్ కొన్ని ప్రాంతాల్లో నీటి సరఫరా అంతరాయం ఎప్పటినుంచి ఎప్పటివరకు?",
+        "en": "When is the water supply disruption in parts of Hyderabad?"
       },
       "options": {
         "te": [
-          "గ్రీన్ ట్యాంకర్ - శుద్ధిచేసిన నీటి సరఫరా",
-          "కొత్త బస్సు సర్వీసు",
-          "సోలార్ ప్యానెళ్ల పథకం",
-          "మెట్రో రైలు కొత్త మార్గం"
+          "నవంబర్ 3 ఉదయం 6 నుంచి నవంబర్ 4 సాయంత్రం 6 వరకు",
+          "నవంబర్ 5, 6 తేదీల్లో",
+          "నవంబర్ 3 రాత్రి మాత్రమే",
+          "నవంబర్ 10 ఉదయం"
         ],
         "en": [
-          "Green tanker - treated water supply",
-          "A new bus service",
-          "A solar panel scheme",
-          "A new metro route"
+          "6 AM November 3 to 6 PM November 4",
+          "On November 5 and 6",
+          "Only on the night of November 3",
+          "Morning of November 10"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "ది హిందూ నివేదిక ప్రకారం, తాగునీరు కాదన్న పనులకు శుద్ధిచేసిన నీటిని అందించే గ్రీన్ వాటర్ ట్యాంకర్ కార్యక్రమం నవంబర్ 1న ప్రారంభమైంది.",
-        "en": "Per The Hindu, the green water tanker programme supplying treated water for non-drinking uses began on November 1."
+        "te": "గాంధీపేట్ కండక్ట్ మరమ్మతుల కోసం నవంబర్ 3 ఉదయం 6 నుంచి నవంబర్ 4 సాయంత్రం 6 వరకు అంతరాయం.",
+        "en": "The disruption runs from 6 AM on November 3 to 6 PM on November 4 for Gandipet conduit repairs."
       }
     },
     {
-      "id": "gk_20261102_q4",
+      "id": "gk_20261103_q4",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261102_q4",
-        "en": "gk_20261102_q4__en"
+        "te": "gk_20261103_q4",
+        "en": "gk_20261103_q4__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261102_q4_answer",
-        "en": "gk_20261102_q4_answer__en"
+        "te": "gk_20261103_q4_answer",
+        "en": "gk_20261103_q4_answer__en"
       },
-      "item_id": "gk_20261102_india_1",
+      "item_id": "gk_20261103_telangana_2",
       "question": {
-        "te": "భారత వాతావరణ శాఖ 'మురసు' అని తుఫానుకు పేరు పెట్టిన సమయం ఎప్పుడు?",
-        "en": "When did the IMD name the cyclone 'Murasu'?"
+        "te": "నీటి సరఫరా అంతరాయానికి కారణం ఏమిటి?",
+        "en": "What is the reason for the water supply disruption?"
       },
       "options": {
         "te": [
-          "నవంబర్ 1 ఉదయం 11:30కి",
-          "నవంబర్ 2 ఉదయం",
-          "అక్టోబర్ 31 మధ్యరాత్రి",
-          "నవంబర్ 3 ఉదయం 4 గంటలకు"
+          "గాంధీపేట్ కండక్ట్ పైప్లైన్ లీకేజీ మరమ్మతులు",
+          "కొత్త ట్యాంకర్ సేవల ప్రారంభం",
+          "భూగర్భ జలాల పరీక్ష",
+          "వర్షం లేకపోవడం"
         ],
         "en": [
-          "11:30 AM on November 1",
-          "Morning of November 2",
-          "Midnight of October 31",
-          "4 AM on November 3"
+          "Repairs to leaks in the Gandipet conduit pipeline",
+          "Launch of new tanker services",
+          "Groundwater testing",
+          "Lack of rain"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "జాతీయ ప్రకటన ప్రకారం తీవ్ర అల్పపీడనం నవంబర్ 1 ఉదయం 11:30కి తుఫానుగా మారి 'మురసు' పేరు పడింది.",
-        "en": "Per the national release, the deep depression became a cyclonic storm and was named Murasu at 11:30 AM on November 1."
+        "te": "సబ్జా కాలనీ, టోలీచౌకీ, మాణికొండ వద్ద 20 ఎంజీడీ కండక్ట్‌లోని లీకేజీల సరిచేసే పనులే కారణం.",
+        "en": "The reason is work to fix leaks in the 20 MGD conduit near Sabza Colony, Tolichowki and Manikonda."
       }
     },
     {
-      "id": "gk_20261102_q5",
+      "id": "gk_20261103_q5",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261102_q5",
-        "en": "gk_20261102_q5__en"
+        "te": "gk_20261103_q5",
+        "en": "gk_20261103_q5__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261102_q5_answer",
-        "en": "gk_20261102_q5_answer__en"
+        "te": "gk_20261103_q5_answer",
+        "en": "gk_20261103_q5_answer__en"
       },
-      "item_id": "gk_20261102_india_1",
+      "item_id": "gk_20261103_india_1",
       "question": {
-        "te": "మురసు తీరాన్ని ఏ రెండు ప్రాంతాల మధ్య దాటే అంచనా ఉంది?",
-        "en": "Between which two places is Murasu expected to cross the coast?"
+        "te": "మురసు తీరం దాటే (ల్యాండ్‌ఫాల్) ప్రక్రియ ఎప్పుడు ప్రారంభమైంది?",
+        "en": "When did Murasu's landfall process commence?"
       },
       "options": {
         "te": [
-          "నెల్లూరు - నర్సాపూర్",
-          "విశాఖపట్నం - కాకినాడ",
-          "చెన్నై - పుదుచ్చేరి",
-          "ఒంగోలు - మచిలీపట్నం"
+          "నవంబర్ 3 తెల్లవారు 1 గంటలకు",
+          "నవంబర్ 2 మధ్యాహ్నం",
+          "నవంబర్ 3 సాయంత్రం",
+          "నవంబర్ 1 అర్థరాత్రి"
         ],
         "en": [
-          "Nellore and Narsapur",
-          "Visakhapatnam and Kakinada",
-          "Chennai and Puducherry",
-          "Ongole and Machilipatnam"
+          "1 AM on November 3",
+          "Afternoon of November 2",
+          "Evening of November 3",
+          "Midnight of November 1"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "ప్రకటన ప్రకారం నవంబర్ 2 మధ్యరాత్రి - నవంబర్ 3 తెల్లవారుఝామున మధ్య నెల్లూరు - నర్సాపూర్ మధ్య తీరం దాటే అంచనా.",
-        "en": "The release expects the crossing between Nellore and Narsapur from midnight of November 2 to the early hours of November 3."
+        "te": "అడ్వైజరీ నం. 12 ప్రకారం ల్యాండ్‌ఫాల్ ప్రక్రియ నవంబర్ 3 తెల్లవారు 1 గంటలకు (1930 UTC) ప్రారంభమైంది.",
+        "en": "Advisory No. 12 says the landfall process commenced at 1 AM (1930 UTC) on November 3."
       }
     },
     {
-      "id": "gk_20261102_q6",
+      "id": "gk_20261103_q6",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261102_q6",
-        "en": "gk_20261102_q6__en"
+        "te": "gk_20261103_q6",
+        "en": "gk_20261103_q6__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261102_q6_answer",
-        "en": "gk_20261102_q6_answer__en"
+        "te": "gk_20261103_q6_answer",
+        "en": "gk_20261103_q6_answer__en"
       },
-      "item_id": "gk_20261102_india_2",
+      "item_id": "gk_20261103_india_1",
       "question": {
-        "te": "తెలంగాణలో అత్యంత భారీ వర్షం పడే అంచనా ఉన్న తేదీ ఏది?",
-        "en": "On which date is extremely heavy rain likely over Telangana?"
+        "te": "మురసు వల్ల గరిష్ఠ స్టార్మ్ సర్జ్ ఎంత ఎత్తులో, ఏ జిల్లాల్లో ఉండే అంచనా?",
+        "en": "How high is the maximum storm surge expected from Murasu, and where?"
       },
       "options": {
         "te": [
-          "నవంబర్ 3",
-          "నవంబర్ 1",
-          "నవంబర్ 5",
-          "నవంబర్ 7"
+          "1.0-1.5 మీటర్లు - బాపట్ల, కృష్ణా, ప్రకాశం",
+          "10 మీటర్లు - విశాఖపట్నం",
+          "0.1 మీటర్లు - చెన్నై",
+          "5 మీటర్లు - హైదరాబాద్"
         ],
         "en": [
-          "November 3",
-          "November 1",
-          "November 5",
-          "November 7"
+          "1.0-1.5 metres - Bapatla, Krishna, Prakasam",
+          "10 metres - Visakhapatnam",
+          "0.1 metres - Chennai",
+          "5 metres - Hyderabad"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "జాతీయ ప్రకటన ప్రకారం నవంబర్ 3న తెలంగాణలో ఒకోచోట అత్యంత భారీ వర్ష అంచనా ఉంది.",
-        "en": "The national release expects isolated extremely heavy rain over Telangana on November 3."
+        "te": "అడ్వైజరీ నం. 12: గరిష్ఠ సర్జ్ 1.0-1.5 మీటర్లు, బాపట్ల, కృష్ణా, ప్రకాశం జిల్లాల్లో.",
+        "en": "Advisory No. 12: maximum surge of 1.0-1.5 metres over Bapatla, Krishna and Prakasam."
       }
     },
     {
-      "id": "gk_20261102_q7",
+      "id": "gk_20261103_q7",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261102_q7",
-        "en": "gk_20261102_q7__en"
+        "te": "gk_20261103_q7",
+        "en": "gk_20261103_q7__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261102_q7_answer",
-        "en": "gk_20261102_q7_answer__en"
+        "te": "gk_20261103_q7_answer",
+        "en": "gk_20261103_q7_answer__en"
       },
-      "item_id": "gk_20261102_india_3",
+      "item_id": "gk_20261103_india_2",
       "question": {
-        "te": "లేట్ ఫీజు లేకుండా టీఎస్ ఎస్ఎస్సీ 2027 పరీక్ష ఫీజు చెల్లించే చివరి తేదీ ఏది?",
-        "en": "What is the last date to pay the TS SSC 2027 exam fee without a late charge?"
+        "te": "మురసు నేపథ్యంలో ఏపీ అధికారులు ఎంత మందిని తరలించే ప్రణాళిక చేశారు?",
+        "en": "How many people did A.P. officials plan to evacuate ahead of Murasu?"
       },
       "options": {
         "te": [
-          "నవంబర్ 16, 2026",
-          "అక్టోబర్ 30, 2026",
+          "దాదాపు 30,000 మంది",
+          "200 మంది",
+          "5 లక్షల మంది",
+          "ఎవరినీ తరలించలేదు"
+        ],
+        "en": [
+          "About 30,000 people",
+          "200 people",
+          "5 lakh people",
+          "No one was moved"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఏపీ ఎస్డీఎంఏ ఎండీ ప్రఖర్ జైన్ ప్రకారం 2,000 మందిని తరలించారు; మొత్తం ~30,000 ప్రణాళిక.",
+        "en": "Per A.P. SDMA MD Prakhar Jain, 2,000 were moved and about 30,000 were planned in all."
+      }
+    },
+    {
+      "id": "gk_20261103_q8",
+      "style": "original_practice_not_official_exam",
+      "audio_ids": {
+        "te": "gk_20261103_q8",
+        "en": "gk_20261103_q8__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261103_q8_answer",
+        "en": "gk_20261103_q8_answer__en"
+      },
+      "item_id": "gk_20261103_india_3",
+      "question": {
+        "te": "ఎన్ఎంఎంఎస్ఎస్ 2026-27 దరఖాస్తు పొడిగించిన గడువు ఏది?",
+        "en": "What is the extended NMMSS 2026-27 application deadline?"
+      },
+      "options": {
+        "te": [
+          "నవంబర్ 15, 2026",
+          "అక్టోబర్ 31, 2026",
           "డిసెంబర్ 31, 2026",
-          "మార్చి 1, 2027"
+          "జనవరి 1, 2027"
         ],
         "en": [
-          "November 16, 2026",
-          "October 30, 2026",
+          "November 15, 2026",
+          "October 31, 2026",
           "December 31, 2026",
-          "March 1, 2027"
+          "January 1, 2027"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "టీఓఐ నివేదిక ప్రకారం లేట్ ఫీజు లేని చెల్లింపు గడువు అక్టోబర్ 30 - నవంబర్ 16, 2026.",
-        "en": "Per the TOI report, the no-late-fee window runs from October 30 to November 16, 2026."
+        "te": "విద్యా మంత్రిత్వ శాఖ (పీఐబీ, అక్టోబర్ 31) ఎన్ఎంఎంఎస్ఎస్ గడువును నవంబర్ 15, 2026కు పొడిగించింది.",
+        "en": "The Ministry of Education (PIB, October 31) extended the NMMSS deadline to November 15, 2026."
       }
     },
     {
-      "id": "gk_20261102_q8",
+      "id": "gk_20261103_q9",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261102_q8",
-        "en": "gk_20261102_q8__en"
+        "te": "gk_20261103_q9",
+        "en": "gk_20261103_q9__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261102_q8_answer",
-        "en": "gk_20261102_q8_answer__en"
+        "te": "gk_20261103_q9_answer",
+        "en": "gk_20261103_q9_answer__en"
       },
-      "item_id": "gk_20261102_world_1",
+      "item_id": "gk_20261103_world_1",
       "question": {
-        "te": "అమెరికా మధ్యంతర ఎన్నికల ఓటింగ్ ఏ రోజు జరుగుతుంది?",
-        "en": "On which day is the US midterm election vote?"
+        "te": "అమెరికా సెనేట్‌లో ప్రస్తుత మెజారిటీ ఎలా ఉంది?",
+        "en": "What is the current majority in the US Senate?"
       },
       "options": {
         "te": [
-          "మంగళవారం, నవంబర్ 3",
-          "ఆదివారం, నవంబర్ 1",
-          "శుక్రవారం, నవంబర్ 6",
-          "శనివారం, అక్టోబర్ 31"
+          "రిపబ్లికన్లు 53-47",
+          "డెమోక్రెట్లు 60-40",
+          "రిపబ్లికన్లు 70-30",
+          "సమానంగా 50-50"
         ],
         "en": [
-          "Tuesday, November 3",
-          "Sunday, November 1",
-          "Friday, November 6",
-          "Saturday, October 31"
+          "Republicans 53-47",
+          "Democrats 60-40",
+          "Republicans 70-30",
+          "Tied 50-50"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "రాయిటర్స్ సారాంశం ప్రకారం ప్రచారం చివరి వారాంతం ముగిసి, మంగళవారం ఓటింగ్ జరుగుతుంది.",
-        "en": "Per the Reuters summary, the final campaign weekend ended and the vote is on Tuesday."
+        "te": "రాయిటర్స్ సారాంశం ప్రకారం రిపబ్లికన్లకు 53-47 మెజారిటీ; డెమోక్రెట్లకు నికరంగా 4 సీట్లు కావాలి.",
+        "en": "Per the Reuters summary, Republicans hold 53-47; Democrats need a net gain of four seats."
       }
     },
     {
-      "id": "gk_20261102_q9",
+      "id": "gk_20261103_q10",
       "style": "original_practice_not_official_exam",
       "audio_ids": {
-        "te": "gk_20261102_q9",
-        "en": "gk_20261102_q9__en"
+        "te": "gk_20261103_q10",
+        "en": "gk_20261103_q10__en"
       },
       "answer_audio_ids": {
-        "te": "gk_20261102_q9_answer",
-        "en": "gk_20261102_q9_answer__en"
+        "te": "gk_20261103_q10_answer",
+        "en": "gk_20261103_q10_answer__en"
       },
-      "item_id": "gk_20261102_static_1",
+      "item_id": "gk_20261103_static_1",
       "question": {
-        "te": "'మురసు' అనే పేరును సైక్లోన్ పేర్ల జాబితాకు అందించిన దేశం ఏది?",
-        "en": "Which country contributed the name 'Murasu' to the cyclone name list?"
+        "te": "టీసీపీ 2022 ప్రకారం 'సీవియర్ సైక్లోనిక్ స్టార్మ్' గాలి వేగం ఎంత?",
+        "en": "Under TCP 2022, what wind speed makes a 'severe cyclonic storm'?"
       },
       "options": {
         "te": [
-          "భారతదేశం",
-          "శ్రీలంక",
-          "థాయ్‌ల్యాండ్",
-          "బంగ్లాదేశ్"
+          "గంటకు 89-118 కి.మీ.",
+          "గంటకు 10-20 కి.మీ.",
+          "గంటకు 30-40 కి.మీ.",
+          "గంటకు 500 కి.మీ."
         ],
         "en": [
-          "India",
-          "Sri Lanka",
-          "Thailand",
-          "Bangladesh"
+          "89-118 km/h",
+          "10-20 km/h",
+          "30-40 km/h",
+          "500 km/h"
         ]
       },
       "answer_index": 0,
       "explanation": {
-        "te": "టీఓఐ నివేదిక ప్రకారం 'మురసు' పేరును భారతదేశం అందించింది; తమిళంలో దీని అర్థం డ్రమ్.",
-        "en": "Per the TOI report, India contributed the name Murasu; it means drum in Tamil."
-      }
-    },
-    {
-      "id": "gk_20261102_q10",
-      "style": "original_practice_not_official_exam",
-      "audio_ids": {
-        "te": "gk_20261102_q10",
-        "en": "gk_20261102_q10__en"
-      },
-      "answer_audio_ids": {
-        "te": "gk_20261102_q10_answer",
-        "en": "gk_20261102_q10_answer__en"
-      },
-      "item_id": "gk_20261102_reading_2",
-      "question": {
-        "te": "'స్టార్మ్ సర్జ్' అంటే ఏమిటి?",
-        "en": "What is a 'storm surge'?"
-      },
-      "options": {
-        "te": [
-          "తుఫాను ప్రభావంతో సాధారణ జ్వార స్థాయి కంటే పెరిగే సముద్ర మట్టం",
-          "సముద్రంలో ఏర్పడే పెద్ద అల",
-          "వర్షం వల్ల వచ్చే వరద",
-          "సముద్రపు ఉప్పు పరిమాణం పెరగడం"
-        ],
-        "en": [
-          "The rise in actual sea level above the normal tide level under the storm's influence",
-          "A big wave in the sea",
-          "A flood caused by rain",
-          "An increase in the sea's salt content"
-        ]
-      },
-      "answer_index": 0,
-      "explanation": {
-        "te": "టీసీపీ 2022: తుఫాను ప్రభావంతో ఉండే నిజమైన నీటి మట్టానికి, సాధారణ జ్వార స్థాయికి మధ్య తేడానే స్టార్మ్ సర్జ్.",
-        "en": "TCP 2022: a storm surge is the difference between the actual water level under the storm and the normal astronomical tide level."
+        "te": "టీసీపీ 2022: 62-88 సైక్లోనిక్ స్టార్మ్, 89-118 సీవియర్, 119-221 వెరీ సీవియర్, 222+ సూపర్.",
+        "en": "TCP 2022: 62-88 cyclonic storm, 89-118 severe, 119-221 very severe, 222+ super cyclonic storm."
       }
     }
   ],
-  "edition_date": "2026-11-02",
-  "verified_at": "2026-11-02T03:17:17+05:30",
-  "status": "source_checked_translation_review_recommended_audio_pending",
+  "edition_date": "2026-11-03",
+  "verified_at": "2026-11-03T02:46:09+05:30",
+  "status": "source_checked_translation_review_recommended",
   "coverage": {
     "cards": 7,
     "current_affairs": 6,
@@ -623,5 +618,5 @@
     "questions": 10,
     "listen_clips": 58
   },
-  "editorial_note": "Nov2 early reviewed selection: Cyclonic Storm MURASU named by IMD at 1130 IST 01.11.2026 (national PR 1405 IST 01.11.2026) - name now official; severe cyclonic storm expected around Nov 2 morning; cross south A.P. coast between Nellore and Narsapur midnight (2330 IST) Nov 2 to early hours (0400 IST) Nov 3, winds 100-110 gusting 120 kmph; heavy-very heavy rain Coastal A.P./Rayalaseema/TG Nov 2-3, TN Nov 1-2, Chhattisgarh & south Odisha Nov 3-4; isolated extremely heavy Coastal A.P. & Yanam Nov 2-3, TG Nov 3. All track/intensity/rain framed as forecast with issue time. TG (Hyd MC PR 1400 IST 01.11.2026): Nov 2 ORANGE heavy-very heavy in 6 districts (Khammam, Nalgonda, Suryapet, Mahabubnagar, Nagarkurnool, Wanaparthy), YELLOW heavy rain in 5 (Jangaon, Yadadri Bhuvanagiri, Rangareddy, Hyderabad, Medchal-Malkajgiri); Nov 3 RED (extremely heavy) in Khammam/Suryapet/Mahabubabad, ORANGE in Bhadradri Kothagudem/Warangal/Hanamkonda, gusts 60-70 gusting 80 kmph in 7 districts; Nov 4 YELLOW heavy rain in 13 districts. Hyderabad Water Board launched green tanker service Nov 1 (37th Foundation Day); CM urged govt depts and industries to use treated water (The Hindu, Nov 1). Students: TS SSC March 2027 exam fee window Oct 30 - Nov 16, 2026 without late fee (DGE Telangana, per TOI 24.10.2026); subject-wise timetable pending (TOI expects December). World: US midterm vote Tuesday Nov 3 after final weekend (Alaska probe, California ballots/SCOTUS); France scuffles after peaceful marches (Reuters summary updated 01.11.2026 18:30 IST). Static: Murasu = Tamil for 'drum', contributed by India (TOI Oct 31); RSMC New Delhi names systems at cyclonic-storm stage, 13-country list, name retained for life (TCP 2022). Rev2 (built ~03:20 IST Nov 2): card india_1 updated to the newer RSMC Tropical Cyclone Advisory No. 4 (issued 2000 UTC 01.11.2026 = 0130 IST 02.11.2026, based on 1800 UTC 01.11.2026) - crossing window narrowed to 2330 IST Nov 2 - 0330 IST Nov 3, location refined to close to Ongole, storm surge 1.0-1.5 m above astronomical tide with maximum over Bapatla/Krishna/Prakasam added. No older forecast relabeled as fresh; card still names the advisory and its issue time. Only clips gk_20261102_india_1 and gk_20261102_india_1__en change vs rev1."
+  "editorial_note": "Nov3 early reviewed selection: Murasu landfall night. RSMC Advisory No. 12 (issued 2000 UTC 02.11 = 0130 IST 03.11, based on 1800 UTC 02.11): landfall process COMMENCED 1930 UTC (0100 IST Nov 3); cross between Nellore and Narsapur close to Ongole ~2200 UTC (0330 IST Nov 3) as Severe CS 100-110 gusting 120 kmph; surge >0.5 m evening Nov 2 - morning Nov 3, peak 1.0-1.5 m over Bapatla/Krishna/Prakasam; weakening ladder to depression by Nov 4. National PR 02.11 1300 IST: became SCS 0230 IST Nov 2; extremely heavy rain Coastal A.P./Yanam/Rayalaseema Nov 2-3, TG Nov 3. TG (Hyd MC PR 02.11 1400 IST): Nov 3 RED Nalgonda/Nagarkurnool, ORANGE Suryapet/Mahabubnagar/Wanaparthy, YELLOW heavy rain 12 districts, gusts 50-60/70 in 5 districts - warnings shifted from the Nov 1 release, noted in card. Hyderabad: water supply disruption 6 AM Nov 3 - 6 PM Nov 4 for Gandipet conduit repairs (The Hindu Nov 2). A.P.: ~2,000 evacuated, ~30,000 planned (APSDMA MD Prakhar Jain via Reuters/CNA Nov 2). Students: NMMSS 2026-27 deadline extended to Nov 15, 2026 (official source: Ministry of Education via PIB Release ID 2330936, 31.10.2026; OTR required on NSP; L1 verification by Nov 30, L2 by Dec 15; 90,483 fresh + 1,99,531 renewal applications as of Oct 30; Rs 12,000/yr via DBT; eligibility 55% in Class VII, 50% SC/ST, income up to Rs 3.5 lakh). Rev2 (built ~02:47 IST Nov 3): india_3 and q8 upgraded from TOI citation to the official PIB release per bulletin verification - only clips gk_20261103_india_3, gk_20261103_india_3__en, q8 answer clips change. World: US midterm vote today Nov 3, Senate GOP 53-47, Democrats need net 4 (Reuters 02.11 18:28 IST). Static: TCP 2022 wind-speed classes 62-88/89-118/119-221/222+. All forecasts framed as forecasts with issue times; occurred (landfall commenced 0100 IST, became SCS 0230 IST Nov 2) vs expected kept distinct. Arnab casualty count avoided (sources conflict)."
 }
