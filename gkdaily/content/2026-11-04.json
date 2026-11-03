@@ -1,5 +1,5 @@
 {
- "schema_version": "1.0",
+ "schema_version": 1,
  "revision": "2026-11-04-rev2",
  "timezone": "Asia/Calcutta",
  "sources": {
@@ -264,7 +264,7 @@
     "te": "gk_20261104_quiz_01_a",
     "en": "gk_20261104_quiz_01_a__en"
    },
-   "item_id": "gk_20261104_quiz_01",
+   "item_id": "gk_20261104_telangana_1",
    "question": {
     "te": "వాతావరణ శాఖ ప్రకారం, మురసు ప్రభావంతో నవంబర్ 3 మధ్యాహ్నం వరకు తెలంగాణ జిల్లాల్లో ఎంత వేగంతో గాలులు ఉండే అంచనా ఉండేది?",
     "en": "According to the weather department, how fast were the winds expected to be in Telangana districts till noon on November 3 under Murasu's influence?"
@@ -304,7 +304,7 @@
     "te": "gk_20261104_quiz_02_a",
     "en": "gk_20261104_quiz_02_a__en"
    },
-   "item_id": "gk_20261104_quiz_02",
+   "item_id": "gk_20261104_telangana_1",
    "question": {
     "te": "హైదరాబాద్ వాతావరణ కేంద్రం నవంబర్ 2 ప్రకటన ప్రకారం, నవంబర్ 4 (డే-3) యెల్లో హెచ్చరిక కింద ఎన్ని జిల్లాల్లో భారీ వర్షం అంచనా?",
     "en": "According to the Hyderabad Met Centre's November 2 release, how many districts have a heavy-rain forecast under the yellow warning for November 4 (Day-3)?"
@@ -344,7 +344,7 @@
     "te": "gk_20261104_quiz_03_a",
     "en": "gk_20261104_quiz_03_a__en"
    },
-   "item_id": "gk_20261104_quiz_03",
+   "item_id": "gk_20261104_telangana_2",
    "question": {
     "te": "వర్షాల దృష్ట్యా సైబరాబాద్ పోలీసులు ఐటీ కంపెనీలకు ఏ సూచన చేశారు?",
     "en": "In view of the rains, what advice did the Cyberabad Police give IT companies?"
@@ -384,7 +384,7 @@
     "te": "gk_20261104_quiz_04_a",
     "en": "gk_20261104_quiz_04_a__en"
    },
-   "item_id": "gk_20261104_quiz_04",
+   "item_id": "gk_20261104_india_1",
    "question": {
     "te": "తీవ్ర తుఫాను మురసు తీరాన్ని ఎప్పుడు దాటింది?",
     "en": "When did severe cyclonic storm Murasu cross the coast?"
@@ -424,7 +424,7 @@
     "te": "gk_20261104_quiz_05_a",
     "en": "gk_20261104_quiz_05_a__en"
    },
-   "item_id": "gk_20261104_quiz_05",
+   "item_id": "gk_20261104_india_1",
    "question": {
     "te": "మురసు ఏ ప్రాంతం దగ్గర తీరాన్ని దాటింది?",
     "en": "Near which place did Murasu cross the coast?"
@@ -464,7 +464,7 @@
     "te": "gk_20261104_quiz_06_a",
     "en": "gk_20261104_quiz_06_a__en"
    },
-   "item_id": "gk_20261104_quiz_06",
+   "item_id": "gk_20261104_india_1",
    "question": {
     "te": "నవంబర్ 3 ఉదయం 8:30తో ముగిసిన 24 గంటల్లో కోస్తా ఆంధ్రప్రదేశ్‌లో నమోదైన అత్యంత భారీ వర్షపాతం ఎంత?",
     "en": "How much extremely heavy rainfall was recorded in coastal Andhra Pradesh in the 24 hours ending 8:30 AM on November 3?"
@@ -504,7 +504,7 @@
     "te": "gk_20261104_quiz_07_a",
     "en": "gk_20261104_quiz_07_a__en"
    },
-   "item_id": "gk_20261104_quiz_07",
+   "item_id": "gk_20261104_india_3",
    "question": {
     "te": "టైమ్స్ ఆఫ్ ఇండియా నివేదిక ప్రకారం, టీఎస్ ఇంటర్ 2027 థియరీ పరీక్షలు ఎప్పుడు జరిగే అంచనా?",
     "en": "According to the Times of India report, when are the TS Inter 2027 theory exams expected to be held?"
@@ -544,7 +544,7 @@
     "te": "gk_20261104_quiz_08_a",
     "en": "gk_20261104_quiz_08_a__en"
    },
-   "item_id": "gk_20261104_quiz_08",
+   "item_id": "gk_20261104_world_1",
    "question": {
     "te": "రాయిటర్స్ నివేదిక ప్రకారం, ప్రస్తుతం అమెరికా సెనేట్‌లో రిపబ్లికన్ల మెజారిటీ ఎంత?",
     "en": "According to the Reuters report, what is the Republicans' current majority in the US Senate?"
@@ -585,7 +585,7 @@
     "te": "gk_20261104_quiz_09_a",
     "en": "gk_20261104_quiz_09_a__en"
    },
-   "item_id": "gk_20261104_quiz_09",
+   "item_id": "gk_20261104_static_1",
    "question": {
     "te": "తుఫాను తీరం దాటాక బలహీనపడటానికి ప్రధాన కారణం ఏమిటి?",
     "en": "What is the main reason a cyclone weakens after crossing the coast?"
@@ -625,7 +625,7 @@
     "te": "gk_20261104_quiz_10_a",
     "en": "gk_20261104_quiz_10_a__en"
    },
-   "item_id": "gk_20261104_quiz_10",
+   "item_id": "gk_20261104_india_2",
    "question": {
     "te": "ఆర్ఎస్ఎమ్సీ సలహా నం. 18 ప్రకారం, నవంబర్ 4 తెల్లవారు 5:30 నాటికి మురసు ఏ స్థాయికి బలహీనపడే అంచనా?",
     "en": "According to RSMC Advisory No. 18, to what level was Murasu expected to weaken by 5:30 AM on November 4?"
