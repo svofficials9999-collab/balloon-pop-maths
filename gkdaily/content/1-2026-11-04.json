@@ -1,0 +1,678 @@
+{
+ "schema_version": 1,
+ "revision": "2026-11-04-rev2",
+ "timezone": "Asia/Calcutta",
+ "sources": {
+  "imdpr03": {
+   "publisher": "India Meteorological Department, National Press Release, issued 1330 IST 03.11.2026",
+   "url": "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2003-11-2026.pdf",
+   "published_date": "2026-11-03"
+  },
+  "imdadv18": {
+   "publisher": "RSMC - Tropical Cyclones, New Delhi, Tropical Cyclone Advisory No. 18, issued 1500 UTC 03.11.2026 (2030 IST 03.11.2026), based on 1200 UTC 03.11.2026",
+   "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/TROPICAL_CYCLONE_ADVISORY_NO__18_based_on_1200_UTC_of_03_11_2026.pdf",
+   "published_date": "2026-11-03"
+  },
+  "imdhyd02": {
+   "publisher": "India Meteorological Department, Meteorological Centre Hyderabad, Press Release issued 1400 IST 02.11.2026 (latest on the rolling link at 0230 IST 04.11 check)",
+   "url": "https://mausam.imd.gov.in/hyderabad/mcdata/press_release.pdf",
+   "published_date": "2026-11-02"
+  },
+  "hindu_cyber": {
+   "publisher": "The Hindu, 'Implement early logout from November 3 to 5, permit WFH: Cyberabad Police advise IT firms', updated 03.11.2026 18:23 IST",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/cyberabad-police-advise-it-firms-to-implement-early-logout-from-november-3-to-5-permit-wfh-amid-rain-forecast/article71660761.ece",
+   "published_date": "2026-11-03"
+  },
+  "toi_tsinter": {
+   "publisher": "The Times of India, 'TS Intermediate time table 2027: TGBIE to announce 1st, 2nd year exam dates soon', published 02.11.2026 15:25 IST",
+   "url": "https://timesofindia.indiatimes.com/education/news/ts-intermediate-time-table-2027-tgbie-to-announce-1st-2nd-year-exam-dates-soon-check-details/articleshow/135451676.cms",
+   "published_date": "2026-11-02"
+  },
+  "reuters_us03": {
+   "publisher": "Reuters US Domestic News Summary, updated 03.11.2026 18:26 IST; wire content carried by Devdiscourse (republisher, not reuters.com domain)",
+   "url": "https://www.devdiscourse.com/article/international/4001232-reuters-us-domestic-news-summary",
+   "published_date": "2026-11-03"
+  },
+  "imdtcp": {
+   "publisher": "India Meteorological Department, Cyclone Warning Services: Standard Operation Procedure (TCP), Edition 2022",
+   "url": "https://mausam.imd.gov.in/ptc/TCP/TCP2022.pdf",
+   "published_date": null
+  },
+  "imdsea03": {
+   "publisher": "India Meteorological Department, ACWC Kolkata, Sea Area Bulletin valid 1800 UTC 03.11.2026 to 0600 UTC 04.11.2026 (in force from 2330 IST 03.11.2026); rolling link, content as fetched 0245 IST 04.11.2026",
+   "url": "https://mausam.imd.gov.in/Forecast/seaarea_bulletin_new.php?id=1",
+   "published_date": "2026-11-03"
+  }
+ },
+ "cards": [
+  {
+   "id": "gk_20261104_telangana_1",
+   "region": "telangana",
+   "type": "current_affairs",
+   "source_ids": [
+    "imdpr03",
+    "imdhyd02"
+   ],
+   "event_date": "2026-11-03",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261104_telangana_1",
+    "en": "gk_20261104_telangana_1__en"
+   },
+   "title": {
+    "te": "తుఫాను ప్రభావం తగ్గుతున్నా నేడు ఆరు దక్షిణ జిల్లాల్లో భారీ వర్ష యెల్లో అలర్ట్",
+    "en": "Cyclone effect easing, but yellow heavy-rain alert in six southern districts today"
+   },
+   "summary": {
+    "te": "భారత వాతావరణ శాఖ జాతీయ ప్రకటన (నవంబర్ 3 మధ్యాహ్నం 1:30) ప్రకారం, మురసు ప్రభావంతో నవంబర్ 3 మధ్యాహ్నం వరకు ఖమ్మం, సూర్యాపేట, నల్గొండ, నాగర్‌కర్నూల్, వనపర్తి, మహబూబాబాద్, వరంగల్, జనగామ, కరీంనగర్, భద్రాద్రి కొత్తగూడెం జిల్లాల్లో గంటకు 70-80 కి.మీ. (ఈదురుతో 90 కి.మీ.) గాలులు ఉండే అంచనా ఉండేది; అవి అర్థరాత్రి నాటికి 50-60 కి.మీ.కు తగ్గే అంచనా. నవంబర్ 3న తెలంగాణలో ఒకోచోట అత్యంత భారీ వర్ష అంచనా ఉండేది. నేడు నవంబర్ 4 విషయంలో, హైదరాబాద్ వాతావరణ కేంద్రం నవంబర్ 2 ప్రకటన (చెక్ చేసిన సమయానికి ఇదే తాజా) ప్రకారం వికారాబాద్, మహబూబ్‌నగర్, నాగర్‌కర్నూల్, వనపర్తి, నారాయణపేట, జోగులాంబ గద్వాల్ జిల్లాల్లో భారీ వర్షం, ఉరుములు మెరుపులు, గంటకు 40-50 కి.మీ. (ఈదురుతో 60) గాలుల యెల్లో హెచ్చరిక ఉంది. హెచ్చరికలు మారవచ్చు; తాజా ప్రకటనలనే అనుసరించాలి.",
+    "en": "According to the IMD national release (1:30 PM, November 3), under Murasu's influence, gale winds of 70-80 km/h gusting to 90 km/h were expected till noon of November 3 in Khammam, Suryapet, Nalgonda, Nagarkurnool, Wanaparthy, Mahabubabad, Warangal, Jangaon, Karimnagar and Bhadradri Kothagudem districts, easing to 50-60 km/h by midnight, with isolated extremely heavy rain likely over Telangana on November 3. For today, November 4, the Hyderabad Met Centre's release of November 2 (the latest on its rolling link at check time) keeps a yellow warning for heavy rain, thunderstorms and gusty winds of 40-50 km/h gusting to 60 km/h in six southern districts: Vikarabad, Mahabubnagar, Nagarkurnool, Wanaparthy, Narayanpet and Jogulamba Gadwal. Warnings can change; follow the latest official release."
+   }
+  },
+  {
+   "id": "gk_20261104_telangana_2",
+   "region": "telangana",
+   "type": "current_affairs",
+   "source_ids": [
+    "hindu_cyber"
+   ],
+   "event_date": "2026-11-03",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261104_telangana_2",
+    "en": "gk_20261104_telangana_2__en"
+   },
+   "title": {
+    "te": "వర్షాల దృష్ట్యా ఐటీ కంపెనీలకు సైబరాబాద్ పోలీసుల సూచన: మధ్యాహ్నం 2 నుంచి ఎర్లీ లాగ్అవుట్",
+    "en": "Cyberabad Police to IT firms: staggered early logout from 2 PM amid rain"
+   },
+   "summary": {
+    "te": "ది హిందూ నవంబర్ 3 నివేదిక ప్రకారం, మోస్తరు నుంచి భారీ వర్షాల అంచనా నేపథ్యంలో సైబరాబాద్ ట్రాఫిక్ పోలీసులు తమ కమిషనరేట్ పరిధిలోని ఐటీ కంపెనీలు, ఇతర సంస్థలకు సూచన జారీ చేశారు: నవంబర్ 3 (మంగళవారం) నుంచి నవంబర్ 5 (గురువారం) వరకు మధ్యాహ్నం 2 గంటల నుంచి దశలవారీగా ఎర్లీ లాగ్అవుట్ అమలు చేయాలని, అవసరమైతే వర్క్ ఫ్రమ్ హోమ్ ఇవ్వాలని కోరారు. ఉద్యోగుల భద్రత, అత్యవసర వాహనాల అంతరాయం లేని కదలిక, పనులు కొనసాగడమే లక్ష్యమని జాయింట్ కమిషనర్ ఆఫ్ పోలీస్ వెల్లడించిన ట్రాఫిక్ అడ్వైజరీ తెలిపింది.",
+    "en": "According to The Hindu's November 3 report, the Cyberabad Traffic Police advised IT companies and other organisations in the commissionerate limits to implement staggered early logout from 2 PM between Tuesday, November 3, and Thursday, November 5, and to permit work from home where needed, in view of the forecast of moderate to heavy rainfall. The traffic advisory issued by the Joint Commissioner of Police said the steps are meant to ensure employee safety, uninterrupted movement of emergency services and business continuity."
+   }
+  },
+  {
+   "id": "gk_20261104_india_1",
+   "region": "india",
+   "type": "current_affairs",
+   "source_ids": [
+    "imdpr03",
+    "imdadv18"
+   ],
+   "event_date": "2026-11-03",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261104_india_1",
+    "en": "gk_20261104_india_1__en"
+   },
+   "title": {
+    "te": "మురసు తీరం దాటింది: నవంబర్ 3 తెల్లవారు 3:30-5:30 మధ్య ఒంగోలు దగ్గర",
+    "en": "Murasu crossed the coast near Ongole between 3:30 and 5:30 AM on November 3"
+   },
+   "summary": {
+    "te": "భారత వాతావరణ శాఖ జాతీయ ప్రకటన (నవంబర్ 3 మధ్యాహ్నం 1:30) ప్రకారం, తీవ్ర తుఫాను మురసు నవంబర్ 3 తెల్లవారు 3:30 నుంచి 5:30 గంటల మధ్య నెల్లూరు - నర్సాపూర్ మధ్య ఒంగోలు దగ్గర దక్షిణ ఆంధ్రప్రదేశ్ తీరాన్ని గంటకు 100-110 కి.మీ. (ఈదురుతో 120 కి.మీ.) గాలులతో దాటింది. నవంబర్ 3 ఉదయం 8:30 నాటికి అది ఒంగోలుకు 30 కి.మీ. ఉత్తర-ఈశాన్యంలో భూమిపైకి వచ్చింది. నవంబర్ 3 ఉదయం 8:30తో ముగిసిన 24 గంటల్లో కోస్తా ఆంధ్రప్రదేశ్‌లో 12-21 సెం.మీ. అత్యంత భారీ వర్షం నమోదైంది. ఆర్ఎస్ఎమ్సీ సలహా (నవంబర్ 3 రాత్రి 8:30) ప్రకారం, అది సాయంత్రం 5:30 నాటికి సైక్లోనిక్ స్టార్మ్‌గా బలహీనపడి విజయవాడకు 70 కి.మీ. పడమర-నైఋతిలో కేంద్రీకృతమై ఉంది; అర్థరాత్రి నాటికి తీవ్ర అల్పపీడనం కావాల్సింది.",
+    "en": "According to the IMD national release (1:30 PM, November 3), severe cyclonic storm Murasu crossed the south Andhra Pradesh coast between Nellore and Narsapur, close to Ongole, between 3:30 and 5:30 AM on November 3, with winds of 100-110 km/h gusting to 120 km/h. By 8:30 AM it had moved over land, 30 km north-northeast of Ongole. Coastal Andhra Pradesh recorded extremely heavy rain of 12-21 cm in the 24 hours ending 8:30 AM on November 3. The RSMC advisory (8:30 PM, November 3) says it had weakened into a cyclonic storm by 5:30 PM, centred 70 km west-southwest of Vijayawada, and was expected to become a deep depression by midnight."
+   }
+  },
+  {
+   "id": "gk_20261104_india_2",
+   "region": "india",
+   "type": "current_affairs",
+   "source_ids": [
+    "imdsea03",
+    "imdadv18",
+    "imdpr03"
+   ],
+   "event_date": "2026-11-03",
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261104_india_2",
+    "en": "gk_20261104_india_2__en"
+   },
+   "title": {
+    "te": "మురసు బలహీనపడుతోంది; నేడు కోస్తా ఏపీలో అతిభారీ వర్ష అంచనా",
+    "en": "Murasu is weakening; very heavy rain forecast in coastal A.P. today"
+   },
+   "summary": {
+    "te": "భారత వాతావరణ శాఖ సముద్రపు ప్రాంత బులెటిన్ (నవంబర్ 3 రాత్రి 11:30 నుంచి అమలు) ప్రకారం, మురసు నవంబర్ 3 రాత్రి 8:30 నాటికి తీవ్ర అల్పపీడనంగా బలహీనపడింది - కోస్తా ఆంధ్రప్రదేశ్‌పై విజయవాడకు 70 కి.మీ. పడమర-నైఋతిలో కేంద్రీకృతమై, గరిష్ఠ గాలుల వేగం గంటకు 55-65 కి.మీ. (ఈదురుతో 75). ఇది ఆర్ఎస్ఎమ్సీ అడ్వైజరీ నం. 18 (నవంబర్ 3 రాత్రి 8:30) అంచనా కంటే కొంచెం ముందుకు వచ్చిన బలహీనీకరణం. నవంబర్ 4 ఉదయానికి అల్పపీడనంగా (గాలులు 40-50 కి.మీ., ఈదురుతో 60) మరింత బలహీనపడే అంచనా ఉంది. జాతీయ ప్రకటన ప్రకారం, నేడు నవంబర్ 4న కోస్తా ఆంధ్రప్రదేశ్, యానంలో ఒకోచోట అతిభారీ వర్షం; నవంబర్ 3, 4 తేదీల్లో దక్షిణ ఛత్తీస్‌గఢ్‌లో భారీ వర్షం పడే అంచనా ఉంది. వ్యవస్థ బలహీనపడినా వర్ష ప్రమాదం కొనసాగుతుంది - జిల్లాల హెచ్చరికలను అనుసరించాలి. ఇవి అంచనాలు మాత్రమే.",
+    "en": "According to IMD's sea-area bulletin (in force from 11:30 PM on November 3), Murasu had weakened into a deep depression by 8:30 PM on November 3, centred over coastal Andhra Pradesh about 70 km west-southwest of Vijayawada, with maximum sustained winds of 55-65 km/h gusting to 75 - a slightly faster weakening than RSMC Advisory No. 18 (8:30 PM, November 3) had projected. It is expected to weaken further into a depression (winds 40-50 km/h, gusting to 60) by the morning of November 4. Per the national press release, very heavy rain is forecast at isolated places in coastal Andhra Pradesh and Yanam today, November 4, and heavy rain in southern Chhattisgarh on November 3-4. The rain hazard continues even as the system weakens - follow district warnings. These are forecasts only."
+   }
+  },
+  {
+   "id": "gk_20261104_india_3",
+   "region": "india",
+   "type": "current_affairs",
+   "source_ids": [
+    "toi_tsinter"
+   ],
+   "event_date": "2026-11-02",
+   "age_band": "class8-10",
+   "audio_ids": {
+    "te": "gk_20261104_india_3",
+    "en": "gk_20261104_india_3__en"
+   },
+   "title": {
+    "te": "టీఎస్ ఇంటర్ 2027: మొదటి, రెండో సంవత్సరం పరీక్షల షెడ్యూల్ త్వరలో - నివేదిక",
+    "en": "TS Intermediate 2027: first, second year exam schedule expected soon, says report"
+   },
+   "summary": {
+    "te": "టైమ్స్ ఆఫ్ ఇండియా నవంబర్ 2 నివేదిక ప్రకారం, తెలంగాణ ఇంటర్మీడియట్ బోర్డు (టీజీబీఐఈ) 2026-27 విద్యా సంవత్సరానికి సంబంధించిన ఇంటర్ మొదటి, రెండో సంవత్సరం పరీక్షల షెడ్యూల్ త్వరలో విడుదల చేయాల్సి ఉంది. నివేదిక అంచనా ప్రకారం, థియరీ పరీక్షలు ఫిబ్రవరి-మార్చి 2027లో ఉదయం 9 నుంచి మధ్యాహ్నం 12 వరకు ఒకే సెషన్‌లో జరిగే అవకాశం; ప్రాక్టికల్స్ ఫిబ్రవరి 2027లో రెండు సెషన్లలో (జనరల్, వొకేషనల్ విడివిడిగా) జరిగే అవకాశం ఉంది. బోర్డు నుంచి అధికారిక ప్రకటన ఇంకా రాలేదు - విద్యార్థులు అధికారిక వెబ్‌సైట్ tgbie.cgg.gov.in ను తరుచూ చూడాలని నివేదిక సూచిస్తోంది. గత ఏడాది (2026) పరీక్షలు ఫిబ్రవరి 25 (మొదటి సంవత్సరం), 26 (రెండో సంవత్సరం) నుంచి ప్రారంభమయ్యాయి.",
+    "en": "According to a Times of India report of November 2, the Telangana Board of Intermediate Education (TGBIE) is expected to release the Intermediate first and second year exam schedule for the 2026-27 academic year soon. The report expects the theory exams to be held in February-March 2027 in a single session from 9 AM to 12 noon, and practicals in February 2027 in two sessions, separately for general and vocational streams. The board has not made an official announcement yet, and the report advises students to check the official website tgbie.cgg.gov.in regularly. Last year (2026), the exams began on February 25 (first year) and February 26 (second year)."
+   }
+  },
+  {
+   "id": "gk_20261104_world_1",
+   "region": "world",
+   "type": "current_affairs",
+   "source_ids": [
+    "reuters_us03"
+   ],
+   "event_date": "2026-11-03",
+   "age_band": "class8-10",
+   "audio_ids": {
+    "te": "gk_20261104_world_1",
+    "en": "gk_20261104_world_1__en"
+   },
+   "title": {
+    "te": "అమెరికాలో ఎన్నికల పోలింగ్: సెనేట్ నియంత్రణపై పోటీ",
+    "en": "Election day in the United States: contest for Senate control"
+   },
+   "summary": {
+    "te": "రాయిటర్స్ నవంబర్ 3 నివేదిక ప్రకారం, అమెరికాలో మంగళవారం నవంబర్ 3న దేశవ్యాప్తంగా ఎన్నికల పోలింగ్ జరిగింది. అక్కడి ప్రధాన పోటీ సెనేట్ నియంత్రణ చుట్టూ: ప్రస్తుతం రిపబ్లికన్లకు 53-47 మెజారిటీ ఉంది; డెమోక్రెట్లు నియంత్రణ సాధించాలంటే నికరంగా 4 సీట్లు కావాలి. పోల్స్ మూసివేసిన తరువాత మంగళవారం రాత్రి (అమెరికా సమయం) నుంచి ఫలితాలు రావడం ప్రారంభమవుతుంది; ఏపీ, డిసిషన్ డెస్క్ హెడ్‌క్వార్టర్స్ వంటి సంస్థలు డేటా ఆధారంగా రేసులను ప్రకటిస్తాయి. కొన్ని రాష్ట్రాల్లో మేయర్, శాసనసభ ఎన్నికలు కూడా జరిగాయి. రాయిటర్స్ నివేదిక సమయానికి పోల్స్ మూసివేయలేదు.",
+    "en": "According to a Reuters report of November 3, polling was held across the United States on Tuesday, November 3. The main contest is for control of the Senate: Republicans currently hold a 53-47 majority, and Democrats need a net gain of four seats to take control. Results begin coming in after polls close on Tuesday night, US time, with organisations like the AP and Decision Desk HQ calling races based on data. Several states also held mayoral and legislative elections. At the time of the Reuters report, the polls had not yet closed."
+   }
+  },
+  {
+   "id": "gk_20261104_static_1",
+   "region": "static",
+   "type": "knowledge",
+   "source_ids": [
+    "imdtcp",
+    "imdadv18"
+   ],
+   "event_date": null,
+   "age_band": "class5-10",
+   "audio_ids": {
+    "te": "gk_20261104_static_1",
+    "en": "gk_20261104_static_1__en"
+   },
+   "title": {
+    "te": "తుఫాను తీరం దాటాక బలహీనం ఎందుకవుతుంది?",
+    "en": "Why does a cyclone weaken after crossing the coast?"
+   },
+   "summary": {
+    "te": "తుఫానుకు శక్తి వనరు వెచ్చని సముద్రపు నీరు నుంచి పొందే తేమ. అది తీరం దాటి భూమి మీదకు వచ్చాక, ఆ వెచ్చని తేమ సరఫరా ఆగిపోతుంది, అంతేకాక భూమి ఉపరితలంతో ఘర్షణ కూడా పెరుగుతుంది - రెండింటి వల్ల గాలుల వేగం తగ్గుతుంది. భారత వాతావరణ శాఖ సలహాల్లోనే ఇది కనిపిస్తుంది: మురసు తీరం దాటినప్పుడు గాలులు గంటకు 100-110 కి.మీ.; నవంబర్ 3 సాయంత్రం 5:30 నాటికి 65-75 కి.మీ. (సైక్లోనిక్ స్టార్మ్); అర్థరాత్రి నాటికి 55-65 కి.మీ. (తీవ్ర అల్పపీడనం); నవంబర్ 4 తెల్లవారు 5:30 నాటికి 40-50 కి.మీ. (అల్పపీడనం) అయ్యే అంచనా. కానీ గమనిక: గాలులు తగ్గినా, తుఫాను మోసుకొచ్చిన తేమ వల్ల భారీ వర్షాల ప్రమాదం కొన్ని రోజులు కొనసాగుతుంది.",
+    "en": "A cyclone's energy source is the moisture it draws from warm seawater. After it crosses the coast and moves over land, that supply of warm moisture stops, and friction with the land surface also increases - together these slow the winds. This is visible in the IMD advisories themselves: when Murasu crossed the coast, its winds were 100-110 km/h; by 5:30 PM on November 3 they were 65-75 km/h (cyclonic storm); by midnight it was expected to be a deep depression with 55-65 km/h; and by 5:30 AM on November 4, a depression with 40-50 km/h. But note: even after the winds weaken, the moisture the cyclone carried keeps the heavy-rain danger going for a few days."
+   }
+  }
+ ],
+ "readings": [
+  {
+   "id": "gk_20261104_reading_1",
+   "age_band": "class5-7",
+   "audio_ids": {
+    "te": "gk_20261104_reading_1",
+    "en": "gk_20261104_reading_1__en"
+   },
+   "source_ids": [
+    "imdpr03",
+    "imdhyd02"
+   ],
+   "title": {
+    "te": "తుఫాను వెళ్లిన తరువాత కూడా జాగ్రత్త",
+    "en": "Caution even after the cyclone passes"
+   },
+   "passage": {
+    "te": "తుఫాను తీరం దాటిన తరువాత కూడా ప్రమాదం పూర్తిగా పోదు. గాలులు తగ్గుతాయి కానీ వర్షం కొనసాగుతుంది. మురసు విషయంలోనూ అలాగే జరిగింది: నవంబర్ 3 తెల్లవారు తీరం దాటినా, ఆ రోజు తెలంగాణలో పది జిల్లాల్లో బలమైన గాలులు, భారీ వర్షాలు ఉన్నాయి. నవంబర్ 4న కూడా దక్షిణ తెలంగాణలోని ఆరు జిల్లాల్లో భారీ వర్ష హెచ్చరిక ఉంది. అలాంటి సమయంలో ఏం చేయాలి? ఇంట్లోనే ఉండాలి. పడిపోయిన ఎలక్ట్రిక్ తీగలను, విరిగిన చెట్లను తాకకూడదు. ముంపు నీటిలోకి వెళ్లకూడదు. తాగే నీరు శుద్ధి చేసినదే అయితేనే తాగాలి. స్కూలు సెలవు పెట్టినా, పని లేకుండా బయటకు వెళ్లకూడదు. తల్లిదండ్రులు, అధికారులు చెప్పిన సూచనలు పాటిస్తే మనం సురక్షితంగా ఉంటాము.",
+    "en": "The danger does not fully go away even after a cyclone crosses the coast. The winds come down, but the rain continues. The same happened with Murasu: it crossed the coast early on November 3, yet that day ten Telangana districts saw strong winds and heavy rain. On November 4 too, six districts in southern Telangana have a heavy-rain warning. What should we do at such times? Stay indoors. Do not touch fallen electric wires or broken trees. Do not step into floodwater. Drink only water that has been cleaned. Even if school has a holiday, do not go out without a reason. If we follow what our parents and officials tell us, we stay safe."
+   }
+  },
+  {
+   "id": "gk_20261104_reading_2",
+   "age_band": "class8-10",
+   "audio_ids": {
+    "te": "gk_20261104_reading_2",
+    "en": "gk_20261104_reading_2__en"
+   },
+   "source_ids": [
+    "imdadv18",
+    "imdpr03",
+    "imdtcp"
+   ],
+   "title": {
+    "te": "వర్గం తగ్గడం వేరు, ప్రమాదం తగ్గడం వేరు",
+    "en": "A weaker category is not the same as less danger"
+   },
+   "passage": {
+    "te": "తుఫాను వర్గం అనేది దాని గాలుల వేగం ఆధారంగా నిర్ణయిస్తారు. భారత వాతావరణ శాఖ ప్రకారం, గంటకు 89 కి.మీ. కంటే ఎక్కువ గాలులు ఉంటే తీవ్ర తుఫాను; 63-88 కి.మీ. ఉంటే తుఫాను; 48-62 కి.మీ. ఉంటే తీవ్ర అల్పపీడనం; 45 కి.మీ. వరకు ఉంటే అల్పపీడనం. మురసు చరిత్రను చూడండి: తీరం దాటేటప్పుడు గంటకు 100-110 కి.మీ. గాలులతో తీవ్ర తుఫాను; పన్నెండు గంటల్లో సైక్లోనిక్ స్టార్మ్; మరో ఆరు గంటల్లో తీవ్ర అల్పపీడనం; తరువాత అల్పపీడనం. వర్గం మారుతోంది, కానీ వర్షం ఆగడం లేదు. తీరం దాటిన రోజు కోస్తా ఆంధ్రప్రదేశ్‌లో 24 గంటల్లో 12 నుంచి 21 సెంటీమీటర్ల వర్షం నమోదైంది. తరువాతి రోజు కూడా అతిభారీ వర్ష హెచ్చరిక ఉంది. ఎందుకంటే తుఫాను సముద్రం నుంచి మోసుకొచ్చిన భారీ తేమ భూమి మీద ఇంకా కురుస్తూనే ఉంటుంది. అందుకే వాతావరణ శాఖ 'తుఫాను బలహీనపడింది' అన్నా, 'వర్ష హెచ్చరిక కొనసాగుతోంది' అని విడివిడిగా చెబుతుంది. పాఠం: గాలుల వర్గం తగ్గడమే ప్రమాదం పోవడం కాదు; వర్ష హెచ్చరిక ఉన్నంత వరకు జాగ్రత్త కొనసాగాలి.",
+    "en": "A cyclone's category is decided by its wind speed. According to the India Meteorological Department, winds above 89 km/h mean a severe cyclonic storm; 63-88 km/h a cyclonic storm; 48-62 km/h a deep depression; and up to 45 km/h a depression. Look at Murasu's story: at landfall it was a severe cyclonic storm with winds of 100-110 km/h; twelve hours later a cyclonic storm; six hours after that a deep depression; and later a depression. The category kept changing, but the rain did not stop. On the day it crossed the coast, coastal Andhra Pradesh recorded 12 to 21 centimetres of rain in 24 hours. A very heavy rain warning continued the next day too. This is because the huge amount of moisture the cyclone carried from the sea is still falling over land. That is why the weather department says separately that the cyclone has weakened and that the rain warning continues. The lesson: a lower wind category does not mean the danger is over; caution must continue as long as the rain warning stays."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "id": "gk_20261104_01",
+   "style": "original_practice_not_official_exam",
+   "source_ids": [
+    "imdpr03"
+   ],
+   "event_date": "2026-11-03",
+   "audio_ids": {
+    "te": "gk_20261104_quiz_01_q",
+    "en": "gk_20261104_quiz_01_q__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261104_quiz_01_a",
+    "en": "gk_20261104_quiz_01_a__en"
+   },
+   "item_id": "gk_20261104_telangana_1",
+   "question": {
+    "te": "వాతావరణ శాఖ ప్రకారం, మురసు ప్రభావంతో నవంబర్ 3 మధ్యాహ్నం వరకు తెలంగాణ జిల్లాల్లో ఎంత వేగంతో గాలులు ఉండే అంచనా ఉండేది?",
+    "en": "According to the weather department, how fast were the winds expected to be in Telangana districts till noon on November 3 under Murasu's influence?"
+   },
+   "options": {
+    "te": [
+     "గంటకు 70-80 కి.మీ. (ఈదురుతో 90 కి.మీ.)",
+     "గంటకు 20-30 కి.మీ.",
+     "గంటకు 100-110 కి.మీ.",
+     "గాలులు ఉండే అంచనా లేదు"
+    ],
+    "en": [
+     "70-80 km/h, gusting to 90 km/h",
+     "20-30 km/h",
+     "100-110 km/h",
+     "No winds were expected"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "జాతీయ ప్రకటన (నవంబర్ 3 మధ్యాహ్నం 1:30) ప్రకారం, నవంబర్ 3 మధ్యాహ్నం వరకు తెలంగాణలోని పది జిల్లాల్లో గంటకు 70-80 కి.మీ. (ఈదురుతో 90) గాలులు, అర్థరాత్రి నాటికి 50-60 కి.మీ.కు తగ్గే అంచనా ఉండేది.",
+    "en": "According to the national release (1:30 PM, November 3), winds of 70-80 km/h gusting to 90 km/h were expected till noon on November 3 in ten Telangana districts, easing to 50-60 km/h by midnight."
+   }
+  },
+  {
+   "id": "gk_20261104_02",
+   "style": "original_practice_not_official_exam",
+   "source_ids": [
+    "imdhyd02"
+   ],
+   "event_date": "2026-11-02",
+   "audio_ids": {
+    "te": "gk_20261104_quiz_02_q",
+    "en": "gk_20261104_quiz_02_q__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261104_quiz_02_a",
+    "en": "gk_20261104_quiz_02_a__en"
+   },
+   "item_id": "gk_20261104_telangana_1",
+   "question": {
+    "te": "హైదరాబాద్ వాతావరణ కేంద్రం నవంబర్ 2 ప్రకటన ప్రకారం, నవంబర్ 4 (డే-3) యెల్లో హెచ్చరిక కింద ఎన్ని జిల్లాల్లో భారీ వర్షం అంచనా?",
+    "en": "According to the Hyderabad Met Centre's November 2 release, how many districts have a heavy-rain forecast under the yellow warning for November 4 (Day-3)?"
+   },
+   "options": {
+    "te": [
+     "6 జిల్లాలు",
+     "3 జిల్లాలు",
+     "10 జిల్లాలు",
+     "33 జిల్లాలు"
+    ],
+    "en": [
+     "6 districts",
+     "3 districts",
+     "10 districts",
+     "33 districts"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "నవంబర్ 2 ప్రకటన (డే-3 అంటే నవంబర్ 4) ప్రకారం వికారాబాద్, మహబూబ్‌నగర్, నాగర్‌కర్నూల్, వనపర్తి, నారాయణపేట, జోగులాంబ గద్వాల్ - ఈ 6 జిల్లాల్లో యెల్లో హెచ్చరిక.",
+    "en": "Per the November 2 release (Day-3 is November 4), the yellow warning covers 6 districts: Vikarabad, Mahabubnagar, Nagarkurnool, Wanaparthy, Narayanpet and Jogulamba Gadwal."
+   }
+  },
+  {
+   "id": "gk_20261104_03",
+   "style": "original_practice_not_official_exam",
+   "source_ids": [
+    "hindu_cyber"
+   ],
+   "event_date": "2026-11-03",
+   "audio_ids": {
+    "te": "gk_20261104_quiz_03_q",
+    "en": "gk_20261104_quiz_03_q__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261104_quiz_03_a",
+    "en": "gk_20261104_quiz_03_a__en"
+   },
+   "item_id": "gk_20261104_telangana_2",
+   "question": {
+    "te": "వర్షాల దృష్ట్యా సైబరాబాద్ పోలీసులు ఐటీ కంపెనీలకు ఏ సూచన చేశారు?",
+    "en": "In view of the rains, what advice did the Cyberabad Police give IT companies?"
+   },
+   "options": {
+    "te": [
+     "నవంబర్ 3-5 మధ్య మధ్యాహ్నం 2 నుంచి దశలవారీ ఎర్లీ లాగ్అవుట్",
+     "వారం రోజుల పాటు సెలవులు",
+     "రాత్రి షిఫ్టులు పెంచాలి",
+     "ఏ సూచనా ఇవ్వలేదు"
+    ],
+    "en": [
+     "Staggered early logout from 2 PM during November 3-5",
+     "Holidays for a week",
+     "Increase night shifts",
+     "Gave no advice"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "ది హిందూ నవంబర్ 3 నివేదిక ప్రకారం, సైబరాబాద్ ట్రాఫిక్ పోలీసులు నవంబర్ 3 నుంచి 5 వరకు మధ్యాహ్నం 2 గంటల నుంచి ఎర్లీ లాగ్అవుట్, అవసరమైతే వర్క్ ఫ్రమ్ హోమ్ ఇవ్వాలని సూచించారు.",
+    "en": "According to The Hindu's November 3 report, Cyberabad Traffic Police advised staggered early logout from 2 PM between November 3 and 5, and work from home where needed."
+   }
+  },
+  {
+   "id": "gk_20261104_04",
+   "style": "original_practice_not_official_exam",
+   "source_ids": [
+    "imdpr03"
+   ],
+   "event_date": "2026-11-03",
+   "audio_ids": {
+    "te": "gk_20261104_quiz_04_q",
+    "en": "gk_20261104_quiz_04_q__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261104_quiz_04_a",
+    "en": "gk_20261104_quiz_04_a__en"
+   },
+   "item_id": "gk_20261104_india_1",
+   "question": {
+    "te": "తీవ్ర తుఫాను మురసు తీరాన్ని ఎప్పుడు దాటింది?",
+    "en": "When did severe cyclonic storm Murasu cross the coast?"
+   },
+   "options": {
+    "te": [
+     "నవంబర్ 3 తెల్లవారు 3:30-5:30 మధ్య",
+     "నవంబర్ 2 రాత్రి",
+     "నవంబర్ 3 సాయంత్రం",
+     "నవంబర్ 4 ఉదయం"
+    ],
+    "en": [
+     "Between 3:30 and 5:30 AM on November 3",
+     "On the night of November 2",
+     "On the evening of November 3",
+     "On the morning of November 4"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "జాతీయ ప్రకటన ప్రకారం, మురసు నవంబర్ 3 తెల్లవారు 0330-0530 గంటల మధ్య ఒంగోలు దగ్గర తీరాన్ని దాటింది (జరిగిన సంఘటన).",
+    "en": "According to the national release, Murasu crossed the coast close to Ongole between 0330 and 0530 IST on November 3 (an event that has occurred)."
+   }
+  },
+  {
+   "id": "gk_20261104_05",
+   "style": "original_practice_not_official_exam",
+   "source_ids": [
+    "imdpr03"
+   ],
+   "event_date": "2026-11-03",
+   "audio_ids": {
+    "te": "gk_20261104_quiz_05_q",
+    "en": "gk_20261104_quiz_05_q__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261104_quiz_05_a",
+    "en": "gk_20261104_quiz_05_a__en"
+   },
+   "item_id": "gk_20261104_india_1",
+   "question": {
+    "te": "మురసు ఏ ప్రాంతం దగ్గర తీరాన్ని దాటింది?",
+    "en": "Near which place did Murasu cross the coast?"
+   },
+   "options": {
+    "te": [
+     "నెల్లూరు - నర్సాపూర్ మధ్య ఒంగోలు దగ్గర",
+     "విశాఖపట్నం దగ్గర",
+     "చెన్నై దగ్గర",
+     "కాకినాడ దగ్గర"
+    ],
+    "en": [
+     "Close to Ongole, between Nellore and Narsapur",
+     "Near Visakhapatnam",
+     "Near Chennai",
+     "Near Kakinada"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "జాతీయ ప్రకటన ప్రకారం, మురసు నెల్లూరు - నర్సాపూర్ మధ్య ఒంగోలు దగ్గర దక్షిణ ఆంధ్రప్రదేశ్ తీరాన్ని దాటింది; కేంద్రం 15.53°N/80.22°E.",
+    "en": "According to the national release, Murasu crossed the south Andhra coast between Nellore and Narsapur, close to Ongole; the centre was at 15.53°N/80.22°E."
+   }
+  },
+  {
+   "id": "gk_20261104_06",
+   "style": "original_practice_not_official_exam",
+   "source_ids": [
+    "imdpr03"
+   ],
+   "event_date": "2026-11-03",
+   "audio_ids": {
+    "te": "gk_20261104_quiz_06_q",
+    "en": "gk_20261104_quiz_06_q__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261104_quiz_06_a",
+    "en": "gk_20261104_quiz_06_a__en"
+   },
+   "item_id": "gk_20261104_india_1",
+   "question": {
+    "te": "నవంబర్ 3 ఉదయం 8:30తో ముగిసిన 24 గంటల్లో కోస్తా ఆంధ్రప్రదేశ్‌లో నమోదైన అత్యంత భారీ వర్షపాతం ఎంత?",
+    "en": "How much extremely heavy rainfall was recorded in coastal Andhra Pradesh in the 24 hours ending 8:30 AM on November 3?"
+   },
+   "options": {
+    "te": [
+     "12-21 సెం.మీ.",
+     "1-2 సెం.మీ.",
+     "50-60 సెం.మీ.",
+     "వర్షం నమోదు కాలేదు"
+    ],
+    "en": [
+     "12-21 cm",
+     "1-2 cm",
+     "50-60 cm",
+     "No rain was recorded"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "జాతీయ ప్రకటన ప్రకారం, ఆ 24 గంటల్లో కోస్తా ఆంధ్రప్రదేశ్‌లో 12-21 సెం.మీ. అత్యంత భారీ వర్షం నమోదైంది (నమోదైన వాస్తవ సంఖ్య).",
+    "en": "According to the national release, coastal Andhra Pradesh recorded extremely heavy rain of 12-21 cm in those 24 hours (an actual recorded figure)."
+   }
+  },
+  {
+   "id": "gk_20261104_07",
+   "style": "original_practice_not_official_exam",
+   "source_ids": [
+    "toi_tsinter"
+   ],
+   "event_date": "2026-11-02",
+   "audio_ids": {
+    "te": "gk_20261104_quiz_07_q",
+    "en": "gk_20261104_quiz_07_q__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261104_quiz_07_a",
+    "en": "gk_20261104_quiz_07_a__en"
+   },
+   "item_id": "gk_20261104_india_3",
+   "question": {
+    "te": "టైమ్స్ ఆఫ్ ఇండియా నివేదిక ప్రకారం, టీఎస్ ఇంటర్ 2027 థియరీ పరీక్షలు ఎప్పుడు జరిగే అంచనా?",
+    "en": "According to the Times of India report, when are the TS Inter 2027 theory exams expected to be held?"
+   },
+   "options": {
+    "te": [
+     "ఫిబ్రవరి-మార్చి 2027లో",
+     "జనవరి 2027లో",
+     "డిసెంబర్ 2026లో",
+     "మే 2027లో"
+    ],
+    "en": [
+     "In February-March 2027",
+     "In January 2027",
+     "In December 2026",
+     "In May 2027"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "నివేదిక అంచనా ప్రకారం థియరీ పరీక్షలు ఫిబ్రవరి-మార్చి 2027లో ఉదయం 9-12 ఒకే సెషన్‌లో జరిగే అవకాశం; బోర్డు అధికారిక ప్రకటన ఇంకా రాలేదు.",
+    "en": "Per the report's expectation, theory exams are likely in February-March 2027 in a single 9 AM-12 noon session; the board's official announcement is still awaited."
+   }
+  },
+  {
+   "id": "gk_20261104_08",
+   "style": "original_practice_not_official_exam",
+   "source_ids": [
+    "reuters_us03"
+   ],
+   "event_date": "2026-11-03",
+   "audio_ids": {
+    "te": "gk_20261104_quiz_08_q",
+    "en": "gk_20261104_quiz_08_q__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261104_quiz_08_a",
+    "en": "gk_20261104_quiz_08_a__en"
+   },
+   "item_id": "gk_20261104_world_1",
+   "question": {
+    "te": "రాయిటర్స్ నివేదిక ప్రకారం, ప్రస్తుతం అమెరికా సెనేట్‌లో రిపబ్లికన్ల మెజారిటీ ఎంత?",
+    "en": "According to the Reuters report, what is the Republicans' current majority in the US Senate?"
+   },
+   "options": {
+    "te": [
+     "53-47",
+     "60-40",
+     "50-50",
+     "47-53"
+    ],
+    "en": [
+     "53-47",
+     "60-40",
+     "50-50",
+     "47-53"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "రాయిటర్స్ నవంబర్ 3 నివేదిక ప్రకారం, రిపబ్లికన్లకు 53-47 మెజారిటీ; డెమోక్రెట్లకు నియంత్రణ కావాలంటే నికరంగా 4 సీట్లు కావాలి.",
+    "en": "According to the November 3 Reuters report, Republicans hold a 53-47 majority; Democrats need a net gain of four seats for control."
+   }
+  },
+  {
+   "id": "gk_20261104_09",
+   "style": "original_practice_not_official_exam",
+   "source_ids": [
+    "imdtcp",
+    "imdadv18"
+   ],
+   "event_date": null,
+   "audio_ids": {
+    "te": "gk_20261104_quiz_09_q",
+    "en": "gk_20261104_quiz_09_q__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261104_quiz_09_a",
+    "en": "gk_20261104_quiz_09_a__en"
+   },
+   "item_id": "gk_20261104_static_1",
+   "question": {
+    "te": "తుఫాను తీరం దాటాక బలహీనపడటానికి ప్రధాన కారణం ఏమిటి?",
+    "en": "What is the main reason a cyclone weakens after crossing the coast?"
+   },
+   "options": {
+    "te": [
+     "వెచ్చని సముద్ర తేమ (శక్తి వనరు) అందకపోవడం, భూమి ఘర్షణ",
+     "సూర్యుడు దూరం కావడం",
+     "చంద్రుడు గురుత్వాకర్షణ",
+     "కారణం లేదు"
+    ],
+    "en": [
+     "Loss of warm ocean moisture (its energy source) and friction with land",
+     "The Sun moving away",
+     "The Moon's gravity",
+     "There is no reason"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "తుఫాను శక్తి వనరు వెచ్చని సముద్రపు తేమ; భూమి మీదకు వచ్చాక అది ఆగిపోయి, ఘర్షణ పెరుగుతుంది - అందుకే మురసు గాలులు 100-110 నుంచి 65-75 కి.మీ.కు 12 గంటల్లో తగ్గాయి.",
+    "en": "A cyclone's energy source is warm ocean moisture; over land that supply stops and friction increases - which is why Murasu's winds fell from 100-110 to 65-75 km/h within 12 hours."
+   }
+  },
+  {
+   "id": "gk_20261104_10",
+   "style": "original_practice_not_official_exam",
+   "source_ids": [
+    "imdadv18"
+   ],
+   "event_date": "2026-11-03",
+   "audio_ids": {
+    "te": "gk_20261104_quiz_10_q",
+    "en": "gk_20261104_quiz_10_q__en"
+   },
+   "answer_audio_ids": {
+    "te": "gk_20261104_quiz_10_a",
+    "en": "gk_20261104_quiz_10_a__en"
+   },
+   "item_id": "gk_20261104_india_2",
+   "question": {
+    "te": "ఆర్ఎస్ఎమ్సీ సలహా నం. 18 ప్రకారం, నవంబర్ 4 తెల్లవారు 5:30 నాటికి మురసు ఏ స్థాయికి బలహీనపడే అంచనా?",
+    "en": "According to RSMC Advisory No. 18, to what level was Murasu expected to weaken by 5:30 AM on November 4?"
+   },
+   "options": {
+    "te": [
+     "అల్పపీడనం (గంటకు 40-50 కి.మీ. గాలులు)",
+     "తీవ్ర తుఫాను",
+     "సైక్లోనిక్ స్టార్మ్",
+     "పూర్తిగా క్షీణిపోయి అంతరించిపోతుంది"
+    ],
+    "en": [
+     "A depression (winds of 40-50 km/h)",
+     "A severe cyclonic storm",
+     "A cyclonic storm",
+     "It will dissipate completely"
+    ]
+   },
+   "answer_index": 0,
+   "explanation": {
+    "te": "అడ్వైజరీ నం. 18 అంచనా పట్టిక ప్రకారం, నవంబర్ 4 తెల్లవారు 5:30 నాటికి మురసు అల్పపీడనంగా (గంటకు 40-50 కి.మీ., ఈదురుతో 60) మారే అంచనా. ఇది అంచనా మాత్రమే.",
+    "en": "Per the forecast track table in Advisory No. 18, Murasu was expected to weaken into a depression (40-50 km/h gusting to 60) by 5:30 AM on November 4. This is a forecast."
+   }
+  }
+ ],
+ "edition_date": "2026-11-04",
+ "verified_at": "2026-11-04T02:46:00+05:30",
+ "status": "source_checked_translation_review_recommended_audio_pending",
+ "coverage": {
+  "telangana": [
+   "gk_20261104_telangana_1",
+   "gk_20261104_telangana_2"
+  ],
+  "india": [
+   "gk_20261104_india_1",
+   "gk_20261104_india_2",
+   "gk_20261104_india_3"
+  ],
+  "world": [
+   "gk_20261104_world_1"
+  ],
+  "static": [
+   "gk_20261104_static_1"
+  ]
+ },
+ "editorial_note": {
+  "te": "నవంబర్ 4, 2026 ఎడిషన్: మురసు తీరం దాటిన తరువాత పరిస్థితి - తెలంగాణ యెల్లో హెచ్చరిక, సైబరాబాద్ ఎర్లీ లాగ్అవుట్ సూచన, ఏపీ వర్షం, టీఎస్ ఇంటర్ 2027 షెడ్యూల్ నివేదిక, అమెరికా ఎన్నికల పోలింగ్. అన్ని అంచనాలు ప్రకటన తేదీతో పేర్కొన్నాం.",
+  "en": "November 4, 2026 edition: the situation after Murasu's landfall - Telangana yellow alert, Cyberabad early-logout advisory, A.P. rain, the TS Inter 2027 schedule report, and US election-day polling. Every forecast is given with its release date."
+ }
+}
