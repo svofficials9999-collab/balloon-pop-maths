@@ -1,0 +1,666 @@
+{
+  "schema_version": 1,
+  "revision": "2026-11-05-rev1",
+  "timezone": "Asia/Calcutta",
+  "sources": {
+    "imdpr04": {
+      "publisher": "India Meteorological Department, National Press Release, issued 1300 IST 04.11.2026",
+      "url": "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2004-11-2026.pdf",
+      "published_date": "2026-11-04"
+    },
+    "imdhyd04": {
+      "publisher": "India Meteorological Department, Meteorological Centre Hyderabad, Press Release 04/11/2026",
+      "url": "https://mausam.imd.gov.in/hyderabad/mcdata/press_release.pdf",
+      "published_date": "2026-11-04"
+    },
+    "hindu_murasu": {
+      "publisher": "The Hindu, 'Cyclone Murasu impact on Telangana | Extremely heavy rain continues to lash Bhadradri on November 4', updated 04.11.2026 14:52 IST (rainfall data: Telangana Development Planning Society)",
+      "url": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-impact-on-telangana-extremely-heavy-overnight-rain-in-bhadradri-and-khammam/article71664340.ece",
+      "published_date": "2026-11-04"
+    },
+    "newsonair_icanada": {
+      "publisher": "News On AIR (Akashvani), 'India and Canada exchange views on regional and global issues in Defence Dialogue', 04.11.2026 14:27 IST",
+      "url": "https://newsonair.gov.in/india-and-canada-exchange-views-on-regional-and-global-issues-in-defence-dialogue/",
+      "published_date": "2026-11-04"
+    },
+    "mcc_neet": {
+      "publisher": "Medical Counselling Committee (MCC), DGHS, Schedule for NEET-UG Counselling 2026 - Special Stray Vacancy Round for MBBS and 5th Round of BDS/B.Sc Nursing 2026 (generated 30.10.2026)",
+      "url": "https://mcc.nic.in/document/special-stray-vacancy-round-for-mbbs-and-5th-round-of-bds-b-s-c-nursing-2026/",
+      "published_date": "2026-10-30"
+    },
+    "bbc_usmidterms": {
+      "publisher": "BBC News, 'Everything you need to know from the US midterm elections', published 04.11.2026",
+      "url": "https://www.bbc.com/news/articles/cmr4y92rgd9po",
+      "published_date": "2026-11-04"
+    },
+    "imdtcp": {
+      "publisher": "India Meteorological Department, Cyclone Warning Services: Standard Operation Procedure (TCP), Edition 2022",
+      "url": "https://mausam.imd.gov.in/ptc/TCP/TCP2022.pdf",
+      "published_date": null
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261105_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "imdpr04",
+        "imdhyd04"
+      ],
+      "event_date": "2026-11-04",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261105_telangana_1",
+        "en": "gk_20261105_telangana_1__en"
+      },
+      "title": {
+        "te": "మురసు అవశేషం తెలంగాణపై అల్పపీడనంగా; నేడు 13 జిల్లాల్లో యెల్లో అలర్ట్",
+        "en": "Murasu's remnant a depression over Telangana; yellow alert in 13 districts today"
+      },
+      "summary": {
+        "te": "భారత వాతావరణ శాఖ ప్రకటనల ప్రకారం, తీవ్ర తుఫాను మురసు బలహీనపడుతూ నవంబర్ 4 ఉదయం 5:30 నాటికి తూర్పు తెలంగాణ, పక్కనే కోస్తా ఆంధ్రప్రదేశ్‌పై అల్పపీడనంగా మారింది; ఉదయం 8:30 నాటికి దాని కేంద్రం ఖమ్మానికి 10 కి.మీ. నైఋతిలో ఉంది. నవంబర్ 4 మధ్యాహ్నం 1 గంటల జాతీయ ప్రకటన ప్రకారం, అది ఆ రోజు సాయంత్రం నాటికి బుగ్గపడిన అల్పపీడన వలయంగా (వెల్-మార్క్డ్ లో ప్రెజర్ ఏరియా) మారే అంచనా ఉంది. నవంబర్ 4 ఉదయం 8:30తో ముగిసిన 24 గంటల్లో తెలంగాణ, కోస్తా ఆంధ్రప్రదేశ్‌లో 21 సెం.మీ. కంటే ఎక్కువ అత్యంత భారీ వర్షం నమోదైంది. నేడు నవంబర్ 5న హైదరాబాద్ వాతావశాఖ ప్రకటన ప్రకారం కరీంనగర్, పెద్దపల్లి, జయశంకర్ భూపాలపల్లి, ములుగు, భద్రాద్రి కొత్తగూడెం, ఖమ్మం, నల్గొండ, సూర్యాపేట, మహబూబాబాద్, వరంగల్, హనుమకొండ, జనగామ, రంగారెడ్డి - ఈ 13 జిల్లాల్లో ఉరుములు మెరుపులతో గంటకు 30-40 కి.మీ. ఈదురు గాలుల యెల్లో హెచ్చరిక ఉంది. నవంబర్ 8-10 మధ్య పొడి వాతావరణం అంచనా.",
+        "en": "According to India Meteorological Department releases, the remnant of severe cyclonic storm Murasu weakened into a depression over east Telangana and adjoining coastal Andhra Pradesh by 5:30 AM on November 4; by 8:30 AM its centre was 10 km southwest of Khammam. The national release issued at 1 PM on November 4 expected it to weaken further into a well-marked low pressure area by that evening. Extremely heavy rain of more than 21 cm was recorded over Telangana and coastal Andhra Pradesh in the 24 hours ending 8:30 AM on November 4. For today, November 5, the Hyderabad Met Centre's release keeps a yellow warning of thunderstorms with lightning and gusty winds of 30-40 km/h in 13 districts: Karimnagar, Peddapalli, Jayashankar Bhupalpally, Mulugu, Bhadradri Kothagudem, Khammam, Nalgonda, Suryapet, Mahabubabad, Warangal, Hanumakonda, Jangaon and Rangareddy. Dry weather is forecast from November 8 to 10."
+      }
+    },
+    {
+      "id": "gk_20261105_telangana_2",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "hindu_murasu"
+      ],
+      "event_date": "2026-11-04",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261105_telangana_2",
+        "en": "gk_20261105_telangana_2__en"
+      },
+      "title": {
+        "te": "అశ్వారావుపేటలో ఐదున్నర గంటల్లో 25.3 సెం.మీ. వర్షం",
+        "en": "253 mm of rain in five and a half hours at Aswaraopet"
+      },
+      "summary": {
+        "te": "ది హిందూ నవంబర్ 4 నివేదిక ప్రకారం, మురసు ప్రభావంతో నవంబర్ 3 రాత్రి ఖమ్మం, భద్రాద్రి కొత్తగూడెం జిల్లాల్లో ఒక్కో మండలంలో 204 నుంచి 235 మి.మీ. అత్యంత భారీ వర్షం; మరికొన్ని మండలాల్లో 150-204 మి.మీ. అతిభారీ వర్షం నమోదైంది. నవంబర్ 4న కూడా వర్షం ఆగలేదు: తెలంగాణ అభివృద్ధి ప్రణాళిక సంస్థ (టీజీడీపీఎస్) గణాంకాల ప్రకారం, భద్రాద్రి కొత్తగూడెం జిల్లా అశ్వారావుపేట మండలంలో ఉదయం 8:30 నుంచి మధ్యాహ్నం 2 గంటల మధ్య - కేవలం ఐదున్నర గంటల్లో - 253 మి.మీ. వర్షం కురిసింది. అదే సమయంలో దమ్మపేట మండలం మల్కారంలో 187.8 మి.మీ., అంకంపాలెంలో 148.8 మి.మీ. నమోదైంది. నవంబర్ 4న భద్రాద్రి కొత్తగూడెం జిల్లాకు ఆరెంజ్ అలర్ట్ కొనసాగింది.",
+        "en": "According to The Hindu's November 4 report, under Murasu's influence, one mandal each in Khammam and Bhadradri Kothagudem districts received extremely heavy rainfall of 204 to 235 mm overnight on November 3, and several more mandals received very heavy rainfall of 150 to 204 mm. The rain did not stop on November 4 either: according to Telangana Development Planning Society data, Aswaraopet mandal in Bhadradri Kothagudem district received 253 mm of rain in just five and a half hours, between 8:30 AM and 2 PM on November 4. In the same period, Malkaram in Dammapeta mandal recorded 187.8 mm and Ankampalem 148.8 mm. An orange alert continued for Bhadradri Kothagudem district on November 4."
+      }
+    },
+    {
+      "id": "gk_20261105_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "imdpr04"
+      ],
+      "event_date": "2026-11-04",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261105_india_1",
+        "en": "gk_20261105_india_1__en"
+      },
+      "title": {
+        "te": "మురసు కథ ముగిసే దశకు: 24 గంటల్లో ఏపీ, తెలంగాణలో అత్యంత భారీ వర్ష రికార్డు",
+        "en": "Murasu nears its end: record extremely heavy rain in A.P. and Telangana in 24 hours"
+      },
+      "summary": {
+        "te": "భారత వాతావశాఖ జాతీయ ప్రకటన (నవంబర్ 4 మధ్యాహ్నం 1 గంట) ప్రకారం, నవంబర్ 4 ఉదయం 8:30తో ముగిసిన 24 గంటల్లో తెలంగాణ, కోస్తా ఆంధ్రప్రదేశ్‌లో 21 సెం.మీ. కంటే ఎక్కువ అత్యంత భారీ వర్షం నమోదైంది; అత్యధికంగా తెలంగాణలోని భద్రాద్రి కొత్తగూడెం జిల్లా ములకలపల్లిలో 24 సెం.మీ., కోస్తా ఏపీలోని పశ్చిమ గోదావరిలో 21 సెం.మీ. నమోదైంది. ఛత్తీస్‌గఢ్, కోస్తా మరియు దక్షిణ అంతర్గత కర్ణాటక, తమిళనాడులో 7-11 సెం.మీ. భారీ వర్షం నమోదైంది. మురసు నవంబర్ 3 మధ్యాహ్నం 2:30 నాటికి సైక్లోనిక్ స్టార్మ్‌గా, రాత్రి 8:30 నాటికి తీవ్ర అల్పపీడనంగా, నవంబర్ 4 ఉదయం 5:30 నాటికి అల్పపీడనంగా బలహీనపడింది; నవంబర్ 4 సాయంత్రం నాటికి బుగ్గపడిన అల్పపీడన వలయం కావాల్సిందని ప్రకటన అంచనా వేసింది (ఇది అంచనా). నవంబర్ 4న ఆంధ్రప్రదేశ్ తీరంలో మత్స్యకారులకు హెచ్చరిక ఉంది.",
+        "en": "According to the IMD national release (1 PM, November 4), extremely heavy rain of more than 21 cm was recorded over Telangana and coastal Andhra Pradesh in the 24 hours ending 8:30 AM on November 4; the highest was 24 cm at Mulakalapalle in Telangana's Bhadradri Kothagudem district and 21 cm at West Godavari in coastal Andhra Pradesh. Heavy rain of 7-11 cm was recorded over Chhattisgarh, coastal and south interior Karnataka, and Tamil Nadu. Murasu weakened into a cyclonic storm by 2:30 PM on November 3, a deep depression by 8:30 PM, and a depression by 5:30 AM on November 4; the release forecast it would become a well-marked low pressure area by the evening of November 4 (this is a forecast). A fishermen warning was in place along the Andhra Pradesh coast on November 4."
+      }
+    },
+    {
+      "id": "gk_20261105_india_2",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "newsonair_icanada"
+      ],
+      "event_date": "2026-11-03",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261105_india_2",
+        "en": "gk_20261105_india_2__en"
+      },
+      "title": {
+        "te": "భారత్-కెనడా మధ్య తొలి డిఫెన్స్ డైలాగ్",
+        "en": "First-ever India-Canada Defence Dialogue held"
+      },
+      "summary": {
+        "te": "ఆకాశవాణి న్యూస్ నవంబర్ 4 నివేదిక ప్రకారం, భారత్, కెనడా మధ్య తొలి డిఫెన్స్ డైలాగ్ (రక్షణ సంభాషణ) నవంబర్ 3న వర్చువల్‌గా జరిగింది. భారత వైపు నుంచి రక్షణ మంత్రిత్వ శాఖ జాయింట్ సెక్రటరీ (ఇంటర్నేషనల్ కోఆపరేషన్) డాక్టర్ అమిత్ తెలంగ్, కెనడా వైపు నుంచి అసిస్టెంట్ డిప్యూటీ మినిస్టర్ (పాలసీ) స్కాట్ మిల్లర్ ఈ సంభాషణకు సహ-అధ్యక్షత వహించారు. సామర్థ్య నిర్మాణం (కెపాసిటీ బిల్డింగ్), సైనిక-సాంకేతిక మార్పిడులు, రక్షణ పరిశ్రమల సహకారం పెంచే మార్గాలపై చర్చ జరిగింది; ప్రాంతీయ, అంతర్జాతీయ అంశాలపై అభిప్రాయాలు పంచుకున్నారని రక్షణ మంత్రిత్వ శాఖ తెలిపింది.",
+        "en": "According to a News On AIR report of November 4, the first India-Canada Defence Dialogue was held virtually on November 3. It was co-chaired by Dr Amit Telang, Joint Secretary (International Cooperation) in India's Ministry of Defence, and Scott Millar, Assistant Deputy Minister (Policy) at Canada's Department of National Defence. The dialogue explored ways to strengthen defence cooperation in capacity building, military-technical exchanges and defence industrial collaboration, and the two sides exchanged views on regional and global issues, the Defence Ministry said."
+      }
+    },
+    {
+      "id": "gk_20261105_india_3",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "mcc_neet"
+      ],
+      "event_date": "2026-11-05",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261105_india_3",
+        "en": "gk_20261105_india_3__en"
+      },
+      "title": {
+        "te": "నీట్ యూజీ 2026: స్పెషల్ స్ట్రే వెకెన్సీ రౌండ్ ఛాయిస్ ఫిల్లింగ్ నేటితో ముగియనుంది",
+        "en": "NEET UG 2026: special stray vacancy round choice filling ends today"
+      },
+      "summary": {
+        "te": "మెడికల్ కౌన్సెలింగ్ కమిటీ (ఎమ్సీసీ) అధికారిక షెడ్యూల్ ప్రకారం, నీట్ యూజీ 2026 కౌన్సెలింగ్‌లో ఎంబీబీఎస్ స్పెషల్ స్ట్రే వెకెన్సీ రౌండ్, బీడీఎస్/బీఎస్సీ నర్సింగ్ 5వ రౌండ్ కోసం ఛాయిస్ ఫిల్లింగ్, లాకింగ్ నేడు నవంబర్ 5 ఉదయం 11 గంటలతో ముగుస్తుంది (సర్వర్ సమయం ప్రకారం). సీట్ల కేటాయింపు ప్రాసెసింగ్ నవంబర్ 5-6, ఫలితం నవంబర్ 7న విడుదలవుతుంది; కేటాయింపు పొందిన విద్యార్థులు నవంబర్ 7 నుంచి 16 వరకు కళాశాలలో చేరాలి. తరువాత బీడీఎస్/బీఎస్సీ నర్సింగ్ 6వ రౌండ్ నమోదు నవంబర్ 17-19 తేదీల్లో జరుగుతుంది. వివరాలకు అధికారిక వెబ్‌సైట్ mcc.nic.in చూడాలి.",
+        "en": "According to the Medical Counselling Committee's official schedule, choice filling and locking for the NEET UG 2026 special stray vacancy round for MBBS and the fifth round for BDS/B.Sc Nursing closes today, November 5, at 11 AM (server time). Seat allotment processing runs on November 5-6 and the result will be published on November 7; allotted students must report at their colleges between November 7 and 16. The sixth round for BDS/B.Sc Nursing seats follows with registration on November 17-19. Students should check the official website mcc.nic.in for details."
+      }
+    },
+    {
+      "id": "gk_20261105_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "bbc_usmidterms"
+      ],
+      "event_date": "2026-11-04",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261105_world_1",
+        "en": "gk_20261105_world_1__en"
+      },
+      "title": {
+        "te": "అమెరికా మధ్యంతర ఎన్నికలు: సెనేట్, హౌస్ రెండింటిలో డెమోక్రెట్ల విజయం",
+        "en": "US midterm elections: Democrats win both the Senate and the House"
+      },
+      "summary": {
+        "te": "బీబీసీ నవంబర్ 4 నివేదిక ప్రకారం, నవంబర్ 3న జరిగిన అమెరికా మధ్యంతర ఎన్నికల్లో డెమోక్రెటిక్ పార్టీ సెనేట్, హౌస్ ఆఫ్ రిప్రజెంటేటివ్స్ - కాంగ్రెస్ రెండు సభల్లోనూ మెజారిటీ సాధించింది. దీంతో అద్యక్షుడు డొనాల్డ్ ట్రంప్ మిగిలిన పదవీకాలంలో కాంగ్రెస్ ప్రతిపక్ష పార్టీ చేతుల్లోకి వెళ్తుంది; అయితే చట్టాలపై అద్యక్షుడికి వీటో హక్కు కొనసాగుతుంది. ఈ ఎన్నికల్లో కొన్ని చారిత్రక మార్పులు: జీనా హినోజోసా టెక్సాస్ తొలి లెటీనా మహిళా గవర్నర్ అయ్యారు; ఫ్లోరిడాలో రిపబ్లికన్ బైరన్ డోనాల్డ్స్ ఆ రాష్ట్ర తొలి నల్లజాతి గవర్నర్ అయ్యారు. హౌస్‌లో డెమోక్రెట్ల నేత హకీమ్ జెఫ్రీస్ స్పీకర్ హోదాను చేపట్టే అవకాశం ఉందని నివేదిక పేర్కొంది.",
+        "en": "According to a BBC report of November 4, in the US midterm elections held on November 3, the Democratic Party won a majority in both the Senate and the House of Representatives - the two chambers of Congress. This means Congress passes to the opposition party for the rest of President Donald Trump's term, though the President keeps his veto power over legislation. The elections brought some historic firsts: Gina Hinojosa became the first Latina elected governor of Texas, and in Florida, Republican Byron Donalds became that state's first Black governor. The report says House Democratic leader Hakeem Jeffries is poised to take over as Speaker."
+      }
+    },
+    {
+      "id": "gk_20261105_static_1",
+      "region": "static",
+      "type": "knowledge",
+      "source_ids": [
+        "imdtcp"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261105_static_1",
+        "en": "gk_20261105_static_1__en"
+      },
+      "title": {
+        "te": "తుఫానుకు పేరు ఎప్పుడు, ఎలా పడుతుంది?",
+        "en": "When and how does a cyclone get its name?"
+      },
+      "summary": {
+        "te": "భారత వాతావశాఖ స్టాండర్డ్ ఆపరేటింగ్ ప్రాసీజర్ (టీసీపీ 2022) ప్రకారం, బంగాళాఖాతం, అరేబియా సముద్రంలో ఏర్పడే అల్పపీడన వ్యవస్థలను గాలుల వేగం ఆధారంగా వర్గీకరిస్తారు: అల్పపీడనం (గంటకు 31-49 కి.మీ.), తీవ్ర అల్పపీడనం (50-61), సైక్లోనిక్ స్టార్మ్ (62-88), తీవ్ర తుఫాను (89-117), అతి తీవ్ర తుఫాను (118-166), అత్యంత తీవ్ర తుఫాను (167-221), సూపర్ తుఫాను (222 కి.మీ. లేదా అంతకంటే ఎక్కువ). వ్యవస్థ గాలులు గంటకు 62 కి.మీ. (34 నాట్స్) దాటి సైక్లోనిక్ స్టార్మ్ స్థాయికి చేరినప్పుడే దానికి పేరు పెడతారు - న్యూఢిల్లీ ఆర్ఎస్ఎమ్సీ, డబ్ల్యూఎమ్ఓ/ఎస్కాప్ ప్యానెల్ దేశాల జాబితా (ఏప్రిల్ 2020లో ఆమోదించబడింది) నుంచి పేరు ఎంపిక చేస్తుంది. ఈ జాబితాలో 'మురసు' పేరును భారతదేశం ఇచ్చింది.",
+        "en": "According to the India Meteorological Department's Standard Operation Procedure (TCP 2022), low-pressure systems over the Bay of Bengal and the Arabian Sea are classified by wind speed: depression (31-49 km/h), deep depression (50-61), cyclonic storm (62-88), severe cyclonic storm (89-117), very severe cyclonic storm (118-166), extremely severe cyclonic storm (167-221) and super cyclonic storm (222 km/h or more). A system gets a name only when its winds cross 62 km/h (34 knots) and it reaches cyclonic storm strength - RSMC New Delhi then picks a name from the WMO/ESCAP panel countries' list, adopted in April 2020. The name 'Murasu' in this list was contributed by India."
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261105_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261105_reading_1",
+        "en": "gk_20261105_reading_1__en"
+      },
+      "source_ids": [
+        "hindu_murasu",
+        "imdpr04"
+      ],
+      "title": {
+        "te": "ఐదున్నర గంటల్లో 25 సెంటీమీటర్ల వర్షం అంటే ఏమిటి?",
+        "en": "What does 25 centimetres of rain in five and a half hours mean?"
+      },
+      "passage": {
+        "te": "నవంబర్ 4న తెలంగాణలోని అశ్వారావుపేట మండలంలో ఉదయం 8:30 నుంచి మధ్యాహ్నం 2 గంటల మధ్య 253 మిల్లీమీటర్ల వర్షం కురిసింది. అంటే కేవలం ఐదున్నర గంటల్లో దాదాపు 25 సెంటీమీటర్లు! అలాగే భద్రాద్రి కొత్తగూడెం జిల్లా ములకలపల్లిలో ఒకే రోజులో 24 సెంటీమీటర్లు నమోదైంది. వాతావరణ శాఖ ఇంత భారీ వర్షాన్ని 'అత్యంత భారీ వర్షం' అంటుంది. ఇంత భారీ వర్షం పడితే గట్లు, కాలువలు నిండిపోతాయి, లోతట్టు ప్రాంతాల్లో నీరు చేరుతుంది, రోడ్లు కొట్టుకుపోతాయి. అందుకే హెచ్చరికలు వచ్చినప్పుడు ఇంట్లోనే ఉండాలి, ముంపు నీటి దగ్గరకు వెళ్లకూడదు. వర్షం తగ్గిన తరువాత కూడా కొద్దిసేపు జాగ్రత్తగా ఉండాలి.",
+        "en": "On November 4, Aswaraopet mandal in Telangana received 253 millimetres of rain between 8:30 AM and 2 PM. That is nearly 25 centimetres in just five and a half hours! Mulakalapalle in Bhadradri Kothagudem district recorded 24 centimetres in a single day. The weather department calls rain this heavy 'extremely heavy rainfall'. When so much rain falls, tanks and canals fill up, water enters low-lying areas, and roads can wash away. That is why we must stay indoors when warnings are issued and never go near floodwater. We should stay careful even for some time after the rain stops."
+      }
+    },
+    {
+      "id": "gk_20261105_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261105_reading_2",
+        "en": "gk_20261105_reading_2__en"
+      },
+      "source_ids": [
+        "bbc_usmidterms"
+      ],
+      "title": {
+        "te": "అమెరికా కాంగ్రెస్: ఒకే భవనం, రెండు గదులు",
+        "en": "The US Congress: one building, two chambers"
+      },
+      "passage": {
+        "te": "అమెరికా పార్లమెంటును కాంగ్రెస్ అంటారు. దానికి రెండు సభలు ఉంటాయి: సెనేట్, హౌస్ ఆఫ్ రిప్రజెంటేటివ్స్. హౌస్ సభ్యులు జనాభా ప్రాతిపదికన ఎన్నుకుంటారు - ఎక్కువ జనాభా ఉన్న రాష్ట్రానికి ఎక్కువ సభ్యులు. సెనేట్‌లో మాత్రం పెద్దది చిన్నది లేకుండా ప్రతి రాష్ట్రానికి రెండు సీట్లే. చట్టం చేయాలంటే రెండు సభలు ఆమోదించాలి, తరువాత అద్యక్షుడు సంతకం చేయాలి. అద్యక్షుడు నిరాకరిస్తే దానిని 'వీటో' అంటారు. ఈ వారం జరిగిన మధ్యంతర ఎన్నికల్లో డెమోక్రెటిక్ పార్టీ రెండు సభల్లో మెజారిటీ గెలిచింది. అద్యక్షుడు ట్రంప్ రిపబ్లికన్ పార్టీదే కాబట్టి, ఇకపై శాసనసభ ఒక పార్టీ చేతిలో, అద్యక్ష పీఠం మరో పార్టీ చేతిలో ఉంటుంది. దీన్ని 'డివైడెడ్ గవర్నమెంట్' అంటారు. అప్పుడు చట్టం పాస్ కావాలంటే రెండు పార్టీలు కలిసి పనిచేయాల్సిందే. మన పార్లమెంటులోని లోక్‌సభ, రాజ్యసభలాగే అక్కడ హౌస్, సెనేట్ - రెండు సభల పాలన ఎలా ఉంటుందో పోల్చి చూడండి.",
+        "en": "America's parliament is called the Congress. It has two chambers: the Senate and the House of Representatives. Members of the House are elected on the basis of population - a state with more people gets more members. In the Senate, every state, big or small, gets exactly two seats. To make a law, both chambers must approve it, and then the President must sign it. If the President refuses, it is called a 'veto'. In this week's midterm elections, the Democratic Party won a majority in both chambers. Since President Trump is from the Republican Party, the legislature will now be in one party's hands and the presidency in another's. This is called 'divided government'. Then, for a law to pass, the two parties must work together. Compare this with our own Parliament's two houses, the Lok Sabha and the Rajya Sabha, to see how two-chamber systems work."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261105_quiz_01",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "imdhyd04"
+      ],
+      "event_date": "2026-11-04",
+      "item_id": "gk_20261105_telangana_1",
+      "audio_ids": {
+        "te": "gk_20261105_quiz_01_q",
+        "en": "gk_20261105_quiz_01_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261105_quiz_01_a",
+        "en": "gk_20261105_quiz_01_a__en"
+      },
+      "question": {
+        "te": "హైదరాబాద్ వాతావశాఖ ప్రకటన ప్రకారం, నవంబర్ 5న యెల్లో హెచ్చరిక (ఉరుములు మెరుపులు, ఈదురు గాలులు) కింద ఎన్ని జిల్లాలు ఉన్నాయి?",
+        "en": "According to the Hyderabad Met Centre's release, how many districts are under the yellow warning (thunderstorms, lightning, gusty winds) on November 5?"
+      },
+      "options": {
+        "te": [
+          "13 జిల్లాలు",
+          "6 జిల్లాలు",
+          "10 జిల్లాలు",
+          "33 జిల్లాలు"
+        ],
+        "en": [
+          "13 districts",
+          "6 districts",
+          "10 districts",
+          "33 districts"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నవంబర్ 4 ప్రకటన డే-2 (నవంబర్ 5) హెచ్చరికలో కరీంనగర్, పెద్దపల్లి, జయశంకర్ భూపాలపల్లి, ములుగు, భద్రాద్రి కొత్తగూడెం, ఖమ్మం, నల్గొండ, సూర్యాపేట, మహబూబాబాద్, వరంగల్, హనుమకొండ, జనగామ, రంగారెడ్డి - మొత్తం 13 జిల్లాలు ఉన్నాయి.",
+        "en": "The Day-2 (November 5) warning in the November 4 release lists 13 districts: Karimnagar, Peddapalli, Jayashankar Bhupalpally, Mulugu, Bhadradri Kothagudem, Khammam, Nalgonda, Suryapet, Mahabubabad, Warangal, Hanumakonda, Jangaon and Rangareddy."
+      }
+    },
+    {
+      "id": "gk_20261105_quiz_02",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "imdhyd04"
+      ],
+      "event_date": "2026-11-04",
+      "item_id": "gk_20261105_telangana_1",
+      "audio_ids": {
+        "te": "gk_20261105_quiz_02_q",
+        "en": "gk_20261105_quiz_02_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261105_quiz_02_a",
+        "en": "gk_20261105_quiz_02_a__en"
+      },
+      "question": {
+        "te": "నవంబర్ 4 ఉదయం 8:30 నాటికి మురసు అవశేష అల్పీడన కేంద్రం ఎక్కడ ఉంది?",
+        "en": "Where was the centre of Murasu's remnant depression at 8:30 AM on November 4?"
+      },
+      "options": {
+        "te": [
+          "ఖమ్మానికి 10 కి.మీ. నైఋతిలో",
+          "హైదరాబాద్‌లో",
+          "ఒంగోలు దగ్గర",
+          "విశాఖపట్నం దగ్గర"
+        ],
+        "en": [
+          "10 km southwest of Khammam",
+          "In Hyderabad",
+          "Near Ongole",
+          "Near Visakhapatnam"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "హైదరాబాద్ వాతావశాఖ ప్రకటన ప్రకారం, నవంబర్ 4 ఉదయం 8:30 నాటికి అల్పపీడన కేంద్రం ఖమ్మానికి 10 కి.మీ. నైఋతిలో (17.2°N, 80.1°E) కేంద్రీకృతమై ఉంది.",
+        "en": "According to the Hyderabad Met Centre's release, at 8:30 AM on November 4 the depression was centred 10 km southwest of Khammam (17.2°N, 80.1°E)."
+      }
+    },
+    {
+      "id": "gk_20261105_quiz_03",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "hindu_murasu"
+      ],
+      "event_date": "2026-11-04",
+      "item_id": "gk_20261105_telangana_2",
+      "audio_ids": {
+        "te": "gk_20261105_quiz_03_q",
+        "en": "gk_20261105_quiz_03_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261105_quiz_03_a",
+        "en": "gk_20261105_quiz_03_a__en"
+      },
+      "question": {
+        "te": "టీజీడీపీఎస్ గణాంకాల ప్రకారం, నవంబర్ 4 ఉదయం 8:30 - మధ్యాహ్నం 2 మధ్య అశ్వారావుపేటలో నమోదైన వర్షపాతం ఎంత?",
+        "en": "According to TGDPS data, how much rain was recorded at Aswaraopet between 8:30 AM and 2 PM on November 4?"
+      },
+      "options": {
+        "te": [
+          "253 మి.మీ. (ఐదున్నర గంటల్లో)",
+          "50 మి.మీ.",
+          "100 మి.మీ.",
+          "500 మి.మీ."
+        ],
+        "en": [
+          "253 mm (in five and a half hours)",
+          "50 mm",
+          "100 mm",
+          "500 mm"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "తెలంగాణ అభివృద్ధి ప్రణాళిక సంస్థ గణాంకాల ప్రకారం (ది హిందూ నవంబర్ 4 నివేదిక), అశ్వారావుపేట మండలంలో ఐదున్నర గంటల్లో 253 మి.మీ. వర్షం నమోదైంది.",
+        "en": "According to Telangana Development Planning Society data (The Hindu, November 4), Aswaraopet mandal recorded 253 mm of rain in five and a half hours."
+      }
+    },
+    {
+      "id": "gk_20261105_quiz_04",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "hindu_murasu"
+      ],
+      "event_date": "2026-11-04",
+      "item_id": "gk_20261105_telangana_2",
+      "audio_ids": {
+        "te": "gk_20261105_quiz_04_q",
+        "en": "gk_20261105_quiz_04_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261105_quiz_04_a",
+        "en": "gk_20261105_quiz_04_a__en"
+      },
+      "question": {
+        "te": "నవంబర్ 3 రాత్రి ఖమ్మం, భద్రాద్రి కొత్తగూడెం జిల్లాల్లో ఒక్కో మండలంలో నమోదైన అత్యంత భారీ వర్షపాతం ఎంత?",
+        "en": "How much extremely heavy rain was recorded overnight on November 3 in one mandal each of Khammam and Bhadradri Kothagudem?"
+      },
+      "options": {
+        "te": [
+          "204 నుంచి 235 మి.మీ.",
+          "50 నుంచి 70 మి.మీ.",
+          "100 నుంచి 120 మి.మీ.",
+          "300 మి.మీ. కంటే ఎక్కువ"
+        ],
+        "en": [
+          "204 to 235 mm",
+          "50 to 70 mm",
+          "100 to 120 mm",
+          "More than 300 mm"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ది హిందూ నవంబర్ 4 నివేదిక ప్రకారం, రెండు జిల్లాల్లో ఒక్కో మండలంలో 204-235 మి.మీ. అత్యంత భారీ వర్షం; మరికొన్ని మండలాల్లో 150-204 మి.మీ. అతిభారీ వర్షం నమోదైంది.",
+        "en": "According to The Hindu's November 4 report, one mandal in each of the two districts recorded 204-235 mm of extremely heavy rain; several more mandals recorded 150-204 mm of very heavy rain."
+      }
+    },
+    {
+      "id": "gk_20261105_quiz_05",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "imdpr04"
+      ],
+      "event_date": "2026-11-04",
+      "item_id": "gk_20261105_india_1",
+      "audio_ids": {
+        "te": "gk_20261105_quiz_05_q",
+        "en": "gk_20261105_quiz_05_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261105_quiz_05_a",
+        "en": "gk_20261105_quiz_05_a__en"
+      },
+      "question": {
+        "te": "మురసు అవశేషం తూర్పు తెలంగాణపై 'అల్పపీడనం'గా ఎప్పుడు బలహీనపడింది?",
+        "en": "When did Murasu's remnant weaken into a depression over east Telangana?"
+      },
+      "options": {
+        "te": [
+          "నవంబర్ 4 ఉదయం 5:30 నాటికి",
+          "నవంబర్ 3 ఉదయం",
+          "నవంబర్ 2 రాత్రి",
+          "నవంబర్ 5 ఉదయం"
+        ],
+        "en": [
+          "By 5:30 AM on November 4",
+          "On the morning of November 3",
+          "On the night of November 2",
+          "On the morning of November 5"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "జాతీయ ప్రకటన ప్రకారం, మురసు నవంబర్ 3 మధ్యాహ్నం 2:30 నాటికి సైక్లోనిక్ స్టార్మ్, రాత్రి 8:30 నాటికి తీవ్ర అల్పపీడనం, నవంబర్ 4 ఉదయం 5:30 నాటికి అల్పపీడనంగా బలహీనపడింది (అన్నీ జరిగిన సంఘటనలు).",
+        "en": "According to the national release, Murasu weakened into a cyclonic storm by 2:30 PM on November 3, a deep depression by 8:30 PM, and a depression by 5:30 AM on November 4 (all events that occurred)."
+      }
+    },
+    {
+      "id": "gk_20261105_quiz_06",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "imdpr04"
+      ],
+      "event_date": "2026-11-04",
+      "item_id": "gk_20261105_india_1",
+      "audio_ids": {
+        "te": "gk_20261105_quiz_06_q",
+        "en": "gk_20261105_quiz_06_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261105_quiz_06_a",
+        "en": "gk_20261105_quiz_06_a__en"
+      },
+      "question": {
+        "te": "నవంబర్ 4 ఉదయం 8:30తో ముగిసిన 24 గంటల్లో అత్యధిక వర్షపాతం (24 సెం.మీ.) ఎక్కడ నమోదైంది?",
+        "en": "Where was the highest rainfall (24 cm) recorded in the 24 hours ending 8:30 AM on November 4?"
+      },
+      "options": {
+        "te": [
+          "తెలంగాణలోని ములకలపల్లి (భద్రాద్రి కొత్తగూడెం)",
+          "చెన్నై",
+          "విశాఖపట్నం",
+          "హైదరాబాద్"
+        ],
+        "en": [
+          "Mulakalapalle in Telangana (Bhadradri Kothagudem)",
+          "Chennai",
+          "Visakhapatnam",
+          "Hyderabad"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "జాతీయ ప్రకటన ప్రకారం, అత్యధికంగా తెలంగాణ భద్రాద్రి కొత్తగూడెం జిల్లా ములకలపల్లిలో 24 సెం.మీ., కోస్తా ఏపీ పశ్చిమ గోదావరిలో 21 సెం.మీ. నమోదైంది.",
+        "en": "According to the national release, the highest was 24 cm at Mulakalapalle in Telangana's Bhadradri Kothagudem district, and 21 cm at West Godavari in coastal A.P."
+      }
+    },
+    {
+      "id": "gk_20261105_quiz_07",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "newsonair_icanada"
+      ],
+      "event_date": "2026-11-03",
+      "item_id": "gk_20261105_india_2",
+      "audio_ids": {
+        "te": "gk_20261105_quiz_07_q",
+        "en": "gk_20261105_quiz_07_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261105_quiz_07_a",
+        "en": "gk_20261105_quiz_07_a__en"
+      },
+      "question": {
+        "te": "తొలి భారత్-కెనడా డిఫెన్స్ డైలాగ్ ఏ విధంగా, ఎప్పుడు జరిగింది?",
+        "en": "How and when was the first India-Canada Defence Dialogue held?"
+      },
+      "options": {
+        "te": [
+          "నవంబర్ 3న వర్చువల్‌గా",
+          "నవంబర్ 5న ఢిల్లీలో",
+          "అక్టోబర్‌లో కెనడాలో",
+          "జరగలేదు"
+        ],
+        "en": [
+          "Virtually, on November 3",
+          "In Delhi on November 5",
+          "In Canada in October",
+          "It was not held"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఆకాశవాణి న్యూస్ నవంబర్ 4 నివేదిక ప్రకారం, తొలి భారత్-కెనడా డిఫెన్స్ డైలాగ్ నవంబర్ 3న వర్చువల్‌గా జరిగింది; డాక్టర్ అమిత్ తెలంగ్, స్కాట్ మిల్లర్ సహ-అధ్యక్షత వహించారు.",
+        "en": "According to the News On AIR report of November 4, the first India-Canada Defence Dialogue was held virtually on November 3, co-chaired by Dr Amit Telang and Scott Millar."
+      }
+    },
+    {
+      "id": "gk_20261105_quiz_08",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "mcc_neet"
+      ],
+      "event_date": "2026-11-05",
+      "item_id": "gk_20261105_india_3",
+      "audio_ids": {
+        "te": "gk_20261105_quiz_08_q",
+        "en": "gk_20261105_quiz_08_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261105_quiz_08_a",
+        "en": "gk_20261105_quiz_08_a__en"
+      },
+      "question": {
+        "te": "ఎమ్సీసీ షెడ్యూల్ ప్రకారం, నీట్ యూజీ 2026 స్పెషల్ స్ట్రే వెకెన్సీ రౌండ్ ఛాయిస్ ఫిల్లింగ్/లాకింగ్ ఎప్పుడు ముగుస్తుంది?",
+        "en": "According to the MCC schedule, when does choice filling/locking for the NEET UG 2026 special stray vacancy round close?"
+      },
+      "options": {
+        "te": [
+          "నవంబర్ 5 ఉదయం 11 గంటలకు",
+          "నవంబర్ 15 రాత్రికి",
+          "నవంబర్ 30కు",
+          "డిసెంబర్ 1కు"
+        ],
+        "en": [
+          "At 11 AM on November 5",
+          "On the night of November 15",
+          "On November 30",
+          "On December 1"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఎమ్సీసీ అధికారిక షెడ్యూల్ ప్రకారం, ఛాయిస్ ఫిల్లింగ్/లాకింగ్ నవంబర్ 5 ఉదయం 11 గంటలతో (సర్వర్ సమయం) ముగుస్తుంది; ఫలితం నవంబర్ 7, రిపోర్టింగ్ నవంబర్ 7-16.",
+        "en": "Per the MCC's official schedule, choice filling/locking closes at 11 AM on November 5 (server time); the result comes on November 7 and reporting runs November 7-16."
+      }
+    },
+    {
+      "id": "gk_20261105_quiz_09",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "bbc_usmidterms"
+      ],
+      "event_date": "2026-11-04",
+      "item_id": "gk_20261105_world_1",
+      "audio_ids": {
+        "te": "gk_20261105_quiz_09_q",
+        "en": "gk_20261105_quiz_09_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261105_quiz_09_a",
+        "en": "gk_20261105_quiz_09_a__en"
+      },
+      "question": {
+        "te": "నవంబర్ 3 అమెరికా మధ్యంతర ఎన్నికల్లో డెమోక్రెటిక్ పార్టీ ఏవి గెలిచింది?",
+        "en": "What did the Democratic Party win in the November 3 US midterm elections?"
+      },
+      "options": {
+        "te": [
+          "సెనేట్, హౌస్ - కాంగ్రెస్ రెండు సభలు",
+          "కేవలం సెనేట్",
+          "కేవలం హౌస్",
+          "అద్యక్ష పీఠం"
+        ],
+        "en": [
+          "Both chambers of Congress - the Senate and the House",
+          "Only the Senate",
+          "Only the House",
+          "The presidency"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "బీబీసీ నవంబర్ 4 నివేదిక ప్రకారం, డెమోక్రెట్లు సెనేట్, హౌస్ రెండింటిలో మెజారిటీ గెలిచారు; అద్యక్షుడు ట్రంప్‌కు వీటో హక్కు ఉంటూనే ఉంది.",
+        "en": "According to the BBC's November 4 report, the Democrats won a majority in both the Senate and the House; President Trump keeps his veto power."
+      }
+    },
+    {
+      "id": "gk_20261105_quiz_10",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "imdtcp"
+      ],
+      "event_date": null,
+      "item_id": "gk_20261105_static_1",
+      "audio_ids": {
+        "te": "gk_20261105_quiz_10_q",
+        "en": "gk_20261105_quiz_10_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261105_quiz_10_a",
+        "en": "gk_20261105_quiz_10_a__en"
+      },
+      "question": {
+        "te": "అల్పపీడన వ్యవస్థకు పేరు (ఉదా: మురసు) ఎప్పుడు పెడతారు?",
+        "en": "When is a low-pressure system given a name (like Murasu)?"
+      },
+      "options": {
+        "te": [
+          "గాలులు గంటకు 62 కి.మీ. దాటి సైక్లోనిక్ స్టార్మ్ అయినప్పుడు",
+          "అల్పపీడనం ఏర్పడిన వెంటనే",
+          "తీరం దాటినప్పుడు",
+          "వర్షం పడినప్పుడు"
+        ],
+        "en": [
+          "When its winds cross 62 km/h and it becomes a cyclonic storm",
+          "As soon as a low-pressure area forms",
+          "When it crosses the coast",
+          "When it rains"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "టీసీపీ 2022 ప్రకారం, గాలుల వేగం 34 నాట్స్ (62 కి.మీ.) దాటి వ్యవస్థ సైక్లోనిక్ స్టార్మ్ స్థాయికి చేరినప్పుడు ఆర్ఎస్ఎమ్సీ న్యూఢిల్లీ డబ్ల్యూఎమ్ఓ/ఎస్కాప్ జాబితా నుంచి పేరు పెడుతుంది; 'మురసు' పేరు భారతదేశం ఇచ్చింది.",
+        "en": "Per TCP 2022, when wind speed crosses 34 knots (62 km/h) and the system reaches cyclonic storm strength, RSMC New Delhi assigns a name from the WMO/ESCAP list; the name 'Murasu' was contributed by India."
+      }
+    }
+  ],
+  "edition_date": "2026-11-05",
+  "verified_at": "2026-11-05T02:37:45+05:30",
+  "status": "source_checked_translation_review_recommended_audio_pending",
+  "coverage": {
+    "telangana": [
+      "gk_20261105_telangana_1",
+      "gk_20261105_telangana_2"
+    ],
+    "india": [
+      "gk_20261105_india_1",
+      "gk_20261105_india_2",
+      "gk_20261105_india_3"
+    ],
+    "world": [
+      "gk_20261105_world_1"
+    ],
+    "static": [
+      "gk_20261105_static_1"
+    ]
+  },
+  "editorial_note": {
+    "te": "నవంబర్ 5, 2026 ఎడిషన్: మురసు అవశేషం - తెలంగాణలో రికార్డు వర్షాలు, నేటి యెల్లో అలర్ట్; భారత్-కెనడా తొలి డిఫెన్స్ డైలాగ్; నీట్ యూజీ స్ట్రే రౌండ్ గడువు; అమెరికా మధ్యంతర ఎన్నికల ఫలితాలు; తుఫానుల పేర్ల విధానం. అన్ని అంచనాలు ప్రకటన సమయంతో పేర్కొన్నాం.",
+    "en": "November 5, 2026 edition: Murasu's remnant - record rain in Telangana and today's yellow alert; the first India-Canada Defence Dialogue; the NEET UG stray-round deadline; US midterm results; and how cyclones get their names. Every forecast is given with its release time."
+  }
+}
