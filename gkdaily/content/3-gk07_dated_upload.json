@@ -1,0 +1,665 @@
+{
+  "schema_version": 1,
+  "revision": "2026-11-07-rev1",
+  "timezone": "Asia/Calcutta",
+  "sources": {
+    "imdhyd06": {
+      "publisher": "India Meteorological Department, Meteorological Centre Hyderabad, Press Release 06/11/2026",
+      "url": "https://mausam.imd.gov.in/hyderabad/mcdata/press_release.pdf",
+      "published_date": "2026-11-06"
+    },
+    "imdpr06": {
+      "publisher": "India Meteorological Department, National Press Release, issued 06.11.2026",
+      "url": "https://mausam.imd.gov.in/Forecast/marquee_data/Press%20Release%2006-11-2026.pdf",
+      "published_date": "2026-11-06"
+    },
+    "pib_bharatnet": {
+      "publisher": "Press Information Bureau, 'Agreement Signed between DBN (Digital Bharat Nidhi) - Department of Telecommunications; Government of Telangana; TRIICL; BSNL & T-Fibre for Implementation of Amended BharatNet Program in Telangana', posted 06.11.2026 17:28 IST",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333683&lang=2&reg=48",
+      "published_date": "2026-11-06"
+    },
+    "hindu_cbse": {
+      "publisher": "The Hindu, 'CBSE class 10, 12 board exams to begin on February 16, 2027', updated 06.11.2026 21:35 IST",
+      "url": "https://www.thehindu.com/education/cbse-class-x-xii-10-12-board-exam-dates-schedule-2027/article71674940.ece",
+      "published_date": "2026-11-06"
+    },
+    "hindu_shami": {
+      "publisher": "The Hindu (PTI), 'Mohammed Shami retires from Test cricket, to continue playing white-ball formats', updated 07.11.2026 00:28 IST",
+      "url": "https://www.thehindu.com/sport/cricket/mohammed-shami-retires-from-test-cricket-to-continue-playing-white-ball-formats/article71676026.ece",
+      "published_date": "2026-11-06"
+    },
+    "ap_nz": {
+      "publisher": "Associated Press, 'The final day of voting begins in New Zealand's election as an unusual law bans any talk of politics', 06.11.2026 (US date; voting day is Saturday, November 7 NZ time)",
+      "url": "https://apnews.com/article/new-zealand-election-results-luxon-hipkins-voting-8c1728ae2533201f68d5a5e75fc9e907",
+      "published_date": "2026-11-06"
+    },
+    "reuters_delhi": {
+      "publisher": "Reuters (via Khaleej Times), 'India orders Delhi schools to offer online classes as air quality worsens ahead of Diwali', published 06.11.2026 19:14",
+      "url": "https://www.khaleejtimes.com/world/asia/delhi-schools-online-classes-air-quality-worsens-ahead-diwali",
+      "published_date": "2026-11-06"
+    }
+  },
+  "cards": [
+    {
+      "id": "gk_20261107_telangana_1",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "imdhyd06",
+        "imdpr06"
+      ],
+      "event_date": "2026-11-06",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261107_telangana_1",
+        "en": "gk_20261107_telangana_1__en"
+      },
+      "title": {
+        "te": "తెలంగాణలో వర్షాల విరామం: నేడు హెచ్చరికలు లేవు, రేపటి నుంచి పొడి వాతావరణం",
+        "en": "A rain break for Telangana: no warnings today, dry weather from tomorrow"
+      },
+      "summary": {
+        "te": "హైదరాబాద్ వాతావశాఖ ప్రకటన (నవంబర్ 6) ప్రకారం, నిన్న నవంబర్ 6న భద్రాద్రి కొత్తగూడెం, ఖమ్మం, నల్గొండ, సూర్యాపేట, మహబూబాబాద్, రంగారెడ్డి, నాగర్‌కర్నూల్ జిల్లాల్లో యెల్లో హెచ్చరిక (ఉరుములు మెరుపులు, గంటకు 30-40 కి.మీ. ఈదురు గాలులు) అమలులో ఉండేది; నేడు నవంబర్ 7న తెలంగాణలోని అన్ని జిల్లాలకు హెచ్చరికలు లేవు. నేడు ఒకోచోట ఉక్కుపాటి నుంచి మోస్తరు వర్షం పడే అంచనా; నవంబర్ 8 నుంచి 12 వరకు పొడి వాతావరణం ఉండే అంచనా (ఇవి అంచనాలు). మురసు తుఫాను ప్రభావం పూర్తిగా తొలగిపోయి దాదాపు వారం పొడి రోజులు రాబోతున్నాయి. జాతీయ ప్రకటన ప్రకారం, నవంబర్ 6 ఉదయం 8:30తో ముగిసిన 24 గంటల్లో తెలంగాణలో భారీ వర్షం ఎక్కడా నమోదు కాలేదు.",
+        "en": "According to the Hyderabad Met Centre's release of November 6, a yellow warning (thunderstorms with lightning and gusty winds of 30-40 km/h) was in force yesterday, November 6, for Bhadradri Kothagudem, Khammam, Nalgonda, Suryapet, Mahabubabad, Rangareddy and Nagarkurnool districts; today, November 7, no district in Telangana has any warning. Isolated light to moderate rain is forecast today, and dry weather is expected from November 8 to 12 (these are forecasts). Cyclone Murasu's influence has fully gone, and nearly a week of dry days lies ahead. According to the national release, no heavy rain was recorded anywhere in Telangana in the 24 hours ending 8:30 AM on November 6."
+      }
+    },
+    {
+      "id": "gk_20261107_telangana_2",
+      "region": "telangana",
+      "type": "current_affairs",
+      "source_ids": [
+        "pib_bharatnet"
+      ],
+      "event_date": "2026-11-06",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261107_telangana_2",
+        "en": "gk_20261107_telangana_2__en"
+      },
+      "title": {
+        "te": "తెలంగాణ గ్రామాలకు ఫైబర్ ఇంటర్నెట్: రూ. 3,189 కోట్ల భరత్‌నెట్ ఒప్పందం",
+        "en": "Fibre internet for Telangana's villages: Rs 3,189 crore BharatNet agreement"
+      },
+      "summary": {
+        "te": "ప్రెస్ ఇన్ఫర్మేషన్ బ్యూరో (నవంబర్ 6) ప్రకారం, తెలంగాణలో సవరించిన భరత్‌నెట్ కార్యక్రమం అమలు కోసం నవంబర్ 6న న్యూఢిల్లీ సంచార్ భవన్‌లో ఒప్పందం కుదిరింది. డిజిటల్ భారత్ నిధి (టెలికమ్యూనికేషన్స్ శాఖ), తెలంగాణ ప్రభుత్వం, టీఆర్ఐఐసీఎల్, బీఎస్ఎన్ఎల్, టీ-ఫైబర్ మధ్య ఈ ఒప్పందం జరిగింది. దీని కోసం రూ. 3,189 కోట్ల ఆర్థిక సాయం ఆమోదం పొందింది. ఈ కార్యక్రమం ద్వారా తెలంగాణలోని 12,769 గ్రామ పంచాయితీలకు ఫైబర్ బ్రాడ్‌బ్యాండ్ కనెక్టివిటీ అందుతుంది. రాష్ట్ర-నేతృత్వ (స్టేట్-లెడ్) మోడల్‌లో ఇది అమలవుతుంది. గ్రామీణ ప్రాంతాల్లో ఇంటర్నెట్ సదుపాయం మెరుగవడంతో విద్య, వైద్యం, ప్రభుత్వ సేవలు సులభమవుతాయి.",
+        "en": "According to the Press Information Bureau (November 6), an agreement was signed on November 6 at Sanchar Bhawan, New Delhi, for implementing the Amended BharatNet Program in Telangana. The agreement is between Digital Bharat Nidhi (under the Department of Telecommunications), the Government of Telangana, TRIICL, BSNL and T-Fibre. Financial support of Rs 3,189 crore has been approved. Under this programme, 12,769 gram panchayats in Telangana will get fibre broadband connectivity, implemented under a state-led model. Better internet in rural areas will make education, healthcare and government services easier to reach."
+      }
+    },
+    {
+      "id": "gk_20261107_india_1",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "imdpr06"
+      ],
+      "event_date": "2026-11-06",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261107_india_1",
+        "en": "gk_20261107_india_1__en"
+      },
+      "title": {
+        "te": "దక్షిణ భారతదేశంలో వర్షాలు కొనసాగుతున్నాయి; నవంబర్ 10 నుంచి ఉత్తరాన పశ్చిమ అశాంతి",
+        "en": "Rain continues in the south; a western disturbance for the northwest from November 10"
+      },
+      "summary": {
+        "te": "భారత వాతావశాఖ జాతీయ ప్రకటన (నవంబర్ 6) ప్రకారం, నవంబర్ 6-8 మధ్య తమిళనాడు, పుదుచ్చేరి, కేరళ, లక్షద్వీప్‌లో విస్తృతంగా వర్షాలు; నవంబర్ 6-10 మధ్య తమిళనాడులో ఒకోచోట భారీ వర్షం పడే అంచనా ఉంది. నవంబర్ 6 ఉదయం 8:30తో ముగిసిన 24 గంటల్లో తమిళనాడులోని కిన్నకోరై (నీలగిరి) 8 సెం.మీ., దక్షిణ అంతర్గత కర్ణాటకలోని బెల్లూరు (మండ్య) 7 సెం.మీ. భారీ వర్షం నమోదైంది. మరోవైపు, నవంబర్ 10 నుంచి కొత్త పశ్చిమ అశాంతి (వెస్ట్రన్ డిస్టర్బెన్స్) వాయవ్య భారతదేశాన్ని ప్రభావితం చేయనుంది - అక్కడ వర్షం, మంచు అవకాశం ఉంది. ఇవన్నీ అంచనాలు; తాజా ప్రకటనలనే అనుసరించాలి.",
+        "en": "According to the IMD national release of November 6, fairly widespread to widespread rain is likely over Tamil Nadu, Puducherry, Kerala and Lakshadweep during November 6-8, with isolated heavy rain over Tamil Nadu during November 6-10. In the 24 hours ending 8:30 AM on November 6, Kinnakorai in the Nilgiris recorded 8 cm of rain and Bellur in Mandya (south interior Karnataka) recorded 7 cm. Meanwhile, a fresh western disturbance is likely to affect northwest India from November 10, bringing a chance of rain and snow there. These are all forecasts; follow the latest official release."
+      }
+    },
+    {
+      "id": "gk_20261107_india_2",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "hindu_shami"
+      ],
+      "event_date": "2026-11-06",
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261107_india_2",
+        "en": "gk_20261107_india_2__en"
+      },
+      "title": {
+        "te": "మహమ్మద్ షమీ టెస్ట్ క్రికెట్‌కు విరమణ: 64 మ్యాచ్‌ల్లో 229 వికెట్లు",
+        "en": "Mohammed Shami retires from Test cricket: 229 wickets in 64 matches"
+      },
+      "summary": {
+        "te": "ది హిందూ (పీటీఐ) నివేదిక ప్రకారం, భారత జాటీయ క్రికెట్ జట్టు ఫాస్ట్ బౌలర్ మహమ్మద్ షమీ నవంబర్ 6 (శుక్రవారం) టెస్ట్ క్రికెట్ నుంచి విరమణ ప్రకటించారు. 36 ఏళ్ల షమీ 12 ఏళ్ల టెస్ట్ కెరీర్‌లో 64 మ్యాచ్‌లు ఆడి 229 వికెట్లు తీశారు. ఇన్‌స్టాగ్రామ్ పోస్ట్ ద్వారా తన నిర్ణయం ప్రకటించిన ఆయన, వన్డే, టీ20 (వైట్-బాల్) క్రికెట్ ఆడటం కొనసాగిస్తానని తెలిపారు. 'నేను తెల్లని జెర్సీని విడిచిపెడుతున్నాను, కానీ దానితో ముడిపడిన జ్ఞాపకాలను ఎప్పటికీ వదలను' అని ఆయన రాశారు.",
+        "en": "According to a PTI report in The Hindu, Indian fast bowler Mohammed Shami announced his retirement from Test cricket on Friday, November 6. The 36-year-old took 229 wickets in 64 matches over a 12-year Test career. Announcing his decision through an Instagram post, he said he would continue playing one-day and T20 (white-ball) cricket. 'I am leaving the white jersey, but never the memories connected to it,' he wrote."
+      }
+    },
+    {
+      "id": "gk_20261107_india_3",
+      "region": "india",
+      "type": "current_affairs",
+      "source_ids": [
+        "hindu_cbse"
+      ],
+      "event_date": "2026-11-06",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261107_india_3",
+        "en": "gk_20261107_india_3__en"
+      },
+      "title": {
+        "te": "సీబీఎస్ఈ 2027 బోర్డ్ పరీక్షలు ఫిబ్రవరి 16 నుంచి - డేట్‌షీట్ విడుదల",
+        "en": "CBSE 2027 board exams from February 16 - datesheet released"
+      },
+      "summary": {
+        "te": "ది హిందూ నవంబర్ 6 నివేదిక ప్రకారం, సీబీఎస్ఈ నవంబర్ 6 (శుక్రవారం) 2027 బోర్డ్ పరీక్షల డేట్‌షీట్ విడుదల చేసింది: 10, 12 తరగతుల పరీక్షలు ఫిబ్రవరి 16, 2027న ప్రారంభమవుతాయి. 10వ తరగతి పరీక్షలు మార్చి 9తో, 12వ తరగతి పరీక్షలు ఏప్రిల్ 9తో ముగుస్తాయి. 2027 పరీక్షలకు 10వ తరగతి నుంచి 26.5 లక్షల మంది, 12వ తరగతి నుంచి 19.8 లక్షల మంది విద్యార్థులు నమోదు చేసుకున్నారు. కలిపి ఎంచుకునే సబ్జెక్టుల పరీక్షల మధ్య తగినంత గ్యాప్ ఇచ్చామని బోర్డు తెలిపింది. ఇది అధికారికంగా ప్రకటించిన షెడ్యూల్.",
+        "en": "According to The Hindu's November 6 report, the CBSE released the 2027 board exam datesheet on Friday, November 6: Class 10 and Class 12 exams will begin on February 16, 2027. Class 10 exams will conclude on March 9 and Class 12 exams on April 9. Over 26.5 lakh students in Class 10 and 19.8 lakh students in Class 12 have registered for the 2027 examinations. The board said adequate gaps have been provided between exams of subjects commonly offered together. This is an officially announced schedule."
+      }
+    },
+    {
+      "id": "gk_20261107_world_1",
+      "region": "world",
+      "type": "current_affairs",
+      "source_ids": [
+        "ap_nz"
+      ],
+      "event_date": "2026-11-07",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261107_world_1",
+        "en": "gk_20261107_world_1__en"
+      },
+      "title": {
+        "te": "న్యూజిలాండ్‌లో నేడే తుది ఓటింగ్; సాయంత్రం నాటికి ఫలితాలు",
+        "en": "Final voting day in New Zealand today; results expected by evening"
+      },
+      "summary": {
+        "te": "ఏపీ నివేదిక ప్రకారం, న్యూజిలాండ్‌లో నేడు నవంబర్ 7 (శనివారం) తుది ఓటింగ్ జరుగుతోంది - పోలింగ్ కేంద్రాలు ఉదయం 9 గంటలకు తెరిచి సాయంత్రం 7 గంటలకు మూసివేస్తారు; ఫలితాలు అక్కడి సాయంత్రం నాటికి విడుదలయ్యే అవకాశం ఉంది (షెడ్యూల్ చేసిన కార్యక్రమం). అక్టోబర్ 26 నుంచి ముందస్తు ఓటింగ్ జరగ్గా, గురువారం నాటికి నమోదైన 38 లక్షల ఓటర్లలో 16 లక్షల మంది అల్రెడీ ఓటు వేశారు. ప్రత్యేకత ఏమిటంటే, ఎన్నికల రోజున రాజకీయ ప్రచారం చేయడం నేరంగా పరిగణించే చట్టం అక్కడ ఉంది - అందుకే ఓటింగ్ రోజు రాజకీయ ప్రస్తావన లేకుండా నిశ్శబ్దంగా జరుగుతుంది. ఫలితాలు ఇంకా రాలేదు.",
+        "en": "According to an AP report, New Zealand holds its final day of voting today, Saturday, November 7 - polling stations opened at 9 AM and close at 7 PM, with results expected to be released in the evening (a scheduled event). Early voting ran from October 26, and by Thursday more than 1.6 million of the nearly 3.8 million enrolled voters had already cast their ballots. Notably, an unusual law makes it a criminal offence to discuss politics on election day, so the day unfolds almost entirely free of political campaigning. Results are not out yet."
+      }
+    },
+    {
+      "id": "gk_20261107_static_1",
+      "region": "static",
+      "type": "knowledge",
+      "source_ids": [
+        "reuters_delhi"
+      ],
+      "event_date": null,
+      "age_band": "class5-10",
+      "audio_ids": {
+        "te": "gk_20261107_static_1",
+        "en": "gk_20261107_static_1__en"
+      },
+      "title": {
+        "te": "దీపావళి తేదీ ప్రతి ఏటా ఎందుకు మారుతుంది?",
+        "en": "Why does Diwali's date change every year?"
+      },
+      "summary": {
+        "te": "దీపావళి హిందూ చాంద్రమాన (లూనార్) క్యాలెండర్‌లోని కార్తీక మాసం అమావాస్య - పౌర్ణమికి సరిగ్గా వ్యతిరేకంగా చంద్రుడు కనిపించని రాత్రి - నాడు జరుపుకుంటారు. మనం రోజువారీగా వాడే గ్రెగోరియన్ క్యాలెండర్ సూర్యుని ఆధారంగా ఉంటుంది; చాంద్రమాన నెలలు దానికి సరిగ్గా సరిపోవు. అందుకే దీపావళి గ్రెగోరియన్ తేదీ ప్రతి ఏటా కొంచెం ముందుకు వెనుకకు జరుగుతుంది. ఈ ఏడాది దీపావళి రేపు, నవంబర్ 8 ఆదివారం (రాయిటర్స్ నవంబర్ 6 నివేదిక). చంద్రుడి దశలతో ముడిపడిన పండుగలు - దీపావళి, రంజాన్, ఈస్టర్ - అన్నీ ఇలాగే ప్రతి ఏటా తేదీ మారుతాయి.",
+        "en": "Diwali is celebrated on the Amavasya of the Kartika month in the Hindu lunar calendar - the new-moon night, exactly opposite to the full moon, when the moon is not visible. The Gregorian calendar we use daily is based on the Sun, and lunar months do not align with it exactly. That is why Diwali's Gregorian date shifts a little every year. This year Diwali falls tomorrow, on Sunday, November 8 (Reuters report of November 6). All festivals tied to the moon's phases - Diwali, Ramzan, Easter - move dates each year like this."
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "gk_20261107_reading_1",
+      "age_band": "class5-7",
+      "audio_ids": {
+        "te": "gk_20261107_reading_1",
+        "en": "gk_20261107_reading_1__en"
+      },
+      "source_ids": [
+        "reuters_delhi"
+      ],
+      "title": {
+        "te": "గాలి కలుషితమైతే? ఢిల్లీ పాఠశాలలు ఆన్‌లైన్‌లోకి",
+        "en": "When the air gets polluted: Delhi schools go online"
+      },
+      "passage": {
+        "te": "శీతాకాలంలో ఢిల్లీ గాలి తరచూ బాగా కలుషితమవుతుంది. నవంబర్ 6న అక్కడి గాలి నాణ్యత పెద్దగా దిగజారడంతో, ఢిల్లీ పరిసర ప్రాంతాల్లోని పాఠశాలలు ఆన్‌లైన్ క్లాసులు అందించాలని ప్రభుత్వం ఆదేశించింది; అందరూ ఇంటి నుంచే పనిచేయాలని, గెట్-టుగెదర్లు వాయిదా వేసుకోవాలని కోరింది (రాయిటర్స్ నివేదిక). దీపావళి (రేపు, నవంబర్ 8) సమయంలో టపాకాయలు కాల్చడంతో కాలుష్యం మరింత పెరుగుతుంది. గాలి కలుషితమైతే ఏం చేయాలి? బయట ఆటలు తగ్గించాలి, ముసుగు వేసుకోవాలి, కిటికీలు మూసి ఉంచాలి. మనం కూడా సహాయం చేయగలం: టపాకాయలు కాల్చకుండా, దీపాలతోనే దీపావళిని జరుపుకోవచ్చు. శుభ్రమైన గాలి అందరి హక్కు - దాన్ని కాపాడటం అందరి బాధ్యత.",
+        "en": "In winter, Delhi's air often gets badly polluted. On November 6, as air quality there dropped sharply, the government ordered schools in and around Delhi to offer online classes, and asked people to work from home and postpone get-togethers (Reuters report). Around Diwali (tomorrow, November 8), bursting crackers makes the pollution worse. What should we do when the air is polluted? Cut down outdoor play, wear a mask, and keep windows closed. We can help too: we can celebrate Diwali with lamps instead of crackers. Clean air is everyone's right - protecting it is everyone's duty."
+      }
+    },
+    {
+      "id": "gk_20261107_reading_2",
+      "age_band": "class8-10",
+      "audio_ids": {
+        "te": "gk_20261107_reading_2",
+        "en": "gk_20261107_reading_2__en"
+      },
+      "source_ids": [
+        "ap_nz"
+      ],
+      "title": {
+        "te": "ఎన్నికల రోజున రాజకీయాల గురించి మాట్లాడడం నేరమైతే?",
+        "en": "What if talking politics on election day were a crime?"
+      },
+      "passage": {
+        "te": "ఎన్నికల రోజున చివరి నిమిషం వరకు ప్రచారం, హోరెత్తిస్తున్న ర్యాలీలు - ఇవి మనకు అలవాటు. కానీ న్యూజిలాండ్‌లో విషయం పూర్తి భిన్నం. అక్కడి చట్టం ప్రకారం, ఓటింగ్ రోజున రాజకీయ ప్రచారం చేయడం నేరం. ఎవరికి ఓటు వేయాలో చెప్పడం, పార్టీల పోస్టర్లు కొత్తగా పెట్టడం, ఓటర్లను ప్రభావితం చేసే ప్రయత్నాలు - ఏవీ ఆ రోజు ఉండకూడదు. అందుకే అక్కడ ఎన్నికల రోజు నిశ్శబ్దంగా, ప్రశాంతంగా జరుగుతుంది. ఈ నిబంధన ఉద్దేశం ఏమిటి? ఓటరు చివరి క్షణంలో ఎలాంటి ఒత్తిడి, ప్రలోభం లేకుండా స్వేచ్ఛగా నిర్ణయం తీసుకోవాలని. నేడు నవంబర్ 7న అక్కడ తుది ఓటింగ్ జరుగుతోంది; 16 లక్షల మంది ముందే ముందస్తు ఓటు వేశారు. ఇలాంటి నిబంధన మన దేశంలో ఉంటే ఏమవుతుందో ఆలోచించండి - ఎన్నికల ముందు 48 గంటలు మనకూ 'మౌన కాలం' ఉంటుంది కదా, రెండింటినీ పోల్చండి.",
+        "en": "Last-minute campaigning and noisy rallies right up to election day are familiar to us. But in New Zealand it is completely different. Under its law, campaigning on polling day is a criminal offence. Telling people whom to vote for, putting up new party posters, or trying to influence voters - none of this is allowed on that day. That is why their election day passes quietly and peacefully. What is the idea behind this rule? That voters should make their final decision freely, without any last-minute pressure or persuasion. Today, November 7, is their final day of voting; 1.6 million people had already voted early. Think about what such a rule would mean in our country - we too have a 48-hour silence period before polling; compare the two."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gk_20261107_quiz_01",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "imdhyd06"
+      ],
+      "event_date": "2026-11-06",
+      "item_id": "gk_20261107_telangana_1",
+      "audio_ids": {
+        "te": "gk_20261107_quiz_01_q",
+        "en": "gk_20261107_quiz_01_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261107_quiz_01_a",
+        "en": "gk_20261107_quiz_01_a__en"
+      },
+      "question": {
+        "te": "హైదరాబాద్ వాతావశాఖ ప్రకటన ప్రకారం, నవంబర్ 7న తెలంగాణకు వాతావరణ హెచ్చరికలు ఎలా ఉన్నాయి?",
+        "en": "According to the Hyderabad Met Centre's release, what are the weather warnings for Telangana on November 7?"
+      },
+      "options": {
+        "te": [
+          "అన్ని జిల్లాలకు హెచ్చరికలు లేవు (NIL)",
+          "7 జిల్లాల్లో యెల్లో అలర్ట్",
+          "రెడ్ అలర్ట్",
+          "ఆరెంజ్ అలర్ట్"
+        ],
+        "en": [
+          "No warnings for any district (NIL)",
+          "Yellow alert in 7 districts",
+          "Red alert",
+          "Orange alert"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నవంబర్ 6 ప్రకటనలో డే-2 (నవంబర్ 7) హెచ్చరికలు 'NIL'; నవంబర్ 6న 7 జిల్లాల్లో యెల్లో హెచ్చరిక ఉండేది (గత రోజు).",
+        "en": "The November 6 release lists Day-2 (November 7) warnings as NIL; November 6 had a yellow warning in 7 districts (yesterday)."
+      }
+    },
+    {
+      "id": "gk_20261107_quiz_02",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "imdhyd06"
+      ],
+      "event_date": "2026-11-06",
+      "item_id": "gk_20261107_telangana_1",
+      "audio_ids": {
+        "te": "gk_20261107_quiz_02_q",
+        "en": "gk_20261107_quiz_02_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261107_quiz_02_a",
+        "en": "gk_20261107_quiz_02_a__en"
+      },
+      "question": {
+        "te": "ప్రకటన అంచనా ప్రకారం, తెలంగాణలో పొడి వాతావరణం ఏ తేదీల మధ్య ఉండనుంది?",
+        "en": "According to the release's forecast, between which dates is dry weather expected in Telangana?"
+      },
+      "options": {
+        "te": [
+          "నవంబర్ 8 నుంచి 12 వరకు",
+          "నవంబర్ 7 మాత్రమే",
+          "నవంబర్ 15-20",
+          "డిసెంబర్ మొత్తం"
+        ],
+        "en": [
+          "From November 8 to 12",
+          "Only on November 7",
+          "November 15-20",
+          "All of December"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "హైదరాబాద్ వాతావశాఖ 7-రోజుల అంచనాలో నవంబర్ 8 నుంచి 12 వరకు పొడి వాతావరణం అంచనా ఉంది - ఇది భవిష్యత్ అంచనా, మారవచ్చు.",
+        "en": "The Hyderabad Met Centre's 7-day outlook forecasts dry weather from November 8 to 12 - a forecast that can change."
+      }
+    },
+    {
+      "id": "gk_20261107_quiz_03",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "pib_bharatnet"
+      ],
+      "event_date": "2026-11-06",
+      "item_id": "gk_20261107_telangana_2",
+      "audio_ids": {
+        "te": "gk_20261107_quiz_03_q",
+        "en": "gk_20261107_quiz_03_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261107_quiz_03_a",
+        "en": "gk_20261107_quiz_03_a__en"
+      },
+      "question": {
+        "te": "తెలంగాణలో సవరించిన భరత్‌నెట్ కార్యక్రమం కోసం ఆమోదం పొందిన ఆర్థిక సాయం ఎంత?",
+        "en": "How much financial support has been approved for the Amended BharatNet Program in Telangana?"
+      },
+      "options": {
+        "te": [
+          "రూ. 3,189 కోట్లు",
+          "రూ. 318 కోట్లు",
+          "రూ. 31,890 కోట్లు",
+          "రూ. 100 కోట్లు"
+        ],
+        "en": [
+          "Rs 3,189 crore",
+          "Rs 318 crore",
+          "Rs 31,890 crore",
+          "Rs 100 crore"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "పిఐబి ప్రకటన (నవంబర్ 6) ప్రకారం, తెలంగాణ అమెండెడ్ భరత్‌నెట్ కార్యక్రమానికి రూ. 3,189 కోట్ల ఆర్థిక సాయం ఆమోదం పొందింది.",
+        "en": "Per the PIB release of November 6, Rs 3,189 crore has been approved for Telangana's Amended BharatNet Program."
+      }
+    },
+    {
+      "id": "gk_20261107_quiz_04",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "pib_bharatnet"
+      ],
+      "event_date": "2026-11-06",
+      "item_id": "gk_20261107_telangana_2",
+      "audio_ids": {
+        "te": "gk_20261107_quiz_04_q",
+        "en": "gk_20261107_quiz_04_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261107_quiz_04_a",
+        "en": "gk_20261107_quiz_04_a__en"
+      },
+      "question": {
+        "te": "ఈ భరత్‌నెట్ కార్యక్రమం తెలంగాణలోని ఎన్ని గ్రామ పంచాయితీలకు ఫైబర్ కనెక్టివిటీ అందిస్తుంది?",
+        "en": "How many gram panchayats in Telangana will get fibre connectivity under this BharatNet programme?"
+      },
+      "options": {
+        "te": [
+          "12,769 గ్రామ పంచాయితీలు",
+          "1,276 గ్రామ పంచాయితీలు",
+          "769 గ్రామ పంచాయితీలు",
+          "1,00,000 గ్రామ పంచాయితీలు"
+        ],
+        "en": [
+          "12,769 gram panchayats",
+          "1,276 gram panchayats",
+          "769 gram panchayats",
+          "1,00,000 gram panchayats"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "పిఐబి ప్రకటన ప్రకారం, సవరించిన భరత్‌నెట్ కార్యక్రమం తెలంగాణలోని 12,769 గ్రామ పంచాయితీలను కవర్ చేస్తుంది; స్టేట్-లెడ్ మోడల్‌లో అమలవుతుంది.",
+        "en": "Per the PIB release, the Amended BharatNet Program will cover 12,769 gram panchayats in Telangana, implemented under a state-led model."
+      }
+    },
+    {
+      "id": "gk_20261107_quiz_05",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "imdpr06"
+      ],
+      "event_date": "2026-11-06",
+      "item_id": "gk_20261107_india_1",
+      "audio_ids": {
+        "te": "gk_20261107_quiz_05_q",
+        "en": "gk_20261107_quiz_05_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261107_quiz_05_a",
+        "en": "gk_20261107_quiz_05_a__en"
+      },
+      "question": {
+        "te": "నవంబర్ 6 ఉదయం 8:30తో ముగిసిన 24 గంటల్లో అత్యధిక వర్షం నమోదైన ప్రాంతం ఏది?",
+        "en": "Which place recorded the highest rainfall in the 24 hours ending 8:30 AM on November 6?"
+      },
+      "options": {
+        "te": [
+          "తమిళనాడులోని కిన్నకోరై (నీలగిరి) - 8 సెం.మీ.",
+          "అశ్వారావుపేట - 34 సెం.మీ.",
+          "ఏలూరు - 22 సెం.మీ.",
+          "హైదరాబాద్ - 5 సెం.మీ."
+        ],
+        "en": [
+          "Kinnakorai in Tamil Nadu (Nilgiris) - 8 cm",
+          "Aswaraopeta - 34 cm",
+          "Eluru - 22 cm",
+          "Hyderabad - 5 cm"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "జాతీయ ప్రకటన (నవంబర్ 6) ప్రకారం, ఆ 24 గంటల్లో కిన్నకోరై 8 సెం.మీ., బెల్లూరు (మండ్య) 7 సెం.మీ. నమోదయ్యాయి; తెలంగాణలో భారీ వర్షం నమోదు కాలేదు.",
+        "en": "Per the national release of November 6, Kinnakorai recorded 8 cm and Bellur (Mandya) 7 cm in those 24 hours; no heavy rain was recorded in Telangana."
+      }
+    },
+    {
+      "id": "gk_20261107_quiz_06",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "hindu_shami"
+      ],
+      "event_date": "2026-11-06",
+      "item_id": "gk_20261107_india_2",
+      "audio_ids": {
+        "te": "gk_20261107_quiz_06_q",
+        "en": "gk_20261107_quiz_06_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261107_quiz_06_a",
+        "en": "gk_20261107_quiz_06_a__en"
+      },
+      "question": {
+        "te": "మహమ్మద్ షమీ ఏ క్రికెట్ ఫార్మాట్ నుంచి విరమణ ప్రకటించారు?",
+        "en": "From which cricket format did Mohammed Shami announce his retirement?"
+      },
+      "options": {
+        "te": [
+          "టెస్ట్ క్రికెట్",
+          "వన్డే క్రికెట్",
+          "టీ20 క్రికెట్",
+          "అన్ని ఫార్మాట్లు"
+        ],
+        "en": [
+          "Test cricket",
+          "One-day cricket",
+          "T20 cricket",
+          "All formats"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "నవంబర్ 6న షమీ టెస్ట్ క్రికెట్ నుంచి విరమణ ప్రకటించారు; వన్డే, టీ20 (వైట్-బాల్) క్రికెట్ కొనసాగిస్తానని చెప్పారు. 64 టెస్ట్లు, 229 వికెట్లు.",
+        "en": "On November 6, Shami announced retirement from Test cricket; he said he will continue one-day and T20 (white-ball) cricket. He played 64 Tests and took 229 wickets."
+      }
+    },
+    {
+      "id": "gk_20261107_quiz_07",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "hindu_cbse"
+      ],
+      "event_date": "2026-11-06",
+      "item_id": "gk_20261107_india_3",
+      "audio_ids": {
+        "te": "gk_20261107_quiz_07_q",
+        "en": "gk_20261107_quiz_07_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261107_quiz_07_a",
+        "en": "gk_20261107_quiz_07_a__en"
+      },
+      "question": {
+        "te": "సీబీఎస్ఈ 2027 బోర్డ్ పరీక్షలు (10, 12 తరగతులు) ఎప్పుడు ప్రారంభమవుతాయి?",
+        "en": "When do the CBSE 2027 board exams (Classes 10 and 12) begin?"
+      },
+      "options": {
+        "te": [
+          "ఫిబ్రవరి 16, 2027",
+          "జనవరి 1, 2027",
+          "మార్చి 9, 2027",
+          "ఏప్రిల్ 9, 2027"
+        ],
+        "en": [
+          "February 16, 2027",
+          "January 1, 2027",
+          "March 9, 2027",
+          "April 9, 2027"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "సీబీఎస్ఈ నవంబర్ 6న విడుదల చేసిన డేట్‌షీట్ ప్రకారం, 10, 12 పరీక్షలు ఫిబ్రవరి 16, 2027న మొదలై, 10వ తరగతి మార్చి 9తో, 12వ తరగతి ఏప్రిల్ 9తో ముగుస్తాయి.",
+        "en": "Per the datesheet released by CBSE on November 6, Classes 10 and 12 exams begin on February 16, 2027; Class 10 ends on March 9 and Class 12 on April 9."
+      }
+    },
+    {
+      "id": "gk_20261107_quiz_08",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "hindu_cbse"
+      ],
+      "event_date": "2026-11-06",
+      "item_id": "gk_20261107_india_3",
+      "audio_ids": {
+        "te": "gk_20261107_quiz_08_q",
+        "en": "gk_20261107_quiz_08_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261107_quiz_08_a",
+        "en": "gk_20261107_quiz_08_a__en"
+      },
+      "question": {
+        "te": "2027 సీబీఎస్ఈ పరీక్షలకు 10వ తరగతి నుంచి నమోదు చేసుకున్న విద్యార్థుల సంఖ్య సుమారు ఎంత?",
+        "en": "About how many Class 10 students have registered for the 2027 CBSE exams?"
+      },
+      "options": {
+        "te": [
+          "26.5 లక్షలు",
+          "2.65 లక్షలు",
+          "19.8 లక్షలు",
+          "1 కోటి"
+        ],
+        "en": [
+          "26.5 lakh",
+          "2.65 lakh",
+          "19.8 lakh",
+          "1 crore"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ది హిందూ నివేదిక ప్రకారం, 10వ తరగతి నుంచి 26.5 లక్షల మంది, 12వ తరగతి నుంచి 19.8 లక్షల మంది విద్యార్థులు 2027 పరీక్షలకు నమోదు చేసుకున్నారు.",
+        "en": "According to The Hindu's report, 26.5 lakh Class 10 students and 19.8 lakh Class 12 students have registered for the 2027 exams."
+      }
+    },
+    {
+      "id": "gk_20261107_quiz_09",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "ap_nz"
+      ],
+      "event_date": "2026-11-07",
+      "item_id": "gk_20261107_world_1",
+      "audio_ids": {
+        "te": "gk_20261107_quiz_09_q",
+        "en": "gk_20261107_quiz_09_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261107_quiz_09_a",
+        "en": "gk_20261107_quiz_09_a__en"
+      },
+      "question": {
+        "te": "న్యూజిలాండ్ ఎన్నికల తుది ఓటింగ్ రోజు పోలింగ్ కేంద్రాలు ఎప్పుడు మూసివేస్తారు?",
+        "en": "When do polling stations close on New Zealand's final voting day?"
+      },
+      "options": {
+        "te": [
+          "సాయంత్రం 7 గంటలకు (ఫలితాలు అక్కడి సాయంత్రం నాటికి అంచనా)",
+          "అర్థరాత్రికి",
+          "మధ్యాహ్నం 12 గంటలకు",
+          "ఉదయం 9 గంటలకు"
+        ],
+        "en": [
+          "At 7 PM (results expected by their evening)",
+          "At midnight",
+          "At 12 noon",
+          "At 9 AM"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "ఏపీ నివేదిక ప్రకారం, నవంబర్ 7న పోలింగ్ ఉదయం 9 గంటలకు మొదలై సాయంత్రం 7 గంటలకు ముగుస్తుంది; ఫలితాలు అక్కడి సాయంత్రం నాటికి విడుదలయ్యే షెడ్యూల్. ఎన్నికల రోజున రాజకీయ ప్రచారం నేరం.",
+        "en": "Per the AP report, on November 7 polling runs from 9 AM to 7 PM, with results due in the evening; campaigning on election day is a criminal offence there."
+      }
+    },
+    {
+      "id": "gk_20261107_quiz_10",
+      "style": "original_practice_not_official_exam",
+      "source_ids": [
+        "reuters_delhi"
+      ],
+      "event_date": null,
+      "item_id": "gk_20261107_static_1",
+      "audio_ids": {
+        "te": "gk_20261107_quiz_10_q",
+        "en": "gk_20261107_quiz_10_q__en"
+      },
+      "answer_audio_ids": {
+        "te": "gk_20261107_quiz_10_a",
+        "en": "gk_20261107_quiz_10_a__en"
+      },
+      "question": {
+        "te": "దీపావళి ఏ చాంద్రమాన తిథిన జరుపుకుంటారు?",
+        "en": "On which lunar day is Diwali celebrated?"
+      },
+      "options": {
+        "te": [
+          "కార్తీక మాసం అమావాస్య (చంద్రుడు కనిపించని రాత్రి)",
+          "పౌర్ణమి (పూర్తి చంద్రుడు)",
+          "ఏకాదశి",
+          "సంక్రాంతి రోజున"
+        ],
+        "en": [
+          "Kartika month Amavasya (the moonless night)",
+          "Purnima (full moon)",
+          "Ekadashi",
+          "On Sankranti"
+        ]
+      },
+      "answer_index": 0,
+      "explanation": {
+        "te": "దీపావళి చాంద్రమాన క్యాలెండర్‌లో కార్తీక మాసం అమావాస్యనాడు వస్తుంది; చాంద్రమాన నెలలు సౌర క్యాలెండర్‌కు సరిపోకపోవడంతో ప్రతి ఏటా తేదీ మారుతుంది. ఈ ఏడాది నవంబర్ 8 ఆదివారం (రాయిటర్స్).",
+        "en": "Diwali falls on the Amavasya of the Kartika month in the lunar calendar; since lunar months do not align with the solar calendar, its date shifts every year. This year it is on Sunday, November 8 (Reuters)."
+      }
+    }
+  ],
+  "edition_date": "2026-11-07",
+  "verified_at": "2026-11-07T02:34:50+05:30",
+  "status": "source_checked_translation_review_recommended_audio_pending",
+  "coverage": {
+    "telangana": [
+      "gk_20261107_telangana_1",
+      "gk_20261107_telangana_2"
+    ],
+    "india": [
+      "gk_20261107_india_1",
+      "gk_20261107_india_2",
+      "gk_20261107_india_3"
+    ],
+    "world": [
+      "gk_20261107_world_1"
+    ],
+    "static": [
+      "gk_20261107_static_1"
+    ]
+  },
+  "editorial_note": {
+    "te": "నవంబర్ 7, 2026 ఎడిషన్: తెలంగాణకు వర్ష విరామం; గ్రామాలకు భరత్‌నెట్ ఫైబర్; దక్షిణాది వర్షాలు, వెస్ట్రన్ డిస్టర్బెన్స్; షమీ టెస్ట్ విరమణ; సీబీఎస్ఈ 2027 డేట్‌షీట్; న్యూజిలాండ్ తుది ఓటింగ్; దీపావళి తేదీ ఎందుకు మారుతుంది. అన్ని అంచనాలు ప్రకటన సమయంతో పేర్కొన్నాం.",
+    "en": "November 7, 2026 edition: a rain break for Telangana; BharatNet fibre for villages; southern rain and an approaching western disturbance; Shami's Test retirement; the CBSE 2027 datesheet; New Zealand's final voting day; and why Diwali's date moves. Every forecast is given with its release time."
+  }
+}
