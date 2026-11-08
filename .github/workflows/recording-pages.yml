@@ -1,0 +1,97 @@
+name: Preserve recordings and publish verified GK
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      rollback:
+        description: Restore last-good Nov6 edition using the under-cap recording package
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: pages-audio-recovery
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/configure-pages@v5
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Verify, overlay and preserve every recording byte
+        env:
+          ROLLBACK: ${{ inputs.rollback || false }}
+        run: |
+          python3 - <<'PY'
+          import pathlib,zipfile,hashlib,os,shutil
+          root=pathlib.Path('.')
+          expected={'kit':'874d1a77b6ac701c1876d17cc25878d275ecffbb85530b226f6bb3f05a4e908e','overlay':'657ceabab2839cfd668be8d5621298d29429e159c4fe793ae5c2729ac702115c'}
+          found={}
+          for p in root.glob('*.zip'):
+              h=hashlib.sha256(p.read_bytes()).hexdigest()
+              for key,digest in expected.items():
+                  if h==digest:found[key]=p
+          assert set(found)==set(expected),'Missing verified release inputs'
+          with zipfile.ZipFile(found['kit']) as z:z.extractall('/tmp/akn-recovery-kit')
+          site=root/'_site'
+          if os.environ['ROLLBACK']!='true':
+              import json
+              current=json.loads((site/'gkdaily/content/latest.json').read_text())
+              assert current['edition_date']<='2026-11-08','Release overlay is stale; refresh it for newer editions'
+              prior={name:json.loads((site/'learn/audio'/name).read_text()) for name in ['index.json','index_m.json']}
+              with zipfile.ZipFile(found['overlay']) as z:z.extractall(site)
+              for name,old in prior.items():
+                  merged=json.loads((site/'learn/audio'/name).read_text())
+                  assert all(merged.get(k)==v for k,v in old.items()),'Overlay would remove or remap existing recording IDs'
+          for p in site.glob('*.zip'):p.unlink()
+          if os.environ['ROLLBACK']=='true':
+              shutil.copyfile('/tmp/akn-recovery-kit/rollback-latest.json',site/'gkdaily/content/latest.json')
+          PY
+          python3 /tmp/akn-recovery-kit/prepare_audio.py --site ./_site --report /tmp/audio-package-report.json
+          python3 - <<'PY'
+          import pathlib,json,subprocess,os
+          site=pathlib.Path('_site')
+          report=json.load(open('/tmp/audio-package-report.json'))
+          assert report['embedded_occurrences']>=11551
+          if os.environ['ROLLBACK']=='true':
+              for name,old,new in [('sw.js','4.15.200-audioBinary','4.15.201-audioBinaryRollback'),('gkdaily/sw.js','akn-gkdaily-42-audioBinary','akn-gkdaily-43-audioBinaryRollback')]:
+                  p=site/name;p.write_text(p.read_text().replace(old,new))
+          subprocess.run(['tar','--dereference','--hard-dereference','--directory',str(site),'-cf','/tmp/verified-pages.tar','--exclude=.git','--exclude=.github','--exclude=.[^/]*','.'],check=True)
+          size=pathlib.Path('/tmp/verified-pages.tar').stat().st_size
+          assert size<950000000,('Artifact exceeds 950 MB gate',size)
+          print('VERIFIED_PAGES_TAR_BYTES='+str(size))
+          print('VERIFIED_RECORDING_OCCURRENCES='+str(report['embedded_occurrences']))
+          pathlib.Path('/tmp/build-evidence.txt').write_text('tar_bytes='+str(size)+'\nrecordings='+str(report['embedded_occurrences'])+'\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: recording-integrity-report
+          path: |
+            /tmp/audio-package-report.json
+            /tmp/build-evidence.txt
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./_site
+      - name: Verify actual uploaded Pages tar stays under 950 MB
+        run: |
+          actual=$(stat -c%s "$RUNNER_TEMP/artifact.tar")
+          echo "ACTUAL_PAGES_ARTIFACT_TAR_BYTES=$actual"
+          test "$actual" -lt 950000000
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish under-cap verified artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
