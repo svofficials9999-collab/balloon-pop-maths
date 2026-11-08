@@ -59,10 +59,15 @@ jobs:
           python3 - <<'PY'
           import pathlib,json,subprocess,os
           site=pathlib.Path('_site')
+          # Change URLs and worker cache together, including non-worker HTTP caches.
+          page=site/'gkdaily/index.html'
+          page.write_text(page.read_text().replace('app.js?v=165','app.js?v=166'))
+          worker=site/'gkdaily/sw.js'
+          worker.write_text(worker.read_text().replace('app.js?v=165','app.js?v=166').replace('akn-gkdaily-42-audioBinary','akn-gkdaily-44-audioBinaryNov8'))
           report=json.load(open('/tmp/audio-package-report.json'))
           assert report['embedded_occurrences']>=11551
           if os.environ['ROLLBACK']=='true':
-              for name,old,new in [('sw.js','4.15.200-audioBinary','4.15.201-audioBinaryRollback'),('gkdaily/sw.js','akn-gkdaily-42-audioBinary','akn-gkdaily-43-audioBinaryRollback')]:
+              for name,old,new in [('sw.js','4.15.200-audioBinary','4.15.201-audioBinaryRollback'),('gkdaily/sw.js','akn-gkdaily-44-audioBinaryNov8','akn-gkdaily-45-audioBinaryRollback')]:
                   p=site/name;p.write_text(p.read_text().replace(old,new))
           subprocess.run(['tar','--dereference','--hard-dereference','--directory',str(site),'-cf','/tmp/verified-pages.tar','--exclude=.git','--exclude=.github','--exclude=.[^/]*','.'],check=True)
           size=pathlib.Path('/tmp/verified-pages.tar').stat().st_size
@@ -84,6 +89,7 @@ jobs:
         run: |
           actual=$(stat -c%s "$RUNNER_TEMP/artifact.tar")
           echo "ACTUAL_PAGES_ARTIFACT_TAR_BYTES=$actual"
+          echo "ACTUAL_PAGES_ARTIFACT_TAR_BYTES=$actual" >> "$GITHUB_STEP_SUMMARY"
           test "$actual" -lt 950000000
   deploy:
     runs-on: ubuntu-latest
