@@ -29,6 +29,7 @@ jobs:
         run: |
           exec > >(tee /tmp/recovery-step.log) 2>&1
           trap 'code=$?; echo "### Recording-package diagnostic (exit $code)" >> "$GITHUB_STEP_SUMMARY"; tail -c 7000 /tmp/recovery-step.log >> "$GITHUB_STEP_SUMMARY"' EXIT
+          sudo chown -R "$(id -u):$(id -g)" ./_site
           python3 - <<'PY'
           import pathlib,zipfile,hashlib,os,shutil
           root=pathlib.Path('.')
