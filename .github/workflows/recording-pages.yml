@@ -33,7 +33,7 @@ jobs:
           python3 - <<'PY'
           import pathlib,zipfile,hashlib,os,shutil
           root=pathlib.Path('.')
-          expected={'kit':'874d1a77b6ac701c1876d17cc25878d275ecffbb85530b226f6bb3f05a4e908e','overlay':'657ceabab2839cfd668be8d5621298d29429e159c4fe793ae5c2729ac702115c'}
+          expected={'kit':'874d1a77b6ac701c1876d17cc25878d275ecffbb85530b226f6bb3f05a4e908e','overlay':'657ceabab2839cfd668be8d5621298d29429e159c4fe793ae5c2729ac702115c','nov9':'0ece8c1bff1a64d1c0bd291f79183c05850d04ce3254d78ab3f451024868dbe9'}
           found={}
           for p in root.glob('*.zip'):
               h=hashlib.sha256(p.read_bytes()).hexdigest()
@@ -45,12 +45,21 @@ jobs:
           if os.environ['ROLLBACK']!='true':
               import json
               current=json.loads((site/'gkdaily/content/latest.json').read_text())
-              assert current['edition_date']<='2026-11-08','Release overlay is stale; refresh it for newer editions'
+              assert current['edition_date']<='2026-11-09','Release overlay is stale; refresh it for newer editions'
               prior={name:json.loads((site/'learn/audio'/name).read_text()) for name in ['index.json','index_m.json']}
               with zipfile.ZipFile(found['overlay']) as z:z.extractall(site)
               for name,old in prior.items():
                   merged=json.loads((site/'learn/audio'/name).read_text())
                   assert all(merged.get(k)==v for k,v in old.items()),'Overlay would remove or remap existing recording IDs'
+              # Apply the reviewed next-day delta after preserving the full Nov8 release.
+              prior={name:json.loads((site/'learn/audio'/name).read_text()) for name in ['index.json','index_m.json']}
+              with zipfile.ZipFile(found['nov9']) as z:z.extractall(site)
+              for name,old in prior.items():
+                  merged=json.loads((site/'learn/audio'/name).read_text())
+                  assert all(merged.get(k)==v for k,v in old.items()),'Nov9 delta would remove or remap existing recording IDs'
+                  assert len(merged)==len(old)+58,'Nov9 delta must add exactly58 IDs per codec'
+              current=json.loads((site/'gkdaily/content/latest.json').read_text())
+              assert current['edition_date']=='2026-11-09' and 'recorded_audio_asr_qc_pass' in current['status'],'Nov9 content/audio gates not passed'
           for p in site.glob('*.zip'):p.unlink()
           if os.environ['ROLLBACK']=='true':
               shutil.copyfile('/tmp/akn-recovery-kit/rollback-latest.json',site/'gkdaily/content/latest.json')
@@ -61,13 +70,13 @@ jobs:
           site=pathlib.Path('_site')
           # Change URLs and worker cache together, including non-worker HTTP caches.
           page=site/'gkdaily/index.html'
-          page.write_text(page.read_text().replace('app.js?v=165','app.js?v=166'))
+          page.write_text(page.read_text().replace('app.js?v=165','app.js?v=167'))
           worker=site/'gkdaily/sw.js'
-          worker.write_text(worker.read_text().replace('app.js?v=165','app.js?v=166').replace('akn-gkdaily-42-audioBinary','akn-gkdaily-44-audioBinaryNov8'))
+          worker.write_text(worker.read_text().replace('app.js?v=165','app.js?v=167').replace('akn-gkdaily-42-audioBinary','akn-gkdaily-46-audioBinaryNov9'))
           report=json.load(open('/tmp/audio-package-report.json'))
-          assert report['embedded_occurrences']>=11551
+          assert report['embedded_occurrences']>=(11551 if os.environ['ROLLBACK']=='true' else 11783)
           if os.environ['ROLLBACK']=='true':
-              for name,old,new in [('sw.js','4.15.200-audioBinary','4.15.201-audioBinaryRollback'),('gkdaily/sw.js','akn-gkdaily-44-audioBinaryNov8','akn-gkdaily-45-audioBinaryRollback')]:
+              for name,old,new in [('sw.js','4.15.200-audioBinary','4.15.201-audioBinaryRollback'),('gkdaily/sw.js','akn-gkdaily-46-audioBinaryNov9','akn-gkdaily-47-audioBinaryRollback')]:
                   p=site/name;p.write_text(p.read_text().replace(old,new))
           subprocess.run(['tar','--dereference','--hard-dereference','--directory',str(site),'-cf','/tmp/verified-pages.tar','--exclude=.git','--exclude=.github','--exclude=.[^/]*','.'],check=True)
           size=pathlib.Path('/tmp/verified-pages.tar').stat().st_size
