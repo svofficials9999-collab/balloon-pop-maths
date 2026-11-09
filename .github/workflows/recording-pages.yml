@@ -33,7 +33,7 @@ jobs:
           python3 - <<'PY'
           import pathlib,zipfile,hashlib,os,shutil
           root=pathlib.Path('.')
-          expected={'kit':'874d1a77b6ac701c1876d17cc25878d275ecffbb85530b226f6bb3f05a4e908e','overlay':'657ceabab2839cfd668be8d5621298d29429e159c4fe793ae5c2729ac702115c','nov9':'0ece8c1bff1a64d1c0bd291f79183c05850d04ce3254d78ab3f451024868dbe9'}
+          expected={'kit':'07ae36fed47d9d3837cb1374fe984ce8602460d9ef886bf98b9b39064e39c3b9','overlay':'657ceabab2839cfd668be8d5621298d29429e159c4fe793ae5c2729ac702115c','nov9':'0ece8c1bff1a64d1c0bd291f79183c05850d04ce3254d78ab3f451024868dbe9'}
           found={}
           for p in root.glob('*.zip'):
               h=hashlib.sha256(p.read_bytes()).hexdigest()
