@@ -33,7 +33,7 @@ jobs:
           python3 - <<'PY'
           import pathlib,zipfile,hashlib,os,shutil
           root=pathlib.Path('.')
-          expected={'kit':'07ae36fed47d9d3837cb1374fe984ce8602460d9ef886bf98b9b39064e39c3b9','overlay':'657ceabab2839cfd668be8d5621298d29429e159c4fe793ae5c2729ac702115c','nov9':'0ece8c1bff1a64d1c0bd291f79183c05850d04ce3254d78ab3f451024868dbe9','nov10':'31f1eec306960b685599fa0cd1f4850511836dc15b094c5b17522fe8f48e64e2','nov10schema':'847e907cad21cfb9350653b7504ac0918a81e061d00cf57bfef351133e838370','nov11':'8cac6d4c83e1a2844d6c21b16b68708b9288b84e99937a7195be53e69874a685'}
+          expected={'kit':'07ae36fed47d9d3837cb1374fe984ce8602460d9ef886bf98b9b39064e39c3b9','overlay':'657ceabab2839cfd668be8d5621298d29429e159c4fe793ae5c2729ac702115c','nov9':'0ece8c1bff1a64d1c0bd291f79183c05850d04ce3254d78ab3f451024868dbe9','nov10':'31f1eec306960b685599fa0cd1f4850511836dc15b094c5b17522fe8f48e64e2','nov10schema':'847e907cad21cfb9350653b7504ac0918a81e061d00cf57bfef351133e838370','nov11':'423a7aa0085b435929c4ca885492a8f198e2847b8f740e1cc594f18dd3e44709'}
           found={}
           for p in root.glob('*.zip'):
               h=hashlib.sha256(p.read_bytes()).hexdigest()
