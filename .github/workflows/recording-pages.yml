@@ -81,6 +81,13 @@ jobs:
           if os.environ['ROLLBACK']=='true':
               shutil.copyfile('/tmp/akn-recovery-kit/rollback-latest.json',site/'gkdaily/content/latest.json')
           PY
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('/tmp/akn-recovery-kit/prepare_audio.py')
+          old="assert hashlib.sha256(dest.read_bytes()).hexdigest()==digest,'Remote recording bytes differ'"
+          new="assert hashlib.sha256(dest.read_bytes()).hexdigest()==digest,('Remote recording bytes differ',url,digest,hashlib.sha256(dest.read_bytes()).hexdigest(),dest.stat().st_size)"
+          s=p.read_text();assert old in s;p.write_text(s.replace(old,new))
+          PY
           python3 /tmp/akn-recovery-kit/prepare_audio.py --site ./_site --report /tmp/audio-package-report.json
           python3 - <<'PY'
           import pathlib,json,subprocess,os
