@@ -28,7 +28,7 @@ jobs:
           ROLLBACK: ${{ inputs.rollback || false }}
         run: |
           exec > >(tee /tmp/recovery-step.log) 2>&1
-          trap 'code=$?; echo "### Recording-package diagnostic (exit $code)" >> "$GITHUB_STEP_SUMMARY"; tail -c 7000 /tmp/recovery-step.log >> "$GITHUB_STEP_SUMMARY"' Eedition_date<='2026-11-15'IT
+          trap 'code=$?; echo "### Recording-package diagnostic (exit $code)" >> "$GITHUB_STEP_SUMMARY"; tail -c 7000 /tmp/recovery-step.log >> "$GITHUB_STEP_SUMMARY"' EXIT
           sudo chown -R "$(id -u):$(id -g)" ./_site
           python3 - <<'PY'
           import pathlib,zipfile,hashlib,os,shutil
@@ -45,7 +45,7 @@ jobs:
           if os.environ['ROLLBACK']!='true':
               import json
               current=json.loads((site/'gkdaily/content/latest.json').read_text())
-              assert current['edition_date']<='2026-11-14','Release overlay is stale; refresh it for newer editions'
+              assert current['edition_date']<='2026-11-15','Release overlay is stale; refresh it for newer editions'
               prior={name:json.loads((site/'learn/audio'/name).read_text()) for name in ['index.json','index_m.json']}
               with zipfile.ZipFile(found['overlay']) as z:z.extractall(site)
               for name,old in prior.items():
